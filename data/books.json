@@ -23,6 +23,42 @@
             },
             "summary": "A witty examination of the manners, marriage, and social class in Georgian England through the story of Elizabeth Bennet and Mr. Darcy.",
             "historical_context": "Set during the Regency era in England, depicting the social conventions and expectations of the landed gentry."
+        },
+        {
+            "title": "Don Quixote",
+            "author": "Miguel de Cervantes",
+            "year": 1605,
+            "century": 17,
+            "location": {
+                "name": "La Mancha",
+                "coordinates": [39.2796, -3.0977]
+            },
+            "summary": "A parody of chivalric romances, following the adventures of an elderly nobleman who loses his sanity and becomes a knight-errant.",
+            "historical_context": "Written during Spain's Golden Age, satirizing the medieval chivalric tradition and reflecting the transition to the modern novel."
+        },
+        {
+            "title": "The Canterbury Tales",
+            "author": "Geoffrey Chaucer",
+            "year": 1392,
+            "century": 14,
+            "location": {
+                "name": "Canterbury",
+                "coordinates": [51.2800, 1.0800]
+            },
+            "summary": "A collection of stories told by pilgrims traveling to Canterbury Cathedral, providing a rich tapestry of medieval English life.",
+            "historical_context": "Written during the Middle Ages, offering insights into the social structure and daily life of medieval England."
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "year": 1949,
+            "century": 20,
+            "location": {
+                "name": "London",
+                "coordinates": [51.5074, -0.1278]
+            },
+            "summary": "A dystopian novel about a totalitarian regime that maintains power through surveillance, manipulation of language, and control of information.",
+            "historical_context": "Written in the aftermath of World War II, reflecting fears about totalitarianism and the rise of surveillance states."
         }
     ]
 }
