@@ -116,8 +116,45 @@ try:
         if not filtered_books.empty:
             literary_map = create_literature_map(filtered_books)
             if literary_map:
+                st.markdown('<div class="map-container">', unsafe_allow_html=True)
                 folium_html = literary_map._repr_html_()
                 components.html(folium_html, height=600)
+                
+                # Add fullscreen toggle button
+                st.markdown("""
+                <button id="fullscreen-btn" title="Toggle fullscreen">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                    </svg>
+                </button>
+                
+                <script>
+                    // Add fullscreen functionality
+                    const mapContainer = document.querySelector('.map-container');
+                    const fullscreenBtn = document.getElementById('fullscreen-btn');
+                    
+                    fullscreenBtn.addEventListener('click', () => {
+                        mapContainer.classList.toggle('fullscreen-map');
+                        
+                        // Update button icon based on state
+                        if (mapContainer.classList.contains('fullscreen-map')) {
+                            fullscreenBtn.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 14h6m0 0v6m0-6l-7 7m17-11h-6m0 0V4m0 6l7-7"></path>
+                                </svg>
+                            `;
+                        } else {
+                            fullscreenBtn.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                                </svg>
+                            `;
+                        }
+                    });
+                </script>
+                """, unsafe_allow_html=True)
+                
+                st.markdown('</div>', unsafe_allow_html=True)
                 logger.info("Map created and displayed successfully")
     
     with col2:  # Side info
