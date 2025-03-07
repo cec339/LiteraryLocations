@@ -123,13 +123,31 @@ try:
                 # Set consistent map height
                 map_height = 600
 
-                # Add an info message about fullscreen
-                st.info("💡 Click the fullscreen icon in the top-right corner of the map to view in fullscreen mode")
+                # Add an info message about fullscreen with more visibility
+                st.warning("💡 **Click the square icon in the top-right corner of the map to view in fullscreen mode**")
 
-                # Display the map
+                # Display the map with custom styling to ensure controls are visible
                 with map_container:
                     folium_html = literary_map._repr_html_()
-                    components.html(folium_html, height=map_height)
+                    components.html(
+                        f"""
+                        <div style="position: relative; width: 100%; height: {map_height}px;">
+                            {folium_html}
+                        </div>
+                        <script>
+                            // Ensure fullscreen control is visible
+                            setTimeout(function() {{
+                                var controls = document.querySelectorAll('.leaflet-control-fullscreen');
+                                controls.forEach(function(control) {{
+                                    control.style.display = 'block';
+                                    control.style.visibility = 'visible';
+                                    control.style.zIndex = '1000';
+                                }});
+                            }}, 1000);
+                        </script>
+                        """,
+                        height=map_height+50
+                    )
                 logger.info("Map created and displayed successfully")
 
     with col2:  # Side info
