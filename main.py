@@ -116,45 +116,44 @@ try:
         if not filtered_books.empty:
             literary_map = create_literature_map(filtered_books)
             if literary_map:
-                st.markdown('<div class="map-container">', unsafe_allow_html=True)
-                folium_html = literary_map._repr_html_()
-                components.html(folium_html, height=600)
+                # Create a container for the map with a fullscreen button
+                map_container = st.container()
                 
-                # Add fullscreen toggle button
-                st.markdown("""
-                <button id="fullscreen-btn" title="Toggle fullscreen">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
-                    </svg>
-                </button>
+                # Add a fullscreen button above the map
+                col_btn, col_space = st.columns([1, 10])
+                with col_btn:
+                    fullscreen = st.button("📱 Fullscreen", key="fullscreen_btn")
                 
-                <script>
-                    // Add fullscreen functionality
-                    const mapContainer = document.querySelector('.map-container');
-                    const fullscreenBtn = document.getElementById('fullscreen-btn');
-                    
-                    fullscreenBtn.addEventListener('click', () => {
-                        mapContainer.classList.toggle('fullscreen-map');
-                        
-                        // Update button icon based on state
-                        if (mapContainer.classList.contains('fullscreen-map')) {
-                            fullscreenBtn.innerHTML = `
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 14h6m0 0v6m0-6l-7 7m17-11h-6m0 0V4m0 6l7-7"></path>
-                                </svg>
-                            `;
-                        } else {
-                            fullscreenBtn.innerHTML = `
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
-                                </svg>
-                            `;
+                # Show the map - use conditional height based on fullscreen state
+                if fullscreen:
+                    map_height = 800  # Taller in fullscreen mode
+                    st.markdown("""
+                        <style>
+                        /* Hide Streamlit elements when in fullscreen */
+                        header, footer, .stButton, .sidebar-content {
+                            display: none !important;
                         }
-                    });
-                </script>
-                """, unsafe_allow_html=True)
+                        
+                        /* Make map container take up full viewport */
+                        section.main > div {
+                            padding-top: 0 !important;
+                            padding-bottom: 0 !important;
+                            max-width: 100% !important;
+                        }
+                        
+                        .stButton button {
+                            background-color: #3498db;
+                            color: white;
+                            font-weight: bold;
+                        }
+                        </style>
+                    """, unsafe_allow_html=True)
+                else:
+                    map_height = 600  # Regular height
                 
-                st.markdown('</div>', unsafe_allow_html=True)
+                with map_container:
+                    folium_html = literary_map._repr_html_()
+                    components.html(folium_html, height=map_height)
                 logger.info("Map created and displayed successfully")
     
     with col2:  # Side info

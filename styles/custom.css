@@ -27,42 +27,22 @@
     margin: 0 auto;
 }
 
-/* Fullscreen map styles */
-.fullscreen-map {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw !important;
-    height: 100vh !important;
-    z-index: 9999;
-    background: white;
-    padding: 20px;
+/* Fullscreen button styling */
+button[data-testid="baseButton-secondary"] {
+    background-color: #1f77b4 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 4px !important;
+    padding: 0.5rem 1rem !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    margin: 10px 0 !important;
 }
 
-.fullscreen-map .folium-map {
-    height: 90vh;
-}
-
-/* Fullscreen toggle button */
-#fullscreen-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 5px;
-    cursor: pointer;
-    z-index: 999;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-}
-
-#fullscreen-btn:hover {
-    background: #f0f0f0;
+button[data-testid="baseButton-secondary"]:hover {
+    background-color: #155d8a !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
 }
 
 /* Style the search box */
