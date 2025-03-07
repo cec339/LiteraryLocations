@@ -122,15 +122,23 @@ try:
                 # Set consistent map height (increased for better visibility)
                 map_height = 600
 
-                # Display the map clearly with simplified approach
+                # Display the map clearly with improved instructions
                 with map_container:
-                    st.warning("💡 **Look for the blue square icon in the top-right corner of the map for fullscreen mode**")
+                    st.success("🗺️ **Now using Mapbox for improved marker visibility!**")
+                    
+                    # Map usage instructions
+                    st.info("""
+                    **Map Controls:**
+                    - 🔍 **Zoom:** Use the + and - buttons or scroll wheel
+                    - 🌍 **Full Screen:** Click the square icon in the top-right corner
+                    - 🛰️ **Map Style:** Use the layers button to switch between map and satellite view
+                    - 📚 **Book Markers:** Orange circles and pin icons show book locations
+                    """)
 
-                    # Debug information to help troubleshoot
-                    if st.checkbox("Show map debug info", True):
+                    # Debug information (collapsed by default now)
+                    with st.expander("Show map debug info"):
                         st.write(f"Book count: {len(filtered_books)}")
-                        st.write("Book coordinates:")
-
+                        
                         # Show all books with their coordinates for debugging
                         coord_df = filtered_books[['title', 'latitude', 'longitude', 'location_name']]
                         st.dataframe(coord_df)
@@ -148,8 +156,9 @@ try:
                     iframe {
                         width: 100%;
                         min-height: 600px;
-                        border: 2px solid #1f77b4;
+                        border: 3px solid #1f77b4;
                         border-radius: 10px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
                     }
                     </style>
                     """, unsafe_allow_html=True)
@@ -157,13 +166,18 @@ try:
                     # Display the map with increased prominence
                     folium_static = components.html(literary_map._repr_html_(), height=map_height)
                     
-                    # Add helper text
+                    # Add more prominent helper text
                     st.markdown("""
-                    **Tips for viewing the map:**
-                    - If markers are not visible, try zooming in or out
-                    - Click the blue square button in the top-right to view fullscreen
-                    - Look for blue circles which represent book locations
-                    """)
+                    <div style="padding: 10px; background-color: #f8f9fa; border-left: 4px solid #1f77b4; border-radius: 4px;">
+                    <h4>📚 How to Find Books on the Map:</h4>
+                    <ul>
+                      <li>Look for <strong style="color:#FF5733">orange circles</strong> and map pins</li>
+                      <li>Click on any marker to see book details</li>
+                      <li>Use the search box above to find specific books</li>
+                      <li>If a century has no books, try selecting a different one</li>
+                    </ul>
+                    </div>
+                    """, unsafe_allow_html=True)
 
                 logger.info("Map created and displayed successfully")
 
