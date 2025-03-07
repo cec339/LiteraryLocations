@@ -1,231 +1,79 @@
-import os
-import sys
-import logging
-
-# Add the current directory to Python path
-current_dir = os.path.dirname(os.path.abspath(__file__))
-if current_dir not in sys.path:
-    sys.path.append(current_dir)
-
-# Configure logging with more detail
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+import streamlit as st
+from utils.data_loader import (
+    load_book_data,
+    get_century_range,
+    filter_books_by_century,
+    search_books
 )
-logger = logging.getLogger(__name__)
+from utils.map_utils import create_literature_map
+import streamlit.components.v1 as components
 
-logger.info("Starting Literary World Map application...")
-logger.info(f"Python version: {sys.version}")
-logger.info(f"Current working directory: {os.getcwd()}")
-logger.info(f"PYTHONPATH: {sys.path}")
+# Page configuration
+st.set_page_config(
+    page_title="Literary World Map",
+    page_icon="📚",
+    layout="wide"
+)
 
+# Load custom CSS
+with open("styles/custom.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+# Header
+st.title("📚 Literary World Map")
+st.markdown("Explore the geographical settings of classic literature through time")
+
+# Sidebar for search
+with st.sidebar:
+    st.header("Search Books")
+    search_query = st.text_input("Search by title or author")
+    
+    if search_query:
+        search_results = search_books(search_query)
+        if not search_results.empty:
+            st.success(f"Found {len(search_results)} matching books")
+        else:
+            st.warning("No books found matching your search")
+
+# Main content
 try:
-    import streamlit as st
-    from utils.data_loader import (
-        load_book_data,
-        get_century_range,
-        filter_books_by_century,
-        search_books
-    )
-    from utils.map_utils import create_literature_map
-    from folium import plugins
-    import streamlit.components.v1 as components
-    import pandas as pd
-    logger.info("Successfully imported all required modules")
-except Exception as e:
-    logger.error(f"Error importing modules: {str(e)}", exc_info=True)
-    raise
-
-try:
-    # Page configuration
-    st.set_page_config(
-        page_title="Literary World Map",
-        page_icon="📚",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
-    logger.info("Page configuration set successfully")
-
-    # Load custom CSS
-    try:
-        with open("styles/custom.css") as f:
-            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-        logger.info("Loaded custom CSS successfully")
-    except Exception as e:
-        logger.error(f"Error loading CSS: {str(e)}")
-
-    # Header
-    st.title("📚 Literary World Map")
-    st.markdown("Explore the geographical settings of classic literature through time")
-
-    # Load book data
-    all_books = load_book_data()
-    if all_books.empty:
-        st.error("No book data available.")
-        st.stop()
-
-    # Search & Filter section at the top
-    st.header("Search & Filter")
-    search_query = st.text_input("Search by title or author", key="search_input")
-
     # Get century range for the slider
     min_century, max_century = get_century_range()
-    logger.info(f"Century range: {min_century} to {max_century}")
+    
+    # Century selector
+    selected_century = st.slider(
+        "Select Century",
+        min_value=int(min_century),
+        max_value=int(max_century),
+        value=int(min_century),
+        step=1,
+        format="%dst" if int(min_century) % 10 == 1 else "%dth"
+    )
 
-    # Handle case when min and max centuries are the same
-    if min_century == max_century:
-        st.subheader("Time Period")
-        st.markdown(f"**Currently showing: {min_century}th Century**")
-        selected_century = min_century
-    else:
-        # Century selector with clear labeling
-        st.subheader("Time Period")
-        selected_century = st.slider(
-            "Select Century",
-            min_value=int(min_century),
-            max_value=int(max_century),
-            value=int(min_century),
-            step=1,
-            help="Slide to explore different time periods",
-            key="century_slider"
-        )
-        suffix = "th"
-        if selected_century == 1:
-            suffix = "st"
-        elif selected_century == 2:
-            suffix = "nd"
-        elif selected_century == 3:
-            suffix = "rd"
-        st.markdown(f"**Selected: {selected_century}{suffix} Century**")
-
-    # Filter books based on search and century
-    if search_query:
-        filtered_books = search_books(search_query)
-        logger.info(f"Search query '{search_query}' returned {len(filtered_books)} results")
-        search_mode = True
+    # Filter books by century or search results
+    if search_query and not search_results.empty:
+        filtered_books = search_results
     else:
         filtered_books = filter_books_by_century(selected_century)
-        logger.info(f"Century filter {selected_century} returned {len(filtered_books)} books")
-        search_mode = False
 
-    # Create two columns for the main layout (map and info)
-    col1, col2 = st.columns([3, 1])
-
-    with col1:  # Main content area - Map
-        # Create and display map
-        if not filtered_books.empty:
-            literary_map = create_literature_map(filtered_books)
-            if literary_map:
-                # Create a container for the map
-                map_container = st.container()
-
-                # Set consistent map height (increased for better visibility)
-                map_height = 600
-
-                # Display the map clearly with improved instructions
-                with map_container:
-                    st.success("🗺️ **Now using Mapbox for improved marker visibility!**")
-                    
-                    # Map usage instructions
-                    st.info("""
-                    **Map Controls:**
-                    - 🔍 **Zoom:** Use the + and - buttons or scroll wheel
-                    - 🌍 **Full Screen:** Click the square icon in the top-right corner
-                    - 🛰️ **Map Style:** Use the layers button to switch between map and satellite view
-                    - 📚 **Book Markers:** Orange circles and pin icons show book locations
-                    """)
-
-                    # Debug information (collapsed by default now)
-                    with st.expander("Show map debug info"):
-                        st.write(f"Book count: {len(filtered_books)}")
-                        
-                        # Show all books with their coordinates for debugging
-                        coord_df = filtered_books[['title', 'latitude', 'longitude', 'location_name']]
-                        st.dataframe(coord_df)
-
-                        # Count books with valid coordinates
-                        valid_coords = filtered_books[~pd.isna(filtered_books['latitude']) & ~pd.isna(filtered_books['longitude'])]
-                        st.write(f"Books with valid coordinates: {len(valid_coords)} of {len(filtered_books)}")
-
-                        if len(valid_coords) == 0:
-                            st.error("⚠️ No books have valid coordinates! Check your data.")
-
-                    # Display the map with improved styling
-                    st.markdown("""
-                    <style>
-                    iframe {
-                        width: 100%;
-                        min-height: 600px;
-                        border: 3px solid #1f77b4;
-                        border-radius: 10px;
-                        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-                    }
-                    </style>
-                    """, unsafe_allow_html=True)
-                    
-                    # Display the map with increased prominence
-                    folium_static = components.html(literary_map._repr_html_(), height=map_height)
-                    
-                    # Add more prominent helper text
-                    st.markdown("""
-                    <div style="padding: 10px; background-color: #f8f9fa; border-left: 4px solid #1f77b4; border-radius: 4px;">
-                    <h4>📚 How to Find Books on the Map:</h4>
-                    <ul>
-                      <li>Look for <strong style="color:#FF5733">orange circles</strong> and map pins</li>
-                      <li>Click on any marker to see book details</li>
-                      <li>Use the search box above to find specific books</li>
-                      <li>If a century has no books, try selecting a different one</li>
-                    </ul>
-                    </div>
-                    """, unsafe_allow_html=True)
-
-                logger.info("Map created and displayed successfully")
-
-    with col2:  # Side info
-        if not filtered_books.empty:
-            st.subheader("Book Count")
-            st.markdown(f"**{len(filtered_books)} books** from the {selected_century}{suffix} Century")
-        else:
-            st.subheader("Book Count")
-            st.info(f"No books available from the {selected_century}{suffix} Century.")
-
-    # Display book list below the map with improved layout
+    # Create and display map
     if not filtered_books.empty:
-        st.subheader("Featured Books")
-
-        # Create book cards in a more compact format
-        cols = st.columns(2)  # Create two columns for book display
-
-        for i, (_, book) in enumerate(filtered_books.iterrows()):
-            # Determine ordinal suffix
-            century_suffix = "th"
-            if book['century'] == 1:
-                century_suffix = "st"
-            elif book['century'] == 2:
-                century_suffix = "nd"
-            elif book['century'] == 3:
-                century_suffix = "rd"
-
-            # Alternate columns
-            col_idx = i % 2
-
-            with cols[col_idx]:
-                with st.container():
-                    st.markdown(f"### {book['title']}")
-                    st.markdown(f"**Author:** {book['author']}")
-                    st.markdown(f"**Year:** {book['year']} ({book['century']}{century_suffix} century)")
-                    st.markdown(f"**Location:** {book['location_name']}")
-
-                    with st.expander("View Details"):
-                        st.markdown(f"**Summary:** {book['summary']}")
-                        st.markdown(f"**Historical Context:** {book['historical_context']}")
-
-                    st.markdown("---")  # Add a divider between books
+        literary_map = create_literature_map(filtered_books)
+        if literary_map:
+            folium_html = literary_map._repr_html_()
+            components.html(folium_html, height=600)
+            
+            # Display book list
+            st.subheader(f"Books from the {selected_century}{'st' if selected_century % 10 == 1 else 'th'} Century")
+            for _, book in filtered_books.iterrows():
+                with st.expander(f"{book['title']} by {book['author']}"):
+                    st.write(f"**Location:** {book['location_name']}")
+                    st.write(f"**Year:** {book['year']}")
+                    st.write(f"**Summary:** {book['summary']}")
+                    st.write(f"**Historical Context:** {book['historical_context']}")
     else:
-        st.info("No books found for the selected criteria")
-        logger.warning("No books found for the current filter criteria")
+        st.info("No books found for the selected century")
 
 except Exception as e:
-    logger.error(f"An error occurred: {str(e)}", exc_info=True)
     st.error(f"An error occurred: {str(e)}")
     st.info("Please try refreshing the page or contact support if the problem persists.")
