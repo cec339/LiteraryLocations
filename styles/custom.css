@@ -27,32 +27,36 @@
     margin: 0 auto;
 }
 
-/* Fullscreen button styling */
-button[data-testid="baseButton-secondary"] {
-    background-color: #1f77b4 !important;
-    color: white !important;
+/* Style the fullscreen control in Folium */
+.leaflet-control-fullscreen {
+    font-size: 22px !important;
+}
+
+.leaflet-control-fullscreen a {
+    background-color: white !important;
+    color: #1f77b4 !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    font-size: 16px !important;
     font-weight: bold !important;
+    text-align: center !important;
     border-radius: 4px !important;
-    padding: 0.5rem 1rem !important;
-    border: none !important;
-    cursor: pointer !important;
-    transition: all 0.2s ease !important;
-    margin: 10px 0 !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
-    position: relative !important;
-    z-index: 1000 !important;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4) !important;
 }
 
-button[data-testid="baseButton-secondary"]:hover {
-    background-color: #155d8a !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2) !important;
-    transform: translateY(-1px) !important;
+.leaflet-control-fullscreen a:hover {
+    background-color: #f4f4f4 !important;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.7) !important;
 }
 
-/* Make sure the button is always visible */
-[data-testid="stHorizontalBlock"] {
-    z-index: 1000 !important;
-    position: relative !important;
+/* Style the info message */
+.element-container div[data-testid="stInfo"] {
+    background-color: rgba(173, 216, 230, 0.2) !important;
+    border-left: 4px solid #1f77b4 !important;
+    padding: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 0.25rem !important;
 }
 
 /* Style the search box */

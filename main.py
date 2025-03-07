@@ -116,58 +116,24 @@ try:
         if not filtered_books.empty:
             literary_map = create_literature_map(filtered_books)
             if literary_map:
-                # Initialize session state for fullscreen toggle
-                if 'fullscreen' not in st.session_state:
-                    st.session_state.fullscreen = False
+                # Add a native Folium fullscreen control to the map
+                plugins.Fullscreen(
+                    position="topright",
+                    title="Expand map",
+                    title_cancel="Exit fullscreen",
+                    force_separate_button=True
+                ).add_to(literary_map)
                 
-                # Create a container for the map with a fullscreen button
+                # Create a container for the map
                 map_container = st.container()
                 
-                # Function to toggle fullscreen state
-                def toggle_fullscreen():
-                    st.session_state.fullscreen = not st.session_state.fullscreen
+                # Set consistent map height
+                map_height = 600
                 
-                # Add fullscreen button above the map
-                col_btn, col_space = st.columns([1, 10])
-                with col_btn:
-                    button_text = "🔍 Exit Fullscreen" if st.session_state.fullscreen else "📱 Fullscreen"
-                    st.button(button_text, key="fullscreen_btn", on_click=toggle_fullscreen)
+                # Add an info message about fullscreen
+                st.info("💡 Click the fullscreen icon in the top-right corner of the map to view in fullscreen mode")
                 
-                # Show the map - use conditional height based on fullscreen state
-                if st.session_state.fullscreen:
-                    map_height = 800  # Taller in fullscreen mode
-                    st.markdown("""
-                        <style>
-                        /* Fullscreen mode styles */
-                        .main .block-container {
-                            max-width: 100% !important;
-                            padding-top: 0 !important;
-                            padding-right: 0 !important;
-                            padding-left: 0 !important;
-                            padding-bottom: 0 !important;
-                        }
-                        
-                        header {
-                            visibility: hidden;
-                        }
-                        
-                        footer {
-                            visibility: hidden;
-                        }
-                        
-                        #MainMenu {
-                            visibility: hidden;
-                        }
-                        
-                        /* Make map take up more space */
-                        iframe {
-                            height: 90vh !important;
-                        }
-                        </style>
-                    """, unsafe_allow_html=True)
-                else:
-                    map_height = 600  # Regular height
-                
+                # Display the map
                 with map_container:
                     folium_html = literary_map._repr_html_()
                     components.html(folium_html, height=map_height)
