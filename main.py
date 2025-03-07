@@ -62,52 +62,52 @@ try:
         st.error("No book data available.")
         st.stop()
 
-    # Create two columns for the main layout
+    # Search & Filter section at the top
+    st.header("Search & Filter")
+    search_query = st.text_input("Search by title or author", key="search_input")
+
+    # Get century range for the slider
+    min_century, max_century = get_century_range()
+    logger.info(f"Century range: {min_century} to {max_century}")
+
+    # Handle case when min and max centuries are the same
+    if min_century == max_century:
+        st.subheader("Time Period")
+        st.markdown(f"**Currently showing: {min_century}th Century**")
+        selected_century = min_century
+    else:
+        # Century selector with clear labeling
+        st.subheader("Time Period")
+        selected_century = st.slider(
+            "Select Century",
+            min_value=int(min_century),
+            max_value=int(max_century),
+            value=int(min_century),
+            step=1,
+            help="Slide to explore different time periods",
+            key="century_slider"
+        )
+        suffix = "th"
+        if selected_century == 1:
+            suffix = "st"
+        elif selected_century == 2:
+            suffix = "nd"
+        elif selected_century == 3:
+            suffix = "rd"
+        st.markdown(f"**Selected: {selected_century}{suffix} Century**")
+    
+    # Filter books based on search and century
+    if search_query:
+        filtered_books = search_books(search_query)
+        logger.info(f"Search query '{search_query}' returned {len(filtered_books)} results")
+    else:
+        filtered_books = filter_books_by_century(selected_century)
+        logger.info(f"Century filter {selected_century} returned {len(filtered_books)} books")
+    
+    # Create two columns for the main layout (map and info)
     col1, col2 = st.columns([3, 1])
 
-    with col2:  # Sidebar-like column for controls
-        st.header("Search & Filter")
-        search_query = st.text_input("Search by title or author", key="search_input")
-
-        # Get century range for the slider
-        min_century, max_century = get_century_range()
-        logger.info(f"Century range: {min_century} to {max_century}")
-
-        # Handle case when min and max centuries are the same
-        if min_century == max_century:
-            st.subheader("Time Period")
-            st.markdown(f"**Currently showing: {min_century}th Century**")
-            selected_century = min_century
-        else:
-            # Century selector with clear labeling
-            st.subheader("Time Period")
-            selected_century = st.slider(
-                "Select Century",
-                min_value=int(min_century),
-                max_value=int(max_century),
-                value=int(min_century),
-                step=1,
-                help="Slide to explore different time periods",
-                key="century_slider"
-            )
-            suffix = "th"
-            if selected_century == 1:
-                suffix = "st"
-            elif selected_century == 2:
-                suffix = "nd"
-            elif selected_century == 3:
-                suffix = "rd"
-            st.markdown(f"**Selected: {selected_century}{suffix} Century**")
-
-    with col1:  # Main content area
-        # Filter books based on search and century
-        if search_query:
-            filtered_books = search_books(search_query)
-            logger.info(f"Search query '{search_query}' returned {len(filtered_books)} results")
-        else:
-            filtered_books = filter_books_by_century(selected_century)
-            logger.info(f"Century filter {selected_century} returned {len(filtered_books)} books")
-
+    with col1:  # Main content area - Map
         # Create and display map
         if not filtered_books.empty:
             literary_map = create_literature_map(filtered_books)
@@ -115,15 +115,21 @@ try:
                 folium_html = literary_map._repr_html_()
                 components.html(folium_html, height=600)
                 logger.info("Map created and displayed successfully")
-
-                # Display book list below the map
-                st.subheader("Featured Books")
-                for _, book in filtered_books.iterrows():
-                    with st.expander(f"{book['title']} by {book['author']}"):
-                        st.write(f"**Location:** {book['location_name']}")
-                        st.write(f"**Year:** {book['year']}")
-                        st.write(f"**Summary:** {book['summary']}")
-                        st.write(f"**Historical Context:** {book['historical_context']}")
+    
+    with col2:  # Side info
+        if not filtered_books.empty:
+            st.subheader("Book Count")
+            st.markdown(f"**{len(filtered_books)} books** from the {selected_century}{suffix} Century")
+    
+    # Display book list below the map
+    if not filtered_books.empty:
+        st.subheader("Featured Books")
+        for _, book in filtered_books.iterrows():
+            with st.expander(f"{book['title']} by {book['author']}"):
+                st.write(f"**Location:** {book['location_name']}")
+                st.write(f"**Year:** {book['year']}")
+                st.write(f"**Summary:** {book['summary']}")
+                st.write(f"**Historical Context:** {book['historical_context']}")
         else:
             st.info("No books found for the selected criteria")
             logger.warning("No books found for the current filter criteria")
