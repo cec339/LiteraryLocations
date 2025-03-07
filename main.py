@@ -100,9 +100,17 @@ try:
     if search_query:
         filtered_books = search_books(search_query)
         logger.info(f"Search query '{search_query}' returned {len(filtered_books)} results")
+        search_mode = True
     else:
         filtered_books = filter_books_by_century(selected_century)
         logger.info(f"Century filter {selected_century} returned {len(filtered_books)} books")
+        search_mode = False
+    
+    # Check if books are from other centuries (when selected century has no books)
+    showing_adjacent = False
+    if not search_mode and not filtered_books.empty:
+        if not all(filtered_books["century"] == selected_century):
+            showing_adjacent = True
     
     # Create two columns for the main layout (map and info)
     col1, col2 = st.columns([3, 1])
@@ -119,20 +127,24 @@ try:
     with col2:  # Side info
         if not filtered_books.empty:
             st.subheader("Book Count")
-            st.markdown(f"**{len(filtered_books)} books** from the {selected_century}{suffix} Century")
+            if showing_adjacent:
+                st.markdown(f"**{len(filtered_books)} books** from nearby centuries")
+                st.info(f"No books available from the {selected_century}{suffix} Century. Showing closest available books instead.")
+            else:
+                st.markdown(f"**{len(filtered_books)} books** from the {selected_century}{suffix} Century")
     
     # Display book list below the map
     if not filtered_books.empty:
         st.subheader("Featured Books")
         for _, book in filtered_books.iterrows():
-            with st.expander(f"{book['title']} by {book['author']}"):
+            with st.expander(f"{book['title']} by {book['author']} ({book['year']}, {book['century']}th century)"):
                 st.write(f"**Location:** {book['location_name']}")
                 st.write(f"**Year:** {book['year']}")
                 st.write(f"**Summary:** {book['summary']}")
                 st.write(f"**Historical Context:** {book['historical_context']}")
-        else:
-            st.info("No books found for the selected criteria")
-            logger.warning("No books found for the current filter criteria")
+    else:
+        st.info("No books found for the selected criteria")
+        logger.warning("No books found for the current filter criteria")
 
 except Exception as e:
     logger.error(f"An error occurred: {str(e)}", exc_info=True)

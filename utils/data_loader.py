@@ -55,9 +55,26 @@ def get_century_range():
     return df["century"].min(), df["century"].max()
 
 def filter_books_by_century(century):
-    """Filter books by century."""
+    """
+    Filter books by century.
+    If no books exist for the selected century, include books from adjacent centuries.
+    """
     df = load_book_data()
-    return df[df["century"] == century]
+    filtered = df[df["century"] == century]
+    
+    # If no books in this century, try to get books from adjacent centuries
+    if filtered.empty:
+        # First try ±1 century
+        adjacent = df[(df["century"] == century - 1) | (df["century"] == century + 1)]
+        if not adjacent.empty:
+            return adjacent.sort_values("year")
+        
+        # If still empty, get all books and sort by century proximity
+        all_books = df.copy()
+        all_books['century_distance'] = abs(all_books['century'] - century)
+        return all_books.sort_values('century_distance').head(3)
+    
+    return filtered
 
 def search_books(query):
     """Search books by title or author."""
