@@ -35,18 +35,26 @@
     right: 10px !important;
 }
 
+/* Increased visibility for fullscreen button */
 .leaflet-control-fullscreen a {
     background-color: #1f77b4 !important;
     color: white !important;
-    font-size: 18px !important;
-    border: 2px solid rgba(0,0,0,0.2) !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.65) !important;
-    padding: 6px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 3px solid rgba(0,0,0,0.4) !important;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.7) !important;
+    padding: 8px !important;
     border-radius: 4px !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .leaflet-control-fullscreen a:hover {
-    background-color: #f4f4f4 !important;
+    background-color: #0d5a8c !important;
+    transform: scale(1.1) !important;
 }
 
 /* Make sure all map controls are visible */
@@ -58,7 +66,26 @@
 /* Ensure map container is properly sized */
 .stHtmlFrame-html iframe {
     width: 100% !important;
-    height: 500px !important;
+    height: 600px !important;
+    border: 2px solid #1f77b4 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+/* Make markers more visible */
+.leaflet-marker-icon {
+    width: 30px !important;
+    height: 30px !important;
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.7)) !important;
+}
+
+/* Make popups more visible */
+.leaflet-popup {
+    z-index: 9999 !important;
+}
+
+.leaflet-popup-content-wrapper {
+    border: 2px solid #1f77b4 !important;
 }
 
 /* Style the info message */

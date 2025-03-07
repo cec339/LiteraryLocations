@@ -119,12 +119,12 @@ try:
                 # Create a container for the map
                 map_container = st.container()
 
-                # Set consistent map height
-                map_height = 500
+                # Set consistent map height (increased for better visibility)
+                map_height = 600
 
                 # Display the map clearly with simplified approach
                 with map_container:
-                    st.warning("💡 **Look for the square icon in the top-right corner of the map for fullscreen mode**")
+                    st.warning("💡 **Look for the blue square icon in the top-right corner of the map for fullscreen mode**")
 
                     # Debug information to help troubleshoot
                     if st.checkbox("Show map debug info", True):
@@ -142,8 +142,28 @@ try:
                         if len(valid_coords) == 0:
                             st.error("⚠️ No books have valid coordinates! Check your data.")
 
-                    # Display the map
+                    # Display the map with improved styling
+                    st.markdown("""
+                    <style>
+                    iframe {
+                        width: 100%;
+                        min-height: 600px;
+                        border: 2px solid #1f77b4;
+                        border-radius: 10px;
+                    }
+                    </style>
+                    """, unsafe_allow_html=True)
+                    
+                    # Display the map with increased prominence
                     folium_static = components.html(literary_map._repr_html_(), height=map_height)
+                    
+                    # Add helper text
+                    st.markdown("""
+                    **Tips for viewing the map:**
+                    - If markers are not visible, try zooming in or out
+                    - Click the blue square button in the top-right to view fullscreen
+                    - Look for blue circles which represent book locations
+                    """)
 
                 logger.info("Map created and displayed successfully")
 
