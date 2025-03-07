@@ -116,35 +116,52 @@ try:
         if not filtered_books.empty:
             literary_map = create_literature_map(filtered_books)
             if literary_map:
+                # Initialize session state for fullscreen toggle
+                if 'fullscreen' not in st.session_state:
+                    st.session_state.fullscreen = False
+                
                 # Create a container for the map with a fullscreen button
                 map_container = st.container()
                 
-                # Add a fullscreen button above the map
+                # Function to toggle fullscreen state
+                def toggle_fullscreen():
+                    st.session_state.fullscreen = not st.session_state.fullscreen
+                
+                # Add fullscreen button above the map
                 col_btn, col_space = st.columns([1, 10])
                 with col_btn:
-                    fullscreen = st.button("📱 Fullscreen", key="fullscreen_btn")
+                    button_text = "🔍 Exit Fullscreen" if st.session_state.fullscreen else "📱 Fullscreen"
+                    st.button(button_text, key="fullscreen_btn", on_click=toggle_fullscreen)
                 
                 # Show the map - use conditional height based on fullscreen state
-                if fullscreen:
+                if st.session_state.fullscreen:
                     map_height = 800  # Taller in fullscreen mode
                     st.markdown("""
                         <style>
-                        /* Hide Streamlit elements when in fullscreen */
-                        header, footer, .stButton, .sidebar-content {
-                            display: none !important;
-                        }
-                        
-                        /* Make map container take up full viewport */
-                        section.main > div {
-                            padding-top: 0 !important;
-                            padding-bottom: 0 !important;
+                        /* Fullscreen mode styles */
+                        .main .block-container {
                             max-width: 100% !important;
+                            padding-top: 0 !important;
+                            padding-right: 0 !important;
+                            padding-left: 0 !important;
+                            padding-bottom: 0 !important;
                         }
                         
-                        .stButton button {
-                            background-color: #3498db;
-                            color: white;
-                            font-weight: bold;
+                        header {
+                            visibility: hidden;
+                        }
+                        
+                        footer {
+                            visibility: hidden;
+                        }
+                        
+                        #MainMenu {
+                            visibility: hidden;
+                        }
+                        
+                        /* Make map take up more space */
+                        iframe {
+                            height: 90vh !important;
                         }
                         </style>
                     """, unsafe_allow_html=True)
