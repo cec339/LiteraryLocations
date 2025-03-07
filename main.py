@@ -128,11 +128,12 @@ try:
                     st.warning("💡 **Look for the square icon in the top-right corner of the map for fullscreen mode**")
                     
                     # Debug information to help troubleshoot
-                    if st.checkbox("Show map debug info", False):
+                    if st.checkbox("Show map debug info", True):
                         st.write(f"Book count: {len(filtered_books)}")
                         st.write("Sample coordinates:")
-                        st.write(filtered_books[['title', 'latitude', 'longitude']].head())
+                        st.dataframe(filtered_books[['title', 'latitude', 'longitude']])
                     
+                    # Display the map
                     folium_static = components.html(literary_map._repr_html_(), height=map_height)
                 
                 logger.info("Map created and displayed successfully")
