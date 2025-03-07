@@ -40,3 +40,19 @@
         padding-bottom: 1rem;
     }
 }
+
+/* Make popups more mobile-friendly */
+.leaflet-popup-content {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+}
+
+.leaflet-popup {
+    max-width: 90vw !important;
+}
+
+.leaflet-popup-content p {
+    margin: 5px 0 !important;
+}

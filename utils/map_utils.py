@@ -15,13 +15,14 @@ def add_book_markers(m, books_df):
     """Add book markers to the map."""
     for _, book in books_df.iterrows():
         html = f"""
-            <div style='width: 250px'>
-                <h4>{book['title']}</h4>
-                <p><strong>Author:</strong> {book['author']}</p>
-                <p><strong>Year:</strong> {book['year']}</p>
-                <p><strong>Location:</strong> {book['location_name']}</p>
-                <p><strong>Summary:</strong> {book['summary']}</p>
-                <p><strong>Historical Context:</strong> {book['historical_context']}</p>
+            <div style='width: 100%; max-width: 300px; font-size: 14px;'>
+                <h4 style='font-size: 16px; margin: 8px 0;'>{book['title']}</h4>
+                <p style='margin: 5px 0;'><strong>Author:</strong> {book['author']}</p>
+                <p style='margin: 5px 0;'><strong>Year:</strong> {book['year']}</p>
+                <p style='margin: 5px 0;'><strong>Location:</strong> {book['location_name']}</p>
+                <div style='margin: 5px 0;'><strong>Summary:</strong> 
+                    <div style='font-size: 13px; margin-top: 3px;'>{book['summary']}</div>
+                </div>
             </div>
         """
         
@@ -30,7 +31,7 @@ def add_book_markers(m, books_df):
             radius=8,
             color='#1f77b4',
             fill=True,
-            popup=folium.Popup(html, max_width=300),
+            popup=folium.Popup(html, max_width=250),
             tooltip=book['title']
         ).add_to(m)
 
