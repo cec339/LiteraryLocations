@@ -23,10 +23,19 @@ def load_book_data():
         # Process books data
         books = []
         for book in data["books"]:
-            # Extract location coordinates
-            latitude = book["location"]["coordinates"][0] if "location" in book and "coordinates" in book["location"] else None
-            longitude = book["location"]["coordinates"][1] if "location" in book and "coordinates" in book["location"] else None
-            location_name = book["location"]["name"] if "location" in book and "name" in book["location"] else None
+            # Extract location coordinates (ensure correct order: latitude then longitude)
+            latitude = None
+            longitude = None
+            location_name = None
+            
+            if "location" in book:
+                if "coordinates" in book["location"] and len(book["location"]["coordinates"]) >= 2:
+                    # Standard format is [latitude, longitude]
+                    latitude = book["location"]["coordinates"][0]
+                    longitude = book["location"]["coordinates"][1]
+                    
+                if "name" in book["location"]:
+                    location_name = book["location"]["name"]
 
             # Create a book entry with flattened structure
             books.append({

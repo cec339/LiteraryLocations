@@ -22,6 +22,10 @@ def add_book_markers(m, books_df):
     book_markers = folium.FeatureGroup(name="Book Locations")
     
     for _, book in books_df.iterrows():
+        # Skip if coordinates are missing or invalid
+        if pd.isna(book['latitude']) or pd.isna(book['longitude']):
+            continue
+            
         html = f"""
             <div style='width: 250px'>
                 <h4>{book['title']}</h4>
@@ -33,16 +37,34 @@ def add_book_markers(m, books_df):
             </div>
         """
         
-        folium.CircleMarker(
-            location=[book['latitude'], book['longitude']],
-            radius=8,
-            color='#1f77b4',
-            fill=True,
-            fill_opacity=0.8,
-            weight=2,
-            popup=folium.Popup(html, max_width=300),
-            tooltip=book['title']
-        ).add_to(book_markers)
+        # Some coordinates might be reversed in the data, let's handle both cases
+        try:
+            folium.CircleMarker(
+                location=[float(book['latitude']), float(book['longitude'])],
+                radius=8,
+                color='#1f77b4',
+                fill=True,
+                fill_opacity=0.8,
+                weight=2,
+                popup=folium.Popup(html, max_width=300),
+                tooltip=book['title']
+            ).add_to(book_markers)
+        except Exception as e:
+            # Try with reversed coordinates as a fallback
+            try:
+                folium.CircleMarker(
+                    location=[float(book['longitude']), float(book['latitude'])],
+                    radius=8,
+                    color='#1f77b4',
+                    fill=True,
+                    fill_opacity=0.8,
+                    weight=2,
+                    popup=folium.Popup(html, max_width=300),
+                    tooltip=book['title']
+                ).add_to(book_markers)
+            except:
+                # If both attempts fail, log but don't crash
+                st.warning(f"Could not add marker for {book['title']}")
     
     # Add the feature group to the map
     book_markers.add_to(m)

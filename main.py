@@ -126,6 +126,13 @@ try:
                 # Display the map clearly with simplified approach
                 with map_container:
                     st.warning("💡 **Look for the square icon in the top-right corner of the map for fullscreen mode**")
+                    
+                    # Debug information to help troubleshoot
+                    if st.checkbox("Show map debug info", False):
+                        st.write(f"Book count: {len(filtered_books)}")
+                        st.write("Sample coordinates:")
+                        st.write(filtered_books[['title', 'latitude', 'longitude']].head())
+                    
                     folium_static = components.html(literary_map._repr_html_(), height=map_height)
                 
                 logger.info("Map created and displayed successfully")
