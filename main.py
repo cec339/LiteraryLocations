@@ -108,10 +108,6 @@ try:
     
     # Check if books are from other centuries (when selected century has no books)
     showing_adjacent = False
-    if not search_mode and not filtered_books.empty:
-        if not all(filtered_books["century"] == selected_century):
-            showing_adjacent = True
-    
     # Create two columns for the main layout (map and info)
     col1, col2 = st.columns([3, 1])
 
@@ -127,17 +123,23 @@ try:
     with col2:  # Side info
         if not filtered_books.empty:
             st.subheader("Book Count")
-            if showing_adjacent:
-                st.markdown(f"**{len(filtered_books)} books** from nearby centuries")
-                st.info(f"No books available from the {selected_century}{suffix} Century. Showing closest available books instead.")
-            else:
-                st.markdown(f"**{len(filtered_books)} books** from the {selected_century}{suffix} Century")
+            st.markdown(f"**{len(filtered_books)} books** from the {selected_century}{suffix} Century")
+        else:
+            st.subheader("Book Count")
+            st.info(f"No books available from the {selected_century}{suffix} Century.")
     
     # Display book list below the map
     if not filtered_books.empty:
         st.subheader("Featured Books")
         for _, book in filtered_books.iterrows():
-            with st.expander(f"{book['title']} by {book['author']} ({book['year']}, {book['century']}th century)"):
+            century_suffix = "th"
+            if book['century'] == 1:
+                century_suffix = "st"
+            elif book['century'] == 2:
+                century_suffix = "nd"
+            elif book['century'] == 3:
+                century_suffix = "rd"
+            with st.expander(f"{book['title']} by {book['author']} ({book['year']}, {book['century']}{century_suffix} century)"):
                 st.write(f"**Location:** {book['location_name']}")
                 st.write(f"**Year:** {book['year']}")
                 st.write(f"**Summary:** {book['summary']}")
