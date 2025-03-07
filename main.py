@@ -28,6 +28,7 @@ try:
         search_books
     )
     from utils.map_utils import create_literature_map
+    from folium import plugins
     import streamlit.components.v1 as components
     logger.info("Successfully imported all required modules")
 except Exception as e:
@@ -95,7 +96,7 @@ try:
         elif selected_century == 3:
             suffix = "rd"
         st.markdown(f"**Selected: {selected_century}{suffix} Century**")
-    
+
     # Filter books based on search and century
     if search_query:
         filtered_books = search_books(search_query)
@@ -105,7 +106,7 @@ try:
         filtered_books = filter_books_by_century(selected_century)
         logger.info(f"Century filter {selected_century} returned {len(filtered_books)} books")
         search_mode = False
-    
+
     # Check if books are from other centuries (when selected century has no books)
     showing_adjacent = False
     # Create two columns for the main layout (map and info)
@@ -123,22 +124,22 @@ try:
                     title_cancel="Exit fullscreen",
                     force_separate_button=True
                 ).add_to(literary_map)
-                
+
                 # Create a container for the map
                 map_container = st.container()
-                
+
                 # Set consistent map height
                 map_height = 600
-                
+
                 # Add an info message about fullscreen
                 st.info("💡 Click the fullscreen icon in the top-right corner of the map to view in fullscreen mode")
-                
+
                 # Display the map
                 with map_container:
                     folium_html = literary_map._repr_html_()
                     components.html(folium_html, height=map_height)
                 logger.info("Map created and displayed successfully")
-    
+
     with col2:  # Side info
         if not filtered_books.empty:
             st.subheader("Book Count")
@@ -146,7 +147,7 @@ try:
         else:
             st.subheader("Book Count")
             st.info(f"No books available from the {selected_century}{suffix} Century.")
-    
+
     # Display book list below the map
     if not filtered_books.empty:
         st.subheader("Featured Books")
