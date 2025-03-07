@@ -52,17 +52,19 @@ def create_literature_map(books_df):
     try:
         m = create_base_map()
         
-        # Add fullscreen control BEFORE adding markers to ensure it appears on top
+        # Add book markers
+        add_book_markers(m, books_df)
+        
+        # Add fullscreen control AFTER adding markers
         folium.plugins.Fullscreen(
             position="topright",
             title="Expand map",
             title_cancel="Exit fullscreen",
-            force_separate_button=True,
-            fullscreen=True
+            force_separate_button=True
         ).add_to(m)
         
-        add_book_markers(m, books_df)
         return m
     except Exception as e:
         st.error(f"Error creating map: {str(e)}")
+        return None
         return None

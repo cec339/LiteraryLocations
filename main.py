@@ -121,33 +121,13 @@ try:
                 map_container = st.container()
 
                 # Set consistent map height
-                map_height = 600
+                map_height = 500
 
-                # Add an info message about fullscreen with more visibility
-                st.warning("💡 **Click the square icon in the top-right corner of the map to view in fullscreen mode**")
-
-                # Display the map with custom styling to ensure controls are visible
+                # Display the map clearly with simplified approach
                 with map_container:
-                    folium_html = literary_map._repr_html_()
-                    components.html(
-                        f"""
-                        <div style="position: relative; width: 100%; height: {map_height}px;">
-                            {folium_html}
-                        </div>
-                        <script>
-                            // Ensure fullscreen control is visible
-                            setTimeout(function() {{
-                                var controls = document.querySelectorAll('.leaflet-control-fullscreen');
-                                controls.forEach(function(control) {{
-                                    control.style.display = 'block';
-                                    control.style.visibility = 'visible';
-                                    control.style.zIndex = '1000';
-                                }});
-                            }}, 1000);
-                        </script>
-                        """,
-                        height=map_height+50
-                    )
+                    st.warning("💡 **Look for the square icon in the top-right corner of the map for fullscreen mode**")
+                    folium_static = components.html(literary_map._repr_html_(), height=map_height)
+                
                 logger.info("Map created and displayed successfully")
 
     with col2:  # Side info
@@ -158,10 +138,15 @@ try:
             st.subheader("Book Count")
             st.info(f"No books available from the {selected_century}{suffix} Century.")
 
-    # Display book list below the map
+    # Display book list below the map with improved layout
     if not filtered_books.empty:
         st.subheader("Featured Books")
-        for _, book in filtered_books.iterrows():
+        
+        # Create book cards in a more compact format
+        cols = st.columns(2)  # Create two columns for book display
+        
+        for i, (_, book) in enumerate(filtered_books.iterrows()):
+            # Determine ordinal suffix
             century_suffix = "th"
             if book['century'] == 1:
                 century_suffix = "st"
@@ -169,11 +154,22 @@ try:
                 century_suffix = "nd"
             elif book['century'] == 3:
                 century_suffix = "rd"
-            with st.expander(f"{book['title']} by {book['author']} ({book['year']}, {book['century']}{century_suffix} century)"):
-                st.write(f"**Location:** {book['location_name']}")
-                st.write(f"**Year:** {book['year']}")
-                st.write(f"**Summary:** {book['summary']}")
-                st.write(f"**Historical Context:** {book['historical_context']}")
+                
+            # Alternate columns
+            col_idx = i % 2
+            
+            with cols[col_idx]:
+                with st.container():
+                    st.markdown(f"### {book['title']}")
+                    st.markdown(f"**Author:** {book['author']}")
+                    st.markdown(f"**Year:** {book['year']} ({book['century']}{century_suffix} century)")
+                    st.markdown(f"**Location:** {book['location_name']}")
+                    
+                    with st.expander("View Details"):
+                        st.markdown(f"**Summary:** {book['summary']}")
+                        st.markdown(f"**Historical Context:** {book['historical_context']}")
+                    
+                    st.markdown("---")  # Add a divider between books
     else:
         st.info("No books found for the selected criteria")
         logger.warning("No books found for the current filter criteria")
