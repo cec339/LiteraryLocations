@@ -30,6 +30,7 @@ try:
     from utils.map_utils import create_literature_map
     from folium import plugins
     import streamlit.components.v1 as components
+    import pandas as pd
     logger.info("Successfully imported all required modules")
 except Exception as e:
     logger.error(f"Error importing modules: {str(e)}", exc_info=True)
