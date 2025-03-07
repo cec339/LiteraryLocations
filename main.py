@@ -37,8 +37,20 @@ with st.sidebar:
 
 # Main content
 try:
+    # Load book data
+    all_books = load_book_data()
+    
+    if all_books.empty:
+        st.error("No book data available. Please ensure books.json is properly formatted.")
+        st.stop()
+    
     # Get century range for the slider
     min_century, max_century = get_century_range()
+    
+    # Default to 19-20th centuries if no data available
+    if min_century is None or max_century is None:
+        min_century, max_century = 19, 20
+        st.warning("Could not determine century range, using default values.")
     
     # Handle case when min and max centuries are the same
     if min_century == max_century:
