@@ -1,6 +1,7 @@
 import folium
 from folium import plugins
 import streamlit as st
+import pandas as pd
 
 def create_base_map():
     """Create the base world map."""
