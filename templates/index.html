@@ -29,8 +29,9 @@
                     <input type="range" id="century" name="century" 
                            min="{{ min_century }}" max="{{ max_century }}" 
                            value="{{ current_century }}" 
-                           oninput="this.form.submit(); document.getElementById('century-value').textContent = this.value;">
+                           oninput="document.getElementById('century-value').textContent = this.value;">
                     <span id="century-value">{{ current_century }}</span>
+                    <button type="submit" class="apply-btn">Apply</button>
                 </form>
             </div>
         </div>
