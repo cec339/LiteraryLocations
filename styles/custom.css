@@ -15,7 +15,7 @@
 /* Make the map container responsive */
 .folium-map {
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     margin: 0 auto;
 }
 
@@ -32,27 +32,11 @@
 /* Responsive design adjustments */
 @media (max-width: 768px) {
     .folium-map {
-        height: 70vh;
+        height: 50vh;
     }
     
     .stSlider {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-}
-
-/* Make popups more mobile-friendly */
-.leaflet-popup-content {
-    font-size: 14px !important;
-    line-height: 1.4 !important;
-    max-height: 70vh !important;
-    overflow-y: auto !important;
-}
-
-.leaflet-popup {
-    max-width: 90vw !important;
-}
-
-.leaflet-popup-content p {
-    margin: 5px 0 !important;
 }

@@ -1,11 +1,10 @@
 [project]
 name = "repl-nix-workspace"
 version = "0.1.0"
-description = "Literary World Map Flask Application"
+description = "Add your description here"
 requires-python = ">=3.11"
 dependencies = [
-    "folium==0.14.0",
-    "pandas==2.0.3",
-    "flask>=2.3.3",
-    "streamlit==1.24.0",
+    "folium>=0.19.5",
+    "pandas>=2.2.3",
+    "streamlit>=1.43.0",
 ]
