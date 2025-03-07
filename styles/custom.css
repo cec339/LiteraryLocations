@@ -15,7 +15,7 @@
 /* Make the map container responsive */
 .folium-map {
     width: 100%;
-    height: 70vh;
+    height: 85vh;
     margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@
 /* Responsive design adjustments */
 @media (max-width: 768px) {
     .folium-map {
-        height: 50vh;
+        height: 70vh;
     }
     
     .stSlider {

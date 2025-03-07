@@ -66,7 +66,7 @@ try:
         literary_map = create_literature_map(filtered_books)
         if literary_map:
             folium_html = literary_map._repr_html_()
-            components.html(folium_html, height=600)
+            components.html(folium_html, height=800)
             
             # Display book list
             st.subheader(f"Books from the {selected_century}{'st' if selected_century % 10 == 1 else 'th'} Century")
