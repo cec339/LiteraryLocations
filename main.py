@@ -40,15 +40,20 @@ try:
     # Get century range for the slider
     min_century, max_century = get_century_range()
     
-    # Century selector
-    selected_century = st.slider(
-        "Select Century",
-        min_value=int(min_century),
-        max_value=int(max_century),
-        value=int(min_century),
-        step=1,
-        format="%dst" if int(min_century) % 10 == 1 else "%dth"
-    )
+    # Handle case when min and max centuries are the same
+    if min_century == max_century:
+        st.subheader(f"Showing books from the {int(min_century)}{'st' if int(min_century) % 10 == 1 else 'th'} Century")
+        selected_century = int(min_century)
+    else:
+        # Century selector
+        selected_century = st.slider(
+            "Select Century",
+            min_value=int(min_century),
+            max_value=int(max_century),
+            value=int(min_century),
+            step=1,
+            format="%dst" if int(min_century) % 10 == 1 else "%dth"
+        )
 
     # Filter books by century or search results
     if search_query and not search_results.empty:
