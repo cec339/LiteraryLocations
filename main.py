@@ -27,7 +27,7 @@ st.markdown("Explore the geographical settings of classic literature through tim
 with st.sidebar:
     st.header("Search Books")
     search_query = st.text_input("Search by title or author")
-    
+
     if search_query:
         search_results = search_books(search_query)
         if not search_results.empty:
@@ -37,17 +37,15 @@ with st.sidebar:
 
 # Main content
 try:
-    # Get century range for the slider
-    min_century, max_century = get_century_range()
-    
-    # Century selector
+    # Century selector with fixed range
     selected_century = st.slider(
         "Select Century",
-        min_value=int(min_century),
-        max_value=int(max_century),
-        value=int(min_century),
+        min_value=14,
+        max_value=21,
+        value=19,
         step=1,
-        format="%dst" if int(min_century) % 10 == 1 else "%dth"
+        help="Slide to explore literature from different centuries",
+        format="%dst" if 21 else "%dth"  # Only 21st gets "st", all others get "th"
     )
 
     # Filter books by century or search results
@@ -62,9 +60,10 @@ try:
         if literary_map:
             folium_html = literary_map._repr_html_()
             components.html(folium_html, height=600)
-            
+
             # Display book list
-            st.subheader(f"Books from the {selected_century}{'st' if selected_century % 10 == 1 else 'th'} Century")
+            suffix = 'st' if selected_century == 21 else 'th'
+            st.subheader(f"Books from the {selected_century}{suffix} Century")
             for _, book in filtered_books.iterrows():
                 with st.expander(f"{book['title']} by {book['author']}"):
                     st.write(f"**Location:** {book['location_name']}")
