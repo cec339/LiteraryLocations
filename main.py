@@ -117,14 +117,6 @@ try:
         if not filtered_books.empty:
             literary_map = create_literature_map(filtered_books)
             if literary_map:
-                # Add a native Folium fullscreen control to the map
-                plugins.Fullscreen(
-                    position="topright",
-                    title="Expand map",
-                    title_cancel="Exit fullscreen",
-                    force_separate_button=True
-                ).add_to(literary_map)
-
                 # Create a container for the map
                 map_container = st.container()
 

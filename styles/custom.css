@@ -30,10 +30,12 @@
 /* Style the fullscreen control in Folium */
 .leaflet-control-fullscreen {
     font-size: 22px !important;
+    z-index: 1000 !important;
+    display: block !important;
 }
 
 .leaflet-control-fullscreen a {
-    background-color: white !important;
+    background-color: #ffffff !important;
     color: #1f77b4 !important;
     width: 36px !important;
     height: 36px !important;
@@ -42,7 +44,8 @@
     font-weight: bold !important;
     text-align: center !important;
     border-radius: 4px !important;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.4) !important;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.6) !important;
+    border: 2px solid rgba(0,0,0,0.2) !important;
 }
 
 .leaflet-control-fullscreen a:hover {

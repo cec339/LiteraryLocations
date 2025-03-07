@@ -52,6 +52,15 @@ def create_literature_map(books_df):
     try:
         m = create_base_map()
         add_book_markers(m, books_df)
+        
+        # Explicitly add fullscreen control with clear styling
+        plugins.Fullscreen(
+            position="topright",
+            title="Expand map",
+            title_cancel="Exit fullscreen",
+            force_separate_button=True
+        ).add_to(m)
+        
         return m
     except Exception as e:
         st.error(f"Error creating map: {str(e)}")
