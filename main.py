@@ -44,9 +44,15 @@ try:
         max_value=21,
         value=19,
         step=1,
-        help="Slide to explore literature from different centuries",
-        format="%dst" if 21 else "%dth"  # Only 21st gets "st", all others get "th"
+        help="Slide to explore literature from different centuries"
     )
+    
+    # Get the correct suffix for the century
+    def get_century_suffix(century):
+        if century == 21:
+            return "st"
+        else:
+            return "th"
 
     # Filter books by century or search results
     if search_query and not search_results.empty:
@@ -62,8 +68,8 @@ try:
             components.html(folium_html, height=600)
 
             # Display book list
-            suffix = 'st' if selected_century == 21 else 'th'
-            st.subheader(f"Books from the {selected_century}{suffix} Century")
+            century_suffix = get_century_suffix(selected_century)
+            st.subheader(f"Books from the {selected_century}{century_suffix} Century")
             for _, book in filtered_books.iterrows():
                 with st.expander(f"{book['title']} by {book['author']}"):
                     st.write(f"**Location:** {book['location_name']}")
