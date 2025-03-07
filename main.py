@@ -108,8 +108,6 @@ try:
         logger.info(f"Century filter {selected_century} returned {len(filtered_books)} books")
         search_mode = False
 
-    # Check if books are from other centuries (when selected century has no books)
-    showing_adjacent = False
     # Create two columns for the main layout (map and info)
     col1, col2 = st.columns([3, 1])
 
@@ -127,26 +125,26 @@ try:
                 # Display the map clearly with simplified approach
                 with map_container:
                     st.warning("💡 **Look for the square icon in the top-right corner of the map for fullscreen mode**")
-                    
+
                     # Debug information to help troubleshoot
                     if st.checkbox("Show map debug info", True):
                         st.write(f"Book count: {len(filtered_books)}")
                         st.write("Book coordinates:")
-                        
+
                         # Show all books with their coordinates for debugging
                         coord_df = filtered_books[['title', 'latitude', 'longitude', 'location_name']]
                         st.dataframe(coord_df)
-                        
+
                         # Count books with valid coordinates
                         valid_coords = filtered_books[~pd.isna(filtered_books['latitude']) & ~pd.isna(filtered_books['longitude'])]
                         st.write(f"Books with valid coordinates: {len(valid_coords)} of {len(filtered_books)}")
-                        
+
                         if len(valid_coords) == 0:
                             st.error("⚠️ No books have valid coordinates! Check your data.")
-                    
+
                     # Display the map
                     folium_static = components.html(literary_map._repr_html_(), height=map_height)
-                
+
                 logger.info("Map created and displayed successfully")
 
     with col2:  # Side info
@@ -160,10 +158,10 @@ try:
     # Display book list below the map with improved layout
     if not filtered_books.empty:
         st.subheader("Featured Books")
-        
+
         # Create book cards in a more compact format
         cols = st.columns(2)  # Create two columns for book display
-        
+
         for i, (_, book) in enumerate(filtered_books.iterrows()):
             # Determine ordinal suffix
             century_suffix = "th"
@@ -173,21 +171,21 @@ try:
                 century_suffix = "nd"
             elif book['century'] == 3:
                 century_suffix = "rd"
-                
+
             # Alternate columns
             col_idx = i % 2
-            
+
             with cols[col_idx]:
                 with st.container():
                     st.markdown(f"### {book['title']}")
                     st.markdown(f"**Author:** {book['author']}")
                     st.markdown(f"**Year:** {book['year']} ({book['century']}{century_suffix} century)")
                     st.markdown(f"**Location:** {book['location_name']}")
-                    
+
                     with st.expander("View Details"):
                         st.markdown(f"**Summary:** {book['summary']}")
                         st.markdown(f"**Historical Context:** {book['historical_context']}")
-                    
+
                     st.markdown("---")  # Add a divider between books
     else:
         st.info("No books found for the selected criteria")
