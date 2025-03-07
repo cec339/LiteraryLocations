@@ -130,8 +130,18 @@ try:
                     # Debug information to help troubleshoot
                     if st.checkbox("Show map debug info", True):
                         st.write(f"Book count: {len(filtered_books)}")
-                        st.write("Sample coordinates:")
-                        st.dataframe(filtered_books[['title', 'latitude', 'longitude']])
+                        st.write("Book coordinates:")
+                        
+                        # Show all books with their coordinates for debugging
+                        coord_df = filtered_books[['title', 'latitude', 'longitude', 'location_name']]
+                        st.dataframe(coord_df)
+                        
+                        # Count books with valid coordinates
+                        valid_coords = filtered_books[~pd.isna(filtered_books['latitude']) & ~pd.isna(filtered_books['longitude'])]
+                        st.write(f"Books with valid coordinates: {len(valid_coords)} of {len(filtered_books)}")
+                        
+                        if len(valid_coords) == 0:
+                            st.error("⚠️ No books have valid coordinates! Check your data.")
                     
                     # Display the map
                     folium_static = components.html(literary_map._repr_html_(), height=map_height)

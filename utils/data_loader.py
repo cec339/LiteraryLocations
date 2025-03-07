@@ -30,9 +30,18 @@ def load_book_data():
             
             if "location" in book:
                 if "coordinates" in book["location"] and len(book["location"]["coordinates"]) >= 2:
-                    # Standard format is [latitude, longitude]
-                    latitude = book["location"]["coordinates"][0]
-                    longitude = book["location"]["coordinates"][1]
+                    try:
+                        # Standard format is [latitude, longitude]
+                        latitude = float(book["location"]["coordinates"][0])
+                        longitude = float(book["location"]["coordinates"][1])
+                        
+                        # Validate coordinates
+                        if not (-90 <= latitude <= 90) or not (-180 <= longitude <= 180):
+                            # Try swapping if they might be reversed
+                            if (-180 <= latitude <= 180) and (-90 <= longitude <= 90):
+                                latitude, longitude = longitude, latitude
+                    except (ValueError, TypeError):
+                        print(f"Invalid coordinates for book: {book.get('title', 'Unknown')}")
                     
                 if "name" in book["location"]:
                     location_name = book["location"]["name"]

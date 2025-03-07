@@ -1,3 +1,4 @@
+
 import folium
 from folium import plugins
 import streamlit as st
@@ -30,47 +31,34 @@ def add_book_markers(m, books_df):
         if pd.isna(book['latitude']) or pd.isna(book['longitude']):
             continue
         
-        # Try to convert coordinates to float explicitly
+        # Convert coordinates to float explicitly
         try:
             lat = float(book['latitude'])
             lng = float(book['longitude'])
         except (ValueError, TypeError):
             st.warning(f"Invalid coordinates for {book['title']}")
             continue
-            
-        # Make sure coordinates are within valid range
-        if not (-90 <= lat <= 90) or not (-180 <= lng <= 180):
-            # Try to swap coordinates if they might be reversed
-            if (-180 <= lat <= 180) and (-90 <= lng <= 90):
-                lat, lng = lng, lat
-            else:
-                st.warning(f"Coordinates out of range for {book['title']}")
-                continue
-                
+        
+        # Create marker popup content
         html = f"""
             <div style='width: 250px'>
                 <h4>{book['title']}</h4>
                 <p><strong>Author:</strong> {book['author']}</p>
                 <p><strong>Year:</strong> {book['year']}</p>
                 <p><strong>Location:</strong> {book['location_name']}</p>
-                <p><strong>Summary:</strong> {book['summary']}</p>
-                <p><strong>Historical Context:</strong> {book['historical_context']}</p>
+                <p><strong>Summary:</strong> {book['summary'][:100]}...</p>
             </div>
         """
         
-        # Now create the marker with validated coordinates
+        # Create marker with Icon for better visibility
         try:
-            marker = folium.CircleMarker(
+            # Use a more visible marker type
+            folium.Marker(
                 location=[lat, lng],
-                radius=8,
-                color='#1f77b4',
-                fill=True,
-                fill_opacity=0.8,
-                weight=2,
                 popup=folium.Popup(html, max_width=300),
-                tooltip=book['title']
-            )
-            marker.add_to(book_markers)
+                tooltip=book['title'],
+                icon=folium.Icon(color='blue', icon='book', prefix='fa')
+            ).add_to(book_markers)
             successful_markers += 1
         except Exception as e:
             st.warning(f"Could not add marker for {book['title']}: {str(e)}")
@@ -78,19 +66,22 @@ def add_book_markers(m, books_df):
     # Add the feature group to the map
     book_markers.add_to(m)
     
-    # Log marker count to help with debugging
-    st.info(f"Successfully added {successful_markers} book markers to the map")
+    if successful_markers == 0:
+        st.error("No markers could be added to the map. Please check your data.")
+    else:
+        st.success(f"Successfully added {successful_markers} book markers to the map")
 
 def create_literature_map(books_df):
     """Create the complete literature map with markers."""
     try:
+        # Create base map
         m = create_base_map()
         
-        # Add book markers
+        # Add markers
         add_book_markers(m, books_df)
         
-        # Add fullscreen control AFTER adding markers
-        folium.plugins.Fullscreen(
+        # Add fullscreen control
+        plugins.Fullscreen(
             position="topright",
             title="Expand map",
             title_cancel="Exit fullscreen",
@@ -100,5 +91,4 @@ def create_literature_map(books_df):
         return m
     except Exception as e:
         st.error(f"Error creating map: {str(e)}")
-        return None
         return None
