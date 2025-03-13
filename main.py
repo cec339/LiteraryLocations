@@ -66,8 +66,13 @@ try:
         if literary_map:
             folium_html = literary_map._repr_html_()
             st.markdown('<div class="map-container">', unsafe_allow_html=True)
-            # Use full viewport height (100vh) for better mobile display
-            components.html(folium_html, height=800, scrolling=False)
+            # Set height to almost full viewport height with !important flag for mobile
+            components.html(
+                folium_html, 
+                height=800,
+                scrolling=False,
+                width=None  # Let CSS control the width
+            )
             st.markdown('</div>', unsafe_allow_html=True)
 
             # Display book list in a collapsible section
