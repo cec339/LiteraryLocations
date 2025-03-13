@@ -74,10 +74,10 @@ try:
             with st.expander(f"Books from the {selected_century}{century_suffix} Century", expanded=False):
                 for _, book in filtered_books.iterrows():
                     with st.expander(f"{book['title']} by {book['author']}"):
-                    st.write(f"**Location:** {book['location_name']}")
-                    st.write(f"**Year:** {book['year']}")
-                    st.write(f"**Summary:** {book['summary']}")
-                    st.write(f"**Historical Context:** {book['historical_context']}")
+                        st.write(f"**Location:** {book['location_name']}")
+                        st.write(f"**Year:** {book['year']}")
+                        st.write(f"**Summary:** {book['summary']}")
+                        st.write(f"**Historical Context:** {book['historical_context']}")
     else:
         st.info("No books found for the selected century")
 
