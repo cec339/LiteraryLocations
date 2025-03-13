@@ -71,7 +71,7 @@ try:
                 folium_html, 
                 height=600,  # Adjusted height for better mobile display
                 scrolling=False,
-                width="100%"  # Ensure full width
+                width=None  # Use None to let it fill available space
             )
             st.markdown('</div>', unsafe_allow_html=True)
 
