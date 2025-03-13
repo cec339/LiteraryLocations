@@ -1,10 +1,10 @@
-
 [server]
 headless = true
 address = "0.0.0.0"
 port = 5000
 enableCORS = false
 enableXsrfProtection = false
+enableWebsocketCompression = true
 
 [theme]
 primaryColor = "#1f77b4"
@@ -21,3 +21,8 @@ fastReruns = true
 
 [ui]
 hideTopBar = true
+
+[global]
+developmentMode = false
+disableWatchdogWarning = true
+showWarningOnDirectExecution = false
