@@ -77,4 +77,15 @@
     .stMarkdown p {
         margin-bottom: 0.5rem !important;
     }
+    
+    /* Style for book listings */
+    .css-1r6slb0 {  /* Expander content container */
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+    
+    h3 {
+        margin-top: 1rem;
+        color: #1f77b4;
+    }
 }
