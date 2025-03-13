@@ -93,5 +93,8 @@ try:
         st.info("No books found for the selected century")
 
 except Exception as e:
+    import traceback
+    error_details = traceback.format_exc()
     st.error(f"An error occurred: {str(e)}")
+    st.error(f"Error details: {error_details}")
     st.info("Please try refreshing the page or contact support if the problem persists")

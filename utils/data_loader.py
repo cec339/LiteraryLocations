@@ -11,10 +11,25 @@ def load_book_data():
         # Convert to DataFrame for easier manipulation
         df = pd.DataFrame(data["books"])
 
-        # Extract coordinates into separate columns and ensure they're float type
-        df["latitude"] = df["location"].apply(lambda x: float(x["coordinates"][0]))
-        df["longitude"] = df["location"].apply(lambda x: float(x["coordinates"][1]))
-        df["location_name"] = df["location"].apply(lambda x: x["name"])
+        # Safer extraction with error handling
+        def safe_extract_coordinate(location, index):
+            try:
+                if location and "coordinates" in location and isinstance(location["coordinates"], list):
+                    coord = location["coordinates"][index]
+                    return float(coord) if coord is not None else 0.0
+                return 0.0
+            except (IndexError, ValueError, TypeError) as e:
+                print(f"Error extracting coordinate: {e}, location: {location}")
+                return 0.0
+                
+        # Extract coordinates with safer function
+        df["latitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 0))
+        df["longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
+        df["location_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
+        
+        # Print debugging info
+        print("Data types after extraction:")
+        print(df[["latitude", "longitude"]].dtypes)
 
         return df
     except Exception as e:
