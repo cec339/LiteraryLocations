@@ -43,3 +43,52 @@ def create_literature_map(books_df):
     except Exception as e:
         st.error(f"Error creating map: {str(e)}")
         return None
+import folium
+from folium.plugins import MarkerCluster
+
+def create_literature_map(books_df):
+    """
+    Create an interactive map showing literary locations
+    
+    Args:
+        books_df: DataFrame containing book data with latitude and longitude
+    
+    Returns:
+        folium.Map object
+    """
+    try:
+        # Create base map centered on average coordinates
+        avg_lat = books_df['latitude'].mean()
+        avg_lon = books_df['longitude'].mean()
+        
+        # Create a map
+        literary_map = folium.Map(
+            location=[avg_lat, avg_lon],
+            zoom_start=3,
+            tiles='CartoDB positron'
+        )
+        
+        # Add marker cluster
+        marker_cluster = MarkerCluster().add_to(literary_map)
+        
+        # Add markers for each book
+        for _, book in books_df.iterrows():
+            popup_html = f"""
+                <div style='width: 200px'>
+                    <h4>{book['title']}</h4>
+                    <p><b>Author:</b> {book['author']}</p>
+                    <p><b>Year:</b> {book['year']}</p>
+                </div>
+            """
+            
+            folium.Marker(
+                location=[book['latitude'], book['longitude']],
+                popup=folium.Popup(popup_html, max_width=300),
+                tooltip=book['title'],
+                icon=folium.Icon(icon='book', prefix='fa')
+            ).add_to(marker_cluster)
+        
+        return literary_map
+    except Exception as e:
+        print(f"Error creating map: {str(e)}")
+        return None
