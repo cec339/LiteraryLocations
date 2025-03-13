@@ -12,11 +12,20 @@
     padding-top: 3rem;
 }
 
-/* Make the map container responsive */
+/* Make the map container full screen and responsive */
 .folium-map {
     width: 100%;
-    height: 70vh;
+    height: 85vh;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Create a map container wrapper to ensure positioning */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 85vh;
 }
 
 /* Style the search box */
@@ -32,11 +41,40 @@
 /* Responsive design adjustments */
 @media (max-width: 768px) {
     .folium-map {
-        height: 50vh;
+        height: 80vh;
+    }
+    
+    .map-container {
+        height: 80vh;
     }
     
     .stSlider {
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+}
+
+/* Portrait orientation for mobile (9:16 ratio) */
+@media (max-width: 768px) and (orientation: portrait) {
+    .folium-map {
+        height: 90vh;
+    }
+    
+    .map-container {
+        height: 90vh;
+    }
+    
+    /* Compact UI for mobile portrait mode */
+    .stHeader {
+        margin-bottom: 0.5rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .stMarkdown p {
+        margin-bottom: 0.5rem !important;
     }
 }

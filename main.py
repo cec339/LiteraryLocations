@@ -19,9 +19,9 @@ st.set_page_config(
 with open("styles/custom.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Header
-st.title("📚 Literary World Map")
-st.markdown("Explore the geographical settings of classic literature through time")
+# Header (more compact)
+st.markdown("<h1 style='margin-bottom:0.5rem;'>📚 Literary World Map</h1>", unsafe_allow_html=True)
+st.markdown("<p style='margin-bottom:0.5rem;'>Explore the geographical settings of classic literature through time</p>", unsafe_allow_html=True)
 
 # Sidebar for search
 with st.sidebar:
@@ -65,13 +65,15 @@ try:
         literary_map = create_literature_map(filtered_books)
         if literary_map:
             folium_html = literary_map._repr_html_()
-            components.html(folium_html, height=600)
+            st.markdown('<div class="map-container">', unsafe_allow_html=True)
+            components.html(folium_html, height=800)
+            st.markdown('</div>', unsafe_allow_html=True)
 
-            # Display book list
+            # Display book list in a collapsible section
             century_suffix = get_century_suffix(selected_century)
-            st.subheader(f"Books from the {selected_century}{century_suffix} Century")
-            for _, book in filtered_books.iterrows():
-                with st.expander(f"{book['title']} by {book['author']}"):
+            with st.expander(f"Books from the {selected_century}{century_suffix} Century", expanded=False):
+                for _, book in filtered_books.iterrows():
+                    with st.expander(f"{book['title']} by {book['author']}"):
                     st.write(f"**Location:** {book['location_name']}")
                     st.write(f"**Year:** {book['year']}")
                     st.write(f"**Summary:** {book['summary']}")
