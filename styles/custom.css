@@ -57,16 +57,37 @@
 /* Portrait orientation for mobile (9:16 ratio) */
 @media (max-width: 768px) and (orientation: portrait) {
     .folium-map {
-        height: 90vh;
+        height: 100vh !important;
+        width: 100vw !important;
+        margin: 0 !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        z-index: 100 !important;
     }
     
     .map-container {
-        height: 90vh;
+        height: 100vh !important;
+        width: 100vw !important;
+        margin: 0 !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    
+    /* Make header and controls float over map */
+    .stApp {
+        background: transparent !important;
     }
     
     /* Compact UI for mobile portrait mode */
     .stHeader {
         margin-bottom: 0.5rem;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 5px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 101;
     }
     
     h1 {
@@ -76,6 +97,16 @@
     
     .stMarkdown p {
         margin-bottom: 0.5rem !important;
+    }
+    
+    /* Make slider overlay on map */
+    .stSlider {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+        position: relative;
+        z-index: 101;
     }
     
     /* Style for book listings */

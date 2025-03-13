@@ -46,7 +46,7 @@ try:
         step=1,
         help="Slide to explore literature from different centuries"
     )
-    
+
     # Get the correct suffix for the century
     def get_century_suffix(century):
         if century == 21:
@@ -66,7 +66,8 @@ try:
         if literary_map:
             folium_html = literary_map._repr_html_()
             st.markdown('<div class="map-container">', unsafe_allow_html=True)
-            components.html(folium_html, height=800)
+            # Use full viewport height (100vh) for better mobile display
+            components.html(folium_html, height=800, scrolling=False)
             st.markdown('</div>', unsafe_allow_html=True)
 
             # Display book list in a collapsible section
