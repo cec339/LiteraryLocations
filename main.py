@@ -27,13 +27,16 @@ st.markdown("<p style='margin-bottom:0.5rem;'>Explore the geographical settings 
 with st.sidebar:
     st.header("Search Books")
     search_query = st.text_input("Search by title or author")
-
+    
     if search_query:
         search_results = search_books(search_query)
         if not search_results.empty:
             st.success(f"Found {len(search_results)} matching books")
+            st.info("Clear the search box and press Enter to return to century view")
         else:
             st.warning("No books found matching your search")
+    else:
+        st.info("Use the slider to explore books by century")
 
 # Main content
 try:
