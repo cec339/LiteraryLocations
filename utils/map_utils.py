@@ -79,7 +79,6 @@ def create_literature_map(books_df):
             folium.Marker(
                 location=[float(book['latitude']), float(book['longitude'])],
                 popup=folium.Popup(popup_html, max_width=300),
-                tooltip=book['title'],
                 icon=folium.Icon(icon='book', prefix='fa')
             ).add_to(marker_cluster)
 
