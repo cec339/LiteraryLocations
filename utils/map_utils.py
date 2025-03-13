@@ -1,5 +1,5 @@
 import folium
-from folium import plugins
+from folium.plugins import MarkerCluster
 import streamlit as st
 
 def create_base_map():
@@ -35,42 +35,34 @@ def add_book_markers(m, books_df):
         ).add_to(m)
 
 def create_literature_map(books_df):
-    """Create the complete literature map with markers."""
-    try:
-        m = create_base_map()
-        add_book_markers(m, books_df)
-        return m
-    except Exception as e:
-        st.error(f"Error creating map: {str(e)}")
-        return None
-import folium
-from folium.plugins import MarkerCluster
-
-def create_literature_map(books_df):
     """
     Create an interactive map showing literary locations
-    
+
     Args:
         books_df: DataFrame containing book data with latitude and longitude
-    
+
     Returns:
         folium.Map object
     """
     try:
+        # Make sure latitude and longitude are float type
+        books_df['latitude'] = books_df['latitude'].astype(float)
+        books_df['longitude'] = books_df['longitude'].astype(float)
+
         # Create base map centered on average coordinates
         avg_lat = books_df['latitude'].mean()
         avg_lon = books_df['longitude'].mean()
-        
+
         # Create a map
         literary_map = folium.Map(
             location=[avg_lat, avg_lon],
             zoom_start=3,
             tiles='CartoDB positron'
         )
-        
+
         # Add marker cluster
         marker_cluster = MarkerCluster().add_to(literary_map)
-        
+
         # Add markers for each book
         for _, book in books_df.iterrows():
             popup_html = f"""
@@ -80,15 +72,15 @@ def create_literature_map(books_df):
                     <p><b>Year:</b> {book['year']}</p>
                 </div>
             """
-            
+
             folium.Marker(
-                location=[book['latitude'], book['longitude']],
+                location=[float(book['latitude']), float(book['longitude'])],
                 popup=folium.Popup(popup_html, max_width=300),
                 tooltip=book['title'],
                 icon=folium.Icon(icon='book', prefix='fa')
             ).add_to(marker_cluster)
-        
+
         return literary_map
     except Exception as e:
-        print(f"Error creating map: {str(e)}")
+        st.error(f"Error creating map: {str(e)}")
         return None

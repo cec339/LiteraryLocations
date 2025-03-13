@@ -11,9 +11,9 @@ def load_book_data():
         # Convert to DataFrame for easier manipulation
         df = pd.DataFrame(data["books"])
 
-        # Extract coordinates into separate columns
-        df["latitude"] = df["location"].apply(lambda x: x["coordinates"][0])
-        df["longitude"] = df["location"].apply(lambda x: x["coordinates"][1])
+        # Extract coordinates into separate columns and ensure they're float type
+        df["latitude"] = df["location"].apply(lambda x: float(x["coordinates"][0]))
+        df["longitude"] = df["location"].apply(lambda x: float(x["coordinates"][1]))
         df["location_name"] = df["location"].apply(lambda x: x["name"])
 
         return df
