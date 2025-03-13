@@ -94,4 +94,4 @@ try:
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
-    st.info("Please try refreshing the page or contact support if the problem persists")sts.")
+    st.info("Please try refreshing the page or contact support if the problem persists")
