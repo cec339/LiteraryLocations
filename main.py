@@ -84,7 +84,7 @@ try:
             """
             
             # Use full HTML with embedded styles to control the iframe
-            st.components.html(
+            st.components.v1.html(
                 html_content,
                 height=610,  # Slightly larger than the map to avoid scrolling
                 scrolling=False
