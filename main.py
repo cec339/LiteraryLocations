@@ -27,6 +27,11 @@ st.markdown("<p style='margin-bottom:0.5rem;'>Explore the geographical settings 
 # Create session state to store the selected century between reruns
 if 'selected_century' not in st.session_state:
     st.session_state.selected_century = 19
+# Create a flag to track if we've already processed this search
+if 'last_search_query' not in st.session_state:
+    st.session_state.last_search_query = ""
+if 'century_updated' not in st.session_state:
+    st.session_state.century_updated = False
 
 with st.sidebar:
     st.header("Search Books")
@@ -38,16 +43,23 @@ with st.sidebar:
             st.success(f"Found {len(search_results)} matching books")
             st.info("Clear the search box and press Enter to return to century view")
             
-            # Update the session state with the century of the first found book
-            if 'century' in search_results.columns and not search_results.empty:
+            # Only update century and rerun if this is a new search
+            if (search_query != st.session_state.last_search_query and 
+                not st.session_state.century_updated and
+                'century' in search_results.columns):
                 # Get the most common century in search results to set the slider
                 most_common_century = search_results['century'].mode()[0]
                 st.session_state.selected_century = int(most_common_century)
+                st.session_state.last_search_query = search_query
+                st.session_state.century_updated = True
                 # Force rerun to update the slider with the new century value
                 st.rerun()
         else:
             st.warning("No books found matching your search")
     else:
+        # Reset the flags when search is cleared
+        st.session_state.last_search_query = ""
+        st.session_state.century_updated = False
         st.info("Use the slider to explore books by century")
 
 # Main content
