@@ -65,15 +65,30 @@ try:
         literary_map = create_literature_map(filtered_books)
         if literary_map:
             folium_html = literary_map._repr_html_()
-            st.markdown('<div class="map-container">', unsafe_allow_html=True)
-            # Set height to maximize map size on mobile
-            components.html(
-                folium_html, 
-                height=600,  # Adjusted height for better mobile display
-                scrolling=False,
-                width=None  # Use None to let it fill available space
+            
+            # Custom HTML with fixed styling to ensure proper display
+            html_content = f"""
+            <div class="map-container" style="width:100%; height:600px; position:relative;">
+                {folium_html}
+            </div>
+            <style>
+                .map-container iframe {{
+                    width: 100% !important;
+                    height: 600px !important;
+                    border: none !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 0 !important;
+                }}
+            </style>
+            """
+            
+            # Use full HTML with embedded styles to control the iframe
+            st.components.html(
+                html_content,
+                height=610,  # Slightly larger than the map to avoid scrolling
+                scrolling=False
             )
-            st.markdown('</div>', unsafe_allow_html=True)
 
             # Display book list in a collapsible section
             century_suffix = get_century_suffix(selected_century)

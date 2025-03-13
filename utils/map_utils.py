@@ -45,12 +45,6 @@ def create_literature_map(books_df):
         folium.Map object
     """
     try:
-        # Debug print to check coordinates before conversion
-        st.write("Debug - coordinate types before conversion:")
-        for i, (lat, lon) in enumerate(zip(books_df['latitude'], books_df['longitude'])):
-            st.write(f"Book {i+1}: lat type={type(lat)}, lon type={type(lon)}")
-            st.write(f"Values: lat={lat}, lon={lon}")
-            
         # Make sure latitude and longitude are float type
         books_df['latitude'] = books_df['latitude'].astype(float)
         books_df['longitude'] = books_df['longitude'].astype(float)
