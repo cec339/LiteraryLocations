@@ -66,10 +66,13 @@ def create_literature_map(books_df):
         # Add markers for each book
         for _, book in books_df.iterrows():
             popup_html = f"""
-                <div style='width: 200px'>
+                <div style='width: 250px'>
                     <h4>{book['title']}</h4>
                     <p><b>Author:</b> {book['author']}</p>
                     <p><b>Year:</b> {book['year']}</p>
+                    <p><b>Location:</b> {book['location_name']}</p>
+                    <p><b>Summary:</b> {book['summary']}</p>
+                    <p><b>Historical Context:</b> {book['historical_context']}</p>
                 </div>
             """
 
