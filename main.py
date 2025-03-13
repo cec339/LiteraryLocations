@@ -24,6 +24,10 @@ st.markdown("<h1 style='margin-bottom:0.5rem;'>📚 Literary World Map</h1>", un
 st.markdown("<p style='margin-bottom:0.5rem;'>Explore the geographical settings of classic literature through time</p>", unsafe_allow_html=True)
 
 # Sidebar for search
+# Create session state to store the selected century between reruns
+if 'selected_century' not in st.session_state:
+    st.session_state.selected_century = 19
+
 with st.sidebar:
     st.header("Search Books")
     search_query = st.text_input("Search by title or author")
@@ -33,6 +37,12 @@ with st.sidebar:
         if not search_results.empty:
             st.success(f"Found {len(search_results)} matching books")
             st.info("Clear the search box and press Enter to return to century view")
+            
+            # Update the session state with the century of the first found book
+            if 'century' in search_results.columns and not search_results.empty:
+                # Get the most common century in search results to set the slider
+                most_common_century = search_results['century'].mode()[0]
+                st.session_state.selected_century = most_common_century
         else:
             st.warning("No books found matching your search")
     else:
@@ -45,10 +55,13 @@ try:
         "Select Century",
         min_value=14,
         max_value=21,
-        value=19,
+        value=st.session_state.selected_century,
         step=1,
         help="Slide to explore literature from different centuries"
     )
+    
+    # Update session state when slider is moved
+    st.session_state.selected_century = selected_century
 
     # Get the correct suffix for the century
     def get_century_suffix(century):
