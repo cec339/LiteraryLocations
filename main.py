@@ -66,10 +66,10 @@ try:
         if literary_map:
             folium_html = literary_map._repr_html_()
             st.markdown('<div class="map-container">', unsafe_allow_html=True)
-            # Set height to almost full viewport height with !important flag for mobile
+            # Set height to full viewport height to maximize map size on mobile
             components.html(
                 folium_html, 
-                height=800,
+                height=900,  # Increased height for better mobile display
                 scrolling=False,
                 width=None  # Let CSS control the width
             )
