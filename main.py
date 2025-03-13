@@ -42,7 +42,9 @@ with st.sidebar:
             if 'century' in search_results.columns and not search_results.empty:
                 # Get the most common century in search results to set the slider
                 most_common_century = search_results['century'].mode()[0]
-                st.session_state.selected_century = most_common_century
+                st.session_state.selected_century = int(most_common_century)
+                # Force rerun to update the slider with the new century value
+                st.rerun()
         else:
             st.warning("No books found matching your search")
     else:
