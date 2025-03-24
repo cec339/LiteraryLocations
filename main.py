@@ -131,7 +131,7 @@ try:
                     st.markdown("---")
                     col1, col2 = st.columns([1, 2])
                     with col1:
-                        st.write(f"**Location:** {book['location_name']}")
+                        st.write(f"**Location:** {book['setting_name']}")
                         st.write(f"**Year:** {book['year']}")
                     with col2:
                         st.write(f"**Summary:** {book['summary']}")
