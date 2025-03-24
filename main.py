@@ -64,13 +64,24 @@ with st.sidebar:
 
 # Main content
 try:
-    # Century selector with fixed range
-    selected_century = st.slider(
+    # Century selector with fixed range and markers
+    marks = {
+        -20: '-20 BCE',
+        -15: '-15 BCE',
+        -10: '-10 BCE',
+        -5: '-5 BCE',
+        0: '0',
+        5: '5 CE',
+        10: '10 CE',
+        15: '15 CE',
+        20: '20 CE'
+    }
+    
+    selected_century = st.select_slider(
         "Select Century",
-        min_value=-20,
-        max_value=21,
+        options=range(-20, 22),
         value=st.session_state.selected_century,
-        step=1,
+        format_func=lambda x: marks.get(x, str(x)),
         key="century_slider",
         help="Slide to explore literature through time (negative numbers indicate BCE)"
     )
