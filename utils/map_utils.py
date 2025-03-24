@@ -20,7 +20,7 @@ def add_book_markers(m, books_df):
                 <h4>{book['title']}</h4>
                 <p><strong>Author:</strong> {book['author']}</p>
                 <p><strong>Year:</strong> {book['year']}</p>
-                <p><strong>Location:</strong> {book['location_name']}</p>
+                <p><strong>Location:</strong> {book['setting_name']}</p>
                 <p><strong>Summary:</strong> {book['summary']}</p>
                 <p><strong>Historical Context:</strong> {book['historical_context']}</p>
             </div>
