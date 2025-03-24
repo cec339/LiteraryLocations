@@ -47,12 +47,12 @@ def create_literature_map(books_df):
     """
     try:
         # Make sure latitude and longitude are float type
-        books_df['latitude'] = books_df['latitude'].astype(float)
-        books_df['longitude'] = books_df['longitude'].astype(float)
+        books_df['setting_latitude'] = books_df['setting_latitude'].astype(float)
+        books_df['setting_longitude'] = books_df['setting_longitude'].astype(float)
 
         # Create base map centered on average coordinates
-        avg_lat = books_df['latitude'].mean()
-        avg_lon = books_df['longitude'].mean()
+        avg_lat = books_df['setting_latitude'].mean()
+        avg_lon = books_df['setting_longitude'].mean()
 
         # Create a map
         literary_map = folium.Map(
