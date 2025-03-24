@@ -76,38 +76,31 @@ try:
     century_label = f"Century: {abs(display_century)} {century_suffix}"
     st.markdown(f"<h3 style='text-align: center;'>{century_label}</h3>", unsafe_allow_html=True)
     
-    # Century selector with fixed range, skipping 0
-    selected_century = st.slider(
+    # Create a list of centuries that excludes 0
+    century_options = list(range(-20, 0)) + list(range(1, 22))
+    
+    # Find the index of the current selected century in our options
+    try:
+        current_index = century_options.index(st.session_state.selected_century)
+    except ValueError:
+        # If the current value isn't in the list (shouldn't happen), default to 19th century
+        current_index = century_options.index(19)
+    
+    # Century selector with custom range that excludes 0
+    selected_century = st.select_slider(
             "",  # Empty label since we have the header above
-            min_value=-20,
-            max_value=21,
-            value=st.session_state.selected_century,
-            step=1,
+            options=century_options,
+            value=century_options[current_index],
             key="century_slider",
             help="Slide to explore literature through time"
         )
-        
-    # Update session state and adjust for Century 0
+    
+    # Update session state if changed
     if selected_century != st.session_state.selected_century:
-        # Skip century 0 when moving from -1 to 1
-        if selected_century == 0:
-            # Determine direction (coming from negative or positive)
-            prev_century = st.session_state.selected_century
-            if prev_century < 0:
-                selected_century = 1  # Moving forward, skip to 1 CE
-            else:
-                selected_century = -1  # Moving backward, skip to 1 BCE
-        
         st.session_state.selected_century = selected_century
         st.rerun()
         
-        # Add visual markers below slider
-    markers = {-20: "20 BCE", -15: "15 BCE", -10: "10 BCE", -5: "5 BCE", 1: "1 CE", 5: "5 CE", 10: "10 CE", 15: "15 CE", 20: "20 CE"}
-    marker_html = "<div style='display: flex; justify-content: space-between; margin-top: -20px;'>"
-    for value in markers.values():
-        marker_html += f"<span style='color: #1f77b4;'>{value}</span>"
-    marker_html += "</div>"
-    st.markdown(marker_html, unsafe_allow_html=True)
+        # We don't need manual markers with select_slider as it already shows labels
     
     # Update session state only if the value has changed
     if st.session_state.century_slider != st.session_state.selected_century:

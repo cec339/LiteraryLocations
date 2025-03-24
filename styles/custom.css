@@ -55,37 +55,9 @@ iframe {
     background-color: #1f77b4;
 }
 
-/* Add notches to the slider */
-.stSlider [data-baseweb="slider"] {
-    height: 48px !important;
+/* Style for select slider */
+[data-testid="stSelectSlider"] {
     padding: 10px 0 !important;
-}
-
-.stSlider [data-testid="stSliderBar"] {
-    background: repeating-linear-gradient(
-        90deg,
-        rgba(31, 119, 180, 0.6),
-        rgba(31, 119, 180, 0.6) 1px,
-        transparent 1px,
-        transparent calc(100% / 41)
-    ) !important;
-    height: 6px !important;
-}
-
-/* Add tick mark values */
-.stSlider::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1em;
-    bottom: -1.5em;
-    background: repeating-linear-gradient(
-        90deg,
-        rgba(31, 119, 180, 0.8),
-        rgba(31, 119, 180, 0.8) 1px,
-        transparent 1px,
-        transparent calc(100% / 41)
-    );
 }
 
 /* Improve slider handle visibility */
