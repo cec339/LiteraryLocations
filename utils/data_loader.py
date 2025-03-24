@@ -27,12 +27,13 @@ def load_book_data():
         df["setting_longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
         df["setting_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
 
-        # Determine if setting is fictional
+        # Determine if setting is fictional or metaphysical
         df["is_fictional"] = df["setting_name"].apply(
-            lambda x: "Various" in x or "Fictional" in x or "Unknown" in x
+            lambda x: any(keyword in str(x) for keyword in 
+                ["Various", "Fictional", "Unknown", "Multiple Settings", "Heaven", "Hell", "Paradise", "Purgatory"])
         )
 
-        # For books with fictional or multiple settings, use publication location
+        # For books with fictional/metaphysical settings, use publication location
         df["publication_latitude"] = df.apply(
             lambda row: row["setting_latitude"] if not row["is_fictional"] else None, 
             axis=1

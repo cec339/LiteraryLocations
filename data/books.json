@@ -1,6 +1,42 @@
 {
     "books": [
         {
+            "title": "Paradise Lost",
+            "author": "John Milton",
+            "year": 1667,
+            "century": 17,
+            "location": {
+                "name": "Multiple Settings (Heaven, Hell, Eden)",
+                "coordinates": [51.5074, -0.1278]  
+            },
+            "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
+            "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
+        },
+        {
+            "title": "The Book of the Dead",
+            "author": "Anonymous",
+            "year": -1550,
+            "century": -16,
+            "location": {
+                "name": "Ancient Egypt (Multiple Locations)",
+                "coordinates": [25.6872, 32.6396]
+            },
+            "summary": "Collection of spells and instructions for the journey through the afterlife.",
+            "historical_context": "Developed over centuries in ancient Egypt, fundamental to Egyptian religious beliefs."
+        },
+        {
+            "title": "The Divine Comedy",
+            "author": "Dante Alighieri",
+            "year": 1320,
+            "century": 14,
+            "location": {
+                "name": "Multiple Settings (Hell, Purgatory, Paradise)",
+                "coordinates": [43.7696, 11.2558]  
+            },
+            "summary": "Allegorical journey through the afterlife realms of Hell, Purgatory, and Paradise.",
+            "historical_context": "Written during Dante's exile from Florence, reflecting medieval Christian theology and Italian politics."
+        },
+        {
             "title": "The Canterbury Tales",
             "author": "Geoffrey Chaucer",
             "year": 1400,
@@ -71,18 +107,6 @@
             },
             "summary": "A collection of 100 tales told by ten young people sheltering from the Black Death.",
             "historical_context": "Written during the aftermath of the Black Death, reflecting medieval Italian society and values."
-        },
-        {
-            "title": "Paradise Lost",
-            "author": "John Milton",
-            "year": 1667,
-            "century": 17,
-            "location": {
-                "name": "Garden of Eden",
-                "coordinates": [33.3152, 44.3661]
-            },
-            "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
-            "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
         },
         {
             "title": "The Tale of the Heike",
@@ -378,8 +402,8 @@
             "year": 1979,
             "century": 20,
             "location": {
-                "name": "Various locations",
-                "coordinates": [45.4642, 9.1900]
+                "name": "Various Fictional Settings",
+                "coordinates": [45.4642, 9.1900] 
             },
             "summary": "A novel about reading novels, where the reader becomes a character in the story.",
             "historical_context": "Written during postmodernism's height, experimenting with narrative structure and reader involvement."
@@ -575,18 +599,6 @@
             },
             "summary": "The definitive biography of the great literary figure Samuel Johnson.",
             "historical_context": "Written during the Age of Enlightenment, pioneering modern biography."
-        },
-        {
-            "title": "The Book of the Dead",
-            "author": "Anonymous",
-            "year": -1550,
-            "century": 16,
-            "location": {
-                "name": "Ancient Egypt",
-                "coordinates": [25.6872, 32.6396]
-            },
-            "summary": "Collection of spells and instructions for the journey through the afterlife.",
-            "historical_context": "Developed over centuries in ancient Egypt, fundamental to Egyptian religious beliefs."
         },
         {
             "title": "The Tale of Lady Ochikubo",
