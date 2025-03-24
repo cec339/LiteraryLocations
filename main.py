@@ -64,27 +64,32 @@ with st.sidebar:
 
 # Main content
 try:
-    # Century selector with fixed range and markers
-    marks = {
-        -20: '-20 BCE',
-        -15: '-15 BCE',
-        -10: '-10 BCE',
-        -5: '-5 BCE',
-        0: '0',
-        5: '5 CE',
-        10: '10 CE',
-        15: '15 CE',
-        20: '20 CE'
-    }
+    # Create columns for better layout
+    col1, col2, col3 = st.columns([1, 3, 1])
     
-    selected_century = st.select_slider(
-        "Select Century",
-        options=range(-20, 22),
-        value=st.session_state.selected_century,
-        format_func=lambda x: marks.get(x, str(x)),
-        key="century_slider",
-        help="Slide to explore literature through time (negative numbers indicate BCE)"
-    )
+    with col2:
+        # Add century label above slider
+        century_label = f"Century: {st.session_state.selected_century} {'BCE' if st.session_state.selected_century <= 0 else 'CE'}"
+        st.markdown(f"<h3 style='text-align: center;'>{century_label}</h3>", unsafe_allow_html=True)
+        
+        # Century selector with fixed range
+        selected_century = st.slider(
+            "",  # Empty label since we have the header above
+            min_value=-20,
+            max_value=21,
+            value=st.session_state.selected_century,
+            step=1,
+            key="century_slider",
+            help="Slide to explore literature through time"
+        )
+        
+        # Add visual markers below slider
+        markers = {-20: "20 BCE", -10: "10 BCE", 0: "0", 10: "10 CE", 20: "20 CE"}
+        marker_html = "<div style='display: flex; justify-content: space-between; margin-top: -20px;'>"
+        for value in markers.values():
+            marker_html += f"<span style='color: #1f77b4;'>{value}</span>"
+        marker_html += "</div>"
+        st.markdown(marker_html, unsafe_allow_html=True)
     
     # Update session state only if the value has changed
     if st.session_state.century_slider != st.session_state.selected_century:
