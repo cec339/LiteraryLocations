@@ -77,24 +77,18 @@ def create_literature_map(books_df):
                 </div>
             """
 
-            # Add setting location marker (red)
-            setting_location = [float(book['latitude']), float(book['longitude'])]
+            # Add a single marker - red for setting, blue for publication
+            location = [float(book['latitude']), float(book['longitude'])]
+            color = 'red'  # Default to red for setting location
+            
+            if 'publication_location' in book and isinstance(book['publication_location'], dict):
+                color = 'blue'  # Use blue for publication location
+            
             folium.Marker(
-                location=setting_location,
+                location=location,
                 popup=folium.Popup(popup_html, max_width=300),
-                icon=folium.Icon(icon='book', prefix='fa', color='red')
+                icon=folium.Icon(icon='book', prefix='fa', color=color)
             ).add_to(marker_cluster)
-
-            # Add publication location marker if different (blue)
-            if 'publication_location' in book and book['publication_location'] != book['location_name']:
-                pub_coords = book['publication_location'].get('coordinates', None) if book['publication_location'] else None
-                if pub_coords:
-                    pub_location = [float(pub_coords[0]), float(pub_coords[1])]
-                    folium.Marker(
-                        location=pub_location,
-                        popup=folium.Popup(f"Publication location of {book['title']}", max_width=300),
-                        icon=folium.Icon(icon='book', prefix='fa', color='blue')
-                    ).add_to(marker_cluster)
 
         return literary_map
     except Exception as e:
