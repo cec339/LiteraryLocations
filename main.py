@@ -65,7 +65,15 @@ with st.sidebar:
 # Main content
 try:
     # Add century label above slider
-    century_label = f"Century: {st.session_state.selected_century} {'BCE' if st.session_state.selected_century <= 0 else 'CE'}"
+    # Ensure proper century label display - skip Century 0
+    display_century = st.session_state.selected_century
+    if display_century == 0:
+        display_century = display_century + 1
+        century_suffix = "CE"
+    else:
+        century_suffix = "BCE" if display_century < 0 else "CE"
+    
+    century_label = f"Century: {abs(display_century)} {century_suffix}"
     st.markdown(f"<h3 style='text-align: center;'>{century_label}</h3>", unsafe_allow_html=True)
     
     # Century selector with fixed range, skipping 0
@@ -78,9 +86,20 @@ try:
             key="century_slider",
             help="Slide to explore literature through time"
         )
-    # Adjust century value to skip 0 (there is no Century 0)
-    if selected_century >= 0:
-        selected_century += 1
+        
+    # Update session state and adjust for Century 0
+    if selected_century != st.session_state.selected_century:
+        # Skip century 0 when moving from -1 to 1
+        if selected_century == 0:
+            # Determine direction (coming from negative or positive)
+            prev_century = st.session_state.selected_century
+            if prev_century < 0:
+                selected_century = 1  # Moving forward, skip to 1 CE
+            else:
+                selected_century = -1  # Moving backward, skip to 1 BCE
+        
+        st.session_state.selected_century = selected_century
+        st.rerun()
         
         # Add visual markers below slider
     markers = {-20: "20 BCE", -15: "15 BCE", -10: "10 BCE", -5: "5 BCE", 1: "1 CE", 5: "5 CE", 10: "10 CE", 15: "15 CE", 20: "20 CE"}
