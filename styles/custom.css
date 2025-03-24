@@ -56,18 +56,17 @@ iframe {
     background-color: #1f77b4;
 }
 
-/* DIRECT SLIDER STYLING - MUCH MORE SPECIFIC SELECTORS */
-/* Outer container for select slider */
+/* Simple slider styling without complex notches */
 div[data-testid="stSelectSlider"] {
-    padding: 30px 0 !important;
+    padding: 15px 0 30px 0 !important;
     position: relative !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 20px !important;
 }
 
 /* Slider track - the blue line */
 div[data-testid="stSelectSlider"] div[data-baseweb="slider"] div[role="slider"] {
     background-color: white !important;
-    border: 2px solid #1f77b4 !important;
+    border: 3px solid #1f77b4 !important;
     box-shadow: 0 0 5px rgba(0,0,0,0.3) !important;
 }
 
@@ -75,45 +74,6 @@ div[data-testid="stSelectSlider"] div[data-baseweb="slider"] div[role="slider"] 
 div[data-testid="stSelectSlider"] div[data-baseweb="slider"] div[class*="track"] {
     background-color: #1f77b4 !important;
     height: 6px !important;
-}
-
-/* NOTCHES IMPLEMENTATION 1: Create a full-width grid below slider */
-div[data-testid="stSelectSlider"]::after {
-    content: '';
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    right: 0;
-    height: 15px;
-    background-image: linear-gradient(90deg, #1f77b4 1px, transparent 1px);
-    background-size: calc(100% / 41) 100%;
-    z-index: 100;
-}
-
-/* NOTCHES IMPLEMENTATION 2: Add a visible tick row above slider */
-div[data-testid="stSelectSlider"]::before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 0;
-    right: 0;
-    height: 15px;
-    background-image: linear-gradient(90deg, #1f77b4 1px, transparent 1px);
-    background-size: calc(100% / 41) 100%;
-    z-index: 100;
-}
-
-/* NOTCHES IMPLEMENTATION 3: Add major ticks for significant centuries */
-div[data-testid="stSelectSlider"] > div[data-baseweb="slider"]::before {
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background-image: linear-gradient(90deg, rgba(31, 119, 180, 0.8) 2px, transparent 2px);
-    background-size: calc(100% / 8) 100%;
-    z-index: 100;
 }
 
 /* Improve slider handle visibility */

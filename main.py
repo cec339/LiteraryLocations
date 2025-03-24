@@ -19,6 +19,69 @@ st.set_page_config(
 with open("styles/custom.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+# Add custom JavaScript for creating notches
+notch_js = """
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to add notches to the slider
+    function addNotchesToSlider() {
+        const sliderContainer = document.querySelector('[data-testid="stSelectSlider"]');
+        if (!sliderContainer) return;
+        
+        // Remove any existing notches div to avoid duplicates
+        const existingNotches = document.getElementById('slider-notches');
+        if (existingNotches) existingNotches.remove();
+        
+        // Create new notches container
+        const notchesContainer = document.createElement('div');
+        notchesContainer.id = 'slider-notches';
+        notchesContainer.style.position = 'absolute';
+        notchesContainer.style.bottom = '0';
+        notchesContainer.style.left = '0';
+        notchesContainer.style.right = '0';
+        notchesContainer.style.height = '20px';
+        notchesContainer.style.pointerEvents = 'none';
+        
+        // Add 41 notches (for centuries from -20 to 21, excluding 0)
+        const totalNotches = 41;
+        for (let i = 0; i < totalNotches; i++) {
+            const notch = document.createElement('div');
+            notch.style.position = 'absolute';
+            notch.style.bottom = '0';
+            notch.style.left = `${(i / (totalNotches-1)) * 100}%`;
+            notch.style.width = '2px';
+            notch.style.height = '10px';
+            notch.style.backgroundColor = '#1f77b4';
+            notchesContainer.appendChild(notch);
+            
+            // Add major notches (every 5 centuries)
+            if (i % 5 === 0) {
+                notch.style.height = '15px';
+                notch.style.width = '3px';
+            }
+        }
+        
+        sliderContainer.appendChild(notchesContainer);
+    }
+    
+    // Initial call
+    setTimeout(addNotchesToSlider, 1000);
+    
+    // Set up a mutation observer to detect DOM changes and add notches when slider appears
+    const observer = new MutationObserver(function(mutations) {
+        addNotchesToSlider();
+    });
+    
+    // Start observing the document body for changes
+    observer.observe(document.body, { 
+        childList: true, 
+        subtree: true 
+    });
+});
+</script>
+"""
+st.components.v1.html(notch_js, height=0)
+
 # Header (more compact)
 st.markdown("<h1 style='margin-bottom:0.5rem;'>📚 Literary World Map</h1>", unsafe_allow_html=True)
 st.markdown("<p style='margin-bottom:0.5rem;'>Explore the geographical settings of classic literature through time</p>", unsafe_allow_html=True)
