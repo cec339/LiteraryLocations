@@ -635,6 +635,42 @@
             },
             "summary": "Chronicles four centuries of Balkan history through the story of a bridge.",
             "historical_context": "Spanning Ottoman to Austro-Hungarian rule, examining Balkan cultural intersections."
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "century": 20,
+            "location": {
+                "name": "Long Island, New York",
+                "coordinates": [40.7891, -73.1350]
+            },
+            "summary": "A mysterious millionaire's obsessive quest for his lost love amid the decadence of the Jazz Age.",
+            "historical_context": "Written during the Roaring Twenties, examining the American Dream and social excess."
+        },
+        {
+            "title": "Moby-Dick",
+            "author": "Herman Melville",
+            "year": 1851,
+            "century": 19,
+            "location": {
+                "name": "Pacific Ocean",
+                "coordinates": [0.0000, -160.0000]
+            },
+            "summary": "Captain Ahab's obsessive quest for revenge against the white whale Moby Dick.",
+            "historical_context": "Written during America's whaling era, exploring themes of obsession and nature."
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "century": 19,
+            "location": {
+                "name": "Hertfordshire, England",
+                "coordinates": [51.8300, -0.2000]
+            },
+            "summary": "Elizabeth Bennet's journey of love and self-discovery in Georgian era England.",
+            "historical_context": "Written during the Regency period, examining class, marriage, and social expectations."
         }
     ]
 }
