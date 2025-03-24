@@ -77,20 +77,13 @@ def create_literature_map(books_df):
                 </div>
             """
 
-            # Determine if location is fictional
-            fictional_keywords = ['fictional', 'various', 'imaginary', 'unnamed']
-            is_fictional = any(keyword.lower() in book['setting_name'].lower() for keyword in fictional_keywords)
-            
-            # Add setting location marker
+            # Add location marker
             setting_location = [book['setting_latitude'], book['setting_longitude']]
-            setting_color = 'purple' if is_fictional else 'red'
             folium.Marker(
                 location=setting_location,
                 popup=folium.Popup(popup_html, max_width=300),
-                icon=folium.Icon(icon='book', prefix='fa', color=setting_color)
+                icon=folium.Icon(icon='book', prefix='fa', color='red')
             ).add_to(marker_cluster)
-
-            # Add publication location marker if exists
             if pd.notna(book['publication_latitude']) and pd.notna(book['publication_longitude']):
                 pub_location = [float(book['publication_latitude']), float(book['publication_longitude'])]
                 folium.Marker(
@@ -104,9 +97,7 @@ def create_literature_map(books_df):
         <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; 
                     padding: 10px; border: 2px solid grey; border-radius: 5px">
             <h4>Legend</h4>
-            <p><i class="fa fa-book" style="color: red"></i> Real Location</p>
-            <p><i class="fa fa-book" style="color: purple"></i> Fictional Location</p>
-            <p><i class="fa fa-book" style="color: blue"></i> Publication Location</p>
+            <p><i class="fa fa-book" style="color: red"></i> Book Location</p>
         </div>
         '''
         literary_map.get_root().html.add_child(folium.Element(legend_html))
