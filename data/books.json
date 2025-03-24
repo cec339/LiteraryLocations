@@ -7,7 +7,7 @@
             "century": 17,
             "location": {
                 "name": "Multiple Settings (Heaven, Hell, Eden)",
-                "coordinates": [51.5074, -0.1278]  
+                "coordinates": [51.5074, -0.1278]
             },
             "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
             "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
@@ -31,7 +31,7 @@
             "century": 14,
             "location": {
                 "name": "Multiple Settings (Hell, Purgatory, Paradise)",
-                "coordinates": [43.7696, 11.2558]  
+                "coordinates": [43.7696, 11.2558]
             },
             "summary": "Allegorical journey through the afterlife realms of Hell, Purgatory, and Paradise.",
             "historical_context": "Written during Dante's exile from Florence, reflecting medieval Christian theology and Italian politics."
@@ -403,7 +403,7 @@
             "century": 20,
             "location": {
                 "name": "Various Fictional Settings",
-                "coordinates": [45.4642, 9.1900] 
+                "coordinates": [45.4642, 9.1900]
             },
             "summary": "A novel about reading novels, where the reader becomes a character in the story.",
             "historical_context": "Written during postmodernism's height, experimenting with narrative structure and reader involvement."
@@ -683,6 +683,125 @@
             },
             "summary": "Elizabeth Bennet's journey of love and self-discovery in Georgian era England.",
             "historical_context": "Written during the Regency period, examining class, marriage, and social expectations."
+        },
+        {
+            "title": "One Hundred Years of Solitude",
+            "author": "Gabriel García Márquez",
+            "year": 1967,
+            "century": 20,
+            "location": {
+                "name": "Macondo (Based on Aracataca), Colombia",
+                "coordinates": [10.5916, -74.1861]
+            },
+            "summary": "The multi-generational saga of the Buendía family in the magical town of Macondo.",
+            "historical_context": "Written during Latin America's Boom period, incorporating magical realism to explore Colombian history."
+        },
+        {
+            "title": "The Tale of Genji",
+            "author": "Murasaki Shikibu",
+            "year": 1010,
+            "century": 11,
+            "location": {
+                "name": "Heian-kyō (Kyoto), Japan",
+                "coordinates": [35.0116, 135.7681]
+            },
+            "summary": "The life and romantic pursuits of Hikaru Genji, the emperor's son, in the imperial court.",
+            "historical_context": "Written during the height of the Heian period, depicting aristocratic culture and customs."
+        },
+        {
+            "title": "The Thousand and One Nights",
+            "author": "Various Authors",
+            "year": 800,
+            "century": 9,
+            "location": {
+                "name": "Baghdad, Abbasid Caliphate","coordinates": [33.3152, 44.3661]
+            },
+            "summary": "A collection of Middle Eastern folk tales framed by Scheherazade's nightly storytelling.",
+            "historical_context": "Compiled during the Islamic Golden Age, reflecting medieval Islamic culture."
+        },
+        {
+            "title": "The Epic of Gilgamesh",
+            "author": "Anonymous",
+            "year": -2000,
+            "century": -20,
+            "location": {
+                "name": "Uruk, Ancient Mesopotamia",
+                "coordinates": [31.3236, 45.6367]
+            },
+            "summary": "The adventures of King Gilgamesh and his friend Enkidu, exploring themes of friendship and mortality.",
+            "historical_context": "One of the earliest surviving works of literature, from ancient Sumerian civilization."
+        },
+        {
+            "title": "Beloved",
+            "author": "Toni Morrison",
+            "year": 1987,
+            "century": 20,
+            "location": {
+                "name": "Cincinnati, Ohio",
+                "coordinates": [39.1031, -84.5120]
+            },
+            "summary": "A former slave is haunted by the ghost of her daughter in post-Civil War Ohio.",
+            "historical_context": "Set in the aftermath of the Civil War, examining the psychological impact of slavery."
+        },
+        {
+            "title": "The God of Small Things",
+            "author": "Arundhati Roy",
+            "year": 1997,
+            "century": 20,
+            "location": {
+                "name": "Ayemenem, Kerala, India",
+                "coordinates": [9.6157, 76.5225]
+            },
+            "summary": "The story of twins whose lives are destroyed by the 'Love Laws' of their community.",
+            "historical_context": "Set in 1969, exploring post-colonial Indian society and social hierarchies."
+        },
+        {
+            "title": "The Sound and the Fury",
+            "author": "William Faulkner",
+            "year": 1929,
+            "century": 20,
+            "location": {
+                "name": "Jefferson (Fictional), Mississippi",
+                "coordinates": [34.3668, -89.5186]
+            },
+            "summary": "The decline of the Compson family told through multiple perspectives.",
+            "historical_context": "Set in the American South, examining the decay of Southern aristocracy."
+        },
+        {
+            "title": "The Stranger",
+            "author": "Albert Camus",
+            "year": 1942,
+            "century": 20,
+            "location": {
+                "name": "Algiers, French Algeria",
+                "coordinates": [36.7538, 3.0588]
+            },
+            "summary": "Meursault's emotional detachment leads to murder and a philosophical examination of existence.",
+            "historical_context": "Written during French colonial rule in Algeria, exploring existentialism."
+        },
+        {
+            "title": "The Metamorphosis",
+            "author": "Franz Kafka",
+            "year": 1915,
+            "century": 20,
+            "location": {
+                "name": "Prague, Austria-Hungary",
+                "coordinates": [50.0755, 14.4378]
+            },
+            "summary": "Gregor Samsa wakes up one morning transformed into a giant insect.",
+            "historical_context": "Written during the decline of the Austro-Hungarian Empire, exploring alienation."
+        },
+        {
+            "title": "Things Fall Apart",
+            "author": "Chinua Achebe",
+            "year": 1958,
+            "century": 20,
+            "location": {
+                "name": "Umuofia (Eastern Nigeria)",
+                "coordinates": [6.4550, 7.5122]
+            },
+            "summary": "The life of Okonkwo and his village's encounter with British colonialism.",
+            "historical_context": "Set in pre-colonial and colonial Nigeria, examining cultural clash."
         }
     ]
 }
