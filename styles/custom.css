@@ -48,23 +48,46 @@ iframe {
 /* Add notches to the slider */
 .stSlider [data-baseweb="slider"] {
     height: 48px !important;
+    padding: 10px 0 !important;
 }
 
 .stSlider [data-testid="stSliderBar"] {
     background: repeating-linear-gradient(
         90deg,
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1) 1px,
-        transparent 1px,
+        rgba(31, 119, 180, 0.3),
+        rgba(31, 119, 180, 0.3) 2px,
+        transparent 2px,
         transparent calc(100% / 41)
     ) !important;
+    height: 6px !important;
 }
 
 /* Improve slider handle visibility */
 .stSlider [data-testid="stThumbValue"] {
     background: white !important;
-    border: 2px solid #1f77b4 !important;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2) !important;
+    border: 3px solid #1f77b4 !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important;
+    width: 24px !important;
+    height: 24px !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* Add major tick marks */
+.stSlider [data-testid="stSliderBar"]::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 26px;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(31, 119, 180, 0.5),
+        rgba(31, 119, 180, 0.5) 2px,
+        transparent 2px,
+        transparent calc(100% / 8)
+    ) !important;
+    pointer-events: none;
 }
 
 /* Responsive design adjustments */
