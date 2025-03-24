@@ -87,13 +87,7 @@ try:
         # If the current value isn't in the list (shouldn't happen), default to 19th century
         current_index = century_options.index(19)
 
-    # Add visual notches directly under the slider label
-    notch_html = '<div class="slider-notches">'
-    for i in range(41):  # 41 positions from -20 to 21 (skipping 0)
-        notch_class = "notch major" if i % 5 == 0 else "notch"
-        notch_html += f'<div class="{notch_class}"></div>'
-    notch_html += '</div>'
-    st.markdown(notch_html, unsafe_allow_html=True)
+    # No custom notch HTML needed as we're handling it with CSS
 
     # Century selector with custom range that excludes 0
     selected_century = st.select_slider(
