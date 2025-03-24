@@ -26,6 +26,12 @@ def load_book_data():
         df["latitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 0))
         df["longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
         df["location_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
+
+        # Use existing location as both publication and setting for now
+        df["pub_latitude"] = df["latitude"]
+        df["pub_longitude"] = df["longitude"]
+        df["setting_latitude"] = df["latitude"]
+        df["setting_longitude"] = df["longitude"]
         
         # Print debugging info
         print("Data types after extraction:")
