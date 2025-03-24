@@ -76,7 +76,7 @@
       "title": "The Aeneid",
       "author": "Virgil",
       "year": -19,
-      "century": 1,
+      "century": -1,
       "location": {
         "name": "Mediterranean Basin",
         "coordinates": [41.9028, 12.4964]
@@ -667,7 +667,7 @@
       "century": 19,
       "location": {
         "name": "Pacific Ocean",
-        "coordinates": [0.0000, -160.0000]
+        "coordinates": [0.0, -160.0]
       },
       "summary": "Captain Ahab's obsessive quest for revenge against the white whale Moby Dick.",
       "historical_context": "Written during America's whaling era, exploring themes of obsession and nature."
@@ -679,7 +679,7 @@
       "century": 19,
       "location": {
         "name": "Hertfordshire, England",
-        "coordinates": [51.8300, -0.2000]
+        "coordinates": [51.83, -0.2]
       },
       "summary": "Elizabeth Bennet's journey of love and self-discovery in Georgian era England.",
       "historical_context": "Written during the Regency period, examining class, marriage, and social expectations."
@@ -847,7 +847,7 @@
       "century": 13,
       "location": {
         "name": "Mali Empire",
-        "coordinates": [12.6500, -8.0000]
+        "coordinates": [12.65, -8.0]
       },
       "summary": "The epic of Sundiata Keita, the founder of the Mali Empire, as recounted by West African griots.",
       "historical_context": "Passed down orally, reflecting West African cultural traditions and the empire's founding myths."
@@ -871,7 +871,7 @@
       "century": -4,
       "location": {
         "name": "Ancient China",
-        "coordinates": [34.2610, 108.9480]
+        "coordinates": [34.261, 108.948]
       },
       "summary": "A collection of sayings and ideas attributed to Confucius and his disciples, focusing on morality, society, and governance.",
       "historical_context": "Central text of Confucianism, compiled during the Warring States period, profoundly influencing East Asian ethical systems."
@@ -883,7 +883,7 @@
       "century": -5,
       "location": {
         "name": "Ancient China",
-        "coordinates": [34.2610, 108.9480]
+        "coordinates": [34.261, 108.948]
       },
       "summary": "A foundational Daoist text of 81 chapters, discussing the Dao (the Way), virtue, and natural harmony.",
       "historical_context": "Traditionally attributed to Laozi in the 6th century BCE, deeply shaping Chinese philosophy and religion."
@@ -895,7 +895,7 @@
       "century": -3,
       "location": {
         "name": "Ancient China",
-        "coordinates": [34.2610, 108.9480]
+        "coordinates": [34.261, 108.948]
       },
       "summary": "Philosophical work exploring the Dao, questioning conventional norms, and emphasizing spontaneity and freedom.",
       "historical_context": "One of the foundational Daoist texts, compiled during the Warring States period, notable for its parables and imaginative style."
@@ -923,6 +923,273 @@
       },
       "summary": "An inquiry into the origins and events of the Greco-Persian Wars, widely regarded as the first major work of history in Western literature.",
       "historical_context": "Written in the 5th century BCE, providing a detailed account of various peoples and cultures, pioneering historical narrative."
+    },
+
+    /* --- Additional Works for Missing Centuries --- */
+
+    {
+      "title": "The Legend of Etana",
+      "author": "Anonymous",
+      "year": -1900,
+      "century": -19,
+      "location": {
+        "name": "Ancient Mesopotamia",
+        "coordinates": [32.0, 45.0]
+      },
+      "summary": "A Mesopotamian myth recounting the adventures of Etana, a legendary king seeking the plant of birth.",
+      "historical_context": "Attributed to early Sumerian traditions, representing heroic myth from the 19th century BCE."
+    },
+    {
+      "title": "Enmerkar and the Lord of Aratta",
+      "author": "Anonymous",
+      "year": -1750,
+      "century": -18,
+      "location": {
+        "name": "Ancient Sumer",
+        "coordinates": [32.5, 44.5]
+      },
+      "summary": "An epic tale of rivalry and divine mandate between the Sumerian ruler Enmerkar and the distant kingdom of Aratta.",
+      "historical_context": "A foundational work of Sumerian literature from the 18th century BCE."
+    },
+    {
+      "title": "The Epic of Atrahasis",
+      "author": "Anonymous",
+      "year": -1700,
+      "century": -17,
+      "location": {
+        "name": "Ancient Babylon",
+        "coordinates": [32.0, 44.0]
+      },
+      "summary": "A Babylonian epic that recounts the creation of humanity and a great flood, prefiguring later flood myths.",
+      "historical_context": "An influential myth from the 17th century BCE that has shaped later literary traditions."
+    },
+    {
+      "title": "The Tale of Two Brothers",
+      "author": "Anonymous",
+      "year": -1500,
+      "century": -15,
+      "location": {
+        "name": "Ancient Egypt",
+        "coordinates": [26.0, 30.0]
+      },
+      "summary": "A narrative of betrayal, love, and redemption between two brothers in ancient Egypt.",
+      "historical_context": "An important piece of Egyptian literature dating from the 15th century BCE."
+    },
+    {
+      "title": "The Instruction of Shuruppak",
+      "author": "Anonymous",
+      "year": -1400,
+      "century": -14,
+      "location": {
+        "name": "Ancient Sumer",
+        "coordinates": [31.5, 45.0]
+      },
+      "summary": "A set of proverbial instructions attributed to the wise man Shuruppak.",
+      "historical_context": "An early example of Sumerian wisdom literature from the 14th century BCE."
+    },
+    {
+      "title": "The Epos of Lugalbanda",
+      "author": "Anonymous",
+      "year": -1300,
+      "century": -13,
+      "location": {
+        "name": "Ancient Sumer",
+        "coordinates": [31.7, 45.2]
+      },
+      "summary": "An epic recounting the adventures of the legendary Sumerian king Lugalbanda.",
+      "historical_context": "A mythic narrative from the 13th century BCE that influenced later epic traditions."
+    },
+    {
+      "title": "The Debate between Winter and Summer",
+      "author": "Anonymous",
+      "year": -1200,
+      "century": -12,
+      "location": {
+        "name": "Ancient Anatolia",
+        "coordinates": [39.0, 35.0]
+      },
+      "summary": "A Hittite text in which personifications of winter and summer debate the merits of their seasons.",
+      "historical_context": "A unique example of seasonal allegory from the 12th century BCE."
+    },
+    {
+      "title": "The Tale of Wenamun",
+      "author": "Anonymous",
+      "year": -1100,
+      "century": -11,
+      "location": {
+        "name": "Ancient Egypt",
+        "coordinates": [27.0, 30.0]
+      },
+      "summary": "A narrative detailing the adventures of Wenamun on his quest for trade and survival.",
+      "historical_context": "An important literary work from the 11th century BCE providing insight into Egyptian society."
+    },
+    {
+      "title": "The Tale of the Shipwrecked Sailor",
+      "author": "Anonymous",
+      "year": -1000,
+      "century": -10,
+      "location": {
+        "name": "Ancient Egypt",
+        "coordinates": [26.5, 29.5]
+      },
+      "summary": "A story of a sailor’s miraculous survival after being shipwrecked and his encounter with a divine serpent.",
+      "historical_context": "An enduring narrative from the 10th century BCE of ancient Egyptian maritime lore."
+    },
+    {
+      "title": "The Prophecies of Neferti",
+      "author": "Anonymous",
+      "year": -900,
+      "century": -9,
+      "location": {
+        "name": "Ancient Egypt",
+        "coordinates": [27.5, 30.5]
+      },
+      "summary": "A collection of prophetic verses attributed to the wise Neferti.",
+      "historical_context": "A work from the 9th century BCE reflecting Egyptian concerns with fate and divine order."
+    },
+    {
+      "title": "The Poem of the Righteous Sufferer",
+      "author": "Anonymous",
+      "year": -700,
+      "century": -7,
+      "location": {
+        "name": "Ancient Mesopotamia",
+        "coordinates": [33.0, 44.0]
+      },
+      "summary": "An Akkadian poem that reflects on suffering and justice in human life.",
+      "historical_context": "A poetic work from the 7th century BCE known for its empathetic tone."
+    },
+    {
+      "title": "Enuma Elish",
+      "author": "Anonymous",
+      "year": -600,
+      "century": -6,
+      "location": {
+        "name": "Ancient Babylon",
+        "coordinates": [32.0, 44.0]
+      },
+      "summary": "The Babylonian creation myth describing the rise of the god Marduk and the formation of the world.",
+      "historical_context": "A seminal work of Mesopotamian literature from the 6th century BCE."
+    },
+    {
+      "title": "The Sibylline Oracles",
+      "author": "Anonymous",
+      "year": -150,
+      "century": -2,
+      "location": {
+        "name": "Ancient Mediterranean",
+        "coordinates": [35.0, 25.0]
+      },
+      "summary": "A collection of prophetic writings attributed to a series of sibyls.",
+      "historical_context": "A composite work from the 2nd century BCE, reflecting a blend of Greek, Roman, and Near Eastern traditions."
+    },
+    {
+      "title": "The New Testament: The Gospel of Mark",
+      "author": "Anonymous (Early Christian Tradition)",
+      "year": 70,
+      "century": 1,
+      "location": {
+        "name": "Jerusalem",
+        "coordinates": [31.7767, 35.2345]
+      },
+      "summary": "The earliest Gospel in the New Testament, recounting the life and teachings of Jesus.",
+      "historical_context": "A foundational Christian text from the 1st century CE."
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "year": 180,
+      "century": 2,
+      "location": {
+        "name": "Rome, Italy",
+        "coordinates": [41.9028, 12.4964]
+      },
+      "summary": "A series of personal writings by the Roman emperor reflecting on Stoic philosophy and self-improvement.",
+      "historical_context": "An enduring work of philosophy from the 2nd century CE."
+    },
+    {
+      "title": "The Historia Augusta",
+      "author": "Anonymous",
+      "year": 250,
+      "century": 3,
+      "location": {
+        "name": "Roman Empire",
+        "coordinates": [41.9028, 12.4964]
+      },
+      "summary": "A collection of biographies of Roman emperors, blending fact and fiction.",
+      "historical_context": "A controversial historical text from the 3rd century CE."
+    },
+    {
+      "title": "The Confessions",
+      "author": "Augustine of Hippo",
+      "year": 397,
+      "century": 4,
+      "location": {
+        "name": "Hippo Regius (modern Annaba, Algeria)",
+        "coordinates": [36.9, 7.7667]
+      },
+      "summary": "An autobiographical work detailing Augustine's sinful youth and conversion to Christianity.",
+      "historical_context": "A seminal work of Christian philosophy from the 4th century CE."
+    },
+    {
+      "title": "The Vulgate Bible",
+      "author": "Jerome (compiler)",
+      "year": 405,
+      "century": 5,
+      "location": {
+        "name": "Rome, Italy",
+        "coordinates": [41.9028, 12.4964]
+      },
+      "summary": "The Latin translation of the Bible that became the Catholic Church's officially promulgated Latin version.",
+      "historical_context": "An influential text from the 5th century CE."
+    },
+    {
+      "title": "The Secret History",
+      "author": "Procopius",
+      "year": 550,
+      "century": 6,
+      "location": {
+        "name": "Constantinople",
+        "coordinates": [41.0082, 28.9784]
+      },
+      "summary": "A controversial account of the inner workings of the Byzantine Empire, written in a caustic tone.",
+      "historical_context": "An insider’s chronicle from the 6th century CE that paints an unflattering picture of the regime."
+    },
+    {
+      "title": "The Quran",
+      "author": "Prophet Muhammad (as revealed)",
+      "year": 632,
+      "century": 7,
+      "location": {
+        "name": "Mecca, Saudi Arabia",
+        "coordinates": [21.3891, 39.8579]
+      },
+      "summary": "The central religious text of Islam, believed to be the word of God as revealed to Prophet Muhammad.",
+      "historical_context": "A foundational text of Islamic faith from the 7th century CE."
+    },
+    {
+      "title": "Nihon Shoki",
+      "author": "Multiple Compilers",
+      "year": 720,
+      "century": 8,
+      "location": {
+        "name": "Nara, Japan",
+        "coordinates": [34.6851, 135.8050]
+      },
+      "summary": "An ancient chronicle of Japanese history, myth, and legend.",
+      "historical_context": "One of Japan's earliest histories, compiled in the 8th century CE."
+    },
+    {
+      "title": "Le Morte d'Arthur",
+      "author": "Thomas Malory",
+      "year": 1485,
+      "century": 15,
+      "location": {
+        "name": "England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "A retelling of the legends of King Arthur and his knights, combining romance, adventure, and tragedy.",
+      "historical_context": "A seminal work of English literature from the 15th century CE that popularized Arthurian legends."
     }
   ]
 }
