@@ -71,11 +71,14 @@ try:
         max_value=21,
         value=st.session_state.selected_century,
         step=1,
+        key="century_slider",
         help="Slide to explore literature from different centuries"
     )
     
-    # Update session state when slider is moved
-    st.session_state.selected_century = selected_century
+    # Update session state only if the value has changed
+    if st.session_state.century_slider != st.session_state.selected_century:
+        st.session_state.selected_century = st.session_state.century_slider
+        st.rerun()
 
     # Get the correct suffix for the century
     def get_century_suffix(century):
