@@ -1,6 +1,7 @@
 import folium
 from folium.plugins import MarkerCluster
 import streamlit as st
+import pandas as pd
 
 def create_base_map():
     """Create the base world map."""
@@ -24,7 +25,7 @@ def add_book_markers(m, books_df):
                 <p><strong>Historical Context:</strong> {book['historical_context']}</p>
             </div>
         """
-        
+
         folium.CircleMarker(
             location=[book['latitude'], book['longitude']],
             radius=8,
@@ -76,10 +77,18 @@ def create_literature_map(books_df):
                 </div>
             """
 
+            # Determine marker location and color
+            if pd.notna(book['setting_latitude']) and pd.notna(book['setting_longitude']):
+                location = [float(book['setting_latitude']), float(book['setting_longitude'])]
+                color = 'red'  # Color for setting location
+            else:
+                location = [float(book['pub_latitude']), float(book['pub_longitude'])]
+                color = 'blue'  # Color for publication location
+
             folium.Marker(
-                location=[float(book['latitude']), float(book['longitude'])],
+                location=location,
                 popup=folium.Popup(popup_html, max_width=300),
-                icon=folium.Icon(icon='book', prefix='fa')
+                icon=folium.Icon(icon='book', prefix='fa', color=color)
             ).add_to(marker_cluster)
 
         return literary_map
