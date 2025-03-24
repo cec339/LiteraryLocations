@@ -77,19 +77,24 @@ def create_literature_map(books_df):
                 </div>
             """
 
-            # Determine marker location and color
-            if pd.notna(book['setting_latitude']) and pd.notna(book['setting_longitude']):
-                location = [float(book['setting_latitude']), float(book['setting_longitude'])]
-                color = 'red'  # Color for setting location
-            else:
-                location = [float(book['pub_latitude']), float(book['pub_longitude'])]
-                color = 'blue'  # Color for publication location
-
+            # Add setting location marker (red)
+            setting_location = [float(book['latitude']), float(book['longitude'])]
             folium.Marker(
-                location=location,
+                location=setting_location,
                 popup=folium.Popup(popup_html, max_width=300),
-                icon=folium.Icon(icon='book', prefix='fa', color=color)
+                icon=folium.Icon(icon='book', prefix='fa', color='red')
             ).add_to(marker_cluster)
+
+            # Add publication location marker if different (blue)
+            if 'publication_location' in book and book['publication_location'] != book['location_name']:
+                pub_coords = book['publication_location'].get('coordinates', None) if book['publication_location'] else None
+                if pub_coords:
+                    pub_location = [float(pub_coords[0]), float(pub_coords[1])]
+                    folium.Marker(
+                        location=pub_location,
+                        popup=folium.Popup(f"Publication location of {book['title']}", max_width=300),
+                        icon=folium.Icon(icon='book', prefix='fa', color='blue')
+                    ).add_to(marker_cluster)
 
         return literary_map
     except Exception as e:
