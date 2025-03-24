@@ -77,12 +77,9 @@ def create_literature_map(books_df):
                 </div>
             """
 
-            # Add a single marker - red for setting, blue for publication
+            # Add a single marker - red for setting locations
             location = [float(book['latitude']), float(book['longitude'])]
-            color = 'red'  # Default to red for setting location
-            
-            if 'publication_location' in book and isinstance(book['publication_location'], dict):
-                color = 'blue'  # Use blue for publication location
+            color = 'red'  # Always red for setting locations
             
             folium.Marker(
                 location=location,
