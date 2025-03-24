@@ -64,7 +64,7 @@
       "title": "The Odyssey",
       "author": "Homer",
       "year": -725,
-      "century": 8,
+      "century": -8,
       "location": {
         "name": "Mediterranean Sea",
         "coordinates": [37.9838, 23.7275]
@@ -460,7 +460,7 @@
       "title": "The Ramayana",
       "author": "Valmiki",
       "year": -500,
-      "century": 5,
+      "century": -5,
       "location": {
         "name": "Ancient India",
         "coordinates": [27.1767, 78.0081]
