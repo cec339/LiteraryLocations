@@ -1,7 +1,5 @@
-
 {
     "books": [
-[Previous 45 books remain exactly the same, then add:]
         {
             "title": "The Canterbury Tales",
             "author": "Geoffrey Chaucer",
@@ -18,7 +16,7 @@
             "title": "The Iliad",
             "author": "Homer",
             "year": -750,
-            "century": 8,
+            "century": -8,
             "location": {
                 "name": "Troy (modern-day Turkey)",
                 "coordinates": [39.9571, 26.2387]
