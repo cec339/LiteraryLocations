@@ -34,7 +34,7 @@ def load_book_data():
         
         # Print debugging info
         print("Data types after extraction:")
-        print(df[["latitude", "longitude"]].dtypes)
+        print(df[["setting_latitude", "setting_longitude"]].dtypes)
 
         return df
     except Exception as e:
