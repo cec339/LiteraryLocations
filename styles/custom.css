@@ -64,12 +64,28 @@ iframe {
 .stSlider [data-testid="stSliderBar"] {
     background: repeating-linear-gradient(
         90deg,
-        rgba(31, 119, 180, 0.3),
-        rgba(31, 119, 180, 0.3) 2px,
+        rgba(31, 119, 180, 0.6),
+        rgba(31, 119, 180, 0.6) 2px,
         transparent 2px,
-        transparent calc(100% / 41)
+        transparent 20px
     ) !important;
     height: 6px !important;
+}
+
+/* Add tick mark values */
+.stSlider::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: -25px;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(31, 119, 180, 0.8),
+        rgba(31, 119, 180, 0.8) 1px,
+        transparent 1px,
+        transparent 20px
+    );
 }
 
 /* Improve slider handle visibility */
