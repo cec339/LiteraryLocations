@@ -68,7 +68,7 @@ try:
     century_label = f"Century: {st.session_state.selected_century} {'BCE' if st.session_state.selected_century <= 0 else 'CE'}"
     st.markdown(f"<h3 style='text-align: center;'>{century_label}</h3>", unsafe_allow_html=True)
     
-    # Century selector with fixed range
+    # Century selector with fixed range, skipping 0
     selected_century = st.slider(
             "",  # Empty label since we have the header above
             min_value=-20,
@@ -78,6 +78,9 @@ try:
             key="century_slider",
             help="Slide to explore literature through time"
         )
+    # Adjust century value to skip 0 (there is no Century 0)
+    if selected_century >= 0:
+        selected_century += 1
         
         # Add visual markers below slider
     markers = {-20: "20 BCE", -10: "10 BCE", 0: "0", 10: "10 CE", 20: "20 CE"}
