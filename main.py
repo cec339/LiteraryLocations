@@ -67,12 +67,12 @@ try:
     # Century selector with fixed range
     selected_century = st.slider(
         "Select Century",
-        min_value=14,
+        min_value=-20,
         max_value=21,
         value=st.session_state.selected_century,
         step=1,
         key="century_slider",
-        help="Slide to explore literature from different centuries"
+        help="Slide to explore literature through time (negative numbers indicate BCE)"
     )
     
     # Update session state only if the value has changed
@@ -82,10 +82,18 @@ try:
 
     # Get the correct suffix for the century
     def get_century_suffix(century):
-        if century == 21:
-            return "st"
+        if century <= 0:
+            return f"{abs(century)}th century BCE"
+        elif century == 21:
+            return "21st century"
+        elif century == 1:
+            return "1st century"
+        elif century == 2:
+            return "2nd century"
+        elif century == 3:
+            return "3rd century"
         else:
-            return "th"
+            return f"{century}th century"
 
     # Filter books by century or search results
     if search_query and not search_results.empty:
@@ -124,8 +132,8 @@ try:
             )
 
             # Display book list in a collapsible section
-            century_suffix = get_century_suffix(selected_century)
-            with st.expander(f"Books from the {selected_century}{century_suffix} Century", expanded=False):
+            century_text = get_century_suffix(selected_century)
+            with st.expander(f"Books from the {century_text}", expanded=False):
                 for _, book in filtered_books.iterrows():
                     st.markdown(f"### {book['title']} by {book['author']}")
                     st.markdown("---")
