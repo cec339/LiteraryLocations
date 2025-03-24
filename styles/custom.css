@@ -56,14 +56,14 @@ iframe {
     background-color: #1f77b4;
 }
 
-/* Simple slider styling without complex notches */
+/* Simpler slider styling */
 div[data-testid="stSelectSlider"] {
-    padding: 15px 0 30px 0 !important;
+    padding: 5px 0 15px 0 !important;
     position: relative !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
 }
 
-/* Slider track - the blue line */
+/* Slider thumb - the circle that moves */
 div[data-testid="stSelectSlider"] div[data-baseweb="slider"] div[role="slider"] {
     background-color: white !important;
     border: 3px solid #1f77b4 !important;

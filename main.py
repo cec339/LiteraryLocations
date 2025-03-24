@@ -19,68 +19,6 @@ st.set_page_config(
 with open("styles/custom.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Add custom JavaScript for creating notches
-notch_js = """
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Function to add notches to the slider
-    function addNotchesToSlider() {
-        const sliderContainer = document.querySelector('[data-testid="stSelectSlider"]');
-        if (!sliderContainer) return;
-        
-        // Remove any existing notches div to avoid duplicates
-        const existingNotches = document.getElementById('slider-notches');
-        if (existingNotches) existingNotches.remove();
-        
-        // Create new notches container
-        const notchesContainer = document.createElement('div');
-        notchesContainer.id = 'slider-notches';
-        notchesContainer.style.position = 'absolute';
-        notchesContainer.style.bottom = '0';
-        notchesContainer.style.left = '0';
-        notchesContainer.style.right = '0';
-        notchesContainer.style.height = '20px';
-        notchesContainer.style.pointerEvents = 'none';
-        
-        // Add 41 notches (for centuries from -20 to 21, excluding 0)
-        const totalNotches = 41;
-        for (let i = 0; i < totalNotches; i++) {
-            const notch = document.createElement('div');
-            notch.style.position = 'absolute';
-            notch.style.bottom = '0';
-            notch.style.left = `${(i / (totalNotches-1)) * 100}%`;
-            notch.style.width = '2px';
-            notch.style.height = '10px';
-            notch.style.backgroundColor = '#1f77b4';
-            notchesContainer.appendChild(notch);
-            
-            // Add major notches (every 5 centuries)
-            if (i % 5 === 0) {
-                notch.style.height = '15px';
-                notch.style.width = '3px';
-            }
-        }
-        
-        sliderContainer.appendChild(notchesContainer);
-    }
-    
-    // Initial call
-    setTimeout(addNotchesToSlider, 1000);
-    
-    // Set up a mutation observer to detect DOM changes and add notches when slider appears
-    const observer = new MutationObserver(function(mutations) {
-        addNotchesToSlider();
-    });
-    
-    // Start observing the document body for changes
-    observer.observe(document.body, { 
-        childList: true, 
-        subtree: true 
-    });
-});
-</script>
-"""
-st.components.v1.html(notch_js, height=0)
 
 # Header (more compact)
 st.markdown("<h1 style='margin-bottom:0.5rem;'>📚 Literary World Map</h1>", unsafe_allow_html=True)
@@ -99,13 +37,13 @@ if 'century_updated' not in st.session_state:
 with st.sidebar:
     st.header("Search Books")
     search_query = st.text_input("Search by title or author")
-    
+
     if search_query:
         search_results = search_books(search_query)
         if not search_results.empty:
             st.success(f"Found {len(search_results)} matching books")
             st.info("Clear the search box and press Enter to return to century view")
-            
+
             # Only update century and rerun if this is a new search
             if (search_query != st.session_state.last_search_query and 
                 not st.session_state.century_updated and
@@ -135,20 +73,28 @@ try:
         century_suffix = "CE"
     else:
         century_suffix = "BCE" if display_century < 0 else "CE"
-    
+
     century_label = f"Century: {abs(display_century)} {century_suffix}"
     st.markdown(f"<h3 style='text-align: center;'>{century_label}</h3>", unsafe_allow_html=True)
-    
+
     # Create a list of centuries that excludes 0
     century_options = list(range(-20, 0)) + list(range(1, 22))
-    
+
     # Find the index of the current selected century in our options
     try:
         current_index = century_options.index(st.session_state.selected_century)
     except ValueError:
         # If the current value isn't in the list (shouldn't happen), default to 19th century
         current_index = century_options.index(19)
-    
+
+    # Add visual notches directly under the slider label
+    notch_html = '<div class="slider-notches">'
+    for i in range(41):  # 41 positions from -20 to 21 (skipping 0)
+        notch_class = "notch major" if i % 5 == 0 else "notch"
+        notch_html += f'<div class="{notch_class}"></div>'
+    notch_html += '</div>'
+    st.markdown(notch_html, unsafe_allow_html=True)
+
     # Century selector with custom range that excludes 0
     selected_century = st.select_slider(
             "",  # Empty label since we have the header above
@@ -157,14 +103,14 @@ try:
             key="century_slider",
             help="Slide to explore literature through time"
         )
-    
+
     # Update session state if changed
     if selected_century != st.session_state.selected_century:
         st.session_state.selected_century = selected_century
         st.rerun()
-        
+
         # We don't need manual markers with select_slider as it already shows labels
-    
+
     # Update session state only if the value has changed
     if st.session_state.century_slider != st.session_state.selected_century:
         st.session_state.selected_century = st.session_state.century_slider
@@ -196,7 +142,7 @@ try:
         literary_map = create_literature_map(filtered_books)
         if literary_map:
             folium_html = literary_map._repr_html_()
-            
+
             # Custom HTML with fixed styling to ensure proper display
             html_content = f"""
             <div class="map-container" style="width:100%; height:600px; position:relative;">
@@ -213,7 +159,7 @@ try:
                 }}
             </style>
             """
-            
+
             # Use full HTML with embedded styles to control the iframe
             st.components.v1.html(
                 html_content,
