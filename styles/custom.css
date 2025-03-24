@@ -41,6 +41,16 @@ iframe {
 }
 
 /* Style the century selector */
+.stSlider {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.stSlider > div {
+    width: 100% !important;
+    max-width: none !important;
+}
+
 .stSlider > div > div > div {
     background-color: #1f77b4;
 }
