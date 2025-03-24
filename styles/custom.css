@@ -85,6 +85,7 @@ iframe {
 /* Add major tick marks */
 .stSlider [data-testid="stSliderBar"]::before {
     content: '';
+    display: block;
     position: absolute;
     top: -10px;
     left: 0;
@@ -97,6 +98,7 @@ iframe {
         transparent 2px,
         transparent calc(100% / 8)
     ) !important;
+    border-top: 1px solid #1f77b4;
     pointer-events: none;
 }
 
