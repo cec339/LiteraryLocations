@@ -83,7 +83,7 @@ try:
         selected_century += 1
         
         # Add visual markers below slider
-    markers = {-20: "20 BCE", -10: "10 BCE", 0: "0", 10: "10 CE", 20: "20 CE"}
+    markers = {-20: "20 BCE", -15: "15 BCE", -10: "10 BCE", -5: "5 BCE", 1: "1 CE", 5: "5 CE", 10: "10 CE", 15: "15 CE", 20: "20 CE"}
     marker_html = "<div style='display: flex; justify-content: space-between; margin-top: -20px;'>"
     for value in markers.values():
         marker_html += f"<span style='color: #1f77b4;'>{value}</span>"
