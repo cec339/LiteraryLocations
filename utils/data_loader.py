@@ -16,22 +16,36 @@ def load_book_data():
             try:
                 if location and "coordinates" in location and isinstance(location["coordinates"], list):
                     coord = location["coordinates"][index]
-                    return float(coord) if coord is not None else 0.0
-                return 0.0
+                    return float(coord) if coord is not None else None
+                return None
             except (IndexError, ValueError, TypeError) as e:
                 print(f"Error extracting coordinate: {e}, location: {location}")
-                return 0.0
-                
-        # Extract setting coordinates
+                return None
+
+        # Extract setting coordinates and determine location type
         df["setting_latitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 0))
         df["setting_longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
         df["setting_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
 
-        # Add empty publication location columns (for future use)
-        df["publication_latitude"] = None
-        df["publication_longitude"] = None
-        df["publication_name"] = None
-        
+        # Determine if setting is fictional
+        df["is_fictional"] = df["setting_name"].apply(
+            lambda x: "Various" in x or "Fictional" in x or "Unknown" in x
+        )
+
+        # For books with fictional or multiple settings, use publication location
+        df["publication_latitude"] = df.apply(
+            lambda row: row["setting_latitude"] if not row["is_fictional"] else None, 
+            axis=1
+        )
+        df["publication_longitude"] = df.apply(
+            lambda row: row["setting_longitude"] if not row["is_fictional"] else None,
+            axis=1
+        )
+        df["publication_name"] = df.apply(
+            lambda row: row["setting_name"] if not row["is_fictional"] else "Publication Location",
+            axis=1
+        )
+
         # Print debugging info
         print("Data types after extraction:")
         print(df[["setting_latitude", "setting_longitude"]].dtypes)
