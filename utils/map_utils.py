@@ -71,14 +71,14 @@ def create_literature_map(books_df):
                     <h4>{book['title']}</h4>
                     <p><b>Author:</b> {book['author']}</p>
                     <p><b>Year:</b> {book['year']}</p>
-                    <p><b>Location:</b> {book['location_name']}</p>
+                    <p><b>Location:</b> {book['setting_name']}</p>
                     <p><b>Summary:</b> {book['summary']}</p>
                     <p><b>Historical Context:</b> {book['historical_context']}</p>
                 </div>
             """
 
             # Add setting location marker
-            setting_location = [float(book['setting_latitude']), float(book['setting_longitude'])]
+            setting_location = [book['setting_latitude'], book['setting_longitude']]
             folium.Marker(
                 location=setting_location,
                 popup=folium.Popup(popup_html, max_width=300),
