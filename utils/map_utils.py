@@ -95,7 +95,6 @@ def create_literature_map(books_df):
                     padding: 10px; border: 2px solid grey; border-radius: 5px">
             <h4>Legend</h4>
             <p><i class="fa fa-book" style="color: red"></i> Primary Setting</p>
-            <p><i class="fa fa-book" style="color: blue"></i> Publication Location</p>
             <p><i class="fa fa-book" style="color: green"></i> Fictional Setting (Publication Location shown)</p>
         </div>
         '''
