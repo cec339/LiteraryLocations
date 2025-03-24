@@ -22,13 +22,15 @@ def load_book_data():
                 print(f"Error extracting coordinate: {e}, location: {location}")
                 return 0.0
                 
-        # Extract coordinates with safer function
-        df["latitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 0))
-        df["longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
-        df["location_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
+        # Extract setting coordinates
+        df["setting_latitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 0))
+        df["setting_longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
+        df["setting_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
 
-        # Keep original location for settings
-        df["publication_location"] = df["location"]  # Store full location object
+        # Add empty publication location columns (for future use)
+        df["publication_latitude"] = None
+        df["publication_longitude"] = None
+        df["publication_name"] = None
         
         # Print debugging info
         print("Data types after extraction:")

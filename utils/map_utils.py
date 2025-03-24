@@ -77,15 +77,33 @@ def create_literature_map(books_df):
                 </div>
             """
 
-            # Add a single marker - red for setting locations
-            location = [float(book['latitude']), float(book['longitude'])]
-            color = 'red'  # Always red for setting locations
-            
+            # Add setting location marker
+            setting_location = [float(book['setting_latitude']), float(book['setting_longitude'])]
             folium.Marker(
-                location=location,
+                location=setting_location,
                 popup=folium.Popup(popup_html, max_width=300),
-                icon=folium.Icon(icon='book', prefix='fa', color=color)
+                icon=folium.Icon(icon='book', prefix='fa', color='red')
             ).add_to(marker_cluster)
+
+            # Add publication location marker if exists
+            if pd.notna(book['publication_latitude']) and pd.notna(book['publication_longitude']):
+                pub_location = [float(book['publication_latitude']), float(book['publication_longitude'])]
+                folium.Marker(
+                    location=pub_location,
+                    popup=folium.Popup(popup_html, max_width=300),
+                    icon=folium.Icon(icon='book', prefix='fa', color='blue')
+                ).add_to(marker_cluster)
+
+        # Add legend
+        legend_html = '''
+        <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; 
+                    padding: 10px; border: 2px solid grey; border-radius: 5px">
+            <h4>Legend</h4>
+            <p><i class="fa fa-book" style="color: red"></i> Primary Setting</p>
+            <p><i class="fa fa-book" style="color: blue"></i> Publication Location</p>
+        </div>
+        '''
+        literary_map.get_root().html.add_child(folium.Element(legend_html))
 
         return literary_map
     except Exception as e:
