@@ -65,9 +65,9 @@ iframe {
     background: repeating-linear-gradient(
         90deg,
         rgba(31, 119, 180, 0.6),
-        rgba(31, 119, 180, 0.6) 2px,
-        transparent 2px,
-        transparent calc(100% / 41)
+        rgba(31, 119, 180, 0.6) 1px,
+        transparent 1px,
+        transparent calc(100% / 42)
     ) !important;
     height: 6px !important;
 }
@@ -77,14 +77,14 @@ iframe {
     content: '';
     position: absolute;
     width: 100%;
-    height: 20px;
-    bottom: -25px;
+    height: 1em;
+    bottom: -1.5em;
     background: repeating-linear-gradient(
         90deg,
         rgba(31, 119, 180, 0.8),
         rgba(31, 119, 180, 0.8) 1px,
         transparent 1px,
-        transparent calc(100% / 41)
+        transparent calc(100% / 42)
     );
 }
 
