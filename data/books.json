@@ -1187,6 +1187,750 @@
       },
       "summary": "A retelling of the legends of King Arthur and his knights, combining romance, adventure, and tragedy.",
       "historical_context": "A seminal work of English literature from the 15th century CE that popularized Arthurian legends."
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "century": 19,
+      "location": {
+        "name": "Russia (Moscow and St. Petersburg)",
+        "coordinates": [55.7558, 37.6173]
+      },
+      "summary": "An epic narrative following five aristocratic families during Napoleon's invasion of Russia.",
+      "historical_context": "Set during the Napoleonic Era, examining Russian society and the impact of war."
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "year": 1605,
+      "century": 17,
+      "location": {
+        "name": "La Mancha, Spain",
+        "coordinates": [39.2796, -3.0977]
+      },
+      "summary": "A delusional nobleman imagines himself a knight-errant, embarking on adventures with his squire Sancho Panza.",
+      "historical_context": "Written as a parody of chivalric romances, marking the birth of the modern novel."
+    },
+    {
+      "title": "The Tale of Kiều",
+      "author": "Nguyễn Du",
+      "year": 1820,
+      "century": 19,
+      "location": {
+        "name": "Vietnam",
+        "coordinates": [21.0285, 105.8542]
+      },
+      "summary": "A poetic tale of a young woman who sacrifices herself to save her family, enduring many hardships.",
+      "historical_context": "Written during Vietnam's transition between dynasties, reflecting Confucian values."
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "year": 1880,
+      "century": 19,
+      "location": {
+        "name": "Russia",
+        "coordinates": [55.7558, 37.6173]
+      },
+      "summary": "A philosophical novel about faith, doubt, and morality through the story of three brothers.",
+      "historical_context": "Written during a period of great social change in Russia."
+    },
+    {
+      "title": "The Pillow Book",
+      "author": "Sei Shōnagon",
+      "year": 1002,
+      "century": 11,
+      "location": {
+        "name": "Heian-kyō (Kyoto), Japan",
+        "coordinates": [35.0116, 135.7681]
+      },
+      "summary": "A collection of observations and musings from a lady-in-waiting at the Japanese imperial court.",
+      "historical_context": "Provides insight into Heian period court life and aesthetics."
+    },
+{
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "year": 1967,
+      "century": 20,
+      "location": {
+        "name": "Macondo (Based on Aracataca), Colombia",
+        "coordinates": [10.5916, -74.1861]
+      },
+      "summary": "The multi-generational saga of the Buendía family in the magical town of Macondo.",
+      "historical_context": "Written during Latin America's Boom period, incorporating magical realism to explore Colombian history."
+    },
+    {
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "year": 1967,
+      "century": 20,
+      "location": {
+        "name": "Moscow, Russia",
+        "coordinates": [55.7558, 37.6173]
+      },
+      "summary": "Satan visits Soviet Moscow, interweaving a love story with a satirical critique of Soviet society.",
+      "historical_context": "Written during Stalin's regime, published posthumously, reflecting the absurdities of Soviet life."
+    },
+   {
+      "title": "A Passage to India",
+      "author": "E.M. Forster",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "Chandrapore (Fictional), India",
+        "coordinates": [
+          25.4358,
+          81.8463
+        ]
+      },
+      "summary": "Explores the complexities of relationships between the British and the Indians in colonial India.",
+      "historical_context": "Set during the British Raj, examining themes of colonialism, race, and friendship."
+    },
+    {
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Harlem, New York City",
+        "coordinates": [
+          40.8075,
+          -73.9411
+        ]
+      },
+      "summary": "Narrates the journey of a young African-American man who feels invisible in a racially divided society.",
+      "historical_context": "Written during the Civil Rights Movement, addressing issues of racial identity and social injustice."
+    },
+    {
+      "title": "Midnight's Children",
+      "author": "Salman Rushdie",
+      "year": 1981,
+      "century": 20,
+      "location": {
+        "name": "Bombay (Mumbai), India",
+        "coordinates": [
+          19.0760,
+          72.8777
+        ]
+      },
+      "summary": "Tells the story of children born at the moment of India's independence who possess magical powers.",
+      "historical_context": "Set against the backdrop of India's independence and subsequent political events."
+    },
+   {
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Cambridge, Massachusetts (Fictional)",
+        "coordinates": [
+          42.3736,
+          -71.1097
+        ]
+      },
+      "summary": "Depicts a dystopian society where women are subjugated and used for reproductive purposes.",
+      "historical_context": "Written during the rise of conservative politics, exploring themes of feminism and totalitarianism."
+    },
+    {
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "year": 2001,
+      "century": 21,
+      "location": {
+        "name": "Pacific Ocean",
+        "coordinates": [
+          0.0000,
+          -180.0000
+        ]
+      },
+      "summary": "Narrates the incredible survival story of a young Indian boy who is shipwrecked with a Bengal tiger.",
+      "historical_context": "Explores themes of faith, survival, and the power of storytelling."
+    },
+    {
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "year": 2003,
+      "century": 21,
+      "location": {
+        "name": "Kabul, Afghanistan",
+        "coordinates": [
+          34.5553,
+          69.2075
+        ]
+      },
+      "summary": "Tells the story of friendship, betrayal, and redemption against the backdrop of Afghanistan's turbulent history.",
+      "historical_context": "Set during the Soviet-Afghan War and the rise of the Taliban, examining themes of guilt and forgiveness."
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "Andalusia, Spain, and the Egyptian desert",
+        "coordinates": [
+          37.6375,
+          -4.7798
+        ]
+      },
+      "summary": "Follows a shepherd boy's journey to fulfill his personal legend and discover his destiny.",
+      "historical_context": "Explores themes of self-discovery, perseverance, and the pursuit of dreams."
+    },
+    {
+      "title": "The Namesake",
+      "author": "Jhumpa Lahiri",
+      "year": 2003,
+      "century": 21,
+      "location": {
+        "name": "Calcutta, India, and the United States",
+        "coordinates": [
+          22.5726,
+          88.3639
+        ]
+      },
+      "summary": "Narrates the experiences of an Indian-American family as they navigate cultural identity and assimilation.",
+      "historical_context": "Set against the backdrop of immigration and cultural displacement."
+    },
+    {
+      "title": "A Thousand Splendid Suns",
+      "author": "Khaled Hosseini",
+      "year": 2007,
+      "century": 21,
+      "location": {
+        "name": "Kabul, Afghanistan",
+        "coordinates": [
+          34.5553,
+          69.2075
+        ]
+      },
+      "summary": "Tells the story of two women in Afghanistan whose lives intersect amidst war and oppression.",
+      "historical_context": "Set during the Taliban regime and its aftermath, examining themes of resilience and female solidarity."
+    },
+    {
+      "title": "Cutting for Stone",
+      "author": "Abraham Verghese",
+      "year": 2009,
+      "century": 21,
+      "location": {
+        "name": "Addis Ababa, Ethiopia",
+        "coordinates": [
+          9.0054,
+          38.7636
+        ]
+      },
+      "summary": "Follows the lives of twin brothers born to a nun and a surgeon in Ethiopia.",
+      "historical_context": "Set against the backdrop of political turmoil and medical innovation."
+    },
+    {
+      "title": "The Sympathizer",
+      "author": "Viet Thanh Nguyen",
+      "year": 2015,
+      "century": 21,
+      "location": {
+        "name": "Vietnam and the United States",
+        "coordinates": [
+          14.0583,
+          108.2772
+        ]
+      },
+      "summary": "Narrates the story of a double agent during the Vietnam War and its aftermath.",
+      "historical_context": "Explores themes of identity, loyalty, and the legacy of the Vietnam War."
+    },
+    {
+      "title": "Homegoing",
+      "author": "Yaa Gyasi",
+      "year": 2016,
+      "century": 21,
+      "location": {
+        "name": "Ghana and the United States",
+        "coordinates": [
+          7.9465,
+          -1.0232
+        ]
+      },
+      "summary": "Tells the story of two half-sisters in Ghana and their descendants across generations.",
+      "historical_context": "Traces the impact of slavery and colonialism on families and societies."
+    },
+    {
+      "title": "Americanah",
+      "author": "Chimamanda Ngozi Adichie",
+      "year": 2013,
+      "century": 21,
+      "location": {
+        "name": "Nigeria and the United States",
+        "coordinates": [
+          9.0820,
+          8.6753
+        ]
+      },
+      "summary": "Narrates the experiences of a young Nigerian woman who immigrates to the United States.",
+      "historical_context": "Examines themes of race, identity, and belonging in a globalized world."
+    },
+    {
+      "title": "Pachinko",
+      "author": "Min Jin Lee",
+      "year": 2017,
+      "century": 21,
+      "location": {
+        "name": "Korea and Japan",
+        "coordinates": [
+          35.9078,
+          127.7669
+        ]
+      },
+      "summary": "Follows a Korean family who immigrates to Japan and faces discrimination and hardship.",
+      "historical_context": "Set against the backdrop of Japanese colonialism and World War II."
+    },
+    {
+      "title": "Exit West",
+      "author": "Mohsin Hamid",
+      "year": 2017,
+      "century": 21,
+      "location": {
+        "name": "Unspecified City (War-Torn) and London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Tells the story of a young couple who escape their war-torn country through magical doors.",
+      "historical_context": "Explores themes of migration, displacement, and the search for belonging."
+    },
+    {
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "year": 2017,
+      "century": 21,
+      "location": {
+        "name": "Shaker Heights, Ohio",
+        "coordinates": [
+          41.4784,
+          -81.5557
+        ]
+      },
+      "summary": "Explores themes of race, class, and privilege in a seemingly perfect suburban community.",
+      "historical_context": "Set in the 1990s, examining social issues and tensions."
+    },
+    {
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "year": 2018,
+      "century": 21,
+      "location": {
+        "name": "North Carolina Marsh",
+        "coordinates": [
+          35.7596,
+          -79.0193
+        ]
+      },
+      "summary": "Narrates the coming-of-age story of a young girl who is raised in the marshes of North Carolina.",
+      "historical_context": "Set in the mid-20th century, exploring themes of nature, isolation, and resilience."
+    },
+    {
+      "title": "The Nickel Boys",
+      "author": "Colson Whitehead",
+      "year": 2019,
+      "century": 21,
+      "location": {
+        "name": "Florida",
+        "coordinates": [
+          27.6648,
+          -81.5158
+        ]
+      },
+      "summary": "Tells the story of two boys who are sent to a reform school in Florida and experience abuse and injustice.",
+      "historical_context": "Based on real events, addressing issues of racial inequality and systemic abuse."
+    },
+    {
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "year": 2020,
+      "century": 21,
+      "location": {
+        "name": "Mallard, Louisiana, and California",
+        "coordinates": [
+          30.9943,
+          -91.5783
+        ]
+      },
+      "summary": "Follows the lives of twin sisters who choose to live in different worlds, one passing as white.",
+      "historical_context": "Examines themes of race, identity, and family secrets."
+    },
+    {
+      "title": "Klara and the Sun",
+      "author": "Kazuo Ishiguro",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "United States (Unspecified Location)",
+        "coordinates": [
+          37.0902,
+          -95.7129
+        ]
+      },
+      "summary": "Narrates the story of an Artificial Friend who observes the world and learns about human relationships.",
+      "historical_context": "Set in a near-future world, exploring themes of artificial intelligence and human connection."
+    },
+    {
+      "title": "Sea of Tranquility",
+      "author": "Emily St. John Mandel",
+      "year": 2022,
+      "century": 21,
+      "location": {
+        "name": "Canada and Lunar Colony",
+        "coordinates": [
+          45.4215,
+          -75.6972
+        ]
+      },
+      "summary": "A time-slip narrative spanning centuries, connecting characters across different eras and locations.",
+      "historical_context": "Explores themes of time, memory, and the human condition."
+    },
+    {
+      "title": "Daisy Jones & The Six",
+      "author": "Taylor Jenkins Reid",
+      "year": 2019,
+      "century": 21,
+      "location": {
+        "name": "Los Angeles, California",
+        "coordinates": [
+          34.0522,
+          -118.2437
+        ]
+      },
+      "summary": "An oral history of a fictional rock band in the 1970s, exploring fame, love, and the creative process.",
+      "historical_context": "Set in the music scene of the 1970s, capturing the energy and atmosphere of the era."
+    },
+    {
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "year": 2017,
+      "century": 21,
+      "location": {
+        "name": "Hollywood, California",
+        "coordinates": [
+          34.0983,
+          -118.3259
+        ]
+      },
+      "summary": "An aging Hollywood star reveals the secrets of her scandalous life and seven marriages to a young journalist.",
+      "historical_context": "Set against the backdrop of Hollywood history, exploring themes of ambition, love, and fame."
+    },
+   {
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "Outer Space",
+        "coordinates": [
+          0.0000,
+          0.0000
+        ]
+      },
+      "summary": "An astronaut wakes up with amnesia on a spaceship and must save humanity from an extinction event.",
+      "historical_context": "A science fiction thriller exploring themes of survival, science, and collaboration."
+    },
+    {
+      "title": "The Lincoln Highway",
+      "author": "Amor Towles",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "Nebraska and New York",
+        "coordinates": [
+          41.4925,
+          -99.9018
+        ]
+      },
+      "summary": "Follows a young man's journey home from a juvenile work farm, which takes unexpected turns.",
+      "historical_context": "Set in the 1950s, exploring themes of freedom, destiny, and the American landscape."
+    },
+    {
+      "title": "Cloud Cuckoo Land",
+      "author": "Anthony Doerr",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "Istanbul, Turkey, and Idaho, USA",
+        "coordinates": [
+          41.0082,
+          28.9784
+        ]
+      },
+      "summary": "Connects the lives of five characters across different time periods through a shared ancient text.",
+      "historical_context": "A sprawling narrative exploring themes of storytelling, resilience, and environmentalism."
+    },
+    {
+      "title": "The House in the Cerulean Sea",
+      "author": "TJ Klune",
+      "year": 2020,
+      "century": 21,
+      "location": {
+        "name": "Marsyas Island",
+        "coordinates": [
+          46.2276,
+          2.2137
+        ]
+      },
+      "summary": "A case worker investigates an orphanage for magical children and discovers a new understanding of family and acceptance.",
+      "historical_context": "A heartwarming story exploring themes of acceptance, love, and found family."
+    },
+    {
+      "title": "Braiding Sweetgrass",
+      "author": "Robin Wall Kimmerer",
+      "year": 2013,
+      "century": 21,
+      "location": {
+        "name": "North America",
+        "coordinates": [
+          37.0902,
+          -95.7129
+        ]
+      },
+      "summary": "Combines indigenous knowledge with scientific perspectives to explore the relationship between humans and nature.",
+      "historical_context": "A non-fiction work promoting ecological awareness and indigenous wisdom."
+    },
+    {
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "year": 2018,
+      "century": 21,
+      "location": {
+        "name": "Aeaea (Mythological Island)",
+        "coordinates": [
+          38.2469,
+          21.7350
+        ]
+      },
+      "summary": "Retells the story of the witch Circe from Greek mythology, exploring themes of identity, power, and exile.",
+      "historical_context": "A feminist retelling of classic mythology."
+    },
+    {
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "year": 2011,
+      "century": 21,
+      "location": {
+        "name": "Ancient Greece",
+        "coordinates": [
+          39.0742,
+          21.8243
+        ]
+      },
+      "summary": "Retells the story of Achilles and Patroclus from the Iliad, exploring their love and the tragedy of war.",
+      "historical_context": "A reimagining of Greek mythology from a LGBTQ+ perspective."
+    },
+   {
+      "title": "The Overstory",
+      "author": "Richard Powers",
+      "year": 2018,
+      "century": 21,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          37.0902,
+          -95.7129
+        ]
+      },
+      "summary": "Connects the lives of several characters who are brought together by their love of trees and their fight to protect the environment.",
+      "historical_context": "Addresses environmental issues and the interconnectedness of life."
+    },
+    {
+      "title": "Leave the World Behind",
+      "author": "Rumaan Alam",
+      "year": 2020,
+      "century": 21,
+      "location": {
+        "name": "Long Island, New York",
+        "coordinates": [
+          40.7891,
+          -73.1350
+        ]
+      },
+      "summary": "A family's vacation is interrupted by a mysterious blackout and the arrival of two strangers seeking refuge.",
+      "historical_context": "Set in contemporary America, exploring themes of race, class, and societal breakdown."
+    },
+    {
+      "title": "Hamnet",
+      "author": "Maggie O'Farrell",
+      "year": 2020,
+      "century": 21,
+      "location": {
+        "name": "Stratford-upon-Avon, England",
+        "coordinates": [
+          52.1917,
+          -1.7073
+        ]
+      },
+      "summary": "A fictionalized account of Shakespeare's family and the death of his son Hamnet.",
+      "historical_context": "A historical novel exploring grief, family, and the creative process."
+    },
+    {
+      "title": "Matrix",
+      "author": "Lauren Groff",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "England",
+        "coordinates": [
+          52.3555,
+          1.1743
+        ]
+      },
+      "summary": "Tells the story of Marie de France, a 12th-century poet who becomes the prioress of an English abbey.",
+      "historical_context": "A historical novel exploring themes of female power, spirituality, and creativity."
+    },
+   {
+      "title": "Great Circle",
+      "author": "Maggie Shipstead",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "Various Locations",
+        "coordinates": [
+          30.0000,
+          -90.0000
+        ]
+      },
+      "summary": "Spanning two centuries, it tells the interwoven stories of a female aviator determined to circumnavigate the globe and a Hollywood actress portraying her life.",
+      "historical_context": "A sweeping historical fiction exploring ambition and the quest for freedom."
+    },
+    {
+      "title": "Bewilderment",
+      "author": "Richard Powers",
+      "year": 2021,
+      "century": 21,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          44.9673,
+          -103.7715
+        ]
+      },
+      "summary": "A widowed astrobiologist raises his son while grappling with the possibilities of life beyond Earth.",
+      "historical_context": "A thought-provoking novel about grief, science, and environmentalism."
+    },
+    {
+      "title": "Black Leopard, Red Wolf",
+      "author": "Marlon James",
+      "year": 2019,
+      "century": 21,
+      "location": {
+        "name": "Africa",
+        "coordinates": [
+          7.0000,
+          20.0000
+        ]
+      },
+      "summary": "A fantasy epic set in an ancient Africa landscape, following a tracker and a mercenary on a dangerous quest.",
+      "historical_context": "Inspired by African mythology and folklore."
+    },
+    {
+      "title": "White Teeth",
+      "author": "Zadie Smith",
+      "year": 2000,
+      "century": 21,
+      "location": {
+        "name": "London, England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Follows the lives of two unlikely friends and their families in multicultural London.",
+      "historical_context": "A vibrant portrayal of contemporary London, exploring themes of identity, immigration, and cultural change."
+    },
+    {
+      "title": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Kerala, India",
+        "coordinates": [
+          10.2167,
+          76.2167
+        ]
+      },
+      "summary": "Explores the lives of fraternal twins and the impact of social and political forces on their family's destiny.",
+      "historical_context": "Set in India, exploring themes of caste, love, and loss."
+    },
+    {
+      "title": "The English Patient",
+      "author": "Michael Ondaatje",
+      "year": 1992,
+      "century": 20,
+      "location": {
+        "name": "Italy",
+        "coordinates": [
+          41.8719,
+          12.5674
+        ]
+      },
+      "summary": "A story of love, loss, and identity set in an Italian villa during World War II.",
+      "historical_context": "Set against the backdrop of World War II, exploring themes of war, memory, and redemption."
+    },
+    {
+      "title": "The Remains of the Day",
+      "author": "Kazuo Ishiguro",
+      "year": 1989,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [
+          52.3555,
+          1.1743
+        ]
+      },
+      "summary": "Tells the story of a butler who reflects on his life and his unwavering loyalty to his employer.",
+      "historical_context": "A poignant exploration of duty, regret, and the changing social landscape of England."
+    },
+    {
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "year": 1987,
+      "century": 20,
+      "location": {
+        "name": "Ohio",
+        "coordinates": [
+          40.3674,
+          -82.9962
+        ]
+      },
+      "summary": "A former slave is haunted by the ghost of her daughter in post-Civil War Ohio.",
+      "historical_context": "Set in the aftermath of the Civil War, examining the psychological impact of slavery."
+    },
+    {
+      "title": "The Color Purple",
+      "author": "Alice Walker",
+      "year": 1982,
+      "century": 20,
+      "location": {
+        "name": "Georgia, USA",
+        "coordinates": [
+          33.2479,
+          -83.4411
+        ]
+      },
+      "summary": "A coming-of-age story about a young African-American woman in the early 20th century.",
+      "historical_context": "Set in the American South, exploring themes of race, gender, and empowerment."
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "year": 1967,
+      "century": 20,
+      "location": {
+        "name": "Colombia",
+        "coordinates": [
+          4.5709,
+          -74.2973
+        ]
+      },
+      "summary": "A multi-generational saga of the Buendía family in the town of Macondo.",
+      "historical_context": "A seminal work of Latin American literature, blending magical realism with historical and political themes."
     }
   ]
 }
