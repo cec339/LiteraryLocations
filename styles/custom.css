@@ -44,11 +44,37 @@ iframe {
 .stSlider {
     width: 100% !important;
     max-width: none !important;
+    padding: 20px 0 30px 0 !important;  /* Increased padding for better touch */
 }
 
 .stSlider > div {
     width: 100% !important;
     max-width: none !important;
+    min-height: 50px !important;  /* Taller touch target */
+}
+
+/* Increase thumb size for better touch */
+.stSlider [data-testid="stThumbValue"] {
+    width: 36px !important;
+    height: 36px !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* Increase track height */
+div[data-testid="stSelectSlider"] div[data-baseweb="slider"] div[class*="track"] {
+    height: 12px !important;
+}
+
+/* Adjust for mobile specifically */
+@media (max-width: 768px) {
+    .stSlider {
+        padding: 30px 0 40px 0 !important;
+    }
+    
+    .stSlider [data-testid="stThumbValue"] {
+        width: 44px !important;
+        height: 44px !important;
+    }
 }
 
 .stSlider > div > div > div {
