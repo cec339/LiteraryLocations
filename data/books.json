@@ -1199,18 +1199,7 @@
       "summary": "A delusional nobleman imagines himself a knight-errant, embarking on adventures with his squire Sancho Panza.",
       "historical_context": "Written as a parody of chivalric romances, marking the birth of the modern novel."
     },
-    {
-      "title": "The Tale of Kiều",
-      "author": "Nguyễn Du",
-      "year": 1820,
-      "century": 19,
-      "location": {
-        "name": "Vietnam",
-        "coordinates": [21.0285, 105.8542]
-      },
-      "summary": "A poetic tale of a young woman who sacrifices herself to save her family, enduring many hardships.",
-      "historical_context": "Written during Vietnam's transition between dynasties, reflecting Confucian values."
-    },
+    
     {
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
