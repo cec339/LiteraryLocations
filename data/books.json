@@ -1248,18 +1248,6 @@
       "summary": "A collection of observations and musings from a lady-in-waiting at the Japanese imperial court.",
       "historical_context": "Provides insight into Heian period court life and aesthetics."
     },
-{
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
-      "year": 1967,
-      "century": 20,
-      "location": {
-        "name": "Macondo (Based on Aracataca), Colombia",
-        "coordinates": [10.5916, -74.1861]
-      },
-      "summary": "The multi-generational saga of the Buendía family in the magical town of Macondo.",
-      "historical_context": "Written during Latin America's Boom period, incorporating magical realism to explore Colombian history."
-    },
     {
       "title": "The Master and Margarita",
       "author": "Mikhail Bulgakov",
@@ -1477,8 +1465,7 @@
         "coordinates": [
           35.9078,
           127.7669
-        ]
-      },
+        ]      },
       "summary": "Follows a Korean family who immigrates to Japan and faces discrimination and hardship.",
       "historical_context": "Set against the backdrop of Japanese colonialism and World War II."
     },
