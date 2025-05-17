@@ -99,31 +99,21 @@ try:
         )
 
     # Add navigation buttons in columns
-    col1, col2, col3 = st.columns([3, 0.5, 3])
+    left_spacer, left_button, slider_space, right_button, right_spacer = st.columns([3, 1, 3, 1, 3])
     
-    with col1:
-        st.write("")  # Add some spacing
-        st.write("")
-        with st.container():
-            col1, col2 = st.columns([4, 1])
-            with col2:
-                if st.button("◀", help="Go back one century"):
-                    current_index = century_options.index(st.session_state.selected_century)
-                    if current_index > 0:
-                        st.session_state.selected_century = century_options[current_index - 1]
-                        st.rerun()
+    with left_button:
+        if st.button("◀", help="Go back one century"):
+            current_index = century_options.index(st.session_state.selected_century)
+            if current_index > 0:
+                st.session_state.selected_century = century_options[current_index - 1]
+                st.rerun()
     
-    with col3:
-        st.write("")  # Add some spacing
-        st.write("")
-        with st.container():
-            col1, col2 = st.columns([1, 4])
-            with col1:
-                if st.button("▶", help="Go forward one century"):
-                    current_index = century_options.index(st.session_state.selected_century)
-                    if current_index < len(century_options) - 1:
-                        st.session_state.selected_century = century_options[current_index + 1]
-                        st.rerun()
+    with right_button:
+        if st.button("▶", help="Go forward one century"):
+            current_index = century_options.index(st.session_state.selected_century)
+            if current_index < len(century_options) - 1:
+                st.session_state.selected_century = century_options[current_index + 1]
+                st.rerun()
 
     # Update session state if changed
     if selected_century != st.session_state.selected_century:
