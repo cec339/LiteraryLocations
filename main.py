@@ -99,9 +99,12 @@ try:
         )
 
     # Add navigation buttons in columns
-    col1, col2, col3 = st.columns([1, 4, 1])
+    col1, col2, col3 = st.columns([3, 0.5, 3])
     
     with col1:
+        st.write("")  # Add some spacing
+        st.write("")
+        st.container().align("right")
         if st.button("◀", help="Go back one century"):
             current_index = century_options.index(st.session_state.selected_century)
             if current_index > 0:
@@ -109,6 +112,9 @@ try:
                 st.rerun()
     
     with col3:
+        st.write("")  # Add some spacing
+        st.write("")
+        st.container().align("left")
         if st.button("▶", help="Go forward one century"):
             current_index = century_options.index(st.session_state.selected_century)
             if current_index < len(century_options) - 1:
