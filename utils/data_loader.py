@@ -11,22 +11,8 @@ def load_book_data():
         # Convert to DataFrame for easier manipulation
         df = pd.DataFrame(data["books"])
         
-        # Track duplicates before removal
-        original_count = len(df)
-        
-        # Remove exact duplicates (case-insensitive)
-        df['title_lower'] = df['title'].str.lower()
-        duplicate_titles = df[df.duplicated(subset=['title_lower'], keep=False)]['title'].tolist()
-        if duplicate_titles:
-            print(f"Found exact duplicate titles: {duplicate_titles}")
-            
         # Remove duplicates keeping first occurrence
-        df = df.drop_duplicates(subset=['title_lower'], keep='first')
-        df = df.drop('title_lower', axis=1)
-        
-        final_count = len(df)
-        if original_count != final_count:
-            print(f"Removed {original_count - final_count} duplicate entries")
+        df = df.drop_duplicates(subset=['title'])
 
         # Safer extraction with error handling
         def safe_extract_coordinate(location, index):
