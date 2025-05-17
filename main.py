@@ -108,10 +108,10 @@ try:
             col1, col2 = st.columns([4, 1])
             with col2:
                 if st.button("◀", help="Go back one century"):
-            current_index = century_options.index(st.session_state.selected_century)
-            if current_index > 0:
-                st.session_state.selected_century = century_options[current_index - 1]
-                st.rerun()
+                    current_index = century_options.index(st.session_state.selected_century)
+                    if current_index > 0:
+                        st.session_state.selected_century = century_options[current_index - 1]
+                        st.rerun()
     
     with col3:
         st.write("")  # Add some spacing
@@ -120,10 +120,10 @@ try:
             col1, col2 = st.columns([1, 4])
             with col1:
                 if st.button("▶", help="Go forward one century"):
-            current_index = century_options.index(st.session_state.selected_century)
-            if current_index < len(century_options) - 1:
-                st.session_state.selected_century = century_options[current_index + 1]
-                st.rerun()
+                    current_index = century_options.index(st.session_state.selected_century)
+                    if current_index < len(century_options) - 1:
+                        st.session_state.selected_century = century_options[current_index + 1]
+                        st.rerun()
 
     # Update session state if changed
     if selected_century != st.session_state.selected_century:
