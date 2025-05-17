@@ -104,8 +104,10 @@ try:
     with col1:
         st.write("")  # Add some spacing
         st.write("")
-        st.container().align("right")
-        if st.button("◀", help="Go back one century"):
+        with st.container():
+            col1, col2 = st.columns([4, 1])
+            with col2:
+                if st.button("◀", help="Go back one century"):
             current_index = century_options.index(st.session_state.selected_century)
             if current_index > 0:
                 st.session_state.selected_century = century_options[current_index - 1]
@@ -114,8 +116,10 @@ try:
     with col3:
         st.write("")  # Add some spacing
         st.write("")
-        st.container().align("left")
-        if st.button("▶", help="Go forward one century"):
+        with st.container():
+            col1, col2 = st.columns([1, 4])
+            with col1:
+                if st.button("▶", help="Go forward one century"):
             current_index = century_options.index(st.session_state.selected_century)
             if current_index < len(century_options) - 1:
                 st.session_state.selected_century = century_options[current_index + 1]
