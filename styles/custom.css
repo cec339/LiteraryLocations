@@ -81,6 +81,27 @@ div[data-testid="stSelectSlider"] div[data-baseweb="slider"] div[class*="track"]
     background-color: #1f77b4;
 }
 
+/* Navigation button styling */
+button[kind="secondary"] {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #1f77b4 !important;
+    color: white !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+}
+
+button[kind="secondary"]:hover {
+    background-color: #2186c4 !important;
+}
+
 /* Simpler slider styling */
 div[data-testid="stSelectSlider"] {
     padding: 5px 0 15px 0 !important;
