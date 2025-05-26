@@ -98,23 +98,25 @@ try:
             help="Slide to explore literature through time"
         )
 
-    # Add navigation buttons in columns
-    left_spacer, button_col, right_spacer = st.columns([4, 1, 4])
+    # Add navigation buttons centered under the slider
+    st.markdown("<div style='text-align: center; margin-top: 10px;'>", unsafe_allow_html=True)
+    col1, col2, col3, col4, col5 = st.columns([2, 1, 0.5, 1, 2])
     
-    with button_col:
-        col1, col2 = st.columns([1, 1])
-        with col1:
-            if st.button("◀", help="Go back one century"):
-                current_index = century_options.index(st.session_state.selected_century)
-                if current_index > 0:
-                    st.session_state.selected_century = century_options[current_index - 1]
-                    st.rerun()
-        with col2:
-            if st.button("▶", help="Go forward one century"):
-                current_index = century_options.index(st.session_state.selected_century)
-                if current_index < len(century_options) - 1:
-                    st.session_state.selected_century = century_options[current_index + 1]
-                    st.rerun()
+    with col2:
+        if st.button("◀", help="Go back one century", key="prev_btn"):
+            current_index = century_options.index(st.session_state.selected_century)
+            if current_index > 0:
+                st.session_state.selected_century = century_options[current_index - 1]
+                st.rerun()
+    
+    with col4:
+        if st.button("▶", help="Go forward one century", key="next_btn"):
+            current_index = century_options.index(st.session_state.selected_century)
+            if current_index < len(century_options) - 1:
+                st.session_state.selected_century = century_options[current_index + 1]
+                st.rerun()
+    
+    st.markdown("</div>", unsafe_allow_html=True)
 
     # Update session state if changed
     if selected_century != st.session_state.selected_century:
