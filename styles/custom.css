@@ -102,6 +102,24 @@ button[kind="secondary"]:hover {
     background-color: #2186c4 !important;
 }
 
+/* Mobile portrait mode: ensure buttons are centered */
+@media (max-width: 768px) and (orientation: portrait) {
+    /* Center the button container */
+    div[data-testid="column"] {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    /* Ensure buttons maintain proper spacing */
+    button[kind="secondary"] {
+        margin: 0 auto !important;
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 24px !important;
+    }
+}
+
 /* Simpler slider styling */
 div[data-testid="stSelectSlider"] {
     padding: 5px 0 15px 0 !important;
