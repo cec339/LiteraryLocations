@@ -3,7 +3,8 @@ from utils.data_loader import (
     load_book_data,
     get_century_range,
     filter_books_by_century,
-    search_books
+    search_books,
+    get_dataset_stats
 )
 from utils.map_utils import create_literature_map
 import streamlit.components.v1 as components
@@ -63,6 +64,19 @@ with st.sidebar:
         st.session_state.century_updated = False
         st.info("Use the slider to explore books by century")
 
+    # Add dataset info and filters in sidebar
+    st.sidebar.header("Dataset Information")
+
+    # Get and display dataset statistics
+    stats = get_dataset_stats()
+    st.sidebar.metric("Total Books", stats["total_books"])
+    st.sidebar.metric("Unique Authors", stats["unique_authors"])
+    st.sidebar.metric("Books with Coordinates", stats["books_with_coordinates"])
+
+    st.sidebar.header("Filters")
+
+    min_century, max_century = get_century_range()
+
 # Main content
 try:
     # Add century label above slider
@@ -101,21 +115,21 @@ try:
     # Add navigation buttons centered under the slider
     st.markdown("<div style='text-align: center; margin-top: 10px;'>", unsafe_allow_html=True)
     col1, col2, col3, col4, col5 = st.columns([2, 1, 0.5, 1, 2])
-    
+
     with col2:
         if st.button("◀", help="Go back one century", key="prev_btn"):
             current_index = century_options.index(st.session_state.selected_century)
             if current_index > 0:
                 st.session_state.selected_century = century_options[current_index - 1]
                 st.rerun()
-    
+
     with col4:
         if st.button("▶", help="Go forward one century", key="next_btn"):
             current_index = century_options.index(st.session_state.selected_century)
             if current_index < len(century_options) - 1:
                 st.session_state.selected_century = century_options[current_index + 1]
                 st.rerun()
-    
+
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Update session state if changed
