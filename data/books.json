@@ -409,1461 +409,112 @@
       "historical_context": "Written during postmodernism's height, experimenting with narrative structure and reader involvement."
     },
     {
-      "title": "The Castle",
-      "author": "Franz Kafka",
-      "year": 1926,
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "year": 1922,
       "century": 20,
       "location": {
-        "name": "Central Europe",
-        "coordinates": [50.0755, 14.4378]
+        "name": "Dublin, Ireland",
+        "coordinates": [53.3498, -6.2603]
       },
-      "summary": "K.'s futile attempts to gain access to the mysterious authorities in the Castle.",
-      "historical_context": "Written during the dissolution of the Austro-Hungarian Empire, examining bureaucracy and alienation."
+      "summary": "A modernist novel following Leopold Bloom through a single day in Dublin, paralleling Homer's Odyssey.",
+      "historical_context": "Written during the Irish struggle for independence, pioneering stream-of-consciousness narrative."
     },
     {
-      "title": "Death in Venice",
-      "author": "Thomas Mann",
-      "year": 1912,
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "year": 1913,
       "century": 20,
-      "location": {
-        "name": "Venice, Italy",
-        "coordinates": [45.4408, 12.3155]
-      },
-      "summary": "An aging writer becomes obsessed with a young boy while visiting Venice during a cholera epidemic.",
-      "historical_context": "Written before World War I, examining art, beauty, and decay in European culture."
-    },
-    {
-      "title": "Journey to the West",
-      "author": "Wu Cheng'en",
-      "year": 1592,
-      "century": 16,
-      "location": {
-        "name": "China to India",
-        "coordinates": [34.3416, 108.9398]
-      },
-      "summary": "The magical journey of a monk and his supernatural companions to retrieve Buddhist scriptures.",
-      "historical_context": "Written during the Ming Dynasty, based on the historical journey of Xuanzang."
-    },
-    {
-      "title": "The Stories of Jorge Luis Borges",
-      "author": "Jorge Luis Borges",
-      "year": 1944,
-      "century": 20,
-      "location": {
-        "name": "Buenos Aires, Argentina",
-        "coordinates": [-34.6037, -58.3816]
-      },
-      "summary": "Collection of metaphysical stories exploring infinity, time, and identity.",
-      "historical_context": "Written during Argentina's transition from traditional to modern society, influencing magical realism."
-    },
-    {
-      "title": "The Ramayana",
-      "author": "Valmiki",
-      "year": -500,
-      "century": -5,
-      "location": {
-        "name": "Ancient India",
-        "coordinates": [27.1767, 78.0081]
-      },
-      "summary": "The epic journey of Rama to rescue his wife Sita from the demon king Ravana.",
-      "historical_context": "Ancient Sanskrit epic that has profoundly influenced Indian culture and literature."
-    },
-    {
-      "title": "The Flowers of Evil",
-      "author": "Charles Baudelaire",
-      "year": 1857,
-      "century": 19,
       "location": {
         "name": "Paris, France",
         "coordinates": [48.8566, 2.3522]
       },
-      "summary": "Poetry collection exploring urban life, modernity, and the nature of evil and beauty.",
-      "historical_context": "Written during Paris's modernization, marking the beginning of modern poetry."
+      "summary": "A massive novel exploring memory, time, and French society through the narrator's recollections.",
+      "historical_context": "Written during the Belle Époque, examining the decline of aristocratic French society."
     },
     {
-      "title": "The Adventures of Sherlock Holmes",
-      "author": "Arthur Conan Doyle",
-      "year": 1892,
-      "century": 19,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Collection of detective stories featuring the brilliant consulting detective Sherlock Holmes.",
-      "historical_context": "Written during Victorian England's scientific advancement and urbanization."
-    },
-    {
-      "title": "The Alexandria Quartet",
-      "author": "Lawrence Durrell",
-      "year": 1960,
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "year": 1951,
       "century": 20,
       "location": {
-        "name": "Alexandria, Egypt",
-        "coordinates": [31.2001, 29.9187]
+        "name": "New York City, United States",
+        "coordinates": [40.7128, -74.0060]
       },
-      "summary": "Four interconnected novels exploring love and modern life in pre-war Alexandria.",
-      "historical_context": "Set before and during World War II, examining colonialism and cultural intersection."
+      "summary": "Holden Caulfield's journey through New York City, exploring teenage alienation and phoniness.",
+      "historical_context": "Written post-WWII, capturing American youth disillusionment in the 1950s."
     },
     {
-      "title": "The Waves",
-      "author": "Virginia Woolf",
-      "year": 1931,
-      "century": 20,
-      "location": {
-        "name": "England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "The intertwined lives of six friends told through interior monologues.",
-      "historical_context": "Written during the modernist period, experimenting with stream of consciousness."
-    },
-    {
-      "title": "Snow Country",
-      "author": "Yasunari Kawabata",
-      "year": 1948,
-      "century": 20,
-      "location": {
-        "name": "Niigata Prefecture, Japan",
-        "coordinates": [37.9026, 139.0237]
-      },
-      "summary": "The love affair between a Tokyo dilettante and a provincial geisha in the snow country.",
-      "historical_context": "Written during Japan's modernization, examining traditional Japanese aesthetics."
-    },
-    {
-      "title": "The Tale of the Bamboo Cutter",
-      "author": "Anonymous",
-      "year": 900,
-      "century": 10,
-      "location": {
-        "name": "Kyoto, Japan",
-        "coordinates": [35.0116, 135.7681]
-      },
-      "summary": "The story of a mysterious girl found in a bamboo stalk who turns out to be from the Moon.",
-      "historical_context": "Oldest extant Japanese prose narrative, reflecting Heian period court culture."
-    },
-    {
-      "title": "Blindness",
-      "author": "José Saramago",
-      "year": 1995,
-      "century": 20,
-      "location": {
-        "name": "Unnamed City",
-        "coordinates": [38.7223, -9.1393]
-      },
-      "summary": "A city's descent into chaos when its population is struck by an epidemic of blindness.",
-      "historical_context": "Written at the end of the 20th century, examining human nature and social breakdown."
-    },
-    {
-      "title": "The Unbearable Lightness of Being",
-      "author": "Milan Kundera",
-      "year": 1984,
-      "century": 20,
-      "location": {
-        "name": "Prague, Czechoslovakia",
-        "coordinates": [50.0755, 14.4378]
-      },
-      "summary": "The lives of four interconnected characters during the Prague Spring and its aftermath.",
-      "historical_context": "Set during the Soviet invasion of Czechoslovakia, examining politics and personal freedom."
-    },
-    {
-      "title": "The Good Soldier",
-      "author": "Ford Madox Ford",
-      "year": 1915,
-      "century": 20,
-      "location": {
-        "name": "Bad Nauheim, Germany",
-        "coordinates": [50.3669, 8.7519]
-      },
-      "summary": "The tragic relationships between two wealthy couples, told through unreliable narration.",
-      "historical_context": "Written on the eve of World War I, examining the decay of European society."
-    },
-    {
-      "title": "A House for Mr. Biswas",
-      "author": "V.S. Naipaul",
-      "year": 1961,
-      "century": 20,
-      "location": {
-        "name": "Trinidad",
-        "coordinates": [10.6918, -61.2225]
-      },
-      "summary": "One man's lifelong struggle for independence and identity in colonial Trinidad.",
-      "historical_context": "Set in colonial Trinidad, examining post-colonial identity and social mobility."
-    },
-    {
-      "title": "The Life of Samuel Johnson",
-      "author": "James Boswell",
-      "year": 1791,
-      "century": 18,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "The definitive biography of the great literary figure Samuel Johnson.",
-      "historical_context": "Written during the Age of Enlightenment, pioneering modern biography."
-    },
-    {
-      "title": "The Tale of Lady Ochikubo",
-      "author": "Anonymous",
-      "year": 1010,
-      "century": 11,
-      "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
-        "coordinates": [35.0116, 135.7681]
-      },
-      "summary": "A Cinderella-like story of a mistreated noblewoman who rises to happiness through her talents.",
-      "historical_context": "Written during the Heian period, depicting court life and women's experiences."
-    },
-    {
-      "title": "Berlin Alexanderplatz",
-      "author": "Alfred Döblin",
-      "year": 1929,
-      "century": 20,
-      "location": {
-        "name": "Berlin, Germany",
-        "coordinates": [52.5200, 13.4050]
-      },
-      "summary": "An ex-convict's struggle to stay straight in the criminal underworld of 1920s Berlin.",
-      "historical_context": "Set during the Weimar Republic, depicting urban modernism and social upheaval."
-    },
-    {
-      "title": "The Man of Property",
-      "author": "John Galsworthy",
-      "year": 1906,
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "year": 1949,
       "century": 20,
       "location": {
         "name": "London, England",
         "coordinates": [51.5074, -0.1278]
       },
-      "summary": "The story of the wealthy Forsyte family, examining the power of property and possession.",
-      "historical_context": "Written during the Edwardian era, examining Victorian values and social change."
+      "summary": "A dystopian novel about totalitarian control, surveillance, and the manipulation of truth.",
+      "historical_context": "Written in the aftermath of WWII, warning against totalitarian regimes and propaganda."
     },
     {
-      "title": "The Bridge on the Drina",
-      "author": "Ivo Andrić",
-      "year": 1945,
-      "century": 20,
-      "location": {
-        "name": "Višegrad, Bosnia",
-        "coordinates": [43.7833, 19.2833]
-      },
-      "summary": "Chronicles four centuries of Balkan history through the story of a bridge.",
-      "historical_context": "Spanning Ottoman to Austro-Hungarian rule, examining Balkan cultural intersections."
-    },
-    {
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "year": 1925,
-      "century": 20,
-      "location": {
-        "name": "Long Island, New York",
-        "coordinates": [40.7891, -73.1350]
-      },
-      "summary": "A mysterious millionaire's obsessive quest for his lost love amid the decadence of the Jazz Age.",
-      "historical_context": "Written during the Roaring Twenties, examining the American Dream and social excess."
-    },
-    {
-      "title": "Moby-Dick",
-      "author": "Herman Melville",
-      "year": 1851,
-      "century": 19,
-      "location": {
-        "name": "Pacific Ocean",
-        "coordinates": [0.0, -160.0]
-      },
-      "summary": "Captain Ahab's obsessive quest for revenge against the white whale Moby Dick.",
-      "historical_context": "Written during America's whaling era, exploring themes of obsession and nature."
-    },
-    {
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "year": 1813,
-      "century": 19,
-      "location": {
-        "name": "Hertfordshire, England",
-        "coordinates": [51.83, -0.2]
-      },
-      "summary": "Elizabeth Bennet's journey of love and self-discovery in Georgian era England.",
-      "historical_context": "Written during the Regency period, examining class, marriage, and social expectations."
-    },
-    {
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
-      "year": 1967,
-      "century": 20,
-      "location": {
-        "name": "Macondo (Based on Aracataca), Colombia",
-        "coordinates": [10.5916, -74.1861]
-      },
-      "summary": "The multi-generational saga of the Buendía family in the magical town of Macondo.",
-      "historical_context": "Written during Latin America's Boom period, incorporating magical realism to explore Colombian history."
-    },
-    {
-      "title": "The Tale of Genji",
-      "author": "Murasaki Shikibu",
-      "year": 1010,
-      "century": 11,
-      "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
-        "coordinates": [35.0116, 135.7681]
-      },
-      "summary": "The life and romantic pursuits of Hikaru Genji, the emperor's son, in the imperial court.",
-      "historical_context": "Written during the height of the Heian period, depicting aristocratic culture and customs."
-    },
-    {
-      "title": "The Thousand and One Nights",
-      "author": "Various Authors",      "year": 800,
-      "century": 9,
-      "location": {
-        "name": "Baghdad, Abbasid Caliphate",
-        "coordinates": [33.3152, 44.3661]
-      },
-      "summary": "A collection of Middle Eastern folk tales framed by Scheherazade's nightly storytelling.",
-      "historical_context": "Compiled during the Islamic Golden Age, reflecting medieval Islamic culture."
-    },
-    {
-      "title": "The Epic of Gilgamesh",
-      "author": "Anonymous",
-      "year": -2000,
-      "century": -20,
-      "location": {
-        "name": "Uruk, Ancient Mesopotamia",
-        "coordinates": [31.3236, 45.6367]
-      },
-      "summary": "The adventures of King Gilgamesh and his friend Enkidu, exploring themes of friendship and mortality.",
-      "historical_context": "One of the earliest surviving works of literature, from ancient Sumerian civilization."
-    },
-    {
-      "title": "Beloved",
-      "author": "Toni Morrison",
-      "year": 1987,
-      "century": 20,
-      "location": {
-        "name": "Cincinnati, Ohio",
-        "coordinates": [39.1031, -84.5120]
-      },
-      "summary": "A former slave is haunted by the ghost of her daughter in post-Civil War Ohio.",
-      "historical_context": "Set in the aftermath of the Civil War, examining the psychological impact of slavery."
-    },
-   {
-      "title": "The Sound and the Fury",
-      "author": "William Faulkner",
-      "year": 1929,
-      "century": 20,
-      "location": {
-        "name": "Jefferson (Fictional), Mississippi",
-        "coordinates": [34.3668, -89.5186]
-      },
-      "summary": "The decline of the Compson family told through multiple perspectives.",
-      "historical_context": "Set in the American South, examining the decay of Southern aristocracy."
-    },
-    {
-      "title": "The Stranger",
-      "author": "Albert Camus",
-      "year": 1942,
-      "century": 20,
-      "location": {
-        "name": "Algiers, French Algeria",
-        "coordinates": [36.7538, 3.0588]
-      },
-      "summary": "Meursault's emotional detachment leads to murder and a philosophical examination of existence.",
-      "historical_context": "Written during French colonial rule in Algeria, exploring existentialism."
-    },
-    {
-      "title": "The Metamorphosis",
-      "author": "Franz Kafka",
-      "year": 1915,
-      "century": 20,
-      "location": {
-        "name": "Prague, Austria-Hungary",
-        "coordinates": [50.0755, 14.4378]
-      },
-      "summary": "Gregor Samsa wakes up one morning transformed into a giant insect.",
-      "historical_context": "Written during the decline of the Austro-Hungarian Empire, exploring alienation."
-    },
-    {
-      "title": "Things Fall Apart",
-      "author": "Chinua Achebe",
-      "year": 1958,
-      "century": 20,
-      "location": {
-        "name": "Umuofia (Eastern Nigeria)",
-        "coordinates": [6.4550, 7.5122]
-      },
-      "summary": "The life of Okonkwo and his village's encounter with British colonialism.",
-      "historical_context": "Set in pre-colonial and colonial Nigeria, examining cultural clash."
-    },
-    {
-      "title": "Beowulf",
-      "author": "Anonymous",
-      "year": 1000,
-      "century": 11,
-      "location": {
-        "name": "Anglo-Saxon England",
-        "coordinates": [52.3555, 1.1743]
-      },
-      "summary": "An Old English epic poem featuring the hero Beowulf, who battles the monster Grendel, Grendel's mother, and a dragon.",
-      "historical_context": "Likely composed between the 8th and 11th centuries, it is one of the most important works of Anglo-Saxon literature."
-    },
-    {
-      "title": "Shahnameh",
-      "author": "Ferdowsi",
-      "year": 1010,
-      "century": 11,
-      "location": {
-        "name": "Persia (modern-day Iran)",
-        "coordinates": [35.6892, 51.3890]
-      },
-      "summary": "Epic poem narrating the legendary and historical past of Persia, from the creation of the world until the Arab conquest.",
-      "historical_context": "Composed over 30 years, preserving Persian cultural identity after the Islamic conquest."
-    },
-    {
-      "title": "Song of Roland",
-      "author": "Anonymous",
-      "year": 1100,
-      "century": 12,
-      "location": {
-        "name": "Frankish Empire / Roncevaux Pass",
-        "coordinates": [43.0131, -1.3332]
-      },
-      "summary": "An epic poem about the Battle of Roncevaux Pass in 778, focusing on the hero Roland and themes of fealty and honor.",
-      "historical_context": "One of the earliest and most famous chansons de geste, reflecting medieval knightly values and the Carolingian legend."
-    },
-    {
-      "title": "Sundiata",
-      "author": "Anonymous (oral tradition)",
-      "year": 1300,
-      "century": 13,
-      "location": {
-        "name": "Mali Empire",
-        "coordinates": [12.65, -8.0]
-      },
-      "summary": "The epic of Sundiata Keita, the founder of the Mali Empire, as recounted by West African griots.",
-      "historical_context": "Passed down orally, reflecting West African cultural traditions and the empire's founding myths."
-    },
-    {
-      "title": "Popol Vuh",
-      "author": "Anonymous (K'iche' Maya)",
-      "year": 1550,
-      "century": 16,
-      "location": {
-        "name": "Guatemala (K'iche' Maya)",
-        "coordinates": [14.6349, -90.5069]
-      },
-      "summary": "The creation myth and epic narratives of the K'iche' Maya people, describing the origins of the world and human beings.",
-      "historical_context": "Originally an oral tradition, transcribed in the mid-16th century following Spanish colonization."
-    },
-    {
-      "title": "Analects",
-      "author": "Confucius (compiled by disciples)",
-      "year": -400,
-      "century": -4,
-      "location": {
-        "name": "Ancient China",
-        "coordinates": [34.261, 108.948]
-      },
-      "summary": "A collection of sayings and ideas attributed to Confucius and his disciples, focusing on morality, society, and governance.",
-      "historical_context": "Central text of Confucianism, compiled during the Warring States period, profoundly influencing East Asian ethical systems."
-    },
-    {
-      "title": "Daodejing",
-      "author": "Laozi",
-      "year": -500,
-      "century": -5,
-      "location": {
-        "name": "Ancient China",
-        "coordinates": [34.261, 108.948]
-      },
-      "summary": "A foundational Daoist text of 81 chapters, discussing the Dao (the Way), virtue, and natural harmony.",
-      "historical_context": "Traditionally attributed to Laozi in the 6th century BCE, deeply shaping Chinese philosophy and religion."
-    },
-    {
-      "title": "Zhuangzi",
-      "author": "Zhuang Zhou",
-      "year": -300,
-      "century": -3,
-      "location": {
-        "name": "Ancient China",
-        "coordinates": [34.261, 108.948]
-      },
-      "summary": "Philosophical work exploring the Dao, questioning conventional norms, and emphasizing spontaneity and freedom.",
-      "historical_context": "One of the foundational Daoist texts, compiled during the Warring States period, notable for its parables and imaginative style."
-    },
-    {
-      "title": "Arthashastra",
-      "author": "Kautilya (Chanakya)",
-      "year": -300,
-      "century": -3,
-      "location": {
-        "name": "Mauryan Empire (India)",
-        "coordinates": [25.5941, 85.1376]
-      },
-      "summary": "Treatise on statecraft, economic policy, and military strategy in ancient India.",
-      "historical_context": "Attributed to Chanakya, advisor to Emperor Chandragupta Maurya, shaping governance in the Mauryan Empire."
-    },
-    {
-      "title": "Histories",
-      "author": "Herodotus",
-      "year": -450,
-      "century": -5,
-      "location": {
-        "name": "Ancient Greece",
-        "coordinates": [37.9838, 23.7275]
-      },
-      "summary": "An inquiry into the origins and events of the Greco-Persian Wars, widely regarded as the first major work of history in Western literature.",
-      "historical_context": "Written in the 5th century BCE, providing a detailed account of various peoples and cultures, pioneering historical narrative."
-    },
-    {
-      "title": "The Legend of Etana",
-      "author": "Anonymous",
-      "year": -1900,
-      "century": -19,
-      "location": {
-        "name": "Ancient Mesopotamia",
-        "coordinates": [32.0, 45.0]
-      },
-      "summary": "A Mesopotamian myth recounting the adventures of Etana, a legendary king seeking the plant of birth.",
-      "historical_context": "Attributed to early Sumerian traditions, representing heroic myth from the 19th century BCE."
-    },
-    {
-      "title": "Enmerkar and the Lord of Aratta",
-      "author": "Anonymous",
-      "year": -1750,
-      "century": -18,
-      "location": {
-        "name": "Ancient Sumer",
-        "coordinates": [32.5, 44.5]
-      },
-      "summary": "An epic tale of rivalry and divine mandate between the Sumerian ruler Enmerkar and the distant kingdom of Aratta.",
-      "historical_context": "A foundational work of Sumerian literature from the 18th century BCE."
-    },
-    {
-      "title": "The Epic of Atrahasis",
-      "author": "Anonymous",
-      "year": -1700,
-      "century": -17,
-      "location": {
-        "name": "Ancient Babylon",
-        "coordinates": [32.0, 44.0]
-      },
-      "summary": "A Babylonian epic that recounts the creation of humanity and a great flood, prefiguring later flood myths.",
-      "historical_context": "An influential myth from the 17th century BCE that has shaped later literary traditions."
-    },
-    {
-      "title": "The Tale of Two Brothers",
-      "author": "Anonymous",
-      "year": -1500,
-      "century": -15,
-      "location": {
-        "name": "Ancient Egypt",
-        "coordinates": [26.0, 30.0]
-      },
-      "summary": "A narrative of betrayal, love, and redemption between two brothers in ancient Egypt.",
-      "historical_context": "An important piece of Egyptian literature dating from the 15th century BCE."
-    },
-    {
-      "title": "The Instruction of Shuruppak",
-      "author": "Anonymous",
-      "year": -1400,
-      "century": -14,
-      "location": {
-        "name": "Ancient Sumer",
-        "coordinates": [31.5, 45.0]
-      },
-      "summary": "A set of proverbial instructions attributed to the wise man Shuruppak.",
-      "historical_context": "An early example of Sumerian wisdom literature from the 14th century BCE."
-    },
-    {
-      "title": "The Epos of Lugalbanda",
-      "author": "Anonymous",
-      "year": -1300,
-      "century": -13,
-      "location": {
-        "name": "Ancient Sumer",
-        "coordinates": [31.7, 45.2]
-      },
-      "summary": "An epic recounting the adventures of the legendary Sumerian king Lugalbanda.",
-      "historical_context": "A mythic narrative from the 13th century BCE that influenced later epic traditions."
-    },
-    {
-      "title": "The Debate between Winter and Summer",
-      "author": "Anonymous",
-      "year": -1200,
-      "century": -12,
-      "location": {
-        "name": "Ancient Anatolia",
-        "coordinates": [39.0, 35.0]
-      },
-      "summary": "A Hittite text in which personifications of winter and summer debate the merits of their seasons.",
-      "historical_context": "A unique example of seasonal allegory from the 12th century BCE."
-    },
-    {
-      "title": "The Tale of Wenamun",
-      "author": "Anonymous",
-      "year": -1100,
-      "century": -11,
-      "location": {
-        "name": "Ancient Egypt",
-        "coordinates": [27.0, 30.0]
-      },
-      "summary": "A narrative detailing the adventures of Wenamun on his quest for trade and survival.",
-      "historical_context": "An important literary work from the 11th century BCE providing insight into Egyptian society."
-    },
-    {
-      "title": "The Tale of the Shipwrecked Sailor",
-      "author": "Anonymous",
-      "year": -1000,
-      "century": -10,
-      "location": {
-        "name": "Ancient Egypt",
-        "coordinates": [26.5, 29.5]
-      },
-      "summary": "A story of a sailor’s miraculous survival after being shipwrecked and his encounter with a divine serpent.",
-      "historical_context": "An enduring narrative from the 10th century BCE of ancient Egyptian maritime lore."
-    },
-    {
-      "title": "The Prophecies of Neferti",
-      "author": "Anonymous",
-      "year": -900,
-      "century": -9,
-      "location": {
-        "name": "Ancient Egypt",
-        "coordinates": [27.5, 30.5]
-      },
-      "summary": "A collection of prophetic verses attributed to the wise Neferti.",
-      "historical_context": "A work from the 9th century BCE reflecting Egyptian concerns with fate and divine order."
-    },
-    {
-      "title": "The Poem of the Righteous Sufferer",
-      "author": "Anonymous",
-      "year": -700,
-      "century": -7,
-      "location": {
-        "name": "Ancient Mesopotamia",
-        "coordinates": [33.0, 44.0]
-      },
-      "summary": "An Akkadian poem that reflects on suffering and justice in human life.",
-      "historical_context": "A poetic work from the 7th century BCE known for its empathetic tone."
-    },
-    {
-      "title": "Enuma Elish",
-      "author": "Anonymous",
-      "year": -600,
-      "century": -6,
-      "location": {
-        "name": "Ancient Babylon",
-        "coordinates": [32.0, 44.0]
-      },
-      "summary": "The Babylonian creation myth describing the rise of the god Marduk and the formation of the world.",
-      "historical_context": "A seminal work of Mesopotamian literature from the 6th century BCE."
-    },
-    {
-      "title": "The Sibylline Oracles",
-      "author": "Anonymous",
-      "year": -150,
-      "century": -2,
-      "location": {
-        "name": "Ancient Mediterranean",
-        "coordinates": [35.0, 25.0]
-      },
-      "summary": "A collection of prophetic writings attributed to a series of sibyls.",
-      "historical_context": "A composite work from the 2nd century BCE, reflecting a blend of Greek, Roman, and Near Eastern traditions."
-    },
-    {
-      "title": "The New Testament: The Gospel of Mark",
-      "author": "Anonymous (Early Christian Tradition)",
-      "year": 70,
-      "century": 1,
-      "location": {
-        "name": "Jerusalem",
-        "coordinates": [31.7767, 35.2345]
-      },
-      "summary": "The earliest Gospel in the New Testament, recounting the life and teachings of Jesus.",
-      "historical_context": "A foundational Christian text from the 1st century CE."
-    },
-    {
-      "title": "Meditations",
-      "author": "Marcus Aurelius",
-      "year": 180,
-      "century": 2,
-      "location": {
-        "name": "Rome, Italy",
-        "coordinates": [41.9028, 12.4964]
-      },
-      "summary": "A series of personal writings by the Roman emperor reflecting on Stoic philosophy and self-improvement.",
-      "historical_context": "An enduring work of philosophy from the 2nd century CE."
-    },
-    {
-      "title": "The Historia Augusta",
-      "author": "Anonymous",
-      "year": 250,
-      "century": 3,
-      "location": {
-        "name": "Roman Empire",
-        "coordinates": [41.9028, 12.4964]
-      },
-      "summary": "A collection of biographies of Roman emperors, blending fact and fiction.",
-      "historical_context": "A controversial historical text from the 3rd century CE."
-    },
-    {
-      "title": "The Confessions",
-      "author": "Augustine of Hippo",
-      "year": 397,
-      "century": 4,
-      "location": {
-        "name": "Hippo Regius (modern Annaba, Algeria)",
-        "coordinates": [36.9, 7.7667]
-      },
-      "summary": "An autobiographical work detailing Augustine's sinful youth and conversion to Christianity.",
-      "historical_context": "A seminal work of Christian philosophy from the 4th century CE."
-    },
-    {
-      "title": "The Vulgate Bible",
-      "author": "Jerome (compiler)",
-      "year": 405,
-      "century": 5,
-      "location": {
-        "name": "Rome, Italy",
-        "coordinates": [41.9028, 12.4964]
-      },
-      "summary": "The Latin translation of the Bible that became the Catholic Church's officially promulgated Latin version.",
-      "historical_context": "An influential text from the 5th century CE."
-    },
-    {
-      "title": "The Secret History",
-      "author": "Procopius",
-      "year": 550,
-      "century": 6,
-      "location": {
-        "name": "Constantinople",
-        "coordinates": [41.0082, 28.9784]
-      },
-      "summary": "A controversial account of the inner workings of the Byzantine Empire, written in a caustic tone.",
-      "historical_context": "An insider’s chronicle from the 6th century CE that paints an unflattering picture of the regime."
-    },
-    {
-      "title": "The Quran",
-      "author": "Prophet Muhammad (as revealed)",
-      "year": 632,
-      "century": 7,
-      "location": {
-        "name": "Mecca, Saudi Arabia",
-        "coordinates": [21.3891, 39.8579]
-      },
-      "summary": "The central religious text of Islam, believed to be the word of God as revealed to Prophet Muhammad.",
-      "historical_context": "A foundational text of Islamic faith from the 7th century CE."
-    },
-    {
-      "title": "Nihon Shoki",
-      "author": "Multiple Compilers",
-      "year": 720,
-      "century": 8,
-      "location": {
-        "name": "Nara, Japan",
-        "coordinates": [34.6851, 135.8050]
-      },
-      "summary": "An ancient chronicle of Japanese history, myth, and legend.",
-      "historical_context": "One of Japan's earliest histories, compiled in the 8th century CE."
-    },
-    {
-      "title": "Le Morte d'Arthur",
-      "author": "Thomas Malory",
-      "year": 1485,
-      "century": 15,
-      "location": {
-        "name": "England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "A retelling of the legends of King Arthur and his knights, combining romance, adventure, and tragedy.",
-      "historical_context": "A seminal work of English literature from the 15th century CE that popularized Arthurian legends."
-    },
-    {
-      "title": "War and Peace",
+      "title": "Anna Karenina",
       "author": "Leo Tolstoy",
-      "year": 1869,
+      "year": 1877,
       "century": 19,
       "location": {
-        "name": "Russia (Moscow and St. Petersburg)",
+        "name": "Moscow and St. Petersburg, Russia",
         "coordinates": [55.7558, 37.6173]
       },
-      "summary": "An epic narrative following five aristocratic families during Napoleon's invasion of Russia.",
-      "historical_context": "Set during the Napoleonic Era, examining Russian society and the impact of war."
+      "summary": "The tragic story of Anna Karenina's affair and its consequences in 19th-century Russian society.",
+      "historical_context": "Written during Russian social reforms, examining the tensions between tradition and modernity."
     },
     {
-      "title": "Don Quixote",
-      "author": "Miguel de Cervantes",
-      "year": 1605,
-      "century": 17,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "year": 1847,
+      "century": 19,
       "location": {
-        "name": "La Mancha, Spain",
-        "coordinates": [39.2796, -3.0977]
+        "name": "Yorkshire Moors, England",
+        "coordinates": [54.0000, -1.5400]
       },
-      "summary": "A delusional nobleman imagines himself a knight-errant, embarking on adventures with his squire Sancho Panza.",
-      "historical_context": "Written as a parody of chivalric romances, marking the birth of the modern novel."
+      "summary": "A dark tale of passion and revenge between Heathcliff and Catherine on the Yorkshire moors.",
+      "historical_context": "Written during the Victorian era, challenging social conventions with its gothic intensity."
     },
-    
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "year": 1866,
+      "century": 19,
+      "location": {
+        "name": "St. Petersburg, Russia",
+        "coordinates": [59.9311, 30.3609]
+      },
+      "summary": "Raskolnikov's psychological journey after committing murder, exploring guilt and redemption.",
+      "historical_context": "Written during Russian social upheaval, examining moral philosophy and human psychology."
+    },
+    {
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "year": 1857,
+      "century": 19,
+      "location": {
+        "name": "Normandy, France",
+        "coordinates": [49.1829, 0.3707]
+      },
+      "summary": "Emma Bovary's pursuit of romantic ideals leads to tragedy in provincial French society.",
+      "historical_context": "Written during the Second Empire, critiquing bourgeois society and romantic illusions."
+    },
     {
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
       "year": 1880,
       "century": 19,
       "location": {
-        "name": "Russia",
-        "coordinates": [55.7558, 37.6173]
+        "name": "Provincial Russia",
+        "coordinates": [56.3287, 44.0020]
       },
-      "summary": "A philosophical novel about faith, doubt, and morality through the story of three brothers.",
-      "historical_context": "Written during a period of great social change in Russia."
-    },
-    {
-      "title": "The Pillow Book",
-      "author": "Sei Shōnagon",
-      "year": 1002,
-      "century": 11,
-      "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
-        "coordinates": [35.0116, 135.7681]
-      },
-      "summary": "A collection of observations and musings from a lady-in-waiting at the Japanese imperial court.",
-      "historical_context": "Provides insight into Heian period court life and aesthetics."
-    },
-   {
-      "title": "A Passage to India",
-      "author": "E.M. Forster",
-      "year": 1924,
-      "century": 20,
-      "location": {
-        "name": "Chandrapore (Fictional), India",
-        "coordinates": [
-          25.4358,
-          81.8463
-        ]
-      },
-      "summary": "Explores the complexities of relationships between the British and the Indians in colonial India.",
-      "historical_context": "Set during the British Raj, examining themes of colonialism, race, and friendship."
-    },
-    {
-      "title": "Invisible Man",
-      "author": "Ralph Ellison",
-      "year": 1952,
-      "century": 20,
-      "location": {
-        "name": "Harlem, New York City",
-        "coordinates": [
-          40.8075,
-          -73.9411
-        ]
-      },
-      "summary": "Narrates the journey of a young African-American man who feels invisible in a racially divided society.",
-      "historical_context": "Written during the Civil Rights Movement, addressing issues of racial identity and social injustice."
-    },
-    {
-      "title": "Midnight's Children",
-      "author": "Salman Rushdie",
-      "year": 1981,
-      "century": 20,
-      "location": {
-        "name": "Bombay (Mumbai), India",
-        "coordinates": [
-          19.0760,
-          72.8777
-        ]
-      },
-      "summary": "Tells the story of children born at the moment of India's independence who possess magical powers.",
-      "historical_context": "Set against the backdrop of India's independence and subsequent political events."
-    },
-   {
-      "title": "The Handmaid's Tale",
-      "author": "Margaret Atwood",
-      "year": 1985,
-      "century": 20,
-      "location": {
-        "name": "Cambridge, Massachusetts (Fictional)",
-        "coordinates": [
-          42.3736,
-          -71.1097
-        ]
-      },
-      "summary": "Depicts a dystopian society where women are subjugated and used for reproductive purposes.",
-      "historical_context": "Written during the rise of conservative politics, exploring themes of feminism and totalitarianism."
-    },
-    {
-      "title": "Life of Pi",
-      "author": "Yann Martel",
-      "year": 2001,
-      "century": 21,
-      "location": {
-        "name": "Pacific Ocean",
-        "coordinates": [
-          0.0000,
-          -180.0000
-        ]
-      },
-      "summary": "Narrates the incredible survival story of a young Indian boy who is shipwrecked with a Bengal tiger.",
-      "historical_context": "Explores themes of faith, survival, and the power of storytelling."
-    },
-    {
-      "title": "The Kite Runner",
-      "author": "Khaled Hosseini",
-      "year": 2003,
-      "century": 21,
-      "location": {
-        "name": "Kabul, Afghanistan",
-        "coordinates": [
-          34.5553,
-          69.2075
-        ]
-      },
-      "summary": "Tells the story of friendship, betrayal, and redemption against the backdrop of Afghanistan's turbulent history.",
-      "historical_context": "Set during the Soviet-Afghan War and the rise of the Taliban, examining themes of guilt and forgiveness."
-    },
-    {
-      "title": "The Alchemist",
-      "author": "Paulo Coelho",
-      "year": 1988,
-      "century": 20,
-      "location": {
-        "name": "Andalusia, Spain, and the Egyptian desert",
-        "coordinates": [
-          37.6375,
-          -4.7798
-        ]
-      },
-      "summary": "Follows a shepherd boy's journey to fulfill his personal legend and discover his destiny.",
-      "historical_context": "Explores themes of self-discovery, perseverance, and the pursuit of dreams."
-    },
-    {
-      "title": "The Namesake",
-      "author": "Jhumpa Lahiri",
-      "year": 2003,
-      "century": 21,
-      "location": {
-        "name": "Calcutta, India, and the United States",
-        "coordinates": [
-          22.5726,
-          88.3639
-        ]
-      },
-      "summary": "Narrates the experiences of an Indian-American family as they navigate cultural identity and assimilation.",
-      "historical_context": "Set against the backdrop of immigration and cultural displacement."
-    },
-    {
-      "title": "A Thousand Splendid Suns",
-      "author": "Khaled Hosseini",
-      "year": 2007,
-      "century": 21,
-      "location": {
-        "name": "Kabul, Afghanistan",
-        "coordinates": [
-          34.5553,
-          69.2075
-        ]
-      },
-      "summary": "Tells the story of two women in Afghanistan whose lives intersect amidst war and oppression.",
-      "historical_context": "Set during the Taliban regime and its aftermath, examining themes of resilience and female solidarity."
-    },
-    {
-      "title": "Cutting for Stone",
-      "author": "Abraham Verghese",
-      "year": 2009,
-      "century": 21,
-      "location": {
-        "name": "Addis Ababa, Ethiopia",
-        "coordinates": [
-          9.0054,
-          38.7636
-        ]
-      },
-      "summary": "Follows the lives of twin brothers born to a nun and a surgeon in Ethiopia.",
-      "historical_context": "Set against the backdrop of political turmoil and medical innovation."
-    },
-    {
-      "title": "The Sympathizer",
-      "author": "Viet Thanh Nguyen",
-      "year": 2015,
-      "century": 21,
-      "location": {
-        "name": "Vietnam and the United States",
-        "coordinates": [
-          14.0583,
-          108.2772
-        ]
-      },
-      "summary": "Narrates the story of a double agent during the Vietnam War and its aftermath.",
-      "historical_context": "Explores themes of identity, loyalty, and the legacy of the Vietnam War."
-    },
-    {
-      "title": "Homegoing",
-      "author": "Yaa Gyasi",
-      "year": 2016,
-      "century": 21,
-      "location": {
-        "name": "Ghana and the United States",
-        "coordinates": [
-          7.9465,
-          -1.0232
-        ]
-      },
-      "summary": "Tells the story of two half-sisters in Ghana and their descendants across generations.",
-      "historical_context": "Traces the impact of slavery and colonialism on families and societies."
-    },
-    {
-      "title": "Americanah",
-      "author": "Chimamanda Ngozi Adichie",
-      "year": 2013,
-      "century": 21,
-      "location": {
-        "name": "Nigeria and the United States",
-        "coordinates": [
-          9.0820,
-          8.6753
-        ]
-      },
-      "summary": "Narrates the experiences of a young Nigerian woman who immigrates to the United States.",
-      "historical_context": "Examines themes of race, identity, and belonging in a globalized world."
-    },
-    {
-      "title": "Pachinko",
-      "author": "Min Jin Lee",
-      "year": 2017,
-      "century": 21,
-      "location": {
-        "name": "Korea and Japan",
-        "coordinates": [
-          35.9078,
-          127.7669
-        ]      },
-      "summary": "Follows a Korean family who immigrates to Japan and faces discrimination and hardship.",
-      "historical_context": "Set against the backdrop of Japanese colonialism and World War II."
-    },
-    {
-      "title": "Exit West",
-      "author": "Mohsin Hamid",
-      "year": 2017,
-      "century": 21,
-      "location": {
-        "name": "Unspecified City (War-Torn) and London",
-        "coordinates": [
-          51.5074,
-          -0.1278
-        ]
-      },
-      "summary": "Tells the story of a young couple who escape their war-torn country through magical doors.",
-      "historical_context": "Explores themes of migration, displacement, and the search for belonging."
-    },
-    {
-      "title": "Little Fires Everywhere",
-      "author": "Celeste Ng",
-      "year": 2017,
-      "century": 21,
-      "location": {
-        "name": "Shaker Heights, Ohio",
-        "coordinates": [
-          41.4784,
-          -81.5557
-        ]
-      },
-      "summary": "Explores themes of race, class, and privilege in a seemingly perfect suburban community.",
-      "historical_context": "Set in the 1990s, examining social issues and tensions."
-    },
-    {
-      "title": "Where the Crawdads Sing",
-      "author": "Delia Owens",
-      "year": 2018,
-      "century": 21,
-      "location": {
-        "name": "North Carolina Marsh",
-        "coordinates": [
-          35.7596,
-          -79.0193
-        ]
-      },
-      "summary": "Narrates the coming-of-age story of a young girl who is raised in the marshes of North Carolina.",
-      "historical_context": "Set in the mid-20th century, exploring themes of nature, isolation, and resilience."
-    },
-    {
-      "title": "The Nickel Boys",
-      "author": "Colson Whitehead",
-      "year": 2019,
-      "century": 21,
-      "location": {
-        "name": "Florida",
-        "coordinates": [
-          27.6648,
-          -81.5158
-        ]
-      },
-      "summary": "Tells the story of two boys who are sent to a reform school in Florida and experience abuse and injustice.",
-      "historical_context": "Based on real events, addressing issues of racial inequality and systemic abuse."
-    },
-    {
-      "title": "The Vanishing Half",
-      "author": "Brit Bennett",
-      "year": 2020,
-      "century": 21,
-      "location": {
-        "name": "Mallard, Louisiana, and California",
-        "coordinates": [
-          30.9943,
-          -91.5783
-        ]
-      },
-      "summary": "Follows the lives of twin sisters who choose to live in different worlds, one passing as white.",
-      "historical_context": "Examines themes of race, identity, and family secrets."
-    },
-    {
-      "title": "Klara and the Sun",
-      "author": "Kazuo Ishiguro",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "United States (Unspecified Location)",
-        "coordinates": [
-          37.0902,
-          -95.7129
-        ]
-      },
-      "summary": "Narrates the story of an Artificial Friend who observes the world and learns about human relationships.",
-      "historical_context": "Set in a near-future world, exploring themes of artificial intelligence and human connection."
-    },
-    {
-      "title": "Sea of Tranquility",
-      "author": "Emily St. John Mandel",
-      "year": 2022,
-      "century": 21,
-      "location": {
-        "name": "Canada and Lunar Colony",
-        "coordinates": [
-          45.4215,
-          -75.6972
-        ]
-      },
-      "summary": "A time-slip narrative spanning centuries, connecting characters across different eras and locations.",
-      "historical_context": "Explores themes of time, memory, and the human condition."
-    },
-    {
-      "title": "Daisy Jones & The Six",
-      "author": "Taylor Jenkins Reid",
-      "year": 2019,
-      "century": 21,
-      "location": {
-        "name": "Los Angeles, California",
-        "coordinates": [
-          34.0522,
-          -118.2437
-        ]
-      },
-      "summary": "An oral history of a fictional rock band in the 1970s, exploring fame, love, and the creative process.",
-      "historical_context": "Set in the music scene of the 1970s, capturing the energy and atmosphere of the era."
-    },
-    {
-      "title": "The Seven Husbands of Evelyn Hugo",
-      "author": "Taylor Jenkins Reid",
-      "year": 2017,
-      "century": 21,
-      "location": {
-        "name": "Hollywood, California",
-        "coordinates": [
-          34.0983,
-          -118.3259
-        ]
-      },
-      "summary": "An aging Hollywood star reveals the secrets of her scandalous life and seven marriages to a young journalist.",
-      "historical_context": "Set against the backdrop of Hollywood history, exploring themes of ambition, love, and fame."
-    },
-   {
-      "title": "Project Hail Mary",
-      "author": "Andy Weir",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "Outer Space",
-        "coordinates": [
-          0.0000,
-          0.0000
-        ]
-      },
-      "summary": "An astronaut wakes up with amnesia on a spaceship and must save humanity from an extinction event.",
-      "historical_context": "A science fiction thriller exploring themes of survival, science, and collaboration."
-    },
-    {
-      "title": "The Lincoln Highway",
-      "author": "Amor Towles",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "Nebraska and New York",
-        "coordinates": [
-          41.4925,
-          -99.9018
-        ]
-      },
-      "summary": "Follows a young man's journey home from a juvenile work farm, which takes unexpected turns.",
-      "historical_context": "Set in the 1950s, exploring themes of freedom, destiny, and the American landscape."
-    },
-    {
-      "title": "Cloud Cuckoo Land",
-      "author": "Anthony Doerr",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "Istanbul, Turkey, and Idaho, USA",
-        "coordinates": [
-          41.0082,
-          28.9784
-        ]
-      },
-      "summary": "Connects the lives of five characters across different time periods through a shared ancient text.",
-      "historical_context": "A sprawling narrative exploring themes of storytelling, resilience, and environmentalism."
-    },
-    {
-      "title": "The House in the Cerulean Sea",
-      "author": "TJ Klune",
-      "year": 2020,
-      "century": 21,
-      "location": {
-        "name": "Marsyas Island",
-        "coordinates": [
-          46.2276,
-          2.2137
-        ]
-      },
-      "summary": "A case worker investigates an orphanage for magical children and discovers a new understanding of family and acceptance.",
-      "historical_context": "A heartwarming story exploring themes of acceptance, love, and found family."
-    },
-    {
-      "title": "Braiding Sweetgrass",
-      "author": "Robin Wall Kimmerer",
-      "year": 2013,
-      "century": 21,
-      "location": {
-        "name": "North America",
-        "coordinates": [
-          37.0902,
-          -95.7129
-        ]
-      },
-      "summary": "Combines indigenous knowledge with scientific perspectives to explore the relationship between humans and nature.",
-      "historical_context": "A non-fiction work promoting ecological awareness and indigenous wisdom."
-    },
-    {
-      "title": "Circe",
-      "author": "Madeline Miller",
-      "year": 2018,
-      "century": 21,
-      "location": {
-        "name": "Aeaea (Mythological Island)",
-        "coordinates": [
-          38.2469,
-          21.7350
-        ]
-      },
-      "summary": "Retells the story of the witch Circe from Greek mythology, exploring themes of identity, power, and exile.",
-      "historical_context": "A feminist retelling of classic mythology."
-    },
-    {
-      "title": "The Song of Achilles",
-      "author": "Madeline Miller",
-      "year": 2011,
-      "century": 21,
-      "location": {
-        "name": "Ancient Greece",
-        "coordinates": [
-          39.0742,
-          21.8243
-        ]
-      },
-      "summary": "Retells the story of Achilles and Patroclus from the Iliad, exploring their love and the tragedy of war.",
-      "historical_context": "A reimagining of Greek mythology from a LGBTQ+ perspective."
-    },
-   {
-      "title": "The Overstory",
-      "author": "Richard Powers",
-      "year": 2018,
-      "century": 21,
-      "location": {
-        "name": "United States",
-        "coordinates": [
-          37.0902,
-          -95.7129
-        ]
-      },
-      "summary": "Connects the lives of several characters who are brought together by their love of trees and their fight to protect the environment.",
-      "historical_context": "Addresses environmental issues and the interconnectedness of life."
-    },
-    {
-      "title": "Leave the World Behind",
-      "author": "Rumaan Alam",
-      "year": 2020,
-      "century": 21,
-      "location": {
-        "name": "Long Island, New York",
-        "coordinates": [
-          40.7891,
-          -73.1350
-        ]
-      },
-      "summary": "A family's vacation is interrupted by a mysterious blackout and the arrival of two strangers seeking refuge.",
-      "historical_context": "Set in contemporary America, exploring themes of race, class, and societal breakdown."
-    },
-    {
-      "title": "Hamnet",
-      "author": "Maggie O'Farrell",
-      "year": 2020,
-      "century": 21,
-      "location": {
-        "name": "Stratford-upon-Avon, England",
-        "coordinates": [
-          52.1917,
-          -1.7073
-        ]
-      },
-      "summary": "A fictionalized account of Shakespeare's family and the death of his son Hamnet.",
-      "historical_context": "A historical novel exploring grief, family, and the creative process."
-    },
-    {
-      "title": "Matrix",
-      "author": "Lauren Groff",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "England",
-        "coordinates": [
-          52.3555,
-          1.1743
-        ]
-      },
-      "summary": "Tells the story of Marie de France, a 12th-century poet who becomes the prioress of an English abbey.",
-      "historical_context": "A historical novel exploring themes of female power, spirituality, and creativity."
-    },
-   {
-      "title": "Great Circle",
-      "author": "Maggie Shipstead",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "Various Locations",
-        "coordinates": [
-          30.0000,
-          -90.0000
-        ]
-      },
-      "summary": "Spanning two centuries, it tells the interwoven stories of a female aviator determined to circumnavigate the globe and a Hollywood actress portraying her life.",
-      "historical_context": "A sweeping historical fiction exploring ambition and the quest for freedom."
-    },
-    {
-      "title": "Bewilderment",
-      "author": "Richard Powers",
-      "year": 2021,
-      "century": 21,
-      "location": {
-        "name": "United States",
-        "coordinates": [
-          44.9673,
-          -103.7715
-        ]
-      },
-      "summary": "A widowed astrobiologist raises his son while grappling with the possibilities of life beyond Earth.",
-      "historical_context": "A thought-provoking novel about grief, science, and environmentalism."
-    },
-    {
-      "title": "Black Leopard, Red Wolf",
-      "author": "Marlon James",
-      "year": 2019,
-      "century": 21,
-      "location": {
-        "name": "Africa",
-        "coordinates": [
-          7.0000,
-          20.0000
-        ]
-      },
-      "summary": "A fantasy epic set in an ancient Africa landscape, following a tracker and a mercenary on a dangerous quest.",
-      "historical_context": "Inspired by African mythology and folklore."
-    },
-    {
-      "title": "White Teeth",
-      "author": "Zadie Smith",
-      "year": 2000,
-      "century": 21,
-      "location": {
-        "name": "London, England",
-        "coordinates": [
-          51.5074,
-          -0.1278
-        ]
-      },
-      "summary": "Follows the lives of two unlikely friends and their families in multicultural London.",
-      "historical_context": "A vibrant portrayal of contemporary London, exploring themes of identity, immigration, and cultural change."
-    },
-    {
-      "title": "The English Patient",
-      "author": "Michael Ondaatje",
-      "year": 1992,
-      "century": 20,
-      "location": {
-        "name": "Italy",
-        "coordinates": [
-          41.8719,
-          12.5674
-        ]
-      },
-      "summary": "A story of love, loss, and identity set in an Italian villa during World War II.",
-      "historical_context": "Set against the backdrop of World War II, exploring themes of war, memory, and redemption."
-    },
-    {
-      "title": "The Remains of the Day",
-      "author": "Kazuo Ishiguro",
-      "year": 1989,
-      "century": 20,
-      "location": {
-        "name": "England",
-        "coordinates": [
-          52.3555,
-          1.1743
-        ]
-      },
-      "summary": "Tells the story of a butler who reflects on his life and his unwavering loyalty to his employer.",
-      "historical_context": "A poignant exploration of duty, regret, and the changing social landscape of England."
-    },
-    {
-      "title": "Beloved",
-      "author": "Toni Morrison",
-      "year": 1987,
-      "century": 20,
-      "location": {
-        "name": "Ohio",
-        "coordinates": [
-          40.3674,
-          -82.9962
-        ]
-      },
-      "summary": "A former slave is haunted by the ghost of her daughter in post-Civil War Ohio.",
-      "historical_context": "Set in the aftermath of the Civil War, examining the psychological impact of slavery."
-    },
-    {
-      "title": "The Color Purple",
-      "author": "Alice Walker",
-      "year": 1982,
-      "century": 20,
-      "location": {
-        "name": "Georgia, USA",
-        "coordinates": [
-          33.2479,
-          -83.4411
-        ]
-      },
-      "summary": "A coming-of-age story about a young African-American woman in the early 20th century.",
-      "historical_context": "Set in the American South, exploring themes of race, gender, and empowerment."
-    },
-    {
-      "title": "Chronicle of a Death Foretold",
-      "author": "Gabriel García Márquez",
-      "year": 1981,
-      "century": 20,
-      "location": {
-        "name": "Colombia",
-        "coordinates": [4.5709, -74.2973]
-      },
-      "summary": "A non-linear narrative about a murder that everyone knew was going to happen but no one prevented.",
-      "historical_context": "Explores themes of honor killing and collective responsibility in Latin American society."
+      "summary": "A philosophical novel about faith, morality, and family through the story of three brothers.",
+      "historical_context": "Dostoevsky's final novel, exploring Russian Orthodox faith and moral questions."
     },
     {
       "title": "The Trial",
@@ -1871,35 +522,35 @@
       "year": 1925,
       "century": 20,
       "location": {
-        "name": "Prague",
+        "name": "Prague, Czech Republic",
         "coordinates": [50.0755, 14.4378]
       },
-      "summary": "Josef K. is arrested and prosecuted by a remote authority with no explanation for his crime.",
-      "historical_context": "Written during the decline of the Austro-Hungarian Empire, reflecting bureaucratic absurdity."
+      "summary": "Josef K.'s nightmarish experience with an incomprehensible legal system.",
+      "historical_context": "Published posthumously, reflecting the bureaucratic absurdity of modern society."
     },
     {
-      "title": "Lolita",
-      "author": "Vladimir Nabokov",
-      "year": 1955,
+      "title": "To the Lighthouse",
+      "author": "Virginia Woolf",
+      "year": 1927,
       "century": 20,
       "location": {
-        "name": "United States",
-        "coordinates": [38.8977, -77.0365]
+        "name": "Isle of Skye, Scotland",
+        "coordinates": [57.2736, -6.2155]
       },
-      "summary": "The controversial story of Humbert Humbert's obsession with young Dolores Haze.",
-      "historical_context": "Written in post-war America, examining themes of obsession and moral corruption."
+      "summary": "A modernist exploration of time, memory, and human relationships centered around the Ramsay family.",
+      "historical_context": "Written between the wars, pioneering stream-of-consciousness technique."
     },
     {
-      "title": "Their Eyes Were Watching God",
-      "author": "Zora Neale Hurston",
-      "year": 1937,
-      "century": 20,
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "year": 1899,
+      "century": 19,
       "location": {
-        "name": "Florida",
-        "coordinates": [27.6648, -81.5158]
+        "name": "Congo River, Africa",
+        "coordinates": [-0.2280, 15.8277]
       },
-      "summary": "Janie Crawford's quest for identity and fulfillment in the American South.",
-      "historical_context": "Written during the Harlem Renaissance, exploring African American culture and female empowerment."
+      "summary": "Marlow's journey into the African interior reveals the darkness of colonialism and human nature.",
+      "historical_context": "Written during the height of European colonialism, exposing its brutal realities."
     },
     {
       "title": "The Grapes of Wrath",
@@ -1907,11 +558,83 @@
       "year": 1939,
       "century": 20,
       "location": {
-        "name": "Oklahoma to California",
-        "coordinates": [35.0078, -97.0929]
+        "name": "California, United States",
+        "coordinates": [36.7783, -119.4179]
       },
       "summary": "The Joad family's migration to California during the Great Depression.",
-      "historical_context": "Depicts the hardships of the Dust Bowl and the struggles of migrant workers."
+      "historical_context": "Written during the Dust Bowl era, depicting the struggles of migrant workers."
+    },
+    {
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "year": 1865,
+      "century": 19,
+      "location": {
+        "name": "Wonderland (Fictional)",
+        "coordinates": [51.7520, -1.2577]
+      },
+      "summary": "Alice's fantastical journey through a world of nonsense and imagination.",
+      "historical_context": "Written during the Victorian era, revolutionizing children's literature."
+    },
+    {
+      "title": "The Magic Mountain",
+      "author": "Thomas Mann",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "Davos, Switzerland",
+        "coordinates": [46.8019, 9.8399]
+      },
+      "summary": "Hans Castorp's transformative stay at a tuberculosis sanatorium in the Swiss Alps.",
+      "historical_context": "Written in the aftermath of WWI, exploring European intellectual and cultural crisis."
+    },
+    {
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "year": 1871,
+      "century": 19,
+      "location": {
+        "name": "Provincial England (Fictional)",
+        "coordinates": [52.4862, -1.8904]
+      },
+      "summary": "A panoramic view of provincial English life through interconnected stories of love, politics, and idealism.",
+      "historical_context": "Set during the Reform Bill era, examining social and political change in England."
+    },
+    {
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "year": 1884,
+      "century": 19,
+      "location": {
+        "name": "Mississippi River, United States",
+        "coordinates": [38.3566, -90.3994]
+      },
+      "summary": "Huck Finn's journey down the Mississippi River with runaway slave Jim.",
+      "historical_context": "Written post-Civil War, addressing issues of race and freedom in American society."
+    },
+    {
+      "title": "Mrs. Dalloway",
+      "author": "Virginia Woolf",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "A single day in the life of Clarissa Dalloway, exploring consciousness and post-war trauma.",
+      "historical_context": "Written in the aftermath of WWI, examining shell shock and social change."
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "year": 1847,
+      "century": 19,
+      "location": {
+        "name": "Yorkshire, England",
+        "coordinates": [54.0000, -1.5400]
+      },
+      "summary": "An orphaned governess's journey to independence and love despite social constraints.",
+      "historical_context": "Written during the Victorian era, challenging gender roles and class structures."
     },
     {
       "title": "Catch-22",
@@ -1919,1139 +642,23 @@
       "year": 1961,
       "century": 20,
       "location": {
-        "name": "Mediterranean Island",
-        "coordinates": [41.9028, 12.4964]
+        "name": "Pianosa, Italy",
+        "coordinates": [42.5847, 10.0883]
       },
-      "summary": "The absurdist tale of Captain John Yossarian trying to survive World War II.",
-      "historical_context": "Written in the post-war era, satirizing military bureaucracy and war."
+      "summary": "Captain Yossarian's absurd experiences in WWII, trapped by military bureaucracy.",
+      "historical_context": "Written during the Cold War, satirizing military logic and bureaucratic absurdity."
     },
     {
-      "title": "The Wind-Up Bird Chronicle",
-      "author": "Haruki Murakami",
-      "year": 1994,
-      "century": 20,
-      "location": {
-        "name": "Tokyo, Japan",
-        "coordinates": [35.6762, 139.6503]
-      },
-      "summary": "Toru Okada's search for his missing wife leads him into a surreal underground world.",
-      "historical_context": "Explores Japan's wartime past and contemporary urban alienation."
-    },
-    {
-      "title": "The Masnavi",
-      "author": "Rumi",
-      "year": 1273,
-      "century": 13,
-      "location": {
-        "name": "Konya, Turkey",
-        "coordinates": [37.8719, 32.4843]
-      },
-      "summary": "A vast collection of spiritual teachings and stories in verse form.",
-      "historical_context": "Written during the golden age of Sufi poetry, exploring mystical themes."
-    },
-    {
-      "title": "The Conference of the Birds",
-      "author": "Farid ud-Din Attar",
-      "year": 1177,
-      "century": 12,
-      "location": {
-        "name": "Persia",
-        "coordinates": [32.4279, 53.6880]
-      },
-      "summary": "Allegorical poem about birds seeking their king, representing the soul's journey.",
-      "historical_context": "A masterpiece of Persian Sufi literature exploring spiritual quest."
-    },
-    {
-      "title": "Njal's Saga",
-      "author": "Anonymous",
-      "year": 1280,
-      "century": 13,
-      "location": {
-        "name": "Iceland",
-        "coordinates": [64.9631, -19.0208]
-      },
-      "summary": "The story of a 50-year blood feud and its consequences.",
-      "historical_context": "Written during Iceland's Commonwealth period, depicting Norse society."
-    },
-    {
-      "title": "The Lusiads",
-      "author": "Luís de Camões",
-      "year": 1572,
-      "century": 16,
-      "location": {
-        "name": "Portugal and its colonies",
-        "coordinates": [38.7223, -9.1393]
-      },
-      "summary": "Epic poem celebrating Portuguese exploration and maritime empire.",
-      "historical_context": "Written during Portugal's Age of Discovery."
-    },
-    {
-      "title": "The Peony Pavilion",
-      "author": "Tang Xianzu",
-      "year": 1598,
-      "century": 16,
-      "location": {
-        "name": "Ming Dynasty China",
-        "coordinates": [32.0617, 118.7778]
-      },
-      "summary": "A love story between a girl and a scholar that transcends death.",
-      "historical_context": "Written during the Ming Dynasty, exploring love and resurrection."
-    },
-    {
-      "title": "The Golden Ass",
-      "author": "Apuleius",
-      "year": 170,
-      "century": 2,
-      "location": {
-        "name": "Ancient Rome",
-        "coordinates": [41.9028, 12.4964]
-      },
-      "summary": "The adventures of a man transformed into a donkey by magic.",
-      "historical_context": "The only ancient Roman novel to survive in its entirety."
-    },
-    {
-      "title": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "year": 1911,
-      "century": 20,
-      "location": {
-        "name": "Yorkshire, England",
-        "coordinates": [54.0000, -1.5400]
-      },
-      "summary": "A spoiled girl discovers healing and friendship in a hidden garden.",
-      "historical_context": "Written during the Edwardian era, exploring themes of renewal."
-    },
-    {
-      "title": "The Odyssey",
-      "author": "Homer",
-      "year": -800,
-      "century": -8,
-      "location": {
-        "name": "Mediterranean Sea",
-        "coordinates": [37.9838, 23.7275]
-      },
-      "summary": "Odysseus's ten-year journey home after the Trojan War.",
-      "historical_context": "One of the foundational works of Western literature."
-    },
-    {
-      "title": "The Thousand and One Nights",
-      "author": "Various",
-      "year": 800,
-      "century": 9,
-      "location": {
-        "name": "Middle East",
-        "coordinates": [33.3152, 44.3661]
-      },
-      "summary": "Collection of Middle Eastern folk tales told by Scheherazade.",
-      "historical_context": "Compiled during the Islamic Golden Age."
-    },
-    {
-      "title": "The Popol Vuh",
-      "author": "Anonymous",
-      "year": 1550,
-      "century": 16,
-      "location": {
-        "name": "Guatemala",
-        "coordinates": [15.7835, -90.2308]
-      },
-      "summary": "The creation myth and sacred book of the K'iche' Maya people.",
-      "historical_context": "Preserved Maya mythology and cosmology."
-    },
-    {
-      "title": "The Death of Ivan Ilyich",
-      "author": "Leo Tolstoy",
-      "year": 1886,
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "year": 1860,
       "century": 19,
       "location": {
-        "name": "Russia",
-        "coordinates": [55.7558, 37.6173]
-      },
-      "summary": "A dying man reflects on the meaning of his life.",
-      "historical_context": "Written during Russia's period of social reform."
-    },
-    {
-      "title": "The Book of Job",
-      "author": "Anonymous",
-      "year": -600,
-      "century": -6,
-      "location": {
-        "name": "Ancient Near East",
-        "coordinates": [31.7683, 35.2137]
-      },
-      "summary": "A righteous man's suffering tests his faith in God.",
-      "historical_context": "One of the oldest books of the Hebrew Bible."
-    },
-    {
-      "title": "The Epic of Sundiata",
-      "author": "Oral Tradition",
-      "year": 1235,
-      "century": 13,
-      "location": {
-        "name": "Mali Empire",
-        "coordinates": [12.6392, -8.0029]
-      },
-      "summary": "The founding epic of the Mali Empire by Sundiata Keita.",
-      "historical_context": "Preserved through oral tradition by griots."
-    },
-    {
-      "title": "The Book of Dede Korkut",
-      "author": "Anonymous",
-      "year": 1000,
-      "century": 10,
-      "location": {
-        "name": "Central Asia",
-        "coordinates": [39.7753, 64.4232]
-      },
-      "summary": "Heroic tales of the Oghuz Turks.",
-      "historical_context": "Major work of Turkish folk literature."
-    },
-    {
-      "title": "The Saga of the Volsungs",
-      "author": "Anonymous",
-      "year": 1270,
-      "century": 13,
-      "location": {
-        "name": "Scandinavia",
-        "coordinates": [60.4720, 8.4689]
-      },
-      "summary": "The tragic story of Sigurd and the fall of the Burgundians.",
-      "historical_context": "Influenced Wagner's Ring Cycle."
-    },
-    {
-      "title": "The Mabinogion",
-      "author": "Anonymous",
-      "year": 1350,
-      "century": 14,
-      "location": {
-        "name": "Wales",
-        "coordinates": [52.1307, -3.7837]
-      },
-      "summary": "Collection of Welsh mythology and folklore.",
-      "historical_context": "Preserved Celtic mythology and Arthurian tales."
-    },
-    {
-      "title": "The Life of Milarepa",
-      "author": "Tsangnyön Heruka",
-      "year": 1488,
-      "century": 15,
-      "location": {
-        "name": "Tibet",
-        "coordinates": [29.6470, 91.1170]
-      },
-      "summary": "Biography of the Tibetan saint and poet Milarepa.",
-      "historical_context": "Important work of Tibetan Buddhism."
-    },
-    {
-      "title": "The Tale of Igor's Campaign",
-      "author": "Anonymous",
-      "year": 1185,
-      "century": 12,
-      "location": {
-        "name": "Kievan Rus",
-        "coordinates": [50.4501, 30.5234]
-      },
-      "summary": "Epic poem about a failed campaign against the Polovtsians.",
-      "historical_context": "Masterpiece of Old Russian literature."
-    },
-    {
-      "title": "The Romance of the Three Kingdoms",
-      "author": "Luo Guanzhong",
-      "year": 1400,
-      "century": 14,
-      "location": {
-        "name": "China",
-        "coordinates": [34.3416, 108.9398]
-      },
-      "summary": "Historical novel about the end of the Han Dynasty.",
-      "historical_context": "One of China's Four Great Classical Novels."
-    },
-    {
-      "title": "The Water Margin",
-      "author": "Shi Nai'an",
-      "year": 1370,
-      "century": 14,
-      "location": {
-        "name": "China",
-        "coordinates": [34.3416, 108.9398]
-      },
-      "summary": "Tale of 108 outlaws who gather at Mount Liang.",
-      "historical_context": "Based on historical events during the Song Dynasty."
-    },
-    {
-      "title": "The Cloud Dream of the Nine",
-      "author": "Kim Man-jung",
-      "year": 1687,
-      "century": 17,
-      "location": {
-        "name": "Korea",
-        "coordinates": [37.5665, 126.9780]
-      },
-      "summary": "Buddhist allegory about the life of eight fairies reborn as humans.",
-      "historical_context": "Written during the Joseon Dynasty."
-    },
-    {
-      "title": "The Life of Lazarillo de Tormes",
-      "author": "Anonymous",
-      "year": 1554,
-      "century": 16,
-      "location": {
-        "name": "Spain",
-        "coordinates": [40.4168, -3.7038]
-      },
-      "summary": "A poor boy's adventures serving various masters.",
-      "historical_context": "First picaresque novel."
-    },
-    {
-      "title": "Gargantua and Pantagruel",
-      "author": "François Rabelais",
-      "year": 1532,
-      "century": 16,
-      "location": {
-        "name": "France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Satirical story of two giants, father and son.",
-      "historical_context": "Renaissance humanist masterpiece."
-    },
-    {
-      "title": "The Lais of Marie de France",
-      "author": "Marie de France",
-      "year": 1180,
-      "century": 12,
-      "location": {
-        "name": "England/France",
+        "name": "London and Kent, England",
         "coordinates": [51.5074, -0.1278]
       },
-      "summary": "Collection of twelve narrative poems about love and adventure.",
-      "historical_context": "Important work of medieval French literature."
-    },
-    {
-      "title": "The Book of the City of Ladies",
-      "author": "Christine de Pizan",
-      "year": 1405,
-      "century": 15,
-      "location": {
-        "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Defense of women's worth and abilities.",
-      "historical_context": "Early feminist text."
-    },
-    {
-      "title": "The Manuscript Found in Saragossa",
-      "author": "Jan Potocki",
-      "year": 1815,
-      "century": 19,
-      "location": {
-        "name": "Spain",
-        "coordinates": [41.6488, -0.8891]
-      },
-      "summary": "Complex frame story of supernatural and romantic adventures.",
-      "historical_context": "Written during the Enlightenment."
-    },
-    {
-      "title": "The Heptameron",
-      "author": "Marguerite of Navarre",
-      "year": 1558,
-      "century": 16,
-      "location": {
-        "name": "France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Collection of 72 short stories told by stranded travelers.",
-      "historical_context": "Influenced by Boccaccio's Decameron."
-    },
-    {
-      "title": "The Sorrows of Young Werther",
-      "author": "Johann Wolfgang von Goethe",
-      "year": 1774,
-      "century": 18,
-      "location": {
-        "name": "Germany",
-        "coordinates": [50.1109, 8.6821]
-      },
-      "summary": "Epistolary novel about unrequited love leading to tragedy.",
-      "historical_context": "Key text of the Sturm und Drang movement."
-    },
-    {
-      "title": "The Life and Opinions of the Tomcat Murr",
-      "author": "E.T.A. Hoffmann",
-      "year": 1822,
-      "century": 19,
-      "location": {
-        "name": "Germany",
-        "coordinates": [52.5200, 13.4050]
-      },
-      "summary": "Satirical novel combining a cat's autobiography with a musician's biography.",
-      "historical_context": "Written during German Romanticism."
-    },
-    {
-      "title": "The Last Day of a Condemned Man",
-      "author": "Victor Hugo",
-      "year": 1829,
-      "century": 19,
-      "location": {
-        "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "The thoughts of a man awaiting execution.",
-      "historical_context": "Early argument against capital punishment."
-    },
-    {
-      "title": "The Black Tulip",
-      "author": "Alexandre Dumas",
-      "year": 1850,
-      "century": 19,
-      "location": {
-        "name": "Netherlands",
-        "coordinates": [52.3676, 4.9041]
-      },
-      "summary": "Historical novel about the search for a perfect black tulip.",
-      "historical_context": "Set during the Dutch Golden Age."
-    },
-    {
-      "title": "Oblomov",
-      "author": "Ivan Goncharov",
-      "year": 1859,
-      "century": 19,
-      "location": {
-        "name": "St. Petersburg, Russia",
-        "coordinates": [59.9311, 30.3609]
-      },
-      "summary": "Story of a nobleman who can hardly leave his bed.",
-      "historical_context": "Satirizes Russian nobility's inertia."
-    },
-    {
-      "title": "The Red and the Black",
-      "author": "Stendhal",
-      "year": 1830,
-      "century": 19,
-      "location": {
-        "name": "France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "A young man's attempts to rise above his humble beginnings.",
-      "historical_context": "Set during the Bourbon Restoration."
-    },
-    {
-      "title": "The Woman in White",
-      "author": "Wilkie Collins",
-      "year": 1859,
-      "century": 19,
-      "location": {
-        "name": "England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Mystery novel involving stolen identities and asylum imprisonment.",
-      "historical_context": "One of the first mystery novels."
-    },
-    {
-      "title": "The Time Machine",
-      "author": "H.G. Wells",
-      "year": 1895,
-      "century": 19,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "A scientist travels to the distant future.",
-      "historical_context": "Early science fiction novel."
-    },
-    {
-      "title": "We",
-      "author": "Yevgeny Zamyatin",
-      "year": 1924,
-      "century": 20,
-      "location": {
-        "name": "Future State",
-        "coordinates": [55.7558, 37.6173]
-      },
-      "summary": "Dystopian novel about life in a totalitarian state.",
-      "historical_context": "Influenced later dystopian literature."
-    },
-    {
-      "title": "Petersburg",
-      "author": "Andrei Bely",
-      "year": 1913,
-      "century": 20,
-      "location": {
-        "name": "St. Petersburg, Russia",
-        "coordinates": [59.9311, 30.3609]
-      },
-      "summary": "Symbolist novel about revolution and father-son conflict.",
-      "historical_context": "Written before the Russian Revolution."
-    },
-    {
-      "title": "Independent People",
-      "author": "Halldór Laxness",
-      "year": 1934,
-      "century": 20,
-      "location": {
-        "name": "Iceland",
-        "coordinates": [64.9631, -19.0208]
-      },
-      "summary": "A sheep farmer's struggle for independence in harsh conditions.",
-      "historical_context": "Depicts rural Icelandic life."
-    },
-    {
-      "title": "The Street of Crocodiles",
-      "author": "Bruno Schulz",
-      "year": 1934,
-      "century": 20,
-      "location": {
-        "name": "Drohobych, Ukraine",
-        "coordinates": [49.3560, 23.5000]
-      },
-      "summary": "Surrealist stories about a merchant family.",
-      "historical_context": "Written between the World Wars."
-    },
-    {
-      "title": "At Swim-Two-Birds",
-      "author": "Flann O'Brien",
-      "year": 1939,
-      "century": 20,
-      "location": {
-        "name": "Dublin, Ireland",
-        "coordinates": [53.3498, -6.2603]
-      },
-      "summary": "Metafictional novel about a student writing a novel.",
-      "historical_context": "Early postmodern novel."
-    },
-    {
-      "title": "The Wind-Up Bird Chronicle",
-      "author": "Haruki Murakami",
-      "year": 1994,
-      "century": 20,
-      "location": {
-        "name": "Tokyo, Japan",
-        "coordinates": [35.6762, 139.6503]
-      },
-      "summary": "Toru Okada's search for his missing wife leads him into a surreal underground world.",
-      "historical_context": "Explores Japan's wartime past and contemporary urban alienation."
-    },
-    {
-      "title": "The Masnavi",
-      "author": "Rumi",
-      "year": 1273,
-      "century": 13,
-      "location": {
-        "name": "Konya, Turkey",
-        "coordinates": [37.8719, 32.4843]
-      },
-      "summary": "A vast collection of spiritual teachings and stories in verse form.",
-      "historical_context": "Written during the golden age of Sufi poetry, exploring mystical themes."
-    },
-    {
-      "title": "The Conference of the Birds",
-      "author": "Farid ud-Din Attar",
-      "year": 1177,
-      "century": 12,
-      "location": {
-        "name": "Persia",
-        "coordinates": [32.4279, 53.6880]
-      },
-      "summary": "Allegorical poem about birds seeking their king, representing the soul's journey.",
-      "historical_context": "A masterpiece of Persian Sufi literature exploring spiritual quest."
-    },
-    {
-      "title": "Njal's Saga",
-      "author": "Anonymous",
-      "year": 1280,
-      "century": 13,
-      "location": {
-        "name": "Iceland",
-        "coordinates": [64.9631, -19.0208]
-      },
-      "summary": "The story of a 50-year blood feud and its consequences.",
-      "historical_context": "Written during Iceland's Commonwealth period, depicting Norse society."
-    },
-    {
-      "title": "The Lusiads",
-      "author": "Luís de Camões",
-      "year": 1572,
-      "century": 16,
-      "location": {
-        "name": "Portugal and its colonies",
-        "coordinates": [38.7223, -9.1393]
-      },
-      "summary": "Epic poem celebrating Portuguese exploration and maritime empire.",
-      "historical_context": "Written during Portugal's Age of Discovery."
-    },
-    {
-      "title": "The Peony Pavilion",
-      "author": "Tang Xianzu",
-      "year": 1598,
-      "century": 16,
-      "location": {
-        "name": "Ming Dynasty China",
-        "coordinates": [32.0617, 118.7778]
-      },
-      "summary": "A love story between a girl and a scholar that transcends death.",
-      "historical_context": "Written during the Ming Dynasty, exploring love and resurrection."
-    },
-    {
-      "title": "The Golden Ass",
-      "author": "Apuleius",
-      "year": 170,
-      "century": 2,
-      "location": {
-        "name": "Ancient Rome",
-        "coordinates": [41.9028, 12.4964]
-      },
-      "summary": "The adventures of a man transformed into a donkey by magic.",
-      "historical_context": "The only ancient Roman novel to survive in its entirety."
-    },
-    {
-      "title": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "year": 1911,
-      "century": 20,
-      "location": {
-        "name": "Yorkshire, England",
-        "coordinates": [54.0000, -1.5400]
-      },
-      "summary": "A spoiled girl discovers healing and friendship in a hidden garden.",
-      "historical_context": "Written during the Edwardian era, exploring themes of renewal."
-    },
-       
-    {
-      "title": "The Popol Vuh",
-      "author": "Anonymous",
-      "year": 1550,
-      "century": 16,
-      "location": {
-        "name": "Guatemala",
-        "coordinates": [15.7835, -90.2308]
-      },
-      "summary": "The creation myth and sacred book of the K'iche' Maya people.",
-      "historical_context": "Preserved Maya mythology and cosmology."
-    },
-    {
-      "title": "The Death of Ivan Ilyich",
-      "author": "Leo Tolstoy",
-      "year": 1886,
-      "century": 19,
-      "location": {
-        "name": "Russia",
-        "coordinates": [55.7558, 37.6173]
-      },
-      "summary": "A dying man reflects on the meaning of his life.",
-      "historical_context": "Written during Russia's period of social reform."
-    },
-    {
-      "title": "The Book of Job",
-      "author": "Anonymous",
-      "year": -600,
-      "century": -6,
-      "location": {
-        "name": "Ancient Near East",
-        "coordinates": [31.7683, 35.2137]
-      },
-      "summary": "A righteous man's suffering tests his faith in God.",
-      "historical_context": "One of the oldest books of the Hebrew Bible."
-    },
-    {
-      "title": "The Epic of Sundiata",
-      "author": "Oral Tradition",
-      "year": 1235,
-      "century": 13,
-      "location": {
-        "name": "Mali Empire",
-        "coordinates": [12.6392, -8.0029]
-      },
-      "summary": "The founding epic of the Mali Empire by Sundiata Keita.",
-      "historical_context": "Preserved through oral tradition by griots."
-    },
-    {
-      "title": "The Book of Dede Korkut",
-      "author": "Anonymous",
-      "year": 1000,
-      "century": 10,
-      "location": {
-        "name": "Central Asia",
-        "coordinates": [39.7753, 64.4232]
-      },
-      "summary": "Heroic tales of the Oghuz Turks.",
-      "historical_context": "Major work of Turkish folk literature."
-    },
-    {
-      "title": "The Saga of the Volsungs",
-      "author": "Anonymous",
-      "year": 1270,
-      "century": 13,
-      "location": {
-        "name": "Scandinavia",
-        "coordinates": [60.4720, 8.4689]
-      },
-      "summary": "The tragic story of Sigurd and the fall of the Burgundians.",
-      "historical_context": "Influenced Wagner's Ring Cycle."
-    },
-    {
-      "title": "The Mabinogion",
-      "author": "Anonymous",
-      "year": 1350,
-      "century": 14,
-      "location": {
-        "name": "Wales",
-        "coordinates": [52.1307, -3.7837]
-      },
-      "summary": "Collection of Welsh mythology and folklore.",
-      "historical_context": "Preserved Celtic mythology and Arthurian tales."
-    },
-    {
-      "title": "The Life of Milarepa",
-      "author": "Tsangnyön Heruka",
-      "year": 1488,
-      "century": 15,
-      "location": {
-        "name": "Tibet",
-        "coordinates": [29.6470, 91.1170]
-      },
-      "summary": "Biography of the Tibetan saint and poet Milarepa.",
-      "historical_context": "Important work of Tibetan Buddhism."
-    },
-    {
-      "title": "The Tale of Igor's Campaign",
-      "author": "Anonymous",
-      "year": 1185,
-      "century": 12,
-      "location": {
-        "name": "Kievan Rus",
-        "coordinates": [50.4501, 30.5234]
-      },
-      "summary": "Epic poem about a failed campaign against the Polovtsians.",
-      "historical_context": "Masterpiece of Old Russian literature."
-    },
-    {
-      "title": "The Romance of the Three Kingdoms",
-      "author": "Luo Guanzhong",
-      "year": 1400,
-      "century": 14,
-      "location": {
-        "name": "China",
-        "coordinates": [34.3416, 108.9398]
-      },
-      "summary": "Historical novel about the end of the Han Dynasty.",
-      "historical_context": "One of China's Four Great Classical Novels."
-    },
-    {
-      "title": "The Water Margin",
-      "author": "Shi Nai'an",
-      "year": 1370,
-      "century": 14,
-      "location": {
-        "name": "China",
-        "coordinates": [34.3416, 108.9398]
-      },
-      "summary": "Tale of 108 outlaws who gather at Mount Liang.",
-      "historical_context": "Based on historical events during the Song Dynasty."
-    },
-    {
-      "title": "The Cloud Dream of the Nine",
-      "author": "Kim Man-jung",
-      "year": 1687,
-      "century": 17,
-      "location": {
-        "name": "Korea",
-        "coordinates": [37.5665, 126.9780]
-      },
-      "summary": "Buddhist allegory about the life of eight fairies reborn as humans.",
-      "historical_context": "Written during the Joseon Dynasty."
-    },
-    {
-      "title": "The Life of Lazarillo de Tormes",
-      "author": "Anonymous",
-      "year": 1554,
-      "century": 16,
-      "location": {
-        "name": "Spain",
-        "coordinates": [40.4168, -3.7038]
-      },
-      "summary": "A poor boy's adventures serving various masters.",
-      "historical_context": "First picaresque novel."
-    },
-    {
-      "title": "Gargantua and Pantagruel",
-      "author": "François Rabelais",
-      "year": 1532,
-      "century": 16,
-      "location": {
-        "name": "France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Satirical story of two giants, father and son.",
-      "historical_context": "Renaissance humanist masterpiece."
-    },
-    {
-      "title": "The Lais of Marie de France",
-      "author": "Marie de France",
-      "year": 1180,
-      "century": 12,
-      "location": {
-        "name": "England/France",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Collection of twelve narrative poems about love and adventure.",
-      "historical_context": "Important work of medieval French literature."
-    },
-    {
-      "title": "The Book of the City of Ladies",
-      "author": "Christine de Pizan",
-      "year": 1405,
-      "century": 15,
-      "location": {
-        "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Defense of women's worth and abilities.",
-      "historical_context": "Early feminist text."
-    },
-    {
-      "title": "The Manuscript Found in Saragossa",
-      "author": "Jan Potocki",
-      "year": 1815,
-      "century": 19,
-      "location": {
-        "name": "Spain",
-        "coordinates": [41.6488, -0.8891]
-      },
-      "summary": "Complex frame story of supernatural and romantic adventures.",
-      "historical_context": "Written during the Enlightenment."
-    },
-    {
-      "title": "The Heptameron",
-      "author": "Marguerite of Navarre",
-      "year": 1558,
-      "century": 16,
-      "location": {
-        "name": "France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Collection of 72 short stories told by stranded travelers.",
-      "historical_context": "Influenced by Boccaccio's Decameron."
-    },
-    {
-      "title": "The Sorrows of Young Werther",
-      "author": "Johann Wolfgang von Goethe",
-      "year": 1774,
-      "century": 18,
-      "location": {
-        "name": "Germany",
-        "coordinates": [50.1109, 8.6821]
-      },
-      "summary": "Epistolary novel about unrequited love leading to tragedy.",
-      "historical_context": "Key text of the Sturm und Drang movement."
-    },
-    {
-      "title": "The Life and Opinions of the Tomcat Murr",
-      "author": "E.T.A. Hoffmann",
-      "year": 1822,
-      "century": 19,
-      "location": {
-        "name": "Germany",
-        "coordinates": [52.5200, 13.4050]
-      },
-      "summary": "Satirical novel combining a cat's autobiography with a musician's biography.",
-      "historical_context": "Written during German Romanticism."
-    },
-    {
-      "title": "The Last Day of a Condemned Man",
-      "author": "Victor Hugo",
-      "year": 1829,
-      "century": 19,
-      "location": {
-        "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "The thoughts of a man awaiting execution.",
-      "historical_context": "Early argument against capital punishment."
-    },
-    {
-      "title": "The Black Tulip",
-      "author": "Alexandre Dumas",
-      "year": 1850,
-      "century": 19,
-      "location": {
-        "name": "Netherlands",
-        "coordinates": [52.3676, 4.9041]
-      },
-      "summary": "Historical novel about the search for a perfect black tulip.",
-      "historical_context": "Set during the Dutch Golden Age."
-    },
-    {
-      "title": "Oblomov",
-      "author": "Ivan Goncharov",
-      "year": 1859,
-      "century": 19,
-      "location": {
-        "name": "St. Petersburg, Russia",
-        "coordinates": [59.9311, 30.3609]
-      },
-      "summary": "Story of a nobleman who can hardly leave his bed.",
-      "historical_context": "Satirizes Russian nobility's inertia."
-    },
-    {
-      "title": "The Red and the Black",
-      "author": "Stendhal",
-      "year": 1830,
-      "century": 19,
-      "location": {
-        "name": "France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "A young man's attempts to rise above his humble beginnings.",
-      "historical_context": "Set during the Bourbon Restoration."
-    },
-    {
-      "title": "The Woman in White",
-      "author": "Wilkie Collins",
-      "year": 1859,
-      "century": 19,
-      "location": {
-        "name": "England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Mystery novel involving stolen identities and asylum imprisonment.",
-      "historical_context": "One of the first mystery novels."
-    },
-    {
-      "title": "The Time Machine",
-      "author": "H.G. Wells",
-      "year": 1895,
-      "century": 19,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "A scientist travels to the distant future.",
-      "historical_context": "Early science fiction novel."
-    },
-    {
-      "title": "We",
-      "author": "Yevgeny Zamyatin",
-      "year": 1924,
-      "century": 20,
-      "location": {
-        "name": "Future State",
-        "coordinates": [55.7558, 37.6173]
-      },
-      "summary": "Dystopian novel about life in a totalitarian state.",
-      "historical_context": "Influenced later dystopian literature."
-    },
-    {
-      "title": "Petersburg",
-      "author": "Andrei Bely",
-      "year": 1913,
-      "century": 20,
-      "location": {
-        "name": "St. Petersburg, Russia",
-        "coordinates": [59.9311, 30.3609]
-      },
-      "summary": "Symbolist novel about revolution and father-son conflict.",
-      "historical_context": "Written before the Russian Revolution."
-    },
-    {
-      "title": "Independent People",
-      "author": "Halldór Laxness",
-      "year": 1934,
-      "century": 20,
-      "location": {
-        "name": "Iceland",
-        "coordinates": [64.9631, -19.0208]
-      },
-      "summary": "A sheep farmer's struggle for independence in harsh conditions.",
-      "historical_context": "Depicts rural Icelandic life."
-    },
-    {
-      "title": "The Street of Crocodiles",
-      "author": "Bruno Schulz",
-      "year": 1934,
-      "century": 20,
-      "location": {
-        "name": "Drohobych, Ukraine",
-        "coordinates": [49.3560, 23.5000]
-      },
-      "summary": "Surrealist stories about a merchant family.",
-      "historical_context": "Written between the World Wars."
-    },
-    {
-      "title": "At Swim-Two-Birds",
-      "author": "Flann O'Brien",
-      "year": 1939,
-      "century": 20,
-      "location": {
-        "name": "Dublin, Ireland",
-        "coordinates": [53.3498, -6.2603]
-      },
-      "summary": "Metafictional novel about a student writing a novel.",
-      "historical_context": "Early postmodern novel."
-    },
-    {
-      "title": "The Tale of Genji",
-      "author": "Murasaki Shikibu",
-      "year": 1010,
-      "century": 11,
-      "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
-        "coordinates": [35.0116, 135.7681]
-      },
-      "summary": "The life and romantic pursuits of Hikaru Genji, the emperor's son, in the imperial court.",
-      "historical_context": "Written during the height of the Heian period, depicting aristocratic culture and customs."
-    },
-    {
-      "title": "The Thousand and One Nights",
-      "author": "Various Authors",      "year": 800,
-      "century": 9,
-      "location": {
-        "name": "Baghdad, Abbasid Caliphate",
-        "coordinates": [33.3152, 44.3661]
-      },
-      "summary": "A collection of Middle Eastern folk tales framed by Scheherazade's nightly storytelling.",
-      "historical_context": "Compiled during the Islamic Golden Age, reflecting medieval Islamic culture."
-    },
-    {
-      "title": "The Epic of Gilgamesh",
-      "author": "Anonymous",
-      "year": -2000,
-      "century": -20,
-      "location": {
-        "name": "Uruk, Ancient Mesopotamia",
-        "coordinates": [31.3236, 45.6367]
-      },
-      "summary": "The adventures of King Gilgamesh and his friend Enkidu, exploring themes of friendship and mortality.",
-      "historical_context": "One of the earliest surviving works of literature, from ancient Sumerian civilization."
-    },
-    {
-      "title": "Paradise Lost",
-      "author": "John Milton",
-      "year": 1667,
-      "century": 17,
-      "location": {
-        "name": "Multiple Settings (Heaven, Hell, Eden)",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
-      "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
-    },
-    {
-      "title": "The Book of the Dead",
-      "author": "Anonymous",
-      "year": -1550,
-      "century": -16,
-      "location": {
-        "name": "Ancient Egypt (Multiple Locations)",
-        "coordinates": [25.6872, 32.6396]
-      },
-      "summary": "Collection of spells and instructions for the journey through the afterlife.",
-      "historical_context": "Developed over centuries in ancient Egypt, fundamental to Egyptian religious beliefs."
-    },
-    {
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "year": 1320,
-      "century": 14,
-      "location": {
-        "name": "Multiple Settings (Hell, Purgatory, Paradise)",
-        "coordinates": [43.7696, 11.2558]
-      },
-      "summary": "Allegorical journey through the afterlife realms of Hell, Purgatory, and Paradise.",
-      "historical_context": "Written during Dante's exile from Florence, reflecting medieval Christian theology and Italian politics."
-    },
-    {
-      "title": "The Canterbury Tales",
-      "author": "Geoffrey Chaucer",
-      "year": 1400,
-      "century": 14,
-      "location": {
-        "name": "Canterbury, England",
-        "coordinates": [51.2800, 1.0800]
-      },
-      "summary": "A collection of stories told by pilgrims traveling to Canterbury Cathedral, providing a vivid portrait of medieval English society.",
-      "historical_context": "Written during the late Middle Ages, depicting the social dynamics and cultural values of medieval England across different social classes."
-    },
-    {
-      "title": "The Iliad",
-      "author": "Homer",
-      "year": -750,
-      "century": -8,
-      "location": {
-        "name": "Troy (modern-day Turkey)",
-        "coordinates": [39.9571, 26.2387]
-      },
-      "summary": "The epic tale of the Trojan War, focusing on the wrath of Achilles and its consequences.",
-      "historical_context": "Composed in the 8th century BCE, reflecting Bronze Age warfare and Greek mythology."
-    },
-    {
-      "title": "The Odyssey",
-      "author": "Homer",
-      "year": -725,
-      "century": -8,
-      "location": {
-        "name": "Mediterranean Sea",
-        "coordinates": [37.9838, 23.7275]
-      },
-      "summary": "Odysseus's ten-year journey home after the Trojan War, facing mythical creatures and divine intervention.",
-      "historical_context": "Composed alongside The Iliad, depicting Greek maritime culture and the importance of hospitality in ancient society."
-    },
-    {
-      "title": "The Aeneid",
-      "author": "Virgil",
-      "year": -19,
-      "century": -1,
-      "location": {
-        "name": "Mediterranean Basin",
-        "coordinates": [41.9028, 12.4964]
-      },
-      "summary": "The journey of Aeneas from Troy to Italy, where he becomes the ancestor of the Romans.",
-      "historical_context": "Written during Augustus's reign, establishing a mythical connection between Troy and Rome."
-    },
-    {
-      "title": "Gulliver's Travels",
-      "author": "Jonathan Swift",
-      "year": 1726,
-      "century": 18,
-      "location": {
-        "name": "Various Fictional Lands",
-        "coordinates": [53.3498, -6.2603]
-      },
-      "summary": "Lemuel Gulliver's voyages to various strange lands, satirizing human nature and society.",
-      "historical_context": "Written as a satire of travel narratives and contemporary European politics."
-    },
-    {
-      "title": "The Decameron",
-      "author": "Giovanni Boccaccio",
-      "year": 1353,
-      "century": 14,
-      "location": {
-        "name": "Florence, Italy",
-        "coordinates": [43.7696, 11.2558]
-      },
-      "summary": "A collection of 100 tales told by ten young people sheltering from the Black Death.",
-      "historical_context": "Written during the aftermath of the Black Death, reflecting medieval Italian society and values."
-    },
-    {
-      "title": "The Tale of the Heike",
-      "author": "Anonymous",
-      "year": 1330,
-      "century": 14,
-      "location": {
-        "name": "Kyoto, Japan",
-        "coordinates": [35.0116, 135.7681]
-      },
-      "summary": "The epic account of the struggle between the Taira and Minamoto clans for control of Japan.",
-      "historical_context": "Chronicles the Genpei War (1180-1185), marking the end of the classical period in Japanese history."
-    },
-    {
-      "title": "Dead Souls",
-      "author": "Nikolai Gogol",
-      "year": 1842,
-      "century": 19,
-      "location": {
-        "name": "Rural Russia",
-        "coordinates": [55.7558, 37.6173]
-      },
-      "summary": "Chichikov's scheme to buy deceased serfs' names from landowners, revealing the absurdities of Russian society.",
-      "historical_context": "Written during the reform period of Nicholas I, satirizing Russian serfdom and bureaucracy."
+      "summary": "Pip's journey from humble origins to gentleman, exploring ambition and moral growth.",
+      "historical_context": "Written during Victorian England's industrial expansion and social mobility."
     },
     {
       "title": "The Master and Margarita",
@@ -3062,20 +669,200 @@
         "name": "Moscow, Russia",
         "coordinates": [55.7558, 37.6173]
       },
-      "summary": "Satan visits Soviet Moscow, interweaving a love story with a satirical critique of Soviet society.",
-      "historical_context": "Written during Stalin's regime, published posthumously, reflecting the absurdities of Soviet life."
+      "summary": "Satan visits Soviet Moscow in this satirical blend of fantasy and social criticism.",
+      "historical_context": "Written during Stalin's era but published later, critiquing Soviet society."
     },
     {
-      "title": "The Man Without Qualities",
-      "author": "Robert Musil",
-      "year": 1942,
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "year": 1952,
       "century": 20,
       "location": {
-        "name": "Vienna, Austria",
-        "coordinates": [48.2082, 16.3738]
+        "name": "Harlem, New York",
+        "coordinates": [40.8075, -73.9411]
       },
-      "summary": "Ulrich's search for meaning in the last days of the Austro-Hungarian Empire.",
-      "historical_context": "Set before World War I, examining the decline of the Habsburg Empire and modern alienation."
+      "summary": "An unnamed Black narrator's journey from the South to Harlem, exploring racial identity and invisibility.",
+      "historical_context": "Written during the Civil Rights era, examining African American experience and identity."
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "year": 1818,
+      "century": 19,
+      "location": {
+        "name": "Geneva, Switzerland",
+        "coordinates": [46.2044, 6.1432]
+      },
+      "summary": "Victor Frankenstein's creation of life and the monster's quest for acceptance and revenge.",
+      "historical_context": "Written during the Romantic period, exploring scientific ethics and human nature."
+    },
+    {
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "Paris and Pamplona",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "The Lost Generation's disillusionment in post-WWI Paris and Spain.",
+      "historical_context": "Written about the aftermath of WWI, defining the 'Lost Generation' of expatriates."
+    },
+    {
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "year": 1862,
+      "century": 19,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Jean Valjean's redemption story set against the backdrop of 19th-century French society.",
+      "historical_context": "Written during the Second Empire, spanning French history from Napoleon to the July Revolution."
+    },
+    {
+      "title": "On the Road",
+      "author": "Jack Kerouac",
+      "year": 1957,
+      "century": 20,
+      "location": {
+        "name": "Across the United States",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "Sal Paradise's cross-country journeys with Dean Moriarty, embodying Beat Generation freedom.",
+      "historical_context": "Written during the conformist 1950s, celebrating counterculture and spontaneity."
+    },
+    {
+      "title": "Absalom, Absalom!",
+      "author": "William Faulkner",
+      "year": 1936,
+      "century": 20,
+      "location": {
+        "name": "Mississippi, United States",
+        "coordinates": [32.3547, -89.3985]
+      },
+      "summary": "The rise and fall of Thomas Sutpen's dynasty in the antebellum South.",
+      "historical_context": "Written during the Depression, examining the legacy of slavery and the Old South."
+    },
+    {
+      "title": "Midnight's Children",
+      "author": "Salman Rushdie",
+      "year": 1981,
+      "century": 20,
+      "location": {
+        "name": "India and Pakistan",
+        "coordinates": [20.5937, 78.9629]
+      },
+      "summary": "Saleem Sinai's life parallels India's independence and partition through magical realism.",
+      "historical_context": "Written decades after Partition, examining post-colonial identity and history."
+    },
+    {
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "year": 1958,
+      "century": 20,
+      "location": {
+        "name": "Nigeria, Africa",
+        "coordinates": [9.0820, 8.6753]
+      },
+      "summary": "Okonkwo's tragic story as traditional Igbo society encounters European colonialism.",
+      "historical_context": "Written during African decolonization, portraying pre-colonial African society."
+    },
+    {
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "year": 1943,
+      "century": 20,
+      "location": {
+        "name": "Various Planets (Fictional)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "A young prince's journey across planets, exploring human nature through a child's eyes.",
+      "historical_context": "Written during WWII exile, offering hope and wisdom through allegory."
+    },
+    {
+      "title": "Journey to the End of the Night",
+      "author": "Louis-Ferdinand Céline",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "France and Africa",
+        "coordinates": [46.2276, 2.2137]
+      },
+      "summary": "Ferdinand Bardamu's cynical journey through war, colonialism, and urban decay.",
+      "historical_context": "Written between the wars, expressing disillusionment with modern civilization."
+    },
+    {
+      "title": "The Red and the Black",
+      "author": "Stendhal",
+      "year": 1830,
+      "century": 19,
+      "location": {
+        "name": "France",
+        "coordinates": [46.2276, 2.2137]
+      },
+      "summary": "Julien Sorel's ambitious climb through French society ends in tragedy.",
+      "historical_context": "Written during the Restoration, critiquing social climbing and hypocrisy."
+    },
+    {
+      "title": "Fictions",
+      "author": "Jorge Luis Borges",
+      "year": 1944,
+      "century": 20,
+      "location": {
+        "name": "Buenos Aires, Argentina",
+        "coordinates": [-34.6118, -58.3960]
+      },
+      "summary": "A collection of philosophical short stories exploring labyrinths, infinity, and reality.",
+      "historical_context": "Written during WWII, influencing postmodern literature with metafictional techniques."
+    },
+    {
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "year": 1849,
+      "century": 19,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "David's autobiographical journey from childhood to maturity in Victorian England.",
+      "historical_context": "Dickens' most personal novel, depicting Victorian society and social reform."
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "Future World State",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "A dystopian future where happiness is engineered and individuality is suppressed.",
+      "historical_context": "Written during the rise of totalitarianism, warning against technological control."
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "year": 1945,
+      "century": 20,
+      "location": {
+        "name": "Animal Farm (Fictional)",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Farm animals rebel against their human owner, but their revolution becomes corrupted.",
+      "historical_context": "An allegory of the Russian Revolution and Stalin's rise to power."
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Cuban Waters",
+        "coordinates": [21.5218, -77.7812]
+      },
+      "summary": "An aging fisherman's epic struggle with a giant marlin in the Gulf Stream.",
+      "historical_context": "Written late in Hemingway's career, embodying his philosophy of grace under pressure."
     },
     {
       "title": "The Life and Opinions of Tristram Shandy",
@@ -3086,128 +873,188 @@
         "name": "Yorkshire, England",
         "coordinates": [54.0000, -1.5400]
       },
-      "summary": "The rambling, digressive autobiography of Tristram Shandy, who cannot even manage to get himself born.",
-      "historical_context": "Written during the Age of Enlightenment, experimenting with narrative conventions."
+      "summary": "A wildly digressive autobiography that barely gets to the narrator's birth.",
+      "historical_context": "An experimental novel that influenced modernist literature centuries later."
     },
     {
-      "title": "Fathers and Sons",
-      "author": "Ivan Turgenev",
-      "year": 1862,
-      "century": 19,
-      "location": {
-        "name": "Rural Russia",
-        "coordinates": [54.7818, 32.0401]
-      },
-      "summary": "The conflict between generations and ideologies in 1850s Russia through the story of nihilist Bazarov.",
-      "historical_context": "Written during the period of great reforms in Russia, examining the generational divide."
-    },
-    {
-      "title": "The Tin Drum",
-      "author": "Günter Grass",
-      "year": 1959,
-      "century": 20,
-      "location": {
-        "name": "Danzig/Gdańsk",
-        "coordinates": [54.3520, 18.6466]
-      },
-      "summary": "Oskar Matzerath, who decides not to grow up, witnesses the rise and fall of Nazi Germany.",
-      "historical_context": "Written in post-war Germany, examining the Nazi period through magical realism."
-    },
-    {
-      "title": "The Recognition of Śakuntalā",
-      "author": "Kālidāsa",
-      "year": 400,
-      "century": 5,
-      "location": {
-        "name": "Ancient India",
-        "coordinates": [20.5937, 78.9629]
-      },
-      "summary": "The love story of King Dushyanta and Shakuntala, separated by a curse and reunited through a ring.",
-      "historical_context": "Written during India's classical period, exemplifying Sanskrit dramatic traditions."
-    },
-    {
-      "title": "The Dream of the Red Chamber",
-      "author": "Cao Xueqin",
-      "year": 1791,
-      "century": 18,
-      "location": {
-        "name": "Beijing, China",
-        "coordinates": [39.9042, 116.4074]
-      },
-      "summary": "The rise and fall of the Jia family and the love story between Jia Baoyu and Lin Daiyu.",
-      "historical_context": "Written during the Qing Dynasty, depicting the decline of noble families."
-    },
-    {
-      "title": "Season of Migration to the North",
-      "author": "Tayeb Salih",
-      "year": 1966,
-      "century": 20,
-      "location": {
-        "name": "Sudan and London",
-        "coordinates": [15.5007, 32.5599]
-      },
-      "summary": "A Sudanese man's experiences in England and his return home, exploring colonialism and identity.",
-      "historical_context": "Written post-independence, examining the complex relationship between Africa and Europe."
-    },
-    {
-      "title": "The Golden Notebook",
-      "author": "Doris Lessing",
-      "year": 1962,
-      "century": 20,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Writer Anna Wulf's attempt to integrate different aspects of her life through four notebooks.",
-      "historical_context": "Written during the Cold War, exploring feminism, communism, and mental breakdown."
-    },
-    {
-      "title": "Death Comes for the Archbishop",
-      "author": "Willa Cather",
-      "year": 1927,
-      "century": 20,
-      "location": {
-        "name": "New Mexico Territory",
-        "coordinates": [35.6870, -105.9378]
-      },
-      "summary": "The life of a French Catholic priest building a diocese in the American Southwest.",
-      "historical_context": "Set in the mid-19th century, depicting the American frontier and cultural encounters."
-    },
-    {
-      "title": "The Plague",
-      "author": "Albert Camus",
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
       "year": 1947,
       "century": 20,
       "location": {
-        "name": "Oran, Algeria",
-        "coordinates": [35.6969, -0.6331]
+        "name": "Amsterdam, Netherlands",
+        "coordinates": [52.3676, 4.9041]
       },
-      "summary": "A city's response to a deadly plague, examining human resilience and solidarity.",
-      "historical_context": "Written after World War II, using plague as an allegory for the Nazi occupation."
+      "summary": "Anne Frank's diary documenting her life in hiding during the Nazi occupation.",
+      "historical_context": "A firsthand account of the Holocaust, published posthumously as a testament to hope."
     },
     {
-      "title": "The Master of Go",
-      "author": "Yasunari Kawabata",
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "year": 1868,
+      "century": 19,
+      "location": {
+        "name": "Massachusetts, United States",
+        "coordinates": [42.4072, -71.3824]
+      },
+      "summary": "The March sisters growing up during the Civil War, exploring family bonds and female independence.",
+      "historical_context": "Written during Reconstruction, promoting women's education and moral development."
+    },
+    {
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "year": 1600,
+      "century": 17,
+      "location": {
+        "name": "Elsinore, Denmark",
+        "coordinates": [56.0394, 12.6136]
+      },
+      "summary": "Prince Hamlet's quest for revenge against his uncle who murdered his father.",
+      "historical_context": "Written during the Elizabethan era, exploring themes of revenge, madness, and mortality."
+    },
+    {
+      "title": "Their Eyes Were Watching God",
+      "author": "Zora Neale Hurston",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Florida, United States",
+        "coordinates": [27.7663, -82.6404]
+      },
+      "summary": "Janie Crawford's journey of self-discovery and love in the American South.",
+      "historical_context": "Written during the Harlem Renaissance, celebrating African American culture and female empowerment."
+    },
+    {
+      "title": "Rebecca",
+      "author": "Daphne du Maurier",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "Cornwall, England",
+        "coordinates": [50.2660, -5.0527]
+      },
+      "summary": "A young bride haunted by the memory of her husband's deceased first wife.",
+      "historical_context": "Written on the eve of WWII, exploring themes of identity and the past's influence."
+    },
+    {
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "year": 1936,
+      "century": 20,
+      "location": {
+        "name": "Georgia, United States",
+        "coordinates": [33.2490, -83.4411]
+      },
+      "summary": "Scarlett O'Hara's survival and determination during the Civil War and Reconstruction.",
+      "historical_context": "Written during the Depression, romanticizing the antebellum South."
+    },
+    {
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "year": 1726,
+      "century": 18,
+      "location": {
+        "name": "Various Fictional Lands",
+        "coordinates": [53.3498, -6.2603]
+      },
+      "summary": "Lemuel Gulliver's voyages to strange lands, satirizing human nature and society.",
+      "historical_context": "Written during the Enlightenment, using satire to critique politics and human folly."
+    },
+    {
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Dresden, Germany",
+        "coordinates": [51.0504, 13.7373]
+      },
+      "summary": "Billy Pilgrim's experiences in WWII and his time-traveling encounters with aliens.",
+      "historical_context": "Written during the Vietnam War, using dark humor to address war's trauma."
+    },
+    {
+      "title": "A Passage to India",
+      "author": "E. M. Forster",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "India",
+        "coordinates": [20.5937, 78.9629]
+      },
+      "summary": "The complex relationships between British colonizers and Indians during the Raj.",
+      "historical_context": "Written during the independence movement, examining colonial tensions and misunderstandings."
+    },
+    {
+      "title": "Lord of the Flies",
+      "author": "William Golding",
       "year": 1954,
       "century": 20,
       "location": {
-        "name": "Japan",
-        "coordinates": [35.6762, 139.6503]
+        "name": "Tropical Island (Fictional)",
+        "coordinates": [0.0, 0.0]
       },
-      "summary": "A championship Go match between an old master and a modern challenger.",
-      "historical_context": "Based on a real 1938 match, symbolizing the clash between tradition and modernity in Japan."
+      "summary": "British schoolboys stranded on an island descend into savagery.",
+      "historical_context": "Written post-WWII, exploring the darkness of human nature and civilization's fragility."
     },
     {
-      "title": "Austerlitz",
-      "author": "W.G. Sebald",
-      "year": 2001,
-      "century": 21,
+      "title": "Candide",
+      "author": "Voltaire",
+      "year": 1759,
+      "century": 18,
       "location": {
-        "name": "Europe",
+        "name": "Various Locations",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Candide's journey through a series of misfortunes, satirizing philosophical optimism.",
+      "historical_context": "Written during the Enlightenment, critiquing blind optimism and social institutions."
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "century": 20,
+      "location": {
+        "name": "Planet Arrakis (Fictional)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Paul Atreides' rise to power on the desert planet Arrakis in a galactic empire.",
+      "historical_context": "Written during the space race, blending ecology, politics, and mysticism."
+    },
+    {
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Gilead (Fictional Future America)",
+        "coordinates": [38.9072, -77.0369]
+      },
+      "summary": "A dystopian future where fertile women are enslaved for reproduction.",
+      "historical_context": "Written during the Reagan era, warning against religious fundamentalism and women's rights erosion."
+    },
+    {
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "year": 1855,
+      "century": 19,
+      "location": {
+        "name": "United States",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "A revolutionary collection of poems celebrating democracy, nature, and the human spirit.",
+      "historical_context": "Written during American expansion, defining a uniquely American poetic voice."
+    },
+    {
+      "title": "The Good Soldier",
+      "author": "Ford Madox Ford",
+      "year": 1915,
+      "century": 20,
+      "location": {
+        "name": "England and Germany",
         "coordinates": [51.5074, -0.1278]
       },
-      "summary": "An architectural historian discovers his Jewish origins and childhood escape from Nazi Germany.",
-      "historical_context": "Written at the turn of the millennium, examining Holocaust memory and European history."
+      "summary": "The tragic relationships between two couples, told through an unreliable narrator.",
+      "historical_context": "Written on the eve of WWI, examining the collapse of Edwardian society."
     },
     {
       "title": "The Leopard",
@@ -3218,20 +1065,632 @@
         "name": "Sicily, Italy",
         "coordinates": [37.5994, 14.0154]
       },
-      "summary": "A Sicilian aristocrat witnesses the decline of his class during Italian unification.",
-      "historical_context": "Set during the Risorgimento, examining social change in 19th century Italy."
+      "summary": "A Sicilian prince witnesses the decline of aristocracy during Italian unification.",
+      "historical_context": "Set during the Risorgimento, examining social transformation in 19th-century Italy."
     },
     {
-      "title": "The Tale of Kieu",
-      "author": "Nguyễn Du",
-      "year": 1820,
+      "title": "Orlando",
+      "author": "Virginia Woolf",
+      "year": 1928,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "An immortal character who changes gender across four centuries of English history.",
+      "historical_context": "Written during the suffrage movement, exploring gender fluidity and literary history."
+    },
+    {
+      "title": "The Portrait of a Lady",
+      "author": "Henry James",
+      "year": 1881,
       "century": 19,
       "location": {
-        "name": "Vietnam",
-        "coordinates": [21.0285, 105.8542]
+        "name": "Europe and America",
+        "coordinates": [45.4642, 9.1900]
       },
-      "summary": "A virtuous woman's sacrifices and suffering to save her family, written in verse.",
-      "historical_context": "Written during the Nguyen dynasty, reflecting Vietnamese cultural values and Chinese influence."
+      "summary": "Isabel Archer's quest for independence and her tragic marriage in European society.",
+      "historical_context": "Written during the Gilded Age, examining American innocence versus European sophistication."
+    },
+    {
+      "title": "The Golden Notebook",
+      "author": "Doris Lessing",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "Anna Wulf's attempt to integrate her fragmented life through four notebooks.",
+      "historical_context": "Written during the women's liberation movement, exploring female consciousness and political commitment."
+    },
+    {
+      "title": "Essays",
+      "author": "Michel de Montaigne",
+      "year": 1580,
+      "century": 16,
+      "location": {
+        "name": "France",
+        "coordinates": [46.2276, 2.2137]
+      },
+      "summary": "Personal reflections on human nature, creating the essay as a literary form.",
+      "historical_context": "Written during the French Renaissance, pioneering introspective writing."
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "year": 1897,
+      "century": 19,
+      "location": {
+        "name": "Transylvania and England",
+        "coordinates": [45.9432, 24.9668]
+      },
+      "summary": "Count Dracula's invasion of England and the battle to stop him.",
+      "historical_context": "Written during the height of the British Empire, reflecting fears of foreign invasion and moral decay."
+    },
+    {
+      "title": "Oedipus the King",
+      "author": "Sophocles",
+      "year": -429,
+      "century": -5,
+      "location": {
+        "name": "Thebes, Greece",
+        "coordinates": [38.3198, 23.3197]
+      },
+      "summary": "King Oedipus discovers he has fulfilled a prophecy by killing his father and marrying his mother.",
+      "historical_context": "A foundational Greek tragedy exploring fate, knowledge, and human hubris."
+    },
+    {
+      "title": "The Idiot",
+      "author": "Fyodor Dostoevsky",
+      "year": 1869,
+      "century": 19,
+      "location": {
+        "name": "St. Petersburg, Russia",
+        "coordinates": [59.9311, 30.3609]
+      },
+      "summary": "Prince Myshkin's Christ-like innocence clashes with corrupt Russian society.",
+      "historical_context": "Written during Russian social upheaval, exploring the possibility of goodness in a fallen world."
+    },
+    {
+      "title": "The Castle",
+      "author": "Franz Kafka",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "Village near Castle (Fictional)",
+        "coordinates": [50.0755, 14.4378]
+      },
+      "summary": "K.'s futile attempts to gain access to the mysterious Castle and its authorities.",
+      "historical_context": "Published posthumously, representing the alienation of modern bureaucratic society."
+    },
+    {
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka",
+      "year": 1915,
+      "century": 20,
+      "location": {
+        "name": "Prague (Fictional Apartment)",
+        "coordinates": [50.0755, 14.4378]
+      },
+      "summary": "Gregor Samsa wakes up transformed into a giant insect, exploring alienation and family duty.",
+      "historical_context": "Written during WWI, embodying the anxiety and dehumanization of modern life."
+    },
+    {
+      "title": "Buddenbrooks",
+      "author": "Thomas Mann",
+      "year": 1901,
+      "century": 20,
+      "location": {
+        "name": "Lübeck, Germany",
+        "coordinates": [53.8654, 10.6865]
+      },
+      "summary": "The decline of a merchant family over four generations in 19th-century Germany.",
+      "historical_context": "Written at the turn of the century, examining the end of the bourgeois era."
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": 1890,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "A young man's portrait ages while he remains beautiful, leading to moral corruption.",
+      "historical_context": "Written during the aesthetic movement, exploring art, beauty, and moral decay."
+    },
+    {
+      "title": "In Cold Blood",
+      "author": "Truman Capote",
+      "year": 1966,
+      "century": 20,
+      "location": {
+        "name": "Kansas, United States",
+        "coordinates": [38.5266, -96.7265]
+      },
+      "summary": "The true story of a family murder in rural Kansas, pioneering the non-fiction novel.",
+      "historical_context": "Written during the 1960s, exploring violence in small-town America."
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "author": "Erich Maria Remarque",
+      "year": 1928,
+      "century": 20,
+      "location": {
+        "name": "Western Front, WWI",
+        "coordinates": [50.0, 3.0]
+      },
+      "summary": "Young German soldiers experience the horrors and futility of World War I.",
+      "historical_context": "Written during the interwar period, presenting an anti-war perspective on WWI."
+    },
+    {
+      "title": "The Age of Innocence",
+      "author": "Edith Wharton",
+      "year": 1920,
+      "century": 20,
+      "location": {
+        "name": "New York City",
+        "coordinates": [40.7128, -74.0060]
+      },
+      "summary": "Newland Archer's love for Ellen Olenska conflicts with New York society's expectations.",
+      "historical_context": "A retrospective look at 1870s New York society from the perspective of the 1920s."
+    },
+    {
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "year": 1844,
+      "century": 19,
+      "location": {
+        "name": "France and Italy",
+        "coordinates": [43.2965, 5.3698]
+      },
+      "summary": "Edmond Dantès' elaborate revenge against those who wrongfully imprisoned him.",
+      "historical_context": "Set during the Napoleonic era and Restoration, exploring themes of justice and revenge."
+    },
+    {
+      "title": "A Portrait of the Artist as a Young Man",
+      "author": "James Joyce",
+      "year": 1916,
+      "century": 20,
+      "location": {
+        "name": "Dublin, Ireland",
+        "coordinates": [53.3498, -6.2603]
+      },
+      "summary": "Stephen Dedalus's artistic and intellectual development in early 20th-century Ireland.",
+      "historical_context": "Written during Irish nationalism's rise, exploring the conflict between art and politics."
+    },
+    {
+      "title": "Faust",
+      "author": "Johann Wolfgang von Goethe",
+      "year": 1808,
+      "century": 19,
+      "location": {
+        "name": "Germany",
+        "coordinates": [51.1657, 10.4515]
+      },
+      "summary": "Dr. Faust's pact with the devil in his quest for knowledge and experience.",
+      "historical_context": "Goethe's masterwork spanning decades, embodying Romantic ideals and German culture."
+    },
+    {
+      "title": "Under the Volcano",
+      "author": "Malcolm Lowry",
+      "year": 1947,
+      "century": 20,
+      "location": {
+        "name": "Cuernavaca, Mexico",
+        "coordinates": [18.9261, -99.2319]
+      },
+      "summary": "Geoffrey Firmin's final day of alcoholic dissolution on the Day of the Dead.",
+      "historical_context": "Written in the shadow of WWII, exploring personal and political destruction."
+    },
+    {
+      "title": "As I Lay Dying",
+      "author": "William Faulkner",
+      "year": 1930,
+      "century": 20,
+      "location": {
+        "name": "Mississippi, United States",
+        "coordinates": [32.3547, -89.3985]
+      },
+      "summary": "The Bundren family's journey to bury their matriarch, told through multiple perspectives.",
+      "historical_context": "Written during the Depression, exploring Southern poverty and family bonds."
+    },
+    {
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "year": 1850,
+      "century": 19,
+      "location": {
+        "name": "Salem, Massachusetts",
+        "coordinates": [42.5195, -70.8967]
+      },
+      "summary": "Hester Prynne's public shaming for adultery in Puritan New England.",
+      "historical_context": "Written during the antebellum period, critiquing Puritan society and exploring sin and redemption."
+    },
+    {
+      "title": "Emma",
+      "author": "Jane Austen",
+      "year": 1815,
+      "century": 19,
+      "location": {
+        "name": "Highbury, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "Emma Woodhouse's misguided matchmaking in her small English village.",
+      "historical_context": "Written during the Regency period, satirizing social conventions and female education."
+    },
+    {
+      "title": "Silent Spring",
+      "author": "Rachel Carson",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "A groundbreaking examination of pesticides' environmental impact.",
+      "historical_context": "Launched the modern environmental movement and led to DDT's ban."
+    },
+    {
+      "title": "Pale Fire",
+      "author": "Vladimir Nabokov",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "New Wye (Fictional)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "A 999-line poem with an elaborate commentary revealing the commentator's delusions.",
+      "historical_context": "Written during the Cold War, parodying academic criticism and exploring exile."
+    },
+    {
+      "title": "Charlotte's Web",
+      "author": "E. B. White",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Barnyard (Fictional)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "A spider named Charlotte saves her friend Wilbur the pig from slaughter.",
+      "historical_context": "A beloved children's story exploring friendship, sacrifice, and the cycle of life."
+    },
+    {
+      "title": "Demons",
+      "author": "Fyodor Dostoevsky",
+      "year": 1872,
+      "century": 19,
+      "location": {
+        "name": "Provincial Russia",
+        "coordinates": [56.3287, 44.0020]
+      },
+      "summary": "Revolutionary conspirators bring chaos to a Russian town, exploring political radicalism.",
+      "historical_context": "Based on real revolutionary activities, examining the destructive nature of radical politics."
+    },
+    {
+      "title": "Robinson Crusoe",
+      "author": "Daniel Defoe",
+      "year": 1719,
+      "century": 18,
+      "location": {
+        "name": "Caribbean Island",
+        "coordinates": [18.1096, -77.2975]
+      },
+      "summary": "A shipwrecked sailor survives alone on a tropical island for decades.",
+      "historical_context": "Often considered the first English novel, reflecting colonial attitudes and individual resilience."
+    },
+    {
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Boston and New York",
+        "coordinates": [42.3601, -71.0589]
+      },
+      "summary": "Esther Greenwood's descent into mental illness in 1950s America.",
+      "historical_context": "A semi-autobiographical novel exploring women's roles and mental health in the 1950s."
+    },
+    {
+      "title": "Waiting for Godot",
+      "author": "Samuel Beckett",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "A Country Road (Minimal Setting)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Two tramps wait endlessly for someone named Godot who never arrives.",
+      "historical_context": "Written post-WWII, defining Theater of the Absurd and existential uncertainty."
+    },
+    {
+      "title": "The Complete Tales and Poems of Edgar Allan Poe",
+      "author": "Edgar Allan Poe",
+      "year": 1849,
+      "century": 19,
+      "location": {
+        "name": "Various Gothic Settings",
+        "coordinates": [39.2904, -76.6122]
+      },
+      "summary": "A collection of macabre tales and poems exploring death, madness, and the supernatural.",
+      "historical_context": "Poe's works defined American Gothic literature and the modern short story."
+    },
+    {
+      "title": "The Plague",
+      "author": "Albert Camus",
+      "year": 1947,
+      "century": 20,
+      "location": {
+        "name": "Oran, Algeria",
+        "coordinates": [35.6969, -0.6331]
+      },
+      "summary": "A city's response to a deadly plague, exploring human solidarity and absurdity.",
+      "historical_context": "An allegory for the Nazi occupation of France and the human condition."
+    },
+    {
+      "title": "Native Son",
+      "author": "Richard Wright",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois",
+        "coordinates": [41.8781, -87.6298]
+      },
+      "summary": "Bigger Thomas's life in Chicago's South Side leads to violence and tragedy.",
+      "historical_context": "Written during the Great Migration, exposing urban racism and poverty."
+    },
+    {
+      "title": "Vanity Fair",
+      "author": "William Makepeace Thackeray",
+      "year": 1847,
+      "century": 19,
+      "location": {
+        "name": "England and Europe",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "Becky Sharp's ambitious climb through society during the Napoleonic Wars.",
+      "historical_context": "A satirical 'novel without a hero' critiquing early Victorian society."
+    },
+    {
+      "title": "The Stories of Anton Chekhov",
+      "author": "Anton Chekhov",
+      "year": 1900,
+      "century": 20,
+      "location": {
+        "name": "Russia",
+        "coordinates": [61.5240, 105.3188]
+      },
+      "summary": "Masterful short stories capturing the melancholy of Russian life.",
+      "historical_context": "Written during Russia's transition period, perfecting the modern short story form."
+    },
+    {
+      "title": "The Color Purple",
+      "author": "Alice Walker",
+      "year": 1982,
+      "century": 20,
+      "location": {
+        "name": "Georgia, United States",
+        "coordinates": [33.2490, -83.4411]
+      },
+      "summary": "Celie's journey from abuse to empowerment in the rural South.",
+      "historical_context": "Written during the women's rights movement, addressing racism and sexism."
+    },
+    {
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "year": 1854,
+      "century": 19,
+      "location": {
+        "name": "Walden Pond, Massachusetts",
+        "coordinates": [42.4389, -71.3367]
+      },
+      "summary": "Thoreau's experiment in simple living by Walden Pond.",
+      "historical_context": "A founding text of environmentalism and civil disobedience."
+    },
+    {
+      "title": "The Man Without Qualities",
+      "author": "Robert Musil",
+      "year": 1942,
+      "century": 20,
+      "location": {
+        "name": "Vienna, Austria",
+        "coordinates": [48.2082, 16.3738]
+      },
+      "summary": "Ulrich's search for meaning in the dying Austro-Hungarian Empire.",
+      "historical_context": "Set before WWI, examining the intellectual crisis of modern Europe."
+    },
+    {
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "year": 1883,
+      "century": 19,
+      "location": {
+        "name": "Treasure Island (Fictional)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Young Jim Hawkins' adventure with pirates searching for buried treasure.",
+      "historical_context": "A classic adventure novel that defined the pirate genre in popular culture."
+    },
+    {
+      "title": "The Long Goodbye",
+      "author": "Raymond Chandler",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Los Angeles, California",
+        "coordinates": [34.0522, -118.2437]
+      },
+      "summary": "Private detective Philip Marlowe investigates a friend's alleged murder.",
+      "historical_context": "Chandler's masterpiece of hard-boiled detective fiction, defining noir literature."
+    },
+    {
+      "title": "The Tin Drum",
+      "author": "Günter Grass",
+      "year": 1959,
+      "century": 20,
+      "location": {
+        "name": "Danzig/Gdańsk",
+        "coordinates": [54.3520, 18.6466]
+      },
+      "summary": "Oskar Matzerath refuses to grow up, witnessing the rise of Nazi Germany.",
+      "historical_context": "A magical realist examination of German guilt and the Nazi period."
+    },
+    {
+      "title": "The Second Sex",
+      "author": "Simone de Beauvoir",
+      "year": 1949,
+      "century": 20,
+      "location": {
+        "name": "France",
+        "coordinates": [46.2276, 2.2137]
+      },
+      "summary": "A foundational feminist text analyzing women's oppression throughout history.",
+      "historical_context": "Written after WWII, launching second-wave feminism."
+    },
+    {
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "year": 1902,
+      "century": 20,
+      "location": {
+        "name": "Dartmoor, England",
+        "coordinates": [50.5711, -3.9375]
+      },
+      "summary": "Sherlock Holmes investigates a supernatural hound terrorizing the Baskerville family.",
+      "historical_context": "The most famous Sherlock Holmes novel, blending detective fiction with Gothic horror."
+    },
+    {
+      "title": "Dead Souls",
+      "author": "Nikolai Gogol",
+      "year": 1842,
+      "century": 19,
+      "location": {
+        "name": "Rural Russia",
+        "coordinates": [55.7558, 37.6173]
+      },
+      "summary": "Chichikov's scheme to buy the legal rights to deceased serfs.",
+      "historical_context": "A satirical portrait of Russian serfdom and bureaucracy."
+    },
+    {
+      "title": "The Waste Land",
+      "author": "T. S. Eliot",
+      "year": 1922,
+      "century": 20,
+      "location": {
+        "name": "Modern Urban Landscape",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "A fragmented poem depicting spiritual desolation in the modern world.",
+      "historical_context": "A landmark of modernist poetry reflecting post-WWI disillusionment."
+    },
+    {
+      "title": "The Talented Mr. Ripley",
+      "author": "Patricia Highsmith",
+      "year": 1955,
+      "century": 20,
+      "location": {
+        "name": "Italy and New York",
+        "coordinates": [41.8719, 12.5674]
+      },
+      "summary": "Tom Ripley's murderous identity theft and psychological manipulation.",
+      "historical_context": "A psychological thriller exploring post-war American ambition and moral corruption."
+    },
+    {
+      "title": "The Wind in the Willows",
+      "author": "Kenneth Grahame",
+      "year": 1908,
+      "century": 20,
+      "location": {
+        "name": "English Countryside",
+        "coordinates": [51.7520, -1.2577]
+      },
+      "summary": "The adventures of Mole, Rat, Badger, and the irrepressible Mr. Toad.",
+      "historical_context": "An Edwardian children's classic celebrating friendship and the English countryside."
+    },
+    {
+      "title": "Brideshead Revisited",
+      "author": "Evelyn Waugh",
+      "year": 1945,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Charles Ryder's relationship with the aristocratic Flyte family and their Catholic faith.",
+      "historical_context": "Written during WWII, mourning the end of English aristocratic culture."
+    },
+    {
+      "title": "The Big Sleep",
+      "author": "Raymond Chandler",
+      "year": 1939,
+      "century": 20,
+      "location": {
+        "name": "Los Angeles, California",
+        "coordinates": [34.0522, -118.2437]
+      },
+      "summary": "Philip Marlowe investigates a blackmail case in corrupt 1940s Los Angeles.",
+      "historical_context": "Chandler's debut novel established the hard-boiled detective archetype."
+    },
+    {
+      "title": "Bleak House",
+      "author": "Charles Dickens",
+      "year": 1852,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "The interminable Jarndyce and Jarndyce lawsuit destroys lives across generations.",
+      "historical_context": "Dickens' attack on the English legal system and social reform."
+    },
+    {
+      "title": "A Farewell to Arms",
+      "author": "Ernest Hemingway",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Italy during WWI",
+        "coordinates": [41.8719, 12.5674]
+      },
+      "summary": "An American ambulance driver's love affair during World War I.",
+      "historical_context": "Hemingway's semi-autobiographical account of WWI and the 'Lost Generation.'"
+    },
+    {
+      "title": "Antigone",
+      "author": "Sophocles",
+      "year": -441,
+      "century": -5,
+      "location": {
+        "name": "Thebes, Greece",
+        "coordinates": [38.3198, 23.3197]
+      },
+      "summary": "Antigone defies King Creon's order to leave her brother's body unburied.",
+      "historical_context": "A Greek tragedy exploring the conflict between divine law and human authority."
+    },
+    {
+      "title": "The Heart Is a Lonely Hunter",
+      "author": "Carson McCullers",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Georgia, United States",
+        "coordinates": [33.2490, -83.4411]
+      },
+      "summary": "A deaf-mute man becomes the confidant for various lonely townspeople.",
+      "historical_context": "Set in the Depression-era South, exploring isolation and communication."
+    },
+    {
+      "title": "The Maltese Falcon",
+      "author": "Dashiell Hammett",
+      "year": 1930,
+      "century": 20,
+      "location": {
+        "name": "San Francisco, California",
+        "coordinates": [37.7749, -122.4194]
+      },
+      "summary": "Private detective Sam Spade hunts for a valuable bird statue.",
+      "historical_context": "A foundational hard-boiled detective novel that influenced film noir."
     },
     {
       "title": "Pedro Páramo",
@@ -3242,236 +1701,92 @@
         "name": "Comala, Mexico",
         "coordinates": [19.3193, -103.7555]
       },
-      "summary": "A man's search for his father in a ghost town populated by spirits of the dead.",
-      "historical_context": "Written after the Mexican Revolution, examining power, death, and Mexican identity."
+      "summary": "A man searches for his father in a ghost town populated by the dead.",
+      "historical_context": "A masterpiece of magical realism exploring Mexican identity and the aftermath of revolution."
     },
     {
-      "title": "The Complete Stories of Flannery O'Connor",
-      "author": "Flannery O'Connor",
-      "year": 1971,
+      "title": "A Clockwork Orange",
+      "author": "Anthony Burgess",
+      "year": 1962,
       "century": 20,
       "location": {
-        "name": "Georgia, USA",
-        "coordinates": [32.1656, -82.9001]
+        "name": "Dystopian Britain",
+        "coordinates": [55.3781, -3.4360]
       },
-      "summary": "Collection of stories exploring faith, morality, and the grotesque in the American South.",
-      "historical_context": "Written during the Civil Rights era, examining religious faith and racial tensions."
+      "summary": "Alex's ultraviolent youth and subsequent psychological conditioning.",
+      "historical_context": "Written during Cold War tensions, exploring free will versus social control."
     },
     {
-      "title": "The Book of Disquiet",
-      "author": "Fernando Pessoa",
-      "year": 1982,
-      "century": 20,
+      "title": "The Tale of Genji",
+      "author": "Murasaki Shikibu",
+      "year": 1010,
+      "century": 11,
       "location": {
-        "name": "Lisbon, Portugal",
-        "coordinates": [38.7223, -9.1393]
-      },
-      "summary": "The fragmentary thoughts and observations of Bernardo Soares, a bookkeeper in Lisbon.",
-      "historical_context": "Written during Portugal's transition from monarchy to dictatorship, exploring modern alienation."
-    },
-    {
-      "title": "Blood Meridian",
-      "author": "Cormac McCarthy",
-      "year": 1985,
-      "century": 20,
-      "location": {
-        "name": "US-Mexico Border",
-        "coordinates": [31.7619, -106.4850]
-      },
-      "summary": "A violent journey through the American-Mexican borderlands in the 1850s.",
-      "historical_context": "Based on historical events, examining the violence of American westward expansion."
-    },
-    {
-      "title": "The Mahabharata",
-      "author": "Vyasa",
-      "year": -400,
-      "century": -4,
-      "location": {
-        "name": "Ancient India",
-        "coordinates": [28.6139, 77.2090]
-      },
-      "summary": "Epic tale of the Kurukshetra War and its aftermath, exploring dharma and moral duty.",
-      "historical_context": "Composed over centuries, fundamental to Hindu philosophy and Indian culture."
-    },
-    {
-      "title": "The Possessed",
-      "author": "Fyodor Dostoevsky",
-      "year": 1872,
-      "century": 19,
-      "location": {
-        "name": "Provincial Russia",
-        "coordinates": [56.3287, 44.0020]
-      },
-      "summary": "A group of revolutionaries bring chaos to a small Russian town.",
-      "historical_context": "Written in response to real revolutionary movements in Russia, examining nihilism and political radicalism."
-    },
-    {
-      "title": "The Makioka Sisters",
-      "author": "Junichiro Tanizaki",
-      "year": 1948,
-      "century": 20,
-      "location": {
-        "name": "Osaka, Japan",
-        "coordinates": [34.6937, 135.5023]
-      },
-      "summary": "The decline of an aristocratic Osaka family through the lives of four sisters.",
-      "historical_context": "Set before World War II, depicting the conflict between tradition and modernity in Japan."
-    },
-    {
-      "title": "If on a winter's night a traveler",
-      "author": "Italo Calvino",
-      "year": 1979,
-      "century": 20,
-      "location": {
-        "name": "Various Fictional Settings",
-        "coordinates": [45.4642, 9.1900]
-      },
-      "summary": "A novel about reading novels, where the reader becomes a character in the story.",
-      "historical_context": "Written during postmodernism's height, experimenting with narrative structure and reader involvement."
-    },
-    {
-      "title": "The Castle",
-      "author": "Franz Kafka",
-      "year": 1926,
-      "century": 20,
-      "location": {
-        "name": "Central Europe",
-        "coordinates": [50.0755, 14.4378]
-      },
-      "summary": "K.'s futile attempts to gain access to the mysterious authorities in the Castle.",
-      "historical_context": "Written during the dissolution of the Austro-Hungarian Empire, examining bureaucracy and alienation."
-    },
-    {
-      "title": "Death in Venice",
-      "author": "Thomas Mann",
-      "year": 1912,
-      "century": 20,
-      "location": {
-        "name": "Venice, Italy",
-        "coordinates": [45.4408, 12.3155]
-      },
-      "summary": "An aging writer becomes obsessed with a young boy while visiting Venice during a cholera epidemic.",
-      "historical_context": "Written before World War I, examining art, beauty, and decay in European culture."
-    },
-    {
-      "title": "Journey to the West",
-      "author": "Wu Cheng'en",
-      "year": 1592,
-      "century": 16,
-      "location": {
-        "name": "China to India",
-        "coordinates": [34.3416, 108.9398]
-      },
-      "summary": "The magical journey of a monk and his supernatural companions to retrieve Buddhist scriptures.",
-      "historical_context": "Written during the Ming Dynasty, based on the historical journey of Xuanzang."
-    },
-    {
-      "title": "The Stories of Jorge Luis Borges",
-      "author": "Jorge Luis Borges",
-      "year": 1944,
-      "century": 20,
-      "location": {
-        "name": "Buenos Aires, Argentina",
-        "coordinates": [-34.6037, -58.3816]
-      },
-      "summary": "Collection of metaphysical stories exploring infinity, time, and identity.",
-      "historical_context": "Written during Argentina's transition from traditional to modern society, influencing magical realism."
-    },
-    {
-      "title": "The Ramayana",
-      "author": "Valmiki",
-      "year": -500,
-      "century": -5,
-      "location": {
-        "name": "Ancient India",
-        "coordinates": [27.1767, 78.0081]
-      },
-      "summary": "The epic journey of Rama to rescue his wife Sita from the demon king Ravana.",
-      "historical_context": "Ancient Sanskrit epic that has profoundly influenced Indian culture and literature."
-    },
-    {
-      "title": "The Flowers of Evil",
-      "author": "Charles Baudelaire",
-      "year": 1857,
-      "century": 19,
-      "location": {
-        "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Poetry collection exploring urban life, modernity, and the nature of evil and beauty.",
-      "historical_context": "Written during Paris's modernization, marking the beginning of modern poetry."
-    },
-    {
-      "title": "The Adventures of Sherlock Holmes",
-      "author": "Arthur Conan Doyle",
-      "year": 1892,
-      "century": 19,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Collection of detective stories featuring the brilliant consulting detective Sherlock Holmes.",
-      "historical_context": "Written during Victorian England's scientific advancement and urbanization."
-    },
-    {
-      "title": "The Alexandria Quartet",
-      "author": "Lawrence Durrell",
-      "year": 1960,
-      "century": 20,
-      "location": {
-        "name": "Alexandria, Egypt",
-        "coordinates": [31.2001, 29.9187]
-      },
-      "summary": "Four interconnected novels exploring love and modern life in pre-war Alexandria.",
-      "historical_context": "Set before and during World War II, examining colonialism and cultural intersection."
-    },
-    {
-      "title": "The Waves",
-      "author": "Virginia Woolf",
-      "year": 1931,
-      "century": 20,
-      "location": {
-        "name": "England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "The intertwined lives of six friends told through interior monologues.",
-      "historical_context": "Written during the modernist period, experimenting with stream of consciousness."
-    },
-    {
-      "title": "Snow Country",
-      "author": "Yasunari Kawabata",
-      "year": 1948,
-      "century": 20,
-      "location": {
-        "name": "Niigata Prefecture, Japan",
-        "coordinates": [37.9026, 139.0237]
-      },
-      "summary": "The love affair between a Tokyo dilettante and a provincial geisha in the snow country.",
-      "historical_context": "Written during Japan's modernization, examining traditional Japanese aesthetics."
-    },
-    {
-      "title": "The Tale of the Bamboo Cutter",
-      "author": "Anonymous",
-      "year": 900,
-      "century": 10,
-      "location": {
-        "name": "Kyoto, Japan",
+        "name": "Heian-kyō (Kyoto), Japan",
         "coordinates": [35.0116, 135.7681]
       },
-      "summary": "The story of a mysterious girl found in a bamboo stalk who turns out to be from the Moon.",
-      "historical_context": "Oldest extant Japanese prose narrative, reflecting Heian period court culture."
+      "summary": "The romantic adventures of Prince Genji in the Japanese imperial court.",
+      "historical_context": "Often considered the world's first novel, depicting Heian period court culture."
     },
     {
-      "title": "Blindness",
-      "author": "José Saramago",
-      "year": 1995,
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "year": 1400,
+      "century": 14,
+      "location": {
+        "name": "Canterbury, England",
+        "coordinates": [51.2800, 1.0800]
+      },
+      "summary": "Pilgrims tell stories on their journey to Canterbury Cathedral.",
+      "historical_context": "A vivid portrait of medieval English society across all social classes."
+    },
+    {
+      "title": "King Lear",
+      "author": "William Shakespeare",
+      "year": 1608,
+      "century": 17,
+      "location": {
+        "name": "Ancient Britain",
+        "coordinates": [55.3781, -3.4360]
+      },
+      "summary": "An aging king divides his kingdom among his daughters with tragic consequences.",
+      "historical_context": "Shakespeare's darkest tragedy, exploring power, family, and justice."
+    },
+    {
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "year": 1667,
+      "century": 17,
+      "location": {
+        "name": "Heaven, Hell, and Eden",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "The fall of Satan and the temptation of Adam and Eve.",
+      "historical_context": "Written after the English Civil War, exploring rebellion, authority, and redemption."
+    },
+    {
+      "title": "For Whom the Bell Tolls",
+      "author": "Ernest Hemingway",
+      "year": 1940,
       "century": 20,
       "location": {
-        "name": "Unnamed City",
-        "coordinates": [38.7223, -9.1393]
+        "name": "Spanish Civil War Front",
+        "coordinates": [40.4637, -3.7492]
       },
-      "summary": "A city's descent into chaos when its population is struck by an epidemic of blindness.",
-      "historical_context": "A thought-provoking novel about human nature and social breakdown."
+      "summary": "Robert Jordan's mission to blow up a bridge during the Spanish Civil War.",
+      "historical_context": "Hemingway's account of the Spanish Civil War and anti-fascist resistance."
+    },
+    {
+      "title": "The Name of the Rose",
+      "author": "Umberto Eco",
+      "year": 1980,
+      "century": 20,
+      "location": {
+        "name": "Medieval Monastery, Italy",
+        "coordinates": [41.8719, 12.5674]
+      },
+      "summary": "A murder mystery set in a 14th-century monastery, blending philosophy and detection.",
+      "historical_context": "A postmodern novel exploring knowledge, truth, and medieval theology."
     },
     {
       "title": "The Unbearable Lightness of Being",
@@ -3482,23 +1797,791 @@
         "name": "Prague, Czechoslovakia",
         "coordinates": [50.0755, 14.4378]
       },
-      "summary": "The lives of four interconnected characters during the Prague Spring and its aftermath.",
-      "historical_context": "Set during the Soviet invasion of Czechoslovakia, examining politics and personal freedom."
+      "summary": "Four characters navigate love and politics during the Prague Spring.",
+      "historical_context": "Set during the 1968 Soviet invasion, exploring freedom and meaninglessness."
     },
     {
-      "title": "The Good Soldier",
-      "author": "Ford Madox Ford",
-      "year": 1915,
+      "title": "Tess of the d'Urbervilles",
+      "author": "Thomas Hardy",
+      "year": 1891,
+      "century": 19,
+      "location": {
+        "name": "Wessex, England",
+        "coordinates": [51.0, -2.0]
+      },
+      "summary": "Tess Durbeyfield's tragic life in rural England, exploring fate and social injustice.",
+      "historical_context": "Hardy's critique of Victorian sexual morality and social class."
+    },
+    {
+      "title": "Memoirs of Hadrian",
+      "author": "Marguerite Yourcenar",
+      "year": 1951,
       "century": 20,
       "location": {
-        "name": "Bad Nauheim, Germany",
-        "coordinates": [50.3669, 8.7519]
+        "name": "Roman Empire",
+        "coordinates": [41.9028, 12.4964]
       },
-      "summary": "The tragic relationships between two wealthy couples, told through unreliable narration.",
-      "historical_context": "Written on the eve of World War I, examining the decay of European society."
+      "summary": "Emperor Hadrian reflects on his life and the nature of power and mortality.",
+      "historical_context": "A meditation on leadership and civilization through the lens of ancient Rome."
     },
     {
-      "title": "A House for Mr. Biswas",
+      "title": "Doctor Faustus",
+      "author": "Thomas Mann",
+      "year": 1947,
+      "century": 20,
+      "location": {
+        "name": "Germany",
+        "coordinates": [51.1657, 10.4515]
+      },
+      "summary": "A composer's pact with the devil parallels Germany's descent into fascism.",
+      "historical_context": "Mann's allegory for German intellectual and moral corruption leading to Nazism."
+    },
+    {
+      "title": "Wide Sargasso Sea",
+      "author": "Jean Rhys",
+      "year": 1966,
+      "century": 20,
+      "location": {
+        "name": "Caribbean",
+        "coordinates": [15.3099, -61.3790]
+      },
+      "summary": "The story of Bertha Mason, the 'madwoman in the attic' from Jane Eyre.",
+      "historical_context": "A postcolonial response to Charlotte Brontë, exploring Caribbean identity and colonialism."
+    },
+    {
+      "title": "Lady Chatterley's Lover",
+      "author": "D. H. Lawrence",
+      "year": 1928,
+      "century": 20,
+      "location": {
+        "name": "Nottinghamshire, England",
+        "coordinates": [53.0000, -1.0000]
+      },
+      "summary": "Lady Chatterley's affair with her gamekeeper challenges class and sexual conventions.",
+      "historical_context": "A banned book exploring sexuality, class, and industrial alienation."
+    },
+    {
+      "title": "Macbeth",
+      "author": "William Shakespeare",
+      "year": 1606,
+      "century": 17,
+      "location": {
+        "name": "Scotland",
+        "coordinates": [56.4907, -4.2026]
+      },
+      "summary": "A Scottish general's bloody path to the throne, driven by ambition and prophecy.",
+      "historical_context": "Written for King James I, exploring the corrupting nature of power."
+    },
+    {
+      "title": "The Woman in White",
+      "author": "Wilkie Collins",
+      "year": 1860,
+      "century": 19,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "A mystery involving identity theft, madness, and a woman in white.",
+      "historical_context": "One of the first detective novels, influencing the mystery genre."
+    },
+    {
+      "title": "Doctor Zhivago",
+      "author": "Boris Pasternak",
+      "year": 1957,
+      "century": 20,
+      "location": {
+        "name": "Russia during Revolution",
+        "coordinates": [55.7558, 37.6173]
+      },
+      "summary": "Yuri Zhivago's life during the Russian Revolution and Civil War.",
+      "historical_context": "Banned in the Soviet Union, depicting the Revolution's impact on individuals."
+    },
+    {
+      "title": "The Interpretation of Dreams",
+      "author": "Sigmund Freud",
+      "year": 1899,
+      "century": 20,
+      "location": {
+        "name": "Vienna, Austria",
+        "coordinates": [48.2082, 16.3738]
+      },
+      "summary": "Freud's groundbreaking analysis of dreams and the unconscious mind.",
+      "historical_context": "A foundational text of psychoanalysis that revolutionized psychology."
+    },
+    {
+      "title": "One Day in the Life of Ivan Denisovich",
+      "author": "Aleksandr Solzhenitsyn",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Soviet Gulag",
+        "coordinates": [67.0, 60.0]
+      },
+      "summary": "A single day in the life of a Soviet political prisoner.",
+      "historical_context": "The first published work exposing Stalin's labor camps to the Soviet public."
+    },
+    {
+      "title": "Poems of Emily Dickinson",
+      "author": "Emily Dickinson",
+      "year": 1890,
+      "century": 19,
+      "location": {
+        "name": "Amherst, Massachusetts",
+        "coordinates": [42.3732, -72.5199]
+      },
+      "summary": "Innovative poems exploring death, immortality, and nature.",
+      "historical_context": "Published posthumously, revolutionizing American poetry with unique style."
+    },
+    {
+      "title": "If This Is a Man",
+      "author": "Primo Levi",
+      "year": 1947,
+      "century": 20,
+      "location": {
+        "name": "Auschwitz",
+        "coordinates": [50.0269, 19.2041]
+      },
+      "summary": "Levi's firsthand account of survival in Auschwitz concentration camp.",
+      "historical_context": "A crucial Holocaust testimony examining the dehumanization of Nazi camps."
+    },
+    {
+      "title": "Sons and Lovers",
+      "author": "D. H. Lawrence",
+      "year": 1913,
+      "century": 20,
+      "location": {
+        "name": "Nottinghamshire, England",
+        "coordinates": [53.0000, -1.0000]
+      },
+      "summary": "Paul Morel's relationship with his mother and lovers in working-class England.",
+      "historical_context": "A semi-autobiographical novel exploring Oedipal relationships and industrial society."
+    },
+    {
+      "title": "Tom Jones",
+      "author": "Henry Fielding",
+      "year": 1749,
+      "century": 18,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "The foundling Tom Jones's picaresque adventures in 18th-century England.",
+      "historical_context": "A comic epic that helped establish the English novel form."
+    },
+    {
+      "title": "The Charterhouse of Parma",
+      "author": "Stendhal",
+      "year": 1839,
+      "century": 19,
+      "location": {
+        "name": "Italy",
+        "coordinates": [41.8719, 12.5674]
+      },
+      "summary": "Fabrizio del Dongo's adventures in post-Napoleonic Italy.",
+      "historical_context": "A psychological novel examining passion and politics in 19th-century Italy."
+    },
+    {
+      "title": "A Sentimental Education",
+      "author": "Gustave Flaubert",
+      "year": 1869,
+      "century": 19,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Frédéric Moreau's unrequited love and political awakening in Paris.",
+      "historical_context": "Set during the 1848 Revolution, examining romantic and political disillusionment."
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "year": 1979,
+      "century": 20,
+      "location": {
+        "name": "Space",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Arthur Dent's cosmic adventures after Earth's destruction by aliens.",
+      "historical_context": "A science fiction comedy that became a cultural phenomenon."
+    },
+    {
+      "title": "The Three Musketeers",
+      "author": "Alexandre Dumas",
+      "year": 1844,
+      "century": 19,
+      "location": {
+        "name": "France",
+        "coordinates": [46.2276, 2.2137]
+      },
+      "summary": "D'Artagnan joins the king's musketeers in 17th-century France.",
+      "historical_context": "A swashbuckling adventure set during the reign of Louis XIII."
+    },
+    {
+      "title": "Giovanni's Room",
+      "author": "James Baldwin",
+      "year": 1956,
+      "century": 20,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "An American expatriate's affair with an Italian bartender in Paris.",
+      "historical_context": "A groundbreaking exploration of homosexuality and identity in the 1950s."
+    },
+    {
+      "title": "Howards End",
+      "author": "E. M. Forster",
+      "year": 1910,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "The connection between the intellectual Schlegel sisters and the business-minded Wilcox family.",
+      "historical_context": "Forster's examination of class, culture, and social change in Edwardian England."
+    },
+    {
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "year": 1939,
+      "century": 20,
+      "location": {
+        "name": "Soldier Island (Fictional)",
+        "coordinates": [50.2660, -5.0527]
+      },
+      "summary": "Ten strangers are trapped on an island where they're murdered one by one.",
+      "historical_context": "Christie's masterpiece of the 'closed room' mystery genre."
+    },
+    {
+      "title": "A Room of One's Own",
+      "author": "Virginia Woolf",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Woolf's essay on women and fiction, arguing for women's intellectual independence.",
+      "historical_context": "A foundational feminist text examining women's exclusion from literary tradition."
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Dystopian America",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "Guy Montag rebels against a society that burns books.",
+      "historical_context": "Written during McCarthyism, warning against censorship and conformity."
+    },
+    {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "author": "Ken Kesey",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Oregon, United States",
+        "coordinates": [44.9429, -123.0351]
+      },
+      "summary": "Randle McMurphy's rebellion against the oppressive mental hospital system.",
+      "historical_context": "A critique of institutional authority and conformity in 1960s America."
+    },
+    {
+      "title": "Tender Is the Night",
+      "author": "F. Scott Fitzgerald",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "French Riviera",
+        "coordinates": [43.7102, 7.2620]
+      },
+      "summary": "Dick and Nicole Diver's marriage deteriorates amid the glamour of the Riviera.",
+      "historical_context": "Fitzgerald's exploration of wealth, mental illness, and the American expatriate experience."
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "year": 1532,
+      "century": 16,
+      "location": {
+        "name": "Florence, Italy",
+        "coordinates": [43.7696, 11.2558]
+      },
+      "summary": "A treatise on political power and leadership, advocating pragmatic rule.",
+      "historical_context": "Written during Italian Renaissance political turmoil, influencing political thought."
+    },
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Hogwarts (Fictional)",
+        "coordinates": [56.9496, -4.2006]
+      },
+      "summary": "Harry Potter discovers he's a wizard and attends Hogwarts School.",
+      "historical_context": "A modern fantasy that revitalized children's literature and reading culture."
+    },
+    {
+      "title": "Steppenwolf",
+      "author": "Hermann Hesse",
+      "year": 1927,
+      "century": 20,
+      "location": {
+        "name": "Germany",
+        "coordinates": [51.1657, 10.4515]
+      },
+      "summary": "Harry Haller's spiritual crisis and journey toward self-acceptance.",
+      "historical_context": "Written during the Weimar Republic, exploring alienation and spiritual seeking."
+    },
+    {
+      "title": "Love in the Time of Cholera",
+      "author": "Gabriel García Márquez",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Caribbean Coast",
+        "coordinates": [10.3910, -75.4794]
+      },
+      "summary": "Florentino Ariza's lifelong love for Fermina Daza spans decades.",
+      "historical_context": "Márquez's exploration of love, aging, and Latin American society."
+    },
+    {
+      "title": "The Complete Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "year": 1887,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "The complete adventures of the world's most famous consulting detective.",
+      "historical_context": "Doyle created the template for the modern detective story in Victorian London."
+    },
+    {
+      "title": "Confessions of Zeno",
+      "author": "Italo Svevo",
+      "year": 1923,
+      "century": 20,
+      "location": {
+        "name": "Trieste, Italy",
+        "coordinates": [45.6495, 13.7768]
+      },
+      "summary": "Zeno Cosini's humorous and self-deceptive memoirs.",
+      "historical_context": "An early modernist novel exploring psychoanalysis and self-awareness."
+    },
+    {
+      "title": "Light in August",
+      "author": "William Faulkner",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "Mississippi, United States",
+        "coordinates": [32.3547, -89.3985]
+      },
+      "summary": "Joe Christmas's violent life intersects with other characters in the South.",
+      "historical_context": "Faulkner's exploration of race, violence, and identity in the American South."
+    },
+    {
+      "title": "Decameron",
+      "author": "Giovanni Boccaccio",
+      "year": 1353,
+      "century": 14,
+      "location": {
+        "name": "Florence, Italy",
+        "coordinates": [43.7696, 11.2558]
+      },
+      "summary": "One hundred tales told by ten young people fleeing the Black Death.",
+      "historical_context": "A masterpiece of medieval literature reflecting 14th-century Italian society."
+    },
+    {
+      "title": "Lord Jim",
+      "author": "Joseph Conrad",
+      "year": 1900,
+      "century: 20,
+      "location": {
+        "name": "Southeast Asia",
+        "coordinates": [1.3521, 103.8198]
+      },
+      "summary": "Jim's quest for redemption after abandoning a ship in crisis.",
+      "historical_context": "Conrad's examination of honor, guilt, and colonialism in the East Indies."
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Middle-earth (Fictional)",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Bilbo Baggins's unexpected adventure with dwarves and a dragon.",
+      "historical_context": "Tolkien's children's fantasy that laid the groundwork for modern fantasy literature."
+    },
+    {
+      "title": "Rabbit, Run",
+      "author": "John Updike",
+      "year": 1960,
+      "century": 20,
+      "location": {
+        "name": "Pennsylvania, United States",
+        "coordinates": [41.2033, -77.1945]
+      },
+      "summary": "Harry 'Rabbit' Angstrom flees his suburban responsibilities.",
+      "historical_context": "Updike's portrayal of middle-class American life and masculinity in crisis."
+    },
+    {
+      "title": "Man's Fate",
+      "author": "André Malraux",
+      "year": 1933,
+      "century": 20,
+      "location": {
+        "name": "Shanghai, China",
+        "coordinates": [31.2304, 121.4737]
+      },
+      "summary": "Communist revolutionaries face defeat in 1927 Shanghai.",
+      "historical_context": "Malraux's existential novel set during the Chinese Communist uprising."
+    },
+    {
+      "title": "The Prime of Miss Jean Brodie",
+      "author": "Muriel Spark",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Edinburgh, Scotland",
+        "coordinates": [55.9533, -3.1883]
+      },
+      "summary": "An unconventional teacher's influence on her students in 1930s Edinburgh.",
+      "historical_context": "Spark's exploration of education, fascism, and individual versus group loyalty."
+    },
+    {
+      "title": "Confessions",
+      "author": "Augustine",
+      "year": 397,
+      "century": 4,
+      "location": {
+        "name": "North Africa",
+        "coordinates": [36.9, 7.7667]
+      },
+      "summary": "Augustine's spiritual autobiography and conversion to Christianity.",
+      "historical_context": "A foundational Christian text that influenced Western autobiography and theology."
+    },
+    {
+      "title": "White Teeth",
+      "author": "Zadie Smith",
+      "year": 2000,
+      "century": 21,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "Two families navigate multicultural London across generations.",
+      "historical_context": "A contemporary novel exploring immigration, identity, and cultural collision."
+    },
+    {
+      "title": "The Spy Who Came in from the Cold",
+      "author": "John le Carré",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Berlin, Germany",
+        "coordinates": [52.5200, 13.4050]
+      },
+      "summary": "Alec Leamas undertakes a final mission in Cold War Berlin.",
+      "historical_context": "Le Carré's realistic portrayal of espionage during the Cold War."
+    },
+    {
+      "title": "Metamorphoses",
+      "author": "Ovid",
+      "year": 8,
+      "century": 1,
+      "location": {
+        "name": "Roman Empire",
+        "coordinates": [41.9028, 12.4964]
+      },
+      "summary": "A narrative poem chronicling transformations from Greek and Roman mythology.",
+      "historical_context": "Ovid's masterwork influencing Western literature's treatment of mythology."
+    },
+    {
+      "title": "A Good Man Is Hard to Find",
+      "author": "Flannery O'Connor",
+      "year": 1955,
+      "century": 20,
+      "location": {
+        "name": "Georgia, United States",
+        "coordinates": [33.2490, -83.4411]
+      },
+      "summary": "Dark Southern Gothic stories exploring grace, violence, and redemption.",
+      "historical_context": "O'Connor's Catholic perspective on the Protestant South during the Civil Rights era."
+    },
+    {
+      "title": "Winnie-the-Pooh",
+      "author": "A.A. Milne",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "Hundred Acre Wood (Fictional)",
+        "coordinates": [51.2167, 0.1833]
+      },
+      "summary": "Christopher Robin and his toy bear's gentle adventures in the Hundred Acre Wood.",
+      "historical_context": "A beloved children's classic that captured post-WWI nostalgia for innocence."
+    },
+    {
+      "title": "The Flowers of Evil",
+      "author": "Charles Baudelaire",
+      "year": 1857,
+      "century": 19,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Poems exploring urban life, decay, and the relationship between beauty and evil.",
+      "historical_context": "Baudelaire's scandalous collection pioneered modern poetry and symbolism."
+    },
+    {
+      "title": "Brighton Rock",
+      "author": "Graham Greene",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "Brighton, England",
+        "coordinates": [50.8225, -0.1372]
+      },
+      "summary": "Teenage gangster Pinkie Brown's violent career in seaside Brighton.",
+      "historical_context": "Greene's exploration of Catholic themes and moral corruption in interwar Britain."
+    },
+    {
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "year": 2001,
+      "century": 21,
+      "location": {
+        "name": "Midwest United States",
+        "coordinates": [41.2619, -95.8608]
+      },
+      "summary": "The dysfunctional Lambert family struggles with aging, marriage, and modern life.",
+      "historical_context": "A contemporary family saga exploring American middle-class anxieties."
+    },
+    {
+      "title": "On the Origin of Species",
+      "author": "Charles Darwin",
+      "year": 1859,
+      "century": 19,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Darwin's theory of evolution by natural selection.",
+      "historical_context": "A revolutionary scientific work that transformed biological understanding."
+    },
+    {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "California, United States",
+        "coordinates": [36.7783, -119.4179]
+      },
+      "summary": "George and Lennie's friendship and tragic end during the Great Depression.",
+      "historical_context": "Steinbeck's portrayal of migrant workers and the American Dream's failure."
+    },
+    {
+      "title": "Hans Christian Andersen's Fairy Tales",
+      "author": "Hans Christian Andersen",
+      "year": 1837,
+      "century": 19,
+      "location": {
+        "name": "Denmark",
+        "coordinates": [56.2639, 9.5018]
+      },
+      "summary": "Beloved fairy tales including 'The Little Mermaid' and 'The Ugly Duckling.'",
+      "historical_context": "Andersen revolutionized children's literature with psychologically complex tales."
+    },
+    {
+      "title": "A Wrinkle in Time",
+      "author": "Madeleine L'Engle",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Space and Time",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Meg Murry travels through space and time to rescue her father.",
+      "historical_context": "A science fantasy that challenged children's literature conventions."
+    },
+    {
+      "title": "The End of the Affair",
+      "author": "Graham Greene",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "A love triangle complicated by faith and jealousy during WWII London.",
+      "historical_context": "Greene's exploration of love, faith, and divine intervention during wartime."
+    },
+    {
+      "title": "Molloy",
+      "author": "Samuel Beckett",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "Unnamed Landscape",
+        "coordinates": [0.0, 0.0]
+      },
+      "summary": "Two narrators, Molloy and Moran, embark on mysterious quests.",
+      "historical_context": "Part of Beckett's trilogy exploring post-war existential uncertainty."
+    },
+    {
+      "title": "The Remains of the Day",
+      "author": "Kazuo Ishiguro",
+      "year": 1989,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Butler Stevens reflects on his life of service and repressed emotions.",
+      "historical_context": "Ishiguro's examination of duty, dignity, and the cost of emotional repression."
+    },
+    {
+      "title": "Portnoy's Complaint",
+      "author": "Philip Roth",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [40.7128, -74.0060]
+      },
+      "summary": "Alexander Portnoy's sexual confessions and neuroses to his psychiatrist.",
+      "historical_context": "Roth's controversial exploration of Jewish-American identity and sexuality."
+    },
+    {
+      "title": "An American Tragedy",
+      "author": "Theodore Dreiser",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [40.7128, -74.0060]
+      },
+      "summary": "Clyde Griffiths's rise and fall in pursuit of the American Dream.",
+      "historical_context": "Dreiser's naturalistic novel critiquing American society and capitalism."
+    },
+    {
+      "title": "The Good Soldier Švejk",
+      "author": "Jaroslav Hašek",
+      "year": 1923,
+      "century": 20,
+      "location": {
+        "name": "Austria-Hungary",
+        "coordinates": [48.2082, 16.3738]
+      },
+      "summary": "The bumbling soldier Švejk's subversive adventures during WWI.",
+      "historical_context": "A satirical antiwar novel exposing the absurdity of military bureaucracy."
+    },
+    {
+      "title": "Watership Down",
+      "author": "Richard Adams",
+      "year": 1972,
+      "century": 20,
+      "location": {
+        "name": "English Countryside",
+        "coordinates": [51.3206, -1.3278]
+      },
+      "summary": "A group of rabbits search for a new home after their warren is destroyed.",
+      "historical_context": "An allegorical adventure story that became a classic of children's literature."
+    },
+    {
+      "title": "The Counterfeiters",
+      "author": "André Gide",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "A complex novel exploring authenticity, morality, and artistic creation.",
+      "historical_context": "Gide's experimental novel challenging traditional narrative forms."
+    },
+    {
+      "title": "Fathers and Sons",
+      "author": "Ivan Turgenev",
+      "year": 1862,
+      "century": 19,
+      "location": {
+        "name": "Russia",
+        "coordinates": [61.5240, 105.3188]
+      },
+      "summary": "The generational conflict between nihilist Bazarov and traditional Russian society.",
+      "historical_context": "Turgenev's portrayal of the ideological divide in 1860s Russia."
+    },
+    {
+      "title": "Atonement",
+      "author": "Ian McEwan",
+      "year": 2001,
+      "century": 21,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Briony Tallis's false accusation destroys lives and haunts her forever.",
+      "historical_context": "A contemporary novel exploring guilt, memory, and the power of narrative."
+    },
+    {
+      "title": "Berlin Alexanderplatz",
+      "author": "Alfred Döblin",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Berlin, Germany",
+        "coordinates": [52.5200, 13.4050]
+      },
+      "summary": "Franz Biberkopf's struggle to stay honest in Weimar Republic Berlin.",
+      "historical_context": "A modernist novel capturing the chaos and vitality of 1920s Berlin."
+    },
+    {
+      "title": "My Ántonia",
+      "author": "Willa Cather",
+      "year": 1918,
+      "century": 20,
+      "location": {
+        "name": "Nebraska, United States",
+        "coordinates": [41.4925, -99.9018]
+      },
+      "summary": "Jim Burden's memories of the pioneering Bohemian girl Ántonia.",
+      "historical_context": "Cather's celebration of immigrant experiences on the American frontier."
+    },
+    {
+      "title": "Gargantua and Pantagruel",
+      "author": "François Rabelais",
+      "year": 1532,
+      "century": 16,
+      "location": {
+        "name": "France",
+        "coordinates": [46.2276, 2.2137]
+      },
+      "summary": "The comic adventures of two giants, celebrating humanist values.",
+      "historical_context": "Rabelais's Renaissance satire celebrating learning, pleasure, and human nature."
+    },
+    {
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "year": 1859,
+      "century": 19,
+      "location": {
+        "name": "London and Paris",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Sydney Carton's redemption during the French Revolution.",
+      "historical_context": "Dickens's tale of sacrifice and resurrection set during revolutionary upheaval."
+    },
+    {
+      "title": "A House for Mr Biswas",
       "author": "V.S. Naipaul",
       "year": 1961,
       "century": 20,
@@ -3506,32 +2589,140 @@
         "name": "Trinidad",
         "coordinates": [10.6918, -61.2225]
       },
-      "summary": "One man's lifelong struggle for independence and identity in colonial Trinidad.",
-      "historical_context": "Set in colonial Trinidad, examining post-colonial identity and social mobility."
+      "summary": "Mohun Biswas's lifelong quest for independence and a house of his own.",
+      "historical_context": "Naipaul's portrayal of Indo-Caribbean life and post-colonial identity."
     },
     {
-      "title": "The Life of Samuel Johnson",
-      "author": "James Boswell",
-      "year": 1791,
-      "century": 18,
+      "title": "The Once and Future King",
+      "author": "T.H. White",
+      "year": 1958,
+      "century": 20,
+      "location": {
+        "name": "Arthurian Britain",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "The complete story of King Arthur from childhood to death.",
+      "historical_context": "White's modern retelling of Arthurian legend, reflecting on war and civilization."
+    },
+    {
+      "title": "U.S.A. Trilogy",
+      "author": "John Dos Passos",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "A panoramic view of American society from 1900 to 1930.",
+      "historical_context": "Dos Passos's experimental trilogy capturing American social and political upheaval."
+    },
+    {
+      "title": "The Communist Manifesto",
+      "author": "Karl Marx and Friedrich Engels",
+      "year": 1848,
+      "century": 19,
+      "location": {
+        "name": "Europe",
+        "coordinates": [54.5260, 15.2551]
+      },
+      "summary": "A political pamphlet outlining the theory and program of communism.",
+      "historical_context": "A revolutionary text that influenced political movements worldwide."
+    },
+    {
+      "title": "The Autobiography of Malcolm X",
+      "author": "Malcolm X and Alex Haley",
+      "year": 1965,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "Malcolm X's transformation from criminal to civil rights leader.",
+      "historical_context": "A powerful account of racial awakening during the Civil Rights Movement."
+    },
+    {
+      "title": "All the King's Men",
+      "author": "Robert Penn Warren",
+      "year": 1946,
+      "century": 20,
+      "location": {
+        "name": "Louisiana, United States",
+        "coordinates": [31.1695, -91.8678]
+      },
+      "summary": "The rise and fall of populist politician Willie Stark.",
+      "historical_context": "Warren's exploration of political corruption and moral compromise."
+    },
+    {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "year": 2005,
+      "century": 21,
+      "location": {
+        "name": "England",
+        "coordinates": [52.3555, 1.1743]
+      },
+      "summary": "Students at a mysterious boarding school discover their tragic destiny.",
+      "historical_context": "Ishiguro's dystopian meditation on humanity, memory, and mortality."
+    },
+    {
+      "title": "Bonjour Tristesse",
+      "author": "Françoise Sagan",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "French Riviera",
+        "coordinates": [43.7102, 7.2620]
+      },
+      "summary": "Seventeen-year-old Cécile's summer of love, jealousy, and tragedy.",
+      "historical_context": "Sagan's precocious debut exploring youth, sexuality, and moral awakening."
+    },
+    {
+      "title": "A Confederacy of Dunces",
+      "author": "John Kennedy Toole",
+      "year": 1980,
+      "century": 20,
+      "location": {
+        "name": "New Orleans, Louisiana",
+        "coordinates": [29.9511, -90.0715]
+      },
+      "summary": "Ignatius J. Reilly's misadventures in New Orleans society.",
+      "historical_context": "A posthumously published comic masterpiece of American eccentricity."
+    },
+    {
+      "title": "Blood Meridian",
+      "author": "Cormac McCarthy",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "American Southwest",
+        "coordinates": [34.0522, -111.0937]
+      },
+      "summary": "The Kid's journey with a violent gang of scalp hunters.",
+      "Historical_context": "McCarthy's brutal examination of violence and the American frontier."
+    },
+    {
+      "title": "A Christmas Carol",
+      "author": "Charles Dickens",
+      "year": 1843,
+      "century": 19,
       "location": {
         "name": "London, England",
         "coordinates": [51.5074, -0.1278]
       },
-      "summary": "The definitive biography of the great literary figure Samuel Johnson.",
-      "historical_context": "Written during the Age of Enlightenment, pioneering modern biography."
+      "summary": "Ebenezer Scrooge's Christmas Eve transformation through ghostly visitations.",
+      "historical_context": "Dickens's beloved tale that helped define modern Christmas traditions."
     },
     {
-      "title": "The Tale of Lady Ochikubo",
-      "author": "Anonymous",
-      "year": 1010,
-      "century": 11,
+      "title": "Anne of Green Gables",
+      "author": "L.M. Montgomery",
+      "year": 1908,
+      "century": 20,
       "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
-        "coordinates": [35.0116, 135.7681]
+        "name": "Prince Edward Island, Canada",
+        "coordinates": [46.5107, -63.4168]
       },
-      "summary": "A Cinderella-like story of a mistreated noblewoman who rises to happiness through her talents.",
-      "historical_context": "Written during the Heian period, depicting court life and women's experiences."
+      "summary": "Orphan Anne Shirley finds a home with the Cuthberts on Prince Edward Island.",
+      "Historical_context": "Montgomery's celebration of imagination, nature, and Maritime Canadian life."
     }
   ]
 }
