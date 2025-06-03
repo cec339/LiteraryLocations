@@ -8,6 +8,7 @@ from utils.data_loader import (
 )
 from utils.map_utils import create_literature_map
 import streamlit.components.v1 as components
+import pandas as pd
 
 # Page configuration
 st.set_page_config(
@@ -204,7 +205,7 @@ try:
                     col1, col2 = st.columns([1, 2])
                     with col1:
                         st.write(f"**Location:** {book['setting_name']}")
-                        st.write(f"**Year:** {book['year']}")
+                        st.write(f"**Year:** {int(book['year'])}")
                     with col2:
                         st.write(f"**Summary:** {book['summary']}")
                         st.write(f"**Historical Context:** {book['historical_context']}")
