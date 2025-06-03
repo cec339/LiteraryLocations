@@ -1,0 +1,667 @@
+{
+  "books": [
+    {
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "year": 1667,
+      "century": 17,
+      "location": {
+        "name": "Multiple Settings (Heaven, Hell, Eden)",
+        "coordinates": [51.5074, -0.1278],
+        "type": "publication"
+      },
+      "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
+      "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "year": 1847,
+      "century": 19,
+      "location": {
+        "name": "Yorkshire Moors, England",
+        "coordinates": [53.8008, -1.5491],
+        "type": "primary"
+      },
+      "summary": "On the stormy Yorkshire moors, the obsessive bond between Heathcliff and Catherine Earnshaw unleashes generations of passion, cruelty, and revenge.",
+      "historical_context": "Emily Brontë's 1847 publication challenged Victorian sensibilities with its raw passion and Byronic anti-hero."
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "year": 1847,
+      "century": 19,
+      "location": {
+        "name": "Yorkshire, England",
+        "coordinates": [53.8008, -1.5491],
+        "type": "primary"
+      },
+      "summary": "An orphaned governess finds love and independence despite social constraints and dark secrets.",
+      "historical_context": "Published in 1847, challenged Victorian gender roles and class structures."
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "century": 19,
+      "location": {
+        "name": "Hertfordshire, England",
+        "coordinates": [51.8000, -0.2167],
+        "type": "primary"
+      },
+      "summary": "Elizabeth Bennet navigates marriage prospects and social expectations in Regency England.",
+      "historical_context": "Austen's wit and social commentary captured the changing dynamics of English society."
+    },
+    {
+      "title": "Emma",
+      "author": "Jane Austen",
+      "year": 1815,
+      "century": 19,
+      "location": {
+        "name": "Surrey, England",
+        "coordinates": [51.2362, -0.5704],
+        "type": "primary"
+      },
+      "summary": "A well-meaning but misguided young woman meddles in the romantic lives of those around her.",
+      "historical_context": "Explores the social hierarchies and marriage customs of Regency England."
+    },
+    {
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "year": 1811,
+      "century": 19,
+      "location": {
+        "name": "Devon, England",
+        "coordinates": [50.7156, -3.5309],
+        "type": "primary"
+      },
+      "summary": "Two sisters with contrasting temperaments navigate love and loss.",
+      "historical_context": "Austen's first published novel examining emotion versus reason in Regency society."
+    },
+    {
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "year": 1861,
+      "century": 19,
+      "location": {
+        "name": "Kent and London, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "Pip's journey from humble blacksmith's apprentice to gentleman reveals the corruption of wealth and class.",
+      "historical_context": "Dickens' critique of Victorian social mobility and industrial capitalism."
+    },
+    {
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "year": 1850,
+      "century": 19,
+      "location": {
+        "name": "London and Kent, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A young man's bildungsroman through Victorian England's changing social landscape.",
+      "historical_context": "Dickens' most autobiographical novel, reflecting his own childhood experiences."
+    },
+    {
+      "title": "Oliver Twist",
+      "author": "Charles Dickens",
+      "year": 1838,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "An orphan boy exposes the harsh realities of workhouses and criminal underworld.",
+      "historical_context": "Dickens' social reform novel highlighting poverty and child exploitation."
+    },
+    {
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "year": 1859,
+      "century": 19,
+      "location": {
+        "name": "London and Paris",
+        "coordinates": [48.8566, 2.3522],
+        "type": "primary"
+      },
+      "summary": "Love and sacrifice during the French Revolution's reign of terror.",
+      "historical_context": "Dickens' historical novel examining revolution, sacrifice, and redemption."
+    },
+    {
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "year": 1872,
+      "century": 19,
+      "location": {
+        "name": "Midlands, England",
+        "coordinates": [52.4797, -1.8951],
+        "type": "primary"
+      },
+      "summary": "Interconnected lives in a provincial English town reveal universal human struggles.",
+      "historical_context": "Eliot's masterpiece of psychological realism in Victorian England."
+    },
+    {
+      "title": "Silas Marner",
+      "author": "George Eliot",
+      "year": 1861,
+      "century": 19,
+      "location": {
+        "name": "Raveloe, England",
+        "coordinates": [52.4797, -1.8951],
+        "type": "primary"
+      },
+      "summary": "A miserly weaver finds redemption through love and community.",
+      "historical_context": "Explores themes of faith, community, and social change in rural England."
+    },
+    {
+      "title": "Tess of the d'Urbervilles",
+      "author": "Thomas Hardy",
+      "year": 1891,
+      "century": 19,
+      "location": {
+        "name": "Wessex (Dorset), England",
+        "coordinates": [50.7156, -2.4389],
+        "type": "primary"
+      },
+      "summary": "A pure woman's tragic fate in the hands of social hypocrisy and male dominance.",
+      "historical_context": "Hardy's critique of Victorian moral double standards and social injustice."
+    },
+    {
+      "title": "The Mayor of Casterbridge",
+      "author": "Thomas Hardy",
+      "year": 1886,
+      "century": 19,
+      "location": {
+        "name": "Casterbridge (Dorchester), England",
+        "coordinates": [50.7156, -2.4389],
+        "type": "primary"
+      },
+      "summary": "A man's past actions return to destroy his respectable life.",
+      "historical_context": "Hardy's exploration of character, fate, and social change in rural England."
+    },
+    {
+      "title": "Jude the Obscure",
+      "author": "Thomas Hardy",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "Wessex, England",
+        "coordinates": [50.7156, -2.4389],
+        "type": "primary"
+      },
+      "summary": "A working-class man's frustrated ambitions and unconventional relationships.",
+      "historical_context": "Hardy's controversial final novel challenged marriage and educational conventions."
+    },
+    {
+      "title": "Far from the Madding Crowd",
+      "author": "Thomas Hardy",
+      "year": 1874,
+      "century": 19,
+      "location": {
+        "name": "Wessex, England",
+        "coordinates": [50.7156, -2.4389],
+        "type": "primary"
+      },
+      "summary": "Bathsheba Everdene's independence and romantic entanglements in rural England.",
+      "historical_context": "Hardy's pastoral novel examining rural life and women's autonomy."
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "year": 1818,
+      "century": 19,
+      "location": {
+        "name": "Geneva and Arctic",
+        "coordinates": [46.2044, 6.1432],
+        "type": "primary"
+      },
+      "summary": "A scientist's creation of artificial life leads to tragedy and moral questions.",
+      "historical_context": "Gothic novel exploring scientific ethics and human nature during the Industrial Revolution."
+    },
+    {
+      "title": "Dr. Jekyll and Mr. Hyde",
+      "author": "Robert Louis Stevenson",
+      "year": 1886,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A respected doctor's experiments reveal the duality of human nature.",
+      "historical_context": "Victorian exploration of moral psychology and urban anxiety."
+    },
+    {
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "year": 1883,
+      "century": 19,
+      "location": {
+        "name": "Caribbean Island",
+        "coordinates": [18.2208, -66.5901],
+        "type": "primary"
+      },
+      "summary": "Young Jim Hawkins searches for pirate treasure on a mysterious island.",
+      "historical_context": "Classic adventure novel capturing the golden age of piracy."
+    },
+    {
+      "title": "Kidnapped",
+      "author": "Robert Louis Stevenson",
+      "year": 1886,
+      "century": 19,
+      "location": {
+        "name": "Scotland",
+        "coordinates": [56.4907, -4.2026],
+        "type": "primary"
+      },
+      "summary": "David Balfour's adventures in 18th-century Scotland after being betrayed by his uncle.",
+      "historical_context": "Historical adventure set in post-Jacobite Scotland."
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "year": 1897,
+      "century": 19,
+      "location": {
+        "name": "Transylvania and London",
+        "coordinates": [46.0000, 25.0000],
+        "type": "primary"
+      },
+      "summary": "Count Dracula's invasion of England and the fight to stop him.",
+      "historical_context": "Gothic horror novel reflecting Victorian anxieties about sexuality and foreign influence."
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": 1890,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A young man's portrait ages while he remains eternally youthful and morally corrupt.",
+      "historical_context": "Wilde's decadent novel exploring art, beauty, and moral corruption in Victorian society."
+    },
+    {
+      "title": "The Importance of Being Earnest",
+      "author": "Oscar Wilde",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "London and Hertfordshire",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "Witty comedy of manners about mistaken identities and social pretensions.",
+      "historical_context": "Wilde's satirical masterpiece mocking Victorian social conventions."
+    },
+    {
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "year": 1899,
+      "century": 19,
+      "location": {
+        "name": "Congo River, Africa",
+        "coordinates": [-4.0383, 21.7587],
+        "type": "primary"
+      },
+      "summary": "Marlow's journey into the African interior reveals the horror of imperialism.",
+      "historical_context": "Conrad's critique of European colonialism and its psychological effects."
+    },
+    {
+      "title": "Lord Jim",
+      "author": "Joseph Conrad",
+      "year": 1900,
+      "century": 20,
+      "location": {
+        "name": "Southeast Asia",
+        "coordinates": [4.2105, 101.9758],
+        "type": "primary"
+      },
+      "summary": "A young officer seeks redemption after abandoning his ship.",
+      "historical_context": "Conrad's exploration of honor, guilt, and colonialism in the East Indies."
+    },
+    {
+      "title": "The Turn of the Screw",
+      "author": "Henry James",
+      "year": 1898,
+      "century": 19,
+      "location": {
+        "name": "English Country Estate",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A governess encounters supernatural threats to the children in her care.",
+      "historical_context": "James' psychological ghost story exploring perception and reality."
+    },
+    {
+      "title": "The Portrait of a Lady",
+      "author": "Henry James",
+      "year": 1881,
+      "century": 19,
+      "location": {
+        "name": "England and Italy",
+        "coordinates": [43.7696, 11.2558],
+        "type": "primary"
+      },
+      "summary": "Isabel Archer's quest for independence leads to entrapment in a loveless marriage.",
+      "historical_context": "James' international novel examining American innocence versus European sophistication."
+    },
+    {
+      "title": "The Wings of the Dove",
+      "author": "Henry James",
+      "year": 1902,
+      "century": 20,
+      "location": {
+        "name": "London and Venice",
+        "coordinates": [45.4408, 12.3155],
+        "type": "primary"
+      },
+      "summary": "Love, deception, and moral complexity in a triangle involving a dying heiress.",
+      "historical_context": "James' late masterpiece exploring the psychology of relationships and manipulation."
+    },
+    {
+      "title": "The Ambassadors",
+      "author": "Henry James",
+      "year": 1903,
+      "century": 20,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522],
+        "type": "primary"
+      },
+      "summary": "Lambert Strether's mission to Paris transforms his understanding of life and culture.",
+      "historical_context": "James' exploration of American versus European values and personal awakening."
+    },
+    {
+      "title": "Kim",
+      "author": "Rudyard Kipling",
+      "year": 1901,
+      "century": 20,
+      "location": {
+        "name": "India",
+        "coordinates": [20.5937, 78.9629],
+        "type": "primary"
+      },
+      "summary": "An orphaned Irish boy becomes a spy in British India's Great Game.",
+      "historical_context": "Kipling's novel of imperial adventure and cultural collision in colonial India."
+    },
+    {
+      "title": "The Jungle Book",
+      "author": "Rudyard Kipling",
+      "year": 1894,
+      "century": 19,
+      "location": {
+        "name": "Indian Jungle",
+        "coordinates": [20.5937, 78.9629],
+        "type": "primary"
+      },
+      "summary": "Mowgli's adventures growing up among wolves in the Indian jungle.",
+      "historical_context": "Kipling's tales of colonial India blending adventure with moral instruction."
+    },
+    {
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "author": "Robert Louis Stevenson",
+      "year": 1886,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A respected doctor's experiments with his dark side have terrifying consequences.",
+      "historical_context": "Victorian Gothic exploring the duality of human nature and urban alienation."
+    },
+    {
+      "title": "The Time Machine",
+      "author": "H.G. Wells",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "London and Far Future",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A Victorian inventor travels to the year 802,701 and discovers humanity's disturbing future.",
+      "historical_context": "Wells' scientific romance exploring class division and evolutionary theory."
+    },
+    {
+      "title": "The War of the Worlds",
+      "author": "H.G. Wells",
+      "year": 1898,
+      "century": 19,
+      "location": {
+        "name": "Surrey, England",
+        "coordinates": [51.2362, -0.5704],
+        "type": "primary"
+      },
+      "summary": "Martians invade Earth with devastating technology, challenging human supremacy.",
+      "historical_context": "Wells' invasion narrative reflecting imperial anxieties and scientific progress."
+    },
+    {
+      "title": "The Invisible Man",
+      "author": "H.G. Wells",
+      "year": 1897,
+      "century": 19,
+      "location": {
+        "name": "Sussex, England",
+        "coordinates": [50.9097, -0.2649],
+        "type": "primary"
+      },
+      "summary": "A scientist's invisibility experiment leads to madness and terror.",
+      "historical_context": "Wells' science fiction exploring the dangers of unchecked scientific ambition."
+    },
+    {
+      "title": "The Island of Dr. Moreau",
+      "author": "H.G. Wells",
+      "year": 1896,
+      "century": 19,
+      "location": {
+        "name": "Pacific Island",
+        "coordinates": [-8.7832, 125.7275],
+        "type": "primary"
+      },
+      "summary": "A castaway discovers a mad scientist's experiments transforming animals into humans.",
+      "historical_context": "Wells' horror exploring evolution, vivisection, and the boundaries of humanity."
+    },
+    {
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "year": 1892,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "The brilliant detective and his loyal companion solve crimes in Victorian London.",
+      "historical_context": "Doyle's detective fiction reflecting urban anxieties and scientific rationalism."
+    },
+    {
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "year": 1902,
+      "century": 20,
+      "location": {
+        "name": "Dartmoor, England",
+        "coordinates": [50.5719, -3.9581],
+        "type": "primary"
+      },
+      "summary": "Holmes investigates a supernatural curse threatening the Baskerville family.",
+      "historical_context": "Gothic mystery combining detective fiction with supernatural elements."
+    },
+    {
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "year": 1865,
+      "century": 19,
+      "location": {
+        "name": "Wonderland (Fictional)",
+        "coordinates": [51.7520, -1.2577],
+        "type": "publication"
+      },
+      "summary": "Alice falls down a rabbit hole into a nonsensical world of talking animals and absurd logic.",
+      "historical_context": "Carroll's children's literature challenging Victorian rationality through fantasy and wordplay."
+    },
+    {
+      "title": "Through the Looking-Glass",
+      "author": "Lewis Carroll",
+      "year": 1871,
+      "century": 19,
+      "location": {
+        "name": "Looking-Glass World (Fictional)",
+        "coordinates": [51.7520, -1.2577],
+        "type": "publication"
+      },
+      "summary": "Alice enters a mirror world where everything is reversed and logic inverted.",
+      "historical_context": "Carroll's sequel exploring themes of growing up and mathematical concepts."
+    },
+    {
+      "title": "The Wind in the Willows",
+      "author": "Kenneth Grahame",
+      "year": 1908,
+      "century": 20,
+      "location": {
+        "name": "English Countryside",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "Animal friends Mole, Rat, Badger, and Toad have adventures along the riverbank.",
+      "historical_context": "Grahame's children's classic celebrating rural England and friendship."
+    },
+    {
+      "title": "Peter Pan",
+      "author": "J.M. Barrie",
+      "year": 1904,
+      "century": 20,
+      "location": {
+        "name": "Neverland (Fictional)",
+        "coordinates": [55.9533, -3.1883],
+        "type": "publication"
+      },
+      "summary": "The boy who wouldn't grow up takes the Darling children to his magical island.",
+      "historical_context": "Barrie's fantasy exploring childhood, imagination, and the fear of growing up."
+    },
+    {
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "year": 1911,
+      "century": 20,
+      "location": {
+        "name": "Yorkshire, England",
+        "coordinates": [54.0000, -1.5400],
+        "type": "primary"
+      },
+      "summary": "A spoiled girl discovers healing and friendship in a hidden garden.",
+      "historical_context": "Burnett's children's novel exploring themes of renewal and the healing power of nature."
+    },
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "year": 1868,
+      "century": 19,
+      "location": {
+        "name": "Massachusetts, USA",
+        "coordinates": [42.3601, -71.0589],
+        "type": "primary"
+      },
+      "summary": "The March sisters grow up during the American Civil War era.",
+      "historical_context": "Alcott's coming-of-age story reflecting women's changing roles in 19th-century America."
+    },
+    {
+      "title": "Anne of Green Gables",
+      "author": "L.M. Montgomery",
+      "year": 1908,
+      "century": 20,
+      "location": {
+        "name": "Prince Edward Island, Canada",
+        "coordinates": [46.5107, -63.4168],
+        "type": "primary"
+      },
+      "summary": "An orphaned girl with a vivid imagination finds a home with elderly siblings.",
+      "historical_context": "Montgomery's beloved children's novel celebrating rural Canadian life and childhood."
+    },
+    {
+      "title": "The Call of the Wild",
+      "author": "Jack London",
+      "year": 1903,
+      "century": 20,
+      "location": {
+        "name": "Alaska and Yukon",
+        "coordinates": [64.0685, -152.2782],
+        "type": "primary"
+      },
+      "summary": "Buck, a domesticated dog, answers the call of the wilderness during the Gold Rush.",
+      "historical_context": "London's adventure novel reflecting the harsh realities of the Klondike Gold Rush."
+    },
+    {
+      "title": "White Fang",
+      "author": "Jack London",
+      "year": 1906,
+      "century": 20,
+      "location": {
+        "name": "Alaska and Yukon",
+        "coordinates": [64.0685, -152.2782],
+        "type": "primary"
+      },
+      "summary": "A wolf-dog's journey from the wild to domestication explores nature versus nurture.",
+      "historical_context": "London's companion to The Call of the Wild, examining civilization's impact on wild nature."
+    },
+    {
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "year": 1876,
+      "century": 19,
+      "location": {
+        "name": "Missouri, USA",
+        "coordinates": [39.1031, -94.5826],
+        "type": "primary"
+      },
+      "summary": "A mischievous boy's adventures along the Mississippi River capture American childhood.",
+      "historical_context": "Twain's nostalgic portrayal of antebellum America and childhood innocence."
+    },
+    {
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "year": 1884,
+      "century": 19,
+      "location": {
+        "name": "Mississippi River, USA",
+        "coordinates": [39.1031, -94.5826],
+        "type": "primary"
+      },
+      "summary": "Huck's journey down the Mississippi with escaped slave Jim explores freedom and friendship.",
+      "historical_context": "Twain's masterpiece confronting racism and moral growth in post-Civil War America."
+    },
+    {
+      "title": "The Prince and the Pauper",
+      "author": "Mark Twain",
+      "year": 1881,
+      "century": 19,
+      "location": {
+        "name": "Tudor England",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "A prince and a poor boy switch places, learning about class and identity.",
+      "historical_context": "Twain's historical fiction exploring social inequality and justice."
+    },
+    {
+      "title": "A Connecticut Yankee in King Arthur's Court",
+      "author": "Mark Twain",
+      "year": 1889,
+      "century": 19,
+      "location": {
+        "name": "Camelot (Fictional)",
+        "coordinates": [39.1031, -94.5826],
+        "type": "publication"
+      },
+      "summary": "A modern American transported to medieval England brings technology and democracy.",
+      "historical_context": "Twain's satire comparing American progress with medieval superstition."
+    }
+  ]
+}

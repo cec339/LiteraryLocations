@@ -227,11 +227,11 @@
     },
     {
       "title": "The Tin Drum",
-      "author": "G\u00fcnter Grass",
+      "author": "Günter Grass",
       "year": 1959,
       "century": 20,
       "location": {
-        "name": "Danzig/Gda\u0144sk",
+        "name": "Danzig/Gdańsk",
         "coordinates": [
           54.352,
           18.6466
@@ -241,8 +241,8 @@
       "historical_context": "Written in post-war Germany, examining the Nazi period through magical realism."
     },
     {
-      "title": "The Recognition of \u015aakuntal\u0101",
-      "author": "K\u0101lid\u0101sa",
+      "title": "The Recognition of Śakuntalā",
+      "author": "Kālidāsa",
       "year": 400,
       "century": 5,
       "location": {
@@ -342,8 +342,8 @@
           139.6503
         ]
       },
-      "summary": "A championship Go match between an old master and a modern challenger.",
-      "historical_context": "Based on a real 1938 match, symbolizing the clash between tradition and modernity in Japan."
+      "summary": "Reporter surrogate chronicles the 1938 Go match where aging Master Shusai faces modern challenger Otake, symbolizing shifting Japan.",
+      "historical_context": "Kawabata’s 1954 novel reflected traditions yielding to modern era after WWII."
     },
     {
       "title": "Austerlitz",
@@ -357,8 +357,8 @@
           -0.1278
         ]
       },
-      "summary": "An architectural historian discovers his Jewish origins and childhood escape from Nazi Germany.",
-      "historical_context": "Written at the turn of the millennium, examining Holocaust memory and European history."
+      "summary": "Architectural historian Jacques Austerlitz uncovers his Kindertransport past and lost parents through wandering European stations.",
+      "historical_context": "Sebald’s 2001 novel blended essay and fiction, meditating on Holocaust memory at the millennium."
     },
     {
       "title": "The Leopard",
@@ -372,12 +372,12 @@
           14.0154
         ]
       },
-      "summary": "A Sicilian aristocrat witnesses the decline of his class during Italian unification.",
-      "historical_context": "Set during the Risorgimento, examining social change in 19th century Italy."
+      "summary": "Prince Fabrizio of Salina witnesses Sicily’s aristocracy fade during Italy’s Risorgimento, accepting change to preserve appearance.",
+      "historical_context": "Written 1958 from memoirs of decline, Lampedusa portrayed 1860s unification upheaval."
     },
     {
       "title": "The Tale of Kieu",
-      "author": "Nguy\u1ec5n Du",
+      "author": "Nguyễn Du",
       "year": 1820,
       "century": 19,
       "location": {
@@ -387,11 +387,11 @@
           105.8542
         ]
       },
-      "summary": "A virtuous woman's sacrifices and suffering to save her family, written in verse.",
-      "historical_context": "Written during the Nguyen dynasty, reflecting Vietnamese cultural values and Chinese influence."
+      "summary": "Virtuous Kieu sells herself into bondage to save her family, enduring exile before karmic reunion with her beloved Kim.",
+      "historical_context": "Nguyễn Du’s 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen‑dynasty Vietnam."
     },
     {
-      "title": "Pedro P\u00e1ramo",
+      "title": "Pedro Páramo",
       "author": "Juan Rulfo",
       "year": 1955,
       "century": 20,
@@ -402,8 +402,8 @@
           -103.7555
         ]
       },
-      "summary": "A man's search for his father in a ghost town populated by spirits of the dead.",
-      "historical_context": "Written after the Mexican Revolution, examining power, death, and Mexican identity."
+      "summary": "Juan Preciado arrives in Comala to meet his father but finds a ghost town haunted by the patriarch’s sins.",
+      "historical_context": "Rulfo’s 1955 work pioneered Latin American surrealism amid Mexico’s post‑Revolution disillusionment."
     },
     {
       "title": "The Complete Stories of Flannery O'Connor",
@@ -417,8 +417,8 @@
           -82.9001
         ]
       },
-      "summary": "Collection of stories exploring faith, morality, and the grotesque in the American South.",
-      "historical_context": "Written during the Civil Rights era, examining religious faith and racial tensions."
+      "summary": "Grotesque Southerners confront grace, violence and revelation in short tales blending dark humor with Catholic theology.",
+      "historical_context": "Published 1971 after O’Connor’s death, the collection spanned 1940s‑60s Georgia amid Civil Rights tensions."
     },
     {
       "title": "The Book of Disquiet",
@@ -432,8 +432,8 @@
           -9.1393
         ]
       },
-      "summary": "The fragmentary thoughts and observations of Bernardo Soares, a bookkeeper in Lisbon.",
-      "historical_context": "Written during Portugal's transition from monarchy to dictatorship, exploring modern alienation."
+      "summary": "Lisbon clerk Bernardo Soares records fragmentary reflections on alienation, dreams and the futility of identity.",
+      "historical_context": "Pessoa wrote the texts 1910s‑30s; posthumously assembled in 1982 during Portugal’s end‑of‑dictatorship transition."
     },
     {
       "title": "Blood Meridian",
@@ -447,8 +447,8 @@
           -106.485
         ]
       },
-      "summary": "A violent journey through the American-Mexican borderlands in the 1850s.",
-      "historical_context": "Based on historical events, examining the violence of American westward expansion."
+      "summary": "A nameless Kid joins Glanton’s scalp‑hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden’s nihilistic gaze.",
+      "historical_context": "McCarthy’s 1985 novel re‑examined Manifest Destiny through gothic violence in the American Southwest."
     },
     {
       "title": "The Mahabharata",
@@ -462,8 +462,8 @@
           77.209
         ]
       },
-      "summary": "Epic tale of the Kurukshetra War and its aftermath, exploring dharma and moral duty.",
-      "historical_context": "Composed over centuries, fundamental to Hindu philosophy and Indian culture."
+      "summary": "Rival cousins battle in the Kurukshetra War while divine sermons like the Bhagavad Gita explore duty, karma and cosmic order.",
+      "historical_context": "Compiled between 400 BCE and 400 CE, this Sanskrit epic shaped Hindu philosophy and subcontinental identity."
     },
     {
       "title": "The Possessed",
@@ -477,8 +477,8 @@
           44.002
         ]
       },
-      "summary": "A group of revolutionaries bring chaos to a small Russian town.",
-      "historical_context": "Written in response to real revolutionary movements in Russia, examining nihilism and political radicalism."
+      "summary": "Revolutionary agitators descend on a provincial Russian town, exploiting nihilism and provoking murder in ideological chaos.",
+      "historical_context": "Dostoevsky’s 1872 novel criticized radical politics emerging in Tsarist Russia after the 1860s reforms."
     },
     {
       "title": "The Makioka Sisters",
@@ -492,8 +492,8 @@
           135.5023
         ]
       },
-      "summary": "The decline of an aristocratic Osaka family through the lives of four sisters.",
-      "historical_context": "Set before World War II, depicting the conflict between tradition and modernity in Japan."
+      "summary": "Four Osaka sisters navigate arranged marriages and Western influence as their aristocratic family declines on the eve of WWII.",
+      "historical_context": "Tanizaki serialized the novel 1943‑48, recording Japan’s shift from tradition to modernity before wartime defeat."
     },
     {
       "title": "If on a winter's night a traveler",
@@ -507,8 +507,8 @@
           9.19
         ]
       },
-      "summary": "A novel about reading novels, where the reader becomes a character in the story.",
-      "historical_context": "Written during postmodernism's height, experimenting with narrative structure and reader involvement."
+      "summary": "A Reader tries to finish a novel that keeps restarting in different genres, collapsing boundaries between book and audience.",
+      "historical_context": "Calvino’s 1979 postmodern experiment reflected late‑20th‑century skepticism about narrative authority."
     },
     {
       "title": "The Castle",
@@ -677,7 +677,7 @@
     },
     {
       "title": "Blindness",
-      "author": "Jos\u00e9 Saramago",
+      "author": "José Saramago",
       "year": 1995,
       "century": 20,
       "location": {
@@ -756,7 +756,7 @@
       "year": 1010,
       "century": 11,
       "location": {
-        "name": "Heian-ky\u014d (Kyoto), Japan",
+        "name": "Heian-kyō (Kyoto), Japan",
         "coordinates": [
           35.0116,
           135.7681
@@ -767,7 +767,7 @@
     },
     {
       "title": "Berlin Alexanderplatz",
-      "author": "Alfred D\u00f6blin",
+      "author": "Alfred Döblin",
       "year": 1929,
       "century": 20,
       "location": {
@@ -797,11 +797,11 @@
     },
     {
       "title": "The Bridge on the Drina",
-      "author": "Ivo Andri\u0107",
+      "author": "Ivo Andrić",
       "year": 1945,
       "century": 20,
       "location": {
-        "name": "Vi\u0161egrad, Bosnia",
+        "name": "Višegrad, Bosnia",
         "coordinates": [
           43.7833,
           19.2833
@@ -822,8 +822,8 @@
           -73.135
         ]
       },
-      "summary": "A mysterious millionaire's obsessive quest for his lost love amid the decadence of the Jazz Age.",
-      "historical_context": "Written during the Roaring Twenties, examining the American Dream and social excess."
+      "summary": "Mysterious millionaire Jay Gatsby throws lavish parties to win back Daisy Buchanan, exposing the hollowness of the Jazz Age dream.",
+      "historical_context": "Fitzgerald’s 1925 novel captured Roaring Twenties excess before the Great Depression."
     },
     {
       "title": "Moby-Dick",
@@ -831,14 +831,14 @@
       "year": 1851,
       "century": 19,
       "location": {
-        "name": "Pacific Ocean",
+        "name": "Atlantic Ocean",
         "coordinates": [
-          0.0,
-          -160.0
+          35.0,
+          -40.0
         ]
       },
-      "summary": "Captain Ahab's obsessive quest for revenge against the white whale Moby Dick.",
-      "historical_context": "Written during America's whaling era, exploring themes of obsession and nature."
+      "summary": "Obsessive Captain Ahab pursues the white whale across the globe, while Ishmael’s narrative probes fate, religion and the mysteries of the sea.",
+      "historical_context": "Melville’s 1851 epic reflected America’s whaling era and antebellum anxieties about expansion and destiny."
     },
     {
       "title": "Pride and Prejudice",
@@ -857,7 +857,7 @@
     },
     {
       "title": "One Hundred Years of Solitude",
-      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "author": "Gabriel García Márquez",
       "year": 1967,
       "century": 20,
       "location": {
@@ -867,8 +867,8 @@
           -74.1861
         ]
       },
-      "summary": "The multi-generational saga of the Buend\u00eda family in the magical town of Macondo.",
-      "historical_context": "Written during Latin America's Boom period, incorporating magical realism to explore Colombian history."
+      "summary": "The Buendía family’s generations in Macondo witness magical plagues, wars and cyclical fate, blending myth and Colombian history.",
+      "historical_context": "García Márquez’s 1967 novel spearheaded Latin American magical realism during regional social upheavals."
     },
     {
       "title": "The Tale of Genji",
@@ -876,7 +876,7 @@
       "year": 1010,
       "century": 11,
       "location": {
-        "name": "Heian-ky\u014d (Kyoto), Japan",
+        "name": "Heian-kyō (Kyoto), Japan",
         "coordinates": [
           35.0116,
           135.7681
@@ -1062,8 +1062,8 @@
           -90.5069
         ]
       },
-      "summary": "The creation myth and epic narratives of the K'iche' Maya people, describing the origins of the world and human beings.",
-      "historical_context": "Originally an oral tradition, transcribed in the mid-16th century following Spanish colonization."
+      "summary": "Mayan creation myth recounts hero twins Hunahpú and Xbalanqué, gods, floods and the founding of the K’iche’ people.",
+      "historical_context": "Transcribed in the 16th century from oral tradition, preserving pre‑Columbian Mesoamerican cosmology after Spanish conquest."
     },
     {
       "title": "Analects",
@@ -1272,7 +1272,7 @@
           29.5
         ]
       },
-      "summary": "A story of a sailor\u2019s miraculous survival after being shipwrecked and his encounter with a divine serpent.",
+      "summary": "A story of a sailor’s miraculous survival after being shipwrecked and his encounter with a divine serpent.",
       "historical_context": "An enduring narrative from the 10th century BCE of ancient Egyptian maritime lore."
     },
     {
@@ -1423,7 +1423,7 @@
         ]
       },
       "summary": "A controversial account of the inner workings of the Byzantine Empire, written in a caustic tone.",
-      "historical_context": "An insider\u2019s chronicle from the 6th century CE that paints an unflattering picture of the regime."
+      "historical_context": "An insider’s chronicle from the 6th century CE that paints an unflattering picture of the regime."
     },
     {
       "title": "The Quran",
@@ -1437,8 +1437,8 @@
           39.8579
         ]
       },
-      "summary": "The central religious text of Islam, believed to be the word of God as revealed to Prophet Muhammad.",
-      "historical_context": "A foundational text of Islamic faith from the 7th century CE."
+      "summary": "Revelations received by the Prophet Muhammad articulate monotheism, law and moral guidance central to Islam.",
+      "historical_context": "Recorded in 7th‑century Arabia, the Arabic text unified early Muslims and underpins Islamic civilization."
     },
     {
       "title": "Nihon Shoki",
@@ -1501,8 +1501,8 @@
       "historical_context": "Written as a parody of chivalric romances, marking the birth of the modern novel."
     },
     {
-      "title": "The Tale of Ki\u1ec1u",
-      "author": "Nguy\u1ec5n Du",
+      "title": "The Tale of Kiều",
+      "author": "Nguyễn Du",
       "year": 1820,
       "century": 19,
       "location": {
@@ -1532,11 +1532,11 @@
     },
     {
       "title": "The Pillow Book",
-      "author": "Sei Sh\u014dnagon",
+      "author": "Sei Shōnagon",
       "year": 1002,
       "century": 11,
       "location": {
-        "name": "Heian-ky\u014d (Kyoto), Japan",
+        "name": "Heian-kyō (Kyoto), Japan",
         "coordinates": [
           35.0116,
           135.7681
@@ -2162,7 +2162,7 @@
     },
     {
       "title": "Chronicle of a Death Foretold",
-      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "author": "Gabriel García Márquez",
       "year": 1981,
       "century": 20,
       "location": {
@@ -2247,8 +2247,8 @@
           12.4964
         ]
       },
-      "summary": "The absurdist tale of Captain John Yossarian trying to survive World War II.",
-      "historical_context": "Written in the post-war era, satirizing military bureaucracy and war."
+      "summary": "Bomber pilot Yossarian tries to stay alive amid circular bureaucratic logic—‘Catch‑22’—on a World War II Mediterranean airbase.",
+      "historical_context": "Joseph Heller’s 1961 satire captured post‑war disillusionment and Cold War absurdities."
     },
     {
       "title": "The Wind-Up Bird Chronicle",
@@ -2312,7 +2312,7 @@
     },
     {
       "title": "The Lusiads",
-      "author": "Lu\u00eds de Cam\u00f5es",
+      "author": "Luís de Camões",
       "year": 1572,
       "century": 16,
       "location": {
@@ -2492,7 +2492,7 @@
     },
     {
       "title": "The Life of Milarepa",
-      "author": "Tsangny\u00f6n Heruka",
+      "author": "Tsangnyön Heruka",
       "year": 1488,
       "century": 15,
       "location": {
@@ -2582,7 +2582,7 @@
     },
     {
       "title": "Gargantua and Pantagruel",
-      "author": "Fran\u00e7ois Rabelais",
+      "author": "François Rabelais",
       "year": 1532,
       "century": 16,
       "location": {
@@ -2807,7 +2807,7 @@
     },
     {
       "title": "Independent People",
-      "author": "Halld\u00f3r Laxness",
+      "author": "Halldór Laxness",
       "year": 1934,
       "century": 20,
       "location": {
@@ -2862,8 +2862,8 @@
           2.3522
         ]
       },
-      "summary": "A massive novel exploring memory, time, and French society through the narrator's recollections.",
-      "historical_context": "Written during the Belle Époque, examining the decline of aristocratic French society."
+      "summary": "Marcel, triggered by a madeleine’s taste, reconstructs loves, art and decadence in fin‑de‑siècle France across seven volumes.",
+      "historical_context": "Proust’s 1913‑27 masterpiece chronicled Belle Époque society dissolving before World War I."
     },
     {
       "title": "Ulysses",
@@ -2877,8 +2877,8 @@
           -6.2603
         ]
       },
-      "summary": "A modernist novel following Leopold Bloom through a single day in Dublin, paralleling Homer's Odyssey.",
-      "historical_context": "Written during the Irish struggle for independence, pioneering stream-of-consciousness narrative."
+      "summary": "Leopold Bloom’s single day in Dublin mirrors Homer’s Odyssey through stream‑of‑consciousness, parody and linguistic experimentation.",
+      "historical_context": "Joyce’s 1922 modernist landmark challenged censorship and celebrated ordinary life amid Ireland’s push for independence."
     },
     {
       "title": "Moby-Dick",
@@ -2892,8 +2892,8 @@
           -40.0
         ]
       },
-      "summary": "Captain Ahab's obsessive quest for revenge against the white whale that destroyed his leg.",
-      "historical_context": "Written during America's whaling era, exploring themes of obsession, fate, and man versus nature."
+      "summary": "Obsessive Captain Ahab pursues the white whale across the globe, while Ishmael’s narrative probes fate, religion and the mysteries of the sea.",
+      "historical_context": "Melville’s 1851 epic reflected America’s whaling era and antebellum anxieties about expansion and destiny."
     },
     {
       "title": "Hamlet",
@@ -3102,8 +3102,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Maggie Tulliver’s fierce intellect and yearning for freedom collide with Victorian social conventions as her family’s mill is lost in a lawsuit and her forbidden love brings tragedy.",
+      "historical_context": "Published in 1860, Eliot critiques gender roles and industrial‑era capitalism in provincial England."
     },
     {
       "title": "Silas Marner",
@@ -3117,8 +3117,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A reclusive linen‑weaver, robbed of his gold, finds redemption when an orphaned child wanders into his cottage and transforms his life and standing in rural Raveloe.",
+      "historical_context": "First issued in 1861 amid Victorian debates over religion and community, the novel endorses human connection over material wealth."
     },
     {
       "title": "The Scarlet Letter",
@@ -3132,8 +3132,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "In Puritan Boston, Hester Prynne bears an illegitimate child and is forced to wear a scarlet “A,” while the hidden guilt of her lover and the vengeance of her husband unravel around her.",
+      "historical_context": "Hawthorne’s 1850 classic reflects antebellum America’s fascination with its Puritan ancestry and questions of sin and identity."
     },
     {
       "title": "The House of the Seven Gables",
@@ -3147,8 +3147,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Hawthorne’s Gothic tale traces an old New England family cursed by ancestral sin, as the crumbling Pyncheon mansion becomes a stage for guilt, greed, and gradual renewal.",
+      "historical_context": "Written in 1851, the novel channels Gothic revival and contemporary interest in ancestral guilt during America’s expansionist era."
     },
     {
       "title": "Sense and Sensibility",
@@ -3162,8 +3162,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Sisters Elinor and Marianne Dashwood navigate love, money, and heartbreak, their contrasting temperaments—pragmatic sense and impetuous sensibility—testing 18th‑century notions of female virtue.",
+      "historical_context": "Austen’s debut (1811) satirizes Regency marriage markets and the legal vulnerability of women’s inheritance."
     },
     {
       "title": "Emma",
@@ -3177,8 +3177,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Self‑assured Emma Woodhouse plays matchmaker in her quiet English village, only to discover that meddling in others’ romances blinds her to her own heart.",
+      "historical_context": "Published in 1815 at the close of the Napoleonic Wars, the book dissects class complacency in rural gentry life."
     },
     {
       "title": "Mansfield Park",
@@ -3192,8 +3192,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Poor relation Fanny Price grows up among wealthy cousins at Mansfield Park, her moral steadiness exposing the vanity and self‑deception of upper‑class Regency life.",
+      "historical_context": "Austen’s 1814 novel engages with themes of empire (slavery in Antigua) and moral education in the Regency period."
     },
     {
       "title": "Northanger Abbey",
@@ -3207,12 +3207,12 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Bookish Catherine Morland, enamored of Gothic novels, visits a grand abbey and learns to separate fanciful terrors from real‑world social intrigues and courtship.",
+      "historical_context": "Though written c. 1798–99 and published posthumously in 1817, it parodies Gothic fiction popular in late‑18th‑century Britain."
     },
     {
       "title": "Wuthering Heights",
-      "author": "Emily Bront\u00eb",
+      "author": "Emily Brontë",
       "year": 1847,
       "century": 19,
       "location": {
@@ -3222,12 +3222,12 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "On the stormy Yorkshire moors, the obsessive bond between Heathcliff and Catherine Earnshaw unleashes generations of passion, cruelty, and revenge.",
+      "historical_context": "Emily Brontë’s 1847 publication challenged Victorian sensibilities with its raw passion and Byronic anti‑hero."
     },
     {
       "title": "Jane Eyre",
-      "author": "Charlotte Bront\u00eb",
+      "author": "Charlotte Brontë",
       "year": 1847,
       "century": 19,
       "location": {
@@ -3237,12 +3237,12 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Orphaned and oppressed, Jane Eyre matures into an independent governess whose love for the brooding Mr. Rochester is tested by a haunting secret in Thornfield Hall.",
+      "historical_context": "Charlotte Brontë’s 1847 bestseller merged Gothic elements with emerging feminist ideas of female autonomy."
     },
     {
       "title": "Villette",
-      "author": "Charlotte Bront\u00eb",
+      "author": "Charlotte Brontë",
       "year": 1853,
       "century": 19,
       "location": {
@@ -3252,12 +3252,12 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Lucy Snowe escapes hardship in England to teach at a Belgian boarding school, confronting loneliness, religious conflict, and an ambiguous romance in a psychologically rich narrative.",
+      "historical_context": "Released in 1853, the novel mirrors Brontë’s own Brussels experience and Victorian anxieties over religion and women’s work."
     },
     {
       "title": "The Tenant of Wildfell Hall",
-      "author": "Anne Bront\u00eb",
+      "author": "Anne Brontë",
       "year": 1848,
       "century": 19,
       "location": {
@@ -3267,11 +3267,11 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "In a bold critique of Victorian patriarchal marriage, Helen Graham flees her abusive, alcoholic husband, earning scandalized whispers when she takes refuge at remote Wildfell Hall.",
+      "historical_context": "Anne Brontë’s 1848 work, considered one of the first feminist novels, critiqued coverture laws and marital inequity."
     },
     {
-      "title": "Les Mis\u00e9rables",
+      "title": "Les Misérables",
       "author": "Victor Hugo",
       "year": 1862,
       "century": 19,
@@ -3282,8 +3282,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Ex‑convict Jean Valjean’s lifelong quest for redemption intersects with revolutionary fervor in 19th‑century Paris, weaving multiple lives into a sweeping moral epic.",
+      "historical_context": "Victor Hugo’s 1862 epic was shaped by 1832 Parisian uprisings and Romantic humanitarian ideals."
     },
     {
       "title": "The Hunchback of Notre-Dame",
@@ -3312,8 +3312,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Unjustly imprisoned sailor Edmond Dantès escapes, uncovers treasure, and returns as the mysterious Count to execute an elaborate, years‑long revenge on his betrayers.",
+      "historical_context": "Serialised 1844‑46, Dumas capitalized on post‑Napoleonic political intrigue and public appetite for adventure."
     },
     {
       "title": "The Three Musketeers",
@@ -3327,8 +3327,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Young d’Artagnan teams with musketeers Athos, Porthos, and Aramis to thwart Cardinal Richelieu’s plots, pledging their famous oath: “All for one, and one for all.”",
+      "historical_context": "Dumas’s 1844 swashbuckler romanticizes 17th‑century French politics during a boom in feuilleton serials."
     },
     {
       "title": "Journey to the Center of the Earth",
@@ -3342,8 +3342,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Professor Lidenbrock, his nephew Axel, and guide Hans descend through an Icelandic volcano into a fantastical subterranean world filled with prehistoric marvels.",
+      "historical_context": "Verne’s 1864 scientific romance reflects mid‑19th‑century fascination with geology and exploration."
     },
     {
       "title": "Twenty Thousand Leagues Under the Seas",
@@ -3357,8 +3357,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Swept aboard Captain Nemo’s submarine Nautilus, Professor Aronnax witnesses undersea wonders and the enigmatic commander’s vendetta against imperial powers.",
+      "historical_context": "Published 1870, the novel imagined advanced technology amid imperial naval rivalries of the Second Industrial Revolution."
     },
     {
       "title": "Around the World in Eighty Days",
@@ -3372,8 +3372,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Imperturbable Englishman Phileas Fogg wagers he can circumnavigate the globe in 80 days, racing against time with loyal valet Passepartout and a detective in pursuit.",
+      "historical_context": "Verne’s 1873 adventure celebrated the era’s new steamship and rail networks that were shrinking the globe."
     },
     {
       "title": "Heart of Darkness",
@@ -3387,8 +3387,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Riverboat captain Marlow journeys up the Congo to find the ivory agent Kurtz, confronting the brutal realities of colonial exploitation and the darkness within the human soul.",
+      "historical_context": "Joseph Conrad’s 1899 novella drew on his 1890 Congo River voyage and exposed the brutality of Belgian colonial rule."
     },
     {
       "title": "Lord Jim",
@@ -3402,8 +3402,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Haunted by a single act of cowardice at sea, idealistic seaman Jim seeks redemption in the Malay archipelago, only to face another fateful test of honor.",
+      "historical_context": "Serialised 1899‑1900, the story interrogated honor and empire in the age of high imperialism."
     },
     {
       "title": "Nostromo",
@@ -3417,12 +3417,12 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "In a fictional South American republic, silver mine politics entangle idealists, revolutionaries and the incorruptible stevedore Nostromo, exposing the corrosive lure of wealth.",
+      "historical_context": "Published in 1904 against the backdrop of European imperial ventures, Conrad probes capitalism and colonial exploitation in Latin America."
     },
     {
       "title": "Love in the Time of Cholera",
-      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "author": "Gabriel García Márquez",
       "year": 1985,
       "century": 20,
       "location": {
@@ -3432,8 +3432,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Lifelong lovers Florentino Ariza and Fermina Daza reunite in old age after decades of marriages, affairs and a Caribbean city's recurring cholera epidemics.",
+      "historical_context": "Written in 1985, García Márquez evokes late‑19th‑ and early‑20th‑century Colombia to explore enduring passion and social change."
     },
     {
       "title": "Brave New World",
@@ -3447,8 +3447,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "In a bio‑engineered future, citizens are conditioned for conformity, while outsider Bernard Marx and savage‑raised John question a society built on pleasure and control.",
+      "historical_context": "Published in 1932 amid rising totalitarianism and industrial mass production, Huxley satirized Fordist consumer culture."
     },
     {
       "title": "1984",
@@ -3462,8 +3462,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "In Oceania’s perpetual war society, low‑level clerk Winston Smith secretly questions the Party and risks everything for forbidden love and memory against Big Brother’s total control.",
+      "historical_context": "Orwell wrote the novel in 1948, distilling experiences with Soviet and Nazi propaganda into a Cold War warning about state surveillance and manipulated truth."
     },
     {
       "title": "Animal Farm",
@@ -3477,8 +3477,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Farm animals overthrow their human owner, only to see the pigs mimic the tyranny they fought, allegorizing Soviet revolution and betrayal.",
+      "historical_context": "This 1945 novella distilled Orwell’s critique of Stalin’s USSR during and after World War II."
     },
     {
       "title": "Fahrenheit 451",
@@ -3492,8 +3492,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Fireman Guy Montag burns books for a living until forbidden literature awakens him to a screen‑addicted, repressive America.",
+      "historical_context": "Bradbury’s 1953 dystopia responded to McCarthy‑era censorship and fears of mass‑media desensitization."
     },
     {
       "title": "East of Eden",
@@ -3507,8 +3507,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Two California families, the Trasks and Hamiltons, replay the Cain‑and‑Abel rivalry across generations in the Salinas Valley.",
+      "historical_context": "Steinbeck’s 1952 epic reframed Biblical morality tales against early‑20th‑century American frontier history."
     },
     {
       "title": "Of Mice and Men",
@@ -3522,8 +3522,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Drifters George and mentally‑disabled Lennie dream of their own farm but collide with hardship and violence on a Depression‑era ranch.",
+      "historical_context": "First published in 1937, the novella spotlighted itinerant labor during America’s Great Depression."
     },
     {
       "title": "To Kill a Mockingbird",
@@ -3537,8 +3537,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Young Scout Finch witnesses her father Atticus defend a Black man falsely accused of rape, challenging entrenched racism in 1930s Alabama.",
+      "historical_context": "Harper Lee’s 1960 novel paralleled the Civil Rights Movement, recalling Jim Crow justice in the Deep South."
     },
     {
       "title": "Catch",
@@ -3552,8 +3552,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A mutated placeholder entry—see Catch‑22—chronicles World War II bomber crews snared in absurd military bureaucracy that defines sanity as grounds for combat duty.",
+      "historical_context": "Joseph Heller coined the paradoxical ‘catch‑22’ in 1961, resonating with post‑war cynicism and Vietnam‑era anti‑authoritarianism."
     },
     {
       "title": "Slaughterhouse",
@@ -3567,8 +3567,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Billy Pilgrim becomes ‘unstuck in time,’ reliving the Dresden firebombing and alien abduction in Vonnegut’s anti‑war fever dream.",
+      "historical_context": "Published in 1969, it blended sci‑fi and memoir to process the trauma of WWII and Vietnam‑era protest."
     },
     {
       "title": "Breakfast of Champions",
@@ -3582,8 +3582,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Vonnegut breaks the fourth wall as car‑salesman Dwayne Hoover descends into madness after reading a sci‑fi writer’s metafiction.",
+      "historical_context": "Released in 1973, it lampooned American consumer culture and questioned free will."
     },
     {
       "title": "Song of Solomon",
@@ -3597,8 +3597,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Milkman Dead embarks on a journey of ancestry and self‑discovery that uncovers violent legacies of slavery and flight.",
+      "historical_context": "Toni Morrison’s 1977 novel celebrated African‑American folklore amid post‑Civil Rights literary renaissance."
     },
     {
       "title": "The Bluest Eye",
@@ -3612,8 +3612,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Pecola Breedlove, a Black girl in 1940s Ohio, longs for blue eyes, exposing internalized racism and abuse.",
+      "historical_context": "Morrison’s 1970 debut confronted colorism and the lingering psychological scars of segregation."
     },
     {
       "title": "As I Lay Dying",
@@ -3627,8 +3627,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "The Bundren family’s comic‑tragic odyssey to bury matriarch Addie reveals fractured interior monologues across rural Mississippi.",
+      "historical_context": "Faulkner’s 1930 stream‑of‑consciousness classic epitomized Southern Modernism during the interwar years."
     },
     {
       "title": "Absalom, Absalom!",
@@ -3642,8 +3642,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Through layered narrators, Quentin Compson reconstructs the rise and ruin of plantation patriarch Thomas Sutpen, probing Southern guilt.",
+      "historical_context": "Published in 1936, Faulkner dissected Civil War legacies and myth‑making in the American South."
     },
     {
       "title": "Light in August",
@@ -3657,8 +3657,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Lena Grove searches for her child’s father while Joe Christmas’s violent racial secret sparks tragedy in Jefferson, Mississippi.",
+      "historical_context": "Faulkner’s 1932 novel examined identity and religion amid Depression‑era racial tensions."
     },
     {
       "title": "The Sun Also Rises",
@@ -3672,8 +3672,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Ex‑patriates Jake Barnes and Brett Ashley drift through post‑WWI Paris and Pamplona, seeking meaning in bullfights and booze.",
+      "historical_context": "Hemingway’s 1926 debut voiced the ‘Lost Generation’ after the Great War."
     },
     {
       "title": "A Farewell to Arms",
@@ -3687,8 +3687,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "American ambulance driver Frederic Henry’s love for nurse Catherine Barkley collides with the horrors of the Italian Front.",
+      "historical_context": "Published in 1929, Hemingway drew on his WWI service to critique romanticized war."
     },
     {
       "title": "For Whom the Bell Tolls",
@@ -3702,8 +3702,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Demolition expert Robert Jordan joins Spanish Republicans to blow a bridge, facing love and mortality in civil‑war mountains.",
+      "historical_context": "Hemingway’s 1940 novel reflected his reporting in the Spanish Civil War and forebodings of fascism."
     },
     {
       "title": "The Old Man and the Sea",
@@ -3717,8 +3717,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Aging Cuban fisherman Santiago endures an epic struggle with a giant marlin, testing perseverance, pride and the thin line between triumph and defeat.",
+      "historical_context": "Hemingway’s 1952 novella was written in post‑war Cuba and earned him the Pulitzer, embodying existential resilience during Cold War uncertainty."
     },
     {
       "title": "On the Road",
@@ -3732,8 +3732,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Sal Paradise and Dean Moriarty race across 1940s America in frenzied quests for jazz, drugs and ‘kicks,’ epitomising Beat Generation restlessness.",
+      "historical_context": "Kerouac’s 1957 roman‑à‑clef celebrated counterculture mobility amid Eisenhower‑era conformity."
     },
     {
       "title": "The Catcher in the Rye",
@@ -3747,8 +3747,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Disenchanted teen Holden Caulfield spends three days wandering New York City, railing against ‘phoniness’ while mourning innocence and his brother’s death.",
+      "historical_context": "Published in 1951, Salinger’s novel voiced post‑WWII adolescent angst amid rising consumer culture."
     },
     {
       "title": "Frankenstein",
@@ -3762,8 +3762,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Victor Frankenstein animates a creature from corpses, unleashing a tragic pursuit of creator and creation over responsibility and isolation.",
+      "historical_context": "Mary Shelley’s 1818 work arose from Romantic‑era science fascination and Gothic tradition, often hailed as the first modern science‑fiction novel."
     },
     {
       "title": "Dracula",
@@ -3777,8 +3777,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Through letters and diaries, vampire Count Dracula invades Victorian England, pitted against solicitor Jonathan Harker and Professor Van Helsing.",
+      "historical_context": "Bram Stoker’s 1897 novel fused Gothic fear with fin‑de‑siècle anxieties over sexuality, empire and modernity."
     },
     {
       "title": "The Picture of Dorian Gray",
@@ -3792,8 +3792,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Dorian Gray remains youthful while his portrait withers from his sins, exploring aestheticism, hedonism, and moral decay.",
+      "historical_context": "Oscar Wilde’s 1890 novel provoked Victorian moral outrage and mirrored decadent movement debates about art and ethics."
     },
     {
       "title": "A Portrait of the Artist as a Young Man",
@@ -3807,8 +3807,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Stephen Dedalus rebels against Irish Catholic upbringing and seeks artistic identity, culminating in his resolve to ‘forge in the smithy of my soul’.",
+      "historical_context": "First serialized 1914‑15, Joyce mapped stream‑of‑consciousness modernism and Ireland’s cultural nationalism on the eve of revolution."
     },
     {
       "title": "Dubliners",
@@ -3822,8 +3822,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Fifteen linked stories present ordinary Dubliners whose epiphanies reveal paralysis, longing and social stasis at life’s various stages.",
+      "historical_context": "Joyce’s 1914 collection offered an unvarnished portrait of pre‑independence Dublin, challenging Edwardian literary expectations."
     },
     {
       "title": "The Myth of Sisyphus",
@@ -3837,8 +3837,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Camus argues that life’s absurdity need not end in despair; like Sisyphus pushing his boulder, humans create meaning through defiant persistence.",
+      "historical_context": "Published in 1942 under Nazi occupation, the essay framed existentialist ethics amid wartime nihilism."
     },
     {
       "title": "The Outsider",
@@ -3852,8 +3852,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Detached Algerian clerk Meursault kills a man and is condemned more for emotional indifference than murder, interrogating society’s demand for meaning.",
+      "historical_context": "Camus’s 1942 novel (also rendered *The Stranger*) illustrated absurdist philosophy and colonial tensions in French Algeria."
     },
     {
       "title": "Thus Spoke Zarathustra",
@@ -3867,8 +3867,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Prophet Zarathustra proclaims the death of God, eternal recurrence and the Übermensch in poetic sermons challenging Western morality.",
+      "historical_context": "Nietzsche published the work 1883‑85, shaping modern existential and post‑religious thought at Europe’s fin de siècle."
     },
     {
       "title": "Beyond Good and Evil",
@@ -3882,12 +3882,12 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Nietzsche critiques traditional morality, exposing ‘slave and master’ value origins and urging free spirits toward self‑creation.",
+      "historical_context": "The 1886 treatise distilled his genealogical approach, influencing 20th‑century existentialism and post‑structuralism."
     },
     {
       "title": "The Prince",
-      "author": "Niccol\u00f2 Machiavelli",
+      "author": "Niccolò Machiavelli",
       "year": 1532,
       "century": 16,
       "location": {
@@ -3897,8 +3897,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Machiavelli offers pragmatic counsel on power, advising rulers to balance virtue with ruthless necessity to secure the state.",
+      "historical_context": "Written circa 1513 after Florentine exile, it broke from medieval idealism and birthed modern political science."
     },
     {
       "title": "Leviathan",
@@ -3912,8 +3912,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Hobbes contends that in a violent ‘state of nature’ individuals surrender freedoms to an absolute sovereign for collective security.",
+      "historical_context": "Published in 1651 during England’s Civil War, it justified centralized authority against anarchy."
     },
     {
       "title": "The Social Contract",
@@ -3927,8 +3927,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Rousseau posits that legitimate government arises from a collective ‘general will,’ reconciling freedom with civic obedience.",
+      "historical_context": "His 1762 treatise fueled Enlightenment debates and inspired French Revolutionary republicanism."
     },
     {
       "title": "The Republic",
@@ -3987,8 +3987,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Sun Tzu outlines 13 concise chapters of strategy where victory stems from deception, terrain, morale and knowing both self and enemy.",
+      "historical_context": "Compiled around the 5th century BCE Warring States China, it remains a cornerstone of military and business strategy."
     },
     {
       "title": "Bhagavad Gita",
@@ -4002,8 +4002,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "On Kurukshetra battlefield, warrior Arjuna receives divine counsel from Krishna on duty, devotion and paths to liberation.",
+      "historical_context": "Inserted into the *Mahabharata* (~2nd century BCE–2nd CE), the dialogue became a foundational Hindu philosophical text."
     },
     {
       "title": "Mahabharata",
@@ -4017,8 +4017,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Vast Sanskrit epic recounts the feud between Pandava and Kaurava cousins culminating in the Kurukshetra War, weaving law, cosmology and dharma.",
+      "historical_context": "Oral composition began roughly 400 BCE, later written down, shaping Indian culture and spirituality for millennia."
     },
     {
       "title": "Ramayana",
@@ -4032,8 +4032,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Prince Rama, aided by Hanuman’s monkey army, rescues his abducted wife Sita from the demon‑king Ravana, affirming dharma and devotion.",
+      "historical_context": "Composed between 500 BCE and 300 CE in Sanskrit and regional versions, the epic shapes Hindu ethics and South‑Asian performing arts."
     },
     {
       "title": "Dream of the Red Chamber",
@@ -4047,8 +4047,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Sensitive Jia Baoyu moves through romance and decline in the aristocratic Jia clan, mirroring Qing‑dynasty society’s fragility.",
+      "historical_context": "Cao Xueqin’s 18th‑century masterpiece critiqued Manchu‑era elite life and became one of China’s ‘Four Great Classical Novels.’"
     },
     {
       "title": "Water Margin",
@@ -4062,8 +4062,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "108 outlaw heroes band together at Liangshan Marsh to fight corrupt officials, forming a brotherhood of righteousness.",
+      "historical_context": "Attributed to Shi Nai’an in the 14th century, it dramatized Song‑dynasty rebellion and vernacular storytelling."
     },
     {
       "title": "The Bible",
@@ -4077,8 +4077,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Collected Hebrew and Christian scriptures recount creation, covenant, prophecy and the life of Jesus, guiding billions of believers.",
+      "historical_context": "Compiled over a millennium (c. 1200 BCE‑100 CE), it anchored Judaism and birthed Christianity, shaping Western culture."
     },
     {
       "title": "The Quran",
@@ -4092,8 +4092,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Revelations received by the Prophet Muhammad articulate monotheism, law and moral guidance central to Islam.",
+      "historical_context": "Recorded in 7th‑century Arabia, the Arabic text unified early Muslims and underpins Islamic civilization."
     },
     {
       "title": "The Torah",
@@ -4107,8 +4107,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Genesis through Deuteronomy chart creation, patriarchs, Exodus and Mosaic law, forming Judaism’s foundational narrative.",
+      "historical_context": "Written and redacted between c. 1000‑500 BCE, the Pentateuch codified Israelite religion and identity."
     },
     {
       "title": "Gilgamesh",
@@ -4122,8 +4122,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Sumerian king Gilgamesh befriends wild Enkidu, quests for immortality and learns to accept human limits.",
+      "historical_context": "Inscribed on Akkadian tablets c. 1200 BCE, it is the world’s earliest surviving epic literature from Mesopotamia."
     },
     {
       "title": "Popol Vuh",
@@ -4137,8 +4137,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Mayan creation myth recounts hero twins Hunahpú and Xbalanqué, gods, floods and the founding of the K’iche’ people.",
+      "historical_context": "Transcribed in the 16th century from oral tradition, preserving pre‑Columbian Mesoamerican cosmology after Spanish conquest."
     },
     {
       "title": "Decameron",
@@ -4152,8 +4152,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Ten Florentines fleeing the Black Death entertain each other with 100 witty, bawdy and moral tales over ten days.",
+      "historical_context": "Boccaccio’s 1353 collection captured medieval social types amid plague‑ravaged Italy."
     },
     {
       "title": "Faust",
@@ -4167,8 +4167,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Scholar Faust trades his soul with Mephistopheles for knowledge and pleasure, ultimately seeking redemption through striving.",
+      "historical_context": "Goethe’s dramatic poem (Part I 1808, Part II 1832) synthesized Enlightenment inquiry and Romantic metaphysics."
     },
     {
       "title": "Werther",
@@ -4182,8 +4182,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Melancholic artist Werther’s unrequited love for Charlotte ends in suicide, sparking European ‘Werther fever.’",
+      "historical_context": "Goethe’s 1774 epistolary novel announced German Sturm und Drang and Romantic sensibility."
     },
     {
       "title": "Buddenbrooks",
@@ -4197,8 +4197,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Four generations of a Lübeck merchant family rise in wealth then succumb to decadence and modern pressures.",
+      "historical_context": "Thomas Mann’s 1901 debut captured 19th‑century bourgeois decline, winning him the 1929 Nobel Prize."
     },
     {
       "title": "Magic Mountain",
@@ -4212,8 +4212,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Engineer Hans Castorp’s short visit to a Swiss sanatorium stretches into years of debates on time, illness and European ideology.",
+      "historical_context": "Published 1924, Mann meditated on pre‑WWI intellectual currents and the coming catastrophe."
     },
     {
       "title": "Doctor Faustus",
@@ -4227,8 +4227,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Composer Adrian Leverkühn achieves radical music after a pact with the devil, paralleling Germany’s descent into Nazism.",
+      "historical_context": "Mann’s 1947 novel re‑imagined Goethe’s legend amid post‑war reckoning with fascism."
     },
     {
       "title": "Steppenwolf",
@@ -4242,8 +4242,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Middle‑aged intellectual Harry Haller, torn between bourgeois routine and wolfish alienation, pursues transcendence through psychedelia and jazz.",
+      "historical_context": "Hesse’s 1927 novel spoke to interwar existential crisis and countercultural self‑experimentation."
     },
     {
       "title": "Siddhartha",
@@ -4257,8 +4257,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Indian Brahmin Siddhartha rejects asceticism and materialism before achieving enlightenment beside a river.",
+      "historical_context": "Written in 1922 after Hesse’s travels, blending Eastern philosophy with Western individualism."
     },
     {
       "title": "The Glass Bead Game",
@@ -4272,8 +4272,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Magister Joseph Knecht masters a synthesis of art and science in Castalia, then questions ivory‑tower detachment.",
+      "historical_context": "Hesse’s 1943 final novel warned against intellectual isolation amid WWII."
     },
     {
       "title": "The Name of the Rose",
@@ -4287,8 +4287,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Franciscan sleuth William of Baskerville investigates monastic murders linked to a forbidden book in 1327 Italy.",
+      "historical_context": "Eco’s 1980 postmodern mystery merged medieval scholasticism with semiotics during Italy’s ‘Years of Lead.’"
     },
     {
       "title": "Foucault's Pendulum",
@@ -4302,8 +4302,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Three editors invent a conspiracy linking the Knights Templar to global mysticism, then their fiction turns frighteningly real.",
+      "historical_context": "Eco’s 1988 novel satirized postmodern paranoia and New Age esoterica."
     },
     {
       "title": "Invisible Cities",
@@ -4317,8 +4317,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Marco Polo describes fantastical cities to Kublai Khan, each vignette reflecting memory, desire and language itself.",
+      "historical_context": "Calvino’s 1972 prose poetry explored structuralist ideas of space and imagination."
     },
     {
       "title": "The Baron in the Trees",
@@ -4517,7 +4517,7 @@
     },
     {
       "title": "Germinal",
-      "author": "\u00c9mile Zola",
+      "author": "Émile Zola",
       "year": 1885,
       "century": 19,
       "location": {
@@ -4532,7 +4532,7 @@
     },
     {
       "title": "Nana",
-      "author": "\u00c9mile Zola",
+      "author": "Émile Zola",
       "year": 1880,
       "century": 19,
       "location": {
@@ -4547,7 +4547,7 @@
     },
     {
       "title": "The Human Comedy",
-      "author": "Honor\u00e9 de Balzac",
+      "author": "Honoré de Balzac",
       "year": 1848,
       "century": 19,
       "location": {
@@ -4561,8 +4561,8 @@
       "historical_context": null
     },
     {
-      "title": "Eug\u00e9nie Grandet",
-      "author": "Honor\u00e9 de Balzac",
+      "title": "Eugénie Grandet",
+      "author": "Honoré de Balzac",
       "year": 1833,
       "century": 19,
       "location": {
@@ -4847,7 +4847,7 @@
     },
     {
       "title": "Baltasar and Blimunda",
-      "author": "Jos\u00e9 Saramago",
+      "author": "José Saramago",
       "year": 1982,
       "century": 20,
       "location": {
@@ -4862,7 +4862,7 @@
     },
     {
       "title": "The Gospel According to Jesus Christ",
-      "author": "Jos\u00e9 Saramago",
+      "author": "José Saramago",
       "year": 1991,
       "century": 20,
       "location": {
@@ -4977,8 +4977,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Hobbit Frodo must destroy the One Ring in Mount Doom, while diverse allies wage war against the dark lord Sauron for Middle‑earth’s future.",
+      "historical_context": "Written 1937‑49 and published 1954‑55, Tolkien’s saga synthesized mythic languages and echoed WWII’s struggle between tyranny and fellowship."
     },
     {
       "title": "The Hobbit",
@@ -5447,7 +5447,7 @@
     },
     {
       "title": "The Brief Wondrous Life of Oscar Wao",
-      "author": "Junot D\u00edaz",
+      "author": "Junot Díaz",
       "year": 2007,
       "century": 21,
       "location": {
@@ -5552,7 +5552,7 @@
     },
     {
       "title": "The Shadow of the Wind",
-      "author": "Carlos Ruiz Zaf\u00f3n",
+      "author": "Carlos Ruiz Zafón",
       "year": 2001,
       "century": 21,
       "location": {
@@ -5867,7 +5867,7 @@
     },
     {
       "title": "Kokoro",
-      "author": "Natsume S\u014dseki",
+      "author": "Natsume Sōseki",
       "year": 1914,
       "century": 20,
       "location": {
@@ -5882,7 +5882,7 @@
     },
     {
       "title": "I Am a Cat",
-      "author": "Natsume S\u014dseki",
+      "author": "Natsume Sōseki",
       "year": 1906,
       "century": 20,
       "location": {
@@ -6016,7 +6016,7 @@
       "historical_context": null
     },
     {
-      "title": "La Casa de los Esp\u00edritus",
+      "title": "La Casa de los Espíritus",
       "author": "Isabel Allende",
       "year": 1982,
       "century": 20,
@@ -6107,7 +6107,7 @@
     },
     {
       "title": "Solaris",
-      "author": "Stanis\u0142aw Lem",
+      "author": "Stanisław Lem",
       "year": 1961,
       "century": 20,
       "location": {
@@ -6122,7 +6122,7 @@
     },
     {
       "title": "The Cyberiad",
-      "author": "Stanis\u0142aw Lem",
+      "author": "Stanisław Lem",
       "year": 1965,
       "century": 20,
       "location": {
@@ -6282,8 +6282,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Detached Algerian clerk Meursault kills a man and is condemned more for emotional indifference than murder, interrogating society’s demand for meaning.",
+      "historical_context": "Camus’s 1942 novel (also rendered *The Stranger*) illustrated absurdist philosophy and colonial tensions in French Algeria."
     },
     {
       "title": "Les Fleurs du mal",
@@ -6362,7 +6362,7 @@
     },
     {
       "title": "The Physicists",
-      "author": "Friedrich D\u00fcrrenmatt",
+      "author": "Friedrich Dürrenmatt",
       "year": 1962,
       "century": 20,
       "location": {
@@ -7261,7 +7261,7 @@
       "historical_context": null
     },
     {
-      "title": "Sh\u014dgun",
+      "title": "Shōgun",
       "author": "James Clavell",
       "year": 1975,
       "century": 20,
@@ -7302,8 +7302,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Winston Smith secretly rebels in a surveillance state where Big Brother rewrites history and even thought is a crime.",
+      "historical_context": "Orwell’s 1949 novel reflected post‑war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
     },
     {
       "title": "The Sense of an Ending",
@@ -7472,7 +7472,7 @@
     },
     {
       "title": "The Spy Who Came in from the Cold",
-      "author": "John le Carr\u00e9",
+      "author": "John le Carré",
       "year": 1963,
       "century": 20,
       "location": {
@@ -7487,7 +7487,7 @@
     },
     {
       "title": "Tinker Tailor Soldier Spy",
-      "author": "John le Carr\u00e9",
+      "author": "John le Carré",
       "year": 1974,
       "century": 20,
       "location": {
@@ -7502,7 +7502,7 @@
     },
     {
       "title": "Smiley's People",
-      "author": "John le Carr\u00e9",
+      "author": "John le Carré",
       "year": 1979,
       "century": 20,
       "location": {
@@ -7602,8 +7602,8 @@
           null
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Disenchanted teen Holden Caulfield spends three days wandering New York City, railing against ‘phoniness’ while mourning innocence and his brother’s death.",
+      "historical_context": "Published in 1951, Salinger’s novel voiced post‑WWII adolescent angst amid rising consumer culture."
     },
     {
       "title": "Middlesex",
@@ -8432,7 +8432,7 @@
     },
     {
       "title": "The Savage Detectives",
-      "author": "Roberto Bola\u00f1o",
+      "author": "Roberto Bolaño",
       "year": 1998,
       "century": 20,
       "location": {
@@ -8447,7 +8447,7 @@
     },
     {
       "title": "2666",
-      "author": "Roberto Bola\u00f1o",
+      "author": "Roberto Bolaño",
       "year": 2004,
       "century": 21,
       "location": {
@@ -8987,7 +8987,7 @@
     },
     {
       "title": "Seeing",
-      "author": "Jos\u00e9 Saramago",
+      "author": "José Saramago",
       "year": 2004,
       "century": 21,
       "location": {
@@ -9002,7 +9002,7 @@
     },
     {
       "title": "The Cave",
-      "author": "Jos\u00e9 Saramago",
+      "author": "José Saramago",
       "year": 2001,
       "century": 21,
       "location": {
@@ -9017,7 +9017,7 @@
     },
     {
       "title": "The Double",
-      "author": "Jos\u00e9 Saramago",
+      "author": "José Saramago",
       "year": 2002,
       "century": 21,
       "location": {
@@ -9032,7 +9032,7 @@
     },
     {
       "title": "The Relic",
-      "author": "E\u00e7a de Queir\u00f3s",
+      "author": "Eça de Queirós",
       "year": 1887,
       "century": 19,
       "location": {
@@ -9046,7 +9046,7 @@
       "historical_context": null
     },
     {
-      "title": "Capit\u00e3es da Areia",
+      "title": "Capitães da Areia",
       "author": "Jorge Amado",
       "year": 1937,
       "century": 20,
@@ -9076,8 +9076,8 @@
       "historical_context": null
     },
     {
-      "title": "Do\u00f1a B\u00e1rbara",
-      "author": "R\u00f3mulo Gallegos",
+      "title": "Doña Bárbara",
+      "author": "Rómulo Gallegos",
       "year": 1929,
       "century": 20,
       "location": {
@@ -9887,7 +9887,7 @@
     },
     {
       "title": "Silence",
-      "author": "Sh\u016bsaku End\u014d",
+      "author": "Shūsaku Endō",
       "year": 1966,
       "century": 20,
       "location": {
@@ -9902,7 +9902,7 @@
     },
     {
       "title": "A Personal Matter",
-      "author": "Kenzabur\u014d \u014ce",
+      "author": "Kenzaburō Ōe",
       "year": 1964,
       "century": 20,
       "location": {
@@ -9917,7 +9917,7 @@
     },
     {
       "title": "Embassy Town",
-      "author": "China Mi\u00e9ville",
+      "author": "China Miéville",
       "year": 2011,
       "century": 21,
       "location": {
@@ -9932,7 +9932,7 @@
     },
     {
       "title": "Perdido Street Station",
-      "author": "China Mi\u00e9ville",
+      "author": "China Miéville",
       "year": 2000,
       "century": 20,
       "location": {
@@ -9947,7 +9947,7 @@
     },
     {
       "title": "The Scar",
-      "author": "China Mi\u00e9ville",
+      "author": "China Miéville",
       "year": 2002,
       "century": 21,
       "location": {

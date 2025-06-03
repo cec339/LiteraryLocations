@@ -15,8 +15,8 @@ def create_base_map():
 def get_marker_icon(location_type):
     """Get the appropriate marker icon based on location type."""
     icon_colors = {
-        'primary': 'red',      # Primary story setting
-        'publication': 'blue', # Publication location
+        'primary': 'red',      # Primary story setting - real geographic location
+        'publication': 'blue', # Publication location for fictional/metaphysical/multiple settings
         'fictional': 'green'   # Fictional setting, showing publication location
     }
     return folium.Icon(
@@ -27,10 +27,10 @@ def get_marker_icon(location_type):
 
 def create_literature_map(books_df):
     """
-    Create an interactive map showing literary locations
+    Create an interactive map showing literary locations with improved classification
 
     Args:
-        books_df: DataFrame containing book data with latitude and longitude
+        books_df: DataFrame containing book data with latitude, longitude, and location_type
     """
     try:
         # Make sure coordinates are float type
@@ -52,49 +52,48 @@ def create_literature_map(books_df):
 
         # Add markers for each book
         for _, book in books_df.iterrows():
-            # Determine location type and coordinates to use
-            location_type = 'primary'  # default
-            if pd.isna(book['setting_latitude']) or pd.isna(book['setting_longitude']):
-                if pd.notna(book['publication_latitude']) and pd.notna(book['publication_longitude']):
-                    location_type = 'publication'
-                    coordinates = [float(book['publication_latitude']), float(book['publication_longitude'])]
-                    location_name = book['publication_name']
-                else:
-                    continue  # Skip if no valid coordinates
-            else:
-                coordinates = [book['setting_latitude'], book['setting_longitude']]
-                location_name = book['setting_name']
+            # Use the improved location classification
+            location_type = book.get('location_type', 'primary')
+            coordinates = [book['setting_latitude'], book['setting_longitude']]
+            location_name = book['setting_name']
 
-                # Check if it's a fictional setting
-                if book.get('is_fictional', False):
-                    location_type = 'fictional'
+            # Create location description based on type
+            if location_type == 'primary':
+                location_desc = "Primary Story Setting"
+            elif location_type == 'publication':
+                location_desc = "Publication Location (Fictional/Multiple Settings)"
+            else:
+                location_desc = "Story Location"
 
             popup_html = f"""
-                <div style='width: 250px'>
-                    <h4>{book['title']}</h4>
+                <div style='width: 280px; font-family: Arial, sans-serif;'>
+                    <h4 style='margin-bottom: 10px; color: #2E4057;'>{book['title']}</h4>
                     <p><b>Author:</b> {book['author']}</p>
                     <p><b>Year:</b> {book['year']}</p>
+                    <p><b>Century:</b> {book.get('century', 'Unknown')}th</p>
                     <p><b>Location:</b> {location_name}</p>
-                    <p><b>Location Type:</b> {location_type.title()}</p>
-                    <p><b>Summary:</b> {book['summary']}</p>
-                    <p><b>Historical Context:</b> {book['historical_context']}</p>
+                    <p><b>Type:</b> {location_desc}</p>
+                    <p><b>Summary:</b> {book['summary'][:150]}{'...' if len(book['summary']) > 150 else ''}</p>
+                    <p><b>Historical Context:</b> {book['historical_context'][:150]}{'...' if len(book['historical_context']) > 150 else ''}</p>
                 </div>
             """
 
             # Add marker with appropriate icon
             folium.Marker(
                 location=coordinates,
-                popup=folium.Popup(popup_html, max_width=300),
+                popup=folium.Popup(popup_html, max_width=320),
                 icon=get_marker_icon(location_type)
             ).add_to(marker_cluster)
 
-        # Add legend
+        # Add improved legend
         legend_html = '''
         <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; 
-                    padding: 10px; border: 2px solid grey; border-radius: 5px">
-            <h4>Legend</h4>
-            <p><i class="fa fa-book" style="color: red"></i> Primary Setting</p>
-            <p><i class="fa fa-book" style="color: green"></i> Fictional Setting (Publication Location shown)</p>
+                    padding: 15px; border: 2px solid #2E4057; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                    font-family: Arial, sans-serif;">
+            <h4 style="margin-top: 0; color: #2E4057;">Location Types</h4>
+            <p style="margin: 5px 0;"><i class="fa fa-book" style="color: red; margin-right: 8px;"></i> Primary Story Setting</p>
+            <p style="margin: 5px 0;"><i class="fa fa-book" style="color: blue; margin-right: 8px;"></i> Publication Location</p>
+            <p style="margin: 5px 0; font-size: 12px; color: #666;">Blue markers show publication locations for books with fictional/metaphysical/multiple settings</p>
         </div>
         '''
         literary_map.get_root().html.add_child(folium.Element(legend_html))
