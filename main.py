@@ -76,7 +76,9 @@ with st.sidebar:
 
     st.sidebar.header("Filters")
 
-    min_century, max_century = get_century_range()
+    century_range = get_century_range()
+    min_century = min(century_range) if century_range else -20
+    max_century = max(century_range) if century_range else 21
 
 # Main content
 try:
