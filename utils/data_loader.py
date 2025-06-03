@@ -91,6 +91,10 @@ def load_book_data():
         df = df[df['title'].str.strip().str.len() > 0]
         df = df[df['author'].str.strip().str.len() > 0]
         
+        # Fill null summary and historical_context with placeholder text
+        df['summary'] = df['summary'].fillna('Summary not available')
+        df['historical_context'] = df['historical_context'].fillna('Historical context not available')
+        
         # Remove duplicates keeping first occurrence
         df = df.drop_duplicates(subset=['title', 'author'], keep='first')
         

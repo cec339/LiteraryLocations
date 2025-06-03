@@ -2856,14 +2856,14 @@
       "year": 1913,
       "century": 20,
       "location": {
-        "name": null,
+        "name": "Paris, France",
         "coordinates": [
-          null,
-          null
+          48.8566,
+          2.3522
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A massive novel exploring memory, time, and French society through the narrator's recollections.",
+      "historical_context": "Written during the Belle Époque, examining the decline of aristocratic French society."
     },
     {
       "title": "Ulysses",
@@ -2871,29 +2871,29 @@
       "year": 1922,
       "century": 20,
       "location": {
-        "name": null,
+        "name": "Dublin, Ireland",
         "coordinates": [
-          null,
-          null
+          53.3498,
+          -6.2603
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A modernist novel following Leopold Bloom through a single day in Dublin, paralleling Homer's Odyssey.",
+      "historical_context": "Written during the Irish struggle for independence, pioneering stream-of-consciousness narrative."
     },
     {
-      "title": "Moby",
-      "author": "Dick",
-      "year": null,
-      "century": null,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "year": 1851,
+      "century": 19,
       "location": {
-        "name": null,
+        "name": "Atlantic Ocean",
         "coordinates": [
-          null,
-          null
+          35.0,
+          -40.0
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Captain Ahab's obsessive quest for revenge against the white whale that destroyed his leg.",
+      "historical_context": "Written during America's whaling era, exploring themes of obsession, fate, and man versus nature."
     },
     {
       "title": "Hamlet",
@@ -2901,14 +2901,14 @@
       "year": 1603,
       "century": 17,
       "location": {
-        "name": null,
+        "name": "Elsinore, Denmark",
         "coordinates": [
-          null,
-          null
+          56.0365,
+          12.6238
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "The Prince of Denmark seeks revenge against his uncle who murdered his father and married his mother.",
+      "historical_context": "Written during the English Renaissance, exploring themes of revenge, madness, and moral corruption."
     },
     {
       "title": "King Lear",
@@ -2916,14 +2916,14 @@
       "year": 1606,
       "century": 17,
       "location": {
-        "name": null,
+        "name": "Ancient Britain",
         "coordinates": [
-          null,
-          null
+          52.3555,
+          1.1743
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "An aging king divides his kingdom among his daughters with tragic consequences.",
+      "historical_context": "Written during the Jacobean era, examining themes of family, power, and justice."
     },
     {
       "title": "Macbeth",
@@ -2931,14 +2931,14 @@
       "year": 1606,
       "century": 17,
       "location": {
-        "name": null,
+        "name": "Scotland",
         "coordinates": [
-          null,
-          null
+          56.4907,
+          -4.2026
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A Scottish general's ambition leads him to murder and tyranny after encountering three witches.",
+      "historical_context": "Written during James I's reign, exploring themes of ambition, guilt, and the supernatural."
     },
     {
       "title": "Othello",
@@ -2946,14 +2946,14 @@
       "year": 1603,
       "century": 17,
       "location": {
-        "name": null,
+        "name": "Venice and Cyprus",
         "coordinates": [
-          null,
-          null
+          45.4408,
+          12.3155
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A Moorish general is manipulated by his ensign Iago into believing his wife is unfaithful.",
+      "historical_context": "Written during the English Renaissance, examining themes of racism, jealousy, and manipulation."
     },
     {
       "title": "Romeo and Juliet",
@@ -2961,14 +2961,14 @@
       "year": 1597,
       "century": 16,
       "location": {
-        "name": null,
+        "name": "Verona, Italy",
         "coordinates": [
-          null,
-          null
+          45.4384,
+          10.9916
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Two young star-crossed lovers from feuding families in Verona meet a tragic end.",
+      "historical_context": "Written during the Elizabethan era, exploring themes of young love and family conflict."
     },
     {
       "title": "Madame Bovary",
@@ -2976,14 +2976,14 @@
       "year": 1856,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "Normandy, France",
         "coordinates": [
-          null,
-          null
+          49.1829,
+          -0.3707
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Emma Bovary's romantic illusions and extramarital affairs lead to her downfall in provincial France.",
+      "historical_context": "Written during the Second Empire, critiquing bourgeois society and romantic idealism."
     },
     {
       "title": "Crime and Punishment",
@@ -2991,14 +2991,14 @@
       "year": 1866,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "St. Petersburg, Russia",
         "coordinates": [
-          null,
-          null
+          59.9311,
+          30.3609
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A young student commits murder and grapples with guilt and redemption in 19th century Russia.",
+      "historical_context": "Written during the period of social reform in Russia, exploring themes of morality and redemption."
     },
     {
       "title": "Anna Karenina",
@@ -3006,14 +3006,14 @@
       "year": 1877,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "Russia (Moscow and St. Petersburg)",
         "coordinates": [
-          null,
-          null
+          55.7558,
+          37.6173
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A tragic love story of Anna Karenina's affair and its consequences, contrasted with Levin's spiritual journey.",
+      "historical_context": "Set during the modernization of Russian society, examining marriage, faith, and social change."
     },
     {
       "title": "Great Expectations",
@@ -3021,14 +3021,14 @@
       "year": 1861,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "London and Kent, England",
         "coordinates": [
-          null,
-          null
+          51.5074,
+          -0.1278
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Pip's journey from a humble blacksmith's apprentice to a gentleman, exploring themes of social class and personal growth.",
+      "historical_context": "Written during Victorian England, examining social mobility and the industrial revolution's impact on society."
     },
     {
       "title": "A Tale of Two Cities",
@@ -3036,14 +3036,14 @@
       "year": 1859,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "London and Paris",
         "coordinates": [
-          null,
-          null
+          48.8566,
+          2.3522
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Set during the French Revolution, following the lives of Charles Darnay and Sydney Carton.",
+      "historical_context": "Written about the French Revolution, exploring themes of sacrifice, resurrection, and social justice."
     },
     {
       "title": "David Copperfield",
@@ -3051,14 +3051,14 @@
       "year": 1850,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "England (Various Locations)",
         "coordinates": [
-          null,
-          null
+          51.5074,
+          -0.1278
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "The semi-autobiographical story of David Copperfield's life from childhood to maturity.",
+      "historical_context": "Written during the height of the Industrial Revolution, depicting Victorian society and social issues."
     },
     {
       "title": "Bleak House",
@@ -3066,14 +3066,14 @@
       "year": 1853,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "London, England",
         "coordinates": [
-          null,
-          null
+          51.5074,
+          -0.1278
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A critique of the legal system through the story of the Jarndyce and Jarndyce lawsuit.",
+      "historical_context": "Written during Victorian England, criticizing the inefficiency and corruption of the legal system."
     },
     {
       "title": "Middlemarch",
@@ -3081,14 +3081,14 @@
       "year": 1871,
       "century": 19,
       "location": {
-        "name": null,
+        "name": "Middlemarch (Fictional Midlands town), England",
         "coordinates": [
-          null,
-          null
+          52.4862,
+          -1.8904
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "The lives and relationships of residents in a provincial English town during the 1830s.",
+      "historical_context": "Set during the Reform Act era, examining social and political change in 19th century England."
     },
     {
       "title": "The Mill on the Floss",
@@ -3286,19 +3286,19 @@
       "historical_context": null
     },
     {
-      "title": "The Hunchback of Notre",
-      "author": "Dame",
-      "year": null,
-      "century": null,
+      "title": "The Hunchback of Notre-Dame",
+      "author": "Victor Hugo",
+      "year": 1831,
+      "century": 19,
       "location": {
-        "name": null,
+        "name": "Paris, France",
         "coordinates": [
-          null,
-          null
+          48.8566,
+          2.3522
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "The tragic story of Quasimodo, the hunchbacked bell-ringer of Notre Dame Cathedral, and his love for Esmeralda.",
+      "historical_context": "Written during the July Monarchy, promoting Gothic architecture preservation and examining social justice."
     },
     {
       "title": "The Count of Monte Cristo",
@@ -3933,47 +3933,47 @@
     {
       "title": "The Republic",
       "author": "Plato",
-      "year": null,
-      "century": null,
+      "year": -380,
+      "century": -4,
       "location": {
-        "name": null,
+        "name": "Ancient Athens, Greece",
         "coordinates": [
-          null,
-          null
+          37.9755,
+          23.7348
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A philosophical dialogue examining justice, the ideal state, and the nature of reality through the allegory of the cave.",
+      "historical_context": "Written in classical Athens during the 4th century BCE, foundational text of Western philosophy and political theory."
     },
     {
       "title": "Nicomachean Ethics",
       "author": "Aristotle",
-      "year": null,
-      "century": null,
+      "year": -350,
+      "century": -4,
       "location": {
-        "name": null,
+        "name": "Ancient Athens, Greece",
         "coordinates": [
-          null,
-          null
+          37.9755,
+          23.7348
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "Aristotle's treatise on virtue ethics, exploring the nature of good character and the path to human flourishing.",
+      "historical_context": "Written in 4th century BCE Athens, fundamental work of moral philosophy influencing Western ethical thought."
     },
     {
       "title": "Tao Te Ching",
       "author": "Laozi",
-      "year": null,
-      "century": null,
+      "year": -500,
+      "century": -5,
       "location": {
-        "name": null,
+        "name": "Ancient China",
         "coordinates": [
-          null,
-          null
+          34.261,
+          108.948
         ]
       },
-      "summary": null,
-      "historical_context": null
+      "summary": "A foundational Taoist text exploring the nature of the Tao (the Way) and principles of harmony with nature.",
+      "historical_context": "Traditionally dated to 6th century BCE China, foundational text of Taoism and Chinese philosophy."
     },
     {
       "title": "The Art of War",
