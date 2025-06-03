@@ -2,6 +2,64 @@ import json
 import pandas as pd
 from pathlib import Path
 
+def get_coordinate_mapping():
+    """Return mapping of locations to coordinates for books missing them."""
+    return {
+        # Major cities and regions commonly referenced in literature
+        "Ancient Greece": [37.9755, 23.7348],
+        "Ancient Rome": [41.9028, 12.4964],
+        "Ancient Egypt": [26.8206, 30.8025],
+        "Ancient Mesopotamia": [33.0955, 44.0996],
+        "Ancient India": [20.5937, 78.9629],
+        "Ancient China": [35.8617, 104.1954],
+        "Medieval Europe": [50.1109, 8.6821],
+        "Renaissance Italy": [43.7696, 11.2558],
+        "Victorian England": [51.5074, -0.1278],
+        "19th Century Russia": [55.7558, 37.6173],
+        "19th Century France": [48.8566, 2.3522],
+        "19th Century Germany": [52.5200, 13.4050],
+        "Colonial America": [39.7392, -75.1419],
+        "American South": [33.7490, -84.3880],
+        "American West": [39.7392, -104.9903],
+        "Modern Japan": [35.6762, 139.6503],
+        "Soviet Union": [55.7558, 37.6173],
+        "Ireland": [53.1424, -7.6921],
+        "Scotland": [56.4907, -4.2026],
+        "Wales": [52.1307, -3.7837],
+        "Scandinavia": [60.1282, 18.6435],
+        "Spain": [40.4637, -3.7492],
+        "Portugal": [39.3999, -8.2245],
+        "Poland": [51.9194, 19.1451],
+        "Czech Republic": [49.8175, 15.4730],
+        "Hungary": [47.1625, 19.5033],
+        "Austria": [47.5162, 14.5501],
+        "Switzerland": [46.8182, 8.2275],
+        "Netherlands": [52.1326, 5.2913],
+        "Belgium": [50.5039, 4.4699],
+        "Turkey": [38.9637, 35.2433],
+        "Middle East": [29.2985, 42.5510],
+        "North Africa": [26.3351, 17.2283],
+        "Sub-Saharan Africa": [1.6508, 18.6094],
+        "South America": [-8.7832, -55.4915],
+        "Argentina": [-38.4161, -63.6167],
+        "Brazil": [-14.2350, -51.9253],
+        "Mexico": [23.6345, -102.5528],
+        "Canada": [56.1304, -106.3468],
+        "Australia": [-25.2744, 133.7751],
+        "New Zealand": [-40.9006, 174.8860],
+        "India": [20.5937, 78.9629],
+        "China": [35.8617, 104.1954],
+        "Korea": [35.9078, 127.7669],
+        "Southeast Asia": [4.2105, 101.9758],
+        "Central Asia": [48.0196, 66.9237],
+        "Eastern Europe": [52.2297, 21.0122],
+        "Balkans": [44.0165, 21.0059],
+        "Nordic Countries": [64.9631, 19.0208],
+        "Caribbean": [21.4691, -78.6569],
+        "Pacific Islands": [-8.7832, 125.7275],
+        "Arctic": [66.5039, -153.7705]
+    }
+
 def load_book_data():
     """Load and process book data from JSON files."""
     try:
@@ -20,6 +78,9 @@ def load_book_data():
         # Combine the datasets
         all_books = main_data["books"] + extended_data["books"]
         data = {"books": all_books}
+        
+        # Get coordinate mapping for missing locations
+        coord_mapping = get_coordinate_mapping()
 
         # Convert to DataFrame for easier manipulation
         df = pd.DataFrame(data["books"])
@@ -34,21 +95,101 @@ def load_book_data():
         # Remove duplicates keeping first occurrence
         df = df.drop_duplicates(subset=['title', 'author'])
 
-        # Safer extraction with error handling
+        # Enhanced coordinate extraction with intelligent mapping
         def safe_extract_coordinate(location, index):
             try:
                 if location and "coordinates" in location and isinstance(location["coordinates"], list):
                     coord = location["coordinates"][index]
-                    return float(coord) if coord is not None else None
+                    if coord is not None and coord != 0.0:  # Avoid null and zero coordinates
+                        return float(coord)
                 return None
             except (IndexError, ValueError, TypeError) as e:
                 print(f"Error extracting coordinate: {e}, location: {location}")
                 return None
 
+        def get_mapped_coordinates(location_name, lat, lon):
+            """Get coordinates from mapping if current ones are missing or invalid."""
+            if lat is not None and lon is not None and lat != 0.0 and lon != 0.0:
+                return lat, lon
+            
+            if not location_name or location_name == "Unknown":
+                return None, None
+            
+            # Try exact match first
+            if location_name in coord_mapping:
+                return coord_mapping[location_name]
+            
+            # Try partial matching for common patterns
+            location_lower = location_name.lower()
+            for key, coords in coord_mapping.items():
+                if any(word in location_lower for word in key.lower().split()):
+                    return coords
+            
+            # Special handling for common location patterns
+            if "london" in location_lower:
+                return [51.5074, -0.1278]
+            elif "paris" in location_lower:
+                return [48.8566, 2.3522]
+            elif "new york" in location_lower:
+                return [40.7128, -74.0060]
+            elif "rome" in location_lower:
+                return [41.9028, 12.4964]
+            elif "athens" in location_lower:
+                return [37.9755, 23.7348]
+            elif "moscow" in location_lower:
+                return [55.7558, 37.6173]
+            elif "dublin" in location_lower:
+                return [53.3498, -6.2603]
+            elif "berlin" in location_lower:
+                return [52.5200, 13.4050]
+            elif "madrid" in location_lower:
+                return [40.4168, -3.7038]
+            elif "vienna" in location_lower:
+                return [48.2082, 16.3738]
+            elif "prague" in location_lower:
+                return [50.0755, 14.4378]
+            elif "amsterdam" in location_lower:
+                return [52.3676, 4.9041]
+            elif "florence" in location_lower:
+                return [43.7696, 11.2558]
+            elif "venice" in location_lower:
+                return [45.4408, 12.3155]
+            elif "saint petersburg" in location_lower or "st petersburg" in location_lower:
+                return [59.9311, 30.3609]
+            elif "constantinople" in location_lower or "istanbul" in location_lower:
+                return [41.0082, 28.9784]
+            elif "jerusalem" in location_lower:
+                return [31.7683, 35.2137]
+            elif "cairo" in location_lower:
+                return [30.0444, 31.2357]
+            elif "tokyo" in location_lower:
+                return [35.6762, 139.6503]
+            elif "beijing" in location_lower or "peking" in location_lower:
+                return [39.9042, 116.4074]
+            elif "mumbai" in location_lower or "bombay" in location_lower:
+                return [19.0760, 72.8777]
+            elif "calcutta" in location_lower or "kolkata" in location_lower:
+                return [22.5726, 88.3639]
+            
+            return None, None
+
         # Extract setting coordinates and determine location type
         df["setting_latitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 0))
         df["setting_longitude"] = df["location"].apply(lambda x: safe_extract_coordinate(x, 1))
         df["setting_name"] = df["location"].apply(lambda x: x.get("name", "Unknown") if x else "Unknown")
+        
+        # Apply coordinate mapping for missing coordinates
+        coord_results = df.apply(lambda row: get_mapped_coordinates(
+            row["setting_name"], 
+            row["setting_latitude"], 
+            row["setting_longitude"]
+        ), axis=1)
+        
+        # Update coordinates with mapped values
+        for i, (lat, lon) in enumerate(coord_results):
+            if lat is not None and lon is not None:
+                df.iloc[i, df.columns.get_loc("setting_latitude")] = lat
+                df.iloc[i, df.columns.get_loc("setting_longitude")] = lon
 
         # Determine if setting is fictional or metaphysical
         df["is_fictional"] = df["setting_name"].apply(
