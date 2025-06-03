@@ -72,7 +72,7 @@ with st.sidebar:
     stats = get_dataset_stats()
     st.sidebar.metric("Total Books", stats["total_books"])
     st.sidebar.metric("Unique Authors", stats["unique_authors"])
-    st.sidebar.metric("Books with Coordinates", stats["books_with_coordinates"])
+    st.sidebar.metric("Books with Coordinates", stats["locations_with_coordinates"])
 
     st.sidebar.header("Filters")
 
