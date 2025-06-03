@@ -191,6 +191,80 @@ def load_book_data():
                 df.iloc[i, df.columns.get_loc("setting_latitude")] = lat
                 df.iloc[i, df.columns.get_loc("setting_longitude")] = lon
 
+        # Enhanced coordinate mapping for more books
+        def enhance_coordinates(row):
+            """Enhanced coordinate assignment based on various book attributes."""
+            if pd.notna(row['setting_latitude']) and pd.notna(row['setting_longitude']):
+                return row['setting_latitude'], row['setting_longitude']
+            
+            # Map based on author nationality or common book settings
+            title = str(row['title']).lower()
+            author = str(row['author']).lower()
+            
+            # English/British authors
+            if any(name in author for name in ['shakespeare', 'dickens', 'austen', 'bronte', 'wilde', 'carroll', 'woolf', 'orwell', 'tolkien']):
+                return 51.5074, -0.1278  # London
+            
+            # American authors
+            if any(name in author for name in ['twain', 'hemingway', 'faulkner', 'steinbeck', 'fitzgerald', 'salinger', 'morrison']):
+                return 40.7128, -74.0060  # New York
+            
+            # Russian authors
+            if any(name in author for name in ['tolstoy', 'dostoevsky', 'chekhov', 'gogol', 'pushkin', 'turgenev']):
+                return 55.7558, 37.6173  # Moscow
+            
+            # French authors
+            if any(name in author for name in ['hugo', 'dumas', 'flaubert', 'proust', 'camus', 'sartre']):
+                return 48.8566, 2.3522  # Paris
+            
+            # German authors
+            if any(name in author for name in ['goethe', 'mann', 'kafka', 'hesse', 'grass']):
+                return 52.5200, 13.4050  # Berlin
+            
+            # Italian authors
+            if any(name in author for name in ['dante', 'boccaccio', 'calvino', 'eco']):
+                return 41.9028, 12.4964  # Rome
+            
+            # Spanish/Latin American authors
+            if any(name in author for name in ['cervantes', 'garcía márquez', 'borges', 'rulfo', 'allende']):
+                if 'márquez' in author or 'garcia' in author:
+                    return 10.4806, -73.2531  # Colombia
+                return 40.4168, -3.7038  # Madrid
+            
+            # Japanese authors
+            if any(name in author for name in ['kawabata', 'mishima', 'murakami', 'tanizaki', 'soseki']):
+                return 35.6762, 139.6503  # Tokyo
+            
+            # Ancient/Classical works
+            if any(name in author for name in ['homer', 'sophocles', 'euripides', 'aristophanes']):
+                return 37.9755, 23.7348  # Athens
+            
+            if any(name in author for name in ['virgil', 'ovid', 'apuleius']):
+                return 41.9028, 12.4964  # Rome
+            
+            # Title-based mapping for famous works
+            if 'arabian nights' in title or 'thousand and one nights' in title:
+                return 33.3152, 44.3661  # Baghdad
+            
+            if 'bible' in title or 'torah' in title:
+                return 31.7683, 35.2137  # Jerusalem
+            
+            if 'gilgamesh' in title:
+                return 31.3236, 45.6367  # Ancient Mesopotamia
+            
+            if 'mahabharata' in title or 'ramayana' in title:
+                return 28.6139, 77.2090  # Delhi
+            
+            # Default to a neutral location if nothing else matches
+            return None, None
+        
+        # Apply enhanced coordinate mapping
+        enhanced_coords = df.apply(enhance_coordinates, axis=1)
+        for i, (lat, lon) in enumerate(enhanced_coords):
+            if lat is not None and lon is not None and (pd.isna(df.iloc[i]['setting_latitude']) or pd.isna(df.iloc[i]['setting_longitude'])):
+                df.iloc[i, df.columns.get_loc("setting_latitude")] = lat
+                df.iloc[i, df.columns.get_loc("setting_longitude")] = lon
+
         # Determine if setting is fictional or metaphysical
         df["is_fictional"] = df["setting_name"].apply(
             lambda x: any(keyword in str(x) for keyword in 
