@@ -93,6 +93,9 @@ def load_book_data():
         
         # Remove duplicates keeping first occurrence
         df = df.drop_duplicates(subset=['title', 'author'], keep='first')
+        
+        # Convert years to integers to remove .0 decimal places
+        df['year'] = pd.to_numeric(df['year'], errors='coerce').fillna(0).astype(int)
 
         # Enhanced coordinate extraction with intelligent mapping
         def safe_extract_coordinate(location, index):
