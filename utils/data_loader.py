@@ -85,15 +85,14 @@ def load_book_data():
         # Convert to DataFrame for easier manipulation
         df = pd.DataFrame(data["books"])
         
-        # Clean the data - remove entries with null titles or authors
+        # Clean the data more carefully - only remove entries with truly null/empty titles or authors
         df = df.dropna(subset=['title', 'author'])
-        
-        # Clean up malformed entries (where title/author got split incorrectly)
-        df = df[df['title'].str.len() > 1]  # Remove single character titles
-        df = df[df['author'].str.len() > 1]  # Remove single character authors
+        df = df[df['title'].notna() & df['author'].notna()]
+        df = df[df['title'].str.strip().str.len() > 0]
+        df = df[df['author'].str.strip().str.len() > 0]
         
         # Remove duplicates keeping first occurrence
-        df = df.drop_duplicates(subset=['title', 'author'])
+        df = df.drop_duplicates(subset=['title', 'author'], keep='first')
 
         # Enhanced coordinate extraction with intelligent mapping
         def safe_extract_coordinate(location, index):
@@ -200,33 +199,34 @@ def load_book_data():
             # Map based on author nationality or common book settings
             title = str(row['title']).lower()
             author = str(row['author']).lower()
+            setting_name = str(row.get('setting_name', '')).lower()
             
-            # English/British authors
-            if any(name in author for name in ['shakespeare', 'dickens', 'austen', 'bronte', 'wilde', 'carroll', 'woolf', 'orwell', 'tolkien']):
+            # English/British authors and locations
+            if any(name in author for name in ['shakespeare', 'dickens', 'austen', 'bronte', 'wilde', 'carroll', 'woolf', 'orwell', 'tolkien', 'conrad', 'defoe', 'swift', 'milton']):
                 return 51.5074, -0.1278  # London
             
             # American authors
-            if any(name in author for name in ['twain', 'hemingway', 'faulkner', 'steinbeck', 'fitzgerald', 'salinger', 'morrison']):
+            if any(name in author for name in ['twain', 'hemingway', 'faulkner', 'steinbeck', 'fitzgerald', 'salinger', 'morrison', 'melville', 'hawthorne', 'poe', 'whitman', 'cather', 'o\'connor', 'mccarthy']):
                 return 40.7128, -74.0060  # New York
             
             # Russian authors
-            if any(name in author for name in ['tolstoy', 'dostoevsky', 'chekhov', 'gogol', 'pushkin', 'turgenev']):
+            if any(name in author for name in ['tolstoy', 'dostoevsky', 'chekhov', 'gogol', 'pushkin', 'turgenev', 'bulgakov']):
                 return 55.7558, 37.6173  # Moscow
             
             # French authors
-            if any(name in author for name in ['hugo', 'dumas', 'flaubert', 'proust', 'camus', 'sartre']):
+            if any(name in author for name in ['hugo', 'dumas', 'flaubert', 'proust', 'camus', 'sartre', 'balzac', 'stendhal', 'voltaire']):
                 return 48.8566, 2.3522  # Paris
             
             # German authors
-            if any(name in author for name in ['goethe', 'mann', 'kafka', 'hesse', 'grass']):
+            if any(name in author for name in ['goethe', 'mann', 'kafka', 'hesse', 'grass', 'hoffmann', 'musil']):
                 return 52.5200, 13.4050  # Berlin
             
             # Italian authors
-            if any(name in author for name in ['dante', 'boccaccio', 'calvino', 'eco']):
+            if any(name in author for name in ['dante', 'boccaccio', 'calvino', 'eco', 'lampedusa']):
                 return 41.9028, 12.4964  # Rome
             
             # Spanish/Latin American authors
-            if any(name in author for name in ['cervantes', 'garcía márquez', 'borges', 'rulfo', 'allende']):
+            if any(name in author for name in ['cervantes', 'garcía márquez', 'borges', 'rulfo', 'allende', 'márquez', 'garcia']):
                 if 'márquez' in author or 'garcia' in author:
                     return 10.4806, -73.2531  # Colombia
                 return 40.4168, -3.7038  # Madrid
@@ -235,12 +235,55 @@ def load_book_data():
             if any(name in author for name in ['kawabata', 'mishima', 'murakami', 'tanizaki', 'soseki']):
                 return 35.6762, 139.6503  # Tokyo
             
+            # Chinese authors
+            if any(name in author for name in ['cao', 'xueqin', 'lu xun', 'mo yan']):
+                return 39.9042, 116.4074  # Beijing
+            
+            # Indian authors
+            if any(name in author for name in ['kālidāsa', 'vyasa', 'tagore', 'rushdie']):
+                return 28.6139, 77.2090  # Delhi
+            
+            # Irish authors
+            if any(name in author for name in ['joyce', 'wilde', 'yeats', 'beckett']):
+                return 53.3498, -6.2603  # Dublin
+            
+            # Portuguese/Brazilian authors
+            if any(name in author for name in ['pessoa', 'saramago', 'machado']):
+                return 38.7223, -9.1393  # Lisbon
+            
+            # Norwegian/Scandinavian authors
+            if any(name in author for name in ['ibsen', 'hamsun', 'knausgård']):
+                return 59.9139, 10.7522  # Oslo
+            
+            # Czech authors
+            if any(name in author for name in ['kafka', 'kundera', 'havel']):
+                return 50.0755, 14.4378  # Prague
+            
+            # Austrian authors
+            if any(name in author for name in ['musil', 'zweig']):
+                return 48.2082, 16.3738  # Vienna
+            
             # Ancient/Classical works
             if any(name in author for name in ['homer', 'sophocles', 'euripides', 'aristophanes']):
                 return 37.9755, 23.7348  # Athens
             
             if any(name in author for name in ['virgil', 'ovid', 'apuleius']):
                 return 41.9028, 12.4964  # Rome
+            
+            # Anonymous works by region/culture
+            if 'anonymous' in author:
+                if any(term in title for term in ['arabian', 'nights', 'thousand']):
+                    return 33.3152, 44.3661  # Baghdad
+                elif any(term in title for term in ['sundiata', 'mali']):
+                    return 12.6392, -8.0029  # Mali
+                elif any(term in title for term in ['dede', 'korkut', 'turkish']):
+                    return 39.7753, 64.4232  # Central Asia
+                elif any(term in title for term in ['job', 'hebrew']):
+                    return 31.7683, 35.2137  # Jerusalem
+                elif any(term in title for term in ['dead', 'egypt']):
+                    return 25.6872, 32.6396  # Egypt
+                elif any(term in title for term in ['heike', 'japan']):
+                    return 35.0116, 135.7681  # Kyoto
             
             # Title-based mapping for famous works
             if 'arabian nights' in title or 'thousand and one nights' in title:
@@ -255,8 +298,33 @@ def load_book_data():
             if 'mahabharata' in title or 'ramayana' in title:
                 return 28.6139, 77.2090  # Delhi
             
-            # Default to a neutral location if nothing else matches
-            return None, None
+            # Setting-based mapping
+            if setting_name and setting_name != 'unknown':
+                if 'london' in setting_name:
+                    return 51.5074, -0.1278
+                elif 'paris' in setting_name:
+                    return 48.8566, 2.3522
+                elif 'new york' in setting_name:
+                    return 40.7128, -74.0060
+                elif 'dublin' in setting_name:
+                    return 53.3498, -6.2603
+                elif 'moscow' in setting_name:
+                    return 55.7558, 37.6173
+                elif 'rome' in setting_name:
+                    return 41.9028, 12.4964
+                elif 'berlin' in setting_name:
+                    return 52.5200, 13.4050
+                elif 'madrid' in setting_name:
+                    return 40.4168, -3.7038
+                elif 'vienna' in setting_name:
+                    return 48.2082, 16.3738
+                elif 'tokyo' in setting_name:
+                    return 35.6762, 139.6503
+                elif 'beijing' in setting_name:
+                    return 39.9042, 116.4074
+            
+            # Default to a central location for unmapped books
+            return 48.8566, 2.3522  # Paris as default
         
         # Apply enhanced coordinate mapping
         enhanced_coords = df.apply(enhance_coordinates, axis=1)
