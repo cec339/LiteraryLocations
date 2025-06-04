@@ -662,6 +662,643 @@
       },
       "summary": "A modern American transported to medieval England brings technology and democracy.",
       "historical_context": "Twain's satire comparing American progress with medieval superstition."
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "year": 1851,
+      "century": 19,
+      "location": {
+        "name": "Atlantic Ocean",
+        "coordinates": [40.0000, -30.0000],
+        "type": "primary"
+      },
+      "summary": "Captain Ahab's obsessive quest to kill the white whale that destroyed his leg.",
+      "historical_context": "Melville's exploration of obsession, fate, and the American whaling industry."
+    },
+    {
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "year": 1850,
+      "century": 19,
+      "location": {
+        "name": "Salem, Massachusetts",
+        "coordinates": [42.5195, -70.8967],
+        "type": "primary"
+      },
+      "summary": "Hester Prynne bears the shame of adultery in Puritan New England.",
+      "historical_context": "Hawthorne's critique of Puritan moral rigidity and social hypocrisy."
+    },
+    {
+      "title": "The House of Seven Gables",
+      "author": "Nathaniel Hawthorne",
+      "year": 1851,
+      "century": 19,
+      "location": {
+        "name": "Salem, Massachusetts",
+        "coordinates": [42.5195, -70.8967],
+        "type": "primary"
+      },
+      "summary": "A cursed family confronts its dark past in a haunted ancestral home.",
+      "historical_context": "Gothic romance exploring guilt, redemption, and New England history."
+    },
+    {
+      "title": "Bartleby, the Scrivener",
+      "author": "Herman Melville",
+      "year": 1853,
+      "century": 19,
+      "location": {
+        "name": "Wall Street, New York",
+        "coordinates": [40.7074, -74.0113],
+        "type": "primary"
+      },
+      "summary": "A copyist's passive resistance confounds his employer and reveals modern alienation.",
+      "historical_context": "Melville's critique of capitalist dehumanization and urban isolation."
+    },
+    {
+      "title": "Billy Budd",
+      "author": "Herman Melville",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "British Naval Ship",
+        "coordinates": [50.0000, -10.0000],
+        "type": "primary"
+      },
+      "summary": "An innocent sailor's tragic fate aboard a warship explores good, evil, and justice.",
+      "historical_context": "Melville's final work examining moral complexity and natural law."
+    },
+    {
+      "title": "The Red Badge of Courage",
+      "author": "Stephen Crane",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "Civil War Battlefield",
+        "coordinates": [38.0000, -77.5000],
+        "type": "primary"
+      },
+      "summary": "A young soldier confronts fear and courage during his first battle.",
+      "historical_context": "Crane's realistic depiction of war's psychological impact on soldiers."
+    },
+    {
+      "title": "Sister Carrie",
+      "author": "Theodore Dreiser",
+      "year": 1900,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois",
+        "coordinates": [41.8781, -87.6298],
+        "type": "primary"
+      },
+      "summary": "A country girl pursues success and love in the industrial city.",
+      "historical_context": "Dreiser's naturalistic novel capturing urban America's opportunities and corruption."
+    },
+    {
+      "title": "An American Tragedy",
+      "author": "Theodore Dreiser",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "Upstate New York",
+        "coordinates": [43.0000, -75.0000],
+        "type": "primary"
+      },
+      "summary": "Clyde Griffiths' pursuit of wealth and status leads to murder and execution.",
+      "historical_context": "Dreiser's critique of American materialism and class inequality."
+    },
+    {
+      "title": "Main Street",
+      "author": "Sinclair Lewis",
+      "year": 1920,
+      "century": 20,
+      "location": {
+        "name": "Small Town Minnesota",
+        "coordinates": [45.0000, -93.0000],
+        "type": "primary"
+      },
+      "summary": "Carol Kennicott struggles against small-town conformity and narrow-mindedness.",
+      "historical_context": "Lewis' satirical portrait of American provincialism and cultural stagnation."
+    },
+    {
+      "title": "Babbitt",
+      "author": "Sinclair Lewis",
+      "year": 1922,
+      "century": 20,
+      "location": {
+        "name": "Zenith, Ohio",
+        "coordinates": [40.0000, -83.0000],
+        "type": "primary"
+      },
+      "summary": "A middle-class businessman questions his materialistic values and conformist life.",
+      "historical_context": "Lewis' critique of American business culture and suburban complacency."
+    },
+    {
+      "title": "Arrowsmith",
+      "author": "Sinclair Lewis",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "Midwest America",
+        "coordinates": [40.0000, -85.0000],
+        "type": "primary"
+      },
+      "summary": "A doctor struggles between scientific idealism and commercial pressures.",
+      "historical_context": "Lewis' exploration of medical ethics and scientific integrity in America."
+    },
+    {
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "Paris and Pamplona",
+        "coordinates": [48.8566, 2.3522],
+        "type": "primary"
+      },
+      "summary": "Lost Generation expatriates seek meaning through love, war, and bullfighting.",
+      "historical_context": "Hemingway's portrait of post-WWI disillusionment and moral emptiness."
+    },
+    {
+      "title": "A Farewell to Arms",
+      "author": "Ernest Hemingway",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Italian Front, WWI",
+        "coordinates": [45.8000, 11.0000],
+        "type": "primary"
+      },
+      "summary": "An American ambulance driver's love affair during World War I ends in tragedy.",
+      "historical_context": "Hemingway's semi-autobiographical war novel exploring love and loss."
+    },
+    {
+      "title": "For Whom the Bell Tolls",
+      "author": "Ernest Hemingway",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Spanish Civil War",
+        "coordinates": [40.4168, -3.7038],
+        "type": "primary"
+      },
+      "summary": "Robert Jordan fights with Spanish guerrillas in a doomed mission.",
+      "historical_context": "Hemingway's anti-fascist novel based on his Spanish Civil War experiences."
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Cuban Waters",
+        "coordinates": [23.0000, -82.0000],
+        "type": "primary"
+      },
+      "summary": "An aging fisherman's epic struggle with a giant marlin tests his endurance.",
+      "historical_context": "Hemingway's parable of courage, dignity, and man versus nature."
+    },
+    {
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Yoknapatawpha County, Mississippi",
+        "coordinates": [34.3015, -89.5010],
+        "type": "primary"
+      },
+      "summary": "The Compson family's decline reflects the collapse of the Old South.",
+      "historical_context": "Faulkner's modernist masterpiece exploring Southern decay and consciousness."
+    },
+    {
+      "title": "As I Lay Dying",
+      "author": "William Faulkner",
+      "year": 1930,
+      "century": 20,
+      "location": {
+        "name": "Rural Mississippi",
+        "coordinates": [32.5000, -89.5000],
+        "type": "primary"
+      },
+      "summary": "The Bundren family's journey to bury their matriarch becomes an odyssey of dysfunction.",
+      "historical_context": "Faulkner's dark comedy examining poverty, family, and death in the South."
+    },
+    {
+      "title": "Light in August",
+      "author": "William Faulkner",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "Jefferson, Mississippi",
+        "coordinates": [32.0000, -90.0000],
+        "type": "primary"
+      },
+      "summary": "Joe Christmas's tragic story explores race, identity, and violence in the South.",
+      "historical_context": "Faulkner's examination of racial prejudice and Southern social pathology."
+    },
+    {
+      "title": "Absalom, Absalom!",
+      "author": "William Faulkner",
+      "year": 1936,
+      "century": 20,
+      "location": {
+        "name": "Mississippi Delta",
+        "coordinates": [33.0000, -90.5000],
+        "type": "primary"
+      },
+      "summary": "Thomas Sutpen's rise and fall embodies the antebellum South's tragic ambitions.",
+      "historical_context": "Faulkner's complex narrative exploring slavery, family, and Southern history."
+    },
+    {
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "year": 1939,
+      "century": 20,
+      "location": {
+        "name": "Oklahoma to California",
+        "coordinates": [35.0000, -97.0000],
+        "type": "primary"
+      },
+      "summary": "The Joad family's migration during the Dust Bowl reveals America's economic injustice.",
+      "historical_context": "Steinbeck's social protest novel documenting Depression-era displacement."
+    },
+    {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Salinas Valley, California",
+        "coordinates": [36.6777, -121.6555],
+        "type": "primary"
+      },
+      "summary": "George and Lennie's friendship ends in tragedy on a Depression-era ranch.",
+      "historical_context": "Steinbeck's compassionate portrayal of migrant workers and broken dreams."
+    },
+    {
+      "title": "East of Eden",
+      "author": "John Steinbeck",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Salinas Valley, California",
+        "coordinates": [36.6777, -121.6555],
+        "type": "primary"
+      },
+      "summary": "The Trask and Hamilton families' saga explores good and evil across generations.",
+      "historical_context": "Steinbeck's ambitious family epic spanning California's agricultural development."
+    },
+    {
+      "title": "Cannery Row",
+      "author": "John Steinbeck",
+      "year": 1945,
+      "century": 20,
+      "location": {
+        "name": "Monterey, California",
+        "coordinates": [36.6002, -121.8947],
+        "type": "primary"
+      },
+      "summary": "Doc and his colorful neighbors find meaning in a sardine cannery district.",
+      "historical_context": "Steinbeck's affectionate portrait of working-class community and resilience."
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "New York City",
+        "coordinates": [40.7128, -74.0060],
+        "type": "primary"
+      },
+      "summary": "Holden Caulfield's weekend in New York explores teenage alienation and authenticity.",
+      "historical_context": "Salinger's coming-of-age classic capturing post-war American youth culture."
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": 1960,
+      "century": 20,
+      "location": {
+        "name": "Alabama",
+        "coordinates": [32.3668, -86.3000],
+        "type": "primary"
+      },
+      "summary": "Scout Finch witnesses her father defend a Black man in Depression-era Alabama.",
+      "historical_context": "Lee's exploration of racial injustice and moral courage in the American South."
+    },
+    {
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "year": 1987,
+      "century": 20,
+      "location": {
+        "name": "Post-Civil War Ohio",
+        "coordinates": [39.9612, -82.9988],
+        "type": "primary"
+      },
+      "summary": "Sethe confronts the ghost of her murdered daughter and the trauma of slavery.",
+      "historical_context": "Morrison's powerful examination of slavery's lasting psychological wounds."
+    },
+    {
+      "title": "Song of Solomon",
+      "author": "Toni Morrison",
+      "year": 1977,
+      "century": 20,
+      "location": {
+        "name": "Michigan and Pennsylvania",
+        "coordinates": [42.3314, -84.5467],
+        "type": "primary"
+      },
+      "summary": "Milkman Dead's journey to discover his family history and cultural roots.",
+      "historical_context": "Morrison's exploration of African American identity and cultural heritage."
+    },
+    {
+      "title": "The Bluest Eye",
+      "author": "Toni Morrison",
+      "year": 1970,
+      "century": 20,
+      "location": {
+        "name": "Lorain, Ohio",
+        "coordinates": [41.4528, -82.1793],
+        "type": "primary"
+      },
+      "summary": "Pecola Breedlove's desire for blue eyes reveals the destructive power of beauty standards.",
+      "historical_context": "Morrison's debut novel examining internalized racism and self-hatred."
+    },
+    {
+      "title": "The Adventures of Augie March",
+      "author": "Saul Bellow",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois",
+        "coordinates": [41.8781, -87.6298],
+        "type": "primary"
+      },
+      "summary": "Augie March's picaresque journey through Depression-era America.",
+      "historical_context": "Bellow's exuberant novel celebrating American individualism and possibility."
+    },
+    {
+      "title": "Herzog",
+      "author": "Saul Bellow",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "Chicago and New York",
+        "coordinates": [41.8781, -87.6298],
+        "type": "primary"
+      },
+      "summary": "Moses Herzog's intellectual crisis leads to mental letters and self-discovery.",
+      "historical_context": "Bellow's portrait of modern intellectual anxiety and middle-aged crisis."
+    },
+    {
+      "title": "Humboldt's Gift",
+      "author": "Saul Bellow",
+      "year": 1975,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois",
+        "coordinates": [41.8781, -87.6298],
+        "type": "primary"
+      },
+      "summary": "Charlie Citrine reflects on friendship, art, and material success.",
+      "historical_context": "Bellow's meditation on American culture and the artist's place in society."
+    },
+    {
+      "title": "American Pastoral",
+      "author": "Philip Roth",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Newark, New Jersey",
+        "coordinates": [40.7282, -74.1776],
+        "type": "primary"
+      },
+      "summary": "Swede Levov's American dream collapses when his daughter becomes a terrorist.",
+      "historical_context": "Roth's examination of 1960s social upheaval and the fracturing of American ideals."
+    },
+    {
+      "title": "Portnoy's Complaint",
+      "author": "Philip Roth",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Newark, New Jersey",
+        "coordinates": [40.7282, -74.1776],
+        "type": "primary"
+      },
+      "summary": "Alexander Portnoy's sexual confessions explore Jewish-American identity and guilt.",
+      "historical_context": "Roth's controversial novel challenging taboos around sexuality and ethnicity."
+    },
+    {
+      "title": "The Human Stain",
+      "author": "Philip Roth",
+      "year": 2000,
+      "century": 21,
+      "location": {
+        "name": "New England",
+        "coordinates": [43.0000, -71.5000],
+        "type": "primary"
+      },
+      "summary": "Coleman Silk's secret past destroys his academic career and exposes racial hypocrisy.",
+      "historical_context": "Roth's exploration of identity, race, and political correctness in 1990s America."
+    },
+    {
+      "title": "White Noise",
+      "author": "Don DeLillo",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Small College Town",
+        "coordinates": [40.7128, -74.0060],
+        "type": "primary"
+      },
+      "summary": "Jack Gladney confronts mortality and media saturation in suburban America.",
+      "historical_context": "DeLillo's postmodern satire of consumer culture and information overload."
+    },
+    {
+      "title": "Libra",
+      "author": "Don DeLillo",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "Dallas, Texas",
+        "coordinates": [32.7767, -96.7970],
+        "type": "primary"
+      },
+      "summary": "A fictional account of Lee Harvey Oswald and the Kennedy assassination conspiracy.",
+      "historical_context": "DeLillo's exploration of conspiracy, history, and American violence."
+    },
+    {
+      "title": "Underworld",
+      "author": "Don DeLillo",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Cold War America",
+        "coordinates": [40.7128, -74.0060],
+        "type": "primary"
+      },
+      "summary": "Nick Shay's life intersects with Cold War paranoia and consumer culture.",
+      "historical_context": "DeLillo's epic novel examining American life during the nuclear age."
+    },
+    {
+      "title": "Gravity's Rainbow",
+      "author": "Thomas Pynchon",
+      "year": 1973,
+      "century": 20,
+      "location": {
+        "name": "WWII Europe",
+        "coordinates": [52.5200, 13.4050],
+        "type": "primary"
+      },
+      "summary": "Tyrone Slothrop's quest connects rocket technology with paranoid conspiracies.",
+      "historical_context": "Pynchon's postmodern masterpiece examining technology, control, and chaos."
+    },
+    {
+      "title": "The Crying of Lot 49",
+      "author": "Thomas Pynchon",
+      "year": 1966,
+      "century": 20,
+      "location": {
+        "name": "California",
+        "coordinates": [36.7783, -119.4179],
+        "type": "primary"
+      },
+      "summary": "Oedipa Maas discovers a mysterious postal conspiracy in suburban California.",
+      "historical_context": "Pynchon's paranoid novel exploring communication, entropy, and meaning."
+    },
+    {
+      "title": "Mason & Dixon",
+      "author": "Thomas Pynchon",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Colonial America",
+        "coordinates": [39.5000, -76.0000],
+        "type": "primary"
+      },
+      "summary": "The surveyors who drew the Mason-Dixon line explore America's emerging boundaries.",
+      "historical_context": "Pynchon's historical novel examining American expansion and scientific rationality."
+    },
+    {
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Dresden, Germany",
+        "coordinates": [51.0504, 13.7373],
+        "type": "primary"
+      },
+      "summary": "Billy Pilgrim experiences time travel and alien abduction after surviving Dresden's bombing.",
+      "historical_context": "Vonnegut's anti-war satire based on his Dresden bombing experience."
+    },
+    {
+      "title": "Cat's Cradle",
+      "author": "Kurt Vonnegut",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Caribbean Island",
+        "coordinates": [18.0000, -77.0000],
+        "type": "primary"
+      },
+      "summary": "A deadly invention threatens humanity while religion provides false comfort.",
+      "historical_context": "Vonnegut's satire of scientific hubris and religious manipulation."
+    },
+    {
+      "title": "Breakfast of Champions",
+      "author": "Kurt Vonnegut",
+      "year": 1973,
+      "century": 20,
+      "location": {
+        "name": "Midland City",
+        "coordinates": [40.0000, -85.0000],
+        "type": "primary"
+      },
+      "summary": "Kilgore Trout and Dwayne Hoover's meeting triggers a mental breakdown and social critique.",
+      "historical_context": "Vonnegut's darkly comic examination of American materialism and mental illness."
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Dystopian Future City",
+        "coordinates": [34.0522, -118.2437],
+        "type": "publication"
+      },
+      "summary": "Guy Montag rebels against a society that burns books and suppresses knowledge.",
+      "historical_context": "Bradbury's warning about censorship, television, and intellectual conformity."
+    },
+    {
+      "title": "The Martian Chronicles",
+      "author": "Ray Bradbury",
+      "year": 1950,
+      "century": 20,
+      "location": {
+        "name": "Mars",
+        "coordinates": [34.0522, -118.2437],
+        "type": "publication"
+      },
+      "summary": "Humans colonize Mars while destroying its native civilization and culture.",
+      "historical_context": "Bradbury's allegory of American expansion and cultural imperialism."
+    },
+    {
+      "title": "Something Wicked This Way Comes",
+      "author": "Ray Bradbury",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Small Town Illinois",
+        "coordinates": [40.0000, -89.0000],
+        "type": "primary"
+      },
+      "summary": "Two boys confront an evil carnival that feeds on human desires and fears.",
+      "historical_context": "Bradbury's dark fantasy exploring adolescence, temptation, and small-town America."
+    },
+    {
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Planet Gethen",
+        "coordinates": [45.5152, -122.6784],
+        "type": "publication"
+      },
+      "summary": "An envoy studies a world where inhabitants can change gender at will.",
+      "historical_context": "Le Guin's groundbreaking science fiction exploring gender, politics, and alienation."
+    },
+    {
+      "title": "The Dispossessed",
+      "author": "Ursula K. Le Guin",
+      "year": 1974,
+      "century": 20,
+      "location": {
+        "name": "Twin Planets",
+        "coordinates": [45.5152, -122.6784],
+        "type": "publication"
+      },
+      "summary": "A physicist travels between capitalist and anarchist worlds seeking scientific freedom.",
+      "historical_context": "Le Guin's utopian novel examining political systems and social organization."
+    },
+    {
+      "title": "A Wizard of Earthsea",
+      "author": "Ursula K. Le Guin",
+      "year": 1968,
+      "century": 20,
+      "location": {
+        "name": "Earthsea Archipelago",
+        "coordinates": [45.5152, -122.6784],
+        "type": "publication"
+      },
+      "summary": "Ged the wizard confronts his shadow and learns the responsibility of power.",
+      "historical_context": "Le Guin's fantasy masterpiece exploring coming-of-age and moral responsibility."
     }
   ]
 }
