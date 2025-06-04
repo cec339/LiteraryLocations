@@ -1299,6 +1299,630 @@
       },
       "summary": "Ged the wizard confronts his shadow and learns the responsibility of power.",
       "historical_context": "Le Guin's fantasy masterpiece exploring coming-of-age and moral responsibility."
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "year": 1967,
+      "century": 20,
+      "location": {
+        "name": "Macondo, Colombia",
+        "coordinates": [10.3910, -75.4794],
+        "type": "primary"
+      },
+      "summary": "The Buendía family's saga spans a century in the magical town of Macondo.",
+      "historical_context": "García Márquez's masterpiece of magical realism chronicling Latin American history."
+    },
+    {
+      "title": "Love in the Time of Cholera",
+      "author": "Gabriel García Márquez",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Caribbean Coast, Colombia",
+        "coordinates": [10.3910, -75.4794],
+        "type": "primary"
+      },
+      "summary": "Florentino Ariza waits fifty years to declare his love for Fermina Daza.",
+      "historical_context": "García Márquez's exploration of love, aging, and Caribbean culture."
+    },
+    {
+      "title": "The House of the Spirits",
+      "author": "Isabel Allende",
+      "year": 1982,
+      "century": 20,
+      "location": {
+        "name": "Chile",
+        "coordinates": [-33.4489, -70.6693],
+        "type": "primary"
+      },
+      "summary": "Four generations of women navigate political upheaval and family secrets.",
+      "historical_context": "Allende's debut novel chronicling Chilean political history through magical realism."
+    },
+    {
+      "title": "Hopscotch",
+      "author": "Julio Cortázar",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Paris and Buenos Aires",
+        "coordinates": [48.8566, 2.3522],
+        "type": "primary"
+      },
+      "summary": "Horacio Oliveira's philosophical quest can be read in multiple sequences.",
+      "historical_context": "Cortázar's experimental novel challenging traditional narrative structure."
+    },
+    {
+      "title": "The Death of Artemio Cruz",
+      "author": "Carlos Fuentes",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Mexico",
+        "coordinates": [19.4326, -99.1332],
+        "type": "primary"
+      },
+      "summary": "A dying revolutionary reflects on Mexico's betrayed promises.",
+      "historical_context": "Fuentes' critique of post-revolutionary Mexican corruption and idealism."
+    },
+    {
+      "title": "The Labyrinth of Solitude",
+      "author": "Octavio Paz",
+      "year": 1950,
+      "century": 20,
+      "location": {
+        "name": "Mexico",
+        "coordinates": [19.4326, -99.1332],
+        "type": "primary"
+      },
+      "summary": "Paz explores Mexican national character, identity, and cultural psychology.",
+      "historical_context": "Essential essay collection examining Mexican cultural identity and history."
+    },
+    {
+      "title": "Ficciones",
+      "author": "Jorge Luis Borges",
+      "year": 1944,
+      "century": 20,
+      "location": {
+        "name": "Various Fictional Locations",
+        "coordinates": [-34.6118, -58.3960],
+        "type": "publication"
+      },
+      "summary": "Short stories exploring labyrinths, libraries, and infinite possibilities.",
+      "historical_context": "Borges' influential collection establishing magical realist and metafictional traditions."
+    },
+    {
+      "title": "Labyrinths",
+      "author": "Jorge Luis Borges",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Various Fictional Locations",
+        "coordinates": [-34.6118, -58.3960],
+        "type": "publication"
+      },
+      "summary": "Essays and stories blending philosophy, literature, and mathematical concepts.",
+      "historical_context": "Borges' exploration of infinite libraries, mirrors, and metaphysical puzzles."
+    },
+    {
+      "title": "The Aleph",
+      "author": "Jorge Luis Borges",
+      "year": 1949,
+      "century": 20,
+      "location": {
+        "name": "Buenos Aires and Various",
+        "coordinates": [-34.6118, -58.3960],
+        "type": "primary"
+      },
+      "summary": "Stories exploring infinity, memory, and the nature of reality.",
+      "historical_context": "Borges' mature fiction examining philosophical and literary paradoxes."
+    },
+    {
+      "title": "Conversation in the Cathedral",
+      "author": "Mario Vargas Llosa",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Lima, Peru",
+        "coordinates": [-12.0464, -77.0428],
+        "type": "primary"
+      },
+      "summary": "A four-hour conversation reveals the corruption of Peruvian society.",
+      "historical_context": "Vargas Llosa's panoramic critique of dictatorship and social decay."
+    },
+    {
+      "title": "The Time of the Hero",
+      "author": "Mario Vargas Llosa",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Lima, Peru",
+        "coordinates": [-12.0464, -77.0428],
+        "type": "primary"
+      },
+      "summary": "Cadets at a military academy navigate violence, honor, and corruption.",
+      "historical_context": "Vargas Llosa's debut novel exposing military education's brutality."
+    },
+    {
+      "title": "The War of the End of the World",
+      "author": "Mario Vargas Llosa",
+      "year": 1981,
+      "century": 20,
+      "location": {
+        "name": "Bahia, Brazil",
+        "coordinates": [-12.9714, -38.5014],
+        "type": "primary"
+      },
+      "summary": "The Canudos War reveals fanaticism's power in Brazilian backlands.",
+      "historical_context": "Vargas Llosa's historical novel examining religious messianism and modernity."
+    },
+    {
+      "title": "The Hour of the Star",
+      "author": "Clarice Lispector",
+      "year": 1977,
+      "century": 20,
+      "location": {
+        "name": "Rio de Janeiro, Brazil",
+        "coordinates": [-22.9068, -43.1729],
+        "type": "primary"
+      },
+      "summary": "Macabéa's simple life reveals profound questions about existence and poverty.",
+      "historical_context": "Lispector's final novel examining urban alienation and social inequality."
+    },
+    {
+      "title": "Near to the Wild Heart",
+      "author": "Clarice Lispector",
+      "year": 1943,
+      "century": 20,
+      "location": {
+        "name": "Brazil",
+        "coordinates": [-22.9068, -43.1729],
+        "type": "primary"
+      },
+      "summary": "Joana's consciousness develops from childhood through womanhood.",
+      "historical_context": "Lispector's groundbreaking debut exploring female consciousness and identity."
+    },
+    {
+      "title": "The Passion According to G.H.",
+      "author": "Clarice Lispector",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "Rio de Janeiro, Brazil",
+        "coordinates": [-22.9068, -43.1729],
+        "type": "primary"
+      },
+      "summary": "G.H.'s encounter with a cockroach triggers existential revelation.",
+      "historical_context": "Lispector's philosophical novel exploring consciousness and metamorphosis."
+    },
+    {
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "year": 1899,
+      "century": 19,
+      "location": {
+        "name": "Rio de Janeiro, Brazil",
+        "coordinates": [-22.9068, -43.1729],
+        "type": "primary"
+      },
+      "summary": "Bento Santiago questions whether his wife Capitu committed adultery.",
+      "historical_context": "Machado's masterpiece of unreliable narration and psychological realism."
+    },
+    {
+      "title": "The Posthumous Memoirs of Brás Cubas",
+      "author": "Machado de Assis",
+      "year": 1881,
+      "century": 19,
+      "location": {
+        "name": "Rio de Janeiro, Brazil",
+        "coordinates": [-22.9068, -43.1729],
+        "type": "primary"
+      },
+      "summary": "A dead man narrates his life story with ironic detachment.",
+      "historical_context": "Machado's innovative novel critiquing Brazilian society and human nature."
+    },
+    {
+      "title": "Quincas Borba",
+      "author": "Machado de Assis",
+      "year": 1891,
+      "century": 19,
+      "location": {
+        "name": "Rio de Janeiro, Brazil",
+        "coordinates": [-22.9068, -43.1729],
+        "type": "primary"
+      },
+      "summary": "Rubião inherits wealth and philosophy from his mad friend Quincas Borba.",
+      "historical_context": "Machado's satire of Brazilian capitalism and social climbing."
+    },
+    {
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "year": 1958,
+      "century": 20,
+      "location": {
+        "name": "Nigeria",
+        "coordinates": [6.5244, 3.3792],
+        "type": "primary"
+      },
+      "summary": "Okonkwo's tragic fall parallels his tribe's destruction by colonialism.",
+      "historical_context": "Achebe's landmark novel depicting pre-colonial Igbo society and colonial impact."
+    },
+    {
+      "title": "No Longer at Ease",
+      "author": "Chinua Achebe",
+      "year": 1960,
+      "century": 20,
+      "location": {
+        "name": "Lagos, Nigeria",
+        "coordinates": [6.5244, 3.3792],
+        "type": "primary"
+      },
+      "summary": "Obi Okonkwo struggles between traditional values and modern corruption.",
+      "historical_context": "Achebe's sequel exploring post-independence Nigerian challenges."
+    },
+    {
+      "title": "Arrow of God",
+      "author": "Chinua Achebe",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "Nigeria",
+        "coordinates": [6.5244, 3.3792],
+        "type": "primary"
+      },
+      "summary": "Chief priest Ezeulu faces conflicts between tradition and colonial authority.",
+      "historical_context": "Achebe's complex examination of cultural collision and leadership."
+    },
+    {
+      "title": "Half of a Yellow Sun",
+      "author": "Chimamanda Ngozi Adichie",
+      "year": 2006,
+      "century": 21,
+      "location": {
+        "name": "Nigeria",
+        "coordinates": [6.5244, 3.3792],
+        "type": "primary"
+      },
+      "summary": "The Biafran War's devastation affects three interconnected lives.",
+      "historical_context": "Adichie's powerful novel about Nigerian civil war and its human cost."
+    },
+    {
+      "title": "Purple Hibiscus",
+      "author": "Chimamanda Ngozi Adichie",
+      "year": 2003,
+      "century": 21,
+      "location": {
+        "name": "Nigeria",
+        "coordinates": [6.5244, 3.3792],
+        "type": "primary"
+      },
+      "summary": "Kambili discovers freedom beyond her authoritarian father's control.",
+      "historical_context": "Adichie's debut exploring religious fundamentalism and family dynamics."
+    },
+    {
+      "title": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Kerala, India",
+        "coordinates": [10.8505, 76.2711],
+        "type": "primary"
+      },
+      "summary": "Rahel and Estha confront childhood trauma and caste prejudice.",
+      "historical_context": "Roy's debut novel examining Indian social hierarchies and forbidden love."
+    },
+    {
+      "title": "Midnight's Children",
+      "author": "Salman Rushdie",
+      "year": 1981,
+      "century": 20,
+      "location": {
+        "name": "India and Pakistan",
+        "coordinates": [20.5937, 78.9629],
+        "type": "primary"
+      },
+      "summary": "Saleem Sinai's life mirrors India's tumultuous independence and partition.",
+      "historical_context": "Rushdie's magical realist epic chronicling subcontinental political upheaval."
+    },
+    {
+      "title": "The Satanic Verses",
+      "author": "Salman Rushdie",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "London and Bombay",
+        "coordinates": [51.5074, -0.1278],
+        "type": "primary"
+      },
+      "summary": "Two actors survive a plane crash and undergo miraculous transformations.",
+      "historical_context": "Rushdie's controversial novel blending migration, faith, and identity."
+    },
+    {
+      "title": "The Moor's Last Sigh",
+      "author": "Salman Rushdie",
+      "year": 1995,
+      "century": 20,
+      "location": {
+        "name": "Bombay, India",
+        "coordinates": [19.0760, 72.8777],
+        "type": "primary"
+      },
+      "summary": "Moraes Zogoiby narrates his family's decline in cosmopolitan Bombay.",
+      "historical_context": "Rushdie's exploration of Indian pluralism and communal violence."
+    },
+    {
+      "title": "A Fine Balance",
+      "author": "Rohinton Mistry",
+      "year": 1995,
+      "century": 20,
+      "location": {
+        "name": "Bombay, India",
+        "coordinates": [19.0760, 72.8777],
+        "type": "primary"
+      },
+      "summary": "Four lives intersect during India's Emergency period of the 1970s.",
+      "historical_context": "Mistry's epic examining political oppression and human resilience."
+    },
+    {
+      "title": "Such a Long Journey",
+      "author": "Rohinton Mistry",
+      "year": 1991,
+      "century": 20,
+      "location": {
+        "name": "Bombay, India",
+        "coordinates": [19.0760, 72.8777],
+        "type": "primary"
+      },
+      "summary": "Gustad Noble's world crumbles during the 1971 Indo-Pakistani War.",
+      "historical_context": "Mistry's debut exploring Parsi community life and political upheaval."
+    },
+    {
+      "title": "The Guide",
+      "author": "R.K. Narayan",
+      "year": 1958,
+      "century": 20,
+      "location": {
+        "name": "Malgudi, India",
+        "coordinates": [12.9716, 77.5946],
+        "type": "primary"
+      },
+      "summary": "Railway Raju transforms from tour guide to spiritual leader.",
+      "historical_context": "Narayan's exploration of spirituality and deception in fictional Malgudi."
+    },
+    {
+      "title": "The Ramayana",
+      "author": "Valmiki",
+      "year": -300,
+      "century": -3,
+      "location": {
+        "name": "Ancient India",
+        "coordinates": [20.5937, 78.9629],
+        "type": "primary"
+      },
+      "summary": "Prince Rama's exile and quest to rescue Sita from demon king Ravana.",
+      "historical_context": "Ancient Sanskrit epic fundamental to Hindu culture and values."
+    },
+    {
+      "title": "The Tale of Genji",
+      "author": "Murasaki Shikibu",
+      "year": 1021,
+      "century": 11,
+      "location": {
+        "name": "Heian Court, Japan",
+        "coordinates": [35.0116, 135.7681],
+        "type": "primary"
+      },
+      "summary": "Prince Genji's romantic adventures in imperial Japan's golden age.",
+      "historical_context": "World's first psychological novel, depicting Heian period court culture."
+    },
+    {
+      "title": "Norwegian Wood",
+      "author": "Haruki Murakami",
+      "year": 1987,
+      "century": 20,
+      "location": {
+        "name": "Tokyo, Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "Toru Watanabe navigates love, loss, and coming-of-age in 1960s Tokyo.",
+      "historical_context": "Murakami's breakthrough novel capturing Japanese youth culture and alienation."
+    },
+    {
+      "title": "Hard-Boiled Wonderland and the End of the World",
+      "author": "Haruki Murakami",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Tokyo and Dream World",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "Parallel narratives explore consciousness, identity, and reality.",
+      "historical_context": "Murakami's surreal exploration of modern isolation and technological anxiety."
+    },
+    {
+      "title": "The Wind-Up Bird Chronicle",
+      "author": "Haruki Murakami",
+      "year": 1994,
+      "century": 20,
+      "location": {
+        "name": "Tokyo, Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "Toru Okada's search for his missing wife leads through surreal dimensions.",
+      "historical_context": "Murakami's complex novel examining Japanese history and personal identity."
+    },
+    {
+      "title": "Snow Country",
+      "author": "Yasunari Kawabata",
+      "year": 1948,
+      "century": 20,
+      "location": {
+        "name": "Japanese Alps",
+        "coordinates": [36.5000, 137.5000],
+        "type": "primary"
+      },
+      "summary": "Shimamura's affair with geisha Komako unfolds in snowy mountain spa town.",
+      "historical_context": "Kawabata's impressionistic novel exploring beauty, transience, and isolation."
+    },
+    {
+      "title": "Thousand Cranes",
+      "author": "Yasunari Kawabata",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "Kikuji inherits his father's tea ceremony world and romantic entanglements.",
+      "historical_context": "Kawabata's meditation on beauty, tradition, and moral complexity."
+    },
+    {
+      "title": "The Sound of Waves",
+      "author": "Yukio Mishima",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "Uta-jima Island, Japan",
+        "coordinates": [34.0000, 136.5000],
+        "type": "primary"
+      },
+      "summary": "Young fisherman Shinji's pure love overcomes social obstacles.",
+      "historical_context": "Mishima's romantic novel celebrating traditional Japanese values and natural beauty."
+    },
+    {
+      "title": "The Temple of the Golden Pavilion",
+      "author": "Yukio Mishima",
+      "year": 1956,
+      "century": 20,
+      "location": {
+        "name": "Kyoto, Japan",
+        "coordinates": [35.0116, 135.7681],
+        "type": "primary"
+      },
+      "summary": "A young monk's obsession with beauty leads to the temple's destruction.",
+      "historical_context": "Mishima's psychological novel based on the real burning of Kinkaku-ji temple."
+    },
+    {
+      "title": "Confessions of a Mask",
+      "author": "Yukio Mishima",
+      "year": 1949,
+      "century": 20,
+      "location": {
+        "name": "Tokyo, Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "Kochan's coming-of-age explores homosexuality and identity in post-war Japan.",
+      "historical_context": "Mishima's semi-autobiographical novel challenging Japanese social conformity."
+    },
+    {
+      "title": "The Sailor Who Fell from Grace with the Sea",
+      "author": "Yukio Mishima",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Yokohama, Japan",
+        "coordinates": [35.4437, 139.6380],
+        "type": "primary"
+      },
+      "summary": "A widow's romance with a sailor triggers her son's violent rebellion.",
+      "historical_context": "Mishima's disturbing tale examining honor, violence, and Western influence."
+    },
+    {
+      "title": "The Woman in the Dunes",
+      "author": "Kobo Abe",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Sand Dunes, Japan",
+        "coordinates": [35.5000, 139.0000],
+        "type": "primary"
+      },
+      "summary": "An entomologist becomes trapped in a sand pit with a mysterious woman.",
+      "historical_context": "Abe's existential allegory exploring confinement, identity, and human condition."
+    },
+    {
+      "title": "The Face of Another",
+      "author": "Kobo Abe",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "Tokyo, Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "A disfigured man's new face transforms his identity and relationships.",
+      "historical_context": "Abe's psychological novel examining identity, alienation, and human nature."
+    },
+    {
+      "title": "The Box Man",
+      "author": "Kobo Abe",
+      "year": 1973,
+      "century": 20,
+      "location": {
+        "name": "Tokyo, Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "A man living in a cardboard box questions reality and identity.",
+      "historical_context": "Abe's surreal exploration of urban alienation and social invisibility."
+    },
+    {
+      "title": "Kitchen",
+      "author": "Banana Yoshimoto",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "Tokyo, Japan",
+        "coordinates": [35.6762, 139.6503],
+        "type": "primary"
+      },
+      "summary": "Mikage finds solace in cooking after her grandmother's death.",
+      "historical_context": "Yoshimoto's contemporary novel exploring grief, family, and healing."
+    },
+    {
+      "title": "Red Sorghum",
+      "author": "Mo Yan",
+      "year": 1986,
+      "century": 20,
+      "location": {
+        "name": "Shandong Province, China",
+        "coordinates": [36.0000, 118.0000],
+        "type": "primary"
+      },
+      "summary": "Three generations resist Japanese occupation in rural China.",
+      "historical_context": "Mo Yan's epic chronicling Chinese resistance and rural transformation."
+    },
+    {
+      "title": "Life and Death Are Wearing Me Out",
+      "author": "Mo Yan",
+      "year": 2006,
+      "century": 21,
+      "location": {
+        "name": "Rural China",
+        "coordinates": [35.0000, 105.0000],
+        "type": "primary"
+      },
+      "summary": "A landlord reincarnated as animals witnesses China's political upheavals.",
+      "historical_context": "Mo Yan's magical realist chronicle of Communist China's transformation."
+    },
+    {
+      "title": "Big Breasts and Wide Hips",
+      "author": "Mo Yan",
+      "year": 1995,
+      "century": 20,
+      "location": {
+        "name": "Shandong Province, China",
+        "coordinates": [36.0000, 118.0000],
+        "type": "primary"
+      },
+      "summary": "Mother Shangguan Lu survives decades of Chinese political turmoil.",
+      "historical_context": "Mo Yan's controversial epic spanning China's 20th-century upheavals."
     }
   ]
 }
