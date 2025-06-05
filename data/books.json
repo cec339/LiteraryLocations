@@ -1244,6 +1244,261 @@
       },
       "summary": "Julien Sorel's ambitious rise through French society ends in scandal and execution.",
       "historical_context": "Stendhal's psychological realism exploring ambition, love, and social climbing in post-Revolutionary France."
+    },
+    {
+      "title": "Fictions",
+      "author": "Jorge Luis Borges",
+      "year": 1944,
+      "century": 20,
+      "location": {
+        "name": "Buenos Aires, Argentina",
+        "coordinates": [
+          -34.6118,
+          -58.3960
+        ]
+      },
+      "summary": "Borges' labyrinthine short stories explore infinity, identity, and the nature of reality through philosophical fiction.",
+      "historical_context": "Written during WWII, these stories established magical realism and postmodern literature."
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "Dystopian Future Society",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Bernard Marx questions a society controlled by technology, conditioning, and the drug soma.",
+      "historical_context": "Huxley's dystopian vision warned against technological control and loss of individual freedom."
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "year": 1945,
+      "century": 20,
+      "location": {
+        "name": "Manor Farm (Fictional)",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Farm animals rebel against humans, creating a society that becomes as oppressive as the one they overthrew.",
+      "historical_context": "Orwell's allegory critiques Stalin's Soviet Union and the corruption of revolutionary ideals."
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Cuba",
+        "coordinates": [
+          23.1136,
+          -82.3666
+        ]
+      },
+      "summary": "An aging fisherman struggles with a giant marlin in the Gulf Stream, testing his endurance and spirit.",
+      "historical_context": "Hemingway's novella about perseverance earned him the Nobel Prize in Literature."
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "year": 1947,
+      "century": 20,
+      "location": {
+        "name": "Amsterdam, Netherlands",
+        "coordinates": [
+          52.3676,
+          4.9041
+        ]
+      },
+      "summary": "Anne Frank's diary chronicles her family's hiding during the Nazi occupation of the Netherlands.",
+      "historical_context": "Published posthumously, Anne's diary became a powerful testament to the Holocaust."
+    },
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "year": 1868,
+      "century": 19,
+      "location": {
+        "name": "Concord, Massachusetts",
+        "coordinates": [
+          42.4604,
+          -71.3489
+        ]
+      },
+      "summary": "The March sisters - Jo, Meg, Beth, and Amy - navigate growing up during the American Civil War.",
+      "historical_context": "Alcott's novel promoted female independence and domesticity during the Victorian era."
+    },
+    {
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "year": 1600,
+      "century": 17,
+      "location": {
+        "name": "Elsinore, Denmark",
+        "coordinates": [
+          56.0349,
+          12.6136
+        ]
+      },
+      "summary": "Prince Hamlet seeks revenge against his uncle Claudius, who murdered Hamlet's father.",
+      "historical_context": "Shakespeare's tragedy explores themes of revenge, madness, and moral corruption."
+    },
+    {
+      "title": "Their Eyes Were Watching God",
+      "author": "Zora Neale Hurston",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Eatonville, Florida",
+        "coordinates": [
+          28.6158,
+          -81.3831
+        ]
+      },
+      "summary": "Janie Crawford's journey through three marriages explores African American womanhood and self-discovery.",
+      "historical_context": "Hurston's novel was rediscovered during the civil rights movement as a masterpiece of African American literature."
+    },
+    {
+      "title": "Rebecca",
+      "author": "Daphne du Maurier",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "Cornwall, England",
+        "coordinates": [
+          50.2660,
+          -5.0527
+        ]
+      },
+      "summary": "A young woman marries a widower and struggles with the memory of his deceased first wife, Rebecca.",
+      "historical_context": "Du Maurier's psychological thriller influenced Gothic romance and suspense fiction."
+    },
+    {
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "year": 1936,
+      "century": 20,
+      "location": {
+        "name": "Georgia, United States",
+        "coordinates": [
+          32.1656,
+          -82.9001
+        ]
+      },
+      "summary": "Scarlett O'Hara's survival during the American Civil War and Reconstruction era in the antebellum South.",
+      "historical_context": "Mitchell's epic portrays the destruction of the Old South and its aftermath."
+    },
+    {
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "year": 1726,
+      "century": 18,
+      "location": {
+        "name": "Various Fictional Lands",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Lemuel Gulliver's voyages to strange lands satirize human nature and society.",
+      "historical_context": "Swift's satire critiques 18th-century politics, science, and human folly."
+    },
+    {
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Dresden, Germany",
+        "coordinates": [
+          51.0504,
+          13.7373
+        ]
+      },
+      "summary": "Billy Pilgrim becomes unstuck in time, experiencing the Dresden bombing and alien abduction.",
+      "historical_context": "Vonnegut's anti-war novel draws from his experience as a POW during the Dresden bombing."
+    },
+    {
+      "title": "A Passage to India",
+      "author": "E.M. Forster",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "India",
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
+      },
+      "summary": "Dr. Aziz's friendship with English visitors explores cultural misunderstanding in colonial India.",
+      "historical_context": "Forster's novel examines British-Indian relations during the independence movement."
+    },
+    {
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "Tropical Island (Fictional)",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "British schoolboys stranded on an island descend into savagery and tribal warfare.",
+      "historical_context": "Golding's allegory explores the darkness of human nature in post-WWII society."
+    },
+    {
+      "title": "Candide",
+      "author": "Voltaire",
+      "year": 1759,
+      "century": 18,
+      "location": {
+        "name": "Europe and South America",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Candide's journey through disasters and adventures satirizes philosophical optimism.",
+      "historical_context": "Voltaire's satire critiques Leibnizian philosophy and European society."
+    },
+    {
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Republic of Gilead (Fictional)",
+        "coordinates": [
+          44.2619,
+          -72.5806
+        ]
+      },
+      "summary": "Offred navigates a totalitarian theocracy where women are subjugated for reproductive purposes.",
+      "historical_context": "Atwood's dystopia warns against fundamentalism and the erosion of women's rights."
+    },
+    {
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "year": 1855,
+      "century": 19,
+      "location": {
+        "name": "Brooklyn, New York",
+        "coordinates": [
+          40.6782,
+          -73.9442
+        ]
+      },
+      "summary": "Whitman's poetry collection celebrates American democracy, nature, and the human spirit.",
+      "historical_context": "Revolutionary free verse poetry that defined American literary identity."
     }
   ]
 }
