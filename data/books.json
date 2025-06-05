@@ -1254,7 +1254,7 @@
         "name": "Buenos Aires, Argentina",
         "coordinates": [
           -34.6118,
-          -58.3960
+          -58.396
         ]
       },
       "summary": "Borges' labyrinthine short stories explore infinity, identity, and the nature of reality through philosophical fiction.",
@@ -1373,7 +1373,7 @@
       "location": {
         "name": "Cornwall, England",
         "coordinates": [
-          50.2660,
+          50.266,
           -5.0527
         ]
       },
@@ -1524,7 +1524,7 @@
         "name": "New York and Massachusetts",
         "coordinates": [
           40.7128,
-          -74.0060
+          -74.006
         ]
       },
       "summary": "Esther Greenwood's descent into mental illness mirrors Plath's own struggles with depression and suicide.",
@@ -1634,6 +1634,801 @@
       },
       "summary": "Detective Philip Marlowe investigates the suicide of Terry Lennox and uncovers corruption.",
       "historical_context": "Chandler's noir masterpiece elevated the detective genre with literary sophistication."
+    },
+    {
+      "title": "A Sentimental Education",
+      "author": "Gustave Flaubert",
+      "year": 1869,
+      "century": 19,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "A Sentimental Education by Gustave Flaubert - A significant work of coming of age literature.",
+      "historical_context": "Published in 1869, this work reflects the literary and cultural movements of the 19th century."
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "year": 1979,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Space, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Hitchhiker's Guide to the Galaxy by Douglas Adams - A significant work of absurdist literature.",
+      "historical_context": "Published in 1979, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Three Musketeers",
+      "author": "Alexandre Dumas",
+      "year": 1844,
+      "century": 19,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Three Musketeers by Alexandre Dumas - A significant work of adventure literature.",
+      "historical_context": "Published in 1844, this work reflects the literary and cultural movements of the 19th century."
+    },
+    {
+      "title": "Giovanni's Room",
+      "author": "James Baldwin",
+      "year": 1956,
+      "century": 20,
+      "location": {
+        "name": "France, Paris, United States",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Giovanni's Room by James Baldwin - A significant work of coming of age literature.",
+      "historical_context": "Published in 1956, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Howards End",
+      "author": "E. M. Forster",
+      "year": 1910,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Howards End by E. M. Forster - A significant work of coming of age literature.",
+      "historical_context": "Published in 1910, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "year": 1939,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "And Then There Were None by Agatha Christie - A significant work of crime literature.",
+      "historical_context": "Published in 1939, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "A Room of One's Own",
+      "author": "Virginia Woolf",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "England, Great Britain, Independence",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Room of One's Own by Virginia Woolf - A significant work of modernist literature.",
+      "historical_context": "Published in 1929, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Fahrenheit 451 by Ray Bradbury - A significant work of allegorical literature.",
+      "historical_context": "Published in 1953, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "author": "Ken Kesey",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Oregon, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "One Flew Over the Cuckoo's Nest by Ken Kesey - A significant work of banned books literature.",
+      "historical_context": "Published in 1962, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Tender Is the Night",
+      "author": "F. Scott Fitzgerald",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "France, French riviera, Paris, Switzerland, United States",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Tender Is the Night by F. Scott Fitzgerald - A significant work of drama literature.",
+      "historical_context": "Published in 1934, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolo Machiavelli",
+      "year": 1532,
+      "century": 16,
+      "location": {
+        "name": "Florence, Italy",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Prince by Niccolo Machiavelli - A significant work of nonfiction literature.",
+      "historical_context": "Published in 1532, this work reflects the literary and cultural movements of the 16th century."
+    },
+    {
+      "title": "Harry Potter And The Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Harry Potter And The Philosopher's Stone by J. K. Rowling - A significant work of adventure literature.",
+      "historical_context": "Published in 1997, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Steppenwolf",
+      "author": "Hermann Hesse",
+      "year": 1927,
+      "century": 20,
+      "location": {
+        "name": "Germany, Switzerland, Zurich",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Steppenwolf by Hermann Hesse - A significant work of allegorical literature.",
+      "historical_context": "Published in 1927, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Love in the Time of Cholera",
+      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Caribbean, Colombia",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Love in the Time of Cholera by Gabriel Garc\u00eda M\u00e1rquez - A significant work of fiction literature.",
+      "historical_context": "Published in 1985, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Complete Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "year": 1927,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Complete Sherlock Holmes by Arthur Conan Doyle - A significant work of crime literature.",
+      "historical_context": "Published in 1927, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Confessions of Zeno",
+      "author": "Italo Svevo",
+      "year": 1923,
+      "century": 20,
+      "location": {
+        "name": "Italy, Trieste",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "Confessions of Zeno by Italo Svevo - A significant work of fiction literature.",
+      "historical_context": "Published in 1923, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Light in August",
+      "author": "William Faulkner",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "Jefferson, Mississippi, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Light in August by William Faulkner - A significant work of coming of age literature.",
+      "historical_context": "Published in 1932, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Decameron",
+      "author": "Giovanni Boccaccio",
+      "year": 1353,
+      "century": 14,
+      "location": {
+        "name": "Europe, Florence, Italy, Southern US",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Decameron by Giovanni Boccaccio - A significant work of fiction literature.",
+      "historical_context": "Published in 1353, this work reflects the literary and cultural movements of the 14th century."
+    },
+    {
+      "title": "Lord Jim",
+      "author": "Joseph Conrad",
+      "year": 1900,
+      "century": 19,
+      "location": {
+        "name": "Fictional Location, Germany, Malay Archipelago, Patna",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Lord Jim by Joseph Conrad - A significant work of adventure literature.",
+      "historical_context": "Published in 1900, this work reflects the literary and cultural movements of the 19th century."
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Hobbit by J. R. R. Tolkien - A significant work of adventure literature.",
+      "historical_context": "Published in 1937, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Rabbit, Run",
+      "author": "John Updike",
+      "year": 1960,
+      "century": 20,
+      "location": {
+        "name": "Mount Judge, Pennsylvania, Suburbia, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Rabbit, Run by John Updike - A significant work of fiction literature.",
+      "historical_context": "Published in 1960, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Man's Fate",
+      "author": "Andre Malraux",
+      "year": 1933,
+      "century": 20,
+      "location": {
+        "name": "China, Shanghai",
+        "coordinates": [
+          39.9042,
+          116.4074
+        ]
+      },
+      "summary": "Man's Fate by Andre Malraux - A significant work of fiction literature.",
+      "historical_context": "Published in 1933, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Prime of Miss Jean Brodie",
+      "author": "Muriel Spark",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Edinburgh, Scotland",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Prime of Miss Jean Brodie by Muriel Spark - A significant work of coming of age literature.",
+      "historical_context": "Published in 1961, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Confessions",
+      "author": "Augustine",
+      "year": 397,
+      "century": 4,
+      "location": {
+        "name": "Algeria, Hippo (Ancient City), Italy, Rome",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Confessions by Augustine - A significant work of autobiography literature.",
+      "historical_context": "Published in 397, this work reflects the literary and cultural movements of the 4th century."
+    },
+    {
+      "title": "White Teeth",
+      "author": "Zadie Smith",
+      "year": 2000,
+      "century": 20,
+      "location": {
+        "name": "England, Great Britain, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "White Teeth by Zadie Smith - A significant work of coming of age literature.",
+      "historical_context": "Published in 2000, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Spy Who Came in From the Cold",
+      "author": "John le Carr\u00e9",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Berlin, Germany, Great Britain, United Kingdom",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "The Spy Who Came in From the Cold by John le Carr\u00e9 - A significant work of fiction literature.",
+      "historical_context": "Published in 1963, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Metamorphoses",
+      "author": "Ovid",
+      "year": 8,
+      "century": 1,
+      "location": {
+        "name": "Fictional Location, Rome",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Metamorphoses by Ovid - A significant work of ancient literature.",
+      "historical_context": "Published in 8, this work reflects the literary and cultural movements of the 1st century."
+    },
+    {
+      "title": "A Good Man Is Hard to Find",
+      "author": "Flannery O'Connor",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Georgia, Southern US, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Good Man Is Hard to Find by Flannery O'Connor - A significant work of fiction literature.",
+      "historical_context": "Published in 1953, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Winnie the Pooh",
+      "author": "A. A. Milne",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Winnie the Pooh by A. A. Milne - A significant work of adventure literature.",
+      "historical_context": "Published in 1926, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Flowers of Evil",
+      "author": "Charles Baudelaire",
+      "year": 1857,
+      "century": 19,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Flowers of Evil by Charles Baudelaire - A significant work of allegorical literature.",
+      "historical_context": "Published in 1857, this work reflects the literary and cultural movements of the 19th century."
+    },
+    {
+      "title": "Brighton Rock",
+      "author": "Graham Greene",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "Brighton, England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Brighton Rock by Graham Greene - A significant work of crime literature.",
+      "historical_context": "Published in 1938, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "year": 2001,
+      "century": 21,
+      "location": {
+        "name": "Midwest, New York, New York City, Pennsylvania, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Corrections by Jonathan Franzen - A significant work of drama literature.",
+      "historical_context": "Published in 2001, this work reflects the literary and cultural movements of the 21th century."
+    },
+    {
+      "title": "On the Origin of Species",
+      "author": "Charles Darwin",
+      "year": 1859,
+      "century": 19,
+      "location": {
+        "name": "Ecuador, Galapagos Islands, United Kingdom",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "On the Origin of Species by Charles Darwin - A significant work of encyclopedic literature.",
+      "historical_context": "Published in 1859, this work reflects the literary and cultural movements of the 19th century."
+    },
+    {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "California, Salinas Valley, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "Of Mice and Men by John Steinbeck - A significant work of coming of age literature.",
+      "historical_context": "Published in 1937, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Fairy Tales and Stories",
+      "author": "Hans Christian Andersen",
+      "year": 1835,
+      "century": 19,
+      "location": {
+        "name": "Denmark",
+        "coordinates": [
+          55.6761,
+          12.5683
+        ]
+      },
+      "summary": "Fairy Tales and Stories by Hans Christian Andersen - A significant work of children's books literature.",
+      "historical_context": "Published in 1835, this work reflects the literary and cultural movements of the 19th century."
+    },
+    {
+      "title": "A Wrinkle In Time",
+      "author": "Madeleine L'Engle",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "A Wrinkle In Time by Madeleine L'Engle - A significant work of adventure literature.",
+      "historical_context": "Published in 1962, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The End of the Affair",
+      "author": "Graham Greene",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The End of the Affair by Graham Greene - A significant work of drama literature.",
+      "historical_context": "Published in 1951, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Molloy",
+      "author": "Samuel Beckett",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Molloy by Samuel Beckett - A significant work of allegorical literature.",
+      "historical_context": "Published in 1951, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Remains of the Day",
+      "author": "Kazuo Ishiguro",
+      "year": 1989,
+      "century": 20,
+      "location": {
+        "name": "England, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Remains of the Day by Kazuo Ishiguro - A significant work of allegorical literature.",
+      "historical_context": "Published in 1989, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Portnoy's Complaint",
+      "author": "Philip Roth",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "New Jersey, New York, Newark, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Portnoy's Complaint by Philip Roth - A significant work of adult literature.",
+      "historical_context": "Published in 1969, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "An American Tragedy",
+      "author": "Theodore Dreiser",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "An American Tragedy by Theodore Dreiser - A significant work of crime literature.",
+      "historical_context": "Published in 1925, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Good Soldier Svejk",
+      "author": "Jaroslav Ha\u0161ek",
+      "year": 1921,
+      "century": 20,
+      "location": {
+        "name": "Austria-Hungary, Czech Republic, Prague",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Good Soldier Svejk by Jaroslav Ha\u0161ek - A significant work of absurdist literature.",
+      "historical_context": "Published in 1921, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Watership Down",
+      "author": "Richard Adams",
+      "year": 1972,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Watership Down by Richard Adams - A significant work of adventure literature.",
+      "historical_context": "Published in 1972, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Counterfeiters",
+      "author": "Andr\u00e9 Gide",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Counterfeiters by Andr\u00e9 Gide - A significant work of allegorical literature.",
+      "historical_context": "Published in 1925, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Atonement",
+      "author": "Ian McEwan",
+      "year": 2001,
+      "century": 21,
+      "location": {
+        "name": "England, Great Britain, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Atonement by Ian McEwan - A significant work of allegorical literature.",
+      "historical_context": "Published in 2001, this work reflects the literary and cultural movements of the 21th century."
+    },
+    {
+      "title": "Berlin Alexanderplatz",
+      "author": "Alfred D\u00f6blin",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Berlin, Germany",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Berlin Alexanderplatz by Alfred D\u00f6blin - A significant work of fiction literature.",
+      "historical_context": "Published in 1929, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "My Antonia",
+      "author": "Willa Cather",
+      "year": 1918,
+      "century": 20,
+      "location": {
+        "name": "Nebraska, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "My Antonia by Willa Cather - A significant work of coming of age literature.",
+      "historical_context": "Published in 1918, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Gargantua and Pantagruel",
+      "author": "Francois Rabelais",
+      "year": 1532,
+      "century": 16,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Gargantua and Pantagruel by Francois Rabelais - A significant work of dark literature.",
+      "historical_context": "Published in 1532, this work reflects the literary and cultural movements of the 16th century."
+    },
+    {
+      "title": "A House for Mr. Biswas",
+      "author": "V. S. Naipaul",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Independence, Trinidad",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A House for Mr. Biswas by V. S. Naipaul - A significant work of coming of age literature.",
+      "historical_context": "Published in 1961, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "The Once and Future King",
+      "author": "T. H. White",
+      "year": 1958,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location, Great Britain",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Once and Future King by T. H. White - A significant work of arthurian literature.",
+      "historical_context": "Published in 1958, this work reflects the literary and cultural movements of the 20th century."
+    },
+    {
+      "title": "Harry Potter and the Philosopher\\s Stone",
+      "author": "J.K. Rowling",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "Hogwarts, Scotland",
+        "coordinates": [
+          56.8198,
+          -5.1052
+        ]
+      },
+      "summary": "Young Harry Potter discovers he is a wizard and attends Hogwarts School, beginning his journey to defeat the dark wizard Voldemort.",
+      "historical_context": "Rowling\\s fantasy series became a global phenomenon, revitalizing children\\s literature and creating a massive multimedia franchise."
+    },
+    {
+      "title": "One Flew Over the Cuckoo\\s Nest",
+      "author": "Ken Kesey",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Oregon Mental Hospital",
+        "coordinates": [
+          44.9429,
+          -123.0351
+        ]
+      },
+      "summary": "Randle McMurphy challenges the authoritarian Nurse Ratched in a psychiatric hospital, leading to tragic consequences.",
+      "historical_context": "Kesey\\s novel critiqued institutional authority and mental health treatment during the 1960s counterculture movement."
+    },
+    {
+      "title": "A Wrinkle in Time",
+      "author": "Madeleine L\\Engle",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Multiple Planets",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Meg Murry travels through time and space to rescue her father from the evil IT that threatens to control the universe.",
+      "historical_context": "L\\Engle\\s science fantasy novel broke barriers by featuring a female protagonist in STEM and addressing complex themes."
     }
   ]
 }
