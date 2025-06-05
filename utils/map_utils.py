@@ -91,8 +91,8 @@ def create_literature_map(books_df):
                     padding: 15px; border: 2px solid #2E4057; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
                     font-family: Arial, sans-serif;">
             <h4 style="margin-top: 0; color: #2E4057;">Location Types</h4>
-            <p style="margin: 5px 0;"><i class="fa fa-book" style="color: red; margin-right: 8px;"></i> Primary Story Setting</p>
-            <p style="margin: 5px 0;"><i class="fa fa-book" style="color: blue; margin-right: 8px;"></i> Publication Location</p>
+            <p style="margin: 5px 0;"><i class="fa fa-book" style="color: #d63384; margin-right: 8px;"></i> Primary Story Setting</p>
+            <p style="margin: 5px 0;"><i class="fa fa-book" style="color: #38A3D1; margin-right: 8px;"></i> Publication Location</p>
             <p style="margin: 5px 0; font-size: 12px; color: #666;">Blue markers show publication locations for books with fictional/metaphysical/multiple settings</p>
         </div>
         '''
