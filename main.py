@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.data_loader_new import (
+from utils.data_loader import (
     load_book_data,
     get_century_range,
     filter_books_by_century,
