@@ -1499,6 +1499,141 @@
       },
       "summary": "Whitman's poetry collection celebrates American democracy, nature, and the human spirit.",
       "historical_context": "Revolutionary free verse poetry that defined American literary identity."
+    },
+    {
+      "title": "Robinson Crusoe",
+      "author": "Daniel Defoe",
+      "year": 1719,
+      "century": 18,
+      "location": {
+        "name": "Tropical Island",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Shipwrecked Robinson Crusoe survives alone on a deserted island for decades, learning self-reliance and resourcefulness.",
+      "historical_context": "Defoe's novel established the castaway genre and explored themes of civilization and colonialism."
+    },
+    {
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "New York and Massachusetts",
+        "coordinates": [
+          40.7128,
+          -74.0060
+        ]
+      },
+      "summary": "Esther Greenwood's descent into mental illness mirrors Plath's own struggles with depression and suicide.",
+      "historical_context": "Published posthumously, Plath's semi-autobiographical novel destigmatized mental health discussions."
+    },
+    {
+      "title": "Waiting for Godot",
+      "author": "Samuel Beckett",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Unnamed Place",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "Vladimir and Estragon wait endlessly for the mysterious Godot who never arrives.",
+      "historical_context": "Beckett's absurdist play revolutionized theater and captured post-war existential anxiety."
+    },
+    {
+      "title": "Native Son",
+      "author": "Richard Wright",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "Bigger Thomas's violent actions expose the systemic racism and poverty of 1930s Chicago.",
+      "historical_context": "Wright's groundbreaking novel confronted American racism with unprecedented directness."
+    },
+    {
+      "title": "Vanity Fair",
+      "author": "William Makepeace Thackeray",
+      "year": 1847,
+      "century": 19,
+      "location": {
+        "name": "London, England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Becky Sharp's social climbing and Amelia Sedley's goodness contrast in Regency society.",
+      "historical_context": "Thackeray's satire critiqued Victorian society and the pursuit of wealth and status."
+    },
+    {
+      "title": "The Color Purple",
+      "author": "Alice Walker",
+      "year": 1982,
+      "century": 20,
+      "location": {
+        "name": "Rural Georgia",
+        "coordinates": [
+          32.1656,
+          -82.9001
+        ]
+      },
+      "summary": "Celie's letters chronicle her journey from abuse to empowerment in the Jim Crow South.",
+      "historical_context": "Walker's novel addressed intersectional oppression of African American women."
+    },
+    {
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "year": 1854,
+      "century": 19,
+      "location": {
+        "name": "Walden Pond, Massachusetts",
+        "coordinates": [
+          42.4401,
+          -71.3378
+        ]
+      },
+      "summary": "Thoreau's two-year experiment in simple living explores nature, solitude, and self-reliance.",
+      "historical_context": "Thoreau's transcendentalist philosophy influenced environmental and civil rights movements."
+    },
+    {
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "year": 1883,
+      "century": 19,
+      "location": {
+        "name": "Caribbean Island",
+        "coordinates": [
+          18.1096,
+          -77.2975
+        ]
+      },
+      "summary": "Young Jim Hawkins joins a treasure hunt that leads to pirate adventures and betrayal.",
+      "historical_context": "Stevenson's adventure novel defined the pirate genre and influenced countless adaptations."
+    },
+    {
+      "title": "The Long Goodbye",
+      "author": "Raymond Chandler",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Los Angeles, California",
+        "coordinates": [
+          34.0522,
+          -118.2437
+        ]
+      },
+      "summary": "Detective Philip Marlowe investigates the suicide of Terry Lennox and uncovers corruption.",
+      "historical_context": "Chandler's noir masterpiece elevated the detective genre with literary sophistication."
     }
   ]
 }
