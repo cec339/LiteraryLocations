@@ -864,6 +864,246 @@
       },
       "summary": "A philosophical novel about faith, doubt, and morality through the story of three brothers.",
       "historical_context": "Written during a period of great social change in Russia."
+    },
+    {
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "year": 1922,
+      "century": 20,
+      "location": {
+        "name": "Dublin, Ireland",
+        "coordinates": [53.3498, -6.2603]
+      },
+      "summary": "Leopold Bloom's day-long odyssey through Dublin parallels Homer's epic while exploring consciousness and modern urban life.",
+      "historical_context": "Joyce's modernist masterpiece revolutionized the novel form with stream-of-consciousness technique."
+    },
+    {
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "year": 1913,
+      "century": 20,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Marcel's involuntary memories unlock a vast meditation on time, art, love, and French society.",
+      "historical_context": "Proust's monumental work exploring memory and consciousness in Belle Époque France."
+    },
+    {
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "year": 1949,
+      "century": 20,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "Winston Smith's rebellion against totalitarian surveillance in a dystopian future society.",
+      "historical_context": "Orwell's prophetic warning about totalitarianism and thought control written after WWII."
+    },
+    {
+      "title": "Lolita",
+      "author": "Vladimir Nabokov",
+      "year": 1955,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [40.7128, -74.0060]
+      },
+      "summary": "Humbert Humbert's obsessive and destructive relationship with twelve-year-old Dolores Haze.",
+      "historical_context": "Nabokov's controversial novel examining desire, manipulation, and moral corruption."
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "Middle-earth (Fictional)",
+        "coordinates": [51.7520, -1.2577]
+      },
+      "summary": "Frodo Baggins' quest to destroy the One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "historical_context": "Tolkien's epic fantasy influenced by his experiences in WWI and philological expertise."
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "year": 1605,
+      "century": 17,
+      "location": {
+        "name": "La Mancha, Spain",
+        "coordinates": [39.3628, -2.9927]
+      },
+      "summary": "An aging gentleman becomes a knight-errant, tilting at windmills and defending his imagined lady love.",
+      "historical_context": "Cervantes' masterpiece satirizes chivalric romances while exploring reality and illusion."
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "century": 19,
+      "location": {
+        "name": "Moscow and St. Petersburg, Russia",
+        "coordinates": [55.7558, 37.6173]
+      },
+      "summary": "Russian aristocratic families navigate Napoleon's invasion and the social upheavals of war.",
+      "historical_context": "Tolstoy's epic chronicling Russian society during the Napoleonic Wars."
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "year": 1866,
+      "century": 19,
+      "location": {
+        "name": "St. Petersburg, Russia",
+        "coordinates": [59.9311, 30.3609]
+      },
+      "summary": "Raskolnikov murders an old pawnbroker and struggles with guilt, redemption, and spiritual awakening.",
+      "historical_context": "Dostoevsky's psychological masterpiece exploring morality, faith, and human nature."
+    },
+    {
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "year": 1942,
+      "century": 20,
+      "location": {
+        "name": "Algiers, Algeria",
+        "coordinates": [36.7372, 3.0865]
+      },
+      "summary": "Meursault's indifferent response to his mother's death and a senseless murder explores existential absurdity.",
+      "historical_context": "Camus' existentialist novel examining alienation and the absurd in colonial Algeria."
+    },
+    {
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "year": 1857,
+      "century": 19,
+      "location": {
+        "name": "Normandy, France",
+        "coordinates": [49.1829, 0.3707]
+      },
+      "summary": "Emma Bovary's romantic illusions and adultery lead to financial ruin and tragic death.",
+      "historical_context": "Flaubert's realistic portrayal of bourgeois life and romantic disillusionment."
+    },
+    {
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "Unnamed City (Prague-like)",
+        "coordinates": [50.0755, 14.4378]
+      },
+      "summary": "Josef K. is arrested and prosecuted by a mysterious bureaucratic court system for an unknown crime.",
+      "historical_context": "Kafka's surreal exploration of bureaucracy, guilt, and alienation in modern society."
+    },
+    {
+      "title": "To the Lighthouse",
+      "author": "Virginia Woolf",
+      "year": 1927,
+      "century": 20,
+      "location": {
+        "name": "Isle of Skye, Scotland",
+        "coordinates": [57.2731, -6.2157]
+      },
+      "summary": "The Ramsay family's visits to their summer house explore memory, loss, and the passage of time.",
+      "historical_context": "Woolf's modernist masterpiece using stream-of-consciousness to examine family dynamics."
+    },
+    {
+      "title": "The Magic Mountain",
+      "author": "Thomas Mann",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "Davos, Switzerland",
+        "coordinates": [46.8043, 9.8336]
+      },
+      "summary": "Hans Castorp's stay at a tuberculosis sanatorium becomes a philosophical education about European civilization.",
+      "historical_context": "Mann's meditation on European culture and disease before World War I."
+    },
+    {
+      "title": "Mrs. Dalloway",
+      "author": "Virginia Woolf",
+      "year": 1925,
+      "century": 20,
+      "location": {
+        "name": "London, England",
+        "coordinates": [51.5074, -0.1278]
+      },
+      "summary": "Clarissa Dalloway prepares for a party while her thoughts and those of others weave through one day in London.",
+      "historical_context": "Woolf's stream-of-consciousness novel exploring post-WWI society and mental health."
+    },
+    {
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Pianosa, Italy",
+        "coordinates": [42.5847, 10.0811]
+      },
+      "summary": "Captain Yossarian navigates the absurd bureaucracy and catch-22 logic of military life during WWII.",
+      "historical_context": "Heller's satirical anti-war novel critiquing military bureaucracy and the absurdity of war."
+    },
+    {
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "Harlem, New York",
+        "coordinates": [40.8075, -73.9411]
+      },
+      "summary": "An unnamed Black narrator's journey from the South to Harlem explores racism and identity in America.",
+      "historical_context": "Ellison's groundbreaking novel examining African American experience and social invisibility."
+    },
+    {
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "year": 1862,
+      "century": 19,
+      "location": {
+        "name": "Paris, France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Jean Valjean's redemption and the lives of others intersect during French social upheaval and revolution.",
+      "historical_context": "Hugo's epic examining social justice, redemption, and the French Revolution's legacy."
+    },
+    {
+      "title": "On the Road",
+      "author": "Jack Kerouac",
+      "year": 1957,
+      "century": 20,
+      "location": {
+        "name": "Across United States",
+        "coordinates": [39.8283, -98.5795]
+      },
+      "summary": "Sal Paradise and Dean Moriarty's cross-country travels capture Beat Generation spirit and American freedom.",
+      "historical_context": "Kerouac's spontaneous prose chronicling 1950s counterculture and the search for meaning."
+    },
+    {
+      "title": "Journey to the End of the Night",
+      "author": "Louis-Ferdinand Céline",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "France and Africa",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Bardamu's cynical journey through WWI, colonial Africa, and urban America reveals humanity's darkness.",
+      "historical_context": "Céline's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
+    },
+    {
+      "title": "The Red and the Black",
+      "author": "Stendhal",
+      "year": 1830,
+      "century": 19,
+      "location": {
+        "name": "France",
+        "coordinates": [48.8566, 2.3522]
+      },
+      "summary": "Julien Sorel's ambitious rise through French society ends in scandal and execution.",
+      "historical_context": "Stendhal's psychological realism exploring ambition, love, and social climbing in post-Revolutionary France."
     }
   ]
 }
