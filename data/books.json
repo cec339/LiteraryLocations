@@ -1,4 +1,3 @@
-
 {
   "books": [
     {
@@ -8,31 +7,40 @@
       "century": 17,
       "location": {
         "name": "Multiple Settings (Heaven, Hell, Eden)",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
       "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
     },
     {
       "title": "Wuthering Heights",
-      "author": "Emily Brontë",
+      "author": "Emily Bront\u00eb",
       "year": 1847,
       "century": 19,
       "location": {
         "name": "Yorkshire Moors, England",
-        "coordinates": [53.8008, -1.5491]
+        "coordinates": [
+          53.8008,
+          -1.5491
+        ]
       },
       "summary": "On the stormy Yorkshire moors, the obsessive bond between Heathcliff and Catherine Earnshaw unleashes generations of passion, cruelty, and revenge.",
-      "historical_context": "Emily Brontë's 1847 publication challenged Victorian sensibilities with its raw passion and Byronic anti-hero."
+      "historical_context": "Emily Bront\u00eb's 1847 publication challenged Victorian sensibilities with its raw passion and Byronic anti-hero."
     },
     {
       "title": "Jane Eyre",
-      "author": "Charlotte Brontë",
+      "author": "Charlotte Bront\u00eb",
       "year": 1847,
       "century": 19,
       "location": {
         "name": "Yorkshire, England",
-        "coordinates": [53.8008, -1.5491]
+        "coordinates": [
+          53.8008,
+          -1.5491
+        ]
       },
       "summary": "An orphaned governess finds love and independence despite social constraints and dark secrets.",
       "historical_context": "Published in 1847, challenged Victorian gender roles and class structures."
@@ -44,7 +52,10 @@
       "century": 19,
       "location": {
         "name": "Hertfordshire, England",
-        "coordinates": [51.8000, -0.2167]
+        "coordinates": [
+          51.8,
+          -0.2167
+        ]
       },
       "summary": "Elizabeth Bennet navigates marriage prospects and social expectations in Regency England.",
       "historical_context": "Austen's wit and social commentary captured the changing dynamics of English society."
@@ -56,7 +67,10 @@
       "century": 19,
       "location": {
         "name": "Surrey, England",
-        "coordinates": [51.2362, -0.5704]
+        "coordinates": [
+          51.2362,
+          -0.5704
+        ]
       },
       "summary": "A well-meaning but misguided young woman meddles in the romantic lives of those around her.",
       "historical_context": "Explores the social hierarchies and marriage customs of Regency England."
@@ -68,7 +82,10 @@
       "century": 19,
       "location": {
         "name": "Devon, England",
-        "coordinates": [50.7156, -3.5309]
+        "coordinates": [
+          50.7156,
+          -3.5309
+        ]
       },
       "summary": "Two sisters with contrasting temperaments navigate love and loss.",
       "historical_context": "Austen's first published novel examining emotion versus reason in Regency society."
@@ -80,7 +97,10 @@
       "century": 19,
       "location": {
         "name": "Kent and London, England",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "Pip's journey from humble blacksmith's apprentice to gentleman reveals the corruption of wealth and class.",
       "historical_context": "Dickens' critique of Victorian social mobility and industrial capitalism."
@@ -92,7 +112,10 @@
       "century": 19,
       "location": {
         "name": "London and Kent, England",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "A young man's bildungsroman through Victorian England's changing social landscape.",
       "historical_context": "Dickens' most autobiographical novel, reflecting his own childhood experiences."
@@ -104,7 +127,10 @@
       "century": 19,
       "location": {
         "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "An orphan boy exposes the harsh realities of workhouses and criminal underworld.",
       "historical_context": "Dickens' social reform novel highlighting poverty and child exploitation."
@@ -116,7 +142,10 @@
       "century": 19,
       "location": {
         "name": "London and Paris",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
       },
       "summary": "Love and sacrifice during the French Revolution's reign of terror.",
       "historical_context": "Dickens' historical novel examining revolution, sacrifice, and redemption."
@@ -128,7 +157,10 @@
       "century": 19,
       "location": {
         "name": "Midlands, England",
-        "coordinates": [52.4797, -1.8951]
+        "coordinates": [
+          52.4797,
+          -1.8951
+        ]
       },
       "summary": "Interconnected lives in a provincial English town reveal universal human struggles.",
       "historical_context": "Eliot's masterpiece of psychological realism in Victorian England."
@@ -140,7 +172,10 @@
       "century": 19,
       "location": {
         "name": "Raveloe, England",
-        "coordinates": [52.4797, -1.8951]
+        "coordinates": [
+          52.4797,
+          -1.8951
+        ]
       },
       "summary": "A miserly weaver finds redemption through love and community.",
       "historical_context": "Explores themes of faith, community, and social change in rural England."
@@ -152,7 +187,10 @@
       "century": 19,
       "location": {
         "name": "Wessex (Dorset), England",
-        "coordinates": [50.7156, -2.4389]
+        "coordinates": [
+          50.7156,
+          -2.4389
+        ]
       },
       "summary": "A pure woman's tragic fate in the hands of social hypocrisy and male dominance.",
       "historical_context": "Hardy's critique of Victorian moral double standards and social injustice."
@@ -164,7 +202,10 @@
       "century": 19,
       "location": {
         "name": "Casterbridge (Dorchester), England",
-        "coordinates": [50.7156, -2.4389]
+        "coordinates": [
+          50.7156,
+          -2.4389
+        ]
       },
       "summary": "A man's past actions return to destroy his respectable life.",
       "historical_context": "Hardy's exploration of character, fate, and social change in rural England."
@@ -176,7 +217,10 @@
       "century": -16,
       "location": {
         "name": "Ancient Egypt (Multiple Locations)",
-        "coordinates": [25.6872, 32.6396]
+        "coordinates": [
+          25.6872,
+          32.6396
+        ]
       },
       "summary": "Collection of spells and instructions for the journey through the afterlife.",
       "historical_context": "Developed over centuries in ancient Egypt, fundamental to Egyptian religious beliefs."
@@ -188,7 +232,10 @@
       "century": 14,
       "location": {
         "name": "Multiple Settings (Hell, Purgatory, Paradise)",
-        "coordinates": [43.7696, 11.2558]
+        "coordinates": [
+          43.7696,
+          11.2558
+        ]
       },
       "summary": "Allegorical journey through the afterlife realms of Hell, Purgatory, and Paradise.",
       "historical_context": "Written during Dante's exile from Florence, reflecting medieval Christian theology and Italian politics."
@@ -200,7 +247,10 @@
       "century": 14,
       "location": {
         "name": "Canterbury, England",
-        "coordinates": [51.28, 1.08]
+        "coordinates": [
+          51.28,
+          1.08
+        ]
       },
       "summary": "A collection of stories told by pilgrims traveling to Canterbury Cathedral, providing a vivid portrait of medieval English society.",
       "historical_context": "Written during the late Middle Ages, depicting the social dynamics and cultural values of medieval England across different social classes."
@@ -212,7 +262,10 @@
       "century": -8,
       "location": {
         "name": "Troy (modern-day Turkey)",
-        "coordinates": [39.9571, 26.2387]
+        "coordinates": [
+          39.9571,
+          26.2387
+        ]
       },
       "summary": "The epic tale of the Trojan War, focusing on the wrath of Achilles and its consequences.",
       "historical_context": "Composed in the 8th century BCE, reflecting Bronze Age warfare and Greek mythology."
@@ -224,7 +277,10 @@
       "century": -8,
       "location": {
         "name": "Mediterranean Sea",
-        "coordinates": [37.9838, 23.7275]
+        "coordinates": [
+          37.9838,
+          23.7275
+        ]
       },
       "summary": "Odysseus's ten-year journey home after the Trojan War, facing mythical creatures and divine intervention.",
       "historical_context": "Composed alongside The Iliad, depicting Greek maritime culture and the importance of hospitality in ancient society."
@@ -236,7 +292,10 @@
       "century": -1,
       "location": {
         "name": "Mediterranean Basin",
-        "coordinates": [41.9028, 12.4964]
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
       },
       "summary": "The journey of Aeneas from Troy to Italy, where he becomes the ancestor of the Romans.",
       "historical_context": "Written during Augustus's reign, establishing a mythical connection between Troy and Rome."
@@ -248,7 +307,10 @@
       "century": 18,
       "location": {
         "name": "Various Fictional Lands",
-        "coordinates": [53.3498, -6.2603]
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
       },
       "summary": "Lemuel Gulliver's voyages to various strange lands, satirizing human nature and society.",
       "historical_context": "Written as a satire of travel narratives and contemporary European politics."
@@ -260,7 +322,10 @@
       "century": 14,
       "location": {
         "name": "Florence, Italy",
-        "coordinates": [43.7696, 11.2558]
+        "coordinates": [
+          43.7696,
+          11.2558
+        ]
       },
       "summary": "A collection of 100 tales told by ten young people sheltering from the Black Death.",
       "historical_context": "Written during the aftermath of the Black Death, reflecting medieval Italian society and values."
@@ -272,7 +337,10 @@
       "century": 14,
       "location": {
         "name": "Kyoto, Japan",
-        "coordinates": [35.0116, 135.7681]
+        "coordinates": [
+          35.0116,
+          135.7681
+        ]
       },
       "summary": "The epic account of the struggle between the Taira and Minamoto clans for control of Japan.",
       "historical_context": "Chronicles the Genpei War (1180-1185), marking the end of the classical period in Japanese history."
@@ -284,7 +352,10 @@
       "century": 19,
       "location": {
         "name": "Rural Russia",
-        "coordinates": [55.7558, 37.6173]
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
       },
       "summary": "Chichikov's scheme to buy deceased serfs' names from landowners, revealing the absurdities of Russian society.",
       "historical_context": "Written during the reform period of Nicholas I, satirizing Russian serfdom and bureaucracy."
@@ -296,7 +367,10 @@
       "century": 20,
       "location": {
         "name": "Moscow, Russia",
-        "coordinates": [55.7558, 37.6173]
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
       },
       "summary": "Satan visits Soviet Moscow, interweaving a love story with a satirical critique of Soviet society.",
       "historical_context": "Written during Stalin's regime, published posthumously, reflecting the absurdities of Soviet life."
@@ -308,7 +382,10 @@
       "century": 20,
       "location": {
         "name": "Vienna, Austria",
-        "coordinates": [48.2082, 16.3738]
+        "coordinates": [
+          48.2082,
+          16.3738
+        ]
       },
       "summary": "Ulrich's search for meaning in the last days of the Austro-Hungarian Empire.",
       "historical_context": "Set before World War I, examining the decline of the Habsburg Empire and modern alienation."
@@ -320,7 +397,10 @@
       "century": 18,
       "location": {
         "name": "Yorkshire, England",
-        "coordinates": [54.0, -1.54]
+        "coordinates": [
+          54.0,
+          -1.54
+        ]
       },
       "summary": "The rambling, digressive autobiography of Tristram Shandy, who cannot even manage to get himself born.",
       "historical_context": "Written during the Age of Enlightenment, experimenting with narrative conventions."
@@ -332,31 +412,40 @@
       "century": 19,
       "location": {
         "name": "Rural Russia",
-        "coordinates": [54.7818, 32.0401]
+        "coordinates": [
+          54.7818,
+          32.0401
+        ]
       },
       "summary": "The conflict between generations and ideologies in 1850s Russia through the story of nihilist Bazarov.",
       "historical_context": "Written during the period of great reforms in Russia, examining the generational divide."
     },
     {
       "title": "The Tin Drum",
-      "author": "Günter Grass",
+      "author": "G\u00fcnter Grass",
       "year": 1959,
       "century": 20,
       "location": {
-        "name": "Danzig/Gdańsk",
-        "coordinates": [54.352, 18.6466]
+        "name": "Danzig/Gda\u0144sk",
+        "coordinates": [
+          54.352,
+          18.6466
+        ]
       },
       "summary": "Oskar Matzerath, who decides not to grow up, witnesses the rise and fall of Nazi Germany.",
       "historical_context": "Written in post-war Germany, examining the Nazi period through magical realism."
     },
     {
-      "title": "The Recognition of Śakuntalā",
-      "author": "Kālidāsa",
+      "title": "The Recognition of \u015aakuntal\u0101",
+      "author": "K\u0101lid\u0101sa",
       "year": 400,
       "century": 5,
       "location": {
         "name": "Ancient India",
-        "coordinates": [20.5937, 78.9629]
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
       },
       "summary": "The love story of King Dushyanta and Shakuntala, separated by a curse and reunited through a ring.",
       "historical_context": "Written during India's classical period, exemplifying Sanskrit dramatic traditions."
@@ -368,7 +457,10 @@
       "century": 18,
       "location": {
         "name": "Beijing, China",
-        "coordinates": [39.9042, 116.4074]
+        "coordinates": [
+          39.9042,
+          116.4074
+        ]
       },
       "summary": "The rise and fall of the Jia family and the love story between Jia Baoyu and Lin Daiyu.",
       "historical_context": "Written during the Qing Dynasty, depicting the decline of noble families."
@@ -380,7 +472,10 @@
       "century": 20,
       "location": {
         "name": "Sudan and London",
-        "coordinates": [15.5007, 32.5599]
+        "coordinates": [
+          15.5007,
+          32.5599
+        ]
       },
       "summary": "A Sudanese man's experiences in England and his return home, exploring colonialism and identity.",
       "historical_context": "Written post-independence, examining the complex relationship between Africa and Europe."
@@ -392,7 +487,10 @@
       "century": 20,
       "location": {
         "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "Writer Anna Wulf's attempt to integrate different aspects of her life through four notebooks.",
       "historical_context": "Written during the Cold War, exploring feminism, communism, and mental breakdown."
@@ -404,7 +502,10 @@
       "century": 20,
       "location": {
         "name": "New Mexico Territory",
-        "coordinates": [35.687, -105.9378]
+        "coordinates": [
+          35.687,
+          -105.9378
+        ]
       },
       "summary": "The life of a French Catholic priest building a diocese in the American Southwest.",
       "historical_context": "Set in the mid-19th century, depicting the American frontier and cultural encounters."
@@ -416,7 +517,10 @@
       "century": 20,
       "location": {
         "name": "Oran, Algeria",
-        "coordinates": [35.6969, -0.6331]
+        "coordinates": [
+          35.6969,
+          -0.6331
+        ]
       },
       "summary": "A city's response to a deadly plague, examining human resilience and solidarity.",
       "historical_context": "Written after World War II, using plague as an allegory for the Nazi occupation."
@@ -428,7 +532,10 @@
       "century": 20,
       "location": {
         "name": "Japan",
-        "coordinates": [35.6762, 139.6503]
+        "coordinates": [
+          35.6762,
+          139.6503
+        ]
       },
       "summary": "Reporter surrogate chronicles the 1938 Go match where aging Master Shusai faces modern challenger Otake, symbolizing shifting Japan.",
       "historical_context": "Kawabata's 1954 novel reflected traditions yielding to modern era after WWII."
@@ -440,7 +547,10 @@
       "century": 21,
       "location": {
         "name": "Europe",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "Architectural historian Jacques Austerlitz uncovers his Kindertransport past and lost parents through wandering European stations.",
       "historical_context": "Sebald's 2001 novel blended essay and fiction, meditating on Holocaust memory at the millennium."
@@ -452,34 +562,43 @@
       "century": 20,
       "location": {
         "name": "Sicily, Italy",
-        "coordinates": [37.5994, 14.0154]
+        "coordinates": [
+          37.5994,
+          14.0154
+        ]
       },
       "summary": "Prince Fabrizio of Salina witnesses Sicily's aristocracy fade during Italy's Risorgimento, accepting change to preserve appearance.",
       "historical_context": "Written 1958 from memoirs of decline, Lampedusa portrayed 1860s unification upheaval."
     },
     {
       "title": "The Tale of Kieu",
-      "author": "Nguyễn Du",
+      "author": "Nguy\u1ec5n Du",
       "year": 1820,
       "century": 19,
       "location": {
         "name": "Vietnam",
-        "coordinates": [21.0285, 105.8542]
+        "coordinates": [
+          21.0285,
+          105.8542
+        ]
       },
       "summary": "Virtuous Kieu sells herself into bondage to save her family, enduring exile before karmic reunion with her beloved Kim.",
-      "historical_context": "Nguyễn Du's 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen‑dynasty Vietnam."
+      "historical_context": "Nguy\u1ec5n Du's 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen\u2011dynasty Vietnam."
     },
     {
-      "title": "Pedro Páramo",
+      "title": "Pedro P\u00e1ramo",
       "author": "Juan Rulfo",
       "year": 1955,
       "century": 20,
       "location": {
         "name": "Comala, Mexico",
-        "coordinates": [19.3193, -103.7555]
+        "coordinates": [
+          19.3193,
+          -103.7555
+        ]
       },
       "summary": "Juan Preciado arrives in Comala to meet his father but finds a ghost town haunted by the patriarch's sins.",
-      "historical_context": "Rulfo's 1955 work pioneered Latin American surrealism amid Mexico's post‑Revolution disillusionment."
+      "historical_context": "Rulfo's 1955 work pioneered Latin American surrealism amid Mexico's post\u2011Revolution disillusionment."
     },
     {
       "title": "The Complete Stories of Flannery O'Connor",
@@ -488,10 +607,13 @@
       "century": 20,
       "location": {
         "name": "Georgia, USA",
-        "coordinates": [32.1656, -82.9001]
+        "coordinates": [
+          32.1656,
+          -82.9001
+        ]
       },
       "summary": "Grotesque Southerners confront grace, violence and revelation in short tales blending dark humor with Catholic theology.",
-      "historical_context": "Published 1971 after O'Connor's death, the collection spanned 1940s‑60s Georgia amid Civil Rights tensions."
+      "historical_context": "Published 1971 after O'Connor's death, the collection spanned 1940s\u201160s Georgia amid Civil Rights tensions."
     },
     {
       "title": "The Book of Disquiet",
@@ -500,10 +622,13 @@
       "century": 20,
       "location": {
         "name": "Lisbon, Portugal",
-        "coordinates": [38.7223, -9.1393]
+        "coordinates": [
+          38.7223,
+          -9.1393
+        ]
       },
       "summary": "Lisbon clerk Bernardo Soares records fragmentary reflections on alienation, dreams and the futility of identity.",
-      "historical_context": "Pessoa wrote the texts 1910s‑30s; posthumously assembled in 1982 during Portugal's end‑of‑dictatorship transition."
+      "historical_context": "Pessoa wrote the texts 1910s\u201130s; posthumously assembled in 1982 during Portugal's end\u2011of\u2011dictatorship transition."
     },
     {
       "title": "Blood Meridian",
@@ -512,10 +637,13 @@
       "century": 20,
       "location": {
         "name": "US-Mexico Border",
-        "coordinates": [31.7619, -106.485]
+        "coordinates": [
+          31.7619,
+          -106.485
+        ]
       },
-      "summary": "A nameless Kid joins Glanton's scalp‑hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden's nihilistic gaze.",
-      "historical_context": "McCarthy's 1985 novel re‑examined Manifest Destiny through gothic violence in the American Southwest."
+      "summary": "A nameless Kid joins Glanton's scalp\u2011hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden's nihilistic gaze.",
+      "historical_context": "McCarthy's 1985 novel re\u2011examined Manifest Destiny through gothic violence in the American Southwest."
     },
     {
       "title": "The Mahabharata",
@@ -524,7 +652,10 @@
       "century": -4,
       "location": {
         "name": "Ancient India",
-        "coordinates": [28.6139, 77.209]
+        "coordinates": [
+          28.6139,
+          77.209
+        ]
       },
       "summary": "Rival cousins battle in the Kurukshetra War while divine sermons like the Bhagavad Gita explore duty, karma and cosmic order.",
       "historical_context": "Compiled between 400 BCE and 400 CE, this Sanskrit epic shaped Hindu philosophy and subcontinental identity."
@@ -536,7 +667,10 @@
       "century": 19,
       "location": {
         "name": "Provincial Russia",
-        "coordinates": [56.3287, 44.002]
+        "coordinates": [
+          56.3287,
+          44.002
+        ]
       },
       "summary": "Revolutionary agitators descend on a provincial Russian town, exploiting nihilism and provoking murder in ideological chaos.",
       "historical_context": "Dostoevsky's 1872 novel criticized radical politics emerging in Tsarist Russia after the 1860s reforms."
@@ -548,10 +682,13 @@
       "century": 20,
       "location": {
         "name": "Osaka, Japan",
-        "coordinates": [34.6937, 135.5023]
+        "coordinates": [
+          34.6937,
+          135.5023
+        ]
       },
       "summary": "Four Osaka sisters navigate arranged marriages and Western influence as their aristocratic family declines on the eve of WWII.",
-      "historical_context": "Tanizaki serialized the novel 1943‑48, recording Japan's shift from tradition to modernity before wartime defeat."
+      "historical_context": "Tanizaki serialized the novel 1943\u201148, recording Japan's shift from tradition to modernity before wartime defeat."
     },
     {
       "title": "If on a winter's night a traveler",
@@ -560,10 +697,13 @@
       "century": 20,
       "location": {
         "name": "Various Fictional Settings",
-        "coordinates": [45.4642, 9.19]
+        "coordinates": [
+          45.4642,
+          9.19
+        ]
       },
       "summary": "A Reader tries to finish a novel that keeps restarting in different genres, collapsing boundaries between book and audience.",
-      "historical_context": "Calvino's 1979 postmodern experiment reflected late‑20th‑century skepticism about narrative authority."
+      "historical_context": "Calvino's 1979 postmodern experiment reflected late\u201120th\u2011century skepticism about narrative authority."
     },
     {
       "title": "The Great Gatsby",
@@ -572,7 +712,10 @@
       "century": 20,
       "location": {
         "name": "Long Island, New York",
-        "coordinates": [40.7891, -73.135]
+        "coordinates": [
+          40.7891,
+          -73.135
+        ]
       },
       "summary": "Mysterious millionaire Jay Gatsby throws lavish parties to win back Daisy Buchanan, exposing the hollowness of the Jazz Age dream.",
       "historical_context": "Fitzgerald's 1925 novel captured Roaring Twenties excess before the Great Depression."
@@ -584,9 +727,12 @@
       "century": 20,
       "location": {
         "name": "Dublin, Ireland",
-        "coordinates": [53.3498, -6.2603]
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
       },
-      "summary": "Leopold Bloom's single day in Dublin mirrors Homer's Odyssey through stream‑of‑consciousness, parody and linguistic experimentation.",
+      "summary": "Leopold Bloom's single day in Dublin mirrors Homer's Odyssey through stream\u2011of\u2011consciousness, parody and linguistic experimentation.",
       "historical_context": "Joyce's 1922 modernist landmark challenged censorship and celebrated ordinary life amid Ireland's push for independence."
     },
     {
@@ -596,22 +742,28 @@
       "century": 20,
       "location": {
         "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
       },
-      "summary": "Marcel, triggered by a madeleine's taste, reconstructs loves, art and decadence in fin‑de‑siècle France across seven volumes.",
-      "historical_context": "Proust's 1913‑27 masterpiece chronicled Belle Époque society dissolving before World War I."
+      "summary": "Marcel, triggered by a madeleine's taste, reconstructs loves, art and decadence in fin\u2011de\u2011si\u00e8cle France across seven volumes.",
+      "historical_context": "Proust's 1913\u201127 masterpiece chronicled Belle \u00c9poque society dissolving before World War I."
     },
     {
       "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
+      "author": "Gabriel Garc\u00eda M\u00e1rquez",
       "year": 1967,
       "century": 20,
       "location": {
         "name": "Macondo (Based on Aracataca), Colombia",
-        "coordinates": [10.5916, -74.1861]
+        "coordinates": [
+          10.5916,
+          -74.1861
+        ]
       },
-      "summary": "The Buendía family's generations in Macondo witness magical plagues, wars and cyclical fate, blending myth and Colombian history.",
-      "historical_context": "García Márquez's 1967 novel spearheaded Latin American magical realism during regional social upheavals."
+      "summary": "The Buend\u00eda family's generations in Macondo witness magical plagues, wars and cyclical fate, blending myth and Colombian history.",
+      "historical_context": "Garc\u00eda M\u00e1rquez's 1967 novel spearheaded Latin American magical realism during regional social upheavals."
     },
     {
       "title": "The Catcher in the Rye",
@@ -620,10 +772,13 @@
       "century": 20,
       "location": {
         "name": "New York City, United States",
-        "coordinates": [40.7128, -74.0060]
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
       },
       "summary": "Disenchanted teen Holden Caulfield spends three days wandering New York City, railing against 'phoniness' while mourning innocence and his brother's death.",
-      "historical_context": "Published in 1951, Salinger's novel voiced post‑WWII adolescent angst amid rising consumer culture."
+      "historical_context": "Published in 1951, Salinger's novel voiced post\u2011WWII adolescent angst amid rising consumer culture."
     },
     {
       "title": "Nineteen Eighty-Four",
@@ -632,10 +787,13 @@
       "century": 20,
       "location": {
         "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "Winston Smith secretly rebels in a surveillance state where Big Brother rewrites history and even thought is a crime.",
-      "historical_context": "Orwell's 1949 novel reflected post‑war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
+      "historical_context": "Orwell's 1949 novel reflected post\u2011war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
     },
     {
       "title": "Lolita",
@@ -644,7 +802,10 @@
       "century": 20,
       "location": {
         "name": "United States (Various Locations)",
-        "coordinates": [39.8283, -98.5795]
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
       },
       "summary": "Humbert Humbert's obsession with twelve-year-old Dolores Haze.",
       "historical_context": "Written during the 1950s, exploring themes of obsession, manipulation, and moral corruption."
@@ -656,10 +817,13 @@
       "century": 20,
       "location": {
         "name": "Middle-earth (Fictional)",
-        "coordinates": [0.0, 0.0]
+        "coordinates": [
+          0.0,
+          0.0
+        ]
       },
-      "summary": "Hobbit Frodo must destroy the One Ring in Mount Doom, while diverse allies wage war against the dark lord Sauron for Middle‑earth's future.",
-      "historical_context": "Written 1937‑49 and published 1954‑55, Tolkien's saga synthesized mythic languages and echoed WWII's struggle between tyranny and fellowship."
+      "summary": "Hobbit Frodo must destroy the One Ring in Mount Doom, while diverse allies wage war against the dark lord Sauron for Middle\u2011earth's future.",
+      "historical_context": "Written 1937\u201149 and published 1954\u201155, Tolkien's saga synthesized mythic languages and echoed WWII's struggle between tyranny and fellowship."
     },
     {
       "title": "Moby-Dick",
@@ -668,7 +832,10 @@
       "century": 19,
       "location": {
         "name": "Atlantic Ocean",
-        "coordinates": [35.0, -40.0]
+        "coordinates": [
+          35.0,
+          -40.0
+        ]
       },
       "summary": "Obsessive Captain Ahab pursues the white whale across the globe, while Ishmael's narrative probes fate, religion and the mysteries of the sea.",
       "historical_context": "Melville's 1851 epic reflected America's whaling era and antebellum anxieties about expansion and destiny."
@@ -680,7 +847,10 @@
       "century": 20,
       "location": {
         "name": "Alabama, United States",
-        "coordinates": [32.3668, -86.7999]
+        "coordinates": [
+          32.3668,
+          -86.7999
+        ]
       },
       "summary": "Young Scout Finch witnesses her father Atticus defend a Black man falsely accused of rape, challenging entrenched racism in 1930s Alabama.",
       "historical_context": "Harper Lee's 1960 novel paralleled the Civil Rights Movement, recalling Jim Crow justice in the Deep South."
@@ -691,8 +861,11 @@
       "year": 1010,
       "century": 11,
       "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
-        "coordinates": [35.0116, 135.7681]
+        "name": "Heian-ky\u014d (Kyoto), Japan",
+        "coordinates": [
+          35.0116,
+          135.7681
+        ]
       },
       "summary": "The life and romantic pursuits of Hikaru Genji, the emperor's son, in the imperial court.",
       "historical_context": "Written during the height of the Heian period, depicting aristocratic culture and customs."
@@ -704,7 +877,10 @@
       "century": 9,
       "location": {
         "name": "Baghdad, Abbasid Caliphate",
-        "coordinates": [33.3152, 44.3661]
+        "coordinates": [
+          33.3152,
+          44.3661
+        ]
       },
       "summary": "A collection of Middle Eastern folk tales framed by Scheherazade's nightly storytelling.",
       "historical_context": "Compiled during the Islamic Golden Age, reflecting medieval Islamic culture."
@@ -716,7 +892,10 @@
       "century": -20,
       "location": {
         "name": "Uruk, Ancient Mesopotamia",
-        "coordinates": [31.3236, 45.6367]
+        "coordinates": [
+          31.3236,
+          45.6367
+        ]
       },
       "summary": "The adventures of King Gilgamesh and his friend Enkidu, exploring themes of friendship and mortality.",
       "historical_context": "One of the earliest surviving works of literature, from ancient Sumerian civilization."
@@ -728,7 +907,10 @@
       "century": 20,
       "location": {
         "name": "Cincinnati, Ohio",
-        "coordinates": [39.1031, -84.512]
+        "coordinates": [
+          39.1031,
+          -84.512
+        ]
       },
       "summary": "A former slave is haunted by the ghost of her daughter in post-Civil War Ohio.",
       "historical_context": "Set in the aftermath of the Civil War, examining the psychological impact of slavery."
@@ -740,7 +922,10 @@
       "century": 20,
       "location": {
         "name": "Jefferson (Fictional), Mississippi",
-        "coordinates": [34.3668, -89.5186]
+        "coordinates": [
+          34.3668,
+          -89.5186
+        ]
       },
       "summary": "The decline of the Compson family told through multiple perspectives.",
       "historical_context": "Set in the American South, examining the decay of Southern aristocracy."
@@ -752,7 +937,10 @@
       "century": 20,
       "location": {
         "name": "Algiers, French Algeria",
-        "coordinates": [36.7538, 3.0588]
+        "coordinates": [
+          36.7538,
+          3.0588
+        ]
       },
       "summary": "Meursault's emotional detachment leads to murder and a philosophical examination of existence.",
       "historical_context": "Written during French colonial rule in Algeria, exploring existentialism."
@@ -764,7 +952,10 @@
       "century": 20,
       "location": {
         "name": "Prague, Austria-Hungary",
-        "coordinates": [50.0755, 14.4378]
+        "coordinates": [
+          50.0755,
+          14.4378
+        ]
       },
       "summary": "Gregor Samsa wakes up one morning transformed into a giant insect.",
       "historical_context": "Written during the decline of the Austro-Hungarian Empire, exploring alienation."
@@ -776,7 +967,10 @@
       "century": 20,
       "location": {
         "name": "Umuofia (Eastern Nigeria)",
-        "coordinates": [6.455, 7.5122]
+        "coordinates": [
+          6.455,
+          7.5122
+        ]
       },
       "summary": "The life of Okonkwo and his village's encounter with British colonialism.",
       "historical_context": "Set in pre-colonial and colonial Nigeria, examining cultural clash."
@@ -788,7 +982,10 @@
       "century": 11,
       "location": {
         "name": "Anglo-Saxon England",
-        "coordinates": [52.3555, 1.1743]
+        "coordinates": [
+          52.3555,
+          1.1743
+        ]
       },
       "summary": "An Old English epic poem featuring the hero Beowulf, who battles the monster Grendel, Grendel's mother, and a dragon.",
       "historical_context": "Likely composed between the 8th and 11th centuries, it is one of the most important works of Anglo-Saxon literature."
@@ -800,7 +997,10 @@
       "century": 11,
       "location": {
         "name": "Persia (modern-day Iran)",
-        "coordinates": [35.6892, 51.389]
+        "coordinates": [
+          35.6892,
+          51.389
+        ]
       },
       "summary": "Epic poem narrating the legendary and historical past of Persia, from the creation of the world until the Arab conquest.",
       "historical_context": "Composed over 30 years, preserving Persian cultural identity after the Islamic conquest."
@@ -812,7 +1012,10 @@
       "century": 17,
       "location": {
         "name": "La Mancha, Spain",
-        "coordinates": [39.2796, -3.0977]
+        "coordinates": [
+          39.2796,
+          -3.0977
+        ]
       },
       "summary": "A delusional nobleman imagines himself a knight-errant, embarking on adventures with his squire Sancho Panza.",
       "historical_context": "Written as a parody of chivalric romances, marking the birth of the modern novel."
@@ -824,7 +1027,10 @@
       "century": 19,
       "location": {
         "name": "Russia (Moscow and St. Petersburg)",
-        "coordinates": [55.7558, 37.6173]
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
       },
       "summary": "An epic narrative following five aristocratic families during Napoleon's invasion of Russia.",
       "historical_context": "Set during the Napoleonic Era, examining Russian society and the impact of war."
@@ -836,7 +1042,10 @@
       "century": 19,
       "location": {
         "name": "St. Petersburg, Russia",
-        "coordinates": [59.9311, 30.3609]
+        "coordinates": [
+          59.9311,
+          30.3609
+        ]
       },
       "summary": "A young student commits murder and grapples with guilt and redemption in 19th century Russia.",
       "historical_context": "Written during the period of social reform in Russia, exploring themes of morality and redemption."
@@ -848,7 +1057,10 @@
       "century": 19,
       "location": {
         "name": "Russia (Moscow and St. Petersburg)",
-        "coordinates": [55.7558, 37.6173]
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
       },
       "summary": "A tragic love story of Anna Karenina's affair and its consequences, contrasted with Levin's spiritual journey.",
       "historical_context": "Set during the modernization of Russian society, examining marriage, faith, and social change."
@@ -860,118 +1072,13 @@
       "century": 19,
       "location": {
         "name": "Russia",
-        "coordinates": [55.7558, 37.6173]
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
       },
       "summary": "A philosophical novel about faith, doubt, and morality through the story of three brothers.",
       "historical_context": "Written during a period of great social change in Russia."
-    },
-    {
-      "title": "Ulysses",
-      "author": "James Joyce",
-      "year": 1922,
-      "century": 20,
-      "location": {
-        "name": "Dublin, Ireland",
-        "coordinates": [53.3498, -6.2603]
-      },
-      "summary": "Leopold Bloom's day-long odyssey through Dublin parallels Homer's epic while exploring consciousness and modern urban life.",
-      "historical_context": "Joyce's modernist masterpiece revolutionized the novel form with stream-of-consciousness technique."
-    },
-    {
-      "title": "In Search of Lost Time",
-      "author": "Marcel Proust",
-      "year": 1913,
-      "century": 20,
-      "location": {
-        "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
-      },
-      "summary": "Marcel's involuntary memories unlock a vast meditation on time, art, love, and French society.",
-      "historical_context": "Proust's monumental work exploring memory and consciousness in Belle Époque France."
-    },
-    {
-      "title": "Nineteen Eighty-Four",
-      "author": "George Orwell",
-      "year": 1949,
-      "century": 20,
-      "location": {
-        "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
-      },
-      "summary": "Winston Smith's rebellion against totalitarian surveillance in a dystopian future society.",
-      "historical_context": "Orwell's prophetic warning about totalitarianism and thought control written after WWII."
-    },
-    {
-      "title": "Lolita",
-      "author": "Vladimir Nabokov",
-      "year": 1955,
-      "century": 20,
-      "location": {
-        "name": "United States",
-        "coordinates": [40.7128, -74.0060]
-      },
-      "summary": "Humbert Humbert's obsessive and destructive relationship with twelve-year-old Dolores Haze.",
-      "historical_context": "Nabokov's controversial novel examining desire, manipulation, and moral corruption."
-    },
-    {
-      "title": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
-      "year": 1954,
-      "century": 20,
-      "location": {
-        "name": "Middle-earth (Fictional)",
-        "coordinates": [51.7520, -1.2577]
-      },
-      "summary": "Frodo Baggins' quest to destroy the One Ring and save Middle-earth from the Dark Lord Sauron.",
-      "historical_context": "Tolkien's epic fantasy influenced by his experiences in WWI and philological expertise."
-    },
-    {
-      "title": "Don Quixote",
-      "author": "Miguel de Cervantes",
-      "year": 1605,
-      "century": 17,
-      "location": {
-        "name": "La Mancha, Spain",
-        "coordinates": [39.3628, -2.9927]
-      },
-      "summary": "An aging gentleman becomes a knight-errant, tilting at windmills and defending his imagined lady love.",
-      "historical_context": "Cervantes' masterpiece satirizes chivalric romances while exploring reality and illusion."
-    },
-    {
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "year": 1869,
-      "century": 19,
-      "location": {
-        "name": "Moscow and St. Petersburg, Russia",
-        "coordinates": [55.7558, 37.6173]
-      },
-      "summary": "Russian aristocratic families navigate Napoleon's invasion and the social upheavals of war.",
-      "historical_context": "Tolstoy's epic chronicling Russian society during the Napoleonic Wars."
-    },
-    {
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "year": 1866,
-      "century": 19,
-      "location": {
-        "name": "St. Petersburg, Russia",
-        "coordinates": [59.9311, 30.3609]
-      },
-      "summary": "Raskolnikov murders an old pawnbroker and struggles with guilt, redemption, and spiritual awakening.",
-      "historical_context": "Dostoevsky's psychological masterpiece exploring morality, faith, and human nature."
-    },
-    {
-      "title": "The Stranger",
-      "author": "Albert Camus",
-      "year": 1942,
-      "century": 20,
-      "location": {
-        "name": "Algiers, Algeria",
-        "coordinates": [36.7372, 3.0865]
-      },
-      "summary": "Meursault's indifferent response to his mother's death and a senseless murder explores existential absurdity.",
-      "historical_context": "Camus' existentialist novel examining alienation and the absurd in colonial Algeria."
     },
     {
       "title": "Madame Bovary",
@@ -980,7 +1087,10 @@
       "century": 19,
       "location": {
         "name": "Normandy, France",
-        "coordinates": [49.1829, 0.3707]
+        "coordinates": [
+          49.1829,
+          0.3707
+        ]
       },
       "summary": "Emma Bovary's romantic illusions and adultery lead to financial ruin and tragic death.",
       "historical_context": "Flaubert's realistic portrayal of bourgeois life and romantic disillusionment."
@@ -992,7 +1102,10 @@
       "century": 20,
       "location": {
         "name": "Unnamed City (Prague-like)",
-        "coordinates": [50.0755, 14.4378]
+        "coordinates": [
+          50.0755,
+          14.4378
+        ]
       },
       "summary": "Josef K. is arrested and prosecuted by a mysterious bureaucratic court system for an unknown crime.",
       "historical_context": "Kafka's surreal exploration of bureaucracy, guilt, and alienation in modern society."
@@ -1004,7 +1117,10 @@
       "century": 20,
       "location": {
         "name": "Isle of Skye, Scotland",
-        "coordinates": [57.2731, -6.2157]
+        "coordinates": [
+          57.2731,
+          -6.2157
+        ]
       },
       "summary": "The Ramsay family's visits to their summer house explore memory, loss, and the passage of time.",
       "historical_context": "Woolf's modernist masterpiece using stream-of-consciousness to examine family dynamics."
@@ -1016,7 +1132,10 @@
       "century": 20,
       "location": {
         "name": "Davos, Switzerland",
-        "coordinates": [46.8043, 9.8336]
+        "coordinates": [
+          46.8043,
+          9.8336
+        ]
       },
       "summary": "Hans Castorp's stay at a tuberculosis sanatorium becomes a philosophical education about European civilization.",
       "historical_context": "Mann's meditation on European culture and disease before World War I."
@@ -1028,7 +1147,10 @@
       "century": 20,
       "location": {
         "name": "London, England",
-        "coordinates": [51.5074, -0.1278]
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
       },
       "summary": "Clarissa Dalloway prepares for a party while her thoughts and those of others weave through one day in London.",
       "historical_context": "Woolf's stream-of-consciousness novel exploring post-WWI society and mental health."
@@ -1040,7 +1162,10 @@
       "century": 20,
       "location": {
         "name": "Pianosa, Italy",
-        "coordinates": [42.5847, 10.0811]
+        "coordinates": [
+          42.5847,
+          10.0811
+        ]
       },
       "summary": "Captain Yossarian navigates the absurd bureaucracy and catch-22 logic of military life during WWII.",
       "historical_context": "Heller's satirical anti-war novel critiquing military bureaucracy and the absurdity of war."
@@ -1052,19 +1177,25 @@
       "century": 20,
       "location": {
         "name": "Harlem, New York",
-        "coordinates": [40.8075, -73.9411]
+        "coordinates": [
+          40.8075,
+          -73.9411
+        ]
       },
       "summary": "An unnamed Black narrator's journey from the South to Harlem explores racism and identity in America.",
       "historical_context": "Ellison's groundbreaking novel examining African American experience and social invisibility."
     },
     {
-      "title": "Les Misérables",
+      "title": "Les Mis\u00e9rables",
       "author": "Victor Hugo",
       "year": 1862,
       "century": 19,
       "location": {
         "name": "Paris, France",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
       },
       "summary": "Jean Valjean's redemption and the lives of others intersect during French social upheaval and revolution.",
       "historical_context": "Hugo's epic examining social justice, redemption, and the French Revolution's legacy."
@@ -1076,22 +1207,28 @@
       "century": 20,
       "location": {
         "name": "Across United States",
-        "coordinates": [39.8283, -98.5795]
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
       },
       "summary": "Sal Paradise and Dean Moriarty's cross-country travels capture Beat Generation spirit and American freedom.",
       "historical_context": "Kerouac's spontaneous prose chronicling 1950s counterculture and the search for meaning."
     },
     {
       "title": "Journey to the End of the Night",
-      "author": "Louis-Ferdinand Céline",
+      "author": "Louis-Ferdinand C\u00e9line",
       "year": 1932,
       "century": 20,
       "location": {
         "name": "France and Africa",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
       },
       "summary": "Bardamu's cynical journey through WWI, colonial Africa, and urban America reveals humanity's darkness.",
-      "historical_context": "Céline's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
+      "historical_context": "C\u00e9line's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
     },
     {
       "title": "The Red and the Black",
@@ -1100,7 +1237,10 @@
       "century": 19,
       "location": {
         "name": "France",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
       },
       "summary": "Julien Sorel's ambitious rise through French society ends in scandal and execution.",
       "historical_context": "Stendhal's psychological realism exploring ambition, love, and social climbing in post-Revolutionary France."
