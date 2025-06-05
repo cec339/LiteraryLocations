@@ -2429,6 +2429,4371 @@
       },
       "summary": "Meg Murry travels through time and space to rescue her father from the evil IT that threatens to control the universe.",
       "historical_context": "L\\Engle\\s science fantasy novel broke barriers by featuring a female protagonist in STEM and addressing complex themes."
+    },
+    {
+      "title": "U.S.A. Trilogy",
+      "author": "John Dos Passos",
+      "year": 1930,
+      "century": 20,
+      "location": {
+        "name": "Chicago, New York, United States",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "U.S.A. Trilogy by John Dos Passos - Experimental work exploring themes of american dream.",
+      "historical_context": "Published in 1930, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Communist Manifesto",
+      "author": "Karl Marx, Friedrich Engels",
+      "year": 1848,
+      "century": 19,
+      "location": {
+        "name": "Germany, United Kingdom",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Communist Manifesto by Karl Marx, Friedrich Engels - Nonfiction work exploring themes of american history.",
+      "historical_context": "Published in 1848, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Autobiography of Malcolm X",
+      "author": "Alex Haley",
+      "year": 1965,
+      "century": 20,
+      "location": {
+        "name": "Boston, Harlem, Lansing, Massachusetts, Mecca, Michigan, Nebraska, New York, New York City, Omaha, Saudi Arabia, United States",
+        "coordinates": [
+          42.3601,
+          -71.0589
+        ]
+      },
+      "summary": "The Autobiography of Malcolm X by Alex Haley - Autobiography work exploring themes of activism.",
+      "historical_context": "Published in 1965, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "All the King's Men",
+      "author": "Robert Penn Warren",
+      "year": 1946,
+      "century": 20,
+      "location": {
+        "name": "Louisiana, Southern US, United States",
+        "coordinates": [
+          31.2448,
+          -92.145
+        ]
+      },
+      "summary": "All the King's Men by Robert Penn Warren - Fiction work exploring themes of ambition.",
+      "historical_context": "Published in 1946, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "year": 2005,
+      "century": 21,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Never Let Me Go by Kazuo Ishiguro - Drama work exploring themes of cloning.",
+      "historical_context": "Published in 2005, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Bonjour Tristesse",
+      "author": "Francoise Sagan",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "France, Riviera",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Bonjour Tristesse by Francoise Sagan - Coming of age work exploring themes of adolescence.",
+      "historical_context": "Published in 1954, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Confederacy of Dunces",
+      "author": "John Kennedy Toole",
+      "year": 1980,
+      "century": 20,
+      "location": {
+        "name": "Louisiana, New Orleans, United States",
+        "coordinates": [
+          31.2448,
+          -92.145
+        ]
+      },
+      "summary": "A Confederacy of Dunces by John Kennedy Toole - Absurdist work exploring themes of ambition.",
+      "historical_context": "Published in 1980, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Christmas Carol",
+      "author": "Charles Dickens",
+      "year": 1843,
+      "century": 19,
+      "location": {
+        "name": "England, Great Britain, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Christmas Carol by Charles Dickens - Allegorical work exploring themes of christmas spirit.",
+      "historical_context": "Published in 1843, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Anne of Green Gables",
+      "author": "L. M. Montgomery",
+      "year": 1908,
+      "century": 20,
+      "location": {
+        "name": "Canada, Prince Edward Island",
+        "coordinates": [
+          56.1304,
+          -106.3468
+        ]
+      },
+      "summary": "Anne of Green Gables by L. M. Montgomery - Children's books work exploring themes of adoption.",
+      "historical_context": "Published in 1908, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Disgrace",
+      "author": "J. M. Coetzee",
+      "year": 1999,
+      "century": 20,
+      "location": {
+        "name": "Africa, Eastern Cape, South Africa",
+        "coordinates": [
+          -30.5595,
+          22.9375
+        ]
+      },
+      "summary": "Disgrace by J. M. Coetzee - Drama work exploring themes of academia.",
+      "historical_context": "Published in 1999, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Murder of Roger Ackroyd",
+      "author": "Agatha Christie",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Murder of Roger Ackroyd by Agatha Christie - Crime work exploring themes of betrayal.",
+      "historical_context": "Published in 1926, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "year": 2006,
+      "century": 21,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Road by Cormac McCarthy - Apocalyptic work exploring themes of despair.",
+      "historical_context": "Published in 2006, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "East of Eden",
+      "author": "John Steinbeck",
+      "year": 1952,
+      "century": 20,
+      "location": {
+        "name": "California, Massachusetts, Salinas, San Francisco, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "East of Eden by John Steinbeck - Coming of age work exploring themes of family.",
+      "historical_context": "Published in 1952, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Wizard of Earthsea",
+      "author": "Ursula K. Le Guin",
+      "year": 1968,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "A Wizard of Earthsea by Ursula K. Le Guin - Adventure work exploring themes of balance.",
+      "historical_context": "Published in 1968, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Haunting of Hill House",
+      "author": "Shirley Jackson",
+      "year": 1959,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, New England",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Haunting of Hill House by Shirley Jackson - Fiction work exploring themes of death.",
+      "historical_context": "Published in 1959, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Women in Love",
+      "author": "D. H. Lawrence",
+      "year": 1920,
+      "century": 20,
+      "location": {
+        "name": "England, Midlands",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Women in Love by D. H. Lawrence - Drama work exploring themes of desire.",
+      "historical_context": "Published in 1920, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Life of Samuel Johnson",
+      "author": "James Boswell",
+      "year": 1791,
+      "century": 18,
+      "location": {
+        "name": "England, Great Britain, London, Scotland, United Kingdom",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Life of Samuel Johnson by James Boswell - Biography work exploring themes of criticism.",
+      "historical_context": "Published in 1791, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "The Lion, The Witch and the Wardrobe",
+      "author": "C. S. Lewis",
+      "year": 1950,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Lion, The Witch and the Wardrobe by C. S. Lewis - Adventure work exploring themes of animals.",
+      "historical_context": "Published in 1950, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Of Human Bondage",
+      "author": "W. Somerset Maugham",
+      "year": 1915,
+      "century": 20,
+      "location": {
+        "name": "England, France, London, Paris",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Of Human Bondage by W. Somerset Maugham - Coming of age work exploring themes of ambition.",
+      "historical_context": "Published in 1915, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The House of Mirth",
+      "author": "Edith Wharton",
+      "year": 1905,
+      "century": 20,
+      "location": {
+        "name": "New York, New York City, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The House of Mirth by Edith Wharton - Drama work exploring themes of ambition.",
+      "historical_context": "Published in 1905, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Hunger",
+      "author": "Knut Hamsun",
+      "year": 1890,
+      "century": 19,
+      "location": {
+        "name": "Norway, Oslo",
+        "coordinates": [
+          60.472,
+          8.4689
+        ]
+      },
+      "summary": "Hunger by Knut Hamsun - Allegorical work exploring themes of creativity.",
+      "historical_context": "Published in 1890, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Persuasion",
+      "author": "Jane Austen",
+      "year": 1817,
+      "century": 19,
+      "location": {
+        "name": "Bath, England, Great Britain",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Persuasion by Jane Austen - Drama work exploring themes of duty.",
+      "historical_context": "Published in 1817, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Democracy in America",
+      "author": "Alexis de Tocqueville",
+      "year": 1835,
+      "century": 19,
+      "location": {
+        "name": "France, United States",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Democracy in America by Alexis de Tocqueville - Cultural work exploring themes of american history.",
+      "historical_context": "Published in 1835, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Zorba the Greek",
+      "author": "Nikos Kazantzakis",
+      "year": 1946,
+      "century": 20,
+      "location": {
+        "name": "Crete, Greece",
+        "coordinates": [
+          39.0742,
+          21.8243
+        ]
+      },
+      "summary": "Zorba the Greek by Nikos Kazantzakis - Drama work exploring themes of death.",
+      "historical_context": "Published in 1946, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Republic",
+      "author": "Plato",
+      "year": -379,
+      "century": -4,
+      "location": {
+        "name": "Ancient Greece, Athens, Utopia",
+        "coordinates": [
+          37.9838,
+          23.7275
+        ]
+      },
+      "summary": "The Republic by Plato - Ancient work exploring themes of education.",
+      "historical_context": "Published in -379, reflecting the literary movements of the -4th century."
+    },
+    {
+      "title": "The Tempest",
+      "author": "William Shakespeare",
+      "year": 1623,
+      "century": 17,
+      "location": {
+        "name": "Fictional Location, Italy",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Tempest by William Shakespeare - Drama work exploring themes of betrayal.",
+      "historical_context": "Published in 1623, reflecting the literary movements of the 17th century."
+    },
+    {
+      "title": "Nausea",
+      "author": "Jean Paul Sartre",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "Bouville, France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Nausea by Jean Paul Sartre - Dark work exploring themes of alienation.",
+      "historical_context": "Published in 1938, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Turn of the Screw",
+      "author": "Henry James",
+      "year": 1898,
+      "century": 19,
+      "location": {
+        "name": "England, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Turn of the Screw by Henry James - Fiction work exploring themes of ghosts.",
+      "historical_context": "Published in 1898, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "A Season in Hell",
+      "author": "Arthur Rimbaud",
+      "year": 1873,
+      "century": 19,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "A Season in Hell by Arthur Rimbaud - Allegorical work exploring themes of despair.",
+      "historical_context": "Published in 1873, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "2666",
+      "author": "Roberto Bola\u00f1o",
+      "year": 2004,
+      "century": 21,
+      "location": {
+        "name": "Mexico, Santa Teresa",
+        "coordinates": [
+          19.4326,
+          -99.1332
+        ]
+      },
+      "summary": "2666 by Roberto Bola\u00f1o - Encyclopedic work exploring themes of academia.",
+      "historical_context": "Published in 2004, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Finnegans Wake",
+      "author": "James Joyce",
+      "year": 1939,
+      "century": 20,
+      "location": {
+        "name": "Dublin, Ireland",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "Finnegans Wake by James Joyce - Encyclopedic work exploring themes of consciousness.",
+      "historical_context": "Published in 1939, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Secret History",
+      "author": "Donna Tartt",
+      "year": 1992,
+      "century": 20,
+      "location": {
+        "name": "United States, Vermont",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Secret History by Donna Tartt - Crime work exploring themes of betrayal.",
+      "historical_context": "Published in 1992, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Collected Poems of W. B. Yeats",
+      "author": "William Butler Yeats",
+      "year": 1933,
+      "century": 20,
+      "location": {
+        "name": "Ireland",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "Collected Poems of W. B. Yeats by William Butler Yeats - Allegorical work exploring themes of aging.",
+      "historical_context": "Published in 1933, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Invisible Cities",
+      "author": "Italo Calvino",
+      "year": 1972,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "Invisible Cities by Italo Calvino - Allegorical work exploring themes of communication.",
+      "historical_context": "Published in 1972, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Tropic of Cancer",
+      "author": "Henry Miller",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "France, New York, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Tropic of Cancer by Henry Miller - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1934, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Amazing Adventures of Kavalier and Clay",
+      "author": "Michael Chabon",
+      "year": 2000,
+      "century": 20,
+      "location": {
+        "name": "New York, New York City, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Amazing Adventures of Kavalier and Clay by Michael Chabon - Adventure work exploring themes of alternate history.",
+      "historical_context": "Published in 2000, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Death of Virgil",
+      "author": "Hermann Broch",
+      "year": 1945,
+      "century": 20,
+      "location": {
+        "name": "Brundisium, Italy, Rome",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "Death of Virgil by Hermann Broch - Allegorical work exploring themes of death.",
+      "historical_context": "Published in 1945, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Out of Africa",
+      "author": "Isak Dinesen",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Africa, Kenya, Southern Africa, Sub-Saharan Africa",
+        "coordinates": [
+          -0.0236,
+          37.9062
+        ]
+      },
+      "summary": "Out of Africa by Isak Dinesen - Cultural work exploring themes of cultural exchange.",
+      "historical_context": "Published in 1937, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Jungle",
+      "author": "Upton Sinclair",
+      "year": 1906,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois, United States",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "The Jungle by Upton Sinclair - Drama work exploring themes of despair.",
+      "historical_context": "Published in 1906, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Stand",
+      "author": "Stephen King",
+      "year": 1978,
+      "century": 20,
+      "location": {
+        "name": "Boulder, Colorado, Las Vegas, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Stand by Stephen King - Apocalyptic work exploring themes of community.",
+      "historical_context": "Published in 1978, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Malone Dies",
+      "author": "Samuel Beckett",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "Malone Dies by Samuel Beckett - Allegorical work exploring themes of death.",
+      "historical_context": "Published in 1951, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The World According to Garp",
+      "author": "John Irving",
+      "year": 1978,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The World According to Garp by John Irving - Coming of age work exploring themes of death.",
+      "historical_context": "Published in 1978, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Moviegoer",
+      "author": "Walker Percy",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Louisiana, New Orleans, United States",
+        "coordinates": [
+          31.2448,
+          -92.145
+        ]
+      },
+      "summary": "The Moviegoer by Walker Percy - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1961, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Forsyte Saga",
+      "author": "John Galsworthy",
+      "year": 1906,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Forsyte Saga by John Galsworthy - Fiction work exploring themes of divorce.",
+      "historical_context": "Published in 1906, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Franz Kafka",
+      "author": "Franz Kafka",
+      "year": 1971,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Franz Kafka by Franz Kafka - Absurdist work exploring themes of alienation.",
+      "historical_context": "Published in 1971, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Tartar Steppe",
+      "author": "Dino Buzzati",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "The Tartar Steppe by Dino Buzzati - Allegorical work exploring themes of ambition.",
+      "historical_context": "Published in 1940, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Uncle Tom's Cabin",
+      "author": "Harriet Beecher Stowe",
+      "year": 1852,
+      "century": 19,
+      "location": {
+        "name": "Kentucky, Louisiana, Ohio, Southern US, United States",
+        "coordinates": [
+          31.2448,
+          -92.145
+        ]
+      },
+      "summary": "Uncle Tom's Cabin by Harriet Beecher Stowe - Banned books work exploring themes of african american history.",
+      "historical_context": "Published in 1852, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Gulag Archipelago",
+      "author": "Aleksandr Solzhenitsyn",
+      "year": 1973,
+      "century": 20,
+      "location": {
+        "name": "Gulag, Russia, Soviet Union",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "The Gulag Archipelago by Aleksandr Solzhenitsyn - Memoir work exploring themes of history.",
+      "historical_context": "Published in 1973, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Godfather",
+      "author": "Mario Puzo",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Godfather by Mario Puzo - Crime work exploring themes of betrayal.",
+      "historical_context": "Published in 1969, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Dangerous Liaison",
+      "author": "Pierre Choderlos de Laclos",
+      "year": 1782,
+      "century": 18,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Dangerous Liaison by Pierre Choderlos de Laclos - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1782, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Siddhartha",
+      "author": "Hermann Hesse",
+      "year": 1922,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Germany, India",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Siddhartha by Hermann Hesse - Allegorical work exploring themes of christianity.",
+      "historical_context": "Published in 1922, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Medea",
+      "author": "Euripides",
+      "year": -431,
+      "century": -5,
+      "location": {
+        "name": "Corinth, Greece",
+        "coordinates": [
+          39.0742,
+          21.8243
+        ]
+      },
+      "summary": "Medea by Euripides - Drama work exploring themes of betrayal.",
+      "historical_context": "Published in -431, reflecting the literary movements of the -5th century."
+    },
+    {
+      "title": "Oblomov",
+      "author": "Ivan Goncharov",
+      "year": 1859,
+      "century": 19,
+      "location": {
+        "name": "Russia, Saint Petersburg",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "Oblomov by Ivan Goncharov - Allegorical work exploring themes of existentialism.",
+      "historical_context": "Published in 1859, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Double Helix",
+      "author": "James D. Watson",
+      "year": 1968,
+      "century": 20,
+      "location": {
+        "name": "Cambridge, England, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Double Helix by James D. Watson - Biography work exploring themes of collaboration.",
+      "historical_context": "Published in 1968, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Adventures of Augie March",
+      "author": "Saul Bellow",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Illinois, Mexico, United States",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "The Adventures of Augie March by Saul Bellow - Coming of age work exploring themes of adversity.",
+      "historical_context": "Published in 1953, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Epic Of Gilgamesh",
+      "author": "Unknown",
+      "year": -2100,
+      "century": -21,
+      "location": {
+        "name": "Babylon, Fictional Location, Iraq, Mesopotamia, Uruk",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Epic Of Gilgamesh by Unknown - Adventure work exploring themes of civilization.",
+      "historical_context": "Published in -2100, reflecting the literary movements of the -21th century."
+    },
+    {
+      "title": "Darkness at Noon",
+      "author": "Arthur Koestler",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Soviet Union",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Darkness at Noon by Arthur Koestler - Dystopian work exploring themes of betrayal.",
+      "historical_context": "Published in 1940, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Chronicles of Narnia",
+      "author": "C. S. Lewis",
+      "year": 1950,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Chronicles of Narnia by C. S. Lewis - Adventure work exploring themes of christianity.",
+      "historical_context": "Published in 1950, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Power and the Glory",
+      "author": "Graham Greene",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "Mexico, Tabasco, United States",
+        "coordinates": [
+          19.4326,
+          -99.1332
+        ]
+      },
+      "summary": "The Power and the Glory by Graham Greene - Allegorical work exploring themes of catholicism.",
+      "historical_context": "Published in 1940, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "year": 1977,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Shining by Stephen King - Fiction work exploring themes of family.",
+      "historical_context": "Published in 1977, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Radetzky March",
+      "author": "Joseph Roth",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "Austria, Austria-Hungary, Europe, Hungary",
+        "coordinates": [
+          47.5162,
+          14.5501
+        ]
+      },
+      "summary": "The Radetzky March by Joseph Roth - Allegorical work exploring themes of decline.",
+      "historical_context": "Published in 1932, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Are You There God? It's Me, Margaret",
+      "author": "Judy Blume",
+      "year": 1970,
+      "century": 20,
+      "location": {
+        "name": "Farbrook, New Jersey, New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Are You There God? It's Me, Margaret by Judy Blume - Coming of age work exploring themes of adolescence.",
+      "historical_context": "Published in 1970, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Life, a User's Manual",
+      "author": "Georges Perec",
+      "year": 1978,
+      "century": 20,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Life, a User's Manual by Georges Perec - Encyclopedic work exploring themes of existence.",
+      "historical_context": "Published in 1978, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Nostromo",
+      "author": "Joseph Conrad",
+      "year": 1904,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Nostromo by Joseph Conrad - Allegorical work exploring themes of betrayal.",
+      "historical_context": "Published in 1904, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Babbitt",
+      "author": "Sinclair Lewis",
+      "year": 1922,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Babbitt by Sinclair Lewis - Fiction work exploring themes of business.",
+      "historical_context": "Published in 1922, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Look Homeward, Angel",
+      "author": "Thomas Wolfe",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Asheville, North Carolina, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Look Homeward, Angel by Thomas Wolfe - Coming of age work exploring themes of ambition.",
+      "historical_context": "Published in 1929, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Life and Fate",
+      "author": "Vasily Grossman",
+      "year": 1980,
+      "century": 20,
+      "location": {
+        "name": "Russia, Stalingrad",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "Life and Fate by Vasily Grossman - Fiction work exploring themes of european history.",
+      "historical_context": "Published in 1980, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Independent People",
+      "author": "Halldor Laxness",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "Europe, Germany, Iceland, Independence",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Independent People by Halldor Laxness - Allegorical work exploring themes of family.",
+      "historical_context": "Published in 1934, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Thus Spake Zarathustra",
+      "author": "Friedrich Nietzsche",
+      "year": 1883,
+      "century": 19,
+      "location": {
+        "name": "Fictional Location, Germany",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Thus Spake Zarathustra by Friedrich Nietzsche - Allegorical work exploring themes of eternal recurrence.",
+      "historical_context": "Published in 1883, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Waves",
+      "author": "Virginia Woolf",
+      "year": 1931,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Waves by Virginia Woolf - Experimental work exploring themes of death.",
+      "historical_context": "Published in 1931, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Naked Lunch",
+      "author": "William S. Burroughs",
+      "year": 1959,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Mexico, Morocco, Tangier, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Naked Lunch by William S. Burroughs - Absurdist work exploring themes of addiction.",
+      "historical_context": "Published in 1959, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Alexandria Quartet",
+      "author": "Lawrence Durrell",
+      "year": 1957,
+      "century": 20,
+      "location": {
+        "name": "Alexandria, Egypt",
+        "coordinates": [
+          26.0975,
+          30.0444
+        ]
+      },
+      "summary": "The Alexandria Quartet by Lawrence Durrell - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1957, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Confessions of Jean-Jacques Rousseau",
+      "author": "Jean-Jacques Rousseau",
+      "year": 1782,
+      "century": 18,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Confessions of Jean-Jacques Rousseau by Jean-Jacques Rousseau - Autobiography work exploring themes of education.",
+      "historical_context": "Published in 1782, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "A Hero of Our Time",
+      "author": "Mikhail Lermontov",
+      "year": 1840,
+      "century": 19,
+      "location": {
+        "name": "Caucasus, Russia",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "A Hero of Our Time by Mikhail Lermontov - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1840, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "A Tree Grows in Brooklyn",
+      "author": "Betty Smith",
+      "year": 1943,
+      "century": 20,
+      "location": {
+        "name": "Brooklyn, New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "A Tree Grows in Brooklyn by Betty Smith - Coming of age work exploring themes of adolescence.",
+      "historical_context": "Published in 1943, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Lover",
+      "author": "Marguerite Duras",
+      "year": 1984,
+      "century": 20,
+      "location": {
+        "name": "France, Vietnam",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Lover by Marguerite Duras - Coming of age work exploring themes of family.",
+      "historical_context": "Published in 1984, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Gravity's Rainbow",
+      "author": "Thomas Pynchon",
+      "year": 1973,
+      "century": 20,
+      "location": {
+        "name": "Europe, Germany, London, United Kingdom, United States",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Gravity's Rainbow by Thomas Pynchon - Allegorical work exploring themes of chaos.",
+      "historical_context": "Published in 1973, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Left Hand Of Darkness",
+      "author": "Ursula K. Le Guin",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Left Hand Of Darkness by Ursula K. Le Guin - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1969, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Time Machine",
+      "author": "H. G. Wells",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Time Machine by H. G. Wells - Dystopian work exploring themes of class struggle.",
+      "historical_context": "Published in 1895, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Herzog",
+      "author": "Saul Bellow",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "Chicago, Massachusetts, New York, New York City, United States",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "Herzog by Saul Bellow - Fiction work exploring themes of divorce.",
+      "historical_context": "Published in 1964, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Call of the Wild",
+      "author": "Jack London",
+      "year": 1903,
+      "century": 20,
+      "location": {
+        "name": "Alaska, Canada, United States, Wilderness, Yukon",
+        "coordinates": [
+          56.1304,
+          -106.3468
+        ]
+      },
+      "summary": "The Call of the Wild by Jack London - Adventure work exploring themes of adaptation.",
+      "historical_context": "Published in 1903, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Pippi Longstocking",
+      "author": "Astrid Lindgren",
+      "year": 1945,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Independence",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Pippi Longstocking by Astrid Lindgren - Adventure work exploring themes of animals.",
+      "historical_context": "Published in 1945, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Foundation by Isaac Asimov - Dystopian work exploring themes of alternate history.",
+      "historical_context": "Published in 1951, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Posthumous Memoirs of Bras Cubas",
+      "author": "Machado de Assis",
+      "year": 1881,
+      "century": 19,
+      "location": {
+        "name": "Brazil, Rio de Janeiro",
+        "coordinates": [
+          -14.235,
+          -51.9253
+        ]
+      },
+      "summary": "The Posthumous Memoirs of Bras Cubas by Machado de Assis - Fiction work exploring themes of death.",
+      "historical_context": "Published in 1881, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Ambassadors",
+      "author": "Henry James",
+      "year": 1903,
+      "century": 20,
+      "location": {
+        "name": "France, Paris, United States",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Ambassadors by Henry James - Coming of age work exploring themes of culture.",
+      "historical_context": "Published in 1903, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Bonfire of the Vanities",
+      "author": "Tom Wolfe",
+      "year": 1987,
+      "century": 20,
+      "location": {
+        "name": "Media, New York, New York City, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Bonfire of the Vanities by Tom Wolfe - Crime work exploring themes of adultery.",
+      "historical_context": "Published in 1987, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Pickwick Papers",
+      "author": "Charles Dickens",
+      "year": 1836,
+      "century": 19,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Pickwick Papers by Charles Dickens - Fiction work exploring themes of debt.",
+      "historical_context": "Published in 1836, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "author": "Robert Louis Stevenson",
+      "year": 1886,
+      "century": 19,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson - Fiction work exploring themes of addiction.",
+      "historical_context": "Published in 1886, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Nightwood",
+      "author": "Djuna Barnes",
+      "year": 1936,
+      "century": 20,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Nightwood by Djuna Barnes - Experimental work exploring themes of alienation.",
+      "historical_context": "Published in 1936, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Oresteia",
+      "author": "Aeschylus",
+      "year": -458,
+      "century": -5,
+      "location": {
+        "name": "Athens, Greece",
+        "coordinates": [
+          37.9838,
+          23.7275
+        ]
+      },
+      "summary": "Oresteia by Aeschylus - Ancient work exploring themes of betrayal.",
+      "historical_context": "Published in -458, reflecting the literary movements of the -5th century."
+    },
+    {
+      "title": "The House of the Spirits",
+      "author": "Isabel Allende",
+      "year": 1982,
+      "century": 20,
+      "location": {
+        "name": "Chile, United States",
+        "coordinates": [
+          -35.6751,
+          -71.543
+        ]
+      },
+      "summary": "The House of the Spirits by Isabel Allende - Family & Relationships work exploring themes of death.",
+      "historical_context": "Published in 1982, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Death of Ivan Ilyich",
+      "author": "Leo Tolstoy",
+      "year": 1886,
+      "century": 19,
+      "location": {
+        "name": "Russia, Saint Petersburg",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "The Death of Ivan Ilyich by Leo Tolstoy - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1886, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Autobiography of Alice B. Toklas",
+      "author": "Gertrude Stein",
+      "year": 1933,
+      "century": 20,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Autobiography of Alice B. Toklas by Gertrude Stein - Biography work exploring themes of creativity.",
+      "historical_context": "Published in 1933, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Winesburg, Ohio",
+      "author": "Sherwood Anderson",
+      "year": 1919,
+      "century": 20,
+      "location": {
+        "name": "Ohio, United States, Winesburg",
+        "coordinates": [
+          40.4173,
+          -82.9071
+        ]
+      },
+      "summary": "Winesburg, Ohio by Sherwood Anderson - Fiction work exploring themes of alienation.",
+      "historical_context": "Published in 1919, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Leviathan",
+      "author": "Thomas Hobbes",
+      "year": 1651,
+      "century": 17,
+      "location": {
+        "name": "England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Leviathan by Thomas Hobbes - Nonfiction work exploring themes of authority.",
+      "historical_context": "Published in 1651, reflecting the literary movements of the 17th century."
+    },
+    {
+      "title": "Man's Search for Meaning",
+      "author": "Viktor Frankl",
+      "year": 1946,
+      "century": 20,
+      "location": {
+        "name": "Auschwitz, Poland",
+        "coordinates": [
+          51.9194,
+          19.1451
+        ]
+      },
+      "summary": "Man's Search for Meaning by Viktor Frankl - Counselling work exploring themes of existentialism.",
+      "historical_context": "Published in 1946, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Wings of the Dove",
+      "author": "Henry James",
+      "year": 1902,
+      "century": 20,
+      "location": {
+        "name": "England, Italy, London, Venice",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Wings of the Dove by Henry James - Fiction work exploring themes of deception.",
+      "historical_context": "Published in 1902, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Lucky Jim",
+      "author": "Kingsley Amis",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Lucky Jim by Kingsley Amis - Fiction work exploring themes of academia.",
+      "historical_context": "Published in 1954, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Song of Solomon",
+      "author": "Toni Morrison",
+      "year": 1977,
+      "century": 20,
+      "location": {
+        "name": "Michigan, United States",
+        "coordinates": [
+          44.3467,
+          -85.4102
+        ]
+      },
+      "summary": "Song of Solomon by Toni Morrison - Coming of age work exploring themes of african american.",
+      "historical_context": "Published in 1977, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Cry, the Beloved Country",
+      "author": "Alan Paton",
+      "year": 1948,
+      "century": 20,
+      "location": {
+        "name": "Africa, Johannesburg, KwaZulu-Natal, South Africa, Southern Africa",
+        "coordinates": [
+          -30.5595,
+          22.9375
+        ]
+      },
+      "summary": "Cry, the Beloved Country by Alan Paton - Fiction work exploring themes of faith.",
+      "historical_context": "Published in 1948, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Good Earth",
+      "author": "Pearl S. Buck",
+      "year": 1931,
+      "century": 20,
+      "location": {
+        "name": "China",
+        "coordinates": [
+          39.9042,
+          116.4074
+        ]
+      },
+      "summary": "The Good Earth by Pearl S. Buck - Coming of age work exploring themes of agriculture.",
+      "historical_context": "Published in 1931, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Mahabharata",
+      "author": "Vyasa",
+      "year": -400,
+      "century": -4,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
+      },
+      "summary": "Mahabharata by Vyasa - Allegorical work exploring themes of dharma.",
+      "historical_context": "Published in -400, reflecting the literary movements of the -4th century."
+    },
+    {
+      "title": "Father Goriot",
+      "author": "Honor\u00e9 de Balzac",
+      "year": 1835,
+      "century": 19,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Father Goriot by Honor\u00e9 de Balzac - Drama work exploring themes of ambition.",
+      "historical_context": "Published in 1835, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Private Memoirs and Confessions of a Justified Sinner",
+      "author": "James Hogg",
+      "year": 1824,
+      "century": 19,
+      "location": {
+        "name": "Scotland",
+        "coordinates": [
+          55.9533,
+          -3.1883
+        ]
+      },
+      "summary": "The Private Memoirs and Confessions of a Justified Sinner by James Hogg - Allegorical work exploring themes of calvinism.",
+      "historical_context": "Published in 1824, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "White Noise",
+      "author": "Don DeLillo",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "Media, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "White Noise by Don DeLillo - Dark work exploring themes of death.",
+      "historical_context": "Published in 1985, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Labyrinths",
+      "author": "Jorge Luis Borges",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Argentina, Buenos Aires, Germany, India, London, United States",
+        "coordinates": [
+          -34.6118,
+          -58.396
+        ]
+      },
+      "summary": "Labyrinths by Jorge Luis Borges - Allegorical work exploring themes of dreams.",
+      "historical_context": "Published in 1962, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Wind-Up Bird Chronicle",
+      "author": "Haruki Murakami",
+      "year": 1994,
+      "century": 20,
+      "location": {
+        "name": "Japan, Tokyo",
+        "coordinates": [
+          35.6762,
+          139.6503
+        ]
+      },
+      "summary": "The Wind-Up Bird Chronicle by Haruki Murakami - Experimental work exploring themes of disappearance.",
+      "historical_context": "Published in 1994, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Independence",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Where the Wild Things Are by Maurice Sendak - Children's books work exploring themes of animals.",
+      "historical_context": "Published in 1963, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Dance to the Music of Time",
+      "author": "Anthony Powell",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Dance to the Music of Time by Anthony Powell - Coming of age work exploring themes of friendship.",
+      "historical_context": "Published in 1951, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Kim",
+      "author": "Rudyard Kipling",
+      "year": 1901,
+      "century": 20,
+      "location": {
+        "name": "Himalayas, India, Lahore",
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
+      },
+      "summary": "Kim by Rudyard Kipling - Adventure work exploring themes of conduct of life.",
+      "historical_context": "Published in 1901, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Kristin Lavransdatter",
+      "author": "Sigrid Undset",
+      "year": 1920,
+      "century": 20,
+      "location": {
+        "name": "Norway",
+        "coordinates": [
+          60.472,
+          8.4689
+        ]
+      },
+      "summary": "Kristin Lavransdatter by Sigrid Undset - Coming of age work exploring themes of catholicism.",
+      "historical_context": "Published in 1920, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "year": 161,
+      "century": 2,
+      "location": {
+        "name": "Italy, Rome",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "Meditations by Marcus Aurelius - Ancient work exploring themes of duty.",
+      "historical_context": "Published in 161, reflecting the literary movements of the 2th century."
+    },
+    {
+      "title": "The Poems of Robert Frost",
+      "author": "Robert Frost",
+      "year": 1913,
+      "century": 20,
+      "location": {
+        "name": "New England, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Poems of Robert Frost by Robert Frost - Allegorical work exploring themes of choices.",
+      "historical_context": "Published in 1913, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Structure of Scientific Revolutions",
+      "author": "Thomas Kuhn",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Structure of Scientific Revolutions by Thomas Kuhn - Nonfiction work exploring themes of anomalies.",
+      "historical_context": "Published in 1962, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Princess of Cleves",
+      "author": "Madame de La Fayette",
+      "year": 1678,
+      "century": 17,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Princess of Cleves by Madame de La Fayette - Fiction work exploring themes of courtship.",
+      "historical_context": "Published in 1678, reflecting the literary movements of the 17th century."
+    },
+    {
+      "title": "The Year of Magical Thinking",
+      "author": "Joan Didion",
+      "year": 2005,
+      "century": 21,
+      "location": {
+        "name": "New York City, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Year of Magical Thinking by Joan Didion - Family & Relationships work exploring themes of death.",
+      "historical_context": "Published in 2005, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Infinite Jest",
+      "author": "David Foster Wallace",
+      "year": 1996,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Infinite Jest by David Foster Wallace - Dark work exploring themes of addiction.",
+      "historical_context": "Published in 1996, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Homage to Catalonia",
+      "author": "George Orwell",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "Barcelona, Spain",
+        "coordinates": [
+          40.4168,
+          -3.7038
+        ]
+      },
+      "summary": "Homage to Catalonia by George Orwell - Memoir work exploring themes of american history.",
+      "historical_context": "Published in 1938, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Daughter of Time",
+      "author": "Josephine Tey",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "England, Great Britain, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Daughter of Time by Josephine Tey - Crime work exploring themes of european history.",
+      "historical_context": "Published in 1951, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Fear and Loathing in Las Vegas",
+      "author": "Hunter S. Thompson",
+      "year": 1971,
+      "century": 20,
+      "location": {
+        "name": "Las Vegas, Nevada, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Fear and Loathing in Las Vegas by Hunter S. Thompson - Absurdist work exploring themes of american dream.",
+      "historical_context": "Published in 1971, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "I Know Why the Caged Bird Sings",
+      "author": "Maya Angelou",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Arkansas, Stamps, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "I Know Why the Caged Bird Sings by Maya Angelou - Autobiography work exploring themes of empowerment.",
+      "historical_context": "Published in 1969, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "India, Kerala, United States",
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
+      },
+      "summary": "The God of Small Things by Arundhati Roy - Drama work exploring themes of caste.",
+      "historical_context": "Published in 1997, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Death in Venice",
+      "author": "Thomas Mann",
+      "year": 1912,
+      "century": 20,
+      "location": {
+        "name": "Europe, Germany, Italy, Venice",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Death in Venice by Thomas Mann - Allegorical work exploring themes of aging.",
+      "historical_context": "Published in 1912, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Awakening",
+      "author": "Kate Chopin",
+      "year": 1899,
+      "century": 19,
+      "location": {
+        "name": "Independence, Louisiana, Mexico, United States",
+        "coordinates": [
+          31.2448,
+          -92.145
+        ]
+      },
+      "summary": "The Awakening by Kate Chopin - Coming of age work exploring themes of freedom.",
+      "historical_context": "Published in 1899, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Unnamable",
+      "author": "Samuel Beckett",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "The Unnamable by Samuel Beckett - Absurdist work exploring themes of .",
+      "historical_context": "Published in 1953, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Garden of the Finzi-Continis",
+      "author": "Giorgio Bassani",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "Ferrara, Italy",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "The Garden of the Finzi-Continis by Giorgio Bassani - Fiction work exploring themes of anti-semitism.",
+      "historical_context": "Published in 1962, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Room With a View",
+      "author": "E. M. Forster",
+      "year": 1908,
+      "century": 20,
+      "location": {
+        "name": "England, Florence, Italy",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Room With a View by E. M. Forster - Coming of age work exploring themes of conformity.",
+      "historical_context": "Published in 1908, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "At Swim Two-Birds",
+      "author": "Flann O'Brien",
+      "year": 1939,
+      "century": 20,
+      "location": {
+        "name": "Dublin, Ireland",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "At Swim Two-Birds by Flann O'Brien - Allegorical work exploring themes of authors.",
+      "historical_context": "Published in 1939, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Gilead",
+      "author": "Marilynne Robinson",
+      "year": 2004,
+      "century": 21,
+      "location": {
+        "name": "Gilead, Iowa, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Gilead by Marilynne Robinson - Coming of age work exploring themes of christianity.",
+      "historical_context": "Published in 2004, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "The Confusions of Young T\u00f6rless",
+      "author": "Robert Musil",
+      "year": 1906,
+      "century": 20,
+      "location": {
+        "name": "Austria-Hungary",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Confusions of Young T\u00f6rless by Robert Musil - Allegorical work exploring themes of adolescence.",
+      "historical_context": "Published in 1906, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "La Regenta",
+      "author": "Clar\u00edn",
+      "year": 1884,
+      "century": 19,
+      "location": {
+        "name": "Spain, Vetusta",
+        "coordinates": [
+          40.4168,
+          -3.7038
+        ]
+      },
+      "summary": "La Regenta by Clar\u00edn - Drama work exploring themes of adultery.",
+      "historical_context": "Published in 1884, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Old Wives' Tale",
+      "author": "Arnold Bennett",
+      "year": 1908,
+      "century": 20,
+      "location": {
+        "name": "Bursley, England, Great Britain, Independence",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Old Wives' Tale by Arnold Bennett - Coming of age work exploring themes of aging.",
+      "historical_context": "Published in 1908, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Human Stain",
+      "author": "Philip Roth",
+      "year": 2000,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Massachusetts, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Human Stain by Philip Roth - Drama work exploring themes of academia.",
+      "historical_context": "Published in 2000, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Betrothed",
+      "author": "Alessandro Manzoni",
+      "year": 1827,
+      "century": 19,
+      "location": {
+        "name": "Italy, Lombardy, United States",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "The Betrothed by Alessandro Manzoni - Drama work exploring themes of betrayal.",
+      "historical_context": "Published in 1827, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Lost Estate",
+      "author": "Henri Alain-Fournier",
+      "year": 1913,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Lost Estate by Henri Alain-Fournier - Coming of age work exploring themes of adolescence.",
+      "historical_context": "Published in 1913, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "If on a Winter's Night a Traveller",
+      "author": "Italo Calvino",
+      "year": 1979,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Reading",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "If on a Winter's Night a Traveller by Italo Calvino - Books About Books work exploring themes of authorship.",
+      "historical_context": "Published in 1979, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Mill on the Floss",
+      "author": "George Eliot",
+      "year": 1860,
+      "century": 19,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Mill on the Floss by George Eliot - Coming of age work exploring themes of conflict of generations.",
+      "historical_context": "Published in 1860, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Savage Detectives",
+      "author": "Roberto Bola\u00f1o",
+      "year": 1998,
+      "century": 20,
+      "location": {
+        "name": "Latin American, Mexico, Mexico City",
+        "coordinates": [
+          19.4326,
+          -99.1332
+        ]
+      },
+      "summary": "The Savage Detectives by Roberto Bola\u00f1o - Experimental work exploring themes of obsession.",
+      "historical_context": "Published in 1998, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Speak, Memory",
+      "author": "Vladimir Nabokov",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "Europe, Russia, United States",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "Speak, Memory by Vladimir Nabokov - Drama work exploring themes of memory.",
+      "historical_context": "Published in 1951, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Cold Comfort Farm",
+      "author": "Stella Gibbons",
+      "year": 1932,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Cold Comfort Farm by Stella Gibbons - Fiction work exploring themes of agriculture.",
+      "historical_context": "Published in 1932, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Ivanhoe",
+      "author": "Sir Walter Scott",
+      "year": 1819,
+      "century": 19,
+      "location": {
+        "name": "England, Great Britain",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Ivanhoe by Sir Walter Scott - Adventure work exploring themes of chivalry.",
+      "historical_context": "Published in 1819, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Stories of John Cheever",
+      "author": "John Cheever",
+      "year": 1978,
+      "century": 20,
+      "location": {
+        "name": "New York, Suburban New York, Suburbia, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Stories of John Cheever by John Cheever - Fiction work exploring themes of alienation.",
+      "historical_context": "Published in 1978, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Journey to the West",
+      "author": "Wu Cheng'en",
+      "year": 1592,
+      "century": 16,
+      "location": {
+        "name": "China, Fictional Location",
+        "coordinates": [
+          39.9042,
+          116.4074
+        ]
+      },
+      "summary": "Journey to the West by Wu Cheng'en - Adventure work exploring themes of friendship.",
+      "historical_context": "Published in 1592, reflecting the literary movements of the 16th century."
+    },
+    {
+      "title": "Celestina Or The Tragic-Comedy Of Calisto And Melibea",
+      "author": "Fernando de Rojas",
+      "year": 1499,
+      "century": 15,
+      "location": {
+        "name": "Spain",
+        "coordinates": [
+          40.4168,
+          -3.7038
+        ]
+      },
+      "summary": "Celestina Or The Tragic-Comedy Of Calisto And Melibea by Fernando de Rojas - Drama work exploring themes of betrayal.",
+      "historical_context": "Published in 1499, reflecting the literary movements of the 15th century."
+    },
+    {
+      "title": "My Brilliant Friend",
+      "author": "Elena Ferrante",
+      "year": 2012,
+      "century": 21,
+      "location": {
+        "name": "Italy, Naples",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "My Brilliant Friend by Elena Ferrante - Coming of age work exploring themes of ambition.",
+      "historical_context": "Published in 2012, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Wolf Hall",
+      "author": "Hilary Mantel",
+      "year": 2009,
+      "century": 21,
+      "location": {
+        "name": "England, Great Britain, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Wolf Hall by Hilary Mantel - Drama work exploring themes of ambition.",
+      "historical_context": "Published in 2009, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "The Complete Works of Plato",
+      "author": "Plato",
+      "year": -387,
+      "century": -4,
+      "location": {
+        "name": "Athens, Greece",
+        "coordinates": [
+          37.9838,
+          23.7275
+        ]
+      },
+      "summary": "The Complete Works of Plato by Plato - Mythological work exploring themes of beauty.",
+      "historical_context": "Published in -387, reflecting the literary movements of the -4th century."
+    },
+    {
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "year": 1876,
+      "century": 19,
+      "location": {
+        "name": "Mississippi, Mississippi River, Missouri, Southern US, United States",
+        "coordinates": [
+          32.3547,
+          -89.3985
+        ]
+      },
+      "summary": "The Adventures of Tom Sawyer by Mark Twain - Adventure work exploring themes of freedom.",
+      "historical_context": "Published in 1876, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "His Dark Materials",
+      "author": "Philip Pullman",
+      "year": 1995,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "His Dark Materials by Philip Pullman - Adventure work exploring themes of authority.",
+      "historical_context": "Published in 1995, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Sorrows of Young Werther",
+      "author": "Johann Wolfgang von Goethe",
+      "year": 1774,
+      "century": 18,
+      "location": {
+        "name": "Fictional Location, Germany",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "The Sorrows of Young Werther by Johann Wolfgang von Goethe - Fiction work exploring themes of despair.",
+      "historical_context": "Published in 1774, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Tarzan of the Apes",
+      "author": "Edgar Rice Burroughs",
+      "year": 1912,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Tarzan of the Apes by Edgar Rice Burroughs - Adventure work exploring themes of animals.",
+      "historical_context": "Published in 1912, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The General Theory of Employment, Interest and Money",
+      "author": "John Maynard Keynes",
+      "year": 1936,
+      "century": 20,
+      "location": {
+        "name": "Money, United Kingdom",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The General Theory of Employment, Interest and Money by John Maynard Keynes - Nonfiction work exploring themes of aggregate demand.",
+      "historical_context": "Published in 1936, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Hollow Man",
+      "author": "John Dickson Carr",
+      "year": 1935,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Hollow Man by John Dickson Carr - Crime work exploring themes of deception.",
+      "historical_context": "Published in 1935, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Go Tell it on the Mountain",
+      "author": "James Baldwin",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Go Tell it on the Mountain by James Baldwin - Coming of age work exploring themes of african american.",
+      "historical_context": "Published in 1953, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Things They Carried",
+      "author": "Tim O'Brien",
+      "year": 1990,
+      "century": 20,
+      "location": {
+        "name": "United States, Vietnam, Vietnam War",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Things They Carried by Tim O'Brien - Allegorical work exploring themes of courage.",
+      "historical_context": "Published in 1990, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Housekeeping",
+      "author": "Marilynne Robinson",
+      "year": 1980,
+      "century": 20,
+      "location": {
+        "name": "Fingerbone, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Housekeeping by Marilynne Robinson - Coming of age work exploring themes of abandonment.",
+      "historical_context": "Published in 1980, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Postman Always Rings Twice",
+      "author": "James M. Cain",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "California, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "The Postman Always Rings Twice by James M. Cain - Crime work exploring themes of adultery.",
+      "historical_context": "Published in 1934, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Electric Kool-Aid Acid Test",
+      "author": "Tom Wolfe",
+      "year": 1968,
+      "century": 20,
+      "location": {
+        "name": "California, San Francisco, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "The Electric Kool-Aid Acid Test by Tom Wolfe - Americana work exploring themes of community.",
+      "historical_context": "Published in 1968, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "History",
+      "author": "Elsa Morante",
+      "year": 1974,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "History by Elsa Morante - Drama work exploring themes of european history.",
+      "historical_context": "Published in 1974, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "author": "Agatha Christie",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "Belgrade, Croatia, England, Istanbul, Italy, Serbia, Turkey",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Murder on the Orient Express by Agatha Christie - Cozy work exploring themes of deception.",
+      "historical_context": "Published in 1934, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Cloud Atlas",
+      "author": "David Mitchell",
+      "year": 2004,
+      "century": 21,
+      "location": {
+        "name": "Belgium, Fictional Location, Korea, Pacific Ocean, United Kingdom, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Cloud Atlas by David Mitchell - Experimental work exploring themes of connection.",
+      "historical_context": "Published in 2004, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Black Lamb and Grey Falcon",
+      "author": "Rebecca West",
+      "year": 1941,
+      "century": 20,
+      "location": {
+        "name": "Balkans, Yugoslavia",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Black Lamb and Grey Falcon by Rebecca West - Cultural work exploring themes of culture.",
+      "historical_context": "Published in 1941, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Phantom Tollbooth",
+      "author": "Norton Juster",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Phantom Tollbooth by Norton Juster - Adventure work exploring themes of boredom.",
+      "historical_context": "Published in 1961, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Germinal",
+      "author": "\u00c9mile Zola",
+      "year": 1885,
+      "century": 19,
+      "location": {
+        "name": "France, Nord-Pas-de-Calais",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Germinal by \u00c9mile Zola - Fiction work exploring themes of class struggle.",
+      "historical_context": "Published in 1885, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "I, Claudius",
+      "author": "Robert Graves",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "Italy, Roman, Rome",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "I, Claudius by Robert Graves - Drama work exploring themes of assassination.",
+      "historical_context": "Published in 1934, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Persepolis",
+      "author": "Marjane Satrapi",
+      "year": 2000,
+      "century": 20,
+      "location": {
+        "name": "Iran, Tehran",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Persepolis by Marjane Satrapi - Comics & Graphic Novels work exploring themes of culture.",
+      "historical_context": "Published in 2000, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Visit From The Goon Squad",
+      "author": "Jennifer Egan",
+      "year": 2010,
+      "century": 21,
+      "location": {
+        "name": "New York, New York City, San Francisco, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "A Visit From The Goon Squad by Jennifer Egan - Drama work exploring themes of addiction.",
+      "historical_context": "Published in 2010, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Hopscotch",
+      "author": "Julio Cortazar",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "Argentina, Buenos Aires, France, Paris",
+        "coordinates": [
+          -34.6118,
+          -58.396
+        ]
+      },
+      "summary": "Hopscotch by Julio Cortazar - Experimental work exploring themes of alienation.",
+      "historical_context": "Published in 1963, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Passing",
+      "author": "Nella Larsen",
+      "year": 1929,
+      "century": 20,
+      "location": {
+        "name": "Chicago, New York, United States",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "Passing by Nella Larsen - Drama work exploring themes of african american.",
+      "historical_context": "Published in 1929, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Peter And Wendy",
+      "author": "J. M. Barrie",
+      "year": 1911,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Peter And Wendy by J. M. Barrie - Adventure work exploring themes of freedom.",
+      "historical_context": "Published in 1911, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Oedipus at Colonus",
+      "author": "Sophocles",
+      "year": -401,
+      "century": -5,
+      "location": {
+        "name": "Colonus, Greece",
+        "coordinates": [
+          39.0742,
+          21.8243
+        ]
+      },
+      "summary": "Oedipus at Colonus by Sophocles - Drama work exploring themes of blindness.",
+      "historical_context": "Published in -401, reflecting the literary movements of the -5th century."
+    },
+    {
+      "title": "Kolyma Stories",
+      "author": "Varlam Shalamov",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "Kolyma, Russia, Soviet Union",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "Kolyma Stories by Varlam Shalamov - Fiction work exploring themes of dehumanization.",
+      "historical_context": "Published in 1954, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Ferdydurke",
+      "author": "Witold Gombrowicz",
+      "year": 1937,
+      "century": 20,
+      "location": {
+        "name": "Poland",
+        "coordinates": [
+          51.9194,
+          19.1451
+        ]
+      },
+      "summary": "Ferdydurke by Witold Gombrowicz - Absurdist work exploring themes of authority.",
+      "historical_context": "Published in 1937, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Devil to Pay in the Backlands",
+      "author": "Joao Guimaraes Rosa",
+      "year": 1956,
+      "century": 20,
+      "location": {
+        "name": "Brazil, Fictional Location, Minas Gerais",
+        "coordinates": [
+          -14.235,
+          -51.9253
+        ]
+      },
+      "summary": "The Devil to Pay in the Backlands by Joao Guimaraes Rosa - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1956, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Brief Wondrous Life of Oscar Wao",
+      "author": "Junot Diaz",
+      "year": 2007,
+      "century": 21,
+      "location": {
+        "name": "Dominican Republic, Latin American, New Jersey, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Brief Wondrous Life of Oscar Wao by Junot Diaz - Drama work exploring themes of culture.",
+      "historical_context": "Published in 2007, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "The Elements of Style",
+      "author": "E. B. White, William Strunk Jr.",
+      "year": 1918,
+      "century": 20,
+      "location": {
+        "name": "Publication Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Elements of Style by E. B. White, William Strunk Jr. - Nonfiction work exploring themes of clarity.",
+      "historical_context": "Published in 1918, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Death in the Family",
+      "author": "James Agee",
+      "year": 1957,
+      "century": 20,
+      "location": {
+        "name": "Knoxville, Tennessee, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "A Death in the Family by James Agee - Coming of age work exploring themes of death.",
+      "historical_context": "Published in 1957, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Clarissa",
+      "author": "Samuel Richardson",
+      "year": 1748,
+      "century": 18,
+      "location": {
+        "name": "England",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Clarissa by Samuel Richardson - Drama work exploring themes of betrayal.",
+      "historical_context": "Published in 1748, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "The Moonstone",
+      "author": "Wilkie Collins",
+      "year": 1868,
+      "century": 19,
+      "location": {
+        "name": "England, Great Britain, India, Yorkshire",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Moonstone by Wilkie Collins - Crime work exploring themes of addiction.",
+      "historical_context": "Published in 1868, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Quiet American",
+      "author": "Graham Greene",
+      "year": 1955,
+      "century": 20,
+      "location": {
+        "name": "Saigon, United States, Vietnam",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Quiet American by Graham Greene - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1955, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Middlesex",
+      "author": "Jeffrey Eugenides",
+      "year": 2002,
+      "century": 21,
+      "location": {
+        "name": "Detroit, Michigan, United States",
+        "coordinates": [
+          42.3314,
+          -83.0458
+        ]
+      },
+      "summary": "Middlesex by Jeffrey Eugenides - Coming of age work exploring themes of culture.",
+      "historical_context": "Published in 2002, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "The Man Who Loved Children",
+      "author": "Christina Stead",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "United States, Washington D.C.",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Man Who Loved Children by Christina Stead - Family & Relationships work exploring themes of family.",
+      "historical_context": "Published in 1940, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "I Capture the Castle",
+      "author": "Dodie Smith",
+      "year": 1948,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "I Capture the Castle by Dodie Smith - Coming of age work exploring themes of diaries.",
+      "historical_context": "Published in 1948, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Vindication of the Rights of Woman",
+      "author": "Mary Wollstonecraft",
+      "year": 1792,
+      "century": 18,
+      "location": {
+        "name": "England, Great Britain, London, United Kingdom",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Vindication of the Rights of Woman by Mary Wollstonecraft - Cultural work exploring themes of education.",
+      "historical_context": "Published in 1792, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Memoirs From Beyond the Grave",
+      "author": "Fran\u00e7ois-Auguste-Ren\u00e9 de Chateaubriand",
+      "year": 1849,
+      "century": 19,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Memoirs From Beyond the Grave by Fran\u00e7ois-Auguste-Ren\u00e9 de Chateaubriand - Memoir work exploring themes of european history.",
+      "historical_context": "Published in 1849, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Education of Henry Adams",
+      "author": "Henry Adams",
+      "year": 1907,
+      "century": 20,
+      "location": {
+        "name": "Boston, Europe, United States, Washington D.C.",
+        "coordinates": [
+          42.3601,
+          -71.0589
+        ]
+      },
+      "summary": "The Education of Henry Adams by Henry Adams - Autobiography work exploring themes of american history.",
+      "historical_context": "Published in 1907, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Ragged Trousered Philanthropists",
+      "author": "Robert Tressell, Peter Miles",
+      "year": 1914,
+      "century": 20,
+      "location": {
+        "name": "England, Mugsborough",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Ragged Trousered Philanthropists by Robert Tressell, Peter Miles - Drama work exploring themes of capitalism.",
+      "historical_context": "Published in 1914, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "We",
+      "author": "Yevgeny Zamyatin",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "We by Yevgeny Zamyatin - Allegorical work exploring themes of conformity.",
+      "historical_context": "Published in 1924, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "History of My Life",
+      "author": "Giacomo Casanova",
+      "year": 1822,
+      "century": 19,
+      "location": {
+        "name": "Europe, France, Italy, Paris, Venice",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "History of My Life by Giacomo Casanova - Adventure work exploring themes of culture.",
+      "historical_context": "Published in 1822, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Das Kapital",
+      "author": "Karl Marx",
+      "year": 1867,
+      "century": 19,
+      "location": {
+        "name": "Germany, India, United Kingdom",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Das Kapital by Karl Marx - Nonfiction work exploring themes of alienation.",
+      "historical_context": "Published in 1867, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Human Comedy",
+      "author": "Honor\u00e9 de Balzac",
+      "year": 1830,
+      "century": 19,
+      "location": {
+        "name": "France, Money, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Human Comedy by Honor\u00e9 de Balzac - Drama work exploring themes of ambition.",
+      "historical_context": "Published in 1830, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Solaris",
+      "author": "Stanislaw Lem",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Solaris by Stanislaw Lem - Fiction work exploring themes of alien life.",
+      "historical_context": "Published in 1961, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Fine Balance",
+      "author": "Rohinton Mistry",
+      "year": 1995,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, India, Mumbai",
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
+      },
+      "summary": "A Fine Balance by Rohinton Mistry - Drama work exploring themes of caste system.",
+      "historical_context": "Published in 1995, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "American Pastoral",
+      "author": "Philip Roth",
+      "year": 1997,
+      "century": 20,
+      "location": {
+        "name": "New Jersey, Newark, United States, Vietnam War",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "American Pastoral by Philip Roth - Family & Relationships work exploring themes of american dream.",
+      "historical_context": "Published in 1997, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Jude the Obscure",
+      "author": "Thomas Hardy",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "England, Germany, Wessex",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Jude the Obscure by Thomas Hardy - Coming of age work exploring themes of adultery.",
+      "historical_context": "Published in 1895, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "year": 1911,
+      "century": 20,
+      "location": {
+        "name": "England, Great Britain, Yorkshire",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Secret Garden by Frances Hodgson Burnett - Children's books work exploring themes of childhood and youth.",
+      "historical_context": "Published in 1911, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Sea, The Sea",
+      "author": "Iris Murdoch",
+      "year": 1978,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Sea, The Sea by Iris Murdoch - Allegorical work exploring themes of jealousy.",
+      "historical_context": "Published in 1978, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Philosophical Investigations",
+      "author": "Ludwig Wittgenstein",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "Austria, United Kingdom",
+        "coordinates": [
+          47.5162,
+          14.5501
+        ]
+      },
+      "summary": "Philosophical Investigations by Ludwig Wittgenstein - Experimental work exploring themes of communication.",
+      "historical_context": "Published in 1953, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Our Mutual Friend",
+      "author": "Charles Dickens",
+      "year": 1864,
+      "century": 19,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Our Mutual Friend by Charles Dickens - Crime work exploring themes of death & grief.",
+      "historical_context": "Published in 1864, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Notes from the Underground",
+      "author": "Fyodor Dostoevsky",
+      "year": 1864,
+      "century": 19,
+      "location": {
+        "name": "Russia, Saint Petersburg",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "Notes from the Underground by Fyodor Dostoevsky - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1864, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Relativity",
+      "author": "Albert Einstein",
+      "year": 1916,
+      "century": 20,
+      "location": {
+        "name": "Germany, Space, Switzerland",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Relativity by Albert Einstein - Encyclopedic work exploring themes of energy.",
+      "historical_context": "Published in 1916, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Do Androids Dream of Electric Sheep?",
+      "author": "Philip K. Dick",
+      "year": 1968,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Do Androids Dream of Electric Sheep? by Philip K. Dick - Cyberpunk work exploring themes of androids.",
+      "historical_context": "Published in 1968, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Another Country",
+      "author": "James Baldwin",
+      "year": 1962,
+      "century": 20,
+      "location": {
+        "name": "France, New York, New York City, Paris, United States",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Another Country by James Baldwin - Coming of age work exploring themes of alienation.",
+      "historical_context": "Published in 1962, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Let Us Now Praise Famous Men",
+      "author": "James Agee",
+      "year": 1941,
+      "century": 20,
+      "location": {
+        "name": "Alabama, Southern US, United States",
+        "coordinates": [
+          32.3182,
+          -86.9023
+        ]
+      },
+      "summary": "Let Us Now Praise Famous Men by James Agee - Americana work exploring themes of american history.",
+      "historical_context": "Published in 1941, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Collected Poems",
+      "author": "Wallace Stevens",
+      "year": 1954,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Collected Poems by Wallace Stevens - Allegorical work exploring themes of beauty.",
+      "historical_context": "Published in 1954, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "year": 1781,
+      "century": 18,
+      "location": {
+        "name": "Germany, Konigsberg, Prussia, Space",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Critique of Pure Reason by Immanuel Kant - Experimental work exploring themes of a priori knowledge.",
+      "historical_context": "Published in 1781, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "The Origins of Totalitarianism",
+      "author": "Hannah Arendt",
+      "year": 1951,
+      "century": 20,
+      "location": {
+        "name": "Germany, Russia, United States",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "The Origins of Totalitarianism by Hannah Arendt - Cultural work exploring themes of anti-semitism.",
+      "historical_context": "Published in 1951, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Myth of Sisyphus",
+      "author": "Albert Camus",
+      "year": 1942,
+      "century": 20,
+      "location": {
+        "name": "Europe, France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Myth of Sisyphus by Albert Camus - Allegorical work exploring themes of despair.",
+      "historical_context": "Published in 1942, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Notebooks of Malte Laurids Brigge",
+      "author": "Rainer Maria Rilke",
+      "year": 1910,
+      "century": 20,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Notebooks of Malte Laurids Brigge by Rainer Maria Rilke - Diaries & Journals work exploring themes of death.",
+      "historical_context": "Published in 1910, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Razor's Edge",
+      "author": "W. Somerset Maugham",
+      "year": 1944,
+      "century": 20,
+      "location": {
+        "name": "England, France, India, London, Paris",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Razor's Edge by W. Somerset Maugham - Coming of age work exploring themes of christianity.",
+      "historical_context": "Published in 1944, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "W, or the Memory of Childhood",
+      "author": "Georges Perec",
+      "year": 1975,
+      "century": 20,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "W, or the Memory of Childhood by Georges Perec - Allegorical work exploring themes of memory.",
+      "historical_context": "Published in 1975, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "War of the Worlds",
+      "author": "H. G. Wells",
+      "year": 1898,
+      "century": 19,
+      "location": {
+        "name": "England, London, Surrey, Woking",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "War of the Worlds by H. G. Wells - Adventure work exploring themes of adaptation.",
+      "historical_context": "Published in 1898, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Atlas Shrugged",
+      "author": "Ayn Rand",
+      "year": 1957,
+      "century": 20,
+      "location": {
+        "name": "Colorado, New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Atlas Shrugged by Ayn Rand - Dystopian work exploring themes of economics.",
+      "historical_context": "Published in 1957, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Stranger in a Strange Land",
+      "author": "Robert A. Heinlein",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Stranger in a Strange Land by Robert A. Heinlein - Fiction work exploring themes of culture.",
+      "historical_context": "Published in 1961, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "author": "Thomas Harris",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "Quantico, United States, West Virginia",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Silence of the Lambs by Thomas Harris - Crime work exploring themes of abduction.",
+      "historical_context": "Published in 1988, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Americanah",
+      "author": "Chimamanda Ngozi Adichie",
+      "year": 2013,
+      "century": 21,
+      "location": {
+        "name": "Connecticut, Lagos, New York, Nigeria, Philadelphia, Princeton, United States",
+        "coordinates": [
+          6.5244,
+          3.3792
+        ]
+      },
+      "summary": "Americanah by Chimamanda Ngozi Adichie - Contemporary work exploring themes of african american.",
+      "historical_context": "Published in 2013, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "Egypt, Spain",
+        "coordinates": [
+          26.0975,
+          30.0444
+        ]
+      },
+      "summary": "The Alchemist by Paulo Coelho - Allegorical work exploring themes of alchemy.",
+      "historical_context": "Published in 1988, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Parade's End",
+      "author": "Ford Madox Ford",
+      "year": 1924,
+      "century": 20,
+      "location": {
+        "name": "Belgium, England, France, Great Britain",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Parade's End by Ford Madox Ford - Fiction work exploring themes of duty.",
+      "historical_context": "Published in 1924, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Glass Bead Game",
+      "author": "Hermann Hesse",
+      "year": 1943,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "The Glass Bead Game by Hermann Hesse - Allegorical work exploring themes of education.",
+      "historical_context": "Published in 1943, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Joy Luck Club",
+      "author": "Amy Tan",
+      "year": 1989,
+      "century": 20,
+      "location": {
+        "name": "California, China, San Francisco, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "The Joy Luck Club by Amy Tan - Family & Relationships work exploring themes of culture.",
+      "historical_context": "Published in 1989, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Feminine Mystique",
+      "author": "Betty Friedan",
+      "year": 1963,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Feminine Mystique by Betty Friedan - Counselling work exploring themes of career.",
+      "historical_context": "Published in 1963, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Prophet",
+      "author": "Kahlil Gibran",
+      "year": 1923,
+      "century": 20,
+      "location": {
+        "name": "Lebanon, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Prophet by Kahlil Gibran - Allegorical work exploring themes of children.",
+      "historical_context": "Published in 1923, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Crying of Lot 49",
+      "author": "Thomas Pynchon",
+      "year": 1966,
+      "century": 20,
+      "location": {
+        "name": "California, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "The Crying of Lot 49 by Thomas Pynchon - Absurdist work exploring themes of communication.",
+      "historical_context": "Published in 1966, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Effi Briest",
+      "author": "Theodor Fontane",
+      "year": 1895,
+      "century": 19,
+      "location": {
+        "name": "Berlin, Germany, Pomerania",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Effi Briest by Theodor Fontane - Fiction work exploring themes of adultery.",
+      "historical_context": "Published in 1895, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Melmoth the Wanderer",
+      "author": "Charles Robert Maturin",
+      "year": 1820,
+      "century": 19,
+      "location": {
+        "name": "Dublin, Ireland",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "Melmoth the Wanderer by Charles Robert Maturin - Allegorical work exploring themes of despair.",
+      "historical_context": "Published in 1820, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Parallel Lives",
+      "author": "Plutarch",
+      "year": 100,
+      "century": 1,
+      "location": {
+        "name": "Greece, Italy, Roman, Rome",
+        "coordinates": [
+          39.0742,
+          21.8243
+        ]
+      },
+      "summary": "Parallel Lives by Plutarch - Ancient work exploring themes of character.",
+      "historical_context": "Published in 100, reflecting the literary movements of the 1th century."
+    },
+    {
+      "title": "Ramayana",
+      "author": "Valmiki",
+      "year": -200,
+      "century": -2,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          20.5937,
+          78.9629
+        ]
+      },
+      "summary": "Ramayana by Valmiki - Fiction work exploring themes of devotion.",
+      "historical_context": "Published in -200, reflecting the literary movements of the -2th century."
+    },
+    {
+      "title": "Play It As It Lays",
+      "author": "Joan Didion",
+      "year": 1970,
+      "century": 20,
+      "location": {
+        "name": "California, Hollywood, Los Angeles, United States",
+        "coordinates": [
+          36.7783,
+          -119.4179
+        ]
+      },
+      "summary": "Play It As It Lays by Joan Didion - Allegorical work exploring themes of addiction.",
+      "historical_context": "Published in 1970, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Ragtime",
+      "author": "E. L. Doctorow",
+      "year": 1975,
+      "century": 20,
+      "location": {
+        "name": "New Rochelle, New York, New York City, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Ragtime by E. L. Doctorow - Allegorical work exploring themes of alternate history.",
+      "historical_context": "Published in 1975, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Code of the Woosters",
+      "author": "P. G. Wodehouse",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "England, Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Code of the Woosters by P. G. Wodehouse - Cozy work exploring themes of antiques.",
+      "historical_context": "Published in 1938, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Jacques the Fatalist and His Master",
+      "author": "Denis Diderot",
+      "year": 1796,
+      "century": 18,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Jacques the Fatalist and His Master by Denis Diderot - Experimental work exploring themes of fate.",
+      "historical_context": "Published in 1796, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Gormenghast",
+      "author": "Mervyn Peake",
+      "year": 1950,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Gormenghast by Mervyn Peake - Absurdist work exploring themes of ambition.",
+      "historical_context": "Published in 1950, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Eugene Onegin",
+      "author": "Alexander Pushkin",
+      "year": 1833,
+      "century": 19,
+      "location": {
+        "name": "Moscow, Russia, Saint Petersburg",
+        "coordinates": [
+          55.7558,
+          37.6173
+        ]
+      },
+      "summary": "Eugene Onegin by Alexander Pushkin - Drama work exploring themes of death.",
+      "historical_context": "Published in 1833, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Casino Royale",
+      "author": "Ian Fleming",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "France, Great Britain, United Kingdom",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Casino Royale by Ian Fleming - Crime work exploring themes of betrayal.",
+      "historical_context": "Published in 1953, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Princess Bride",
+      "author": "William Goldman",
+      "year": 1973,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Princess Bride by William Goldman - Adventure work exploring themes of betrayal.",
+      "historical_context": "Published in 1973, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Federalist Papers",
+      "author": "Alexander Hamilton, James Madison, John Jay",
+      "year": 1787,
+      "century": 18,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "The Federalist Papers by Alexander Hamilton, James Madison, John Jay - Mythological work exploring themes of american history.",
+      "historical_context": "Published in 1787, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "The Immoralist",
+      "author": "Andr\u00e9 Gide",
+      "year": 1902,
+      "century": 20,
+      "location": {
+        "name": "Algeria, France",
+        "coordinates": [
+          28.0339,
+          1.6596
+        ]
+      },
+      "summary": "The Immoralist by Andr\u00e9 Gide - Allegorical work exploring themes of desire.",
+      "historical_context": "Published in 1902, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Household Tales",
+      "author": "Brothers Grimm",
+      "year": 1812,
+      "century": 19,
+      "location": {
+        "name": "Germany, Queens",
+        "coordinates": [
+          52.52,
+          13.405
+        ]
+      },
+      "summary": "Household Tales by Brothers Grimm - Adventure work exploring themes of cunning.",
+      "historical_context": "Published in 1812, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Bluest Eye",
+      "author": "Toni Morrison",
+      "year": 1970,
+      "century": 20,
+      "location": {
+        "name": "Lorain, Ohio, United States",
+        "coordinates": [
+          40.4173,
+          -82.9071
+        ]
+      },
+      "summary": "The Bluest Eye by Toni Morrison - Coming of age work exploring themes of african american.",
+      "historical_context": "Published in 1970, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Bouvard et P\u00e9cuchet",
+      "author": "Gustave Flaubert",
+      "year": 1881,
+      "century": 19,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Bouvard et P\u00e9cuchet by Gustave Flaubert - Absurdist work exploring themes of disillusionment.",
+      "historical_context": "Published in 1881, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Waiting for the Barbarians",
+      "author": "J. M. Coetzee",
+      "year": 1980,
+      "century": 20,
+      "location": {
+        "name": "Africa, Fictional Location, South Africa",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Waiting for the Barbarians by J. M. Coetzee - Allegorical work exploring themes of empathy.",
+      "historical_context": "Published in 1980, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Pens\u00e9es",
+      "author": "Blaise Pascal",
+      "year": 1670,
+      "century": 17,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Pens\u00e9es by Blaise Pascal - Allegorical work exploring themes of christianity.",
+      "historical_context": "Published in 1670, reflecting the literary movements of the 17th century."
+    },
+    {
+      "title": "Roots",
+      "author": "Alex Haley",
+      "year": 1976,
+      "century": 20,
+      "location": {
+        "name": "Africa, Annapolis, Gambia, Henning, Maryland, Southern US, Sub-Saharan Africa, Tennessee, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Roots by Alex Haley - Biography work exploring themes of african american.",
+      "historical_context": "Published in 1976, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Souls of Black Folk",
+      "author": "W. E. B. Du Bois",
+      "year": 1903,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Souls of Black Folk by W. E. B. Du Bois - Cultural work exploring themes of african american history.",
+      "historical_context": "Published in 1903, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "year": 1597,
+      "century": 16,
+      "location": {
+        "name": "Italy, Verona",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "Romeo and Juliet by William Shakespeare - Drama work exploring themes of death & grief.",
+      "historical_context": "Published in 1597, reflecting the literary movements of the 16th century."
+    },
+    {
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "year": 1988,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, Quantum Mechanics, Space, Universe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Brief History of Time by Stephen Hawking - Encyclopedic work exploring themes of big bang theory.",
+      "historical_context": "Published in 1988, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Tractatus Logico-Philosophicus",
+      "author": "Ludwig Wittgenstein",
+      "year": 1921,
+      "century": 20,
+      "location": {
+        "name": "Austria, United Kingdom, World",
+        "coordinates": [
+          47.5162,
+          14.5501
+        ]
+      },
+      "summary": "Tractatus Logico-Philosophicus by Ludwig Wittgenstein - Experimental work exploring themes of facts.",
+      "historical_context": "Published in 1921, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Secret Agent",
+      "author": "Joseph Conrad",
+      "year": 1907,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Secret Agent by Joseph Conrad - Crime work exploring themes of anarchism.",
+      "historical_context": "Published in 1907, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Castle of Otranto",
+      "author": "Horace Walpole",
+      "year": 1764,
+      "century": 18,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Castle of Otranto by Horace Walpole - Fiction work exploring themes of death.",
+      "historical_context": "Published in 1764, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Moll Flanders",
+      "author": "Daniel Defoe",
+      "year": 1722,
+      "century": 18,
+      "location": {
+        "name": "England, London, Virginia",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Moll Flanders by Daniel Defoe - Fiction work exploring themes of deception.",
+      "historical_context": "Published in 1722, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Amerika",
+      "author": "Franz Kafka",
+      "year": 1927,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Amerika by Franz Kafka - Absurdist work exploring themes of alienation.",
+      "historical_context": "Published in 1927, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Revolutionary Road",
+      "author": "Richard Yates",
+      "year": 1961,
+      "century": 20,
+      "location": {
+        "name": "Connecticut, Suburbia, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Revolutionary Road by Richard Yates - Drama work exploring themes of conformity.",
+      "historical_context": "Published in 1961, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Doll's House",
+      "author": "Henrik Ibsen",
+      "year": 1879,
+      "century": 19,
+      "location": {
+        "name": "Independence, Money, Norway",
+        "coordinates": [
+          60.472,
+          8.4689
+        ]
+      },
+      "summary": "A Doll's House by Henrik Ibsen - Drama work exploring themes of deception.",
+      "historical_context": "Published in 1879, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Ada or Ardor",
+      "author": "Vladimir Nabokov",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Ada or Ardor by Vladimir Nabokov - Experimental work exploring themes of death.",
+      "historical_context": "Published in 1969, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Bartleby the Scrivener",
+      "author": "Herman Melville",
+      "year": 1853,
+      "century": 19,
+      "location": {
+        "name": "New York, New York City, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Bartleby the Scrivener by Herman Melville - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1853, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Death of the Heart",
+      "author": "Elizabeth Bowen",
+      "year": 1938,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Death of the Heart by Elizabeth Bowen - Coming of age work exploring themes of adolescence.",
+      "historical_context": "Published in 1938, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Eminent Victorians",
+      "author": "Lytton Strachey",
+      "year": 1918,
+      "century": 20,
+      "location": {
+        "name": "England, Great Britain, United Kingdom",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Eminent Victorians by Lytton Strachey - Biography work exploring themes of education.",
+      "historical_context": "Published in 1918, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Froth on the daydream",
+      "author": "Boris Vian",
+      "year": 1947,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Froth on the daydream by Boris Vian - Absurdist work exploring themes of death.",
+      "historical_context": "Published in 1947, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Sister Carrie",
+      "author": "Theodore Dreiser",
+      "year": 1900,
+      "century": 19,
+      "location": {
+        "name": "Chicago, Illinois, New York, New York City, United States",
+        "coordinates": [
+          41.8781,
+          -87.6298
+        ]
+      },
+      "summary": "Sister Carrie by Theodore Dreiser - Drama work exploring themes of ambition.",
+      "historical_context": "Published in 1900, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Passion According to G.H.",
+      "author": "Clarice Lispector",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "Brazil, Rio de Janeiro",
+        "coordinates": [
+          -14.235,
+          -51.9253
+        ]
+      },
+      "summary": "The Passion According to G.H. by Clarice Lispector - Allegorical work exploring themes of consciousness.",
+      "historical_context": "Published in 1964, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Social Contract",
+      "author": "Jean-Jacques Rousseau",
+      "year": 1762,
+      "century": 18,
+      "location": {
+        "name": "France",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Social Contract by Jean-Jacques Rousseau - Nonfiction work exploring themes of economics.",
+      "historical_context": "Published in 1762, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "Dubliners",
+      "author": "James Joyce",
+      "year": 1914,
+      "century": 20,
+      "location": {
+        "name": "Dublin, Epiphany, Ireland",
+        "coordinates": [
+          53.3498,
+          -6.2603
+        ]
+      },
+      "summary": "Dubliners by James Joyce - Coming of age work exploring themes of death & grief.",
+      "historical_context": "Published in 1914, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Vicar of Wakefield",
+      "author": "Oliver Goldsmith",
+      "year": 1766,
+      "century": 18,
+      "location": {
+        "name": "England, Fictional Location, Great Britain",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Vicar of Wakefield by Oliver Goldsmith - Allegorical work exploring themes of adversity.",
+      "historical_context": "Published in 1766, reflecting the literary movements of the 18th century."
+    },
+    {
+      "title": "The Thirty-Nine Steps",
+      "author": "John Buchan",
+      "year": 1915,
+      "century": 20,
+      "location": {
+        "name": "England, Great Britain, Scotland, United Kingdom",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Thirty-Nine Steps by John Buchan - Adventure work exploring themes of conspiracy.",
+      "historical_context": "Published in 1915, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Nine Stories",
+      "author": "J. D. Salinger",
+      "year": 1953,
+      "century": 20,
+      "location": {
+        "name": "United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Nine Stories by J. D. Salinger - Fiction work exploring themes of children.",
+      "historical_context": "Published in 1953, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "A Handful of Dust",
+      "author": "Evelyn Waugh",
+      "year": 1934,
+      "century": 20,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "A Handful of Dust by Evelyn Waugh - Absurdist work exploring themes of adultery.",
+      "historical_context": "Published in 1934, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Titus Groan",
+      "author": "Mervyn Peake",
+      "year": 1946,
+      "century": 20,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Titus Groan by Mervyn Peake - Dark work exploring themes of family.",
+      "historical_context": "Published in 1946, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Fortunata and Jacinta",
+      "author": "Benito P\u00e9rez Gald\u00f3s",
+      "year": 1887,
+      "century": 19,
+      "location": {
+        "name": "Madrid, Spain",
+        "coordinates": [
+          40.4168,
+          -3.7038
+        ]
+      },
+      "summary": "Fortunata and Jacinta by Benito P\u00e9rez Gald\u00f3s - Drama work exploring themes of betrayal.",
+      "historical_context": "Published in 1887, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Through the Looking Glass",
+      "author": "Lewis Carroll",
+      "year": 1871,
+      "century": 19,
+      "location": {
+        "name": "Fictional Location, Germany",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Through the Looking Glass by Lewis Carroll - Absurdist work exploring themes of chess.",
+      "historical_context": "Published in 1871, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Hunchback of Notre-Dame",
+      "author": "Victor Hugo",
+      "year": 1831,
+      "century": 19,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "The Hunchback of Notre-Dame by Victor Hugo - Drama work exploring themes of architecture.",
+      "historical_context": "Published in 1831, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Joseph and His Brothers",
+      "author": "Thomas Mann",
+      "year": 1933,
+      "century": 20,
+      "location": {
+        "name": "Canaan, Egypt, Providence",
+        "coordinates": [
+          26.0975,
+          30.0444
+        ]
+      },
+      "summary": "Joseph and His Brothers by Thomas Mann - Allegorical work exploring themes of betrayal.",
+      "historical_context": "Published in 1933, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Fall",
+      "author": "Albert Camus",
+      "year": 1956,
+      "century": 20,
+      "location": {
+        "name": "Amsterdam, Netherlands",
+        "coordinates": [
+          52.3676,
+          4.9041
+        ]
+      },
+      "summary": "The Fall by Albert Camus - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1956, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Poet in New York",
+      "author": "Federico Garc\u00eda Lorca",
+      "year": 1940,
+      "century": 20,
+      "location": {
+        "name": "New York, United States",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ]
+      },
+      "summary": "Poet in New York by Federico Garc\u00eda Lorca - Allegorical work exploring themes of alienation.",
+      "historical_context": "Published in 1940, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Perfume",
+      "author": "Patrick Suskind",
+      "year": 1985,
+      "century": 20,
+      "location": {
+        "name": "France, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Perfume by Patrick Suskind - Fiction work exploring themes of alchemy.",
+      "historical_context": "Published in 1985, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Way We Live Now",
+      "author": "Anthony Trollope",
+      "year": 1875,
+      "century": 19,
+      "location": {
+        "name": "England, London",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "The Way We Live Now by Anthony Trollope - Fiction work exploring themes of ambition.",
+      "historical_context": "Published in 1875, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Second World War",
+      "author": "Winston Churchill",
+      "year": 1948,
+      "century": 20,
+      "location": {
+        "name": "Africa, Asia, China, Europe, France, Germany, Great Britain, Italy, Japan, North America, Soviet Union, United Kingdom, United States",
+        "coordinates": [
+          39.9042,
+          116.4074
+        ]
+      },
+      "summary": "The Second World War by Winston Churchill - 20th century work exploring themes of alliances.",
+      "historical_context": "Published in 1948, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Book of Job",
+      "author": "Unknown",
+      "year": -600,
+      "century": -6,
+      "location": {
+        "name": "Israel",
+        "coordinates": [
+          31.0461,
+          34.8516
+        ]
+      },
+      "summary": "The Book of Job by Unknown - Allegorical work exploring themes of christianity.",
+      "historical_context": "Published in -600, reflecting the literary movements of the -6th century."
+    },
+    {
+      "title": "Lost Illusions",
+      "author": "Honor\u00e9 de Balzac",
+      "year": 1837,
+      "century": 19,
+      "location": {
+        "name": "France, Money, Paris",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Lost Illusions by Honor\u00e9 de Balzac - Absurdist work exploring themes of ambition.",
+      "historical_context": "Published in 1837, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "Red Cavalry",
+      "author": "Isaac Babel",
+      "year": 1926,
+      "century": 20,
+      "location": {
+        "name": "Poland, Soviet Union, Ukraine",
+        "coordinates": [
+          51.9194,
+          19.1451
+        ]
+      },
+      "summary": "Red Cavalry by Isaac Babel - Fiction work exploring themes of brutality.",
+      "historical_context": "Published in 1926, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Complete Poems",
+      "author": "Elizabeth Bishop",
+      "year": 1969,
+      "century": 20,
+      "location": {
+        "name": "Brazil, Nova Scotia, United States",
+        "coordinates": [
+          -14.235,
+          -51.9253
+        ]
+      },
+      "summary": "Complete Poems by Elizabeth Bishop - Fiction work exploring themes of family.",
+      "historical_context": "Published in 1969, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Four Quartets",
+      "author": "T. S. Eliot",
+      "year": 1943,
+      "century": 20,
+      "location": {
+        "name": "England, United States",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ]
+      },
+      "summary": "Four Quartets by T. S. Eliot - Experimental work exploring themes of christianity.",
+      "historical_context": "Published in 1943, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The English Patient",
+      "author": "Michael Ondaatje",
+      "year": 1992,
+      "century": 20,
+      "location": {
+        "name": "Canada, Egypt, Italy",
+        "coordinates": [
+          56.1304,
+          -106.3468
+        ]
+      },
+      "summary": "The English Patient by Michael Ondaatje - Fiction work exploring themes of betrayal.",
+      "historical_context": "Published in 1992, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Naked and the Dead",
+      "author": "Norman Mailer",
+      "year": 1948,
+      "century": 20,
+      "location": {
+        "name": "Pacific Islands, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Naked and the Dead by Norman Mailer - Fiction work exploring themes of camaraderie.",
+      "historical_context": "Published in 1948, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Twenty Thousand Leagues Under the Sea",
+      "author": "Jules Verne",
+      "year": 1870,
+      "century": 19,
+      "location": {
+        "name": "Fictional Location",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ]
+      },
+      "summary": "Twenty Thousand Leagues Under the Sea by Jules Verne - Adventure work exploring themes of discovery.",
+      "historical_context": "Published in 1870, reflecting the literary movements of the 19th century."
+    },
+    {
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "year": 2003,
+      "century": 21,
+      "location": {
+        "name": "Afghanistan, Kabul, Soviet Union, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Kite Runner by Khaled Hosseini - Coming of age work exploring themes of betrayal.",
+      "historical_context": "Published in 2003, reflecting the literary movements of the 21th century."
+    },
+    {
+      "title": "Stories of Ernest Hemingway",
+      "author": "Ernest Hemingway",
+      "year": 1987,
+      "century": 20,
+      "location": {
+        "name": "Cuba, France, Italy, Spain, United States",
+        "coordinates": [
+          21.5218,
+          -77.7812
+        ]
+      },
+      "summary": "Stories of Ernest Hemingway by Ernest Hemingway - Drama work exploring themes of courage.",
+      "historical_context": "Published in 1987, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "Sanctuary",
+      "author": "William Faulkner",
+      "year": 1931,
+      "century": 20,
+      "location": {
+        "name": "Mississippi, United States",
+        "coordinates": [
+          32.3547,
+          -89.3985
+        ]
+      },
+      "summary": "Sanctuary by William Faulkner - Absurdist work exploring themes of desperation.",
+      "historical_context": "Published in 1931, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Histories of Herodotus",
+      "author": "Herodotus",
+      "year": -450,
+      "century": -5,
+      "location": {
+        "name": "Egypt, Greece, Persia, Utopia",
+        "coordinates": [
+          26.0975,
+          30.0444
+        ]
+      },
+      "summary": "The Histories of Herodotus by Herodotus - Ancient work exploring themes of asian history.",
+      "historical_context": "Published in -450, reflecting the literary movements of the -5th century."
+    },
+    {
+      "title": "Harriet the Spy",
+      "author": "Louise Fitzhugh",
+      "year": 1964,
+      "century": 20,
+      "location": {
+        "name": "New York City, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "Harriet the Spy by Louise Fitzhugh - Coming of age work exploring themes of betrayal.",
+      "historical_context": "Published in 1964, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Duino Elegies",
+      "author": "Rainer Maria Rilke",
+      "year": 1923,
+      "century": 20,
+      "location": {
+        "name": "Duino, Italy",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      "summary": "The Duino Elegies by Rainer Maria Rilke - Fiction work exploring themes of angels.",
+      "historical_context": "Published in 1923, reflecting the literary movements of the 20th century."
+    },
+    {
+      "title": "The Fountainhead",
+      "author": "Ayn Rand",
+      "year": 1943,
+      "century": 20,
+      "location": {
+        "name": "New York City, United States",
+        "coordinates": [
+          39.8283,
+          -98.5795
+        ]
+      },
+      "summary": "The Fountainhead by Ayn Rand - Drama work exploring themes of architecture.",
+      "historical_context": "Published in 1943, reflecting the literary movements of the 20th century."
     }
   ]
 }
