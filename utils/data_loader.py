@@ -28,6 +28,13 @@ def determine_location_type_and_coordinates(book):
         pub_coords, _ = get_publication_coordinates(author, year)
         return pub_coords, "publication"
 
+    # Check for invalid coordinates (0,0 or near 0,0 which places books in the ocean off Africa)
+    if (coordinates and coordinates[0] is not None and coordinates[1] is not None and
+        (abs(coordinates[0]) < 0.1 and abs(coordinates[1]) < 0.1)):
+        # These are likely invalid coordinates, use publication location instead
+        pub_coords, _ = get_publication_coordinates(author, year)
+        return pub_coords, "publication"
+
     # If valid coordinates exist and location seems real, use primary setting
     if coordinates and coordinates[0] is not None and coordinates[1] is not None:
         return coordinates, "primary"
