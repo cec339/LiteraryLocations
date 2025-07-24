@@ -12,12 +12,12 @@
           -0.1278
         ]
       },
-      "summary": "The epic poem of humanity's fall from grace, featuring Satan's rebellion against God.",
-      "historical_context": "Written during the English Restoration, reflecting religious and political tensions of the time."
+      "summary": "Epic poem in blank verse recounting the biblical fall of man, Satan's rebellion against God, and the temptation of Adam and Eve in Eden, exploring themes of free will, obedience, and redemption.",
+      "historical_context": "Written by devout Puritan Milton while blind and politically out of favor during the English Restoration, published in 1667 as an attempt to 'justify the ways of God to men' through innovative blank verse epic poetry."
     },
     {
       "title": "Wuthering Heights",
-      "author": "Emily Brontë",
+      "author": "Emily Bront\u00eb",
       "year": 1847,
       "century": 19,
       "location": {
@@ -27,12 +27,12 @@
           -1.5491
         ]
       },
-      "summary": "On the stormy Yorkshire moors, the obsessive bond between Heathcliff and Catherine Earnshaw unleashes generations of passion, cruelty, and revenge.",
-      "historical_context": "Emily Brontë's 1847 publication challenged Victorian sensibilities with its raw passion and Byronic anti-hero."
+      "summary": "The turbulent relationships between the Earnshaw and Linton families, centered on the obsessive love between foundling Heathcliff and Catherine Earnshaw, whose impossible union destroys two generations.",
+      "historical_context": "Emily Bront\u00eb's only novel, published in 1847 under pseudonym 'Ellis Bell,' was initially shocking to Victorian readers for its depiction of ungoverned passion and cruelty, but is now considered a masterpiece of English Gothic literature."
     },
     {
       "title": "Jane Eyre",
-      "author": "Charlotte Brontë",
+      "author": "Charlotte Bront\u00eb",
       "year": 1847,
       "century": 19,
       "location": {
@@ -42,8 +42,8 @@
           -1.5491
         ]
       },
-      "summary": "An orphaned governess finds love and independence despite social constraints and dark secrets.",
-      "historical_context": "Published in 1847, challenged Victorian gender roles and class structures."
+      "summary": "Orphaned Jane Eyre overcomes cruel relatives, harsh schooling, and Gothic mysteries at Thornfield Hall to find love with the brooding Mr. Rochester while maintaining her moral independence and equality.",
+      "historical_context": "Published in 1847 under pseudonym 'Currer Bell,' this groundbreaking bildungsroman established the female Gothic tradition and challenged Victorian assumptions about women's roles, featuring literature's first psychologically complex female narrator."
     },
     {
       "title": "Pride and Prejudice",
@@ -57,8 +57,8 @@
           -0.2167
         ]
       },
-      "summary": "Elizabeth Bennet navigates marriage prospects and social expectations in Regency England.",
-      "historical_context": "Austen's wit and social commentary captured the changing dynamics of English society."
+      "summary": "Elizabeth Bennet and wealthy Fitzwilliam Darcy overcome their mutual pride and prejudice to find love, while the novel satirizes the rigid class system and marriage market of Regency England.",
+      "historical_context": "Published anonymously in 1813 during the Regency period, originally titled 'First Impressions,' Austen's novel of manners provides sharp social commentary on women's limited options and the economic necessity of marriage in early 19th-century England."
     },
     {
       "title": "Emma",
@@ -72,8 +72,8 @@
           -0.5704
         ]
       },
-      "summary": "A well-meaning but misguided young woman meddles in the romantic lives of those around her.",
-      "historical_context": "Explores the social hierarchies and marriage customs of Regency England."
+      "summary": "Emma Woodhouse, a spoiled but well-meaning young woman, believes herself an excellent matchmaker and meddles in others' romantic lives while learning painful lessons about self-knowledge and social class in the village of Highbury.",
+      "historical_context": "Published in 1815, Austen's fourth novel is considered her masterpiece of social comedy, pioneering literary realism while satirizing the artificial social conventions and class consciousness of Regency England."
     },
     {
       "title": "Sense and Sensibility",
@@ -87,8 +87,8 @@
           -3.5309
         ]
       },
-      "summary": "Two sisters with contrasting temperaments navigate love and loss.",
-      "historical_context": "Austen's first published novel examining emotion versus reason in Regency society."
+      "summary": "Sisters Elinor (representing sense) and Marianne (representing sensibility) Dashwood face financial hardship and romantic trials, learning to balance rational thought with emotional expression in their pursuit of love and happiness.",
+      "historical_context": "Austen's first published novel, released anonymously in 1811 at her own expense, explores the tension between 18th-century Neoclassicism (sense) and emerging Romanticism (sensibility), establishing her trademark wit and social observation."
     },
     {
       "title": "Great Expectations",
@@ -102,8 +102,8 @@
           -0.1278
         ]
       },
-      "summary": "Pip's journey from humble blacksmith's apprentice to gentleman reveals the corruption of wealth and class.",
-      "historical_context": "Dickens' critique of Victorian social mobility and industrial capitalism."
+      "summary": "Orphaned Pip rises from humble blacksmith's apprentice to London gentleman through a mysterious benefactor, only to discover his 'great expectations' are built on criminal wealth, teaching him that genuine worth comes from loyalty and love, not social status.",
+      "historical_context": "Published serially 1860-61, this quintessential bildungsroman critiques Victorian obsession with social climbing and class mobility, praised by George Bernard Shaw as Dickens's 'most compactly perfect book.'"
     },
     {
       "title": "David Copperfield",
@@ -117,8 +117,8 @@
           -0.1278
         ]
       },
-      "summary": "A young man's bildungsroman through Victorian England's changing social landscape.",
-      "historical_context": "Dickens' most autobiographical novel, reflecting his own childhood experiences."
+      "summary": "David Copperfield's first-person narrative follows his journey from orphaned childhood through cruel stepfather and factory work to eventual success as a novelist, guided by memorable characters like the optimistic Mr. Micawber and treacherous Uriah Heep.",
+      "historical_context": "Published serially 1849-50, Dickens's 'favourite child' draws heavily from his traumatic childhood factory work and family financial troubles, making it his most autobiographical novel and a pioneering k\u00fcnstlerroman about an artist's development."
     },
     {
       "title": "Oliver Twist",
@@ -132,8 +132,8 @@
           -0.1278
         ]
       },
-      "summary": "An orphan boy exposes the harsh realities of workhouses and criminal underworld.",
-      "historical_context": "Dickens' social reform novel highlighting poverty and child exploitation."
+      "summary": "Oliver Twist escapes the brutal workhouse system and falls among thieves in London's criminal underworld, led by the villainous Fagin, until his true parentage is revealed and he finds safety with the benevolent Mr. Brownlow.",
+      "historical_context": "Published serially 1837-39 as Dickens's second novel, this groundbreaking social reform work exposed the harsh realities of England's Poor Law Amendment Act and child labor, helping drive legislative changes to protect children."
     },
     {
       "title": "A Tale of Two Cities",
@@ -147,8 +147,8 @@
           2.3522
         ]
       },
-      "summary": "Love and sacrifice during the French Revolution's reign of terror.",
-      "historical_context": "Dickens' historical novel examining revolution, sacrifice, and redemption."
+      "summary": "Set during the French Revolution, Dr. Manette reunites with daughter Lucie while Charles Darnay faces execution for his aristocratic heritage, until Sydney Carton's ultimate sacrifice redeems his wasted life with the famous last words about doing 'a far, far better thing.'",
+      "historical_context": "Published in 1859, this historical novel depicts the French Revolution's chaos and the Reign of Terror, becoming one of the best-selling novels of all time with its meditation on sacrifice, resurrection, and social upheaval during humanity's darkest moments."
     },
     {
       "title": "Middlemarch",
@@ -162,8 +162,8 @@
           -1.8951
         ]
       },
-      "summary": "Interconnected lives in a provincial English town reveal universal human struggles.",
-      "historical_context": "Eliot's masterpiece of psychological realism in Victorian England."
+      "summary": "Set during the 1832 Reform Act period, idealistic Dorothea Brooke's disastrous marriage to pedantic scholar Casaubon parallels ambitious doctor Lydgate's troubles with shallow wife Rosamond, weaving together the interconnected lives of Middlemarch's residents.",
+      "historical_context": "Published in eight installments 1871-72, George Eliot's masterpiece pioneered psychological realism in Victorian fiction, praised by Virginia Woolf as 'one of the few English novels written for grown-up people' for its complex exploration of marriage, idealism, and social change."
     },
     {
       "title": "Silas Marner",
@@ -177,8 +177,8 @@
           -1.8951
         ]
       },
-      "summary": "A miserly weaver finds redemption through love and community.",
-      "historical_context": "Explores themes of faith, community, and social change in rural England."
+      "summary": "Betrayed by his best friend and falsely accused of theft, weaver Silas Marner becomes a reclusive miser until a golden-haired child named Eppie wanders into his cottage, transforming his life and drawing him back into the village community of Raveloe.",
+      "historical_context": "Published in 1861, this beloved novella explores redemption and the transformative power of love, contrasting the cold materialism of hoarded gold with the warm human connections that give life meaning in rural 19th-century England."
     },
     {
       "title": "Tess of the d'Urbervilles",
@@ -192,8 +192,8 @@
           -2.4389
         ]
       },
-      "summary": "A pure woman's tragic fate in the hands of social hypocrisy and male dominance.",
-      "historical_context": "Hardy's critique of Victorian moral double standards and social injustice."
+      "summary": "Tess Durbeyfield's tragic life unfolds from being seduced by Alec d'Urberville, through her doomed marriage to Angel Clare who abandons her upon learning her past, to her final desperate murder of Alec and execution, challenging Victorian sexual morality.",
+      "historical_context": "Published in 1891 with the controversial subtitle 'A Pure Woman,' Hardy's masterpiece exposed Victorian double standards regarding female sexuality, generating public outcry that drove him to abandon novel-writing for poetry."
     },
     {
       "title": "The Mayor of Casterbridge",
@@ -207,8 +207,8 @@
           -2.4389
         ]
       },
-      "summary": "A man's past actions return to destroy his respectable life.",
-      "historical_context": "Hardy's exploration of character, fate, and social change in rural England."
+      "summary": "Michael Henchard's drunken sale of his wife and child at a country fair haunts him as he rises to become mayor of Casterbridge, but his past shame and impulsive nature ultimately destroy his prosperity, relationships, and life.",
+      "historical_context": "Published in 1886, this Wessex novel explores the inescapable consequences of past actions and the tension between traditional and modern agricultural methods in rural Victorian England during rapid social change."
     },
     {
       "title": "The Book of the Dead",
@@ -237,8 +237,8 @@
           11.2558
         ]
       },
-      "summary": "Allegorical journey through the afterlife realms of Hell, Purgatory, and Paradise.",
-      "historical_context": "Written during Dante's exile from Florence, reflecting medieval Christian theology and Italian politics."
+      "summary": "Dante journeys through Hell, Purgatory, and Paradise guided by poet Virgil and beloved Beatrice, encountering historical and mythological figures in an allegorical quest for spiritual enlightenment and divine love.",
+      "historical_context": "Written 1308-1320 during Dante's exile from Florence, this medieval masterpiece established Italian as a literary language, synthesized Christian theology with classical philosophy, and created the template for epic allegorical poetry."
     },
     {
       "title": "The Canterbury Tales",
@@ -252,8 +252,8 @@
           1.08
         ]
       },
-      "summary": "A collection of stories told by pilgrims traveling to Canterbury Cathedral, providing a vivid portrait of medieval English society.",
-      "historical_context": "Written during the late Middle Ages, depicting the social dynamics and cultural values of medieval England across different social classes."
+      "summary": "A diverse group of pilgrims traveling to Canterbury Cathedral tell stories that reveal their characters and social positions, creating a vivid cross-section of medieval English society from nobles to peasants.",
+      "historical_context": "Written in Middle English around 1387-1400, Chaucer's unfinished masterpiece pioneered realistic character portrayal and social satire while capturing the transition from medieval to Renaissance values in 14th-century England."
     },
     {
       "title": "The Iliad",
@@ -267,8 +267,8 @@
           26.2387
         ]
       },
-      "summary": "The epic tale of the Trojan War, focusing on the wrath of Achilles and its consequences.",
-      "historical_context": "Composed in the 8th century BCE, reflecting Bronze Age warfare and Greek mythology."
+      "summary": "The rage of Achilles during the final year of the ten-year Trojan War, focusing on his conflict with Agamemnon and his grief over Patroclus' death, culminating in his killing of Hector and return of the body to Priam.",
+      "historical_context": "Composed in the 8th century BCE, this foundational epic of Western literature explores themes of honor, fate, divine intervention, and the human cost of war in ancient Greek society."
     },
     {
       "title": "The Odyssey",
@@ -282,8 +282,8 @@
           23.7275
         ]
       },
-      "summary": "Odysseus's ten-year journey home after the Trojan War, facing mythical creatures and divine intervention.",
-      "historical_context": "Composed alongside The Iliad, depicting Greek maritime culture and the importance of hospitality in ancient society."
+      "summary": "After the Trojan War, Odysseus faces a ten-year journey home to Ithaca, encountering mythical creatures and divine intervention while his wife Penelope fends off suitors and son Telemachus searches for him.",
+      "historical_context": "Composed in the 8th century BCE, this ancient Greek epic poem serves as a sequel to the Iliad, establishing the hero's journey archetype and exploring themes of homecoming, loyalty, divine justice, and human perseverance."
     },
     {
       "title": "The Aeneid",
@@ -422,11 +422,11 @@
     },
     {
       "title": "The Tin Drum",
-      "author": "Günter Grass",
+      "author": "G\u00fcnter Grass",
       "year": 1959,
       "century": 20,
       "location": {
-        "name": "Danzig/Gdańsk",
+        "name": "Danzig/Gda\u0144sk",
         "coordinates": [
           54.352,
           18.6466
@@ -436,8 +436,8 @@
       "historical_context": "Written in post-war Germany, examining the Nazi period through magical realism."
     },
     {
-      "title": "The Recognition of Śakuntalā",
-      "author": "Kālidāsa",
+      "title": "The Recognition of \u015aakuntal\u0101",
+      "author": "K\u0101lid\u0101sa",
       "year": 400,
       "century": 5,
       "location": {
@@ -572,7 +572,7 @@
     },
     {
       "title": "The Tale of Kieu",
-      "author": "Nguyễn Du",
+      "author": "Nguy\u1ec5n Du",
       "year": 1820,
       "century": 19,
       "location": {
@@ -583,10 +583,10 @@
         ]
       },
       "summary": "Virtuous Kieu sells herself into bondage to save her family, enduring exile before karmic reunion with her beloved Kim.",
-      "historical_context": "Nguyễn Du's 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen‑dynasty Vietnam."
+      "historical_context": "Nguy\u1ec5n Du's 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen\u2011dynasty Vietnam."
     },
     {
-      "title": "Pedro Páramo",
+      "title": "Pedro P\u00e1ramo",
       "author": "Juan Rulfo",
       "year": 1955,
       "century": 20,
@@ -598,7 +598,7 @@
         ]
       },
       "summary": "Juan Preciado arrives in Comala to meet his father but finds a ghost town haunted by the patriarch's sins.",
-      "historical_context": "Rulfo's 1955 work pioneered Latin American surrealism amid Mexico's post‑Revolution disillusionment."
+      "historical_context": "Rulfo's 1955 work pioneered Latin American surrealism amid Mexico's post\u2011Revolution disillusionment."
     },
     {
       "title": "The Complete Stories of Flannery O'Connor",
@@ -613,7 +613,7 @@
         ]
       },
       "summary": "Grotesque Southerners confront grace, violence and revelation in short tales blending dark humor with Catholic theology.",
-      "historical_context": "Published 1971 after O'Connor's death, the collection spanned 1940s‑60s Georgia amid Civil Rights tensions."
+      "historical_context": "Published 1971 after O'Connor's death, the collection spanned 1940s\u201160s Georgia amid Civil Rights tensions."
     },
     {
       "title": "The Book of Disquiet",
@@ -628,7 +628,7 @@
         ]
       },
       "summary": "Lisbon clerk Bernardo Soares records fragmentary reflections on alienation, dreams and the futility of identity.",
-      "historical_context": "Pessoa wrote the texts 1910s‑30s; posthumously assembled in 1982 during Portugal's end‑of‑dictatorship transition."
+      "historical_context": "Pessoa wrote the texts 1910s\u201130s; posthumously assembled in 1982 during Portugal's end\u2011of\u2011dictatorship transition."
     },
     {
       "title": "Blood Meridian",
@@ -642,8 +642,8 @@
           -106.485
         ]
       },
-      "summary": "A nameless Kid joins Glanton's scalp‑hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden's nihilistic gaze.",
-      "historical_context": "McCarthy's 1985 novel re‑examined Manifest Destiny through gothic violence in the American Southwest."
+      "summary": "A nameless Kid joins Glanton's scalp\u2011hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden's nihilistic gaze.",
+      "historical_context": "McCarthy's 1985 novel re\u2011examined Manifest Destiny through gothic violence in the American Southwest."
     },
     {
       "title": "The Mahabharata",
@@ -688,7 +688,7 @@
         ]
       },
       "summary": "Four Osaka sisters navigate arranged marriages and Western influence as their aristocratic family declines on the eve of WWII.",
-      "historical_context": "Tanizaki serialized the novel 1943‑48, recording Japan's shift from tradition to modernity before wartime defeat."
+      "historical_context": "Tanizaki serialized the novel 1943\u201148, recording Japan's shift from tradition to modernity before wartime defeat."
     },
     {
       "title": "If on a winter's night a traveler",
@@ -703,7 +703,7 @@
         ]
       },
       "summary": "A Reader tries to finish a novel that keeps restarting in different genres, collapsing boundaries between book and audience.",
-      "historical_context": "Calvino's 1979 postmodern experiment reflected late‑20th‑century skepticism about narrative authority."
+      "historical_context": "Calvino's 1979 postmodern experiment reflected late\u201120th\u2011century skepticism about narrative authority."
     },
     {
       "title": "The Great Gatsby",
@@ -717,8 +717,8 @@
           -73.135
         ]
       },
-      "summary": "Mysterious millionaire Jay Gatsby throws lavish parties to win back Daisy Buchanan, exposing the hollowness of the Jazz Age dream.",
-      "historical_context": "Fitzgerald's 1925 novel captured Roaring Twenties excess before the Great Depression."
+      "summary": "Mysterious millionaire Jay Gatsby's pursuit of lost love Daisy Buchanan exposes the corruption and disillusionment beneath the glittering surface of the Jazz Age, narrated by neighbor Nick Carraway.",
+      "historical_context": "Published in 1925, this definitive American novel captures the excess and moral emptiness of the Roaring Twenties, critiquing the American Dream through the lens of class, wealth, and impossible romantic idealism."
     },
     {
       "title": "Ulysses",
@@ -732,8 +732,8 @@
           -6.2603
         ]
       },
-      "summary": "Leopold Bloom's single day in Dublin mirrors Homer's Odyssey through stream‑of‑consciousness, parody and linguistic experimentation.",
-      "historical_context": "Joyce's 1922 modernist landmark challenged censorship and celebrated ordinary life amid Ireland's push for independence."
+      "summary": "Leopold Bloom's ordinary day in Dublin on June 16, 1904, parallels Homer's Odyssey through stream-of-consciousness narrative, revolutionary literary techniques, and detailed portrayal of urban modern life.",
+      "historical_context": "Published in 1922, Joyce's modernist masterpiece transformed literary fiction with its experimental techniques, complex structure, and psychological depth, though initially banned for obscenity in many countries."
     },
     {
       "title": "In Search of Lost Time",
@@ -747,12 +747,12 @@
           2.3522
         ]
       },
-      "summary": "Marcel, triggered by a madeleine's taste, reconstructs loves, art and decadence in fin‑de‑siècle France across seven volumes.",
-      "historical_context": "Proust's 1913‑27 masterpiece chronicled Belle Époque society dissolving before World War I."
+      "summary": "Marcel, triggered by a madeleine's taste, reconstructs loves, art and decadence in fin\u2011de\u2011si\u00e8cle France across seven volumes.",
+      "historical_context": "Proust's 1913\u201127 masterpiece chronicled Belle \u00c9poque society dissolving before World War I."
     },
     {
       "title": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
+      "author": "Gabriel Garc\u00eda M\u00e1rquez",
       "year": 1967,
       "century": 20,
       "location": {
@@ -762,8 +762,8 @@
           -74.1861
         ]
       },
-      "summary": "The Buendía family's generations in Macondo witness magical plagues, wars and cyclical fate, blending myth and Colombian history.",
-      "historical_context": "García Márquez's 1967 novel spearheaded Latin American magical realism during regional social upheavals."
+      "summary": "The multi-generational saga of the Buend\u00eda family in the mythical town of Macondo, blending magical realism with Latin American history, exploring themes of solitude, fate, and the cyclical nature of history.",
+      "historical_context": "Published in 1967, this masterpiece of magical realism helped establish Latin American literature on the world stage, earning Garc\u00eda M\u00e1rquez the Nobel Prize and influencing countless writers with its innovative narrative style."
     },
     {
       "title": "The Catcher in the Rye",
@@ -777,8 +777,8 @@
           -74.006
         ]
       },
-      "summary": "Disenchanted teen Holden Caulfield spends three days wandering New York City, railing against 'phoniness' while mourning innocence and his brother's death.",
-      "historical_context": "Published in 1951, Salinger's novel voiced post‑WWII adolescent angst amid rising consumer culture."
+      "summary": "Sixteen-year-old Holden Caulfield wanders New York City after being expelled from prep school, struggling with depression, alienation, and his inability to connect with what he sees as an adult world full of \"phonies.\"",
+      "historical_context": "Published in 1951, this controversial coming-of-age novel captured post-war American teenage disillusionment and became a cultural touchstone, though banned in many schools for its language and themes."
     },
     {
       "title": "Nineteen Eighty-Four",
@@ -793,7 +793,7 @@
         ]
       },
       "summary": "Winston Smith secretly rebels in a surveillance state where Big Brother rewrites history and even thought is a crime.",
-      "historical_context": "Orwell's 1949 novel reflected post‑war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
+      "historical_context": "Orwell's 1949 novel reflected post\u2011war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
     },
     {
       "title": "Lolita",
@@ -818,12 +818,12 @@
       "location": {
         "name": "Middle-earth (Fictional)",
         "coordinates": [
-          51.7520,
+          51.752,
           -1.2577
         ]
       },
-      "summary": "Hobbit Frodo must destroy the One Ring in Mount Doom, while diverse allies wage war against the dark lord Sauron for Middle‑earth's future.",
-      "historical_context": "Written 1937‑49 and published 1954‑55, Tolkien's saga synthesized mythic languages and echoed WWII's struggle between tyranny and fellowship."
+      "summary": "Hobbit Frodo Baggins must destroy the One Ring to defeat the Dark Lord Sauron, accompanied by a fellowship of diverse companions on an epic quest through Middle-earth that determines the fate of all free peoples.",
+      "historical_context": "Published in three volumes 1954-1955, Tolkien's fantasy epic drew from his expertise in medieval literature and linguistics to create a fully realized secondary world, establishing modern fantasy literature and influencing countless subsequent works."
     },
     {
       "title": "Moby-Dick",
@@ -837,8 +837,8 @@
           -40.0
         ]
       },
-      "summary": "Obsessive Captain Ahab pursues the white whale across the globe, while Ishmael's narrative probes fate, religion and the mysteries of the sea.",
-      "historical_context": "Melville's 1851 epic reflected America's whaling era and antebellum anxieties about expansion and destiny."
+      "summary": "Captain Ahab's obsessive quest for revenge against the white whale that took his leg drives the crew of the Pequod into dangerous waters, narrated by survivor Ishmael in a philosophical meditation on fate, nature, and obsession.",
+      "historical_context": "Published in 1851, this American masterpiece was initially a commercial failure but is now considered one of the greatest novels ever written, pioneering modernist techniques while exploring themes of American identity, nature, and the human condition."
     },
     {
       "title": "To Kill a Mockingbird",
@@ -852,8 +852,8 @@
           -86.7999
         ]
       },
-      "summary": "Young Scout Finch witnesses her father Atticus defend a Black man falsely accused of rape, challenging entrenched racism in 1930s Alabama.",
-      "historical_context": "Harper Lee's 1960 novel paralleled the Civil Rights Movement, recalling Jim Crow justice in the Deep South."
+      "summary": "Young Scout Finch learns about racial injustice and moral courage when her father Atticus defends a black man falsely accused of rape in Depression-era Alabama, observing the destructive nature of prejudice and hatred.",
+      "historical_context": "Published in 1960, Lee's only published novel during her lifetime became an instant classic for its portrayal of racial injustice and moral education, winning the Pulitzer Prize and becoming required reading in many schools."
     },
     {
       "title": "The Tale of Genji",
@@ -861,7 +861,7 @@
       "year": 1010,
       "century": 11,
       "location": {
-        "name": "Heian-kyō (Kyoto), Japan",
+        "name": "Heian-ky\u014d (Kyoto), Japan",
         "coordinates": [
           35.0116,
           135.7681
@@ -957,8 +957,8 @@
           14.4378
         ]
       },
-      "summary": "Gregor Samsa wakes up one morning transformed into a giant insect.",
-      "historical_context": "Written during the decline of the Austro-Hungarian Empire, exploring alienation."
+      "summary": "Traveling salesman Gregor Samsa awakens to find himself transformed into a giant insect, becoming a burden to his family and exploring themes of alienation, guilt, and the dehumanizing effects of modern life.",
+      "historical_context": "Published in 1915, Kafka's surreal masterpiece epitomizes literary modernism and existential anxiety, using fantastical transformation to examine the individual's relationship with family, work, and society in the industrial age."
     },
     {
       "title": "Things Fall Apart",
@@ -1017,8 +1017,8 @@
           -3.0977
         ]
       },
-      "summary": "A delusional nobleman imagines himself a knight-errant, embarking on adventures with his squire Sancho Panza.",
-      "historical_context": "Written as a parody of chivalric romances, marking the birth of the modern novel."
+      "summary": "Aging gentleman Alonso Quixano loses his sanity from reading chivalric romances and becomes the knight-errant Don Quixote, accompanied by loyal squire Sancho Panza on delusional but idealistic adventures across Spain.",
+      "historical_context": "Published in two parts (1605, 1615), this Spanish masterpiece is often considered the first modern novel, satirizing chivalric romance while exploring reality versus illusion, idealism versus pragmatism, and the power of imagination."
     },
     {
       "title": "War and Peace",
@@ -1032,8 +1032,8 @@
           37.6173
         ]
       },
-      "summary": "An epic narrative following five aristocratic families during Napoleon's invasion of Russia.",
-      "historical_context": "Set during the Napoleonic Era, examining Russian society and the impact of war."
+      "summary": "The interconnected lives of Russian aristocratic families during the Napoleonic era, following Pierre, Natasha, and Andrei through love, war, and personal transformation against the backdrop of historical events from 1805-1820.",
+      "historical_context": "Published serially 1865-1869, Tolstoy's epic masterpiece combines intimate character development with sweeping historical narrative, exploring themes of love, death, family, and the meaning of history through the lens of Russian society."
     },
     {
       "title": "Crime and Punishment",
@@ -1047,8 +1047,8 @@
           30.3609
         ]
       },
-      "summary": "A young student commits murder and grapples with guilt and redemption in 19th century Russia.",
-      "historical_context": "Written during the period of social reform in Russia, exploring themes of morality and redemption."
+      "summary": "Impoverished student Raskolnikov murders an elderly pawnbroker to prove his superiority theory but struggles with guilt and paranoia until love and confession lead to his spiritual redemption through Siberian exile.",
+      "historical_context": "Published in 1866, this psychological thriller explores the aftermath of crime through detailed examination of conscience, guilt, and redemption, reflecting Dostoevsky's own experiences with imprisonment and spiritual crisis."
     },
     {
       "title": "Anna Karenina",
@@ -1062,8 +1062,8 @@
           37.6173
         ]
       },
-      "summary": "A tragic love story of Anna Karenina's affair and its consequences, contrasted with Levin's spiritual journey.",
-      "historical_context": "Set during the modernization of Russian society, examining marriage, faith, and social change."
+      "summary": "Anna Karenina's passionate affair with Count Vronsky destroys her marriage and social standing, paralleled by Konstantin Levin's spiritual journey and happy marriage, exploring love, family, society, and faith in 19th-century Russia.",
+      "historical_context": "Published serially 1875-1877, this novel examines the tensions between individual desire and social conventions, rural versus urban life, and spiritual versus material concerns in Russian aristocratic society during rapid modernization."
     },
     {
       "title": "The Brothers Karamazov",
@@ -1077,8 +1077,8 @@
           37.6173
         ]
       },
-      "summary": "A philosophical novel about faith, doubt, and morality through the story of three brothers.",
-      "historical_context": "Written during a period of great social change in Russia."
+      "summary": "The murder of patriarch Fyodor Karamazov exposes the philosophical and moral conflicts between his four sons - sensualist Dmitri, intellectual Ivan, spiritual Alyosha, and illegitimate Smerdyakov - in a exploration of faith, reason, and free will.",
+      "historical_context": "Published serially 1879-1880 as Dostoevsky's final novel, this philosophical masterpiece synthesizes the author's exploration of Russian Orthodox faith, European rationalism, and human psychology in the face of suffering and doubt."
     },
     {
       "title": "Madame Bovary",
@@ -1092,8 +1092,8 @@
           0.3707
         ]
       },
-      "summary": "Emma Bovary's romantic illusions and adultery lead to financial ruin and tragic death.",
-      "historical_context": "Flaubert's realistic portrayal of bourgeois life and romantic disillusionment."
+      "summary": "Emma Bovary's romantic fantasies and material desires lead her into adultery and debt, culminating in suicide as she struggles against the mundane reality of provincial bourgeois life in 19th-century France.",
+      "historical_context": "Published in 1857, Flaubert's masterpiece of literary realism was initially prosecuted for immorality but established the modern novel form through precise observation, psychological insight, and innovative narrative techniques."
     },
     {
       "title": "The Trial",
@@ -1122,8 +1122,8 @@
           -6.2157
         ]
       },
-      "summary": "The Ramsay family's visits to their summer house explore memory, loss, and the passage of time.",
-      "historical_context": "Woolf's modernist masterpiece using stream-of-consciousness to examine family dynamics."
+      "summary": "The Ramsay family's visits to their summer home in the Hebrides are interrupted by World War I, exploring the passage of time, death, and the complexity of human relationships through stream-of-consciousness narrative.",
+      "historical_context": "Published in 1927, Woolf's modernist masterpiece pioneered stream-of-consciousness technique and feminist literary theory, offering a profound meditation on time, memory, and the role of women in society."
     },
     {
       "title": "The Magic Mountain",
@@ -1152,8 +1152,8 @@
           -0.1278
         ]
       },
-      "summary": "Clarissa Dalloway prepares for a party while her thoughts and those of others weave through one day in London.",
-      "historical_context": "Woolf's stream-of-consciousness novel exploring post-WWI society and mental health."
+      "summary": "A single day in post-WWI London follows society hostess Clarissa Dalloway preparing for a party while shell-shocked veteran Septimus Warren Smith struggles with trauma, their stories converging in themes of time and consciousness.",
+      "historical_context": "Published in 1925, this modernist novel innovated stream-of-consciousness narrative to explore the psychological aftermath of World War I and the changing role of women in post-war society."
     },
     {
       "title": "Catch-22",
@@ -1186,7 +1186,7 @@
       "historical_context": "Ellison's groundbreaking novel examining African American experience and social invisibility."
     },
     {
-      "title": "Les Misérables",
+      "title": "Les Mis\u00e9rables",
       "author": "Victor Hugo",
       "year": 1862,
       "century": 19,
@@ -1197,8 +1197,8 @@
           2.3522
         ]
       },
-      "summary": "Jean Valjean's redemption and the lives of others intersect during French social upheaval and revolution.",
-      "historical_context": "Hugo's epic examining social justice, redemption, and the French Revolution's legacy."
+      "summary": "Ex-convict Jean Valjean seeks redemption while pursued by obsessive inspector Javert, against the backdrop of 19th-century French social upheaval, including the June Rebellion of 1832 and the plight of the poor and oppressed.",
+      "historical_context": "Published in 1862, Hugo's epic novel combines romantic melodrama with social realism to expose the injustices of French society, advocating for social reform while exploring themes of redemption, love, and human dignity."
     },
     {
       "title": "On the Road",
@@ -1217,7 +1217,7 @@
     },
     {
       "title": "Journey to the End of the Night",
-      "author": "Louis-Ferdinand Céline",
+      "author": "Louis-Ferdinand C\u00e9line",
       "year": 1932,
       "century": 20,
       "location": {
@@ -1228,7 +1228,7 @@
         ]
       },
       "summary": "Bardamu's cynical journey through WWI, colonial Africa, and urban America reveals humanity's darkness.",
-      "historical_context": "Céline's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
+      "historical_context": "C\u00e9line's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
     },
     {
       "title": "The Red and the Black",
@@ -1272,8 +1272,8 @@
           -0.1278
         ]
       },
-      "summary": "Bernard Marx questions a society controlled by technology, conditioning, and the drug soma.",
-      "historical_context": "Huxley's dystopian vision warned against technological control and loss of individual freedom."
+      "summary": "In a future society where humans are genetically engineered, conditioned for happiness, and controlled through pleasure rather than pain, Bernard Marx and John \"the Savage\" challenge the system's dehumanizing perfection.",
+      "historical_context": "Published in 1932, Huxley's dystopian novel presciently warned against genetic engineering, consumer culture, and the pursuit of pleasure over meaning, offering a counterpoint to Orwell's vision of totalitarian oppression."
     },
     {
       "title": "Animal Farm",
@@ -1287,8 +1287,8 @@
           -0.1278
         ]
       },
-      "summary": "Farm animals rebel against humans, creating a society that becomes as oppressive as the one they overthrew.",
-      "historical_context": "Orwell's allegory critiques Stalin's Soviet Union and the corruption of revolutionary ideals."
+      "summary": "Farm animals overthrow their human owner to create an equal society, but the pigs gradually become corrupt dictators, betraying the revolution's ideals in an allegory of the Russian Revolution and Stalin's rise to power.",
+      "historical_context": "Published in 1945, this political allegory critiques Soviet communism and totalitarianism through a deceptively simple farmyard fable, demonstrating how revolutionary ideals can be corrupted by power and propaganda."
     },
     {
       "title": "The Old Man and the Sea",
@@ -1347,8 +1347,8 @@
           12.6136
         ]
       },
-      "summary": "Prince Hamlet seeks revenge against his uncle Claudius, who murdered Hamlet's father.",
-      "historical_context": "Shakespeare's tragedy explores themes of revenge, madness, and moral corruption."
+      "summary": "Prince Hamlet seeks revenge against his uncle Claudius, who murdered Hamlet's father and married his mother, leading to a tragic chain of madness, death, and moral corruption in the Danish court.",
+      "historical_context": "Written around 1600-1601 during the Elizabethan era, this tragedy remains Shakespeare's most performed play and a cornerstone of world literature, exploring themes of revenge, madness, mortality, and the human condition."
     },
     {
       "title": "Their Eyes Were Watching God",
@@ -1647,8 +1647,8 @@
           2.3522
         ]
       },
-      "summary": "Idealistic law student Frédéric Moreau nurses an obsessive love for the married Madame Arnoux while drifting through the 1848 Paris revolution, charting ambition and disappointment.",
-      "historical_context": "Flaubert’s 1869 novel dissected the moral vacuity of France’s July Monarchy and Second Empire generations."
+      "summary": "Idealistic law student Fr\u00e9d\u00e9ric Moreau nurses an obsessive love for the married Madame Arnoux while drifting through the 1848 Paris revolution, charting ambition and disappointment.",
+      "historical_context": "Flaubert\u2019s 1869 novel dissected the moral vacuity of France\u2019s July Monarchy and Second Empire generations."
     },
     {
       "title": "The Hitchhiker's Guide to the Galaxy",
@@ -1662,8 +1662,8 @@
           -0.1278
         ]
       },
-      "summary": "Seconds before Earth’s demolition, hapless Arthur Dent hitchhikes through space with alien researcher Ford Prefect, encountering depressed robots and bureaucratic vogons.",
-      "historical_context": "Adapted from Adams’s 1978 BBC radio comedy, the 1979 novel skewered late‑20th‑century British life and sci‑fi clichés."
+      "summary": "Seconds before Earth\u2019s demolition, hapless Arthur Dent hitchhikes through space with alien researcher Ford Prefect, encountering depressed robots and bureaucratic vogons.",
+      "historical_context": "Adapted from Adams\u2019s 1978 BBC radio comedy, the 1979 novel skewered late\u201120th\u2011century British life and sci\u2011fi clich\u00e9s."
     },
     {
       "title": "The Three Musketeers",
@@ -1677,8 +1677,8 @@
           2.3522
         ]
       },
-      "summary": "Young Gascon d’Artagnan joins musketeers Athos, Porthos and Aramis to thwart Cardinal Richelieu’s intrigues and rescue the queen’s honor in 17th‑century France.",
-      "historical_context": "First serialized in 1844, Dumas’s swashbuckler fed Romantic nostalgia during France’s July Monarchy."
+      "summary": "Young Gascon d\u2019Artagnan joins musketeers Athos, Porthos and Aramis to thwart Cardinal Richelieu\u2019s intrigues and rescue the queen\u2019s honor in 17th\u2011century France.",
+      "historical_context": "First serialized in 1844, Dumas\u2019s swashbuckler fed Romantic nostalgia during France\u2019s July Monarchy."
     },
     {
       "title": "Giovanni's Room",
@@ -1693,7 +1693,7 @@
         ]
       },
       "summary": "American drifter David grapples with sexual identity during a doomed affair with Italian bartender Giovanni in the bohemian haunts of 1950s Paris.",
-      "historical_context": "Baldwin’s 1956 novel challenged taboos around same‑sex desire and racial outsiderhood in mid‑century literature."
+      "historical_context": "Baldwin\u2019s 1956 novel challenged taboos around same\u2011sex desire and racial outsiderhood in mid\u2011century literature."
     },
     {
       "title": "Howards End",
@@ -1708,7 +1708,7 @@
         ]
       },
       "summary": "The idealistic Schlegel sisters become entwined with the pragmatic Wilcox family and impoverished clerk Leonard Bast, questioning class and connection over a beloved country house.",
-      "historical_context": "Forster’s 1910 work exposed Edwardian England’s shifting social order on the eve of World War I."
+      "historical_context": "Forster\u2019s 1910 work exposed Edwardian England\u2019s shifting social order on the eve of World War\u202fI."
     },
     {
       "title": "And Then There Were None",
@@ -1723,7 +1723,7 @@
         ]
       },
       "summary": "Ten guests lured to a remote island are murdered one by one according to a grim nursery rhyme, as past crimes surface.",
-      "historical_context": "Christie’s 1939 mystery innovated the closed‑circle thriller against a backdrop of pre‑war anxiety."
+      "historical_context": "Christie\u2019s 1939 mystery innovated the closed\u2011circle thriller against a backdrop of pre\u2011war anxiety."
     },
     {
       "title": "A Room of One's Own",
@@ -1752,8 +1752,8 @@
           -74.006
         ]
       },
-      "summary": "Fireman Guy Montag burns books for a living until forbidden literature sparks rebellion against his screen‑obsessed, authoritarian society.",
-      "historical_context": "Bradbury’s 1953 dystopia critiqued McCarthy‑era censorship and mass‑media conformity in Cold War America."
+      "summary": "Fireman Guy Montag burns books for a living until forbidden literature sparks rebellion against his screen\u2011obsessed, authoritarian society.",
+      "historical_context": "Bradbury\u2019s 1953 dystopia critiqued McCarthy\u2011era censorship and mass\u2011media conformity in Cold War America."
     },
     {
       "title": "One Flew Over the Cuckoo's Nest",
@@ -1767,8 +1767,8 @@
           -0.1278
         ]
       },
-      "summary": "Charismatic con man Randle McMurphy clashes with tyrannical Nurse Ratched in an Oregon psychiatric ward, awakening fellow patients’ sense of agency.",
-      "historical_context": "Kesey’s 1962 novel reflected countercultural revolt against institutional authority in post‑war America."
+      "summary": "Rebellious Randle McMurphy challenges the authoritarian Nurse Ratched in a psychiatric hospital, inspiring fellow patients to assert their individuality before his tragic lobotomy and death.",
+      "historical_context": "Published in 1962, Kesey's novel critiqued institutional authority and psychiatric treatment during the 1960s counterculture movement, becoming a symbol of individual freedom versus societal control."
     },
     {
       "title": "Tender Is the Night",
@@ -1783,7 +1783,7 @@
         ]
       },
       "summary": "Glamorous psychiatrist Dick Diver and his wealthy, fragile wife Nicole spiral into dissolution amid Riviera decadence and shifting power dynamics.",
-      "historical_context": "Fitzgerald’s 1934 novel mirrored Jazz Age expatriates and the author’s struggle with Zelda’s mental illness."
+      "historical_context": "Fitzgerald\u2019s 1934 novel mirrored Jazz Age expatriates and the author\u2019s struggle with Zelda\u2019s mental illness."
     },
     {
       "title": "The Prince",
@@ -1813,7 +1813,7 @@
         ]
       },
       "summary": "Orphan Harry discovers he is a wizard, attends Hogwarts, and faces dark sorcerer Voldemort while forging friendships with Ron and Hermione.",
-      "historical_context": "Rowling’s 1997 debut revitalized children’s fantasy and launched a global multimedia phenomenon."
+      "historical_context": "Rowling\u2019s 1997 debut revitalized children\u2019s fantasy and launched a global multimedia phenomenon."
     },
     {
       "title": "Steppenwolf",
@@ -1828,11 +1828,11 @@
         ]
       },
       "summary": "Alienated intellectual Harry Haller, torn between bourgeois respectability and wolfish instinct, seeks transcendence through the surreal Magic Theatre.",
-      "historical_context": "Hesse’s 1927 novel captured Weimar‑era existential angst and later influenced 1960s counterculture."
+      "historical_context": "Hesse\u2019s 1927 novel captured Weimar\u2011era existential angst and later influenced 1960s counterculture."
     },
     {
       "title": "Love in the Time of Cholera",
-      "author": "Gabriel García Márquez",
+      "author": "Gabriel Garc\u00eda M\u00e1rquez",
       "year": 1985,
       "century": 20,
       "location": {
@@ -1842,8 +1842,8 @@
           -0.1278
         ]
       },
-      "summary": "Florentino Ariza endures half a century to rekindle love with Fermina Daza after her husband’s death amid Caribbean cholera outbreaks.",
-      "historical_context": "García Márquez’s 1985 novel blended magical realism with Colombian history, examining enduring passion and aging."
+      "summary": "Florentino Ariza endures half a century to rekindle love with Fermina Daza after her husband\u2019s death amid Caribbean cholera outbreaks.",
+      "historical_context": "Garc\u00eda M\u00e1rquez\u2019s 1985 novel blended magical realism with Colombian history, examining enduring passion and aging."
     },
     {
       "title": "The Complete Sherlock Holmes",
@@ -1857,8 +1857,8 @@
           -0.1278
         ]
       },
-      "summary": "Doyle’s four novels and 56 stories follow detective Sherlock Holmes and Dr. Watson as they apply keen deduction to Victorian mysteries.",
-      "historical_context": "Written 1887‑1927, the canon established modern detective fiction and popularized forensic methodology."
+      "summary": "Doyle\u2019s four novels and 56 stories follow detective Sherlock Holmes and Dr. Watson as they apply keen deduction to Victorian mysteries.",
+      "historical_context": "Written 1887\u20111927, the canon established modern detective fiction and popularized forensic methodology."
     },
     {
       "title": "Confessions of Zeno",
@@ -1872,8 +1872,8 @@
           12.4964
         ]
       },
-      "summary": "Self‑deluding Trieste businessman Zeno Cosini recounts his life and addictions under psychoanalysis, revealing the comic elasticity of truth.",
-      "historical_context": "Svevo’s 1923 modernist novel echoed Freud’s influence and Austro‑Italian identity crises on the eve of WWI."
+      "summary": "Self\u2011deluding Trieste businessman Zeno Cosini recounts his life and addictions under psychoanalysis, revealing the comic elasticity of truth.",
+      "historical_context": "Svevo\u2019s 1923 modernist novel echoed Freud\u2019s influence and Austro\u2011Italian identity crises on the eve of WWI."
     },
     {
       "title": "Light in August",
@@ -1887,8 +1887,8 @@
           -0.1278
         ]
       },
-      "summary": "Orphan Joe Christmas’s violent odyssey intersects with wanderer Lena Grove in Yoknapatawpha County, probing race, religion and identity.",
-      "historical_context": "Faulkner’s 1932 work exposed Deep South racial tensions during the Great Depression."
+      "summary": "Orphan Joe Christmas\u2019s violent odyssey intersects with wanderer Lena Grove in Yoknapatawpha County, probing race, religion and identity.",
+      "historical_context": "Faulkner\u2019s 1932 work exposed Deep South racial tensions during the Great Depression."
     },
     {
       "title": "Decameron",
@@ -1903,7 +1903,7 @@
         ]
       },
       "summary": "Ten young Florentines flee the Black Death and entertain each other with 100 tales of love, wit, and fortune over ten days.",
-      "historical_context": "Completed in 1353, Boccaccio’s frame narrative captured diverse voices of medieval Italian society during plague."
+      "historical_context": "Completed in 1353, Boccaccio\u2019s frame narrative captured diverse voices of medieval Italian society during plague."
     },
     {
       "title": "Lord Jim",
@@ -1918,7 +1918,7 @@
         ]
       },
       "summary": "After abandoning ship in a moment of cowardice, seaman Jim searches for redemption in the remote Malay settlement of Patusan.",
-      "historical_context": "Conrad’s 1900 novel examined colonial guilt and romantic idealism within the British maritime empire."
+      "historical_context": "Conrad\u2019s 1900 novel examined colonial guilt and romantic idealism within the British maritime empire."
     },
     {
       "title": "The Hobbit",
@@ -1932,8 +1932,8 @@
           -0.1278
         ]
       },
-      "summary": "Comfort‑loving Bilbo Baggins joins thirteen dwarves on a quest to reclaim treasure from the dragon Smaug, discovering courage and cunning.",
-      "historical_context": "Published in 1937, Tolkien’s children’s fantasy drew on Norse mythology and prefigured The Lord of the Rings."
+      "summary": "Comfort\u2011loving Bilbo Baggins joins thirteen dwarves on a quest to reclaim treasure from the dragon Smaug, discovering courage and cunning.",
+      "historical_context": "Published in 1937, Tolkien\u2019s children\u2019s fantasy drew on Norse mythology and prefigured The Lord of the Rings."
     },
     {
       "title": "Rabbit, Run",
@@ -1947,8 +1947,8 @@
           -0.1278
         ]
       },
-      "summary": "Discontented former basketball star Harry “Rabbit” Angstrom flees his pregnant wife in 1959 Pennsylvania, chasing freedom yet finding moral dead ends.",
-      "historical_context": "Updike’s 1960 novel inaugurated a tetralogy chronicling post‑war American suburbia and the search for meaning."
+      "summary": "Discontented former basketball star Harry \u201cRabbit\u201d Angstrom flees his pregnant wife in 1959 Pennsylvania, chasing freedom yet finding moral dead ends.",
+      "historical_context": "Updike\u2019s 1960 novel inaugurated a tetralogy chronicling post\u2011war American suburbia and the search for meaning."
     },
     {
       "title": "Man's Fate",
@@ -1963,7 +1963,7 @@
         ]
       },
       "summary": "Chinese communists and nationalists collide during the failed 1927 Shanghai uprising, exploring existential commitment and political sacrifice.",
-      "historical_context": "Malraux’s 1933 Prix Goncourt‑winning novel drew on his revolutionary experiences amid Asia’s turbulent interwar era."
+      "historical_context": "Malraux\u2019s 1933 Prix Goncourt\u2011winning novel drew on his revolutionary experiences amid Asia\u2019s turbulent interwar era."
     },
     {
       "title": "The Prime of Miss Jean Brodie",
@@ -1977,8 +1977,8 @@
           -0.1278
         ]
       },
-      "summary": "Charismatic Edinburgh teacher Jean Brodie molds her ‘set’ of schoolgirls with unorthodox lessons—until loyalty and fascist sympathies undo her.",
-      "historical_context": "Spark’s 1961 novella satirized 1930s Scottish conservatism and post‑war cults of personality."
+      "summary": "Charismatic Edinburgh teacher Jean Brodie molds her \u2018set\u2019 of schoolgirls with unorthodox lessons\u2014until loyalty and fascist sympathies undo her.",
+      "historical_context": "Spark\u2019s 1961 novella satirized 1930s Scottish conservatism and post\u2011war cults of personality."
     },
     {
       "title": "Confessions",
@@ -1993,7 +1993,7 @@
         ]
       },
       "summary": "Bishop Augustine recounts his youth of ambition and sensuality, his conversion to Christianity, and meditations on sin and grace.",
-      "historical_context": "Written c. 397 CE in Latin North Africa, it pioneered introspective autobiography and shaped medieval Christian theology."
+      "historical_context": "Written c.\u202f397\u202fCE in Latin North Africa, it pioneered introspective autobiography and shaped medieval Christian theology."
     },
     {
       "title": "White Teeth",
@@ -2007,12 +2007,12 @@
           -0.1278
         ]
       },
-      "summary": "Interlinked London families—Jamaican, Bangladeshi and white working‑class—navigate immigration, identity and genetic science from WWII to 1992.",
-      "historical_context": "Smith’s 2000 debut captured multicultural Britain at the millennium after post‑colonial migration."
+      "summary": "Interlinked London families\u2014Jamaican, Bangladeshi and white working\u2011class\u2014navigate immigration, identity and genetic science from WWII to 1992.",
+      "historical_context": "Smith\u2019s 2000 debut captured multicultural Britain at the millennium after post\u2011colonial migration."
     },
     {
       "title": "The Spy Who Came in From the Cold",
-      "author": "John le Carré",
+      "author": "John le Carr\u00e9",
       "year": 1963,
       "century": 20,
       "location": {
@@ -2023,7 +2023,7 @@
         ]
       },
       "summary": "A weary British agent undertakes one last deception in East Berlin, blurring morality amid Cold War espionage.",
-      "historical_context": "Le Carré’s 1963 novel injected bleak realism into spy fiction during heightened East‑West tensions."
+      "historical_context": "Le\u202fCarr\u00e9\u2019s 1963 novel injected bleak realism into spy fiction during heightened East\u2011West tensions."
     },
     {
       "title": "Metamorphoses",
@@ -2037,8 +2037,8 @@
           -0.1278
         ]
       },
-      "summary": "Ovid weaves 250 myths of gods and mortals linked by transformative change, from creation to Julius Caesar’s deification.",
-      "historical_context": "Completed in 8 CE, the Latin epic bridged Augustan Rome’s literary golden age and influenced Western art for millennia."
+      "summary": "Ovid weaves 250 myths of gods and mortals linked by transformative change, from creation to Julius Caesar\u2019s deification.",
+      "historical_context": "Completed in 8\u202fCE, the Latin epic bridged Augustan Rome\u2019s literary golden age and influenced Western art for millennia."
     },
     {
       "title": "A Good Man Is Hard to Find",
@@ -2052,8 +2052,8 @@
           -0.1278
         ]
       },
-      "summary": "In Flannery O’Connor’s title story and others, grotesque Southerners confront violent moments of grace and revelation.",
-      "historical_context": "Published in 1955, the collection blended Catholic theology with Jim Crow Georgia’s moral contradictions."
+      "summary": "In Flannery O\u2019Connor\u2019s title story and others, grotesque Southerners confront violent moments of grace and revelation.",
+      "historical_context": "Published in 1955, the collection blended Catholic theology with Jim Crow Georgia\u2019s moral contradictions."
     },
     {
       "title": "Winnie the Pooh",
@@ -2068,7 +2068,7 @@
         ]
       },
       "summary": "The gentle adventures of Pooh Bear and friends in Hundred Acre Wood celebrate imagination, friendship and childlike wonder.",
-      "historical_context": "Milne’s 1926 classic, inspired by his son’s toys, became a cornerstone of 20th‑century children’s literature."
+      "historical_context": "Milne\u2019s 1926 classic, inspired by his son\u2019s toys, became a cornerstone of 20th\u2011century children\u2019s literature."
     },
     {
       "title": "The Flowers of Evil",
@@ -2082,7 +2082,7 @@
           2.3522
         ]
       },
-      "summary": "Baudelaire’s poems juxtapose beauty and decay, erotic desire and spiritual agony amid modern Parisian life.",
+      "summary": "Baudelaire\u2019s poems juxtapose beauty and decay, erotic desire and spiritual agony amid modern Parisian life.",
       "historical_context": "First published in 1857 and censored for obscenity, it heralded French Symbolism and urban modernity."
     },
     {
@@ -2097,8 +2097,8 @@
           -0.1278
         ]
       },
-      "summary": "Teenage gangster Pinkie Brown marries naïve waitress Rose to silence her, while relentless Ida Arnold pursues justice along Brighton’s seedy pier.",
-      "historical_context": "Greene’s 1938 ‘Catholic thriller’ examined sin and damnation beneath seaside holiday culture before WWII."
+      "summary": "Teenage gangster Pinkie Brown marries na\u00efve waitress Rose to silence her, while relentless Ida Arnold pursues justice along Brighton\u2019s seedy pier.",
+      "historical_context": "Greene\u2019s 1938 \u2018Catholic thriller\u2019 examined sin and damnation beneath seaside holiday culture before WWII."
     },
     {
       "title": "The Corrections",
@@ -2112,8 +2112,8 @@
           -0.1278
         ]
       },
-      "summary": "Midwestern matriarch Enid Lambert schemes to reunite her adult children for one last Christmas, exposing familial dysfunction and late‑90s anxieties.",
-      "historical_context": "Franzen’s 2001 novel chronicled pre‑dot‑com‑crash America and won the National Book Award."
+      "summary": "Midwestern matriarch Enid Lambert schemes to reunite her adult children for one last Christmas, exposing familial dysfunction and late\u201190s anxieties.",
+      "historical_context": "Franzen\u2019s 2001 novel chronicled pre\u2011dot\u2011com\u2011crash America and won the National Book Award."
     },
     {
       "title": "On the Origin of Species",
@@ -2142,8 +2142,8 @@
           -119.4179
         ]
       },
-      "summary": "Itinerant ranch hands George and mentally limited Lennie chase a dream farm but face tragic consequences in Depression‑era California.",
-      "historical_context": "Steinbeck’s 1937 novella highlighted migrant labor struggles during America’s Dust Bowl years."
+      "summary": "Itinerant ranch hands George and mentally limited Lennie chase a dream farm but face tragic consequences in Depression\u2011era California.",
+      "historical_context": "Steinbeck\u2019s 1937 novella highlighted migrant labor struggles during America\u2019s Dust Bowl years."
     },
     {
       "title": "Fairy Tales and Stories",
@@ -2157,8 +2157,8 @@
           12.5683
         ]
       },
-      "summary": "Andersen’s collection ranges from ‘The Little Mermaid’ to ‘The Snow Queen,’ blending whimsy with poignant moral lessons.",
-      "historical_context": "Written 1835‑72, these Danish tales transcended folklore to craft modern literary fairy stories."
+      "summary": "Andersen\u2019s collection ranges from \u2018The Little Mermaid\u2019 to \u2018The Snow Queen,\u2019 blending whimsy with poignant moral lessons.",
+      "historical_context": "Written 1835\u201172, these Danish tales transcended folklore to craft modern literary fairy stories."
     },
     {
       "title": "A Wrinkle In Time",
@@ -2172,8 +2172,8 @@
           -74.006
         ]
       },
-      "summary": "Meg Murry, her brother Charles Wallace and friend Calvin traverse space‑time via tesseract to rescue their scientist father from cosmic evil.",
-      "historical_context": "L’Engle’s 1962 Newbery winner merged science fiction with spiritual themes amid early‑Cold‑War optimism."
+      "summary": "Meg Murry, her brother Charles Wallace and friend Calvin traverse space\u2011time via tesseract to rescue their scientist father from cosmic evil.",
+      "historical_context": "L\u2019Engle\u2019s 1962 Newbery winner merged science fiction with spiritual themes amid early\u2011Cold\u2011War optimism."
     },
     {
       "title": "The End of the Affair",
@@ -2187,8 +2187,8 @@
           -0.1278
         ]
       },
-      "summary": "During post‑Blitz London, novelist Maurice Bendrix obsessively investigates why his lover Sarah suddenly ended their adulterous affair.",
-      "historical_context": "Greene’s 1951 novel explored faith, jealousy and wartime trauma in ration‑era Britain."
+      "summary": "During post\u2011Blitz London, novelist Maurice Bendrix obsessively investigates why his lover Sarah suddenly ended their adulterous affair.",
+      "historical_context": "Greene\u2019s 1951 novel explored faith, jealousy and wartime trauma in ration\u2011era Britain."
     },
     {
       "title": "Molloy",
@@ -2203,7 +2203,7 @@
         ]
       },
       "summary": "In fragmented monologues, bedridden Molloy and detective Moran recount absurd quests, eroding narrative certainty and identity.",
-      "historical_context": "Beckett’s 1951 French‑language novel inaugurated his existential trilogy during post‑war avant‑garde literature."
+      "historical_context": "Beckett\u2019s 1951 French\u2011language novel inaugurated his existential trilogy during post\u2011war avant\u2011garde literature."
     },
     {
       "title": "The Remains of the Day",
@@ -2218,7 +2218,7 @@
         ]
       },
       "summary": "English butler Stevens recalls a lifetime of duty at Darlington Hall, confronting missed love and complicity with appeasement.",
-      "historical_context": "Ishiguro’s 1989 Booker winner reflected Thatcher‑era reevaluations of Britain’s fading imperial past."
+      "historical_context": "Ishiguro\u2019s 1989 Booker winner reflected Thatcher\u2011era reevaluations of Britain\u2019s fading imperial past."
     },
     {
       "title": "Portnoy's Complaint",
@@ -2233,7 +2233,7 @@
         ]
       },
       "summary": "Through psychoanalytic confession, Alexander Portnoy hilariously exposes sexual obsessions, guilt and Jewish family neuroses.",
-      "historical_context": "Roth’s 1969 novel shocked American mores amid the sexual revolution and New York Jewish identity."
+      "historical_context": "Roth\u2019s 1969 novel shocked American mores amid the sexual revolution and New York Jewish identity."
     },
     {
       "title": "An American Tragedy",
@@ -2248,11 +2248,11 @@
         ]
       },
       "summary": "Ambitious factory worker Clyde Griffiths seduces two women; when pregnancy threatens his rise, he plots murder on a lonely Adirondack lake, exposing class and justice in 1920s America.",
-      "historical_context": "Dreiser’s 1925 naturalist novel, inspired by a 1906 murder case, critiqued the corrosive pursuit of the American Dream during the Jazz Age."
+      "historical_context": "Dreiser\u2019s 1925 naturalist novel, inspired by a 1906 murder case, critiqued the corrosive pursuit of the American Dream during the Jazz Age."
     },
     {
       "title": "The Good Soldier Svejk",
-      "author": "Jaroslav Hašek",
+      "author": "Jaroslav Ha\u0161ek",
       "year": 1921,
       "century": 20,
       "location": {
@@ -2262,8 +2262,8 @@
           -0.1278
         ]
       },
-      "summary": "Guileless Czech Josef Švejk survives absurd orders and red‑tape while serving the Austro‑Hungarian army in World War I, poking fun at militarism.",
-      "historical_context": "Hašek serialized the satire 1921‑23 in newly formed Czechoslovakia, channeling anarchist and anti‑war sentiment."
+      "summary": "Guileless Czech Josef \u0160vejk survives absurd orders and red\u2011tape while serving the Austro\u2011Hungarian army in World War\u202fI, poking fun at militarism.",
+      "historical_context": "Ha\u0161ek serialized the satire 1921\u201123 in newly formed Czechoslovakia, channeling anarchist and anti\u2011war sentiment."
     },
     {
       "title": "Watership Down",
@@ -2278,11 +2278,11 @@
         ]
       },
       "summary": "Led by Hazel and prophetic Fiver, a band of rabbits flee warren doom, founding a new colony after battles with predators and authoritarian Efrafa.",
-      "historical_context": "Adams’s 1972 ecological epic blended animal fantasy with leadership allegory amid rising environmental awareness."
+      "historical_context": "Adams\u2019s 1972 ecological epic blended animal fantasy with leadership allegory amid rising environmental awareness."
     },
     {
       "title": "The Counterfeiters",
-      "author": "André Gide",
+      "author": "Andr\u00e9 Gide",
       "year": 1925,
       "century": 20,
       "location": {
@@ -2292,8 +2292,8 @@
           2.3522
         ]
       },
-      "summary": "Intersecting Parisian youths and writers test boundaries of sexuality, art and truth while novelist Édouard drafts a book mirroring their lives.",
-      "historical_context": "Gide’s 1925 modernist opus pioneered metafiction and challenged bourgeois morality in interwar France."
+      "summary": "Intersecting Parisian youths and writers test boundaries of sexuality, art and truth while novelist \u00c9douard drafts a book mirroring their lives.",
+      "historical_context": "Gide\u2019s 1925 modernist opus pioneered metafiction and challenged bourgeois morality in interwar France."
     },
     {
       "title": "Atonement",
@@ -2307,12 +2307,12 @@
           -0.1278
         ]
       },
-      "summary": "Briony Tallis’s false accusation in 1935 devastates lovers Cecilia and Robbie; decades later she seeks redemption through fiction.",
-      "historical_context": "McEwan’s 2001 novel revisited WWII Britain and postmodern questions of narrative guilt and memory."
+      "summary": "Briony Tallis\u2019s false accusation in 1935 devastates lovers Cecilia and Robbie; decades later she seeks redemption through fiction.",
+      "historical_context": "McEwan\u2019s 2001 novel revisited WWII Britain and postmodern questions of narrative guilt and memory."
     },
     {
       "title": "Berlin Alexanderplatz",
-      "author": "Alfred Döblin",
+      "author": "Alfred D\u00f6blin",
       "year": 1929,
       "century": 20,
       "location": {
@@ -2322,8 +2322,8 @@
           13.405
         ]
       },
-      "summary": "Ex‑convict Franz Biberkopf vows honesty in Weimar Berlin’s Alexanderplatz but is dragged back into crime and despair by underworld forces.",
-      "historical_context": "Döblin’s 1929 montage captured urban fragmentation and social unrest on the eve of Nazi ascendancy."
+      "summary": "Ex\u2011convict Franz Biberkopf vows honesty in Weimar Berlin\u2019s Alexanderplatz but is dragged back into crime and despair by underworld forces.",
+      "historical_context": "D\u00f6blin\u2019s 1929 montage captured urban fragmentation and social unrest on the eve of Nazi ascendancy."
     },
     {
       "title": "My Antonia",
@@ -2337,8 +2337,8 @@
           -0.1278
         ]
       },
-      "summary": "Narrator Jim Burden recalls immigrant Antonia Shimerda’s hardships and vitality on the Nebraska frontier, celebrating pioneer spirit.",
-      "historical_context": "Cather’s 1918 novel reflected 1880s Plains settlement and shifting American agrarian ideals."
+      "summary": "Narrator Jim Burden recalls immigrant Antonia Shimerda\u2019s hardships and vitality on the Nebraska frontier, celebrating pioneer spirit.",
+      "historical_context": "Cather\u2019s 1918 novel reflected 1880s Plains settlement and shifting American agrarian ideals."
     },
     {
       "title": "Gargantua and Pantagruel",
@@ -2353,7 +2353,7 @@
         ]
       },
       "summary": "Giants Gargantua and Pantagruel embark on bawdy adventures that lampoon scholastic pedantry and clerical corruption with exuberant humanism.",
-      "historical_context": "Rabelais wrote the five books 1532‑64 amid French Renaissance debates on learning and religious reform."
+      "historical_context": "Rabelais wrote the five books 1532\u201164 amid French Renaissance debates on learning and religious reform."
     },
     {
       "title": "A House for Mr. Biswas",
@@ -2367,8 +2367,8 @@
           -0.1278
         ]
       },
-      "summary": "In colonial Trinidad, hapless journalist Mohun Biswas struggles against his domineering in‑laws to buy a house and secure personal dignity.",
-      "historical_context": "Naipaul’s 1961 novel portrayed Indo‑Caribbean identity and post‑colonial social mobility."
+      "summary": "In colonial Trinidad, hapless journalist Mohun Biswas struggles against his domineering in\u2011laws to buy a house and secure personal dignity.",
+      "historical_context": "Naipaul\u2019s 1961 novel portrayed Indo\u2011Caribbean identity and post\u2011colonial social mobility."
     },
     {
       "title": "The Once and Future King",
@@ -2382,8 +2382,8 @@
           -0.1278
         ]
       },
-      "summary": "From young Wart’s education by wizard Merlin to the downfall of Camelot, White retells Arthurian legend with humor, psychology and pacifism.",
-      "historical_context": "Published 1938‑58, the quartet reflected WWII experiences, questioning power and human nature through myth."
+      "summary": "From young Wart\u2019s education by wizard Merlin to the downfall of Camelot, White retells Arthurian legend with humor, psychology and pacifism.",
+      "historical_context": "Published 1938\u201158, the quartet reflected WWII experiences, questioning power and human nature through myth."
     },
     {
       "title": "Harry Potter and the Philosopher\\s Stone",
@@ -2547,8 +2547,8 @@
           -0.1278
         ]
       },
-      "summary": "A Christmas Carol by Charles Dickens - Allegorical work exploring themes of christmas spirit.",
-      "historical_context": "Published in 1843, reflecting the literary movements of the 19th century."
+      "summary": "Miserly Ebenezer Scrooge is visited by three spirits on Christmas Eve who show him visions of past, present, and future, transforming him from a cold-hearted businessman into a generous and compassionate man.",
+      "historical_context": "Published in 1843, this beloved novella was written in six weeks to address social inequality and became Dickens' most popular work, establishing many modern Christmas traditions and demonstrating literature's power for social reform."
     },
     {
       "title": "Anne of Green Gables",
@@ -2867,7 +2867,7 @@
     },
     {
       "title": "2666",
-      "author": "Roberto Bolaño",
+      "author": "Roberto Bola\u00f1o",
       "year": 2004,
       "century": 21,
       "location": {
@@ -2877,7 +2877,7 @@
           -99.1332
         ]
       },
-      "summary": "2666 by Roberto Bolaño - Encyclopedic work exploring themes of academia.",
+      "summary": "2666 by Roberto Bola\u00f1o - Encyclopedic work exploring themes of academia.",
       "historical_context": "Published in 2004, reflecting the literary movements of the 21th century."
     },
     {
@@ -3962,7 +3962,7 @@
     },
     {
       "title": "Father Goriot",
-      "author": "Honoré de Balzac",
+      "author": "Honor\u00e9 de Balzac",
       "year": 1835,
       "century": 19,
       "location": {
@@ -3972,7 +3972,7 @@
           2.3522
         ]
       },
-      "summary": "Father Goriot by Honoré de Balzac - Drama work exploring themes of ambition.",
+      "summary": "Father Goriot by Honor\u00e9 de Balzac - Drama work exploring themes of ambition.",
       "historical_context": "Published in 1835, reflecting the literary movements of the 19th century."
     },
     {
@@ -4366,7 +4366,7 @@
       "historical_context": "Published in 2004, reflecting the literary movements of the 21th century."
     },
     {
-      "title": "The Confusions of Young Törless",
+      "title": "The Confusions of Young T\u00f6rless",
       "author": "Robert Musil",
       "year": 1906,
       "century": 20,
@@ -4377,12 +4377,12 @@
           -0.1278
         ]
       },
-      "summary": "The Confusions of Young Törless by Robert Musil - Allegorical work exploring themes of adolescence.",
+      "summary": "The Confusions of Young T\u00f6rless by Robert Musil - Allegorical work exploring themes of adolescence.",
       "historical_context": "Published in 1906, reflecting the literary movements of the 20th century."
     },
     {
       "title": "La Regenta",
-      "author": "Clarín",
+      "author": "Clar\u00edn",
       "year": 1884,
       "century": 19,
       "location": {
@@ -4392,7 +4392,7 @@
           -3.7038
         ]
       },
-      "summary": "La Regenta by Clarín - Drama work exploring themes of adultery.",
+      "summary": "La Regenta by Clar\u00edn - Drama work exploring themes of adultery.",
       "historical_context": "Published in 1884, reflecting the literary movements of the 19th century."
     },
     {
@@ -4487,7 +4487,7 @@
     },
     {
       "title": "The Savage Detectives",
-      "author": "Roberto Bolaño",
+      "author": "Roberto Bola\u00f1o",
       "year": 1998,
       "century": 20,
       "location": {
@@ -4497,7 +4497,7 @@
           -99.1332
         ]
       },
-      "summary": "The Savage Detectives by Roberto Bolaño - Experimental work exploring themes of obsession.",
+      "summary": "The Savage Detectives by Roberto Bola\u00f1o - Experimental work exploring themes of obsession.",
       "historical_context": "Published in 1998, reflecting the literary movements of the 20th century."
     },
     {
@@ -4877,7 +4877,7 @@
     },
     {
       "title": "Germinal",
-      "author": "Émile Zola",
+      "author": "\u00c9mile Zola",
       "year": 1885,
       "century": 19,
       "location": {
@@ -4887,7 +4887,7 @@
           2.3522
         ]
       },
-      "summary": "Germinal by Émile Zola - Fiction work exploring themes of class struggle.",
+      "summary": "Germinal by \u00c9mile Zola - Fiction work exploring themes of class struggle.",
       "historical_context": "Published in 1885, reflecting the literary movements of the 19th century."
     },
     {
@@ -5192,7 +5192,7 @@
     },
     {
       "title": "Memoirs From Beyond the Grave",
-      "author": "François-Auguste-René de Chateaubriand",
+      "author": "Fran\u00e7ois-Auguste-Ren\u00e9 de Chateaubriand",
       "year": 1849,
       "century": 19,
       "location": {
@@ -5202,7 +5202,7 @@
           2.3522
         ]
       },
-      "summary": "Memoirs From Beyond the Grave by François-Auguste-René de Chateaubriand - Memoir work exploring themes of european history.",
+      "summary": "Memoirs From Beyond the Grave by Fran\u00e7ois-Auguste-Ren\u00e9 de Chateaubriand - Memoir work exploring themes of european history.",
       "historical_context": "Published in 1849, reflecting the literary movements of the 19th century."
     },
     {
@@ -5282,7 +5282,7 @@
     },
     {
       "title": "The Human Comedy",
-      "author": "Honoré de Balzac",
+      "author": "Honor\u00e9 de Balzac",
       "year": 1830,
       "century": 19,
       "location": {
@@ -5292,7 +5292,7 @@
           2.3522
         ]
       },
-      "summary": "The Human Comedy by Honoré de Balzac - Drama work exploring themes of ambition.",
+      "summary": "The Human Comedy by Honor\u00e9 de Balzac - Drama work exploring themes of ambition.",
       "historical_context": "Published in 1830, reflecting the literary movements of the 19th century."
     },
     {
@@ -5352,8 +5352,8 @@
           -0.1278
         ]
       },
-      "summary": "Jude the Obscure by Thomas Hardy - Coming of age work exploring themes of adultery.",
-      "historical_context": "Published in 1895, reflecting the literary movements of the 19th century."
+      "summary": "Working-class Jude Fawley dreams of attending Oxford but faces class barriers and tragic relationships with cousin Sue Bridehead and first wife Arabella, ending in despair as his children die and his aspirations crumble.",
+      "historical_context": "Published in 1895, Hardy's final and most controversial novel critiques Victorian marriage laws, class restrictions, and religious hypocrisy, generating such outrage that Hardy abandoned fiction for poetry."
     },
     {
       "title": "The Secret Garden",
@@ -5972,7 +5972,7 @@
     },
     {
       "title": "The Immoralist",
-      "author": "André Gide",
+      "author": "Andr\u00e9 Gide",
       "year": 1902,
       "century": 20,
       "location": {
@@ -5982,7 +5982,7 @@
           1.6596
         ]
       },
-      "summary": "The Immoralist by André Gide - Allegorical work exploring themes of desire.",
+      "summary": "The Immoralist by Andr\u00e9 Gide - Allegorical work exploring themes of desire.",
       "historical_context": "Published in 1902, reflecting the literary movements of the 20th century."
     },
     {
@@ -6016,7 +6016,7 @@
       "historical_context": "Published in 1970, reflecting the literary movements of the 20th century."
     },
     {
-      "title": "Bouvard et Pécuchet",
+      "title": "Bouvard et P\u00e9cuchet",
       "author": "Gustave Flaubert",
       "year": 1881,
       "century": 19,
@@ -6027,7 +6027,7 @@
           2.3522
         ]
       },
-      "summary": "Bouvard et Pécuchet by Gustave Flaubert - Absurdist work exploring themes of disillusionment.",
+      "summary": "Bouvard et P\u00e9cuchet by Gustave Flaubert - Absurdist work exploring themes of disillusionment.",
       "historical_context": "Published in 1881, reflecting the literary movements of the 19th century."
     },
     {
@@ -6046,7 +6046,7 @@
       "historical_context": "Published in 1980, reflecting the literary movements of the 20th century."
     },
     {
-      "title": "Pensées",
+      "title": "Pens\u00e9es",
       "author": "Blaise Pascal",
       "year": 1670,
       "century": 17,
@@ -6057,7 +6057,7 @@
           2.3522
         ]
       },
-      "summary": "Pensées by Blaise Pascal - Allegorical work exploring themes of christianity.",
+      "summary": "Pens\u00e9es by Blaise Pascal - Allegorical work exploring themes of christianity.",
       "historical_context": "Published in 1670, reflecting the literary movements of the 17th century."
     },
     {
@@ -6102,8 +6102,8 @@
           12.4964
         ]
       },
-      "summary": "Romeo and Juliet by William Shakespeare - Drama work exploring themes of death & grief.",
-      "historical_context": "Published in 1597, reflecting the literary movements of the 16th century."
+      "summary": "Young lovers from feuding families in Verona marry secretly but die tragically due to miscommunication and family hatred, ultimately reconciling the Montagues and Capulets through their sacrifice.",
+      "historical_context": "Written in the mid-1590s, this tragedy transformed the traditional story of star-crossed lovers into a timeless exploration of young love, fate, family conflict, and the destructive nature of feuds."
     },
     {
       "title": "A Brief History of Time",
@@ -6437,7 +6437,7 @@
     },
     {
       "title": "Fortunata and Jacinta",
-      "author": "Benito Pérez Galdós",
+      "author": "Benito P\u00e9rez Gald\u00f3s",
       "year": 1887,
       "century": 19,
       "location": {
@@ -6447,7 +6447,7 @@
           -3.7038
         ]
       },
-      "summary": "Fortunata and Jacinta by Benito Pérez Galdós - Drama work exploring themes of betrayal.",
+      "summary": "Fortunata and Jacinta by Benito P\u00e9rez Gald\u00f3s - Drama work exploring themes of betrayal.",
       "historical_context": "Published in 1887, reflecting the literary movements of the 19th century."
     },
     {
@@ -6477,8 +6477,8 @@
           2.3522
         ]
       },
-      "summary": "The Hunchback of Notre-Dame by Victor Hugo - Drama work exploring themes of architecture.",
-      "historical_context": "Published in 1831, reflecting the literary movements of the 19th century."
+      "summary": "Deformed bell-ringer Quasimodo loves the beautiful Romani dancer Esmeralda, who is falsely accused of murder and pursued by the obsessive archdeacon Claude Frollo in medieval Paris centered around Notre-Dame Cathedral.",
+      "historical_context": "Published in 1831, Hugo's Gothic novel helped save Notre-Dame Cathedral from demolition while exploring themes of social justice, beauty versus ugliness, and the clash between medieval and modern values in French society."
     },
     {
       "title": "Joseph and His Brothers",
@@ -6512,7 +6512,7 @@
     },
     {
       "title": "Poet in New York",
-      "author": "Federico García Lorca",
+      "author": "Federico Garc\u00eda Lorca",
       "year": 1940,
       "century": 20,
       "location": {
@@ -6522,7 +6522,7 @@
           -74.006
         ]
       },
-      "summary": "Poet in New York by Federico García Lorca - Allegorical work exploring themes of alienation.",
+      "summary": "Poet in New York by Federico Garc\u00eda Lorca - Allegorical work exploring themes of alienation.",
       "historical_context": "Published in 1940, reflecting the literary movements of the 20th century."
     },
     {
@@ -6587,7 +6587,7 @@
     },
     {
       "title": "Lost Illusions",
-      "author": "Honoré de Balzac",
+      "author": "Honor\u00e9 de Balzac",
       "year": 1837,
       "century": 19,
       "location": {
@@ -6597,7 +6597,7 @@
           2.3522
         ]
       },
-      "summary": "Lost Illusions by Honoré de Balzac - Absurdist work exploring themes of ambition.",
+      "summary": "Lost Illusions by Honor\u00e9 de Balzac - Absurdist work exploring themes of ambition.",
       "historical_context": "Published in 1837, reflecting the literary movements of the 19th century."
     },
     {
@@ -6808,7 +6808,7 @@
         ]
       },
       "summary": "Alex and his droogs terrorize a dystopian Britain; after state brainwashing, he grapples with free will and ultraviolence.",
-      "historical_context": "Published in 1962, Burgess's novella critiqued youth violence and state control in post‑war Britain."
+      "historical_context": "Published in 1962, Burgess's novella critiqued youth violence and state control in post\u2011war Britain."
     },
     {
       "title": "A Farewell to Arms",
@@ -6819,7 +6819,7 @@
         "name": "Italy and Switzerland",
         "coordinates": [
           45.4642,
-          9.1900
+          9.19
         ]
       },
       "summary": "American officer Frederic Henry deserts the Italian army to save his love Catherine Barkley amid WWI chaos.",
@@ -6852,7 +6852,7 @@
           -89.5186
         ]
       },
-      "summary": "Narrators piece together ruthless Thomas Sutpen's quest to found a dynasty—and the South's haunting sins.",
+      "summary": "Narrators piece together ruthless Thomas Sutpen's quest to found a dynasty\u2014and the South's haunting sins.",
       "historical_context": "Published in 1936, William Faulkner's work engages with the concerns of yoknapatawpha county, mississippi."
     },
     {
@@ -6864,7 +6864,7 @@
         "name": "Mississippi River, USA",
         "coordinates": [
           35.1495,
-          -90.0490
+          -90.049
         ]
       },
       "summary": "Runaway Huck and escaped slave Jim raft the Mississippi, exposing antebellum hypocrisy and freedom's price.",
@@ -6897,7 +6897,7 @@
           0.0
         ]
       },
-      "summary": "German recruit Paul Bäumer endures trench warfare, losing his youth to pointless carnage.",
+      "summary": "German recruit Paul B\u00e4umer endures trench warfare, losing his youth to pointless carnage.",
       "historical_context": "Published in 1929, Erich Maria Remarque's work engages with the concerns of western front, france."
     },
     {
@@ -6913,7 +6913,7 @@
         ]
       },
       "summary": "Defying King Creon, Antigone buries her brother and accepts death, pitting divine law against state power.",
-      "historical_context": "Published in 441 BCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
+      "historical_context": "Published in 441\u202fBCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
     },
     {
       "title": "As I Lay Dying",
@@ -6927,7 +6927,7 @@
           0.0
         ]
       },
-      "summary": "The Bundren family's comic‑tragic odyssey to bury matriarch Addie reveals fractured interior monologues.",
+      "summary": "The Bundren family's comic\u2011tragic odyssey to bury matriarch Addie reveals fractured interior monologues.",
       "historical_context": "Published in 1930, William Faulkner's work engages with the concerns of yoknapatawpha county, mississippi."
     },
     {
@@ -6942,7 +6942,7 @@
           0.0
         ]
       },
-      "summary": "Dickens links a never‑ending lawsuit to social ills, murder and romance in foggy Victorian London.",
+      "summary": "Dickens links a never\u2011ending lawsuit to social ills, murder and romance in foggy Victorian London.",
       "historical_context": "Published in 1853, Charles Dickens's work engages with the concerns of london, england."
     },
     {
@@ -6966,14 +6966,14 @@
       "year": 1901,
       "century": 20,
       "location": {
-        "name": "Lübeck, Germany",
+        "name": "L\u00fcbeck, Germany",
         "coordinates": [
           0.0,
           0.0
         ]
       },
-      "summary": "Four Lübeck generations rise in commerce then decline as modernity erodes bourgeois values.",
-      "historical_context": "Published in 1901, Thomas Mann's work engages with the concerns of lübeck, germany."
+      "summary": "Four L\u00fcbeck generations rise in commerce then decline as modernity erodes bourgeois values.",
+      "historical_context": "Published in 1901, Thomas Mann's work engages with the concerns of l\u00fcbeck, germany."
     },
     {
       "title": "Charlotte's Web",
@@ -7017,7 +7017,7 @@
           0.0
         ]
       },
-      "summary": "Composer Adrian Leverkühn trades his soul for artistic genius, mirroring Germany's descent into fascism.",
+      "summary": "Composer Adrian Leverk\u00fchn trades his soul for artistic genius, mirroring Germany's descent into fascism.",
       "historical_context": "Published in 1947, Thomas Mann's work engages with the concerns of germany."
     },
     {
@@ -7032,7 +7032,7 @@
           0.0
         ]
       },
-      "summary": "Physician‑poet Yuri Zhivago's loves unfold amid Russian Revolution upheaval and civil war.",
+      "summary": "Physician\u2011poet Yuri Zhivago's loves unfold amid Russian Revolution upheaval and civil war.",
       "historical_context": "Published in 1957, Boris Pasternak's work engages with the concerns of russia."
     },
     {
@@ -7062,8 +7062,8 @@
           0.0
         ]
       },
-      "summary": "Marlow journeys up the Congo to find ivory trader Kurtz and confront colonial horror.",
-      "historical_context": "Published in 1899, Joseph Conrad's work engages with the concerns of congo river, africa."
+      "summary": "Marlow recounts his journey up the Congo River to find ivory trader Kurtz, who has descended into madness and brutality, exposing the horror and hypocrisy of European colonialism in Africa.",
+      "historical_context": "Published in 1899, Conrad's novella drew from his own experiences in the Belgian Congo to create a powerful critique of imperialism and exploration of the capacity for evil within civilized humanity."
     },
     {
       "title": "If This Is a Man",
@@ -7107,8 +7107,8 @@
           0.0
         ]
       },
-      "summary": "King Lear divides his realm among flattering daughters, descending into madness and storm‑swept truth.",
-      "historical_context": "Published in 1606, William Shakespeare's work engages with the concerns of ancient britain."
+      "summary": "Aging King Lear divides his kingdom between his daughters based on public declarations of love, banishing faithful Cordelia and setting in motion a tragic tale of family betrayal, madness, and death.",
+      "historical_context": "Written in 1605-1606, this tragedy parallels the subplot of Gloucester and his sons Edgar and Edmund, exploring themes of family, justice, blindness to truth, and the consequences of pride in a harsh, godless world."
     },
     {
       "title": "Lady Chatterley's Lover",
@@ -7152,8 +7152,8 @@
           0.0
         ]
       },
-      "summary": "Scottish thane Macbeth murders King Duncan to seize the crown, spiraling into guilt and tyranny.",
-      "historical_context": "Published in 1606, William Shakespeare's work engages with the concerns of scotland."
+      "summary": "Scottish general Macbeth murders King Duncan after hearing witches' prophecies about becoming king, but guilt and paranoia drive him and Lady Macbeth to madness and destruction.",
+      "historical_context": "Written around 1606, this tragedy was composed for King James I and explores themes of ambition, guilt, fate versus free will, and the corrupting nature of unchecked power in medieval Scotland."
     },
     {
       "title": "Memoirs of Hadrian",
@@ -7187,7 +7187,7 @@
     },
     {
       "title": "Nana",
-      "author": "Émile Zola",
+      "author": "\u00c9mile Zola",
       "year": 1880,
       "century": 19,
       "location": {
@@ -7198,7 +7198,7 @@
         ]
       },
       "summary": "Courtesan Nana rises in Parisian society, her sexual power exposing Second Empire decadence.",
-      "historical_context": "Published in 1880, Émile Zola's work engages with the concerns of paris, france."
+      "historical_context": "Published in 1880, \u00c9mile Zola's work engages with the concerns of paris, france."
     },
     {
       "title": "North and South",
@@ -7212,7 +7212,7 @@
           0.0
         ]
       },
-      "summary": "Margaret Hale confronts industrial North England's grim factories and slow‑burn romance with mill owner Thornton.",
+      "summary": "Margaret Hale confronts industrial North England's grim factories and slow\u2011burn romance with mill owner Thornton.",
       "historical_context": "Published in 1855, Elizabeth Gaskell's work engages with the concerns of milton (fictional), england."
     },
     {
@@ -7228,7 +7228,7 @@
         ]
       },
       "summary": "King Oedipus discovers he has fulfilled a prophecy by killing his father and marrying his mother.",
-      "historical_context": "Published in 429 BCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
+      "historical_context": "Published in 429\u202fBCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
     },
     {
       "title": "One Day in the Life of Ivan Denisovich",
@@ -7287,7 +7287,7 @@
           0.0
         ]
       },
-      "summary": "Commentary by exiled king Charles Kinbote hijacks poet John Shade's 999‑line poem in metafictional intrigue.",
+      "summary": "Commentary by exiled king Charles Kinbote hijacks poet John Shade's 999\u2011line poem in metafictional intrigue.",
       "historical_context": "Published in 1962, Vladimir Nabokov's work engages with the concerns of new wye (fictional), usa."
     },
     {
@@ -7362,7 +7362,7 @@
           0.0
         ]
       },
-      "summary": "Private eye Philip Marlowe uncovers corruption and murder in sun‑baked Los Angeles.",
+      "summary": "Private eye Philip Marlowe uncovers corruption and murder in sun\u2011baked Los Angeles.",
       "historical_context": "Published in 1939, Raymond Chandler's work engages with the concerns of los angeles, usa."
     },
     {
@@ -7422,7 +7422,7 @@
           0.0
         ]
       },
-      "summary": "Wrongfully jailed sailor Edmond Dantès escapes, finds treasure, and enacts elaborate revenge.",
+      "summary": "Wrongfully jailed sailor Edmond Dant\u00e8s escapes, finds treasure, and enacts elaborate revenge.",
       "historical_context": "Published in 1844, Alexandre Dumas's work engages with the concerns of france & mediterranean."
     },
     {
@@ -7467,7 +7467,7 @@
           0.0
         ]
       },
-      "summary": "Scobie, a guilt‑ridden colonial officer, wrestles with adultery, faith and duty in wartime Sierra Leone.",
+      "summary": "Scobie, a guilt\u2011ridden colonial officer, wrestles with adultery, faith and duty in wartime Sierra Leone.",
       "historical_context": "Published in 1948, Graham Greene's work engages with the concerns of sierra leone."
     },
     {
@@ -7482,7 +7482,7 @@
           0.0
         ]
       },
-      "summary": "Detective Sam Spade hunts a jewel‑encrusted statuette amid betrayal and femme fatale twists.",
+      "summary": "Detective Sam Spade hunts a jewel\u2011encrusted statuette amid betrayal and femme fatale twists.",
       "historical_context": "Published in 1929, Dashiell Hammett's work engages with the concerns of san francisco, usa."
     },
     {
@@ -7512,8 +7512,8 @@
           0.0
         ]
       },
-      "summary": "Dorian trades aging for a portrait that records his sins, exploring vanity and moral decay.",
-      "historical_context": "Published in 1890, Oscar Wilde's work engages with the concerns of london, england."
+      "summary": "Young Dorian Gray remains beautiful while his portrait ages and reflects his moral corruption, as he pursues a life of hedonistic pleasure under the influence of the decadent Lord Henry Wotton.",
+      "historical_context": "Published in 1890, Wilde's only novel scandalized Victorian society with its exploration of aestheticism, homosexuality, and moral decay, leading to the author's imprisonment and exile."
     },
     {
       "title": "The Portrait of a Lady",
@@ -7557,7 +7557,7 @@
           0.0
         ]
       },
-      "summary": "De Beauvoir analyses women’s oppression and constructs of femininity across history.",
+      "summary": "De Beauvoir analyses women\u2019s oppression and constructs of femininity across history.",
       "historical_context": "Published in 1949, Simone de Beauvoir's work engages with the concerns of france."
     },
     {
@@ -7587,7 +7587,7 @@
           0.0
         ]
       },
-      "summary": "Lost Generation expats seek meaning in Paris cafés and Pamplona bullfights.",
+      "summary": "Lost Generation expats seek meaning in Paris caf\u00e9s and Pamplona bullfights.",
       "historical_context": "Published in 1926, Ernest Hemingway's work engages with the concerns of paris & pamplona."
     },
     {
@@ -7632,7 +7632,7 @@
           0.0
         ]
       },
-      "summary": "Eliot's fragmented poem portrays post‑WWI spiritual desolation through mythic collage.",
+      "summary": "Eliot's fragmented poem portrays post\u2011WWI spiritual desolation through mythic collage.",
       "historical_context": "Published in 1922, T.S. Eliot's work engages with the concerns of europe."
     },
     {
@@ -7677,7 +7677,7 @@
           0.0
         ]
       },
-      "summary": "Foundling Tom's picaresque adventures and misadventures reveal 18th‑century English society.",
+      "summary": "Foundling Tom's picaresque adventures and misadventures reveal 18th\u2011century English society.",
       "historical_context": "Published in 1749, Henry Fielding's work engages with the concerns of england."
     },
     {
@@ -7692,7 +7692,7 @@
           0.0
         ]
       },
-      "summary": "Alcoholic ex‑consul Geoffrey Firmin spirals through Day of the Dead in 1930s Mexico.",
+      "summary": "Alcoholic ex\u2011consul Geoffrey Firmin spirals through Day of the Dead in 1930s Mexico.",
       "historical_context": "Published in 1947, Malcolm Lowry's work engages with the concerns of cuernavaca, mexico."
     },
     {
