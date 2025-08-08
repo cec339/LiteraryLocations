@@ -12,7 +12,7 @@
           -0.1278
         ]
       },
-      "summary": "Epic poem in blank verse recounting the biblical fall of man, Satan's rebellion against God, and the temptation of Adam and Eve in Eden, exploring themes of free will, obedience, and redemption.",
+      "summary": "Epic poem recounting the biblical fall of man, Satan's rebellion, and Adam and Eve's temptation.",
       "historical_context": "Written by blind Puritan Milton during English Restoration (1667), epic in blank verse."
     },
     {
@@ -27,7 +27,7 @@
           -1.5491
         ]
       },
-      "summary": "The turbulent relationships between the Earnshaw and Linton families, centered on the obsessive love between foundling Heathcliff and Catherine Earnshaw, whose impossible union destroys two generations.",
+      "summary": "Turbulent relationships between families, centered on obsessive love between Heathcliff and Catherine.",
       "historical_context": "Emily Bront\u00eb's only novel (1847), published as 'Ellis Bell,' shocked Victorian readers."
     },
     {
@@ -42,7 +42,7 @@
           -1.5491
         ]
       },
-      "summary": "Orphaned Jane Eyre overcomes cruel relatives, harsh schooling, and Gothic mysteries at Thornfield Hall to find love with the brooding Mr. Rochester while maintaining her moral independence and equality.",
+      "summary": "Orphaned Jane Eyre overcomes hardships to find love with Mr. Rochester while maintaining her independence.",
       "historical_context": "Published 1847 as 'Currer Bell,' pioneered female Gothic and complex female narrator."
     },
     {
@@ -57,7 +57,7 @@
           -0.2167
         ]
       },
-      "summary": "Elizabeth Bennet and wealthy Fitzwilliam Darcy overcome their mutual pride and prejudice to find love, while the novel satirizes the rigid class system and marriage market of Regency England.",
+      "summary": "Elizabeth Bennet and wealthy Darcy overcome pride and prejudice to find love while satirizing Regency class and marriage.",
       "historical_context": "Published anonymously 1813, originally 'First Impressions,' satirizes Regency marriage market."
     },
     {
@@ -72,7 +72,7 @@
           -0.5704
         ]
       },
-      "summary": "Emma Woodhouse, a spoiled but well-meaning young woman, believes herself an excellent matchmaker and meddles in others' romantic lives while learning painful lessons about self-knowledge and social class in the village of Highbury.",
+      "summary": "Spoiled Emma Woodhouse meddles in others' romantic lives while learning lessons about self-knowledge.",
       "historical_context": "Published 1815, Austen's masterpiece of social comedy and literary realism."
     },
     {
@@ -102,7 +102,7 @@
           -0.1278
         ]
       },
-      "summary": "Orphaned Pip rises from humble blacksmith's apprentice to London gentleman through a mysterious benefactor, only to discover his 'great expectations' are built on criminal wealth, teaching him that genuine worth comes from loyalty and love, not social status.",
+      "summary": "Orphaned Pip rises from blacksmith's apprentice to gentleman, learning genuine worth comes from loyalty, not status.",
       "historical_context": "Published serially 1860-61, critiques Victorian social climbing, Shaw's favorite Dickens novel."
     },
     {
@@ -147,7 +147,7 @@
           2.3522
         ]
       },
-      "summary": "Set during the French Revolution, Dr. Manette reunites with daughter Lucie while Charles Darnay faces execution for his aristocratic heritage, until Sydney Carton's ultimate sacrifice redeems his wasted life with the famous last words about doing 'a far, far better thing.'",
+      "summary": "During French Revolution, Dr. Manette reunites with daughter Lucie while Sydney Carton's sacrifice saves Charles Darnay.",
       "historical_context": "Published 1859, depicts French Revolution and Reign of Terror, one of best-selling novels."
     },
     {
@@ -162,7 +162,7 @@
           -1.8951
         ]
       },
-      "summary": "Set during the 1832 Reform Act period, idealistic Dorothea Brooke's disastrous marriage to pedantic scholar Casaubon parallels ambitious doctor Lydgate's troubles with shallow wife Rosamond, weaving together the interconnected lives of Middlemarch's residents.",
+      "summary": "Idealistic Dorothea's marriage troubles parallel Dr. Lydgate's domestic problems in interconnected provincial life.",
       "historical_context": "Published in installments 1871-72, pioneered psychological realism in Victorian fiction."
     },
     {
@@ -177,7 +177,7 @@
           -1.8951
         ]
       },
-      "summary": "Betrayed by his best friend and falsely accused of theft, weaver Silas Marner becomes a reclusive miser until a golden-haired child named Eppie wanders into his cottage, transforming his life and drawing him back into the village community of Raveloe.",
+      "summary": "Betrayed weaver Silas Marner becomes reclusive until golden-haired child Eppie transforms his life.",
       "historical_context": "Published 1861, explores redemption and transformative power of love over materialism."
     },
     {
@@ -192,7 +192,7 @@
           -2.4389
         ]
       },
-      "summary": "Tess Durbeyfield's tragic life unfolds from being seduced by Alec d'Urberville, through her doomed marriage to Angel Clare who abandons her upon learning her past, to her final desperate murder of Alec and execution, challenging Victorian sexual morality.",
+      "summary": "Tess's tragic life unfolds from seduction to doomed marriage to murder, challenging Victorian sexual morality.",
       "historical_context": "Published 1891 as 'A Pure Woman,' exposed Victorian sexual double standards."
     },
     {
@@ -237,7 +237,7 @@
           11.2558
         ]
       },
-      "summary": "Dante journeys through Hell, Purgatory, and Paradise guided by poet Virgil and beloved Beatrice, encountering historical and mythological figures in an allegorical quest for spiritual enlightenment and divine love.",
+      "summary": "Dante journeys through Hell, Purgatory, and Paradise guided by Virgil and Beatrice in allegorical quest.",
       "historical_context": "Written 1308-1320 during Dante's exile, established Italian as literary language."
     },
     {
@@ -267,7 +267,7 @@
           26.2387
         ]
       },
-      "summary": "The rage of Achilles during the final year of the ten-year Trojan War, focusing on his conflict with Agamemnon and his grief over Patroclus' death, culminating in his killing of Hector and return of the body to Priam.",
+      "summary": "Achilles' rage during Trojan War, his conflict with Agamemnon, grief over Patroclus, and killing of Hector.",
       "historical_context": "Composed 8th century BCE, foundational epic exploring honor, fate, and war."
     },
     {
@@ -282,7 +282,7 @@
           23.7275
         ]
       },
-      "summary": "After the Trojan War, Odysseus faces a ten-year journey home to Ithaca, encountering mythical creatures and divine intervention while his wife Penelope fends off suitors and son Telemachus searches for him.",
+      "summary": "Odysseus' ten-year journey home from Troy, encountering creatures while Penelope fends off suitors.",
       "historical_context": "Composed 8th century BCE, sequel to Iliad, established hero's journey archetype."
     },
     {
@@ -732,7 +732,7 @@
           -6.2603
         ]
       },
-      "summary": "Leopold Bloom's ordinary day in Dublin on June 16, 1904, parallels Homer's Odyssey through stream-of-consciousness narrative, revolutionary literary techniques, and detailed portrayal of urban modern life.",
+      "summary": "Leopold Bloom's ordinary day in Dublin parallels Homer's Odyssey through stream-of-consciousness narrative.",
       "historical_context": "Published 1922, Joyce's modernist masterpiece, initially banned for obscenity."
     },
     {
@@ -747,7 +747,7 @@
           2.3522
         ]
       },
-      "summary": "Marcel, triggered by a madeleine's taste, reconstructs loves, art and decadence in fin\u2011de\u2011si\u00e8cle France across seven volumes.",
+      "summary": "Marcel reconstructs loves, art and decadence in fin-de-siècle France triggered by madeleine's taste.",
       "historical_context": "Proust's 1913\u201127 masterpiece chronicled Belle \u00c9poque society dissolving before World War I."
     },
     {
@@ -822,7 +822,7 @@
           -1.2577
         ]
       },
-      "summary": "Hobbit Frodo Baggins must destroy the One Ring to defeat the Dark Lord Sauron, accompanied by a fellowship of diverse companions on an epic quest through Middle-earth that determines the fate of all free peoples.",
+      "summary": "Hobbit Frodo must destroy the One Ring to defeat Sauron, accompanied by fellowship through Middle-earth.",
       "historical_context": "Published 1954-1955, established modern fantasy literature from Tolkien's medieval expertise."
     },
     {
@@ -1032,7 +1032,7 @@
           37.6173
         ]
       },
-      "summary": "The interconnected lives of Russian aristocratic families during the Napoleonic era, following Pierre, Natasha, and Andrei through love, war, and personal transformation against the backdrop of historical events from 1805-1820.",
+      "summary": "Russian aristocratic families during Napoleonic era, following Pierre, Natasha, and Andrei through love and war.",
       "historical_context": "Published serially 1865-1869, Tolstoy's epic combines character development with historical narrative."
     },
     {
@@ -1062,7 +1062,7 @@
           37.6173
         ]
       },
-      "summary": "Anna Karenina's passionate affair with Count Vronsky destroys her marriage and social standing, paralleled by Konstantin Levin's spiritual journey and happy marriage, exploring love, family, society, and faith in 19th-century Russia.",
+      "summary": "Anna's affair with Vronsky destroys her life, paralleled by Levin's spiritual journey and marriage.",
       "historical_context": "Published serially 1875-1877, examines individual desire vs. social conventions in Russia."
     },
     {
@@ -1078,7 +1078,7 @@
         ]
       },
       "summary": "The murder of patriarch Fyodor Karamazov exposes the philosophical and moral conflicts between his four sons - sensualist Dmitri, intellectual Ivan, spiritual Alyosha, and illegitimate Smerdyakov - in a exploration of faith, reason, and free will.",
-      "historical_context": "Published serially 1879-1880 as Dostoevsky's final novel, this philosophical masterpiece synthesizes the author's exploration of Russian Orthodox faith, European rationalism, and human psychology in the face of suffering and doubt."
+      "historical_context": "Published serially 1879-1880, Dostoevsky's final novel explores faith and rationalism."
     },
     {
       "title": "Madame Bovary",
@@ -1197,7 +1197,7 @@
           2.3522
         ]
       },
-      "summary": "Ex-convict Jean Valjean seeks redemption while pursued by obsessive inspector Javert, against the backdrop of 19th-century French social upheaval, including the June Rebellion of 1832 and the plight of the poor and oppressed.",
+      "summary": "Ex-convict Jean Valjean seeks redemption while pursued by inspector Javert amid French social upheaval.",
       "historical_context": "Published 1862, Hugo's epic exposes French social injustices while advocating reform."
     },
     {
@@ -1272,7 +1272,7 @@
           -0.1278
         ]
       },
-      "summary": "In a future society where humans are genetically engineered, conditioned for happiness, and controlled through pleasure rather than pain, Bernard Marx and John \"the Savage\" challenge the system's dehumanizing perfection.",
+      "summary": "In genetically engineered future, Bernard Marx and John 'the Savage' challenge the dehumanizing system.",
       "historical_context": "Published 1932, warned against genetic engineering and consumer culture."
     },
     {
@@ -1287,7 +1287,7 @@
           -0.1278
         ]
       },
-      "summary": "Farm animals overthrow their human owner to create an equal society, but the pigs gradually become corrupt dictators, betraying the revolution's ideals in an allegory of the Russian Revolution and Stalin's rise to power.",
+      "summary": "Farm animals overthrow humans but pigs become corrupt dictators in allegory of Russian Revolution.",
       "historical_context": "Published 1945, political allegory critiquing Soviet communism through farmyard fable."
     },
     {
@@ -1347,7 +1347,7 @@
           12.6136
         ]
       },
-      "summary": "Prince Hamlet seeks revenge against his uncle Claudius, who murdered Hamlet's father and married his mother, leading to a tragic chain of madness, death, and moral corruption in the Danish court.",
+      "summary": "Prince Hamlet seeks revenge against uncle Claudius for murdering his father and marrying his mother.",
       "historical_context": "Written 1600-1601, Shakespeare's most performed play, explores revenge and mortality."
     },
     {
@@ -1662,7 +1662,7 @@
           -0.1278
         ]
       },
-      "summary": "Seconds before Earth\u2019s demolition, hapless Arthur Dent hitchhikes through space with alien researcher Ford Prefect, encountering depressed robots and bureaucratic vogons.",
+      "summary": "Arthur Dent hitchhikes through space with alien Ford Prefect after Earth's demolition.",
       "historical_context": "Adapted from Adams\u2019s 1978 BBC radio comedy, the 1979 novel skewered late\u201120th\u2011century British life and sci\u2011fi clich\u00e9s."
     },
     {
@@ -1677,7 +1677,7 @@
           2.3522
         ]
       },
-      "summary": "Young Gascon d\u2019Artagnan joins musketeers Athos, Porthos and Aramis to thwart Cardinal Richelieu\u2019s intrigues and rescue the queen\u2019s honor in 17th\u2011century France.",
+      "summary": "Young d'Artagnan joins musketeers to thwart Cardinal Richelieu's intrigues in 17th-century France.",
       "historical_context": "First serialized in 1844, Dumas\u2019s swashbuckler fed Romantic nostalgia during France\u2019s July Monarchy."
     },
     {
@@ -2172,7 +2172,7 @@
           -74.006
         ]
       },
-      "summary": "Meg Murry, her brother Charles Wallace and friend Calvin traverse space\u2011time via tesseract to rescue their scientist father from cosmic evil.",
+      "summary": "Meg Murry and companions traverse space-time via tesseract to rescue her scientist father.",
       "historical_context": "L\u2019Engle\u2019s 1962 Newbery winner merged science fiction with spiritual themes amid early\u2011Cold\u2011War optimism."
     },
     {
@@ -6477,7 +6477,7 @@
           2.3522
         ]
       },
-      "summary": "Deformed bell-ringer Quasimodo loves the beautiful Romani dancer Esmeralda, who is falsely accused of murder and pursued by the obsessive archdeacon Claude Frollo in medieval Paris centered around Notre-Dame Cathedral.",
+      "summary": "Deformed bell-ringer Quasimodo loves dancer Esmeralda, pursued by obsessive archdeacon in medieval Paris.",
       "historical_context": "Published 1831, Hugo's Gothic novel helped save Notre-Dame from demolition."
     },
     {
@@ -7063,7 +7063,7 @@
         ]
       },
       "summary": "Marlow recounts his journey up the Congo River to find ivory trader Kurtz, who has descended into madness and brutality, exposing the horror and hypocrisy of European colonialism in Africa.",
-      "historical_context": "Published in 1899, Conrad's novella drew from his own experiences in the Belgian Congo to create a powerful critique of imperialism and exploration of the capacity for evil within civilized humanity."
+      "historical_context": "Published 1899, Conrad's critique of imperialism drawn from Belgian Congo experiences."
     },
     {
       "title": "If This Is a Man",
@@ -7108,7 +7108,7 @@
         ]
       },
       "summary": "Aging King Lear divides his kingdom between his daughters based on public declarations of love, banishing faithful Cordelia and setting in motion a tragic tale of family betrayal, madness, and death.",
-      "historical_context": "Written in 1605-1606, this tragedy parallels the subplot of Gloucester and his sons Edgar and Edmund, exploring themes of family, justice, blindness to truth, and the consequences of pride in a harsh, godless world."
+      "historical_context": "Written 1605-1606, explores family, justice, and consequences of pride in godless world."
     },
     {
       "title": "Lady Chatterley's Lover",
@@ -7153,7 +7153,7 @@
         ]
       },
       "summary": "Scottish general Macbeth murders King Duncan after hearing witches' prophecies about becoming king, but guilt and paranoia drive him and Lady Macbeth to madness and destruction.",
-      "historical_context": "Written around 1606, this tragedy was composed for King James I and explores themes of ambition, guilt, fate versus free will, and the corrupting nature of unchecked power in medieval Scotland."
+      "historical_context": "Written around 1606 for King James I, explores ambition and corrupting power."
     },
     {
       "title": "Memoirs of Hadrian",
@@ -7513,7 +7513,7 @@
         ]
       },
       "summary": "Young Dorian Gray remains beautiful while his portrait ages and reflects his moral corruption, as he pursues a life of hedonistic pleasure under the influence of the decadent Lord Henry Wotton.",
-      "historical_context": "Published in 1890, Wilde's only novel scandalized Victorian society with its exploration of aestheticism, homosexuality, and moral decay, leading to the author's imprisonment and exile."
+      "historical_context": "Published 1890, Wilde's novel scandalized Victorian society, led to his imprisonment."
     },
     {
       "title": "The Portrait of a Lady",
