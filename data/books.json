@@ -747,7 +747,7 @@
           2.3522
         ]
       },
-      "summary": "Marcel reconstructs loves, art and decadence in fin-de-siècle France triggered by madeleine's taste.",
+      "summary": "Marcel reconstructs loves, art and decadence in fin-de-si\u00e8cle France triggered by madeleine's taste.",
       "historical_context": "Proust's 1913\u201127 masterpiece chronicled Belle \u00c9poque society dissolving before World War I."
     },
     {
@@ -1396,21 +1396,6 @@
       "historical_context": "Mitchell's epic portrays the destruction of the Old South and its aftermath."
     },
     {
-      "title": "Gulliver's Travels",
-      "author": "Jonathan Swift",
-      "year": 1726,
-      "century": 18,
-      "location": {
-        "name": "Various Fictional Lands",
-        "coordinates": [
-          51.5074,
-          -0.1278
-        ]
-      },
-      "summary": "Lemuel Gulliver's voyages to strange lands satirize human nature and society.",
-      "historical_context": "Swift's satire critiques 18th-century politics, science, and human folly."
-    },
-    {
       "title": "Slaughterhouse-Five",
       "author": "Kurt Vonnegut",
       "year": 1969,
@@ -1889,21 +1874,6 @@
       },
       "summary": "Orphan Joe Christmas\u2019s violent odyssey intersects with wanderer Lena Grove in Yoknapatawpha County, probing race, religion and identity.",
       "historical_context": "Faulkner\u2019s 1932 work exposed Deep South racial tensions during the Great Depression."
-    },
-    {
-      "title": "Decameron",
-      "author": "Giovanni Boccaccio",
-      "year": 1353,
-      "century": 14,
-      "location": {
-        "name": "Europe, Florence, Italy, Southern US",
-        "coordinates": [
-          51.5074,
-          -0.1278
-        ]
-      },
-      "summary": "Ten young Florentines flee the Black Death and entertain each other with 100 tales of love, wit, and fortune over ten days.",
-      "historical_context": "Completed in 1353, Boccaccio\u2019s frame narrative captured diverse voices of medieval Italian society during plague."
     },
     {
       "title": "Lord Jim",
@@ -2386,51 +2356,6 @@
       "historical_context": "Published 1938\u201158, the quartet reflected WWII experiences, questioning power and human nature through myth."
     },
     {
-      "title": "Harry Potter and the Philosopher\\s Stone",
-      "author": "J.K. Rowling",
-      "year": 1997,
-      "century": 20,
-      "location": {
-        "name": "Hogwarts, Scotland",
-        "coordinates": [
-          56.8198,
-          -5.1052
-        ]
-      },
-      "summary": "Young Harry Potter discovers he is a wizard and attends Hogwarts School, beginning his journey to defeat the dark wizard Voldemort.",
-      "historical_context": "Rowling\\s fantasy series became a global phenomenon, revitalizing children\\s literature and creating a massive multimedia franchise."
-    },
-    {
-      "title": "One Flew Over the Cuckoo\\s Nest",
-      "author": "Ken Kesey",
-      "year": 1962,
-      "century": 20,
-      "location": {
-        "name": "Oregon Mental Hospital",
-        "coordinates": [
-          44.9429,
-          -123.0351
-        ]
-      },
-      "summary": "Randle McMurphy challenges the authoritarian Nurse Ratched in a psychiatric hospital, leading to tragic consequences.",
-      "historical_context": "Kesey\\s novel critiqued institutional authority and mental health treatment during the 1960s counterculture movement."
-    },
-    {
-      "title": "A Wrinkle in Time",
-      "author": "Madeleine L\\Engle",
-      "year": 1962,
-      "century": 20,
-      "location": {
-        "name": "Multiple Planets",
-        "coordinates": [
-          40.7128,
-          -74.006
-        ]
-      },
-      "summary": "Meg Murry travels through time and space to rescue her father from the evil IT that threatens to control the universe.",
-      "historical_context": "L\\Engle\\s science fantasy novel broke barriers by featuring a female protagonist in STEM and addressing complex themes."
-    },
-    {
       "title": "U.S.A. Trilogy",
       "author": "John Dos Passos",
       "year": 1930,
@@ -2517,7 +2442,7 @@
           2.3522
         ]
       },
-      "summary": "Teenage Cécile manipulates her father's love life with tragic consequences on French Riviera.",
+      "summary": "Teenage C\u00e9cile manipulates her father's love life with tragic consequences on French Riviera.",
       "historical_context": "Published 1954, 18-year-old Sagan's scandalous debut defined youth rebellion."
     },
     {
@@ -2847,7 +2772,7 @@
           -0.1278
         ]
       },
-      "summary": "Governess at Bly Manor sees ghosts threatening children—or descends into madness.",
+      "summary": "Governess at Bly Manor sees ghosts threatening children\u2014or descends into madness.",
       "historical_context": "Published 1898, ambiguous ghost story epitomizes psychological horror."
     },
     {
@@ -2877,7 +2802,7 @@
           -99.1332
         ]
       },
-      "summary": "Five interconnected parts spiral around Ciudad Juárez femicides, reclusive writer, and apocalyptic evil.",
+      "summary": "Five interconnected parts spiral around Ciudad Ju\u00e1rez femicides, reclusive writer, and apocalyptic evil.",
       "historical_context": "2004 posthumous magnum opus, 900 pages confronting violence at millennium's edge."
     },
     {
@@ -3147,7 +3072,7 @@
           37.6173
         ]
       },
-      "summary": "Exposé of Soviet forced labor camps based on testimonies and author's imprisonment.",
+      "summary": "Expos\u00e9 of Soviet forced labor camps based on testimonies and author's imprisonment.",
       "historical_context": "Published 1973 in West, exposed Soviet atrocities, earned Nobel Prize."
     },
     {
@@ -3254,21 +3179,6 @@
       },
       "summary": "Chicago hustler Augie March refuses to be tied down, pursuing adventures from Depression to Mexico.",
       "historical_context": "1953 National Book Award winner launched Jewish-American literary renaissance."
-    },
-    {
-      "title": "The Epic Of Gilgamesh",
-      "author": "Unknown",
-      "year": -2100,
-      "century": -21,
-      "location": {
-        "name": "Babylon, Fictional Location, Iraq, Mesopotamia, Uruk",
-        "coordinates": [
-          51.5074,
-          -0.1278
-        ]
-      },
-      "summary": "King Gilgamesh and Enkidu battle monsters, seek immortality after friend's death.",
-      "historical_context": "Written 2100 BCE, humanity's oldest known epic poem from ancient Mesopotamia."
     },
     {
       "title": "Darkness at Noon",
@@ -3462,7 +3372,7 @@
           13.405
         ]
       },
-      "summary": "Prophet Zarathustra descends from mountain to teach Übermensch and God's death.",
+      "summary": "Prophet Zarathustra descends from mountain to teach \u00dcbermensch and God's death.",
       "historical_context": "Published 1883-85, Nietzsche's philosophical novel introduced key concepts."
     },
     {
@@ -3687,7 +3597,7 @@
           -51.9253
         ]
       },
-      "summary": "Dead narrator Brás Cubas recounts his privileged but empty life in slave-era Rio.",
+      "summary": "Dead narrator Br\u00e1s Cubas recounts his privileged but empty life in slave-era Rio.",
       "historical_context": "1881 proto-modernist novel, Brazil's last decade of slavery before 1888 abolition."
     },
     {
@@ -4362,7 +4272,7 @@
           -0.1278
         ]
       },
-      "summary": "Cadet Törless witnesses sadistic bullying at military school, exploring moral confusion and awakening.",
+      "summary": "Cadet T\u00f6rless witnesses sadistic bullying at military school, exploring moral confusion and awakening.",
       "historical_context": "1906 debut novel prefiguring fascism's psychology in Austrian military education."
     },
     {
@@ -4483,7 +4393,7 @@
         ]
       },
       "summary": "Young poets search for vanished 1920s poetess while founding visceral realist movement across continents.",
-      "historical_context": "1998 breakthrough chronicling lost generation Latin American writers, Bolaño's masterwork."
+      "historical_context": "1998 breakthrough chronicling lost generation Latin American writers, Bola\u00f1o's masterwork."
     },
     {
       "title": "Speak, Memory",
@@ -4857,7 +4767,7 @@
           2.3522
         ]
       },
-      "summary": "Étienne Lantier leads starving coal miners' strike against brutal conditions, ending in tragic violence.",
+      "summary": "\u00c9tienne Lantier leads starving coal miners' strike against brutal conditions, ending in tragic violence.",
       "historical_context": "1885 naturalist masterpiece exposing French mining conditions, inspired labor movements."
     },
     {
@@ -5412,7 +5322,7 @@
           13.405
         ]
       },
-      "summary": "Einstein explains special and general relativity: space-time curves, E=mc², revolutionizing physics.",
+      "summary": "Einstein explains special and general relativity: space-time curves, E=mc\u00b2, revolutionizing physics.",
       "historical_context": "1916 popular exposition transforming understanding of universe, time, and gravity."
     },
     {
