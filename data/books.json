@@ -3946,21 +3946,6 @@
       "historical_context": "1932 Pulitzer winner by missionary's daughter, shaped American views of China."
     },
     {
-      "title": "Mahabharata",
-      "author": "Vyasa",
-      "year": -400,
-      "century": -4,
-      "location": {
-        "name": "Fictional Location",
-        "coordinates": [
-          20.5937,
-          78.9629
-        ]
-      },
-      "summary": "Ancient Indian epic of the Kurukshetra War between Pandava and Kaurava princes, containing the Bhagavad Gita.",
-      "historical_context": "Sanskrit epic compiled 400 BCE-400 CE, world's longest poem at 200,000 verses."
-    },
-    {
       "title": "Father Goriot",
       "author": "Honor\u00e9 de Balzac",
       "year": 1835,
@@ -4619,21 +4604,6 @@
       },
       "summary": "Thomas Cromwell rises from blacksmith's son to Henry VIII's chief minister during English Reformation.",
       "historical_context": "Published 2009, won Booker Prize, redefined historical fiction through Cromwell's perspective."
-    },
-    {
-      "title": "The Complete Works of Plato",
-      "author": "Plato",
-      "year": -387,
-      "century": -4,
-      "location": {
-        "name": "Athens, Greece",
-        "coordinates": [
-          37.9838,
-          23.7275
-        ]
-      },
-      "summary": "Socratic dialogues explore justice, truth, beauty, and ideal forms through philosophical inquiry.",
-      "historical_context": "Written 4th century BCE, foundation of Western philosophy and political theory."
     },
     {
       "title": "The Adventures of Tom Sawyer",
