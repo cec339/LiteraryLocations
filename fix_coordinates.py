@@ -1,97 +1,172 @@
-
 import json
-from pathlib import Path
 
-def fix_zero_coordinates():
-    """Fix all books with (0,0) coordinates"""
+# Coordinate fixes for books with wrong London default coordinates
+coordinate_fixes = {
+    # US Locations
+    "The Corrections": {
+        "location": "Midwest, New York, New York City, Pennsylvania, United States",
+        "new_coords": [40.0, -89.0]  # Central US/Midwest
+    },
+    "One Flew Over the Cuckoo's Nest": {
+        "location": "Oregon, United States", 
+        "new_coords": [44.0, -120.5]  # Oregon
+    },
+    "Light in August": {
+        "location": "Jefferson, Mississippi, United States",
+        "new_coords": [32.3547, -90.1848]  # Mississippi
+    },
+    "Rabbit, Run": {
+        "location": "Mount Judge, Pennsylvania, Suburbia, United States",
+        "new_coords": [40.4406, -79.9959]  # Pennsylvania
+    },
+    "A Good Man Is Hard to Find": {
+        "location": "Georgia, Southern US, United States",
+        "new_coords": [32.6781, -83.2229]  # Georgia
+    },
+    "Portnoy's Complaint": {
+        "location": "New Jersey, New York, Newark, United States",
+        "new_coords": [40.7357, -74.1724]  # Newark, NJ
+    },
+    "My Antonia": {
+        "location": "Nebraska, United States",
+        "new_coords": [41.4925, -99.9018]  # Nebraska
+    },
     
-    # Load the current data
-    with open("data/books.json", "r") as f:
-        data = json.load(f)
+    # European Locations
+    "The Prince": {
+        "location": "Florence, Italy",
+        "new_coords": [43.7696, 11.2558]  # Florence
+    },
+    "The Prime of Miss Jean Brodie": {
+        "location": "Edinburgh, Scotland",
+        "new_coords": [55.9533, -3.1883]  # Edinburgh
+    },
+    "The Good Soldier Svejk": {
+        "location": "Austria-Hungary, Czech Republic, Prague",
+        "new_coords": [50.0755, 14.4378]  # Prague
+    },
+    "Austerlitz": {
+        "location": "Europe",
+        "new_coords": [48.8566, 2.3522]  # Paris (central Europe)
+    },
     
-    # Coordinate fixes for books with (0,0)
-    coordinate_fixes = {
-        # Already fixed above, but including for completeness
-        "The Lord of the Rings": [51.7520, -1.2577],  # Oxford (Tolkien's location)
-        "A Clockwork Orange": [51.5074, -0.1278],     # London
-        "A Farewell to Arms": [45.4642, 9.1900],      # Northern Italy (Milan area)
-        "A Portrait of the Artist as a Young Man": [53.3498, -6.2603],  # Dublin
-        "Absalom, Absalom!": [34.3668, -89.5186],     # Mississippi
-        "Adventures of Huckleberry Finn": [35.1495, -90.0490],  # Mississippi River
-        "Alice's Adventures in Wonderland": [51.7520, -1.2577],  # Oxford (Carroll's location)
-        "All Quiet on the Western Front": [50.1109, 3.1040],    # Western Front, France
-        "Antigone": [38.3172, 23.2066],               # Thebes, Greece
-        "As I Lay Dying": [34.3668, -89.5186],        # Mississippi (Faulkner's Yoknapatawpha)
-        "Bleak House": [51.5074, -0.1278],            # London
-        "Brideshead Revisited": [51.7520, -1.2577],   # Oxford area
-        "Buddenbrooks": [53.8654, 10.6865],           # Lübeck, Germany
-        "Charlotte's Web": [44.3106, -69.7795],       # Maine
-        "Demons": [55.7558, 37.6173],                 # Provincial Russia (Moscow area)
-        "Doctor Faustus": [48.1351, 11.5820],         # Munich, Germany
-        "Doctor Zhivago": [55.7558, 37.6173],         # Moscow, Russia
-        "Gone Girl": [38.5767, -92.1735],             # Missouri
-        "Heart of Darkness": [-4.0383, 21.7587],      # Congo River
-        "If This Is a Man": [50.0270, 19.2044],       # Auschwitz, Poland
-        "In Cold Blood": [38.5266, -96.7265],         # Kansas
-        "King Lear": [52.2053, -0.1218],              # Ancient Britain (Cambridge area)
-        "Lady Chatterley's Lover": [53.0000, -1.5000], # England (Nottinghamshire)
-        "Life of Pi": [0.0000, -160.0000],            # Pacific Ocean (central)
-        "Macbeth": [56.4907, -4.2026],                # Scotland (Stirling area)
-        "Memoirs of Hadrian": [41.9028, 12.4964],     # Rome
-        "Midnight's Children": [28.6139, 77.2090],    # New Delhi, India
-        "Nana": [48.8566, 2.3522],                    # Paris
-        "North and South": [53.4808, -2.2426],        # Manchester area (industrial England)
-        "Oedipus the King": [38.3172, 23.2066],       # Thebes, Greece
-        "One Day in the Life of Ivan Denisovich": [67.5000, 63.0000],  # Gulag (Siberia)
-        "One Thousand and One Nights": [33.3152, 44.3661],  # Baghdad
-        "Orlando": [51.5074, -0.1278],                # London
-        "Pale Fire": [42.3601, -71.0589],             # New England (fictional New Wye)
-        "Poems of Emily Dickinson": [42.3732, -72.5199],  # Amherst, Massachusetts
-        "Silent Spring": [38.9072, -77.0369],         # Washington DC area
-        "Sons and Lovers": [53.1581, -1.2649],        # Nottinghamshire
-        "The Age of Innocence": [40.7128, -74.0060],  # New York City
-        "The Big Sleep": [34.0522, -118.2437],        # Los Angeles
-        "The Castle": [50.0755, 14.4378],             # Prague (Kafka's location)
-        "The Charterhouse of Parma": [44.8015, 10.3279],  # Parma, Italy
-        "The Complete Tales and Poems of Edgar Allan Poe": [39.2904, -76.6122],  # Baltimore
-        "The Count of Monte Cristo": [43.2965, 5.3698],   # Marseille, France
-        "The Good Soldier": [51.5074, -0.1278],       # London/Europe
-        "The Grapes of Wrath": [35.2271, -101.8313],  # Oklahoma/California route
-        "The Heart of the Matter": [8.4606, -11.7799], # Freetown, Sierra Leone
-        "The Maltese Falcon": [37.7749, -122.4194],   # San Francisco
-        "The Name of the Rose": [44.4949, 11.3426],   # Bologna area, Italy
-        "The Picture of Dorian Gray": [51.5074, -0.1278],  # London
-        "The Portrait of a Lady": [51.5074, -0.1278], # London
-        "The Scarlet Letter": [42.3601, -71.0589],    # Boston
-        "The Second Sex": [48.8566, 2.3522],          # Paris
-        "The Stories of Anton Chekhov": [55.7558, 37.6173],  # Moscow area
-        "The Sun Also Rises": [48.8566, 2.3522],      # Paris
-        "The Talented Mr. Ripley": [40.8518, 14.2681], # Naples area, Italy
-        "The Unbearable Lightness of Being": [50.0755, 14.4378],  # Prague
-        "The Waste Land": [51.5074, -0.1278],         # London
-        "The Wind in the Willows": [51.5074, -0.1278], # English countryside
-        "The Woman in White": [51.5074, -0.1278],     # England
-        "Tom Jones": [51.5074, -0.1278],              # England
-        "Under the Volcano": [18.9061, -99.2337],     # Cuernavaca, Mexico
-        "Wide Sargasso Sea": [18.1096, -77.2975]      # Jamaica
+    # Caribbean/South American
+    "Love in the Time of Cholera": {
+        "location": "Caribbean, Colombia",
+        "new_coords": [10.3910, -75.4794]  # Cartagena, Colombia
+    },
+    
+    # African/Mediterranean
+    "Confessions": {
+        "location": "Algeria, Hippo (Ancient City), Italy, Rome",
+        "new_coords": [36.9, 7.7667]  # Hippo (Annaba, Algeria)
+    },
+    
+    # Pacific/Island
+    "Robinson Crusoe": {
+        "location": "Tropical Island",
+        "new_coords": [-20.0, -70.0]  # Juan Fernández Islands (inspiration)
+    },
+    
+    # Galapagos
+    "On the Origin of Species": {
+        "location": "Ecuador, Galapagos Islands, United Kingdom",
+        "new_coords": [-0.9538, -90.9656]  # Galapagos Islands
+    },
+    
+    # Mixed locations - keep as is for now
+    "The Hitchhiker's Guide to the Galaxy": {
+        "location": "Fictional Location, Space, United States",
+        "new_coords": [42.3601, -71.0589]  # Boston (Douglas Adams lived there)
+    },
+    
+    # Keep these as London (publication location for fictional/metaphysical)
+    "Paradise Lost": {
+        "location": "Multiple Settings (Heaven, Hell, Eden)",
+        "new_coords": [51.5074, -0.1278]  # Keep London (Milton's location)
+    },
+    "Brave New World": {
+        "location": "Dystopian Future Society",
+        "new_coords": [51.5074, -0.1278]  # Keep London (Huxley's location)
     }
-    
-    # Find and fix books with (0,0) coordinates
-    books_fixed = 0
-    for book in data["books"]:
-        coords = book.get("location", {}).get("coordinates", [])
-        if coords and len(coords) == 2 and coords[0] == 0.0 and coords[1] == 0.0:
-            title = book.get("title", "")
-            if title in coordinate_fixes:
-                book["location"]["coordinates"] = coordinate_fixes[title]
-                books_fixed += 1
-                print(f"Fixed coordinates for: {title}")
-    
-    # Save the updated data
-    with open("data/books.json", "w") as f:
-        json.dump(data, f, indent=2)
-    
-    print(f"Fixed {books_fixed} books with (0,0) coordinates")
+}
 
-if __name__ == "__main__":
-    fix_zero_coordinates()
+# Additional fixes for non-London mismatches
+other_fixes = {
+    "The Possessed": {
+        "location": "Provincial Russia",
+        "new_coords": [55.7558, 37.6173]  # Moscow region
+    },
+    "Candide": {
+        "location": "Europe and South America",
+        "new_coords": [48.8566, 2.3522]  # Paris (Voltaire's location)
+    },
+    "Giovanni's Room": {
+        "location": "France, Paris, United States",
+        "new_coords": [48.8566, 2.3522]  # Paris (primary setting)
+    },
+    "Tender Is the Night": {
+        "location": "France, French riviera, Paris, Switzerland, United States",
+        "new_coords": [43.5528, 7.0174]  # French Riviera
+    },
+    "Democracy in America": {
+        "location": "France, United States",
+        "new_coords": [38.9072, -77.0369]  # Washington DC (focus on America)
+    },
+    "Tropic of Cancer": {
+        "location": "France, New York, Paris",
+        "new_coords": [48.8566, 2.3522]  # Paris (primary setting)
+    },
+    "Siddhartha": {
+        "location": "Fictional Location, Germany, India",
+        "new_coords": [26.9124, 75.7873]  # India (story setting)
+    },
+    "The Power and the Glory": {
+        "location": "Mexico, Tabasco, United States",
+        "new_coords": [17.9892, -92.9475]  # Tabasco, Mexico
+    },
+    "Naked Lunch": {
+        "location": "Fictional Location, Mexico, Morocco, Tangier, United States",
+        "new_coords": [35.7595, -5.8340]  # Tangier, Morocco
+    },
+    "The Lover": {
+        "location": "France, Vietnam",
+        "new_coords": [10.8231, 106.6297]  # Saigon/Ho Chi Minh City, Vietnam
+    }
+}
+
+# Load the JSON
+with open('data/books.json', 'r') as f:
+    data = json.load(f)
+
+books = data['books']
+fixes_applied = 0
+
+# Apply coordinate fixes
+for i, book in enumerate(books):
+    title = book['title']
+    
+    # Check if this book needs fixing
+    if title in coordinate_fixes:
+        old_coords = book['location']['coordinates']
+        new_coords = coordinate_fixes[title]['new_coords']
+        book['location']['coordinates'] = new_coords
+        fixes_applied += 1
+        print(f"Fixed: {title}")
+        print(f"  Old coords: {old_coords} → New coords: {new_coords}")
+    
+    elif title in other_fixes:
+        old_coords = book['location']['coordinates']
+        new_coords = other_fixes[title]['new_coords']
+        book['location']['coordinates'] = new_coords
+        fixes_applied += 1
+        print(f"Fixed: {title}")
+        print(f"  Old coords: {old_coords} → New coords: {new_coords}")
+
+# Save the updated JSON
+data['books'] = books
+with open('data/books.json', 'w') as f:
+    json.dump(data, f, indent=2)
+
+print(f"\n✓ Fixed coordinates for {fixes_applied} books")
+print("Saved updated data/books.json")
