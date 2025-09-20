@@ -7,10 +7,10 @@ enableXsrfProtection = false
 enableWebsocketCompression = true
 
 [theme]
-primaryColor = "#1f77b4"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
+primaryColor = "#0A84FF"
+backgroundColor = "#FAFAFA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1D1D1F"
 font = "sans serif"
 
 [browser]
@@ -24,5 +24,4 @@ hideTopBar = true
 
 [global]
 developmentMode = false
-disableWatchdogWarning = true
 showWarningOnDirectExecution = false
