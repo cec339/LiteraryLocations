@@ -82,7 +82,8 @@ with st.sidebar:
 
 # Main content
 try:
-    # Add century label with overlay styling
+    # Add century label above slider
+    # Ensure proper century label display - skip Century 0
     display_century = st.session_state.selected_century
     if display_century == 0:
         display_century = display_century + 1
@@ -103,14 +104,15 @@ try:
         # If the current value isn't in the list (shouldn't happen), default to 19th century
         current_index = century_options.index(19)
 
+    # No custom notch HTML needed as we're handling it with CSS
+
     # Century selector with custom range that excludes 0
     selected_century = st.select_slider(
-            "Select Century",  # Provide a label for accessibility
+            "",  # Empty label since we have the header above
             options=century_options,
             value=century_options[current_index],
             key="century_slider",
-            help="Slide to explore literature through time",
-            label_visibility="collapsed"  # Hide the label visually but keep it for accessibility
+            help="Slide to explore literature through time"
         )
 
     # Add navigation buttons centered under the slider
@@ -138,6 +140,8 @@ try:
         st.session_state.selected_century = selected_century
         st.rerun()
 
+        # We don't need manual markers with select_slider as it already shows labels
+
     # Update session state only if the value has changed
     if st.session_state.century_slider != st.session_state.selected_century:
         st.session_state.selected_century = st.session_state.century_slider
@@ -159,7 +163,7 @@ try:
             return f"{century}th century"
 
     # Filter books by century or search results
-    if search_query and 'search_results' in locals() and not search_results.empty:
+    if search_query and not search_results.empty:
         filtered_books = search_results
     else:
         filtered_books = filter_books_by_century(selected_century)
@@ -172,7 +176,7 @@ try:
 
             # Custom HTML with fixed styling to ensure proper display
             html_content = f"""
-            <div class="map-container" id="mapContainer" style="width:100%; height:600px; position:relative; margin-top: -200px; z-index: 1;">
+            <div class="map-container" style="width:100%; height:600px; position:relative;">
                 {folium_html}
             </div>
             <style>
@@ -185,47 +189,12 @@ try:
                     left: 0 !important;
                 }}
             </style>
-            <script>
-                // Handle mobile map interaction to prevent scroll hijacking
-                (function() {{
-                    const container = document.getElementById('mapContainer');
-                    if (!container) return;
-                    
-                    let isMapActive = false;
-                    
-                    // Only apply on mobile devices
-                    if (window.innerWidth <= 768) {{
-                        container.addEventListener('click', function(e) {{
-                            if (!isMapActive) {{
-                                container.classList.add('map-active');
-                                isMapActive = true;
-                                
-                                // Auto-deactivate after user stops interacting
-                                setTimeout(() => {{
-                                    if (isMapActive) {{
-                                        container.classList.remove('map-active');
-                                        isMapActive = false;
-                                    }}
-                                }}, 5000);
-                            }}
-                        }});
-                        
-                        // Deactivate when scrolling outside map
-                        document.addEventListener('scroll', function(e) {{
-                            if (isMapActive && !container.contains(e.target)) {{
-                                container.classList.remove('map-active');
-                                isMapActive = false;
-                            }}
-                        }});
-                    }}
-                }})();
-            </script>
             """
 
             # Use full HTML with embedded styles to control the iframe
             st.components.v1.html(
                 html_content,
-                height=410,  # Reduced height to account for the negative margin
+                height=610,  # Slightly larger than the map to avoid scrolling
                 scrolling=False
             )
 
