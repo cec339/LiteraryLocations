@@ -17,22 +17,22 @@
     },
     {
       "title": "Wuthering Heights",
-      "author": "Emily Bront\u00eb",
+      "author": "Emily Brontë",
       "year": 1847,
       "century": 19,
       "location": {
         "name": "Yorkshire Moors, England",
         "coordinates": [
-          53.8008,
-          -1.5491
+          53.8315,
+          -1.956
         ]
       },
       "summary": "Turbulent relationships between families, centered on obsessive love between Heathcliff and Catherine.",
-      "historical_context": "Emily Bront\u00eb's only novel (1847), published as 'Ellis Bell,' shocked Victorian readers."
+      "historical_context": "Emily Brontë's only novel (1847), published as 'Ellis Bell,' shocked Victorian readers."
     },
     {
       "title": "Jane Eyre",
-      "author": "Charlotte Bront\u00eb",
+      "author": "Charlotte Brontë",
       "year": 1847,
       "century": 19,
       "location": {
@@ -158,8 +158,8 @@
       "location": {
         "name": "Midlands, England",
         "coordinates": [
-          52.4797,
-          -1.8951
+          52.408054,
+          -1.510556
         ]
       },
       "summary": "Idealistic Dorothea's marriage troubles parallel Dr. Lydgate's domestic problems in interconnected provincial life.",
@@ -278,8 +278,8 @@
       "location": {
         "name": "Mediterranean Sea",
         "coordinates": [
-          37.9838,
-          23.7275
+          38.453,
+          20.643
         ]
       },
       "summary": "Odysseus' ten-year journey home from Troy, encountering creatures while Penelope fends off suitors.",
@@ -422,11 +422,11 @@
     },
     {
       "title": "The Tin Drum",
-      "author": "G\u00fcnter Grass",
+      "author": "Günter Grass",
       "year": 1959,
       "century": 20,
       "location": {
-        "name": "Danzig/Gda\u0144sk",
+        "name": "Danzig/Gdańsk",
         "coordinates": [
           54.352,
           18.6466
@@ -436,8 +436,8 @@
       "historical_context": "Written in post-war Germany, examining the Nazi period through magical realism."
     },
     {
-      "title": "The Recognition of \u015aakuntal\u0101",
-      "author": "K\u0101lid\u0101sa",
+      "title": "The Recognition of Śakuntalā",
+      "author": "Kālidāsa",
       "year": 400,
       "century": 5,
       "location": {
@@ -572,7 +572,7 @@
     },
     {
       "title": "The Tale of Kieu",
-      "author": "Nguy\u1ec5n Du",
+      "author": "Nguyễn Du",
       "year": 1820,
       "century": 19,
       "location": {
@@ -583,10 +583,10 @@
         ]
       },
       "summary": "Virtuous Kieu sells herself into bondage to save her family, enduring exile before karmic reunion with her beloved Kim.",
-      "historical_context": "Nguy\u1ec5n Du's 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen\u2011dynasty Vietnam."
+      "historical_context": "Nguyễn Du's 1820 verse novel adapted a Chinese tale to critique Confucian morality in Nguyen‑dynasty Vietnam."
     },
     {
-      "title": "Pedro P\u00e1ramo",
+      "title": "Pedro Páramo",
       "author": "Juan Rulfo",
       "year": 1955,
       "century": 20,
@@ -598,7 +598,7 @@
         ]
       },
       "summary": "Juan Preciado arrives in Comala to meet his father but finds a ghost town haunted by the patriarch's sins.",
-      "historical_context": "Rulfo's 1955 work pioneered Latin American surrealism amid Mexico's post\u2011Revolution disillusionment."
+      "historical_context": "Rulfo's 1955 work pioneered Latin American surrealism amid Mexico's post‑Revolution disillusionment."
     },
     {
       "title": "The Complete Stories of Flannery O'Connor",
@@ -613,7 +613,7 @@
         ]
       },
       "summary": "Grotesque Southerners confront grace, violence and revelation in short tales blending dark humor with Catholic theology.",
-      "historical_context": "Published 1971 after O'Connor's death, the collection spanned 1940s\u201160s Georgia amid Civil Rights tensions."
+      "historical_context": "Published 1971 after O'Connor's death, the collection spanned 1940s‑60s Georgia amid Civil Rights tensions."
     },
     {
       "title": "The Book of Disquiet",
@@ -628,7 +628,7 @@
         ]
       },
       "summary": "Lisbon clerk Bernardo Soares records fragmentary reflections on alienation, dreams and the futility of identity.",
-      "historical_context": "Pessoa wrote the texts 1910s\u201130s; posthumously assembled in 1982 during Portugal's end\u2011of\u2011dictatorship transition."
+      "historical_context": "Pessoa wrote the texts 1910s‑30s; posthumously assembled in 1982 during Portugal's end‑of‑dictatorship transition."
     },
     {
       "title": "Blood Meridian",
@@ -642,8 +642,8 @@
           -106.485
         ]
       },
-      "summary": "A nameless Kid joins Glanton's scalp\u2011hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden's nihilistic gaze.",
-      "historical_context": "McCarthy's 1985 novel re\u2011examined Manifest Destiny through gothic violence in the American Southwest."
+      "summary": "A nameless Kid joins Glanton's scalp‑hunting gang, riding a psychedelic bloodbath across the 1840s borderlands under Judge Holden's nihilistic gaze.",
+      "historical_context": "McCarthy's 1985 novel re‑examined Manifest Destiny through gothic violence in the American Southwest."
     },
     {
       "title": "The Mahabharata",
@@ -653,8 +653,8 @@
       "location": {
         "name": "Ancient India",
         "coordinates": [
-          28.6139,
-          77.209
+          29.97,
+          76.88
         ]
       },
       "summary": "Rival cousins battle in the Kurukshetra War while divine sermons like the Bhagavad Gita explore duty, karma and cosmic order.",
@@ -688,7 +688,7 @@
         ]
       },
       "summary": "Four Osaka sisters navigate arranged marriages and Western influence as their aristocratic family declines on the eve of WWII.",
-      "historical_context": "Tanizaki serialized the novel 1943\u201148, recording Japan's shift from tradition to modernity before wartime defeat."
+      "historical_context": "Tanizaki serialized the novel 1943‑48, recording Japan's shift from tradition to modernity before wartime defeat."
     },
     {
       "title": "If on a winter's night a traveler",
@@ -703,7 +703,7 @@
         ]
       },
       "summary": "A Reader tries to finish a novel that keeps restarting in different genres, collapsing boundaries between book and audience.",
-      "historical_context": "Calvino's 1979 postmodern experiment reflected late\u201120th\u2011century skepticism about narrative authority."
+      "historical_context": "Calvino's 1979 postmodern experiment reflected late‑20th‑century skepticism about narrative authority."
     },
     {
       "title": "The Great Gatsby",
@@ -713,8 +713,8 @@
       "location": {
         "name": "Long Island, New York",
         "coordinates": [
-          40.7891,
-          -73.135
+          40.8007,
+          -73.7285
         ]
       },
       "summary": "Mysterious millionaire Jay Gatsby's pursuit of lost love Daisy Buchanan exposes the corruption and disillusionment beneath the glittering surface of the Jazz Age, narrated by neighbor Nick Carraway.",
@@ -747,12 +747,12 @@
           2.3522
         ]
       },
-      "summary": "Marcel reconstructs loves, art and decadence in fin-de-si\u00e8cle France triggered by madeleine's taste.",
-      "historical_context": "Proust's 1913\u201127 masterpiece chronicled Belle \u00c9poque society dissolving before World War I."
+      "summary": "Marcel reconstructs loves, art and decadence in fin-de-siècle France triggered by madeleine's taste.",
+      "historical_context": "Proust's 1913‑27 masterpiece chronicled Belle Époque society dissolving before World War I."
     },
     {
       "title": "One Hundred Years of Solitude",
-      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "author": "Gabriel García Márquez",
       "year": 1967,
       "century": 20,
       "location": {
@@ -762,8 +762,8 @@
           -74.1861
         ]
       },
-      "summary": "The multi-generational saga of the Buend\u00eda family in the mythical town of Macondo, blending magical realism with Latin American history, exploring themes of solitude, fate, and the cyclical nature of history.",
-      "historical_context": "Published 1967, magical realism masterpiece, earned Garc\u00eda M\u00e1rquez Nobel Prize."
+      "summary": "The multi-generational saga of the Buendía family in the mythical town of Macondo, blending magical realism with Latin American history, exploring themes of solitude, fate, and the cyclical nature of history.",
+      "historical_context": "Published 1967, magical realism masterpiece, earned García Márquez Nobel Prize."
     },
     {
       "title": "The Catcher in the Rye",
@@ -793,7 +793,7 @@
         ]
       },
       "summary": "Winston Smith secretly rebels in a surveillance state where Big Brother rewrites history and even thought is a crime.",
-      "historical_context": "Orwell's 1949 novel reflected post\u2011war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
+      "historical_context": "Orwell's 1949 novel reflected post‑war anxieties about Stalinism, propaganda and emerging Cold War authoritarianism."
     },
     {
       "title": "Lolita",
@@ -861,7 +861,7 @@
       "year": 1010,
       "century": 11,
       "location": {
-        "name": "Heian-ky\u014d (Kyoto), Japan",
+        "name": "Heian-kyō (Kyoto), Japan",
         "coordinates": [
           35.0116,
           135.7681
@@ -983,8 +983,8 @@
       "location": {
         "name": "Anglo-Saxon England",
         "coordinates": [
-          52.3555,
-          1.1743
+          55.6761,
+          12.5683
         ]
       },
       "summary": "An Old English epic poem featuring the hero Beowulf, who battles the monster Grendel, Grendel's mother, and a dragon.",
@@ -1186,7 +1186,7 @@
       "historical_context": "Ellison's groundbreaking novel examining African American experience and social invisibility."
     },
     {
-      "title": "Les Mis\u00e9rables",
+      "title": "Les Misérables",
       "author": "Victor Hugo",
       "year": 1862,
       "century": 19,
@@ -1217,7 +1217,7 @@
     },
     {
       "title": "Journey to the End of the Night",
-      "author": "Louis-Ferdinand C\u00e9line",
+      "author": "Louis-Ferdinand Céline",
       "year": 1932,
       "century": 20,
       "location": {
@@ -1228,7 +1228,7 @@
         ]
       },
       "summary": "Bardamu's cynical journey through WWI, colonial Africa, and urban America reveals humanity's darkness.",
-      "historical_context": "C\u00e9line's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
+      "historical_context": "Céline's controversial novel revolutionizing French literature with colloquial language and nihilistic vision."
     },
     {
       "title": "The Red and the Black",
@@ -1508,8 +1508,8 @@
       "location": {
         "name": "New York and Massachusetts",
         "coordinates": [
-          40.7128,
-          -74.006
+          42.3601,
+          -71.0589
         ]
       },
       "summary": "Esther Greenwood's descent into mental illness mirrors Plath's own struggles with depression and suicide.",
@@ -1632,8 +1632,8 @@
           2.3522
         ]
       },
-      "summary": "Idealistic law student Fr\u00e9d\u00e9ric Moreau nurses an obsessive love for the married Madame Arnoux while drifting through the 1848 Paris revolution, charting ambition and disappointment.",
-      "historical_context": "Flaubert\u2019s 1869 novel dissected the moral vacuity of France\u2019s July Monarchy and Second Empire generations."
+      "summary": "Idealistic law student Frédéric Moreau nurses an obsessive love for the married Madame Arnoux while drifting through the 1848 Paris revolution, charting ambition and disappointment.",
+      "historical_context": "Flaubert’s 1869 novel dissected the moral vacuity of France’s July Monarchy and Second Empire generations."
     },
     {
       "title": "The Hitchhiker's Guide to the Galaxy",
@@ -1648,7 +1648,7 @@
         ]
       },
       "summary": "Arthur Dent hitchhikes through space with alien Ford Prefect after Earth's demolition.",
-      "historical_context": "Adapted from Adams\u2019s 1978 BBC radio comedy, the 1979 novel skewered late\u201120th\u2011century British life and sci\u2011fi clich\u00e9s."
+      "historical_context": "Adapted from Adams’s 1978 BBC radio comedy, the 1979 novel skewered late‑20th‑century British life and sci‑fi clichés."
     },
     {
       "title": "The Three Musketeers",
@@ -1663,7 +1663,7 @@
         ]
       },
       "summary": "Young d'Artagnan joins musketeers to thwart Cardinal Richelieu's intrigues in 17th-century France.",
-      "historical_context": "First serialized in 1844, Dumas\u2019s swashbuckler fed Romantic nostalgia during France\u2019s July Monarchy."
+      "historical_context": "First serialized in 1844, Dumas’s swashbuckler fed Romantic nostalgia during France’s July Monarchy."
     },
     {
       "title": "Giovanni's Room",
@@ -1678,7 +1678,7 @@
         ]
       },
       "summary": "American drifter David grapples with sexual identity during a doomed affair with Italian bartender Giovanni in the bohemian haunts of 1950s Paris.",
-      "historical_context": "Baldwin\u2019s 1956 novel challenged taboos around same\u2011sex desire and racial outsiderhood in mid\u2011century literature."
+      "historical_context": "Baldwin’s 1956 novel challenged taboos around same‑sex desire and racial outsiderhood in mid‑century literature."
     },
     {
       "title": "Howards End",
@@ -1693,7 +1693,7 @@
         ]
       },
       "summary": "The idealistic Schlegel sisters become entwined with the pragmatic Wilcox family and impoverished clerk Leonard Bast, questioning class and connection over a beloved country house.",
-      "historical_context": "Forster\u2019s 1910 work exposed Edwardian England\u2019s shifting social order on the eve of World War\u202fI."
+      "historical_context": "Forster’s 1910 work exposed Edwardian England’s shifting social order on the eve of World War I."
     },
     {
       "title": "And Then There Were None",
@@ -1708,7 +1708,7 @@
         ]
       },
       "summary": "Ten guests lured to a remote island are murdered one by one according to a grim nursery rhyme, as past crimes surface.",
-      "historical_context": "Christie\u2019s 1939 mystery innovated the closed\u2011circle thriller against a backdrop of pre\u2011war anxiety."
+      "historical_context": "Christie’s 1939 mystery innovated the closed‑circle thriller against a backdrop of pre‑war anxiety."
     },
     {
       "title": "A Room of One's Own",
@@ -1733,12 +1733,12 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          40.7128,
-          -74.006
+          34.0522,
+          -118.2437
         ]
       },
-      "summary": "Fireman Guy Montag burns books for a living until forbidden literature sparks rebellion against his screen\u2011obsessed, authoritarian society.",
-      "historical_context": "Bradbury\u2019s 1953 dystopia critiqued McCarthy\u2011era censorship and mass\u2011media conformity in Cold War America."
+      "summary": "Fireman Guy Montag burns books for a living until forbidden literature sparks rebellion against his screen‑obsessed, authoritarian society.",
+      "historical_context": "Bradbury’s 1953 dystopia critiqued McCarthy‑era censorship and mass‑media conformity in Cold War America."
     },
     {
       "title": "One Flew Over the Cuckoo's Nest",
@@ -1768,7 +1768,7 @@
         ]
       },
       "summary": "Glamorous psychiatrist Dick Diver and his wealthy, fragile wife Nicole spiral into dissolution amid Riviera decadence and shifting power dynamics.",
-      "historical_context": "Fitzgerald\u2019s 1934 novel mirrored Jazz Age expatriates and the author\u2019s struggle with Zelda\u2019s mental illness."
+      "historical_context": "Fitzgerald’s 1934 novel mirrored Jazz Age expatriates and the author’s struggle with Zelda’s mental illness."
     },
     {
       "title": "The Prince",
@@ -1798,7 +1798,7 @@
         ]
       },
       "summary": "Orphan Harry discovers he is a wizard, attends Hogwarts, and faces dark sorcerer Voldemort while forging friendships with Ron and Hermione.",
-      "historical_context": "Rowling\u2019s 1997 debut revitalized children\u2019s fantasy and launched a global multimedia phenomenon."
+      "historical_context": "Rowling’s 1997 debut revitalized children’s fantasy and launched a global multimedia phenomenon."
     },
     {
       "title": "Steppenwolf",
@@ -1813,11 +1813,11 @@
         ]
       },
       "summary": "Alienated intellectual Harry Haller, torn between bourgeois respectability and wolfish instinct, seeks transcendence through the surreal Magic Theatre.",
-      "historical_context": "Hesse\u2019s 1927 novel captured Weimar\u2011era existential angst and later influenced 1960s counterculture."
+      "historical_context": "Hesse’s 1927 novel captured Weimar‑era existential angst and later influenced 1960s counterculture."
     },
     {
       "title": "Love in the Time of Cholera",
-      "author": "Gabriel Garc\u00eda M\u00e1rquez",
+      "author": "Gabriel García Márquez",
       "year": 1985,
       "century": 20,
       "location": {
@@ -1827,8 +1827,8 @@
           -75.4794
         ]
       },
-      "summary": "Florentino Ariza endures half a century to rekindle love with Fermina Daza after her husband\u2019s death amid Caribbean cholera outbreaks.",
-      "historical_context": "Garc\u00eda M\u00e1rquez\u2019s 1985 novel blended magical realism with Colombian history, examining enduring passion and aging."
+      "summary": "Florentino Ariza endures half a century to rekindle love with Fermina Daza after her husband’s death amid Caribbean cholera outbreaks.",
+      "historical_context": "García Márquez’s 1985 novel blended magical realism with Colombian history, examining enduring passion and aging."
     },
     {
       "title": "The Complete Sherlock Holmes",
@@ -1842,8 +1842,8 @@
           -0.1278
         ]
       },
-      "summary": "Doyle\u2019s four novels and 56 stories follow detective Sherlock Holmes and Dr. Watson as they apply keen deduction to Victorian mysteries.",
-      "historical_context": "Written 1887\u20111927, the canon established modern detective fiction and popularized forensic methodology."
+      "summary": "Doyle’s four novels and 56 stories follow detective Sherlock Holmes and Dr. Watson as they apply keen deduction to Victorian mysteries.",
+      "historical_context": "Written 1887‑1927, the canon established modern detective fiction and popularized forensic methodology."
     },
     {
       "title": "Confessions of Zeno",
@@ -1857,8 +1857,8 @@
           12.4964
         ]
       },
-      "summary": "Self\u2011deluding Trieste businessman Zeno Cosini recounts his life and addictions under psychoanalysis, revealing the comic elasticity of truth.",
-      "historical_context": "Svevo\u2019s 1923 modernist novel echoed Freud\u2019s influence and Austro\u2011Italian identity crises on the eve of WWI."
+      "summary": "Self‑deluding Trieste businessman Zeno Cosini recounts his life and addictions under psychoanalysis, revealing the comic elasticity of truth.",
+      "historical_context": "Svevo’s 1923 modernist novel echoed Freud’s influence and Austro‑Italian identity crises on the eve of WWI."
     },
     {
       "title": "Light in August",
@@ -1872,8 +1872,8 @@
           -90.1848
         ]
       },
-      "summary": "Orphan Joe Christmas\u2019s violent odyssey intersects with wanderer Lena Grove in Yoknapatawpha County, probing race, religion and identity.",
-      "historical_context": "Faulkner\u2019s 1932 work exposed Deep South racial tensions during the Great Depression."
+      "summary": "Orphan Joe Christmas’s violent odyssey intersects with wanderer Lena Grove in Yoknapatawpha County, probing race, religion and identity.",
+      "historical_context": "Faulkner’s 1932 work exposed Deep South racial tensions during the Great Depression."
     },
     {
       "title": "Lord Jim",
@@ -1883,12 +1883,12 @@
       "location": {
         "name": "Fictional Location, Germany, Malay Archipelago, Patna",
         "coordinates": [
-          51.5074,
-          -0.1278
+          1.2376,
+          111.4621
         ]
       },
       "summary": "After abandoning ship in a moment of cowardice, seaman Jim searches for redemption in the remote Malay settlement of Patusan.",
-      "historical_context": "Conrad\u2019s 1900 novel examined colonial guilt and romantic idealism within the British maritime empire."
+      "historical_context": "Conrad’s 1900 novel examined colonial guilt and romantic idealism within the British maritime empire."
     },
     {
       "title": "The Hobbit",
@@ -1898,12 +1898,12 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          51.5074,
-          -0.1278
+          51.752,
+          -1.2577
         ]
       },
-      "summary": "Comfort\u2011loving Bilbo Baggins joins thirteen dwarves on a quest to reclaim treasure from the dragon Smaug, discovering courage and cunning.",
-      "historical_context": "Published in 1937, Tolkien\u2019s children\u2019s fantasy drew on Norse mythology and prefigured The Lord of the Rings."
+      "summary": "Comfort‑loving Bilbo Baggins joins thirteen dwarves on a quest to reclaim treasure from the dragon Smaug, discovering courage and cunning.",
+      "historical_context": "Published in 1937, Tolkien’s children’s fantasy drew on Norse mythology and prefigured The Lord of the Rings."
     },
     {
       "title": "Rabbit, Run",
@@ -1917,8 +1917,8 @@
           -79.9959
         ]
       },
-      "summary": "Discontented former basketball star Harry \u201cRabbit\u201d Angstrom flees his pregnant wife in 1959 Pennsylvania, chasing freedom yet finding moral dead ends.",
-      "historical_context": "Updike\u2019s 1960 novel inaugurated a tetralogy chronicling post\u2011war American suburbia and the search for meaning."
+      "summary": "Discontented former basketball star Harry “Rabbit” Angstrom flees his pregnant wife in 1959 Pennsylvania, chasing freedom yet finding moral dead ends.",
+      "historical_context": "Updike’s 1960 novel inaugurated a tetralogy chronicling post‑war American suburbia and the search for meaning."
     },
     {
       "title": "Man's Fate",
@@ -1933,7 +1933,7 @@
         ]
       },
       "summary": "Chinese communists and nationalists collide during the failed 1927 Shanghai uprising, exploring existential commitment and political sacrifice.",
-      "historical_context": "Malraux\u2019s 1933 Prix Goncourt\u2011winning novel drew on his revolutionary experiences amid Asia\u2019s turbulent interwar era."
+      "historical_context": "Malraux’s 1933 Prix Goncourt‑winning novel drew on his revolutionary experiences amid Asia’s turbulent interwar era."
     },
     {
       "title": "The Prime of Miss Jean Brodie",
@@ -1947,8 +1947,8 @@
           -3.1883
         ]
       },
-      "summary": "Charismatic Edinburgh teacher Jean Brodie molds her \u2018set\u2019 of schoolgirls with unorthodox lessons\u2014until loyalty and fascist sympathies undo her.",
-      "historical_context": "Spark\u2019s 1961 novella satirized 1930s Scottish conservatism and post\u2011war cults of personality."
+      "summary": "Charismatic Edinburgh teacher Jean Brodie molds her ‘set’ of schoolgirls with unorthodox lessons—until loyalty and fascist sympathies undo her.",
+      "historical_context": "Spark’s 1961 novella satirized 1930s Scottish conservatism and post‑war cults of personality."
     },
     {
       "title": "Confessions",
@@ -1963,7 +1963,7 @@
         ]
       },
       "summary": "Bishop Augustine recounts his youth of ambition and sensuality, his conversion to Christianity, and meditations on sin and grace.",
-      "historical_context": "Written c.\u202f397\u202fCE in Latin North Africa, it pioneered introspective autobiography and shaped medieval Christian theology."
+      "historical_context": "Written c. 397 CE in Latin North Africa, it pioneered introspective autobiography and shaped medieval Christian theology."
     },
     {
       "title": "White Teeth",
@@ -1977,12 +1977,12 @@
           -0.1278
         ]
       },
-      "summary": "Interlinked London families\u2014Jamaican, Bangladeshi and white working\u2011class\u2014navigate immigration, identity and genetic science from WWII to 1992.",
-      "historical_context": "Smith\u2019s 2000 debut captured multicultural Britain at the millennium after post\u2011colonial migration."
+      "summary": "Interlinked London families—Jamaican, Bangladeshi and white working‑class—navigate immigration, identity and genetic science from WWII to 1992.",
+      "historical_context": "Smith’s 2000 debut captured multicultural Britain at the millennium after post‑colonial migration."
     },
     {
       "title": "The Spy Who Came in From the Cold",
-      "author": "John le Carr\u00e9",
+      "author": "John le Carré",
       "year": 1963,
       "century": 20,
       "location": {
@@ -1993,7 +1993,7 @@
         ]
       },
       "summary": "A weary British agent undertakes one last deception in East Berlin, blurring morality amid Cold War espionage.",
-      "historical_context": "Le\u202fCarr\u00e9\u2019s 1963 novel injected bleak realism into spy fiction during heightened East\u2011West tensions."
+      "historical_context": "Le Carré’s 1963 novel injected bleak realism into spy fiction during heightened East‑West tensions."
     },
     {
       "title": "Metamorphoses",
@@ -2003,12 +2003,12 @@
       "location": {
         "name": "Fictional Location, Rome",
         "coordinates": [
-          51.5074,
-          -0.1278
+          41.8919,
+          12.5113
         ]
       },
-      "summary": "Ovid weaves 250 myths of gods and mortals linked by transformative change, from creation to Julius Caesar\u2019s deification.",
-      "historical_context": "Completed in 8\u202fCE, the Latin epic bridged Augustan Rome\u2019s literary golden age and influenced Western art for millennia."
+      "summary": "Ovid weaves 250 myths of gods and mortals linked by transformative change, from creation to Julius Caesar’s deification.",
+      "historical_context": "Completed in 8 CE, the Latin epic bridged Augustan Rome’s literary golden age and influenced Western art for millennia."
     },
     {
       "title": "A Good Man Is Hard to Find",
@@ -2022,8 +2022,8 @@
           -83.2229
         ]
       },
-      "summary": "In Flannery O\u2019Connor\u2019s title story and others, grotesque Southerners confront violent moments of grace and revelation.",
-      "historical_context": "Published in 1955, the collection blended Catholic theology with Jim Crow Georgia\u2019s moral contradictions."
+      "summary": "In Flannery O’Connor’s title story and others, grotesque Southerners confront violent moments of grace and revelation.",
+      "historical_context": "Published in 1955, the collection blended Catholic theology with Jim Crow Georgia’s moral contradictions."
     },
     {
       "title": "Winnie the Pooh",
@@ -2038,7 +2038,7 @@
         ]
       },
       "summary": "The gentle adventures of Pooh Bear and friends in Hundred Acre Wood celebrate imagination, friendship and childlike wonder.",
-      "historical_context": "Milne\u2019s 1926 classic, inspired by his son\u2019s toys, became a cornerstone of 20th\u2011century children\u2019s literature."
+      "historical_context": "Milne’s 1926 classic, inspired by his son’s toys, became a cornerstone of 20th‑century children’s literature."
     },
     {
       "title": "The Flowers of Evil",
@@ -2052,7 +2052,7 @@
           2.3522
         ]
       },
-      "summary": "Baudelaire\u2019s poems juxtapose beauty and decay, erotic desire and spiritual agony amid modern Parisian life.",
+      "summary": "Baudelaire’s poems juxtapose beauty and decay, erotic desire and spiritual agony amid modern Parisian life.",
       "historical_context": "First published in 1857 and censored for obscenity, it heralded French Symbolism and urban modernity."
     },
     {
@@ -2063,12 +2063,12 @@
       "location": {
         "name": "Brighton, England",
         "coordinates": [
-          51.5074,
-          -0.1278
+          50.8278,
+          -0.1395
         ]
       },
-      "summary": "Teenage gangster Pinkie Brown marries na\u00efve waitress Rose to silence her, while relentless Ida Arnold pursues justice along Brighton\u2019s seedy pier.",
-      "historical_context": "Greene\u2019s 1938 \u2018Catholic thriller\u2019 examined sin and damnation beneath seaside holiday culture before WWII."
+      "summary": "Teenage gangster Pinkie Brown marries naïve waitress Rose to silence her, while relentless Ida Arnold pursues justice along Brighton’s seedy pier.",
+      "historical_context": "Greene’s 1938 ‘Catholic thriller’ examined sin and damnation beneath seaside holiday culture before WWII."
     },
     {
       "title": "The Corrections",
@@ -2082,8 +2082,8 @@
           -89.0
         ]
       },
-      "summary": "Midwestern matriarch Enid Lambert schemes to reunite her adult children for one last Christmas, exposing familial dysfunction and late\u201190s anxieties.",
-      "historical_context": "Franzen\u2019s 2001 novel chronicled pre\u2011dot\u2011com\u2011crash America and won the National Book Award."
+      "summary": "Midwestern matriarch Enid Lambert schemes to reunite her adult children for one last Christmas, exposing familial dysfunction and late‑90s anxieties.",
+      "historical_context": "Franzen’s 2001 novel chronicled pre‑dot‑com‑crash America and won the National Book Award."
     },
     {
       "title": "On the Origin of Species",
@@ -2112,8 +2112,8 @@
           -119.4179
         ]
       },
-      "summary": "Itinerant ranch hands George and mentally limited Lennie chase a dream farm but face tragic consequences in Depression\u2011era California.",
-      "historical_context": "Steinbeck\u2019s 1937 novella highlighted migrant labor struggles during America\u2019s Dust Bowl years."
+      "summary": "Itinerant ranch hands George and mentally limited Lennie chase a dream farm but face tragic consequences in Depression‑era California.",
+      "historical_context": "Steinbeck’s 1937 novella highlighted migrant labor struggles during America’s Dust Bowl years."
     },
     {
       "title": "Fairy Tales and Stories",
@@ -2127,8 +2127,8 @@
           12.5683
         ]
       },
-      "summary": "Andersen\u2019s collection ranges from \u2018The Little Mermaid\u2019 to \u2018The Snow Queen,\u2019 blending whimsy with poignant moral lessons.",
-      "historical_context": "Written 1835\u201172, these Danish tales transcended folklore to craft modern literary fairy stories."
+      "summary": "Andersen’s collection ranges from ‘The Little Mermaid’ to ‘The Snow Queen,’ blending whimsy with poignant moral lessons.",
+      "historical_context": "Written 1835‑72, these Danish tales transcended folklore to craft modern literary fairy stories."
     },
     {
       "title": "A Wrinkle In Time",
@@ -2143,7 +2143,7 @@
         ]
       },
       "summary": "Meg Murry and companions traverse space-time via tesseract to rescue her scientist father.",
-      "historical_context": "L\u2019Engle\u2019s 1962 Newbery winner merged science fiction with spiritual themes amid early\u2011Cold\u2011War optimism."
+      "historical_context": "L’Engle’s 1962 Newbery winner merged science fiction with spiritual themes amid early‑Cold‑War optimism."
     },
     {
       "title": "The End of the Affair",
@@ -2157,8 +2157,8 @@
           -0.1278
         ]
       },
-      "summary": "During post\u2011Blitz London, novelist Maurice Bendrix obsessively investigates why his lover Sarah suddenly ended their adulterous affair.",
-      "historical_context": "Greene\u2019s 1951 novel explored faith, jealousy and wartime trauma in ration\u2011era Britain."
+      "summary": "During post‑Blitz London, novelist Maurice Bendrix obsessively investigates why his lover Sarah suddenly ended their adulterous affair.",
+      "historical_context": "Greene’s 1951 novel explored faith, jealousy and wartime trauma in ration‑era Britain."
     },
     {
       "title": "Molloy",
@@ -2173,7 +2173,7 @@
         ]
       },
       "summary": "In fragmented monologues, bedridden Molloy and detective Moran recount absurd quests, eroding narrative certainty and identity.",
-      "historical_context": "Beckett\u2019s 1951 French\u2011language novel inaugurated his existential trilogy during post\u2011war avant\u2011garde literature."
+      "historical_context": "Beckett’s 1951 French‑language novel inaugurated his existential trilogy during post‑war avant‑garde literature."
     },
     {
       "title": "The Remains of the Day",
@@ -2188,7 +2188,7 @@
         ]
       },
       "summary": "English butler Stevens recalls a lifetime of duty at Darlington Hall, confronting missed love and complicity with appeasement.",
-      "historical_context": "Ishiguro\u2019s 1989 Booker winner reflected Thatcher\u2011era reevaluations of Britain\u2019s fading imperial past."
+      "historical_context": "Ishiguro’s 1989 Booker winner reflected Thatcher‑era reevaluations of Britain’s fading imperial past."
     },
     {
       "title": "Portnoy's Complaint",
@@ -2203,7 +2203,7 @@
         ]
       },
       "summary": "Through psychoanalytic confession, Alexander Portnoy hilariously exposes sexual obsessions, guilt and Jewish family neuroses.",
-      "historical_context": "Roth\u2019s 1969 novel shocked American mores amid the sexual revolution and New York Jewish identity."
+      "historical_context": "Roth’s 1969 novel shocked American mores amid the sexual revolution and New York Jewish identity."
     },
     {
       "title": "An American Tragedy",
@@ -2218,11 +2218,11 @@
         ]
       },
       "summary": "Ambitious factory worker Clyde Griffiths seduces two women; when pregnancy threatens his rise, he plots murder on a lonely Adirondack lake, exposing class and justice in 1920s America.",
-      "historical_context": "Dreiser\u2019s 1925 naturalist novel, inspired by a 1906 murder case, critiqued the corrosive pursuit of the American Dream during the Jazz Age."
+      "historical_context": "Dreiser’s 1925 naturalist novel, inspired by a 1906 murder case, critiqued the corrosive pursuit of the American Dream during the Jazz Age."
     },
     {
       "title": "The Good Soldier Svejk",
-      "author": "Jaroslav Ha\u0161ek",
+      "author": "Jaroslav Hašek",
       "year": 1921,
       "century": 20,
       "location": {
@@ -2232,8 +2232,8 @@
           14.4378
         ]
       },
-      "summary": "Guileless Czech Josef \u0160vejk survives absurd orders and red\u2011tape while serving the Austro\u2011Hungarian army in World War\u202fI, poking fun at militarism.",
-      "historical_context": "Ha\u0161ek serialized the satire 1921\u201123 in newly formed Czechoslovakia, channeling anarchist and anti\u2011war sentiment."
+      "summary": "Guileless Czech Josef Švejk survives absurd orders and red‑tape while serving the Austro‑Hungarian army in World War I, poking fun at militarism.",
+      "historical_context": "Hašek serialized the satire 1921‑23 in newly formed Czechoslovakia, channeling anarchist and anti‑war sentiment."
     },
     {
       "title": "Watership Down",
@@ -2248,11 +2248,11 @@
         ]
       },
       "summary": "Led by Hazel and prophetic Fiver, a band of rabbits flee warren doom, founding a new colony after battles with predators and authoritarian Efrafa.",
-      "historical_context": "Adams\u2019s 1972 ecological epic blended animal fantasy with leadership allegory amid rising environmental awareness."
+      "historical_context": "Adams’s 1972 ecological epic blended animal fantasy with leadership allegory amid rising environmental awareness."
     },
     {
       "title": "The Counterfeiters",
-      "author": "Andr\u00e9 Gide",
+      "author": "André Gide",
       "year": 1925,
       "century": 20,
       "location": {
@@ -2262,8 +2262,8 @@
           2.3522
         ]
       },
-      "summary": "Intersecting Parisian youths and writers test boundaries of sexuality, art and truth while novelist \u00c9douard drafts a book mirroring their lives.",
-      "historical_context": "Gide\u2019s 1925 modernist opus pioneered metafiction and challenged bourgeois morality in interwar France."
+      "summary": "Intersecting Parisian youths and writers test boundaries of sexuality, art and truth while novelist Édouard drafts a book mirroring their lives.",
+      "historical_context": "Gide’s 1925 modernist opus pioneered metafiction and challenged bourgeois morality in interwar France."
     },
     {
       "title": "Atonement",
@@ -2277,12 +2277,12 @@
           -0.1278
         ]
       },
-      "summary": "Briony Tallis\u2019s false accusation in 1935 devastates lovers Cecilia and Robbie; decades later she seeks redemption through fiction.",
-      "historical_context": "McEwan\u2019s 2001 novel revisited WWII Britain and postmodern questions of narrative guilt and memory."
+      "summary": "Briony Tallis’s false accusation in 1935 devastates lovers Cecilia and Robbie; decades later she seeks redemption through fiction.",
+      "historical_context": "McEwan’s 2001 novel revisited WWII Britain and postmodern questions of narrative guilt and memory."
     },
     {
       "title": "Berlin Alexanderplatz",
-      "author": "Alfred D\u00f6blin",
+      "author": "Alfred Döblin",
       "year": 1929,
       "century": 20,
       "location": {
@@ -2292,8 +2292,8 @@
           13.405
         ]
       },
-      "summary": "Ex\u2011convict Franz Biberkopf vows honesty in Weimar Berlin\u2019s Alexanderplatz but is dragged back into crime and despair by underworld forces.",
-      "historical_context": "D\u00f6blin\u2019s 1929 montage captured urban fragmentation and social unrest on the eve of Nazi ascendancy."
+      "summary": "Ex‑convict Franz Biberkopf vows honesty in Weimar Berlin’s Alexanderplatz but is dragged back into crime and despair by underworld forces.",
+      "historical_context": "Döblin’s 1929 montage captured urban fragmentation and social unrest on the eve of Nazi ascendancy."
     },
     {
       "title": "My Antonia",
@@ -2307,8 +2307,8 @@
           -99.9018
         ]
       },
-      "summary": "Narrator Jim Burden recalls immigrant Antonia Shimerda\u2019s hardships and vitality on the Nebraska frontier, celebrating pioneer spirit.",
-      "historical_context": "Cather\u2019s 1918 novel reflected 1880s Plains settlement and shifting American agrarian ideals."
+      "summary": "Narrator Jim Burden recalls immigrant Antonia Shimerda’s hardships and vitality on the Nebraska frontier, celebrating pioneer spirit.",
+      "historical_context": "Cather’s 1918 novel reflected 1880s Plains settlement and shifting American agrarian ideals."
     },
     {
       "title": "Gargantua and Pantagruel",
@@ -2323,7 +2323,7 @@
         ]
       },
       "summary": "Giants Gargantua and Pantagruel embark on bawdy adventures that lampoon scholastic pedantry and clerical corruption with exuberant humanism.",
-      "historical_context": "Rabelais wrote the five books 1532\u201164 amid French Renaissance debates on learning and religious reform."
+      "historical_context": "Rabelais wrote the five books 1532‑64 amid French Renaissance debates on learning and religious reform."
     },
     {
       "title": "A House for Mr. Biswas",
@@ -2333,12 +2333,12 @@
       "location": {
         "name": "Fictional Location, Independence, Trinidad",
         "coordinates": [
-          51.5074,
-          -0.1278
+          10.6667,
+          -61.5189
         ]
       },
-      "summary": "In colonial Trinidad, hapless journalist Mohun Biswas struggles against his domineering in\u2011laws to buy a house and secure personal dignity.",
-      "historical_context": "Naipaul\u2019s 1961 novel portrayed Indo\u2011Caribbean identity and post\u2011colonial social mobility."
+      "summary": "In colonial Trinidad, hapless journalist Mohun Biswas struggles against his domineering in‑laws to buy a house and secure personal dignity.",
+      "historical_context": "Naipaul’s 1961 novel portrayed Indo‑Caribbean identity and post‑colonial social mobility."
     },
     {
       "title": "The Once and Future King",
@@ -2352,8 +2352,8 @@
           -0.1278
         ]
       },
-      "summary": "From young Wart\u2019s education by wizard Merlin to the downfall of Camelot, White retells Arthurian legend with humor, psychology and pacifism.",
-      "historical_context": "Published 1938\u201158, the quartet reflected WWII experiences, questioning power and human nature through myth."
+      "summary": "From young Wart’s education by wizard Merlin to the downfall of Camelot, White retells Arthurian legend with humor, psychology and pacifism.",
+      "historical_context": "Published 1938‑58, the quartet reflected WWII experiences, questioning power and human nature through myth."
     },
     {
       "title": "U.S.A. Trilogy",
@@ -2438,11 +2438,11 @@
       "location": {
         "name": "France, Riviera",
         "coordinates": [
-          48.8566,
-          2.3522
+          43.214,
+          5.54
         ]
       },
-      "summary": "Teenage C\u00e9cile manipulates her father's love life with tragic consequences on French Riviera.",
+      "summary": "Teenage Cécile manipulates her father's love life with tragic consequences on French Riviera.",
       "historical_context": "Published 1954, 18-year-old Sagan's scandalous debut defined youth rebellion."
     },
     {
@@ -2483,8 +2483,8 @@
       "location": {
         "name": "Canada, Prince Edward Island",
         "coordinates": [
-          56.1304,
-          -106.3468
+          46.487754,
+          -63.382053
         ]
       },
       "summary": "Imaginative orphan Anne Shirley transforms lives at Green Gables farm with spirit and determination.",
@@ -2558,8 +2558,8 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          40.7128,
-          -74.006
+          45.5152,
+          -122.6784
         ]
       },
       "summary": "Young wizard Ged must confront shadow he unleashed to restore world's balance.",
@@ -2573,8 +2573,8 @@
       "location": {
         "name": "Fictional Location, New England",
         "coordinates": [
-          40.7128,
-          -74.006
+          42.9248,
+          -73.2367
         ]
       },
       "summary": "Four people investigate haunted mansion where house itself preys on Eleanor's psyche.",
@@ -2663,8 +2663,8 @@
       "location": {
         "name": "Norway, Oslo",
         "coordinates": [
-          60.472,
-          8.4689
+          59.9127,
+          10.7461
         ]
       },
       "summary": "Starving writer in Oslo descends into delirious hallucinations while maintaining fierce pride.",
@@ -2753,8 +2753,8 @@
       "location": {
         "name": "Bouville, France",
         "coordinates": [
-          48.8566,
-          2.3522
+          49.4938,
+          0.1078
         ]
       },
       "summary": "Roquentin's diary chronicles existential crisis and physical revulsion at existence itself.",
@@ -2772,7 +2772,7 @@
           -0.1278
         ]
       },
-      "summary": "Governess at Bly Manor sees ghosts threatening children\u2014or descends into madness.",
+      "summary": "Governess at Bly Manor sees ghosts threatening children—or descends into madness.",
       "historical_context": "Published 1898, ambiguous ghost story epitomizes psychological horror."
     },
     {
@@ -2792,17 +2792,17 @@
     },
     {
       "title": "2666",
-      "author": "Roberto Bola\u00f1o",
+      "author": "Roberto Bolaño",
       "year": 2004,
       "century": 21,
       "location": {
         "name": "Mexico, Santa Teresa",
         "coordinates": [
-          19.4326,
-          -99.1332
+          31.7386,
+          -106.487
         ]
       },
-      "summary": "Five interconnected parts spiral around Ciudad Ju\u00e1rez femicides, reclusive writer, and apocalyptic evil.",
+      "summary": "Five interconnected parts spiral around Ciudad Juárez femicides, reclusive writer, and apocalyptic evil.",
       "historical_context": "2004 posthumous magnum opus, 900 pages confronting violence at millennium's edge."
     },
     {
@@ -3072,7 +3072,7 @@
           37.6173
         ]
       },
-      "summary": "Expos\u00e9 of Soviet forced labor camps based on testimonies and author's imprisonment.",
+      "summary": "Exposé of Soviet forced labor camps based on testimonies and author's imprisonment.",
       "historical_context": "Published 1973 in West, exposed Soviet atrocities, earned Nobel Prize."
     },
     {
@@ -3233,8 +3233,8 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          40.7128,
-          -74.006
+          40.3825,
+          -105.5192
         ]
       },
       "summary": "Jack Torrance's winter caretaking at Overlook Hotel spirals into supernatural madness.",
@@ -3372,7 +3372,7 @@
           13.405
         ]
       },
-      "summary": "Prophet Zarathustra descends from mountain to teach \u00dcbermensch and God's death.",
+      "summary": "Prophet Zarathustra descends from mountain to teach Übermensch and God's death.",
       "historical_context": "Published 1883-85, Nietzsche's philosophical novel introduced key concepts."
     },
     {
@@ -3593,11 +3593,11 @@
       "location": {
         "name": "Brazil, Rio de Janeiro",
         "coordinates": [
-          -14.235,
-          -51.9253
+          -22.9028,
+          -43.2075
         ]
       },
-      "summary": "Dead narrator Br\u00e1s Cubas recounts his privileged but empty life in slave-era Rio.",
+      "summary": "Dead narrator Brás Cubas recounts his privileged but empty life in slave-era Rio.",
       "historical_context": "1881 proto-modernist novel, Brazil's last decade of slavery before 1888 abolition."
     },
     {
@@ -3857,7 +3857,7 @@
     },
     {
       "title": "Father Goriot",
-      "author": "Honor\u00e9 de Balzac",
+      "author": "Honoré de Balzac",
       "year": 1835,
       "century": 19,
       "location": {
@@ -4073,8 +4073,8 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          40.7128,
-          -74.006
+          42.35,
+          -71.15
         ]
       },
       "summary": "Tennis prodigy and recovering addicts navigate entertainment addiction in dystopian North America.",
@@ -4088,8 +4088,8 @@
       "location": {
         "name": "Barcelona, Spain",
         "coordinates": [
-          40.4168,
-          -3.7038
+          41.387,
+          2.1707
         ]
       },
       "summary": "Orwell's firsthand account of fighting for Republicans in Spanish Civil War and communist infighting.",
@@ -4261,7 +4261,7 @@
       "historical_context": "2005 Pulitzer winner reviving serious religious fiction in contemporary America."
     },
     {
-      "title": "The Confusions of Young T\u00f6rless",
+      "title": "The Confusions of Young Törless",
       "author": "Robert Musil",
       "year": 1906,
       "century": 20,
@@ -4272,19 +4272,19 @@
           16.3738
         ]
       },
-      "summary": "Cadet T\u00f6rless witnesses sadistic bullying at military school, exploring moral confusion and awakening.",
+      "summary": "Cadet Törless witnesses sadistic bullying at military school, exploring moral confusion and awakening.",
       "historical_context": "1906 debut novel prefiguring fascism's psychology in Austrian military education."
     },
     {
       "title": "La Regenta",
-      "author": "Clar\u00edn",
+      "author": "Clarín",
       "year": 1884,
       "century": 19,
       "location": {
         "name": "Spain, Vetusta",
         "coordinates": [
-          40.4168,
-          -3.7038
+          43.3603,
+          -5.8448
         ]
       },
       "summary": "Ana Ozores torn between priest confessor and local Don Juan in provincial Spanish city's stifling society.",
@@ -4313,8 +4313,8 @@
       "location": {
         "name": "Fictional Location, Massachusetts, United States",
         "coordinates": [
-          40.7128,
-          -74.006
+          42.3601,
+          -71.0589
         ]
       },
       "summary": "Professor Coleman Silk's secret: he's light-skinned Black passing as Jewish, destroyed by false racism charge.",
@@ -4382,7 +4382,7 @@
     },
     {
       "title": "The Savage Detectives",
-      "author": "Roberto Bola\u00f1o",
+      "author": "Roberto Bolaño",
       "year": 1998,
       "century": 20,
       "location": {
@@ -4393,7 +4393,7 @@
         ]
       },
       "summary": "Young poets search for vanished 1920s poetess while founding visceral realist movement across continents.",
-      "historical_context": "1998 breakthrough chronicling lost generation Latin American writers, Bola\u00f1o's masterwork."
+      "historical_context": "1998 breakthrough chronicling lost generation Latin American writers, Bolaño's masterwork."
     },
     {
       "title": "Speak, Memory",
@@ -4568,8 +4568,8 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          40.7128,
-          -74.006
+          41.8781,
+          -87.6298
         ]
       },
       "summary": "Orphaned baby raised by apes in African jungle becomes Lord Greystoke, chooses between worlds.",
@@ -4583,8 +4583,8 @@
       "location": {
         "name": "Money, United Kingdom",
         "coordinates": [
-          51.5074,
-          -0.1278
+          52.2053,
+          0.1192
         ]
       },
       "summary": "Revolutionary economic theory advocating government intervention to prevent depressions.",
@@ -4643,8 +4643,8 @@
       "location": {
         "name": "Fingerbone, United States",
         "coordinates": [
-          47.6062,
-          -117.426
+          48.2766,
+          -116.5533
         ]
       },
       "summary": "Sisters Ruth and Lucille cope with loss under eccentric aunt Sylvie's transient care in Idaho.",
@@ -4757,17 +4757,17 @@
     },
     {
       "title": "Germinal",
-      "author": "\u00c9mile Zola",
+      "author": "Émile Zola",
       "year": 1885,
       "century": 19,
       "location": {
         "name": "France, Nord-Pas-de-Calais",
         "coordinates": [
-          48.8566,
-          2.3522
+          50.4,
+          3.5
         ]
       },
-      "summary": "\u00c9tienne Lantier leads starving coal miners' strike against brutal conditions, ending in tragic violence.",
+      "summary": "Étienne Lantier leads starving coal miners' strike against brutal conditions, ending in tragic violence.",
       "historical_context": "1885 naturalist masterpiece exposing French mining conditions, inspired labor movements."
     },
     {
@@ -4793,8 +4793,8 @@
       "location": {
         "name": "Iran, Tehran",
         "coordinates": [
-          48.8566,
-          2.3522
+          35.6944,
+          51.4215
         ]
       },
       "summary": "Satrapi's graphic memoir of girlhood during Iranian Revolution, exile in Vienna, and return home.",
@@ -5072,7 +5072,7 @@
     },
     {
       "title": "Memoirs From Beyond the Grave",
-      "author": "Fran\u00e7ois-Auguste-Ren\u00e9 de Chateaubriand",
+      "author": "François-Auguste-René de Chateaubriand",
       "year": 1849,
       "century": 19,
       "location": {
@@ -5162,7 +5162,7 @@
     },
     {
       "title": "The Human Comedy",
-      "author": "Honor\u00e9 de Balzac",
+      "author": "Honoré de Balzac",
       "year": 1830,
       "century": 19,
       "location": {
@@ -5322,7 +5322,7 @@
           13.405
         ]
       },
-      "summary": "Einstein explains special and general relativity: space-time curves, E=mc\u00b2, revolutionizing physics.",
+      "summary": "Einstein explains special and general relativity: space-time curves, E=mc², revolutionizing physics.",
       "historical_context": "1916 popular exposition transforming understanding of universe, time, and gravity."
     },
     {
@@ -5333,8 +5333,8 @@
       "location": {
         "name": "Fictional Location",
         "coordinates": [
-          40.7128,
-          -74.006
+          37.7749,
+          -122.4194
         ]
       },
       "summary": "Bounty hunter Rick Deckard hunts escaped androids in post-nuclear San Francisco, questioning humanity.",
@@ -5498,8 +5498,8 @@
       "location": {
         "name": "Colorado, New York, United States",
         "coordinates": [
-          40.7128,
-          -74.006
+          39.7392,
+          -104.9903
         ]
       },
       "summary": "Society's producers go on strike as Dagny Taggart asks 'Who is John Galt?'",
@@ -5813,8 +5813,8 @@
       "location": {
         "name": "France, Great Britain, United Kingdom",
         "coordinates": [
-          48.8566,
-          2.3522
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "James Bond's first mission: bankrupt Le Chiffre at baccarat while falling for double agent Vesper.",
@@ -5852,14 +5852,14 @@
     },
     {
       "title": "The Immoralist",
-      "author": "Andr\u00e9 Gide",
+      "author": "André Gide",
       "year": 1902,
       "century": 20,
       "location": {
         "name": "Algeria, France",
         "coordinates": [
-          28.0339,
-          1.6596
+          34.85,
+          5.73
         ]
       },
       "summary": "Michel's recovery from tuberculosis awakens hedonistic desires, destroying his marriage to Marceline.",
@@ -5896,7 +5896,7 @@
       "historical_context": "Morrison's 1970 debut explored internalized racism and beauty standards."
     },
     {
-      "title": "Bouvard et P\u00e9cuchet",
+      "title": "Bouvard et Pécuchet",
       "author": "Gustave Flaubert",
       "year": 1881,
       "century": 19,
@@ -5926,7 +5926,7 @@
       "historical_context": "1980 allegory of apartheid and colonialism, moral awakening under oppression."
     },
     {
-      "title": "Pens\u00e9es",
+      "title": "Pensées",
       "author": "Blaise Pascal",
       "year": 1670,
       "century": 17,
@@ -6317,7 +6317,7 @@
     },
     {
       "title": "Fortunata and Jacinta",
-      "author": "Benito P\u00e9rez Gald\u00f3s",
+      "author": "Benito Pérez Galdós",
       "year": 1887,
       "century": 19,
       "location": {
@@ -6392,7 +6392,7 @@
     },
     {
       "title": "Poet in New York",
-      "author": "Federico Garc\u00eda Lorca",
+      "author": "Federico García Lorca",
       "year": 1940,
       "century": 20,
       "location": {
@@ -6467,7 +6467,7 @@
     },
     {
       "title": "Lost Illusions",
-      "author": "Honor\u00e9 de Balzac",
+      "author": "Honoré de Balzac",
       "year": 1837,
       "century": 19,
       "location": {
@@ -6688,7 +6688,7 @@
         ]
       },
       "summary": "Alex and his droogs terrorize a dystopian Britain; after state brainwashing, he grapples with free will and ultraviolence.",
-      "historical_context": "Published in 1962, Burgess's novella critiqued youth violence and state control in post\u2011war Britain."
+      "historical_context": "Published in 1962, Burgess's novella critiqued youth violence and state control in post‑war Britain."
     },
     {
       "title": "A Farewell to Arms",
@@ -6732,7 +6732,7 @@
           -89.5186
         ]
       },
-      "summary": "Narrators piece together ruthless Thomas Sutpen's quest to found a dynasty\u2014and the South's haunting sins.",
+      "summary": "Narrators piece together ruthless Thomas Sutpen's quest to found a dynasty—and the South's haunting sins.",
       "historical_context": "Published in 1936, William Faulkner's work engages with the concerns of yoknapatawpha county, mississippi."
     },
     {
@@ -6758,8 +6758,8 @@
       "location": {
         "name": "Wonderland (Fictional)",
         "coordinates": [
-          0.0,
-          0.0
+          51.752,
+          -1.2577
         ]
       },
       "summary": "Young Alice tumbles down a rabbit hole into absurd logic games with Cheshire cats, mad hatters and queens.",
@@ -6773,11 +6773,11 @@
       "location": {
         "name": "Western Front, France",
         "coordinates": [
-          0.0,
-          0.0
+          49.4,
+          3.5
         ]
       },
-      "summary": "German recruit Paul B\u00e4umer endures trench warfare, losing his youth to pointless carnage.",
+      "summary": "German recruit Paul Bäumer endures trench warfare, losing his youth to pointless carnage.",
       "historical_context": "Published in 1929, Erich Maria Remarque's work engages with the concerns of western front, france."
     },
     {
@@ -6788,12 +6788,12 @@
       "location": {
         "name": "Thebes, Ancient Greece",
         "coordinates": [
-          0.0,
-          0.0
+          38.3236,
+          23.0489
         ]
       },
       "summary": "Defying King Creon, Antigone buries her brother and accepts death, pitting divine law against state power.",
-      "historical_context": "Published in 441\u202fBCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
+      "historical_context": "Published in 441 BCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
     },
     {
       "title": "As I Lay Dying",
@@ -6803,11 +6803,11 @@
       "location": {
         "name": "Yoknapatawpha County, Mississippi",
         "coordinates": [
-          0.0,
-          0.0
+          34.3665,
+          -89.5192
         ]
       },
-      "summary": "The Bundren family's comic\u2011tragic odyssey to bury matriarch Addie reveals fractured interior monologues.",
+      "summary": "The Bundren family's comic‑tragic odyssey to bury matriarch Addie reveals fractured interior monologues.",
       "historical_context": "Published in 1930, William Faulkner's work engages with the concerns of yoknapatawpha county, mississippi."
     },
     {
@@ -6818,11 +6818,11 @@
       "location": {
         "name": "London, England",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
-      "summary": "Dickens links a never\u2011ending lawsuit to social ills, murder and romance in foggy Victorian London.",
+      "summary": "Dickens links a never‑ending lawsuit to social ills, murder and romance in foggy Victorian London.",
       "historical_context": "Published in 1853, Charles Dickens's work engages with the concerns of london, england."
     },
     {
@@ -6833,8 +6833,8 @@
       "location": {
         "name": "Oxford & Brideshead Estate, England",
         "coordinates": [
-          0.0,
-          0.0
+          51.754,
+          -1.2545
         ]
       },
       "summary": "Charles Ryder recalls Oxford friendship with aristocratic Sebastian Flyte and the fading Catholic Marchmains.",
@@ -6846,14 +6846,14 @@
       "year": 1901,
       "century": 20,
       "location": {
-        "name": "L\u00fcbeck, Germany",
+        "name": "Lübeck, Germany",
         "coordinates": [
-          0.0,
-          0.0
+          53.8683,
+          10.6858
         ]
       },
-      "summary": "Four L\u00fcbeck generations rise in commerce then decline as modernity erodes bourgeois values.",
-      "historical_context": "Published in 1901, Thomas Mann's work engages with the concerns of l\u00fcbeck, germany."
+      "summary": "Four Lübeck generations rise in commerce then decline as modernity erodes bourgeois values.",
+      "historical_context": "Published in 1901, Thomas Mann's work engages with the concerns of lübeck, germany."
     },
     {
       "title": "Charlotte's Web",
@@ -6863,8 +6863,8 @@
       "location": {
         "name": "Rural Maine, USA",
         "coordinates": [
-          0.0,
-          0.0
+          44.3,
+          -68.5
         ]
       },
       "summary": "Spider Charlotte writes words in her web to save pig Wilbur, celebrating friendship and sacrifice.",
@@ -6878,8 +6878,8 @@
       "location": {
         "name": "Provincial Russia",
         "coordinates": [
-          0.0,
-          0.0
+          55.7558,
+          37.6173
         ]
       },
       "summary": "Revolutionary agitators ignite violence in a provincial Russian town, satirizing nihilist politics.",
@@ -6893,11 +6893,11 @@
       "location": {
         "name": "Germany",
         "coordinates": [
-          0.0,
-          0.0
+          52.52,
+          13.405
         ]
       },
-      "summary": "Composer Adrian Leverk\u00fchn trades his soul for artistic genius, mirroring Germany's descent into fascism.",
+      "summary": "Composer Adrian Leverkühn trades his soul for artistic genius, mirroring Germany's descent into fascism.",
       "historical_context": "Published in 1947, Thomas Mann's work engages with the concerns of germany."
     },
     {
@@ -6908,11 +6908,11 @@
       "location": {
         "name": "Russia",
         "coordinates": [
-          0.0,
-          0.0
+          55.7558,
+          37.6173
         ]
       },
-      "summary": "Physician\u2011poet Yuri Zhivago's loves unfold amid Russian Revolution upheaval and civil war.",
+      "summary": "Physician‑poet Yuri Zhivago's loves unfold amid Russian Revolution upheaval and civil war.",
       "historical_context": "Published in 1957, Boris Pasternak's work engages with the concerns of russia."
     },
     {
@@ -6923,8 +6923,8 @@
       "location": {
         "name": "Missouri, USA",
         "coordinates": [
-          0.0,
-          0.0
+          38.5767,
+          -92.1735
         ]
       },
       "summary": "Nick and Amy Dunne's toxic marriage unravels after her staged disappearance, twisting media narratives.",
@@ -6938,8 +6938,8 @@
       "location": {
         "name": "Congo River, Africa",
         "coordinates": [
-          0.0,
-          0.0
+          -4.3224,
+          15.307
         ]
       },
       "summary": "Marlow recounts his journey up the Congo River to find ivory trader Kurtz, who has descended into madness and brutality, exposing the horror and hypocrisy of European colonialism in Africa.",
@@ -6953,8 +6953,8 @@
       "location": {
         "name": "Auschwitz, Poland",
         "coordinates": [
-          0.0,
-          0.0
+          50.0266,
+          19.2036
         ]
       },
       "summary": "Primo Levi recounts survival in Auschwitz, observing humanity amid systematic dehumanization.",
@@ -6968,8 +6968,8 @@
       "location": {
         "name": "Kansas, USA",
         "coordinates": [
-          0.0,
-          0.0
+          37.9837,
+          -100.985
         ]
       },
       "summary": "Capote reconstructs the brutal Clutter family murders and captures the killers before execution.",
@@ -6983,8 +6983,8 @@
       "location": {
         "name": "Ancient Britain",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Aging King Lear divides his kingdom between his daughters based on public declarations of love, banishing faithful Cordelia and setting in motion a tragic tale of family betrayal, madness, and death.",
@@ -6998,8 +6998,8 @@
       "location": {
         "name": "England",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Connie Chatterley finds passion with gamekeeper Mellors, challenging class and sexual repression.",
@@ -7013,8 +7013,8 @@
       "location": {
         "name": "Pacific Ocean",
         "coordinates": [
-          0.0,
-          0.0
+          43.65,
+          -79.38
         ]
       },
       "summary": "Teen Pi Patel survives 227 days on a lifeboat with a Bengal tiger, questioning faith and story.",
@@ -7028,8 +7028,8 @@
       "location": {
         "name": "Scotland",
         "coordinates": [
-          0.0,
-          0.0
+          57.4778,
+          -4.2247
         ]
       },
       "summary": "Scottish general Macbeth murders King Duncan after hearing witches' prophecies about becoming king, but guilt and paranoia drive him and Lady Macbeth to madness and destruction.",
@@ -7043,8 +7043,8 @@
       "location": {
         "name": "Roman Empire",
         "coordinates": [
-          0.0,
-          0.0
+          41.9028,
+          12.4964
         ]
       },
       "summary": "Emperor Hadrian reflects on power, love and mortality in a fictional letter to Marcus Aurelius.",
@@ -7058,8 +7058,8 @@
       "location": {
         "name": "India",
         "coordinates": [
-          0.0,
-          0.0
+          19.0728,
+          72.8826
         ]
       },
       "summary": "Saleem Sinai, born at India's partition, narrates telepathic links with children sharing the midnight hour.",
@@ -7067,18 +7067,18 @@
     },
     {
       "title": "Nana",
-      "author": "\u00c9mile Zola",
+      "author": "Émile Zola",
       "year": 1880,
       "century": 19,
       "location": {
         "name": "Paris, France",
         "coordinates": [
-          0.0,
-          0.0
+          48.8566,
+          2.3522
         ]
       },
       "summary": "Courtesan Nana rises in Parisian society, her sexual power exposing Second Empire decadence.",
-      "historical_context": "Published in 1880, \u00c9mile Zola's work engages with the concerns of paris, france."
+      "historical_context": "Published in 1880, Émile Zola's work engages with the concerns of paris, france."
     },
     {
       "title": "North and South",
@@ -7088,11 +7088,11 @@
       "location": {
         "name": "Milton (Fictional), England",
         "coordinates": [
-          0.0,
-          0.0
+          53.4839,
+          -2.2446
         ]
       },
-      "summary": "Margaret Hale confronts industrial North England's grim factories and slow\u2011burn romance with mill owner Thornton.",
+      "summary": "Margaret Hale confronts industrial North England's grim factories and slow‑burn romance with mill owner Thornton.",
       "historical_context": "Published in 1855, Elizabeth Gaskell's work engages with the concerns of milton (fictional), england."
     },
     {
@@ -7103,12 +7103,12 @@
       "location": {
         "name": "Thebes, Ancient Greece",
         "coordinates": [
-          0.0,
-          0.0
+          38.3236,
+          23.0489
         ]
       },
       "summary": "King Oedipus discovers he has fulfilled a prophecy by killing his father and marrying his mother.",
-      "historical_context": "Published in 429\u202fBCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
+      "historical_context": "Published in 429 BCE era, Sophocles's work engages with the concerns of thebes, ancient greece."
     },
     {
       "title": "One Day in the Life of Ivan Denisovich",
@@ -7118,8 +7118,8 @@
       "location": {
         "name": "Gulag, Soviet Union",
         "coordinates": [
-          0.0,
-          0.0
+          51.7237,
+          75.3229
         ]
       },
       "summary": "Shukhov endures a single freezing day in a Soviet labor camp, finding dignity in small victories.",
@@ -7133,8 +7133,8 @@
       "location": {
         "name": "Baghdad & Arabian locales",
         "coordinates": [
-          0.0,
-          0.0
+          33.3128,
+          44.3615
         ]
       },
       "summary": "Scheherazade spins nightly tales of Aladdin, Sinbad and more to postpone execution and enchant a king.",
@@ -7148,8 +7148,8 @@
       "location": {
         "name": "England & Constantinople",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Nobleman Orlando mysteriously changes sex and lives for centuries, exploring gender and history.",
@@ -7163,11 +7163,11 @@
       "location": {
         "name": "New Wye (Fictional), USA",
         "coordinates": [
-          0.0,
-          0.0
+          40.0,
+          -80.0
         ]
       },
-      "summary": "Commentary by exiled king Charles Kinbote hijacks poet John Shade's 999\u2011line poem in metafictional intrigue.",
+      "summary": "Commentary by exiled king Charles Kinbote hijacks poet John Shade's 999‑line poem in metafictional intrigue.",
       "historical_context": "Published in 1962, Vladimir Nabokov's work engages with the concerns of new wye (fictional), usa."
     },
     {
@@ -7178,8 +7178,8 @@
       "location": {
         "name": "Amherst, Massachusetts",
         "coordinates": [
-          0.0,
-          0.0
+          42.3754,
+          -72.5193
         ]
       },
       "summary": "Dickinson's spare verse probes death, nature and inner life from her Amherst seclusion.",
@@ -7193,8 +7193,8 @@
       "location": {
         "name": "United States",
         "coordinates": [
-          0.0,
-          0.0
+          42.3546,
+          -71.0535
         ]
       },
       "summary": "Carson exposes DDT's ecological damage, launching the modern environmental movement.",
@@ -7208,8 +7208,8 @@
       "location": {
         "name": "Nottinghamshire, England",
         "coordinates": [
-          0.0,
-          0.0
+          53.0,
+          -1.15
         ]
       },
       "summary": "Paul Morel struggles between his possessive mother and passionate loves in England's coal country.",
@@ -7223,8 +7223,8 @@
       "location": {
         "name": "New York City",
         "coordinates": [
-          0.0,
-          0.0
+          40.7128,
+          -74.006
         ]
       },
       "summary": "New York lawyer Newland Archer yearns for unconventional Countess Olenska against Gilded Age mores.",
@@ -7238,11 +7238,11 @@
       "location": {
         "name": "Los Angeles, USA",
         "coordinates": [
-          0.0,
-          0.0
+          34.0522,
+          -118.2437
         ]
       },
-      "summary": "Private eye Philip Marlowe uncovers corruption and murder in sun\u2011baked Los Angeles.",
+      "summary": "Private eye Philip Marlowe uncovers corruption and murder in sun‑baked Los Angeles.",
       "historical_context": "Published in 1939, Raymond Chandler's work engages with the concerns of los angeles, usa."
     },
     {
@@ -7253,8 +7253,8 @@
       "location": {
         "name": "Unnamed Village, Europe",
         "coordinates": [
-          0.0,
-          0.0
+          50.0755,
+          14.4378
         ]
       },
       "summary": "Surveyor K endlessly seeks access to a mysterious bureaucracy that thwarts meaning.",
@@ -7268,8 +7268,8 @@
       "location": {
         "name": "Parma, Italy",
         "coordinates": [
-          0.0,
-          0.0
+          44.8015,
+          10.328
         ]
       },
       "summary": "Impetuous Fabrice del Dongo pursues glory and love amid Napoleonic wars and Italian court intrigue.",
@@ -7281,10 +7281,10 @@
       "year": 1849,
       "century": 19,
       "location": {
-        "name": "Various Settings",
+        "name": "Baltimore, Maryland",
         "coordinates": [
-          0.0,
-          0.0
+          39.2904,
+          -76.6122
         ]
       },
       "summary": "Poe's macabre stories and lyric poetry explore madness, mystery and the uncanny.",
@@ -7298,11 +7298,11 @@
       "location": {
         "name": "France & Mediterranean",
         "coordinates": [
-          0.0,
-          0.0
+          48.8566,
+          2.3522
         ]
       },
-      "summary": "Wrongfully jailed sailor Edmond Dant\u00e8s escapes, finds treasure, and enacts elaborate revenge.",
+      "summary": "Wrongfully jailed sailor Edmond Dantès escapes, finds treasure, and enacts elaborate revenge.",
       "historical_context": "Published in 1844, Alexandre Dumas's work engages with the concerns of france & mediterranean."
     },
     {
@@ -7313,8 +7313,8 @@
       "location": {
         "name": "Europe",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Unreliable narrator John Dowell dissects adulterous friendships and moral decay before WWI.",
@@ -7328,8 +7328,8 @@
       "location": {
         "name": "Oklahoma & California",
         "coordinates": [
-          0.0,
-          0.0
+          36.7783,
+          -119.4179
         ]
       },
       "summary": "The Joad family migrates west after Dust Bowl ruin, confronting exploitation and solidarity.",
@@ -7343,11 +7343,11 @@
       "location": {
         "name": "Sierra Leone",
         "coordinates": [
-          0.0,
-          0.0
+          8.4657,
+          -13.2317
         ]
       },
-      "summary": "Scobie, a guilt\u2011ridden colonial officer, wrestles with adultery, faith and duty in wartime Sierra Leone.",
+      "summary": "Scobie, a guilt‑ridden colonial officer, wrestles with adultery, faith and duty in wartime Sierra Leone.",
       "historical_context": "Published in 1948, Graham Greene's work engages with the concerns of sierra leone."
     },
     {
@@ -7358,11 +7358,11 @@
       "location": {
         "name": "San Francisco, USA",
         "coordinates": [
-          0.0,
-          0.0
+          37.7749,
+          -122.4194
         ]
       },
-      "summary": "Detective Sam Spade hunts a jewel\u2011encrusted statuette amid betrayal and femme fatale twists.",
+      "summary": "Detective Sam Spade hunts a jewel‑encrusted statuette amid betrayal and femme fatale twists.",
       "historical_context": "Published in 1929, Dashiell Hammett's work engages with the concerns of san francisco, usa."
     },
     {
@@ -7373,8 +7373,8 @@
       "location": {
         "name": "Italian Monastery",
         "coordinates": [
-          0.0,
-          0.0
+          45.0,
+          12.0
         ]
       },
       "summary": "Franciscan sleuth William investigates monastery murders linked to a heretical book in 1327 Italy.",
@@ -7388,8 +7388,8 @@
       "location": {
         "name": "London, England",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Young Dorian Gray remains beautiful while his portrait ages and reflects his moral corruption, as he pursues a life of hedonistic pleasure under the influence of the decadent Lord Henry Wotton.",
@@ -7403,8 +7403,8 @@
       "location": {
         "name": "England & Italy",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Isabel Archer's quest for freedom leads to a stifling marriage in European high society.",
@@ -7418,8 +7418,8 @@
       "location": {
         "name": "Boston, Massachusetts",
         "coordinates": [
-          0.0,
-          0.0
+          42.3601,
+          -71.0589
         ]
       },
       "summary": "Hester Prynne bears an illegitimate child and a badge of shame in Puritan Boston.",
@@ -7433,11 +7433,11 @@
       "location": {
         "name": "France",
         "coordinates": [
-          0.0,
-          0.0
+          48.8566,
+          2.3522
         ]
       },
-      "summary": "De Beauvoir analyses women\u2019s oppression and constructs of femininity across history.",
+      "summary": "De Beauvoir analyses women’s oppression and constructs of femininity across history.",
       "historical_context": "Published in 1949, Simone de Beauvoir's work engages with the concerns of france."
     },
     {
@@ -7448,8 +7448,8 @@
       "location": {
         "name": "Russia",
         "coordinates": [
-          0.0,
-          0.0
+          55.7558,
+          37.6173
         ]
       },
       "summary": "Chekhov's short fiction captures quotidian Russian life, irony and human longing.",
@@ -7463,11 +7463,11 @@
       "location": {
         "name": "Paris & Pamplona",
         "coordinates": [
-          0.0,
-          0.0
+          48.8566,
+          2.3522
         ]
       },
-      "summary": "Lost Generation expats seek meaning in Paris caf\u00e9s and Pamplona bullfights.",
+      "summary": "Lost Generation expats seek meaning in Paris cafés and Pamplona bullfights.",
       "historical_context": "Published in 1926, Ernest Hemingway's work engages with the concerns of paris & pamplona."
     },
     {
@@ -7478,8 +7478,8 @@
       "location": {
         "name": "Italy",
         "coordinates": [
-          0.0,
-          0.0
+          40.8518,
+          14.2681
         ]
       },
       "summary": "Charming Tom Ripley impersonates and murders to attain wealth and identity in Italy.",
@@ -7493,8 +7493,8 @@
       "location": {
         "name": "Prague, Czech Republic",
         "coordinates": [
-          0.0,
-          0.0
+          50.0755,
+          14.4378
         ]
       },
       "summary": "Lovers navigate politics and desire amid 1968 Prague Spring, pondering eternal return.",
@@ -7508,11 +7508,11 @@
       "location": {
         "name": "Europe",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
-      "summary": "Eliot's fragmented poem portrays post\u2011WWI spiritual desolation through mythic collage.",
+      "summary": "Eliot's fragmented poem portrays post‑WWI spiritual desolation through mythic collage.",
       "historical_context": "Published in 1922, T.S. Eliot's work engages with the concerns of europe."
     },
     {
@@ -7523,8 +7523,8 @@
       "location": {
         "name": "English Countryside",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Mole, Rat, Toad and Badger revel in riverside escapades and the perils of Toad Hall.",
@@ -7538,8 +7538,8 @@
       "location": {
         "name": "England",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
       "summary": "Walter Hartright aids heiress Laura Fairlie against deceitful Sir Percival and Count Fosco.",
@@ -7553,11 +7553,11 @@
       "location": {
         "name": "England",
         "coordinates": [
-          0.0,
-          0.0
+          51.5074,
+          -0.1278
         ]
       },
-      "summary": "Foundling Tom's picaresque adventures and misadventures reveal 18th\u2011century English society.",
+      "summary": "Foundling Tom's picaresque adventures and misadventures reveal 18th‑century English society.",
       "historical_context": "Published in 1749, Henry Fielding's work engages with the concerns of england."
     },
     {
@@ -7568,11 +7568,11 @@
       "location": {
         "name": "Cuernavaca, Mexico",
         "coordinates": [
-          0.0,
-          0.0
+          18.9261,
+          -99.2319
         ]
       },
-      "summary": "Alcoholic ex\u2011consul Geoffrey Firmin spirals through Day of the Dead in 1930s Mexico.",
+      "summary": "Alcoholic ex‑consul Geoffrey Firmin spirals through Day of the Dead in 1930s Mexico.",
       "historical_context": "Published in 1947, Malcolm Lowry's work engages with the concerns of cuernavaca, mexico."
     },
     {
@@ -7583,8 +7583,8 @@
       "location": {
         "name": "Jamaica",
         "coordinates": [
-          0.0,
-          0.0
+          18.1096,
+          -77.2975
         ]
       },
       "summary": "Rhys gives voice to Bertha Mason, tracing Creole heiress Antoinette's path to Jane Eyre's attic.",
