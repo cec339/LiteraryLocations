@@ -7589,6 +7589,276 @@
       },
       "summary": "Rhys gives voice to Bertha Mason, tracing Creole heiress Antoinette's path to Jane Eyre's attic.",
       "historical_context": "Published in 1966, Jean Rhys's work engages with the concerns of jamaica."
+    },
+    {
+      "title": "Tale of the Shipwrecked Sailor",
+      "author": "Anonymous (Egyptian)",
+      "year": -1850,
+      "century": -19,
+      "location": {
+        "name": "Red Sea and Island of Punt",
+        "coordinates": [
+          27.2579,
+          33.8116
+        ]
+      },
+      "summary": "An Egyptian sailor survives a shipwreck and encounters a giant golden serpent on a magical island who prophesies his rescue and gifts him treasures.",
+      "historical_context": "Composed in Middle Kingdom Egypt (19th century BCE), this is one of the earliest surviving examples of prose fiction and fantasy literature."
+    },
+    {
+      "title": "Story of Sinuhe",
+      "author": "Anonymous (Egyptian)",
+      "year": -1875,
+      "century": -18,
+      "location": {
+        "name": "Egypt and Upper Retjenu (Syria)",
+        "coordinates": [
+          29.5742,
+          31.2277
+        ]
+      },
+      "summary": "A court official flees Egypt after the pharaoh's death, lives in exile among Asiatic peoples, and ultimately returns home to receive a proper Egyptian burial.",
+      "historical_context": "Written during the 12th Dynasty (18th century BCE), this is ancient Egypt's most beloved adventure tale, exploring themes of homeland loyalty and divine providence."
+    },
+    {
+      "title": "Westcar Papyrus",
+      "author": "Anonymous (Egyptian)",
+      "year": -1650,
+      "century": -17,
+      "location": {
+        "name": "Memphis (Giza), Egypt",
+        "coordinates": [
+          29.9792,
+          31.1342
+        ]
+      },
+      "summary": "King Khufu's sons entertain him with tales of magical wonders, including a priest who parts waters and a magician who reattaches severed heads.",
+      "historical_context": "Composed in the Second Intermediate Period (17th century BCE), these stories blend magic, prophecy, and court entertainment to legitimize dynastic succession."
+    },
+    {
+      "title": "The Taking of Joppa",
+      "author": "Anonymous (Egyptian)",
+      "year": -1450,
+      "century": -15,
+      "location": {
+        "name": "Joppa (Jaffa), Israel",
+        "coordinates": [
+          32.0522,
+          34.7521
+        ]
+      },
+      "summary": "Egyptian general Djehuty captures the Canaanite city of Joppa by hiding soldiers in baskets smuggled through the gates.",
+      "historical_context": "Set during Thutmose III's campaigns (15th century BCE), this military tale predates Homer's Trojan Horse story by over 200 years."
+    },
+    {
+      "title": "The Amarna Letters",
+      "author": "Various (Diplomatic Correspondence)",
+      "year": -1350,
+      "century": -14,
+      "location": {
+        "name": "Tell el-Amarna, Egypt",
+        "coordinates": [
+          27.6453,
+          30.8975
+        ]
+      },
+      "summary": "Diplomatic correspondence between Egyptian pharaohs and Near Eastern rulers reveals international relations, including desperate pleas from Canaanite vassals.",
+      "historical_context": "Written during Akhenaten's reign (14th century BCE), these 382 clay tablets document Late Bronze Age diplomacy and the earliest mentions of Jerusalem."
+    },
+    {
+      "title": "Epic of Tukulti-Ninurta",
+      "author": "Anonymous (Assyrian)",
+      "year": -1230,
+      "century": -13,
+      "location": {
+        "name": "Ashur, Assyria (Iraq)",
+        "coordinates": [
+          35.4567,
+          43.2592
+        ]
+      },
+      "summary": "The Assyrian king defeats the Babylonian ruler Kashtiliash IV and captures the sacred statue of Marduk in this epic of military conquest.",
+      "historical_context": "The only surviving Assyrian epic poem (13th century BCE), glorifying Tukulti-Ninurta I's controversial sack of Babylon."
+    },
+    {
+      "title": "The Baal Cycle",
+      "author": "Anonymous (Ugaritic)",
+      "year": -1150,
+      "century": -12,
+      "location": {
+        "name": "Ugarit (Ras Shamra), Syria",
+        "coordinates": [
+          35.6003,
+          35.7850
+        ]
+      },
+      "summary": "The storm god Baal battles the sea god Yam and death god Mot to establish his kingship among the Canaanite gods.",
+      "historical_context": "Discovered at Ugarit (destroyed c. 1200 BCE), these tablets preserve Canaanite mythology that influenced later biblical texts."
+    },
+    {
+      "title": "Story of Wenamun",
+      "author": "Anonymous (Egyptian)",
+      "year": -1075,
+      "century": -11,
+      "location": {
+        "name": "Byblos, Lebanon",
+        "coordinates": [
+          34.1236,
+          35.6517
+        ]
+      },
+      "summary": "An Egyptian priest's disastrous mission to buy cedar wood reveals Egypt's decline as he faces robbery, humiliation, and contempt from foreign rulers.",
+      "historical_context": "Set around 1075 BCE during Egypt's decline, this tale documents the end of Egyptian imperial prestige in the eastern Mediterranean."
+    },
+    {
+      "title": "Court History of David",
+      "author": "Anonymous (Israelite)",
+      "year": -950,
+      "century": -10,
+      "location": {
+        "name": "Jerusalem, Israel",
+        "coordinates": [
+          31.7683,
+          35.2137
+        ]
+      },
+      "summary": "King David's family troubles unfold from his affair with Bathsheba through Absalom's rebellion to Solomon's succession to the throne.",
+      "historical_context": "Part of 2 Samuel (10th century BCE tradition), this narrative is considered one of the finest examples of ancient Near Eastern prose."
+    },
+    {
+      "title": "Elijah Narratives",
+      "author": "Anonymous (Israelite)",
+      "year": -850,
+      "century": -9,
+      "location": {
+        "name": "Mount Carmel, Israel",
+        "coordinates": [
+          32.7357,
+          35.0423
+        ]
+      },
+      "summary": "Prophet Elijah challenges 450 prophets of Baal to a dramatic contest on Mount Carmel, calling down fire from heaven to prove Yahweh's supremacy.",
+      "historical_context": "Set during King Ahab's reign (9th century BCE), these narratives in 1 Kings depict the conflict between Yahweh worship and Baal cult in Israel."
+    },
+    {
+      "title": "Book of Deuteronomy",
+      "author": "Anonymous (Israelite/Levites)",
+      "year": -622,
+      "century": -7,
+      "location": {
+        "name": "Jerusalem, Judah",
+        "coordinates": [
+          31.7683,
+          35.2137
+        ]
+      },
+      "summary": "Moses delivers his final speeches to Israel, recounting the law and covenant before the people enter the Promised Land.",
+      "historical_context": "Discovered in the Temple during King Josiah's reforms (622 BCE), this book triggered major religious changes centralizing worship in Jerusalem."
+    },
+    {
+      "title": "Argonautica",
+      "author": "Apollonius of Rhodes",
+      "year": -250,
+      "century": -3,
+      "location": {
+        "name": "Iolcus (Volos), Greece",
+        "coordinates": [
+          39.3617,
+          22.9458
+        ]
+      },
+      "summary": "Jason and the Argonauts sail to Colchis to retrieve the Golden Fleece, with the sorceress Medea helping him complete impossible tasks.",
+      "historical_context": "Written in Alexandria (3rd century BCE), this Hellenistic epic maps the known world from Greece to the Black Sea and beyond."
+    },
+    {
+      "title": "Daphnis and Chloe",
+      "author": "Longus",
+      "year": 200,
+      "century": 3,
+      "location": {
+        "name": "Lesbos, Greece",
+        "coordinates": [
+          39.1667,
+          26.3333
+        ]
+      },
+      "summary": "Two foundlings raised by shepherds on Lesbos discover love while navigating pirates, suitors, and their own noble origins.",
+      "historical_context": "Written in the 2nd-3rd century CE, this pastoral romance influenced later European literature and inspired Ravel's famous ballet."
+    },
+    {
+      "title": "The Consolation of Philosophy",
+      "author": "Boethius",
+      "year": 524,
+      "century": 6,
+      "location": {
+        "name": "Pavia, Italy",
+        "coordinates": [
+          45.1847,
+          9.1582
+        ]
+      },
+      "summary": "Imprisoned philosopher Boethius converses with Lady Philosophy about fortune, happiness, evil, and free will while awaiting execution.",
+      "historical_context": "Written in prison (524 CE) under Ostrogothic rule, this became one of the most influential books of the Middle Ages, bridging classical and medieval thought."
+    },
+    {
+      "title": "Caedmon's Hymn",
+      "author": "Caedmon",
+      "year": 670,
+      "century": 7,
+      "location": {
+        "name": "Whitby Abbey, England",
+        "coordinates": [
+          54.4882,
+          -0.6076
+        ]
+      },
+      "summary": "An illiterate cowherd receives a divine vision and miraculously composes a nine-line hymn praising God as Creator.",
+      "historical_context": "Composed around 670 CE, this is the earliest surviving Old English poem, marking the beginning of English vernacular literature."
+    },
+    {
+      "title": "The Tale of the Bamboo Cutter",
+      "author": "Anonymous (Japanese)",
+      "year": 909,
+      "century": 10,
+      "location": {
+        "name": "Kyoto, Japan",
+        "coordinates": [
+          35.0116,
+          135.7681
+        ]
+      },
+      "summary": "A bamboo cutter discovers a tiny princess inside a glowing bamboo stalk; she grows into the beautiful Kaguya-hime who rejects noble suitors before returning to the Moon.",
+      "historical_context": "Japan's oldest prose narrative (early 10th century), this Heian-period tale blends folklore with court satire and celestial mystery."
+    },
+    {
+      "title": "The Song of Roland",
+      "author": "Anonymous (French)",
+      "year": 1100,
+      "century": 12,
+      "location": {
+        "name": "Roncevaux Pass, Spain",
+        "coordinates": [
+          43.0188,
+          -1.3210
+        ]
+      },
+      "summary": "Charlemagne's nephew Roland makes a heroic last stand against overwhelming Saracen forces at the mountain pass, refusing to call for help until too late.",
+      "historical_context": "The oldest surviving major French literary work (c. 1100 CE), this chanson de geste transformed a minor 778 skirmish into an epic of Christian valor."
+    },
+    {
+      "title": "Prose Edda",
+      "author": "Snorri Sturluson",
+      "year": 1220,
+      "century": 13,
+      "location": {
+        "name": "Reykholt, Iceland",
+        "coordinates": [
+          64.6648,
+          -21.2969
+        ]
+      },
+      "summary": "A comprehensive guide to Norse mythology recounting the creation of the world, the adventures of gods like Odin and Thor, and the apocalyptic Ragnarök.",
+      "historical_context": "Written around 1220 CE as a poetry handbook, this work preserved Norse myths that would otherwise have been lost after Iceland's Christianization."
     }
   ]
 }
