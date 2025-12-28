@@ -20,10 +20,20 @@ Preferred communication style: Simple, everyday language.
 - **Location Classification**: Smart algorithm to determine whether to show story setting or publication location based on content analysis
 
 ## Core Features
-- **Century-based Filtering**: Slider interface to explore literature from different time periods (14th-21st centuries)
+- **Century-based Filtering**: Slider interface to explore literature from different time periods (20th century BCE through 21st century CE)
 - **Search Functionality**: Text-based search across book titles and authors
 - **Interactive Mapping**: Color-coded markers (red for primary settings, blue for publication locations) with detailed popups
-- **Responsive Design**: Mobile-friendly interface with custom CSS styling
+- **Mobile-First Design**: Full-screen map with overlay controls, no scrolling needed to see the map
+- **Dataset**: 524 books with continuous coverage across all centuries from ancient to modern times
+
+## Mobile UI Features
+- **Full-Screen Map**: Map fills the viewport with overlay controls on top
+- **Top Overlay Bar**: Semi-transparent title bar ("📚 Literary World Map")
+- **Bottom Control Panel**: Century display, navigation slider, prev/next buttons, book count badge
+- **Legend Button**: "i" icon that toggles marker color legend (Story Setting vs Publication Location)
+- **Slide-Up Books Panel**: Tap book count to see full book list
+- **Touch-Friendly**: All buttons are 44-48px minimum for accessibility
+- **Landscape Support**: Controls reposition for landscape orientation
 
 ## Data Structure
 - **Book Records**: Each book contains title, author, publication year, century, geographical coordinates, plot summary, and historical context
