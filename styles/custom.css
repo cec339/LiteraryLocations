@@ -1,41 +1,25 @@
-/* Mobile-first full-screen map experience */
+/* Mobile-first Literary World Map styles */
 
-/* Hide Streamlit default header and branding */
-.stApp > header {
-    display: none !important;
-}
+/* Hide Streamlit default elements */
+.stApp > header { display: none !important; }
+header[data-testid="stHeader"] { display: none !important; }
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+.stDeployButton { display: none !important; }
 
-#MainMenu {
-    visibility: hidden;
-}
-
-footer {
-    visibility: hidden;
-}
-
-.stDeployButton {
-    display: none !important;
-}
-
-/* Full-width container */
+/* Full-width container with minimal padding */
 .main .block-container {
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
 }
 
-/* Make the HTML component fill viewport */
-.stHtml {
-    width: 100% !important;
-}
-
-.stHtml > div {
-    width: 100% !important;
-}
-
+/* Map iframe sizing */
+.stHtml { width: 100% !important; }
+.stHtml > div { width: 100% !important; }
 .stHtml iframe {
     width: 100% !important;
-    height: calc(100vh - 100px) !important;
+    height: calc(100vh - 70px) !important;
     min-height: 400px !important;
     border: none !important;
 }
@@ -52,23 +36,30 @@ section[data-testid="stSidebar"] .stTextInput input {
     border: 1px solid #ddd;
     padding: 12px;
     font-size: 16px;
-}
-
-/* Search box styling */
-.stTextInput {
-    max-width: 100%;
-}
-
-.stTextInput input {
     min-height: 44px;
-    font-size: 16px;
 }
 
-/* Navigation buttons - styled as semi-transparent pills */
+/* Navigation buttons - horizontal row at bottom */
+div[data-testid="stHorizontalBlock"] {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 6px !important;
+    padding: 4px 8px !important;
+    background: transparent !important;
+}
+
+div[data-testid="column"] {
+    flex: 1 !important;
+    padding: 0 !important;
+}
+
+/* Button styling - semi-transparent */
 .stButton > button {
+    width: 100% !important;
     min-height: 44px !important;
     border-radius: 22px !important;
     font-weight: 600 !important;
+    font-size: 14px !important;
     transition: all 0.2s ease !important;
     background: rgba(30, 30, 30, 0.5) !important;
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
@@ -80,7 +71,6 @@ section[data-testid="stSidebar"] .stTextInput input {
 .stButton > button:hover {
     background: rgba(30, 30, 30, 0.7) !important;
     border-color: rgba(255, 255, 255, 0.4) !important;
-    transform: translateY(-1px) !important;
 }
 
 .stButton > button:active {
@@ -110,27 +100,10 @@ div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
     font-weight: 700;
 }
 
-/* Column layout for buttons */
-div[data-testid="stHorizontalBlock"] {
-    position: fixed !important;
-    bottom: 8px !important;
-    left: 8px !important;
-    right: 8px !important;
-    z-index: 1001 !important;
-    gap: 6px !important;
-    background: transparent !important;
-}
+/* Hide hr elements */
+hr { display: none !important; }
 
-div[data-testid="column"] {
-    padding: 0 2px !important;
-}
-
-/* Hide hr and other elements in main content */
-.main hr {
-    display: none !important;
-}
-
-/* Books expander styling */
+/* Expander styling for book list */
 .stExpander {
     background: rgba(255, 255, 255, 0.95) !important;
     border-radius: 8px !important;
@@ -140,28 +113,21 @@ div[data-testid="column"] {
 /* Mobile adjustments */
 @media (max-width: 768px) {
     .stHtml iframe {
-        height: calc(100vh - 80px) !important;
+        height: calc(100vh - 60px) !important;
     }
     
     .stButton > button {
         font-size: 13px !important;
-        padding: 8px 12px !important;
         min-height: 40px !important;
-    }
-    
-    div[data-testid="stHorizontalBlock"] {
-        bottom: 4px !important;
-        left: 4px !important;
-        right: 4px !important;
-        gap: 4px !important;
+        padding: 6px 10px !important;
     }
 }
 
 /* Landscape mode */
 @media (orientation: landscape) and (max-height: 500px) {
     .stHtml iframe {
-        height: calc(100vh - 60px) !important;
-        min-height: 300px !important;
+        height: calc(100vh - 50px) !important;
+        min-height: 280px !important;
     }
     
     .stButton > button {
@@ -170,35 +136,15 @@ div[data-testid="column"] {
     }
 }
 
-/* Ensure proper touch targets */
-button, 
-input[type="range"],
-a {
+/* Touch targets */
+button, input[type="range"], a {
     min-height: 44px;
     min-width: 44px;
 }
 
-/* Smooth transitions */
-* {
-    -webkit-tap-highlight-color: transparent;
-}
+* { -webkit-tap-highlight-color: transparent; }
 
-/* Focus states for accessibility */
-button:focus,
-input:focus {
+button:focus, input:focus {
     outline: 2px solid #1f77b4;
     outline-offset: 2px;
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    section[data-testid="stSidebar"] {
-        background: rgba(30, 30, 30, 0.98) !important;
-    }
-    
-    section[data-testid="stSidebar"] .stTextInput input {
-        background: #333;
-        border-color: #444;
-        color: white;
-    }
 }

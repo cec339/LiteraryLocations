@@ -126,22 +126,68 @@ try:
 
     st.markdown("""
     <style>
+        /* Hide Streamlit chrome */
         .stApp > header { display: none !important; }
+        header[data-testid="stHeader"] { display: none !important; }
+        .stDeployButton { display: none !important; }
+        #MainMenu { display: none !important; }
+        footer { display: none !important; }
+        
+        /* Make the entire app a fixed container */
+        .stApp {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            overflow: hidden !important;
+        }
+        
+        .main {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            overflow: hidden !important;
+        }
+        
         .main .block-container { 
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
             padding: 0 !important; 
             max-width: 100% !important;
             margin: 0 !important;
-        }
-        section[data-testid="stSidebar"] {
-            background: rgba(255,255,255,0.98);
+            overflow: hidden !important;
         }
         
-        /* Make the HTML component fill the screen */
-        .stHtml { width: 100% !important; }
-        .stHtml > div { width: 100% !important; }
+        /* Sidebar styling */
+        section[data-testid="stSidebar"] {
+            background: rgba(255,255,255,0.98);
+            z-index: 10000 !important;
+        }
+        
+        /* Map fills entire viewport as background */
+        .stHtml { 
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            z-index: 1 !important;
+        }
+        .stHtml > div { 
+            width: 100% !important; 
+            height: 100% !important;
+        }
         .stHtml iframe { 
             width: 100% !important; 
-            height: calc(100vh - 80px) !important;
+            height: 100% !important;
             border: none !important;
         }
         
@@ -212,58 +258,77 @@ try:
         .legend-dot.red { background: #d63384; }
         .legend-dot.blue { background: #38A3D1; }
         
-        /* Style Streamlit columns for control bar */
+        /* Streamlit button row - fixed at bottom */
         div[data-testid="stHorizontalBlock"] {
-            gap: 8px !important;
+            position: fixed !important;
+            bottom: 50px !important;
+            left: 8px !important;
+            right: 8px !important;
+            z-index: 100 !important;
+            display: flex !important;
+            gap: 6px !important;
+            background: transparent !important;
         }
         
         div[data-testid="column"] {
+            flex: 1 !important;
             padding: 0 !important;
         }
         
-        /* Nav button styling */
-        .nav-button button {
-            background: rgba(255,255,255,0.15) !important;
-            border: 1px solid rgba(255,255,255,0.25) !important;
-            color: white !important;
+        /* Style all buttons */
+        .stButton > button {
+            width: 100% !important;
             min-height: 44px !important;
-            min-width: 44px !important;
-            padding: 0 16px !important;
             border-radius: 22px !important;
+            background: rgba(30, 30, 30, 0.5) !important;
+            backdrop-filter: blur(8px) !important;
+            -webkit-backdrop-filter: blur(8px) !important;
+            border: 1px solid rgba(255,255,255,0.2) !important;
+            color: white !important;
             font-weight: 600 !important;
+            font-size: 14px !important;
         }
         
-        .nav-button button:hover {
-            background: rgba(255,255,255,0.25) !important;
+        .stButton > button:hover {
+            background: rgba(30, 30, 30, 0.7) !important;
             border-color: rgba(255,255,255,0.4) !important;
         }
         
-        /* Hide default streamlit elements */
-        .stDeployButton { display: none !important; }
+        .stButton > button:disabled {
+            opacity: 0.4 !important;
+        }
+        
+        /* Hide hr and other elements */
+        hr { display: none !important; }
+        h2, h3 { display: none !important; }
+        .stExpander { display: none !important; }
         
         @media (max-width: 768px) {
-            .stHtml iframe { 
-                height: calc(100vh - 70px) !important;
+            div[data-testid="stHorizontalBlock"] {
+                bottom: 45px !important;
+                left: 4px !important;
+                right: 4px !important;
+                gap: 4px !important;
+            }
+            
+            .stButton > button {
+                font-size: 12px !important;
+                min-height: 40px !important;
             }
             
             .control-bar {
                 padding: 6px 8px;
-                gap: 8px;
             }
             
             .century-label {
                 font-size: 16px;
                 min-width: 60px;
             }
-            
-            .book-count {
-                font-size: 12px;
-            }
         }
     </style>
     """, unsafe_allow_html=True)
 
-    components.html(map_only_html, height=700, scrolling=False)
+    components.html(map_only_html, height=2000, scrolling=False)
 
     if st.session_state.show_legend:
         st.markdown("""
