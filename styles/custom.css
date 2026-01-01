@@ -13,6 +13,10 @@ footer {
     visibility: hidden;
 }
 
+.stDeployButton {
+    display: none !important;
+}
+
 /* Full-width container */
 .main .block-container {
     max-width: 100% !important;
@@ -31,8 +35,8 @@ footer {
 
 .stHtml iframe {
     width: 100% !important;
-    height: 100vh !important;
-    min-height: 600px !important;
+    height: calc(100vh - 100px) !important;
+    min-height: 400px !important;
     border: none !important;
 }
 
@@ -60,22 +64,32 @@ section[data-testid="stSidebar"] .stTextInput input {
     font-size: 16px;
 }
 
-/* Button styling for fallback controls */
+/* Navigation buttons - styled as semi-transparent pills */
 .stButton > button {
     min-height: 44px !important;
-    min-width: 44px !important;
-    border-radius: 8px !important;
+    border-radius: 22px !important;
     font-weight: 600 !important;
     transition: all 0.2s ease !important;
+    background: rgba(30, 30, 30, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
 }
 
 .stButton > button:hover {
+    background: rgba(30, 30, 30, 0.7) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
     transform: translateY(-1px) !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
 }
 
 .stButton > button:active {
     transform: scale(0.98) !important;
+}
+
+.stButton > button:disabled {
+    opacity: 0.4 !important;
+    background: rgba(30, 30, 30, 0.3) !important;
 }
 
 /* Metric cards in sidebar */
@@ -96,31 +110,63 @@ div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
     font-weight: 700;
 }
 
-/* Mobile navigation styling - keep buttons visible and accessible */
+/* Column layout for buttons */
+div[data-testid="stHorizontalBlock"] {
+    position: fixed !important;
+    bottom: 8px !important;
+    left: 8px !important;
+    right: 8px !important;
+    z-index: 1001 !important;
+    gap: 6px !important;
+    background: transparent !important;
+}
+
+div[data-testid="column"] {
+    padding: 0 2px !important;
+}
+
+/* Hide hr and other elements in main content */
+.main hr {
+    display: none !important;
+}
+
+/* Books expander styling */
+.stExpander {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+/* Mobile adjustments */
 @media (max-width: 768px) {
-    .stMarkdown hr {
-        margin: 8px 0 !important;
-        opacity: 0.3 !important;
+    .stHtml iframe {
+        height: calc(100vh - 80px) !important;
     }
     
-    .stMarkdown h3 {
-        font-size: 14px !important;
-        margin-bottom: 8px !important;
-        text-align: center !important;
+    .stButton > button {
+        font-size: 13px !important;
+        padding: 8px 12px !important;
+        min-height: 40px !important;
     }
     
-    div[data-testid="column"] .stButton > button {
-        width: 100% !important;
-        min-height: 48px !important;
-        font-size: 16px !important;
+    div[data-testid="stHorizontalBlock"] {
+        bottom: 4px !important;
+        left: 4px !important;
+        right: 4px !important;
+        gap: 4px !important;
     }
 }
 
-/* Show fallback navigation on desktop as backup */
-@media (min-width: 769px) {
-    .stMarkdown hr {
-        margin-top: 20px !important;
-        opacity: 0.3;
+/* Landscape mode */
+@media (orientation: landscape) and (max-height: 500px) {
+    .stHtml iframe {
+        height: calc(100vh - 60px) !important;
+        min-height: 300px !important;
+    }
+    
+    .stButton > button {
+        min-height: 36px !important;
+        font-size: 12px !important;
     }
 }
 
@@ -154,28 +200,5 @@ input:focus {
         background: #333;
         border-color: #444;
         color: white;
-    }
-}
-
-/* Landscape orientation adjustments */
-@media (orientation: landscape) and (max-height: 500px) {
-    .stHtml iframe {
-        min-height: 100vh !important;
-    }
-}
-
-/* Print styles - hide overlays when printing */
-@media print {
-    .top-overlay,
-    .bottom-controls,
-    .legend-btn,
-    .legend-panel,
-    .books-panel {
-        display: none !important;
-    }
-    
-    .map-fullscreen {
-        position: static !important;
-        height: auto !important;
     }
 }
