@@ -25,12 +25,27 @@ if 'last_search_query' not in st.session_state:
     st.session_state.last_search_query = ""
 if 'century_updated' not in st.session_state:
     st.session_state.century_updated = False
-if 'show_legend' not in st.session_state:
-    st.session_state.show_legend = False
-if 'show_books' not in st.session_state:
-    st.session_state.show_books = False
 
 century_options = list(range(-20, 0)) + list(range(1, 22))
+
+query_params = st.query_params
+if 'nav' in query_params:
+    nav_action = query_params.get('nav', '')
+    if isinstance(nav_action, list):
+        nav_action = nav_action[0] if nav_action else ''
+    
+    try:
+        current_index = century_options.index(st.session_state.selected_century)
+    except ValueError:
+        current_index = century_options.index(19)
+    
+    if nav_action == 'prev' and current_index > 0:
+        st.session_state.selected_century = century_options[current_index - 1]
+    elif nav_action == 'next' and current_index < len(century_options) - 1:
+        st.session_state.selected_century = century_options[current_index + 1]
+    
+    st.query_params.clear()
+    st.rerun()
 
 with st.sidebar:
     st.header("🔍 Search Books")
@@ -91,6 +106,9 @@ try:
         if literary_map:
             folium_html = literary_map._repr_html_()
 
+    prev_century = century_options[current_index - 1] if can_go_prev else None
+    next_century = century_options[current_index + 1] if can_go_next else None
+    
     map_only_html = f"""
     <!DOCTYPE html>
     <html>
@@ -98,35 +116,206 @@ try:
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <style>
             * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-            html, body {{ width: 100%; height: 100%; overflow: hidden; }}
-            .map-container {{ width: 100%; height: 100%; }}
+            html, body {{ 
+                width: 100vw; 
+                height: 100vh; 
+                overflow: hidden;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            }}
+            
+            .map-container {{ 
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100vw; 
+                height: 100vh;
+            }}
+            
+            .map-container > div,
             .map-container iframe,
-            .map-container .folium-map {{ width: 100% !important; height: 100% !important; border: none !important; }}
+            .map-container .folium-map,
+            .leaflet-container {{ 
+                width: 100vw !important; 
+                height: 100vh !important; 
+                border: none !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }}
+            
             .no-books {{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                height: 100%;
+                height: 100vh;
                 color: #666;
                 background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             }}
             .no-books-icon {{ font-size: 64px; margin-bottom: 16px; }}
             .no-books h2 {{ color: #555; font-weight: 500; }}
+            
+            /* Bottom control bar */
+            .controls {{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 10000;
+                display: flex;
+                flex-direction: column;
+                pointer-events: none;
+            }}
+            
+            .button-row {{
+                display: flex;
+                gap: 4px;
+                padding: 4px 4px 4px 4px;
+                pointer-events: auto;
+            }}
+            
+            .nav-btn {{
+                flex: 1;
+                height: 32px;
+                border: none;
+                border-radius: 16px;
+                background: rgba(40, 40, 40, 0.75);
+                color: white;
+                font-size: 12px;
+                font-weight: 500;
+                cursor: pointer;
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 4px;
+                transition: background 0.2s;
+                text-decoration: none;
+            }}
+            
+            .nav-btn:hover {{
+                background: rgba(40, 40, 40, 0.9);
+                color: white;
+            }}
+            
+            .nav-btn:disabled,
+            .nav-btn.disabled {{
+                opacity: 0.4;
+                cursor: not-allowed;
+                pointer-events: none;
+            }}
+            
+            .info-bar {{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 6px 12px;
+                background: rgba(30, 30, 30, 0.8);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                pointer-events: auto;
+            }}
+            
+            .century-label {{
+                color: white;
+                font-size: 14px;
+                font-weight: 600;
+            }}
+            
+            .book-count {{
+                background: rgba(31, 119, 180, 0.9);
+                color: white;
+                font-size: 11px;
+                padding: 2px 8px;
+                border-radius: 10px;
+            }}
+            
+            /* Legend popup */
+            .legend {{
+                display: none;
+                position: fixed;
+                bottom: 80px;
+                left: 8px;
+                background: rgba(30, 30, 30, 0.85);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                border-radius: 8px;
+                padding: 10px 14px;
+                z-index: 10001;
+                pointer-events: auto;
+            }}
+            
+            .legend.show {{
+                display: block;
+            }}
+            
+            .legend-item {{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                color: white;
+                font-size: 12px;
+                margin: 4px 0;
+            }}
+            
+            .legend-dot {{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }}
+            
+            .legend-dot.red {{ background: #d63384; }}
+            .legend-dot.blue {{ background: #38A3D1; }}
         </style>
     </head>
     <body>
         <div class="map-container">
             {folium_html if folium_html else '<div class="no-books"><div class="no-books-icon">📚</div><h2>No books found for this century</h2></div>'}
         </div>
+        
+        <div id="legend" class="legend">
+            <div class="legend-item"><div class="legend-dot red"></div><span>Story Setting</span></div>
+            <div class="legend-item"><div class="legend-dot blue"></div><span>Publication Location</span></div>
+        </div>
+        
+        <div class="controls">
+            <div class="button-row">
+                {'<a class="nav-btn disabled" href="#">◀ Prev</a>' if not can_go_prev else '<a class="nav-btn" href="?nav=prev" target="_top">◀ Prev</a>'}
+                <button class="nav-btn" onclick="toggleLegend()">ℹ️</button>
+                {'<a class="nav-btn disabled" href="#">Next ▶</a>' if not can_go_next else '<a class="nav-btn" href="?nav=next" target="_top">Next ▶</a>'}
+            </div>
+            <div class="info-bar">
+                <span class="century-label">{century_display}</span>
+                <span class="book-count">{book_count} book{'s' if book_count != 1 else ''}</span>
+            </div>
+        </div>
+        
+        <script>
+            function toggleLegend() {{
+                document.getElementById('legend').classList.toggle('show');
+            }}
+            
+            // Make sure the map fills the container
+            setTimeout(function() {{
+                var maps = document.querySelectorAll('.leaflet-container');
+                maps.forEach(function(map) {{
+                    map.style.width = '100vw';
+                    map.style.height = '100vh';
+                    if (map._leaflet_map) {{
+                        map._leaflet_map.invalidateSize();
+                    }}
+                }});
+            }}, 100);
+        </script>
     </body>
     </html>
     """
 
     st.markdown("""
     <style>
-        /* Hide ALL Streamlit chrome elements */
+        /* Hide ALL Streamlit chrome */
         header[data-testid="stHeader"],
         .stDeployButton,
         #MainMenu,
@@ -135,32 +324,20 @@ try:
             display: none !important;
         }
         
-        /* Reset ALL Streamlit containers - use data-testid selectors */
-        [data-testid="stAppViewContainer"],
-        [data-testid="stAppViewBlockContainer"],
+        /* Reset ALL Streamlit containers */
         .stApp,
         .main,
-        section.main {
-            padding: 0 !important;
-            margin: 0 !important;
-            max-width: 100% !important;
-            width: 100% !important;
-        }
-        
-        /* Target the block container specifically */
+        section.main,
+        [data-testid="stAppViewContainer"],
+        [data-testid="stAppViewBlockContainer"],
         [data-testid="block-container"],
         .block-container,
         div[data-testid="stVerticalBlock"] {
             padding: 0 !important;
-            padding-top: 0 !important;
             margin: 0 !important;
             max-width: 100% !important;
             width: 100% !important;
-        }
-        
-        /* Override Streamlit's default top padding */
-        .stApp {
-            background: #1a1a2e !important;
+            background: transparent !important;
         }
         
         /* Sidebar styling */
@@ -169,10 +346,10 @@ try:
             z-index: 10000 !important;
         }
         
-        /* Make the iframe container fill the viewport */
+        /* Make iframe fill entire viewport */
         [data-testid="stHtml"],
         .stHtml,
-        .element-container:has(iframe) {
+        .element-container {
             position: fixed !important;
             top: 0 !important;
             left: 0 !important;
@@ -183,203 +360,18 @@ try:
             margin: 0 !important;
         }
         
-        [data-testid="stHtml"] > div,
-        .stHtml > div {
-            width: 100% !important;
-            height: 100% !important;
-        }
-        
         iframe {
             width: 100vw !important;
             height: 100vh !important;
             border: none !important;
-            position: absolute !important;
+            position: fixed !important;
             top: 0 !important;
             left: 0 !important;
-        }
-        
-        /* Bottom control bar with century info */
-        .control-bar {
-            position: fixed !important;
-            bottom: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            background: rgba(20, 20, 20, 0.6) !important;
-            backdrop-filter: blur(12px) !important;
-            -webkit-backdrop-filter: blur(12px) !important;
-            padding: 6px 12px !important;
-            z-index: 9999 !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            gap: 12px !important;
-            height: 36px !important;
-        }
-        
-        .century-label {
-            color: white;
-            font-size: 16px;
-            font-weight: 600;
-            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-        }
-        
-        .book-count {
-            color: rgba(255,255,255,0.9);
-            font-size: 12px;
-            background: rgba(31, 119, 180, 0.8);
-            padding: 3px 8px;
-            border-radius: 10px;
-        }
-        
-        /* Legend popup */
-        .legend-toggle {
-            position: fixed !important;
-            bottom: 90px !important;
-            left: 8px !important;
-            background: rgba(20, 20, 20, 0.6) !important;
-            backdrop-filter: blur(12px) !important;
-            -webkit-backdrop-filter: blur(12px) !important;
-            border-radius: 8px !important;
-            padding: 8px 12px !important;
-            z-index: 9999 !important;
-        }
-        
-        .legend-content {
-            color: white;
-            font-size: 11px;
-        }
-        
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            margin: 3px 0;
-        }
-        
-        .legend-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-        }
-        
-        .legend-dot.red { background: #d63384; }
-        .legend-dot.blue { background: #38A3D1; }
-        
-        /* BUTTON ROW - Force horizontal, no wrap, fixed at bottom */
-        [data-testid="stHorizontalBlock"] {
-            position: fixed !important;
-            bottom: 42px !important;
-            left: 4px !important;
-            right: 4px !important;
-            z-index: 9998 !important;
-            display: flex !important;
-            flex-direction: row !important;
-            flex-wrap: nowrap !important;
-            gap: 4px !important;
-            background: transparent !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-        
-        /* Each column equal width, no wrapping */
-        [data-testid="column"] {
-            flex: 1 1 0 !important;
-            min-width: 0 !important;
-            padding: 0 !important;
-            width: auto !important;
-        }
-        
-        /* Compact buttons */
-        .stButton,
-        [data-testid="stButton"] {
-            width: 100% !important;
-        }
-        
-        .stButton > button,
-        [data-testid="stButton"] > button {
-            width: 100% !important;
-            height: 36px !important;
-            min-height: 36px !important;
-            max-height: 36px !important;
-            padding: 0 8px !important;
-            border-radius: 18px !important;
-            background: rgba(30, 30, 30, 0.6) !important;
-            backdrop-filter: blur(8px) !important;
-            -webkit-backdrop-filter: blur(8px) !important;
-            border: 1px solid rgba(255,255,255,0.25) !important;
-            color: white !important;
-            font-weight: 500 !important;
-            font-size: 11px !important;
-            white-space: nowrap !important;
-            overflow: hidden !important;
-            text-overflow: ellipsis !important;
-        }
-        
-        .stButton > button:hover {
-            background: rgba(30, 30, 30, 0.8) !important;
-            border-color: rgba(255,255,255,0.4) !important;
-        }
-        
-        .stButton > button:disabled {
-            opacity: 0.4 !important;
-        }
-        
-        /* Hide other Streamlit elements */
-        hr, .stMarkdown h2, .stMarkdown h3, .stExpander {
-            display: none !important;
         }
     </style>
     """, unsafe_allow_html=True)
 
-    components.html(map_only_html, height=800, scrolling=False)
-
-    if st.session_state.show_legend:
-        st.markdown("""
-        <div class="legend-toggle">
-            <div class="legend-content">
-                <div class="legend-item"><div class="legend-dot red"></div><span>Story Setting</span></div>
-                <div class="legend-item"><div class="legend-dot blue"></div><span>Publication Location</span></div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-
-    st.markdown(f"""
-    <div class="control-bar">
-        <span class="century-label">{century_display}</span>
-        <span class="book-count">{book_count} book{'s' if book_count != 1 else ''}</span>
-    </div>
-    """, unsafe_allow_html=True)
-
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-    
-    with col1:
-        if st.button("◀ Prev", key="prev_btn", disabled=not can_go_prev, use_container_width=True):
-            st.session_state.selected_century = century_options[current_index - 1]
-            st.rerun()
-    
-    with col2:
-        if st.button("ℹ Legend", key="legend_btn", use_container_width=True):
-            st.session_state.show_legend = not st.session_state.show_legend
-            st.rerun()
-    
-    with col3:
-        if st.button("📚 Books", key="books_btn", use_container_width=True):
-            st.session_state.show_books = not st.session_state.show_books
-            st.rerun()
-    
-    with col4:
-        if st.button("Next ▶", key="next_btn", disabled=not can_go_next, use_container_width=True):
-            st.session_state.selected_century = century_options[current_index + 1]
-            st.rerun()
-
-    if st.session_state.show_books and not filtered_books.empty:
-        st.markdown("---")
-        st.subheader(f"📚 Books from {century_display}")
-        for _, book in filtered_books.iterrows():
-            with st.expander(f"**{book['title']}** by {book['author']}"):
-                st.write(f"**Year:** {int(book['year'])}")
-                st.write(f"**Location:** {book['setting_name']}")
-                st.write(f"**Summary:** {book['summary'][:200]}...")
+    components.html(map_only_html, height=2000, scrolling=False)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
