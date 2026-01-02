@@ -382,39 +382,59 @@ try:
     # Navigation controls using Streamlit buttons - properly update session state
     st.markdown(f"""
     <style>
-        .nav-container {{
+        /* Force the button container to fixed bottom position */
+        div[data-testid="stVerticalBlock"]:has(button[kind="secondary"]) {{
             position: fixed !important;
             bottom: 0 !important;
             left: 0 !important;
             right: 0 !important;
             z-index: 10001 !important;
             padding: 8px !important;
-            background: linear-gradient(transparent, rgba(0,0,0,0.3));
+            background: linear-gradient(transparent, rgba(0,0,0,0.4)) !important;
         }}
-        .nav-container .stButton button {{
+        
+        /* Force columns to display horizontally on mobile */
+        div[data-testid="stHorizontalBlock"] {{
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            gap: 6px !important;
+        }}
+        
+        div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {{
+            flex: 1 !important;
+            min-width: 0 !important;
+            width: auto !important;
+        }}
+        
+        /* Style the buttons */
+        .stButton button {{
             background: rgba(40, 40, 40, 0.85) !important;
             color: white !important;
             border: none !important;
-            border-radius: 18px !important;
-            height: 40px !important;
+            border-radius: 20px !important;
+            height: 44px !important;
             font-size: 14px !important;
             font-weight: 500 !important;
             backdrop-filter: blur(8px) !important;
             -webkit-backdrop-filter: blur(8px) !important;
             width: 100% !important;
+            padding: 0 8px !important;
         }}
-        .nav-container .stButton button:hover {{
+        .stButton button:hover {{
             background: rgba(40, 40, 40, 0.95) !important;
         }}
-        .nav-container .stButton button:disabled {{
+        .stButton button:disabled {{
             opacity: 0.4 !important;
         }}
+        
+        /* Info display styling */
         .info-display {{
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
-            padding: 8px 0;
+            padding: 8px 0 12px 0;
         }}
         .info-display .century {{
             color: white;
@@ -433,23 +453,20 @@ try:
     </style>
     """, unsafe_allow_html=True)
     
-    nav_container = st.container()
-    with nav_container:
-        st.markdown('<div class="nav-container">', unsafe_allow_html=True)
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            if st.button("◀ Prev", disabled=not can_go_prev, key="prev_btn", use_container_width=True):
-                st.session_state.selected_century = century_options[current_index - 1]
-                st.rerun()
-        with col2:
-            st.button("ℹ️", key="info_btn", use_container_width=True)
-        with col3:
-            if st.button("Next ▶", disabled=not can_go_next, key="next_btn", use_container_width=True):
-                st.session_state.selected_century = century_options[current_index + 1]
-                st.rerun()
-        
-        st.markdown(f'<div class="info-display"><span class="century">{century_display}</span><span class="count">{book_count_text}</span></div>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
+    # Create a horizontal row of buttons
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        if st.button("◀ Prev", disabled=not can_go_prev, key="prev_btn", use_container_width=True):
+            st.session_state.selected_century = century_options[current_index - 1]
+            st.rerun()
+    with col2:
+        st.button("ℹ️", key="info_btn", use_container_width=True)
+    with col3:
+        if st.button("Next ▶", disabled=not can_go_next, key="next_btn", use_container_width=True):
+            st.session_state.selected_century = century_options[current_index + 1]
+            st.rerun()
+    
+    st.markdown(f'<div class="info-display"><span class="century">{century_display}</span><span class="count">{book_count_text}</span></div>', unsafe_allow_html=True)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
