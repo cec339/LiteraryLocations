@@ -379,11 +379,9 @@ try:
 
     components.html(map_only_html, height=2000, scrolling=False)
     
-    # Navigation buttons - using form with hidden buttons for proper Streamlit state management
-    # Combined with visible HTML buttons
-    
-    prev_disabled = "disabled" if not can_go_prev else ""
-    next_disabled = "disabled" if not can_go_next else ""
+    # Navigation buttons using anchor tags for reliable navigation
+    prev_class = "disabled" if not can_go_prev else ""
+    next_class = "disabled" if not can_go_next else ""
     
     nav_html = f"""
     <style>
@@ -423,9 +421,14 @@ try:
         .nav-btn:hover {{
             background: rgba(40, 40, 40, 0.95);
         }}
-        .nav-btn:disabled {{
+        .nav-btn:disabled,
+        .nav-btn.disabled {{
             opacity: 0.4;
             cursor: not-allowed;
+            pointer-events: none;
+        }}
+        a.nav-btn {{
+            text-decoration: none;
         }}
         .info-row {{
             display: flex;
@@ -451,9 +454,9 @@ try:
     </style>
     <div class="bottom-nav">
         <div class="nav-buttons">
-            <button class="nav-btn" {prev_disabled} onclick="document.querySelector('[data-testid=\\'stBaseButton-secondary\\']:first-of-type').click()">◀ Prev</button>
-            <button class="nav-btn" onclick="alert('Legend: Red = Story Setting, Blue = Publication Location')">ℹ️</button>
-            <button class="nav-btn" {next_disabled} onclick="document.querySelector('[data-testid=\\'stBaseButton-secondary\\']:last-of-type').click()">Next ▶</button>
+            <a class="nav-btn {prev_class}" href="?nav=prev">◀ Prev</a>
+            <a class="nav-btn" href="#" title="Red markers = Story Setting, Blue markers = Publication Location">ℹ️</a>
+            <a class="nav-btn {next_class}" href="?nav=next">Next ▶</a>
         </div>
         <div class="info-row">
             <span class="century-label">{century_display}</span>
@@ -462,19 +465,6 @@ try:
     </div>
     """
     st.markdown(nav_html, unsafe_allow_html=True)
-    
-    # Hidden Streamlit buttons that actually handle state updates
-    st.markdown('<div style="position:fixed;left:-9999px;top:-9999px;">', unsafe_allow_html=True)
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("Prev", disabled=not can_go_prev, key="prev_btn"):
-            st.session_state.selected_century = century_options[current_index - 1]
-            st.rerun()
-    with col2:
-        if st.button("Next", disabled=not can_go_next, key="next_btn"):
-            st.session_state.selected_century = century_options[current_index + 1]
-            st.rerun()
-    st.markdown('</div>', unsafe_allow_html=True)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
