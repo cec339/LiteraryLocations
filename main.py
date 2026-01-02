@@ -109,6 +109,20 @@ try:
     prev_century = century_options[current_index - 1] if can_go_prev else None
     next_century = century_options[current_index + 1] if can_go_next else None
     
+    # Build button HTML outside f-string to avoid backslash issues
+    if can_go_prev:
+        prev_btn = '<button class="nav-btn" onclick="navigate(&quot;prev&quot;)">◀ Prev</button>'
+    else:
+        prev_btn = '<button class="nav-btn disabled">◀ Prev</button>'
+    
+    if can_go_next:
+        next_btn = '<button class="nav-btn" onclick="navigate(&quot;next&quot;)">Next ▶</button>'
+    else:
+        next_btn = '<button class="nav-btn disabled">Next ▶</button>'
+    
+    # Build book count text
+    book_count_text = f"{book_count} book" + ("s" if book_count != 1 else "")
+    
     map_only_html = f"""
     <!DOCTYPE html>
     <html>
@@ -280,18 +294,6 @@ try:
             <div class="legend-item"><div class="legend-dot blue"></div><span>Publication Location</span></div>
         </div>
         
-        <div class="controls">
-            <div class="button-row">
-                {'<a class="nav-btn disabled" href="#">◀ Prev</a>' if not can_go_prev else '<a class="nav-btn" href="?nav=prev" target="_top">◀ Prev</a>'}
-                <button class="nav-btn" onclick="toggleLegend()">ℹ️</button>
-                {'<a class="nav-btn disabled" href="#">Next ▶</a>' if not can_go_next else '<a class="nav-btn" href="?nav=next" target="_top">Next ▶</a>'}
-            </div>
-            <div class="info-bar">
-                <span class="century-label">{century_display}</span>
-                <span class="book-count">{book_count} book{'s' if book_count != 1 else ''}</span>
-            </div>
-        </div>
-        
         <script>
             function toggleLegend() {{
                 document.getElementById('legend').classList.toggle('show');
@@ -313,16 +315,16 @@ try:
     </html>
     """
 
-    st.markdown("""
+    st.markdown(f"""
     <style>
         /* Hide ALL Streamlit chrome */
         header[data-testid="stHeader"],
         .stDeployButton,
         #MainMenu,
         footer,
-        .stApp > header {
+        .stApp > header {{
             display: none !important;
-        }
+        }}
         
         /* Reset ALL Streamlit containers */
         .stApp,
@@ -332,24 +334,23 @@ try:
         [data-testid="stAppViewBlockContainer"],
         [data-testid="block-container"],
         .block-container,
-        div[data-testid="stVerticalBlock"] {
+        div[data-testid="stVerticalBlock"] {{
             padding: 0 !important;
             margin: 0 !important;
             max-width: 100% !important;
             width: 100% !important;
             background: transparent !important;
-        }
+        }}
         
         /* Sidebar styling */
-        section[data-testid="stSidebar"] {
+        section[data-testid="stSidebar"] {{
             background: rgba(255,255,255,0.98);
             z-index: 10000 !important;
-        }
+        }}
         
         /* Make iframe fill entire viewport */
         [data-testid="stHtml"],
-        .stHtml,
-        .element-container {
+        .stHtml {{
             position: fixed !important;
             top: 0 !important;
             left: 0 !important;
@@ -358,20 +359,97 @@ try:
             z-index: 1 !important;
             padding: 0 !important;
             margin: 0 !important;
-        }
+        }}
         
-        iframe {
+        iframe {{
             width: 100vw !important;
             height: 100vh !important;
             border: none !important;
             position: fixed !important;
             top: 0 !important;
             left: 0 !important;
-        }
+        }}
+        
+        /* Hide default button container styling */
+        div[data-testid="column"] > div {{
+            padding: 0 !important;
+        }}
     </style>
     """, unsafe_allow_html=True)
 
     components.html(map_only_html, height=2000, scrolling=False)
+    
+    # Navigation controls using Streamlit buttons - properly update session state
+    st.markdown(f"""
+    <style>
+        .nav-container {{
+            position: fixed !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            z-index: 10001 !important;
+            padding: 8px !important;
+            background: linear-gradient(transparent, rgba(0,0,0,0.3));
+        }}
+        .nav-container .stButton button {{
+            background: rgba(40, 40, 40, 0.85) !important;
+            color: white !important;
+            border: none !important;
+            border-radius: 18px !important;
+            height: 40px !important;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+            backdrop-filter: blur(8px) !important;
+            -webkit-backdrop-filter: blur(8px) !important;
+            width: 100% !important;
+        }}
+        .nav-container .stButton button:hover {{
+            background: rgba(40, 40, 40, 0.95) !important;
+        }}
+        .nav-container .stButton button:disabled {{
+            opacity: 0.4 !important;
+        }}
+        .info-display {{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 8px 0;
+        }}
+        .info-display .century {{
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+        }}
+        .info-display .count {{
+            background: rgba(66, 133, 244, 0.9);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 14px;
+            font-size: 13px;
+            font-weight: 500;
+        }}
+    </style>
+    """, unsafe_allow_html=True)
+    
+    nav_container = st.container()
+    with nav_container:
+        st.markdown('<div class="nav-container">', unsafe_allow_html=True)
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            if st.button("◀ Prev", disabled=not can_go_prev, key="prev_btn", use_container_width=True):
+                st.session_state.selected_century = century_options[current_index - 1]
+                st.rerun()
+        with col2:
+            st.button("ℹ️", key="info_btn", use_container_width=True)
+        with col3:
+            if st.button("Next ▶", disabled=not can_go_next, key="next_btn", use_container_width=True):
+                st.session_state.selected_century = century_options[current_index + 1]
+                st.rerun()
+        
+        st.markdown(f'<div class="info-display"><span class="century">{century_display}</span><span class="count">{book_count_text}</span></div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
