@@ -379,70 +379,68 @@ try:
 
     components.html(map_only_html, height=2000, scrolling=False)
     
-    # Navigation controls using Streamlit buttons - properly update session state
-    st.markdown(f"""
+    # Navigation buttons - using form with hidden buttons for proper Streamlit state management
+    # Combined with visible HTML buttons
+    
+    prev_disabled = "disabled" if not can_go_prev else ""
+    next_disabled = "disabled" if not can_go_next else ""
+    
+    nav_html = f"""
     <style>
-        /* Force the button container to fixed bottom position */
-        div[data-testid="stVerticalBlock"]:has(button[kind="secondary"]) {{
-            position: fixed !important;
-            bottom: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            z-index: 10001 !important;
-            padding: 8px !important;
-            background: linear-gradient(transparent, rgba(0,0,0,0.4)) !important;
+        .bottom-nav {{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 10001;
+            background: linear-gradient(transparent, rgba(0,0,0,0.5));
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
         }}
-        
-        /* Force columns to display horizontally on mobile */
-        div[data-testid="stHorizontalBlock"] {{
-            display: flex !important;
-            flex-direction: row !important;
-            flex-wrap: nowrap !important;
-            gap: 6px !important;
+        .nav-buttons {{
+            display: flex;
+            flex-direction: row;
+            gap: 6px;
         }}
-        
-        div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {{
-            flex: 1 !important;
-            min-width: 0 !important;
-            width: auto !important;
+        .nav-btn {{
+            flex: 1;
+            height: 44px;
+            border: none;
+            border-radius: 22px;
+            background: rgba(40, 40, 40, 0.85);
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }}
-        
-        /* Style the buttons */
-        .stButton button {{
-            background: rgba(40, 40, 40, 0.85) !important;
-            color: white !important;
-            border: none !important;
-            border-radius: 20px !important;
-            height: 44px !important;
-            font-size: 14px !important;
-            font-weight: 500 !important;
-            backdrop-filter: blur(8px) !important;
-            -webkit-backdrop-filter: blur(8px) !important;
-            width: 100% !important;
-            padding: 0 8px !important;
+        .nav-btn:hover {{
+            background: rgba(40, 40, 40, 0.95);
         }}
-        .stButton button:hover {{
-            background: rgba(40, 40, 40, 0.95) !important;
+        .nav-btn:disabled {{
+            opacity: 0.4;
+            cursor: not-allowed;
         }}
-        .stButton button:disabled {{
-            opacity: 0.4 !important;
-        }}
-        
-        /* Info display styling */
-        .info-display {{
+        .info-row {{
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
-            padding: 8px 0 12px 0;
+            padding: 4px 0 8px 0;
         }}
-        .info-display .century {{
+        .century-label {{
             color: white;
             font-size: 16px;
             font-weight: 600;
             text-shadow: 0 1px 3px rgba(0,0,0,0.5);
         }}
-        .info-display .count {{
+        .book-badge {{
             background: rgba(66, 133, 244, 0.9);
             color: white;
             padding: 4px 12px;
@@ -451,22 +449,32 @@ try:
             font-weight: 500;
         }}
     </style>
-    """, unsafe_allow_html=True)
+    <div class="bottom-nav">
+        <div class="nav-buttons">
+            <button class="nav-btn" {prev_disabled} onclick="document.querySelector('[data-testid=\\'stBaseButton-secondary\\']:first-of-type').click()">◀ Prev</button>
+            <button class="nav-btn" onclick="alert('Legend: Red = Story Setting, Blue = Publication Location')">ℹ️</button>
+            <button class="nav-btn" {next_disabled} onclick="document.querySelector('[data-testid=\\'stBaseButton-secondary\\']:last-of-type').click()">Next ▶</button>
+        </div>
+        <div class="info-row">
+            <span class="century-label">{century_display}</span>
+            <span class="book-badge">{book_count_text}</span>
+        </div>
+    </div>
+    """
+    st.markdown(nav_html, unsafe_allow_html=True)
     
-    # Create a horizontal row of buttons
-    col1, col2, col3 = st.columns(3)
+    # Hidden Streamlit buttons that actually handle state updates
+    st.markdown('<div style="position:fixed;left:-9999px;top:-9999px;">', unsafe_allow_html=True)
+    col1, col2 = st.columns(2)
     with col1:
-        if st.button("◀ Prev", disabled=not can_go_prev, key="prev_btn", use_container_width=True):
+        if st.button("Prev", disabled=not can_go_prev, key="prev_btn"):
             st.session_state.selected_century = century_options[current_index - 1]
             st.rerun()
     with col2:
-        st.button("ℹ️", key="info_btn", use_container_width=True)
-    with col3:
-        if st.button("Next ▶", disabled=not can_go_next, key="next_btn", use_container_width=True):
+        if st.button("Next", disabled=not can_go_next, key="next_btn"):
             st.session_state.selected_century = century_options[current_index + 1]
             st.rerun()
-    
-    st.markdown(f'<div class="info-display"><span class="century">{century_display}</span><span class="count">{book_count_text}</span></div>', unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
