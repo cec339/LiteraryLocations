@@ -126,44 +126,41 @@ try:
 
     st.markdown("""
     <style>
-        /* Hide Streamlit chrome */
-        .stApp > header { display: none !important; }
-        header[data-testid="stHeader"] { display: none !important; }
-        .stDeployButton { display: none !important; }
-        #MainMenu { display: none !important; }
-        footer { display: none !important; }
-        
-        /* Make the entire app a fixed container */
-        .stApp {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            bottom: 0 !important;
-            overflow: hidden !important;
+        /* Hide ALL Streamlit chrome elements */
+        header[data-testid="stHeader"],
+        .stDeployButton,
+        #MainMenu,
+        footer,
+        .stApp > header {
+            display: none !important;
         }
         
-        .main {
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            bottom: 0 !important;
+        /* Reset ALL Streamlit containers - use data-testid selectors */
+        [data-testid="stAppViewContainer"],
+        [data-testid="stAppViewBlockContainer"],
+        .stApp,
+        .main,
+        section.main {
             padding: 0 !important;
             margin: 0 !important;
-            overflow: hidden !important;
+            max-width: 100% !important;
+            width: 100% !important;
         }
         
-        .main .block-container { 
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            bottom: 0 !important;
-            padding: 0 !important; 
-            max-width: 100% !important;
+        /* Target the block container specifically */
+        [data-testid="block-container"],
+        .block-container,
+        div[data-testid="stVerticalBlock"] {
+            padding: 0 !important;
+            padding-top: 0 !important;
             margin: 0 !important;
-            overflow: hidden !important;
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+        
+        /* Override Streamlit's default top padding */
+        .stApp {
+            background: #1a1a2e !important;
         }
         
         /* Sidebar styling */
@@ -172,125 +169,154 @@ try:
             z-index: 10000 !important;
         }
         
-        /* Map fills entire viewport as background */
-        .stHtml { 
+        /* Make the iframe container fill the viewport */
+        [data-testid="stHtml"],
+        .stHtml,
+        .element-container:has(iframe) {
             position: fixed !important;
             top: 0 !important;
             left: 0 !important;
             width: 100vw !important;
             height: 100vh !important;
             z-index: 1 !important;
-        }
-        .stHtml > div { 
-            width: 100% !important; 
-            height: 100% !important;
-        }
-        .stHtml iframe { 
-            width: 100% !important; 
-            height: 100% !important;
-            border: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
         }
         
-        /* Bottom control bar */
+        [data-testid="stHtml"] > div,
+        .stHtml > div {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        iframe {
+            width: 100vw !important;
+            height: 100vh !important;
+            border: none !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+        
+        /* Bottom control bar with century info */
         .control-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(20, 20, 20, 0.4);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            padding: 8px 12px;
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
+            position: fixed !important;
+            bottom: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            background: rgba(20, 20, 20, 0.6) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            padding: 6px 12px !important;
+            z-index: 9999 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 12px !important;
+            height: 36px !important;
         }
         
         .century-label {
             color: white;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
             text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-            min-width: 70px;
-            text-align: center;
         }
         
         .book-count {
             color: rgba(255,255,255,0.9);
-            font-size: 13px;
-            background: rgba(31, 119, 180, 0.7);
-            padding: 4px 10px;
-            border-radius: 12px;
+            font-size: 12px;
+            background: rgba(31, 119, 180, 0.8);
+            padding: 3px 8px;
+            border-radius: 10px;
         }
         
+        /* Legend popup */
         .legend-toggle {
-            position: fixed;
-            bottom: 70px;
-            left: 12px;
-            background: rgba(20, 20, 20, 0.4);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-radius: 8px;
-            padding: 8px 12px;
-            z-index: 1000;
+            position: fixed !important;
+            bottom: 90px !important;
+            left: 8px !important;
+            background: rgba(20, 20, 20, 0.6) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            border-radius: 8px !important;
+            padding: 8px 12px !important;
+            z-index: 9999 !important;
         }
         
         .legend-content {
             color: white;
-            font-size: 12px;
+            font-size: 11px;
         }
         
         .legend-item {
             display: flex;
             align-items: center;
             gap: 6px;
-            margin: 4px 0;
+            margin: 3px 0;
         }
         
         .legend-dot {
-            width: 10px;
-            height: 10px;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
         }
         
         .legend-dot.red { background: #d63384; }
         .legend-dot.blue { background: #38A3D1; }
         
-        /* Streamlit button row - fixed at bottom */
-        div[data-testid="stHorizontalBlock"] {
+        /* BUTTON ROW - Force horizontal, no wrap, fixed at bottom */
+        [data-testid="stHorizontalBlock"] {
             position: fixed !important;
-            bottom: 50px !important;
-            left: 8px !important;
-            right: 8px !important;
-            z-index: 100 !important;
+            bottom: 42px !important;
+            left: 4px !important;
+            right: 4px !important;
+            z-index: 9998 !important;
             display: flex !important;
-            gap: 6px !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            gap: 4px !important;
             background: transparent !important;
-        }
-        
-        div[data-testid="column"] {
-            flex: 1 !important;
             padding: 0 !important;
+            margin: 0 !important;
         }
         
-        /* Style all buttons */
-        .stButton > button {
+        /* Each column equal width, no wrapping */
+        [data-testid="column"] {
+            flex: 1 1 0 !important;
+            min-width: 0 !important;
+            padding: 0 !important;
+            width: auto !important;
+        }
+        
+        /* Compact buttons */
+        .stButton,
+        [data-testid="stButton"] {
             width: 100% !important;
-            min-height: 44px !important;
-            border-radius: 22px !important;
-            background: rgba(30, 30, 30, 0.5) !important;
+        }
+        
+        .stButton > button,
+        [data-testid="stButton"] > button {
+            width: 100% !important;
+            height: 36px !important;
+            min-height: 36px !important;
+            max-height: 36px !important;
+            padding: 0 8px !important;
+            border-radius: 18px !important;
+            background: rgba(30, 30, 30, 0.6) !important;
             backdrop-filter: blur(8px) !important;
             -webkit-backdrop-filter: blur(8px) !important;
-            border: 1px solid rgba(255,255,255,0.2) !important;
+            border: 1px solid rgba(255,255,255,0.25) !important;
             color: white !important;
-            font-weight: 600 !important;
-            font-size: 14px !important;
+            font-weight: 500 !important;
+            font-size: 11px !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
         }
         
         .stButton > button:hover {
-            background: rgba(30, 30, 30, 0.7) !important;
+            background: rgba(30, 30, 30, 0.8) !important;
             border-color: rgba(255,255,255,0.4) !important;
         }
         
@@ -298,37 +324,14 @@ try:
             opacity: 0.4 !important;
         }
         
-        /* Hide hr and other elements */
-        hr { display: none !important; }
-        h2, h3 { display: none !important; }
-        .stExpander { display: none !important; }
-        
-        @media (max-width: 768px) {
-            div[data-testid="stHorizontalBlock"] {
-                bottom: 45px !important;
-                left: 4px !important;
-                right: 4px !important;
-                gap: 4px !important;
-            }
-            
-            .stButton > button {
-                font-size: 12px !important;
-                min-height: 40px !important;
-            }
-            
-            .control-bar {
-                padding: 6px 8px;
-            }
-            
-            .century-label {
-                font-size: 16px;
-                min-width: 60px;
-            }
+        /* Hide other Streamlit elements */
+        hr, .stMarkdown h2, .stMarkdown h3, .stExpander {
+            display: none !important;
         }
     </style>
     """, unsafe_allow_html=True)
 
-    components.html(map_only_html, height=2000, scrolling=False)
+    components.html(map_only_html, height=800, scrolling=False)
 
     if st.session_state.show_legend:
         st.markdown("""
