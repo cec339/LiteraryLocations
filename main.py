@@ -376,9 +376,18 @@ try:
                 padding: 12px 8px 16px 8px !important;
             }}
             
-            /* Button row styling */
+            /* Button row styling - force horizontal on all screen sizes */
             div[data-testid="stHorizontalBlock"] {{
                 gap: 8px !important;
+                flex-wrap: nowrap !important;
+                flex-direction: row !important;
+            }}
+            
+            /* Force columns to stay equal width and not wrap */
+            div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
+                flex: 1 1 0 !important;
+                min-width: 0 !important;
+                width: auto !important;
             }}
             
             div[data-testid="stHorizontalBlock"] .stButton > button {{
