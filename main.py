@@ -28,24 +28,21 @@ if 'century_updated' not in st.session_state:
 
 century_options = list(range(-20, 0)) + list(range(1, 22))
 
-query_params = st.query_params
-if 'nav' in query_params:
-    nav_action = query_params.get('nav', '')
-    if isinstance(nav_action, list):
-        nav_action = nav_action[0] if nav_action else ''
-    
+def go_prev():
     try:
         current_index = century_options.index(st.session_state.selected_century)
     except ValueError:
         current_index = century_options.index(19)
-    
-    if nav_action == 'prev' and current_index > 0:
+    if current_index > 0:
         st.session_state.selected_century = century_options[current_index - 1]
-    elif nav_action == 'next' and current_index < len(century_options) - 1:
+
+def go_next():
+    try:
+        current_index = century_options.index(st.session_state.selected_century)
+    except ValueError:
+        current_index = century_options.index(19)
+    if current_index < len(century_options) - 1:
         st.session_state.selected_century = century_options[current_index + 1]
-    
-    st.query_params.clear()
-    st.rerun()
 
 with st.sidebar:
     st.header("🔍 Search Books")
@@ -106,20 +103,6 @@ try:
         if literary_map:
             folium_html = literary_map._repr_html_()
 
-    prev_century = century_options[current_index - 1] if can_go_prev else None
-    next_century = century_options[current_index + 1] if can_go_next else None
-    
-    # Build button HTML outside f-string to avoid backslash issues
-    if can_go_prev:
-        prev_btn = '<button class="nav-btn" onclick="navigate(&quot;prev&quot;)">◀ Prev</button>'
-    else:
-        prev_btn = '<button class="nav-btn disabled">◀ Prev</button>'
-    
-    if can_go_next:
-        next_btn = '<button class="nav-btn" onclick="navigate(&quot;next&quot;)">Next ▶</button>'
-    else:
-        next_btn = '<button class="nav-btn disabled">Next ▶</button>'
-    
     # Build book count text
     book_count_text = f"{book_count} book" + ("s" if book_count != 1 else "")
     
@@ -379,92 +362,81 @@ try:
 
     components.html(map_only_html, height=2000, scrolling=False)
     
-    # Navigation buttons using anchor tags for reliable navigation
-    prev_class = "disabled" if not can_go_prev else ""
-    next_class = "disabled" if not can_go_next else ""
-    
-    nav_html = f"""
-    <style>
-        .bottom-nav {{
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 10001;
-            background: linear-gradient(transparent, rgba(0,0,0,0.5));
-            padding: 8px;
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }}
-        .nav-buttons {{
-            display: flex;
-            flex-direction: row;
-            gap: 6px;
-        }}
-        .nav-btn {{
-            flex: 1;
-            height: 44px;
-            border: none;
-            border-radius: 22px;
-            background: rgba(40, 40, 40, 0.85);
-            color: white;
-            font-size: 14px;
-            font-weight: 500;
-            cursor: pointer;
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }}
-        .nav-btn:hover {{
-            background: rgba(40, 40, 40, 0.95);
-        }}
-        .nav-btn:disabled,
-        .nav-btn.disabled {{
-            opacity: 0.4;
-            cursor: not-allowed;
-            pointer-events: none;
-        }}
-        a.nav-btn {{
-            text-decoration: none;
-        }}
-        .info-row {{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            padding: 4px 0 8px 0;
-        }}
-        .century-label {{
-            color: white;
-            font-size: 16px;
-            font-weight: 600;
-            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-        }}
-        .book-badge {{
-            background: rgba(66, 133, 244, 0.9);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 14px;
-            font-size: 13px;
-            font-weight: 500;
-        }}
-    </style>
-    <div class="bottom-nav">
-        <div class="nav-buttons">
-            <a class="nav-btn {prev_class}" href="?nav=prev">◀ Prev</a>
-            <a class="nav-btn" href="#" title="Red markers = Story Setting, Blue markers = Publication Location">ℹ️</a>
-            <a class="nav-btn {next_class}" href="?nav=next">Next ▶</a>
-        </div>
+    with st.container():
+        st.markdown(f"""
+        <style>
+            /* Fixed bottom control panel */
+            div[data-testid="stVerticalBlock"]:has(> div[data-testid="stHorizontalBlock"]) {{
+                position: fixed !important;
+                bottom: 0 !important;
+                left: 0 !important;
+                right: 0 !important;
+                z-index: 10001 !important;
+                background: linear-gradient(transparent, rgba(0,0,0,0.7)) !important;
+                padding: 12px 8px 16px 8px !important;
+            }}
+            
+            /* Button row styling */
+            div[data-testid="stHorizontalBlock"] {{
+                gap: 8px !important;
+            }}
+            
+            div[data-testid="stHorizontalBlock"] .stButton > button {{
+                height: 44px !important;
+                border-radius: 22px !important;
+                background: rgba(50, 50, 50, 0.9) !important;
+                color: white !important;
+                border: none !important;
+                font-size: 14px !important;
+                font-weight: 500 !important;
+            }}
+            
+            div[data-testid="stHorizontalBlock"] .stButton > button:hover {{
+                background: rgba(70, 70, 70, 0.95) !important;
+            }}
+            
+            div[data-testid="stHorizontalBlock"] .stButton > button:disabled {{
+                opacity: 0.4 !important;
+            }}
+            
+            .info-row {{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 8px 0 4px 0;
+            }}
+            .century-label {{
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            }}
+            .book-badge {{
+                background: rgba(66, 133, 244, 0.9);
+                color: white;
+                padding: 4px 12px;
+                border-radius: 14px;
+                font-size: 13px;
+                font-weight: 500;
+            }}
+        </style>
+        """, unsafe_allow_html=True)
+        
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.button("◀ Prev", on_click=go_prev, disabled=not can_go_prev, use_container_width=True)
+        with col2:
+            st.button("ℹ️ Legend", use_container_width=True, help="🔴 Red = Story Setting, 🔵 Blue = Publication Location")
+        with col3:
+            st.button("Next ▶", on_click=go_next, disabled=not can_go_next, use_container_width=True)
+        
+        st.markdown(f"""
         <div class="info-row">
             <span class="century-label">{century_display}</span>
             <span class="book-badge">{book_count_text}</span>
         </div>
-    </div>
-    """
-    st.markdown(nav_html, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
