@@ -374,6 +374,9 @@ try:
                 z-index: 10001 !important;
                 background: linear-gradient(transparent, rgba(0,0,0,0.7)) !important;
                 padding: 12px 8px 16px 8px !important;
+                box-sizing: border-box !important;
+                max-width: 100vw !important;
+                width: 100% !important;
             }}
             
             /* Button row styling - force horizontal on all screen sizes */
@@ -381,6 +384,9 @@ try:
                 gap: 8px !important;
                 flex-wrap: nowrap !important;
                 flex-direction: row !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box !important;
             }}
             
             /* Force columns to stay equal width and not wrap */
