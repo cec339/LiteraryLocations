@@ -379,76 +379,84 @@ try:
     
     st.markdown(f"""
     <style>
-        /* Navigation controls container */
-        .stElementContainer:has(.nav-wrapper) {{
+        /* Hide default Streamlit padding */
+        section[data-testid="stMain"] > div {{
+            padding-bottom: 0 !important;
+            padding-top: 0 !important;
+        }}
+        
+        /* Make the main content area fill viewport */
+        section[data-testid="stMain"] {{
+            height: 100vh !important;
+            overflow: hidden !important;
+        }}
+        
+        /* Hide the header if present */
+        header[data-testid="stHeader"] {{
+            display: none !important;
+        }}
+        
+        /* Force the main block to take full height */
+        div[data-testid="stMainBlockContainer"] {{
+            height: 100vh !important;
+            padding: 0 !important;
+            max-width: none !important;
+        }}
+        
+        /* The vertical block inside main */
+        div[data-testid="stMainBlockContainer"] > div[data-testid="stVerticalBlock"] {{
+            height: 100vh !important;
+            position: relative !important;
+        }}
+        
+        /* Position the horizontal block (buttons) at the bottom */
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] {{
             position: fixed !important;
-            bottom: 8px !important;
+            bottom: 50px !important;
             left: 50% !important;
             transform: translateX(-50%) !important;
-            width: min(400px, calc(100% - 16px)) !important;
+            width: calc(100vw - 16px) !important;
+            max-width: 340px !important;
             z-index: 10001 !important;
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            gap: 6px !important;
             padding: 0 !important;
             margin: 0 !important;
         }}
         
-        .nav-wrapper {{
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }}
-        
-        .info-bar {{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            padding: 6px 12px;
-            background: rgba(30, 30, 30, 0.85);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            border-radius: 16px;
-        }}
-        
-        .century-label {{
-            color: white;
-            font-size: 16px;
-            font-weight: 600;
-        }}
-        
-        .book-count {{
-            background: rgba(31, 119, 180, 0.9);
-            color: white;
-            font-size: 12px;
-            padding: 3px 10px;
-            border-radius: 12px;
-        }}
-        
-        /* Force buttons to stay in horizontal row on all screen sizes */
-        div[data-testid="stHorizontalBlock"] {{
-            display: flex !important;
-            flex-direction: row !important;
-            flex-wrap: nowrap !important;
-            gap: 8px !important;
-            width: 100% !important;
-        }}
-        
-        div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
+        /* Force columns to not stack */
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
             flex: 1 1 0 !important;
             min-width: 0 !important;
             width: auto !important;
+            max-width: none !important;
         }}
         
-        /* Style buttons */
+        /* Specific mobile override */
+        @media (max-width: 768px) {{
+            div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
+                flex: 1 1 0 !important;
+                min-width: 0 !important;
+                width: auto !important;
+            }}
+        }}
+        
+        /* Style the buttons */
         .stButton button {{
             width: 100% !important;
-            height: 44px !important;
-            border-radius: 22px !important;
-            background: rgba(40, 40, 40, 0.85) !important;
+            height: 40px !important;
+            border-radius: 20px !important;
+            background: rgba(40, 40, 40, 0.9) !important;
             color: white !important;
-            font-size: 14px !important;
+            font-size: 12px !important;
             font-weight: 500 !important;
             border: none !important;
             backdrop-filter: blur(8px) !important;
+            -webkit-backdrop-filter: blur(8px) !important;
+            padding: 0 4px !important;
+            white-space: nowrap !important;
         }}
         
         .stButton button:hover {{
@@ -459,46 +467,82 @@ try:
         .stButton button:disabled {{
             opacity: 0.4 !important;
         }}
+        
+        /* Style the popover button to match */
+        button[data-testid="stPopoverButton"] {{
+            width: 100% !important;
+            height: 40px !important;
+            border-radius: 20px !important;
+            background: rgba(40, 40, 40, 0.9) !important;
+            color: white !important;
+            font-size: 12px !important;
+            font-weight: 500 !important;
+            border: none !important;
+            backdrop-filter: blur(8px) !important;
+        }}
+        
+        /* Info bar - position at bottom below buttons */
+        .info-bar {{
+            position: fixed !important;
+            bottom: 8px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            z-index: 10001 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 10px !important;
+            padding: 6px 16px !important;
+            background: rgba(30, 30, 30, 0.9) !important;
+            backdrop-filter: blur(8px) !important;
+            -webkit-backdrop-filter: blur(8px) !important;
+            border-radius: 16px !important;
+        }}
+        
+        .century-label {{
+            color: white !important;
+            font-size: 15px !important;
+            font-weight: 600 !important;
+        }}
+        
+        .book-count {{
+            background: rgba(31, 119, 180, 0.9) !important;
+            color: white !important;
+            font-size: 11px !important;
+            padding: 2px 8px !important;
+            border-radius: 10px !important;
+        }}
     </style>
-    <div class="nav-wrapper">
     """, unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns(3)
     with col1:
         if can_go_prev:
-            if st.button("◀ Prev", use_container_width=True):
+            if st.button("◀ Prev", use_container_width=True, key="prev_btn"):
                 st.query_params["century"] = str(prev_century)
                 st.rerun()
         else:
-            st.button("◀ Prev", disabled=True, use_container_width=True)
+            st.button("◀ Prev", disabled=True, use_container_width=True, key="prev_btn_disabled")
     with col2:
-        with st.popover("ℹ️ Legend", use_container_width=True):
+        with st.popover("ℹ️", use_container_width=True):
             st.markdown("""
-            <div style="color: #333; font-size: 14px;">
-                <div style="display: flex; align-items: center; gap: 8px; margin: 4px 0;">
-                    <div style="width: 12px; height: 12px; background: #d63384; border-radius: 50%;"></div>
-                    <span>Story Setting</span>
-                </div>
-                <div style="display: flex; align-items: center; gap: 8px; margin: 4px 0;">
-                    <div style="width: 12px; height: 12px; background: #38A3D1; border-radius: 50%;"></div>
-                    <span>Publication Location</span>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+**Map Legend**
+- 🔴 **Red markers**: Story Setting
+- 🔵 **Blue markers**: Publication Location
+            """)
     with col3:
         if can_go_next:
-            if st.button("Next ▶", use_container_width=True):
+            if st.button("Next ▶", use_container_width=True, key="next_btn"):
                 st.query_params["century"] = str(next_century)
                 st.rerun()
         else:
-            st.button("Next ▶", disabled=True, use_container_width=True)
+            st.button("Next ▶", disabled=True, use_container_width=True, key="next_btn_disabled")
     
     st.markdown(f"""
         <div class="info-bar">
             <span class="century-label">{century_display}</span>
             <span class="book-count">{book_count_text}</span>
         </div>
-    </div>
     """, unsafe_allow_html=True)
 
 except Exception as e:
