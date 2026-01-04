@@ -384,8 +384,8 @@ try:
                 gap: 8px !important;
                 flex-wrap: nowrap !important;
                 flex-direction: row !important;
-                width: 100% !important;
-                max-width: 100% !important;
+                max-width: 400px !important;
+                margin: 0 auto !important;
                 box-sizing: border-box !important;
             }}
             
