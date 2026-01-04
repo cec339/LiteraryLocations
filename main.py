@@ -19,6 +19,15 @@ st.set_page_config(
 with open("styles/custom.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+query_params = st.query_params
+if 'century' in query_params:
+    try:
+        requested_century = int(query_params['century'])
+        if requested_century in list(range(-20, 0)) + list(range(1, 22)):
+            st.session_state.selected_century = requested_century
+    except (ValueError, TypeError):
+        pass
+
 if 'selected_century' not in st.session_state:
     st.session_state.selected_century = 19
 if 'last_search_query' not in st.session_state:
@@ -59,6 +68,7 @@ with st.sidebar:
                 'century' in search_results.columns):
                 most_common_century = search_results['century'].mode()[0]
                 st.session_state.selected_century = int(most_common_century)
+                st.query_params["century"] = str(int(most_common_century))
                 st.session_state.last_search_query = search_query
                 st.session_state.century_updated = True
                 st.rerun()
@@ -95,6 +105,8 @@ try:
     
     can_go_prev = current_index > 0
     can_go_next = current_index < len(century_options) - 1
+    prev_century = century_options[current_index - 1] if can_go_prev else None
+    next_century = century_options[current_index + 1] if can_go_next else None
 
     literary_map = None
     folium_html = ""
@@ -155,9 +167,10 @@ try:
             /* Bottom control bar */
             .controls {{
                 position: fixed;
-                bottom: 0;
-                left: 0;
-                right: 0;
+                bottom: calc(env(safe-area-inset-bottom, 0px) + 8px);
+                left: 50%;
+                transform: translateX(-50%);
+                width: min(400px, calc(100% - 16px));
                 z-index: 10000;
                 display: flex;
                 flex-direction: column;
@@ -166,14 +179,14 @@ try:
             
             .button-row {{
                 display: flex;
-                gap: 4px;
-                padding: 4px 4px 4px 4px;
+                gap: 8px;
                 pointer-events: auto;
             }}
             
             .nav-btn {{
-                flex: 1;
-                height: 32px;
+                flex: 1 1 0;
+                min-width: 0;
+                height: 44px;
                 border: none;
                 border-radius: 16px;
                 background: rgba(40, 40, 40, 0.75);
@@ -331,7 +344,7 @@ try:
             z-index: 10000 !important;
         }}
         
-        /* Make iframe fill entire viewport */
+        /* Make iframe fill entire viewport but allow clicks through to controls */
         [data-testid="stHtml"],
         .stHtml {{
             position: fixed !important;
@@ -342,6 +355,7 @@ try:
             z-index: 1 !important;
             padding: 0 !important;
             margin: 0 !important;
+            pointer-events: auto;
         }}
         
         iframe {{
@@ -351,6 +365,7 @@ try:
             position: fixed !important;
             top: 0 !important;
             left: 0 !important;
+            pointer-events: auto;
         }}
         
         /* Hide default button container styling */
@@ -362,96 +377,129 @@ try:
 
     components.html(map_only_html, height=2000, scrolling=False)
     
-    with st.container():
-        st.markdown(f"""
-        <style>
-            /* Fixed bottom control panel */
-            div[data-testid="stVerticalBlock"]:has(> div[data-testid="stHorizontalBlock"]) {{
-                position: fixed !important;
-                bottom: 0 !important;
-                left: 0 !important;
-                right: 0 !important;
-                z-index: 10001 !important;
-                background: linear-gradient(transparent, rgba(0,0,0,0.7)) !important;
-                padding: 12px 8px 16px 8px !important;
-                box-sizing: border-box !important;
-                max-width: 100vw !important;
-                width: 100% !important;
-            }}
-            
-            /* Button row styling - force horizontal on all screen sizes */
-            div[data-testid="stHorizontalBlock"] {{
-                gap: 8px !important;
-                flex-wrap: nowrap !important;
-                flex-direction: row !important;
-                max-width: 400px !important;
-                margin: 0 auto !important;
-                box-sizing: border-box !important;
-            }}
-            
-            /* Force columns to stay equal width and not wrap */
-            div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
-                flex: 1 1 0 !important;
-                min-width: 0 !important;
-                width: auto !important;
-            }}
-            
-            div[data-testid="stHorizontalBlock"] .stButton > button {{
-                height: 44px !important;
-                border-radius: 22px !important;
-                background: rgba(50, 50, 50, 0.9) !important;
-                color: white !important;
-                border: none !important;
-                font-size: 14px !important;
-                font-weight: 500 !important;
-            }}
-            
-            div[data-testid="stHorizontalBlock"] .stButton > button:hover {{
-                background: rgba(70, 70, 70, 0.95) !important;
-            }}
-            
-            div[data-testid="stHorizontalBlock"] .stButton > button:disabled {{
-                opacity: 0.4 !important;
-            }}
-            
-            .info-row {{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 10px;
-                padding: 8px 0 4px 0;
-            }}
-            .century-label {{
-                color: white;
-                font-size: 18px;
-                font-weight: 600;
-                text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-            }}
-            .book-badge {{
-                background: rgba(66, 133, 244, 0.9);
-                color: white;
-                padding: 4px 12px;
-                border-radius: 14px;
-                font-size: 13px;
-                font-weight: 500;
-            }}
-        </style>
-        """, unsafe_allow_html=True)
+    st.markdown(f"""
+    <style>
+        /* Navigation controls container */
+        .stElementContainer:has(.nav-wrapper) {{
+            position: fixed !important;
+            bottom: 8px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            width: min(400px, calc(100% - 16px)) !important;
+            z-index: 10001 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }}
         
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.button("◀ Prev", on_click=go_prev, disabled=not can_go_prev, use_container_width=True)
-        with col2:
-            st.button("ℹ️ Legend", use_container_width=True, help="🔴 Red = Story Setting, 🔵 Blue = Publication Location")
-        with col3:
-            st.button("Next ▶", on_click=go_next, disabled=not can_go_next, use_container_width=True)
+        .nav-wrapper {{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }}
         
-        st.markdown(f"""
-        <div class="info-row">
+        .info-bar {{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 6px 12px;
+            background: rgba(30, 30, 30, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-radius: 16px;
+        }}
+        
+        .century-label {{
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+        }}
+        
+        .book-count {{
+            background: rgba(31, 119, 180, 0.9);
+            color: white;
+            font-size: 12px;
+            padding: 3px 10px;
+            border-radius: 12px;
+        }}
+        
+        /* Force buttons to stay in horizontal row on all screen sizes */
+        div[data-testid="stHorizontalBlock"] {{
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            gap: 8px !important;
+            width: 100% !important;
+        }}
+        
+        div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
+            flex: 1 1 0 !important;
+            min-width: 0 !important;
+            width: auto !important;
+        }}
+        
+        /* Style buttons */
+        .stButton button {{
+            width: 100% !important;
+            height: 44px !important;
+            border-radius: 22px !important;
+            background: rgba(40, 40, 40, 0.85) !important;
+            color: white !important;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+            border: none !important;
+            backdrop-filter: blur(8px) !important;
+        }}
+        
+        .stButton button:hover {{
+            background: rgba(60, 60, 60, 0.95) !important;
+            color: white !important;
+        }}
+        
+        .stButton button:disabled {{
+            opacity: 0.4 !important;
+        }}
+    </style>
+    <div class="nav-wrapper">
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        if can_go_prev:
+            if st.button("◀ Prev", use_container_width=True):
+                st.query_params["century"] = str(prev_century)
+                st.rerun()
+        else:
+            st.button("◀ Prev", disabled=True, use_container_width=True)
+    with col2:
+        with st.popover("ℹ️ Legend", use_container_width=True):
+            st.markdown("""
+            <div style="color: #333; font-size: 14px;">
+                <div style="display: flex; align-items: center; gap: 8px; margin: 4px 0;">
+                    <div style="width: 12px; height: 12px; background: #d63384; border-radius: 50%;"></div>
+                    <span>Story Setting</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px; margin: 4px 0;">
+                    <div style="width: 12px; height: 12px; background: #38A3D1; border-radius: 50%;"></div>
+                    <span>Publication Location</span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+    with col3:
+        if can_go_next:
+            if st.button("Next ▶", use_container_width=True):
+                st.query_params["century"] = str(next_century)
+                st.rerun()
+        else:
+            st.button("Next ▶", disabled=True, use_container_width=True)
+    
+    st.markdown(f"""
+        <div class="info-bar">
             <span class="century-label">{century_display}</span>
-            <span class="book-badge">{book_count_text}</span>
+            <span class="book-count">{book_count_text}</span>
         </div>
-        """, unsafe_allow_html=True)
+    </div>
+    """, unsafe_allow_html=True)
 
 except Exception as e:
     st.error(f"An error occurred: {str(e)}")
