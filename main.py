@@ -19,6 +19,9 @@ st.set_page_config(
 with open("styles/custom.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+if 'selected_century' not in st.session_state:
+    st.session_state.selected_century = 19
+
 query_params = st.query_params
 if 'century' in query_params:
     try:
@@ -27,9 +30,6 @@ if 'century' in query_params:
             st.session_state.selected_century = requested_century
     except (ValueError, TypeError):
         pass
-
-if 'selected_century' not in st.session_state:
-    st.session_state.selected_century = 19
 if 'last_search_query' not in st.session_state:
     st.session_state.last_search_query = ""
 if 'century_updated' not in st.session_state:
@@ -409,38 +409,56 @@ try:
             position: relative !important;
         }}
         
-        /* Position the horizontal block (buttons) at the bottom */
+        /* Hide sidebar on mobile */
+        @media (max-width: 768px) {{
+            section[data-testid="stSidebar"] {{
+                display: none !important;
+            }}
+            button[data-testid="stSidebarCollapsedControl"] {{
+                display: none !important;
+            }}
+        }}
+        
+        /* Position the horizontal block (buttons) at the bottom - with scaling for mobile */
         div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] {{
             position: fixed !important;
             bottom: 50px !important;
             left: 50% !important;
-            transform: translateX(-50%) !important;
-            width: calc(100vw - 16px) !important;
-            max-width: 340px !important;
+            transform: translateX(-50%) scale(var(--btn-scale, 1)) !important;
+            transform-origin: center bottom !important;
+            width: 300px !important;
             z-index: 10001 !important;
             display: flex !important;
             flex-direction: row !important;
             flex-wrap: nowrap !important;
-            gap: 6px !important;
+            gap: 4px !important;
             padding: 0 !important;
             margin: 0 !important;
         }}
         
-        /* Force columns to not stack */
-        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
-            flex: 1 1 0 !important;
-            min-width: 0 !important;
-            width: auto !important;
-            max-width: none !important;
+        /* Scale down on narrow viewports */
+        @media (max-width: 320px) {{
+            div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] {{
+                --btn-scale: 0.9 !important;
+            }}
         }}
         
-        /* Specific mobile override */
-        @media (max-width: 768px) {{
-            div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {{
-                flex: 1 1 0 !important;
-                min-width: 0 !important;
-                width: auto !important;
-            }}
+        /* Force columns to equal width */
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div[data-testid="column"],
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div {{
+            flex: 1 1 0 !important;
+            min-width: 0 !important;
+            width: 96px !important;
+            max-width: 96px !important;
+        }}
+        
+        /* Force ALL nested containers */
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] > div > div,
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] .stButton,
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] .stPopover,
+        div[data-testid="stMainBlockContainer"] div[data-testid="stHorizontalBlock"] .stElementContainer {{
+            width: 100% !important;
+            max-width: 96px !important;
         }}
         
         /* Style the buttons */
@@ -519,6 +537,7 @@ try:
     with col1:
         if can_go_prev:
             if st.button("◀ Prev", use_container_width=True, key="prev_btn"):
+                st.session_state.selected_century = prev_century
                 st.query_params["century"] = str(prev_century)
                 st.rerun()
         else:
@@ -533,6 +552,7 @@ try:
     with col3:
         if can_go_next:
             if st.button("Next ▶", use_container_width=True, key="next_btn"):
+                st.session_state.selected_century = next_century
                 st.query_params["century"] = str(next_century)
                 st.rerun()
         else:
