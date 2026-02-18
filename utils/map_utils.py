@@ -3,6 +3,16 @@ from folium.plugins import MarkerCluster
 import streamlit as st
 import pandas as pd
 
+def _ordinal(n):
+    """Return ordinal string for an integer (1 -> '1st', -5 -> '5th BCE')."""
+    a = abs(n)
+    if 11 <= (a % 100) <= 13:
+        suffix = "th"
+    else:
+        suffix = ['th', 'st', 'nd', 'rd', 'th'][min(a % 10, 4)]
+    era = " BCE" if n < 0 else ""
+    return f"{a}{suffix}{era}"
+
 def create_base_map():
     """Create the base world map."""
     return folium.Map(
@@ -44,7 +54,8 @@ def create_literature_map(books_df):
         literary_map = folium.Map(
             location=[avg_lat, avg_lon],
             zoom_start=3,
-            tiles='CartoDB positron'
+            tiles='CartoDB positron',
+            world_copy_jump=True
         )
 
         # Add marker cluster
@@ -69,12 +80,12 @@ def create_literature_map(books_df):
                 <div style='width: 280px; font-family: Arial, sans-serif;'>
                     <h4 style='margin-bottom: 10px; color: #2E4057;'>{book['title']}</h4>
                     <p><b>Author:</b> {book['author']}</p>
-                    <p><b>Year:</b> {book['year']}</p>
-                    <p><b>Century:</b> {book.get('century', 'Unknown')}th</p>
+                    <p><b>Year:</b> {abs(book['year'])} {"BCE" if book['year'] < 0 else ""}</p>
+                    <p><b>Century:</b> {_ordinal(book.get('century', 0))}</p>
                     <p><b>Location:</b> {location_name}</p>
                     <p><b>Type:</b> {location_desc}</p>
-                    <p><b>Summary:</b> {book['summary'][:150]}{'...' if len(book['summary']) > 150 else ''}</p>
-                    <p><b>Historical Context:</b> {book['historical_context'][:150]}{'...' if len(book['historical_context']) > 150 else ''}</p>
+                    <p><b>Summary:</b> {book['summary'][:300]}{'...' if len(book['summary']) > 300 else ''}</p>
+                    <p><b>Historical Context:</b> {book['historical_context'][:300]}{'...' if len(book['historical_context']) > 300 else ''}</p>
                 </div>
             """
 

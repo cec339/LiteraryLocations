@@ -1,12 +1,14 @@
 import json
+import re
 import pandas as pd
+import streamlit as st
 from pathlib import Path
 
 def determine_location_type_and_coordinates(book):
     """
     Determine location type and coordinates based on improved logic:
     1. Primary setting -> RED marker (actual story location)
-    2. Publication location for fictional/metaphysical -> BLUE marker 
+    2. Publication location for fictional/metaphysical -> BLUE marker
     """
 
     title = book.get('title', '')
@@ -21,9 +23,11 @@ def determine_location_type_and_coordinates(book):
         return coords, "publication"
 
     # Classify location types based on content
+    # Use word-boundary matching to avoid false positives (e.g. "eden" in "Sweden")
     fictional_keywords = ["fictional", "multiple settings", "various", "heaven", "hell", "paradise", "purgatory", "eden", "atlantis", "utopia", "dystopia", "wonderland", "neverland", "camelot"]
 
-    if any(keyword in location_name.lower() for keyword in fictional_keywords):
+    loc_lower = location_name.lower()
+    if any(re.search(r'\b' + re.escape(keyword) + r'\b', loc_lower) for keyword in fictional_keywords):
         # Use publication location for fictional/metaphysical settings
         pub_coords, _ = get_publication_coordinates(author, year)
         return pub_coords, "publication"
@@ -169,11 +173,12 @@ def get_publication_coordinates(author, year):
     else:
         return [40.7128, -74.0060], "publication"  # New York for modern
 
+@st.cache_data
 def load_book_data():
     """Load and process book data from single JSON file."""
     try:
         # Load books data from consolidated file
-        with open(Path("data/books.json"), "r") as f:
+        with open(Path("data/books.json"), "r", encoding="utf-8") as f:
             data = json.load(f)
 
         # Process each book with the improved location logic
