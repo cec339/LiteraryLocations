@@ -22,6 +22,23 @@ def create_base_map():
         min_zoom=2
     )
 
+def create_base_map_html():
+    """Create base map HTML with MarkerCluster JS/CSS dependencies loaded but no markers.
+    Returns the raw inner HTML (not wrapped in iframe srcdoc)."""
+    m = folium.Map(
+        location=[20, 0],
+        zoom_start=3,
+        tiles='CartoDB positron',
+        world_copy_jump=True
+    )
+    # Add an empty MarkerCluster so Folium includes the JS/CSS deps
+    MarkerCluster().add_to(m)
+    # get_root().render() gives us the raw HTML document, not the iframe-wrapped version
+    html = m.get_root().render()
+    # Move zoom controls to top-right so timeline doesn't cover them
+    html = html.replace('</head>', '<style>.leaflet-top.leaflet-left{left:auto!important;right:10px!important;}</style></head>')
+    return html
+
 def get_marker_icon(location_type):
     """Get the appropriate marker icon based on location type."""
     icon_colors = {
@@ -53,7 +70,7 @@ def create_literature_map(books_df):
 
         literary_map = folium.Map(
             location=[avg_lat, avg_lon],
-            zoom_start=3,
+            zoom_start=5,
             tiles='CartoDB positron',
             world_copy_jump=True
         )
