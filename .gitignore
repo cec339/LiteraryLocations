@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.tmp*
+.claude/
+ngrok*
+*.zip
+*.exe
+.env
+.venv/
+venv/
+.DS_Store
