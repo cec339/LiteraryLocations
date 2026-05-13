@@ -1,0 +1,437 @@
+{
+  "Emily Brontë": {
+    "lat": 53.8008,
+    "lng": -1.5491,
+    "note": "West Yorkshire"
+  },
+  "Charlotte Brontë": {
+    "lat": 53.8008,
+    "lng": -1.5491,
+    "note": ""
+  },
+  "Anne Brontë": {
+    "lat": 53.8008,
+    "lng": -1.5491,
+    "note": ""
+  },
+  "Jane Austen": {
+    "lat": 50.9097,
+    "lng": -1.4044,
+    "note": "Hampshire"
+  },
+  "Charles Dickens": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "George Eliot": {
+    "lat": 52.4797,
+    "lng": -1.8951,
+    "note": "Warwickshire"
+  },
+  "Thomas Hardy": {
+    "lat": 50.7156,
+    "lng": -2.4389,
+    "note": "Dorset"
+  },
+  "Oscar Wilde": {
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "note": "Dublin"
+  },
+  "James Joyce": {
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "note": "Dublin"
+  },
+  "Virginia Woolf": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "John Milton": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "Geoffrey Chaucer": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "William Shakespeare": {
+    "lat": 52.1919,
+    "lng": -1.7082,
+    "note": "Stratford-upon-Avon"
+  },
+  "Jonathan Swift": {
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "note": "Dublin"
+  },
+  "Lewis Carroll": {
+    "lat": 51.752,
+    "lng": -1.2577,
+    "note": "Oxford"
+  },
+  "Arthur Conan Doyle": {
+    "lat": 55.9533,
+    "lng": -3.1883,
+    "note": "Edinburgh"
+  },
+  "Robert Louis Stevenson": {
+    "lat": 55.9533,
+    "lng": -3.1883,
+    "note": "Edinburgh"
+  },
+  "H.G. Wells": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "Joseph Conrad": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "Herman Melville": {
+    "lat": 40.7128,
+    "lng": -74.006,
+    "note": "New York"
+  },
+  "Nathaniel Hawthorne": {
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "note": "Boston"
+  },
+  "Edgar Allan Poe": {
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "note": "Baltimore"
+  },
+  "Mark Twain": {
+    "lat": 39.1031,
+    "lng": -94.5826,
+    "note": "Missouri"
+  },
+  "Henry James": {
+    "lat": 40.7128,
+    "lng": -74.006,
+    "note": "New York"
+  },
+  "Louisa May Alcott": {
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "note": "Massachusetts"
+  },
+  "Jack London": {
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "note": "San Francisco"
+  },
+  "F. Scott Fitzgerald": {
+    "lat": 44.9778,
+    "lng": -93.265,
+    "note": "Minnesota"
+  },
+  "Ernest Hemingway": {
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "note": "Chicago"
+  },
+  "William Faulkner": {
+    "lat": 34.3015,
+    "lng": -89.501,
+    "note": "Mississippi"
+  },
+  "John Steinbeck": {
+    "lat": 36.6777,
+    "lng": -121.6555,
+    "note": "California"
+  },
+  "J.D. Salinger": {
+    "lat": 40.7128,
+    "lng": -74.006,
+    "note": "New York"
+  },
+  "Harper Lee": {
+    "lat": 32.3668,
+    "lng": -86.3,
+    "note": "Alabama"
+  },
+  "Toni Morrison": {
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "note": "Ohio"
+  },
+  "Gustave Flaubert": {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Paris"
+  },
+  "Victor Hugo": {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Paris"
+  },
+  "Marcel Proust": {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Paris"
+  },
+  "Alexandre Dumas": {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Paris"
+  },
+  "Jules Verne": {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Paris"
+  },
+  "Albert Camus": {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "note": "Paris"
+  },
+  "Johann Wolfgang von Goethe": {
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "note": "Frankfurt"
+  },
+  "Thomas Mann": {
+    "lat": 48.1351,
+    "lng": 11.582,
+    "note": "Munich"
+  },
+  "Hermann Hesse": {
+    "lat": 48.7758,
+    "lng": 9.1829,
+    "note": "Stuttgart"
+  },
+  "Franz Kafka": {
+    "lat": 50.0755,
+    "lng": 14.4378,
+    "note": "Prague"
+  },
+  "Leo Tolstoy": {
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "note": "Moscow"
+  },
+  "Fyodor Dostoevsky": {
+    "lat": 59.9311,
+    "lng": 30.3609,
+    "note": "St. Petersburg"
+  },
+  "Anton Chekhov": {
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "note": "Moscow"
+  },
+  "Ivan Turgenev": {
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "note": "Moscow"
+  },
+  "Nikolai Gogol": {
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "note": "Moscow"
+  },
+  "Alexander Pushkin": {
+    "lat": 59.9311,
+    "lng": 30.3609,
+    "note": "St. Petersburg"
+  },
+  "Mikhail Bulgakov": {
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "note": "Moscow"
+  },
+  "Dante Alighieri": {
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "note": "Florence"
+  },
+  "Giovanni Boccaccio": {
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "note": "Florence"
+  },
+  "Italo Calvino": {
+    "lat": 45.4642,
+    "lng": 9.19,
+    "note": "Milan"
+  },
+  "Umberto Eco": {
+    "lat": 45.4642,
+    "lng": 9.19,
+    "note": "Milan"
+  },
+  "Giuseppe Tomasi di Lampedusa": {
+    "lat": 37.5994,
+    "lng": 14.0154,
+    "note": "Sicily"
+  },
+  "Miguel de Cervantes": {
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "note": "Madrid"
+  },
+  "Jorge Luis Borges": {
+    "lat": -34.6118,
+    "lng": -58.396,
+    "note": "Buenos Aires"
+  },
+  "Gabriel García Márquez": {
+    "lat": 10.391,
+    "lng": -75.4794,
+    "note": "Cartagena, Colombia"
+  },
+  "Juan Rulfo": {
+    "lat": 19.3193,
+    "lng": -103.7555,
+    "note": "Mexico"
+  },
+  "Murasaki Shikibu": {
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "note": "Kyoto"
+  },
+  "Yasunari Kawabata": {
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "note": "Tokyo"
+  },
+  "Junichiro Tanizaki": {
+    "lat": 34.6937,
+    "lng": 135.5023,
+    "note": "Osaka"
+  },
+  "Haruki Murakami": {
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "note": "Tokyo"
+  },
+  "Cao Xueqin": {
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "note": "Beijing"
+  },
+  "Kālidāsa": {
+    "lat": 20.5937,
+    "lng": 78.9629,
+    "note": "India"
+  },
+  "Vyasa": {
+    "lat": 28.6139,
+    "lng": 77.209,
+    "note": "Delhi region"
+  },
+  "Homer": {
+    "lat": 37.9755,
+    "lng": 23.7348,
+    "note": "Athens (traditional)"
+  },
+  "Virgil": {
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "note": "Rome"
+  },
+  "Anonymous": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London as default"
+  },
+  "Various": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London as default"
+  },
+  "Various Authors": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London as default"
+  },
+  "J.R.R. Tolkien": {
+    "lat": 51.752,
+    "lng": -1.2577,
+    "note": "Oxford"
+  },
+  "Vladimir Nabokov": {
+    "lat": 40.7128,
+    "lng": -74.006,
+    "note": "New York (American period)"
+  },
+  "George Orwell": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "Chinua Achebe": {
+    "lat": 6.5244,
+    "lng": 3.3792,
+    "note": "Nigeria"
+  },
+  "Ferdowsi": {
+    "lat": 35.6892,
+    "lng": 51.389,
+    "note": "Iran"
+  },
+  "Fernando Pessoa": {
+    "lat": 38.7223,
+    "lng": -9.1393,
+    "note": "Lisbon"
+  },
+  "Cormac McCarthy": {
+    "lat": 31.7619,
+    "lng": -106.485,
+    "note": "Southwest US"
+  },
+  "Tayeb Salih": {
+    "lat": 15.5007,
+    "lng": 32.5599,
+    "note": "Sudan"
+  },
+  "Doris Lessing": {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "note": "London"
+  },
+  "Willa Cather": {
+    "lat": 40.8136,
+    "lng": -96.7026,
+    "note": "Nebraska"
+  },
+  "Flannery O'Connor": {
+    "lat": 32.1656,
+    "lng": -82.9001,
+    "note": "Georgia"
+  },
+  "W.G. Sebald": {
+    "lat": 48.1351,
+    "lng": 11.582,
+    "note": "Munich"
+  },
+  "Nguyễn Du": {
+    "lat": 21.0285,
+    "lng": 105.8542,
+    "note": "Vietnam"
+  },
+  "Robert Musil": {
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "note": "Vienna"
+  },
+  "Laurence Sterne": {
+    "lat": 54.0,
+    "lng": -1.54,
+    "note": "Yorkshire"
+  },
+  "Günter Grass": {
+    "lat": 54.352,
+    "lng": 18.6466,
+    "note": "Gdansk region"
+  }
+}

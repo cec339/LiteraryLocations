@@ -33,10 +33,15 @@ The app will open at **http://localhost:8501**.
 literarylocations/
 ├── main.py                 # Streamlit entry point
 ├── data/
-│   └── books.json          # Book database (titles, authors, years, coordinates, summaries)
+│   ├── books.json          # Book database (titles, authors, years, coordinates, summaries)
+│   └── author_locations.json # Publication-location fallback coordinates
+├── static/
+│   ├── map.css             # Injected map UI styling
+│   ├── map.js              # Injected map interactions and timeline behavior
+│   └── streamlit.css       # Streamlit shell overrides
 ├── utils/
 │   ├── data_loader.py      # Data loading, filtering, search, location classification
-│   └── map_utils.py        # Base map creation and marker icons
+│   └── map_utils.py        # Base Folium map creation
 ├── styles/
 │   └── custom.css          # Custom styling for Streamlit components
 ├── .streamlit/
@@ -61,7 +66,7 @@ Each entry in `books.json` contains:
 
 ## How It Works
 
-Books are loaded from JSON and cached with Streamlit. The Folium map is rendered inside a Streamlit `components.html()` iframe with custom JavaScript injected for the timeline, coach tour, splash screen, and century navigation. Clicking a timeline century updates the URL query parameter, which Streamlit reads to filter and display the relevant books.
+Books are loaded from JSON and cached with Streamlit, with file modification times used to refresh the cache during development. The Folium map is rendered inside a Streamlit `components.html()` iframe with custom JavaScript injected for the timeline, coach tour, splash screen, and century navigation. Clicking a timeline century updates the URL query parameter so refreshes and shared links preserve the selected century.
 
 Fictional or metaphysical settings (e.g. Paradise, Atlantis) are detected automatically and fall back to the author's known publication location, shown with a blue marker.
 

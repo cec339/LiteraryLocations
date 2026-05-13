@@ -10,3 +10,9 @@ ngrok*
 .venv/
 venv/
 .DS_Store
+attached_assets/
+.streamlit/secrets.toml
+generated-icon.png
+viewport.png
+coordinate_fixes.json
+verification_priority.json

@@ -1,0 +1,87 @@
+/* Hide ALL Streamlit chrome */
+header[data-testid="stHeader"],
+.stDeployButton,
+#MainMenu,
+footer,
+.stApp > header {
+    display: none !important;
+}
+
+/* Reset ALL Streamlit containers */
+.stApp,
+.main,
+section.main,
+[data-testid="stAppViewContainer"],
+[data-testid="stAppViewBlockContainer"],
+[data-testid="block-container"],
+.block-container,
+div[data-testid="stVerticalBlock"] {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    background: transparent !important;
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background: rgba(255,255,255,0.98);
+    z-index: 10000 !important;
+}
+
+button[data-testid="stSidebarCollapsedControl"],
+button[data-testid="stExpandSidebarButton"] {
+    position: fixed !important;
+    z-index: 10001 !important;
+}
+
+/* Make iframe fill entire viewport */
+[data-testid="stHtml"],
+.stHtml {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    z-index: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: auto;
+}
+
+iframe {
+    width: 100vw !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    border: none !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    pointer-events: auto;
+}
+
+/* Hide default Streamlit padding */
+section[data-testid="stMain"] > div {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+section[data-testid="stMain"] {
+    height: 100vh !important;
+    height: 100dvh !important;
+    overflow: hidden !important;
+}
+
+div[data-testid="stMainBlockContainer"] {
+    height: 100vh !important;
+    height: 100dvh !important;
+    padding: 0 !important;
+    max-width: none !important;
+}
+
+div[data-testid="stMainBlockContainer"] > div[data-testid="stVerticalBlock"] {
+    height: 100vh !important;
+    height: 100dvh !important;
+    position: relative !important;
+}
