@@ -106,13 +106,15 @@ function getLeafletMap() {
     return null;
 }
 
-function getMarkerIcon(locationType) {
-    var color = locationType === 'publication' ? 'blue' : 'red';
-    return L.AwesomeMarkers.icon({
+var _markerIcon = null;
+function getMarkerIcon() {
+    if (_markerIcon) return _markerIcon;
+    _markerIcon = L.AwesomeMarkers.icon({
         icon: 'book',
         prefix: 'fa',
-        markerColor: color
+        markerColor: 'red'
     });
+    return _markerIcon;
 }
 
 function escapeHtml(s) {
@@ -126,16 +128,19 @@ function createPopupHtml(book) {
     var centuryStr = formatCentury(book.century);
     if (book.century < 0) centuryStr += ' Century BCE';
     else centuryStr += ' Century';
-    return '<div style="width:280px;font-family:Arial,sans-serif;">' +
+    var html = '<div style="width:280px;font-family:Arial,sans-serif;">' +
         '<h4 style="margin-bottom:10px;color:#2E4057;">' + escapeHtml(book.title) + '</h4>' +
         '<p><b>Author:</b> ' + escapeHtml(book.author) + '</p>' +
         '<p><b>Year:</b> ' + yearStr + '</p>' +
         '<p><b>Century:</b> ' + centuryStr + '</p>' +
-        '<p><b>Location:</b> ' + escapeHtml(book.setting_name) + '</p>' +
-        '<p><b>Type:</b> ' + escapeHtml(book.location_desc) + '</p>' +
-        '<p><b>Summary:</b> ' + escapeHtml(book.summary) + '</p>' +
+        '<p><b>Location:</b> ' + escapeHtml(book.setting_name) + '</p>';
+    if (book.why_here) {
+        html += '<p><b>Why here:</b> ' + escapeHtml(book.why_here) + '</p>';
+    }
+    html += '<p><b>Summary:</b> ' + escapeHtml(book.summary) + '</p>' +
         '<p><b>Historical Context:</b> ' + escapeHtml(book.hist) + '</p>' +
         '</div>';
+    return html;
 }
 
 function showCentury(century) {
@@ -157,7 +162,7 @@ function showCentury(century) {
     var books = IS_SEARCH_MODE ? ALL_BOOKS : ALL_BOOKS.filter(function(b) { return b.century === century; });
     for (var i = 0; i < books.length; i++) {
         var b = books[i];
-        var marker = L.marker([b.lat, b.lng], { icon: getMarkerIcon(b.location_type) });
+        var marker = L.marker([b.lat, b.lng], { icon: getMarkerIcon() });
         marker.bindPopup(createPopupHtml(b), { maxWidth: 320 });
         _clusterGroup.addLayer(marker);
     }
@@ -654,7 +659,12 @@ function showSplashThenTour() {
         return;
     }
     // Splash is visible — wire up dismiss
+    var autoTimer = null;
+    var dismissed = false;
     function dismissSplash() {
+        if (dismissed) return;
+        dismissed = true;
+        clearTimeout(autoTimer);
         splash.classList.add('fade-out');
         setTimeout(function() {
             splash.style.display = 'none';
@@ -663,7 +673,7 @@ function showSplashThenTour() {
         splash.removeEventListener('click', dismissSplash);
     }
     splash.addEventListener('click', dismissSplash);
-    setTimeout(dismissSplash, 8000);
+    autoTimer = setTimeout(dismissSplash, 8000);
     try {
         window.parent.sessionStorage.setItem('litloc_splash_shown', '1');
     } catch(e) {}

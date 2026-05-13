@@ -218,22 +218,6 @@ html, body {
 .legend.show {
     display: block;
 }
-.legend-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: white;
-    font-size: 12px;
-    margin: 4px 0;
-}
-.legend-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-.legend-dot.red { background: #d63384; }
-.legend-dot.blue { background: #38A3D1; }
-
 /* ===== Splash Overlay ===== */
 .splash {
     position: fixed;

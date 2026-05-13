@@ -44,20 +44,11 @@ def _default_century(centuries):
     return 1
 
 
-def _book_location_desc(location_type):
-    if location_type == "primary":
-        return "Primary Story Setting"
-    if location_type == "publication":
-        return "Publication Location (Fictional/Multiple Settings)"
-    return "Story Location"
-
-
 def _serialize_books(books_df):
     books = []
     for _, bk in books_df.iterrows():
         summary = str(bk.get("summary", ""))
         hist = str(bk.get("historical_context", ""))
-        loc_type = bk.get("location_type", "primary")
         books.append(
             {
                 "title": str(bk["title"]),
@@ -67,8 +58,7 @@ def _serialize_books(books_df):
                 "lat": float(bk["setting_latitude"]),
                 "lng": float(bk["setting_longitude"]),
                 "setting_name": str(bk["setting_name"]),
-                "location_type": loc_type,
-                "location_desc": _book_location_desc(loc_type),
+                "why_here": str(bk.get("why_here", "")),
                 "summary": summary[:300] + ("..." if len(summary) > 300 else ""),
                 "hist": hist[:300] + ("..." if len(hist) > 300 else ""),
             }
@@ -107,7 +97,7 @@ def _render_map(base_map_html, books_json, is_search_mode, century_data, selecte
             <div class="timeline-track" id="timeline-track"></div>
         </div>
 
-        <button class="tl-legend-btn" id="legend-btn" onclick="toggleLegend()" title="Legend">i</button>
+        <button class="tl-legend-btn" id="legend-btn" onclick="toggleLegend()" title="About">i</button>
 
         <div class="timeline-info" id="timeline-info">
             <span class="tl-century" id="tl-century"></span>
@@ -115,11 +105,8 @@ def _render_map(base_map_html, books_json, is_search_mode, century_data, selecte
         </div>
 
         <div id="legend" class="legend">
-            <div class="legend-item"><div class="legend-dot red"></div><span>Story Setting</span></div>
-            <div class="legend-item"><div class="legend-dot blue"></div><span>Publication Location</span></div>
-            <div style="border-top: 1px solid rgba(255,255,255,0.15); margin: 8px 0;"></div>
-            <div style="color: rgba(255,255,255,0.55); font-size: 10px; line-height: 1.4; max-width: 200px;">
-                Most books drawn from thegreatestbooks.org top 500 list. Centuries without a top-500 entry are filled with at least one notable work.
+            <div style="color: rgba(255,255,255,0.75); font-size: 11px; line-height: 1.5; max-width: 220px;">
+                Each pin marks one classic literary work at its most truthful place &mdash; the story&rsquo;s setting where one exists, or where the author wrote it when it doesn&rsquo;t. Most books drawn from thegreatestbooks.org top 500 list.
             </div>
         </div>
     """
