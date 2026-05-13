@@ -467,7 +467,7 @@
     {
       "title": "The Recognition of Śakuntalā",
       "author": "Kālidāsa",
-      "year": 400,
+      "year": 450,
       "century": 5,
       "location": {
         "name": "Ancient India",
@@ -931,7 +931,7 @@
     {
       "title": "The Thousand and One Nights",
       "author": "Various Authors",
-      "year": 800,
+      "year": 850,
       "century": 9,
       "location": {
         "name": "Baghdad, Abbasid Caliphate",
@@ -6867,8 +6867,8 @@
     {
       "title": "The Book of Job",
       "author": "Unknown",
-      "year": -600,
-      "century": -6,
+      "year": -500,
+      "century": -5,
       "location": {
         "name": "Israel",
         "coordinates": [
@@ -6878,7 +6878,7 @@
         "why_here": "Set in the legendary land of Uz, composed in ancient Israel as wisdom literature — pinned where the text entered the Hebrew Bible."
       },
       "summary": "Righteous Job suffers terrible losses, debates God's justice with friends, faith restored.",
-      "historical_context": "Composed around 600 BCE as part of the Hebrew Bible's wisdom literature, The Book of Job is a profound exploration of theodicy and undeserved suffering, asking why the righteous suffer and finding no easy answers."
+      "historical_context": "Composed in the post-exilic Persian era (c. 500 BCE) as part of the Hebrew Bible's wisdom literature, The Book of Job is a profound exploration of theodicy and undeserved suffering, asking why the righteous suffer and finding no easy answers."
     },
     {
       "title": "Lost Illusions",
@@ -8142,7 +8142,7 @@
         "why_here": "Found at Amarna, Akhenaten's short-lived capital — the 382 clay tablets are diplomatic correspondence between Egypt and its vassals, the most substantial textual culture surviving from the 14th-century BCE Mediterranean world rather than literature in the narrow sense."
       },
       "summary": "Diplomatic correspondence between Egyptian pharaohs and Near Eastern rulers reveals international relations, including desperate pleas from Canaanite vassals.",
-      "historical_context": "Written during Akhenaten's reign (14th century BCE), these 382 clay tablets document Late Bronze Age diplomacy and the earliest mentions of Jerusalem."
+      "historical_context": "Written during Akhenaten's reign (14th century BCE), these 382 clay tablets are diplomatic correspondence between Egypt and its Levantine vassals — not literature, but the earliest mentions of Jerusalem and the most extensive surviving record of Late Bronze Age diplomacy."
     },
     {
       "title": "Epic of Tukulti-Ninurta",
@@ -8191,38 +8191,6 @@
       },
       "summary": "An Egyptian priest's disastrous mission to buy cedar wood reveals Egypt's decline as he faces robbery, humiliation, and contempt from foreign rulers.",
       "historical_context": "Set around 1075 BCE during Egypt's decline, this tale documents the end of Egyptian imperial prestige in the eastern Mediterranean."
-    },
-    {
-      "title": "Court History of David",
-      "author": "Anonymous (Israelite)",
-      "year": -950,
-      "century": -10,
-      "location": {
-        "name": "Jerusalem, Israel",
-        "coordinates": [
-          31.7683,
-          35.2137
-        ],
-        "why_here": "The intrigue and succession crisis play out in David's court at Jerusalem, the city he made Israel's capital."
-      },
-      "summary": "King David's family troubles unfold from his affair with Bathsheba through Absalom's rebellion to Solomon's succession to the throne.",
-      "historical_context": "Part of 2 Samuel (10th century BCE tradition), this narrative is considered one of the finest examples of ancient Near Eastern prose."
-    },
-    {
-      "title": "Elijah Narratives",
-      "author": "Anonymous (Israelite)",
-      "year": -850,
-      "century": -9,
-      "location": {
-        "name": "Mount Carmel, Israel",
-        "coordinates": [
-          32.7357,
-          35.0423
-        ],
-        "why_here": "Pinned at Mount Carmel, where Elijah's contest with the prophets of Baal — calling down fire from heaven — is the dramatic climax."
-      },
-      "summary": "Prophet Elijah challenges 450 prophets of Baal to a dramatic contest on Mount Carmel, calling down fire from heaven to prove Yahweh's supremacy.",
-      "historical_context": "Set during King Ahab's reign (9th century BCE), these narratives in 1 Kings depict the conflict between Yahweh worship and Baal cult in Israel."
     },
     {
       "title": "Book of Deuteronomy",
@@ -8351,6 +8319,182 @@
       },
       "summary": "A comprehensive guide to Norse mythology recounting the creation of the world, the adventures of gods like Odin and Thor, and the apocalyptic Ragnarök.",
       "historical_context": "Written around 1220 CE as a poetry handbook, this work preserved Norse myths that would otherwise have been lost after Iceland's Christianization."
+    },
+    {
+      "title": "The Qur'an",
+      "author": "Muhammad",
+      "year": 632,
+      "century": 7,
+      "location": {
+        "name": "Mecca, Hijaz (Arabian Peninsula)",
+        "coordinates": [
+          21.4225,
+          39.8262
+        ],
+        "why_here": "Pinned at Mecca, where Muhammad received the first revelations in 610 CE in the cave of Hira above the city — the Kaaba and Mecca remain Islam's spiritual center, though much of the later Qur'an was revealed in Medina after the Hijra."
+      },
+      "summary": "The central religious text of Islam, 114 surahs revealed to the Prophet Muhammad — Arabic verse and prose ranging across cosmology, prophecy, ethics, and law.",
+      "historical_context": "Revealed orally between 610 and 632 CE in Mecca and Medina, canonized as a written codex under Caliph Uthman c. 650 CE — the founding scripture of Islamic civilization and a touchstone of Classical Arabic literature."
+    },
+    {
+      "title": "Code of Hammurabi",
+      "author": "Hammurabi",
+      "year": -1754,
+      "century": -18,
+      "location": {
+        "name": "Babylon, Mesopotamia",
+        "coordinates": [
+          32.5417,
+          44.4209
+        ],
+        "why_here": "Pinned at Babylon, where Hammurabi's 282 laws stood publicly inscribed on a basalt stele for citizens to consult — the stele was looted to Susa in the 12th century BCE and now stands in the Louvre."
+      },
+      "summary": "The most complete surviving Mesopotamian legal code: 282 laws covering family, commerce, property, and torts, framed by a royal prologue and epilogue invoking divine sanction.",
+      "historical_context": "Promulgated c. 1754 BCE near the end of Hammurabi's reign, the code formalized lex talionis ('an eye for an eye') and became the most influential legal text of the ancient Near East, predating biblical and Roman law by a millennium."
+    },
+    {
+      "title": "Poems and Fragments",
+      "author": "Sappho",
+      "year": -600,
+      "century": -6,
+      "location": {
+        "name": "Mytilene, Lesbos, Greece",
+        "coordinates": [
+          39.11,
+          26.555
+        ],
+        "why_here": "Sappho lived and wrote on the island of Lesbos in the early 6th century BCE — pinned at Mytilene, the city she calls home in the surviving fragments; the word 'lesbian' derives from the island."
+      },
+      "summary": "Surviving fragments of an Aeolic Greek lyric poet whose songs of love, longing, and ritual influenced two and a half millennia of Western lyric poetry.",
+      "historical_context": "Active c. 630-570 BCE on Lesbos, where she led a thiasos (community) of young women; only one complete poem ('Ode to Aphrodite') and a few hundred fragments survive of nine books that Alexandrian librarians compiled."
+    },
+    {
+      "title": "Tao Te Ching",
+      "author": "Lao Tzu",
+      "year": -550,
+      "century": -6,
+      "location": {
+        "name": "Luoyang, Eastern Zhou (China)",
+        "coordinates": [
+          34.6196,
+          112.454
+        ],
+        "why_here": "Tradition places Lao Tzu as a court archivist at the Eastern Zhou capital Luoyang in the 6th century BCE — pinned there, though modern scholarship dates the surviving text later and treats it as a composite anonymous work of Daoist sages."
+      },
+      "summary": "The foundational text of philosophical Daoism — 81 brief chapters in classical Chinese on the ineffable Way (Dao), wu-wei (non-action), and the proper conduct of sage-rulers.",
+      "historical_context": "Traditionally attributed to Lao Tzu, an older contemporary of Confucius; modern scholarship places the surviving text c. 4th-3rd century BCE and treats it as composite. Either way, alongside the Analects it shaped two millennia of East Asian thought."
+    },
+    {
+      "title": "The Analects",
+      "author": "Confucius",
+      "year": -475,
+      "century": -5,
+      "location": {
+        "name": "Qufu, State of Lu (Shandong, China)",
+        "coordinates": [
+          35.5957,
+          116.9933
+        ],
+        "why_here": "Confucius lived and taught in the State of Lu — pinned at Qufu, his hometown and where his disciples compiled his sayings into the Analects in the decades after his death in 479 BCE."
+      },
+      "summary": "Twenty short books of dialogues, sayings, and anecdotes preserving the ethical and political teachings of Confucius — the foundational text of Confucian thought.",
+      "historical_context": "Compiled by Confucius's followers c. 475-450 BCE, the Analects became the central canonical text of East Asian governance and education for two millennia, especially after the Han dynasty institutionalized Confucianism."
+    },
+    {
+      "title": "The Dhammapada",
+      "author": "Anonymous (Buddhist)",
+      "year": -250,
+      "century": -3,
+      "location": {
+        "name": "Pataliputra (Patna), Magadha, India",
+        "coordinates": [
+          25.5941,
+          85.1376
+        ],
+        "why_here": "Pinned at Pataliputra, where the Third Buddhist Council under Emperor Ashoka c. 250 BCE compiled the Pali canon including the Dhammapada — verses preserving teachings traced to the Buddha three centuries earlier."
+      },
+      "summary": "423 Pali verses attributed to the Buddha, organized into 26 thematic chapters on conduct, mindfulness, craving, and the path — the most widely read Buddhist text.",
+      "historical_context": "Part of the Pali Tipitaka compiled under Ashoka in the 3rd century BCE, the Dhammapada became the gateway text of Theravada Buddhism, translated into European languages from the 19th century forward and widely read in the modern West."
+    },
+    {
+      "title": "The Enneads",
+      "author": "Plotinus",
+      "year": 270,
+      "century": 3,
+      "location": {
+        "name": "Rome, Italy",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ],
+        "why_here": "Plotinus taught philosophy in Rome from 244 to 269 CE, holding seminars in his patron Gemina's home — his student Porphyry compiled and edited the Enneads after his teacher's death."
+      },
+      "summary": "Fifty-four philosophical treatises, organized by Porphyry into six groups of nine ('enneads'), founding Neoplatonism — emanation from the One, the Intellect, and the World-Soul.",
+      "historical_context": "Composed by Plotinus during his Roman years and published by Porphyry c. 301 CE, the Enneads became the central text of late-antique Neoplatonism, profoundly shaping Christian theology (Augustine), Islamic philosophy (al-Farabi), and Renaissance humanism."
+    },
+    {
+      "title": "Ecclesiastical History of the English People",
+      "author": "Bede",
+      "year": 731,
+      "century": 8,
+      "location": {
+        "name": "Jarrow Monastery, Northumbria (England)",
+        "coordinates": [
+          54.9789,
+          -1.472
+        ],
+        "why_here": "Bede spent his entire adult life at the Monkwearmouth-Jarrow monastery — pinned at Jarrow, where he wrote the Ecclesiastical History from the abbey's library in 731 CE."
+      },
+      "summary": "Five-book Latin history of the Christian Church in England from Roman times through 731, blending political narrative, miracle accounts, and chronology — the single most important source for early English history.",
+      "historical_context": "Completed in 731 at Jarrow, Bede's history popularized Anno Domini dating in Western Europe and established the foundational narrative of England's Christianization, from St. Augustine of Canterbury through the Synod of Whitby."
+    },
+    {
+      "title": "Selected Poems",
+      "author": "Li Bai",
+      "year": 750,
+      "century": 8,
+      "location": {
+        "name": "Chang'an (Xi'an), Tang China",
+        "coordinates": [
+          34.3416,
+          108.9398
+        ],
+        "why_here": "Pinned at Chang'an, the Tang capital where Li Bai served briefly at Emperor Xuanzong's court before banishment — he spent most of his life wandering the rivers, mountains, and wine-shops of the Tang empire."
+      },
+      "summary": "Around 1,100 surviving poems by the 'Immortal Poet' of the Tang — drinking songs, mountain reveries, and farewells in classical Chinese verse, marked by Daoist whimsy and aristocratic abandon.",
+      "historical_context": "Li Bai (701-762) lived through the Tang dynasty's cultural peak and the An Lushan rebellion that ended it; alongside Du Fu, he is one of the two greatest poets in classical Chinese."
+    },
+    {
+      "title": "Arthurian Romances",
+      "author": "Chrétien de Troyes",
+      "year": 1180,
+      "century": 12,
+      "location": {
+        "name": "Troyes, Champagne, France",
+        "coordinates": [
+          48.2967,
+          4.0744
+        ],
+        "why_here": "Chrétien wrote at the court of Marie de Champagne in Troyes from c. 1170-1190 — pinned at the city he took his name from, where he transformed Celtic-Welsh Arthurian material into the chivalric romance that shaped European literature."
+      },
+      "summary": "Five Old French verse romances (Erec and Enide, Cligès, Yvain, Lancelot, the unfinished Perceval) inventing the Western canon of Arthur, Lancelot, Guinevere, and the Grail Quest.",
+      "historical_context": "Written c. 1170-1190 at the Champenois court of Countess Marie, Chrétien's romances established the conventions of courtly love and chivalric quest that dominated European fiction through the Renaissance."
+    },
+    {
+      "title": "Hayy ibn Yaqzan",
+      "author": "Ibn Tufail",
+      "year": 1175,
+      "century": 12,
+      "location": {
+        "name": "Marrakesh, Almohad Caliphate",
+        "coordinates": [
+          31.6295,
+          -7.9811
+        ],
+        "why_here": "Ibn Tufail served as physician and counselor to the Almohad caliph Abu Yaqub Yusuf — pinned at Marrakesh, the Almohad capital where he wrote this philosophical novel; the story itself unfolds on an uninhabited island in the Indian Ocean."
+      },
+      "summary": "A philosophical novel in Arabic — a self-taught child raised by a gazelle on a deserted island reasons his way to knowledge of God, foreshadowing both Robinson Crusoe and Enlightenment rationalism.",
+      "historical_context": "Written c. 1175 in Almohad-ruled Marrakesh, Ibn Tufail's novel was translated into Latin in 1671 ('Philosophus Autodidactus') and circulated among English deists, influencing Locke, Defoe, and Spinoza centuries later."
     }
   ]
 }
