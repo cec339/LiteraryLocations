@@ -566,10 +566,10 @@
       "year": 1954,
       "century": 20,
       "location": {
-        "name": "Japan",
+        "name": "Hakone, Japan",
         "coordinates": [
-          35.6762,
-          139.6503
+          35.2329,
+          139.1063
         ],
         "why_here": "Kawabata reported on the historic 1938 Honinbo retirement match for Tokyo and Osaka newspapers — pinned at Hakone, one of the resort venues where the months-long game was played at the Naraya inn."
       },
@@ -582,10 +582,10 @@
       "year": 2001,
       "century": 21,
       "location": {
-        "name": "Europe",
+        "name": "Antwerp, Belgium (Centraal Station)",
         "coordinates": [
-          48.8566,
-          2.3522
+          51.2174,
+          4.4211
         ],
         "why_here": "Sebald's traumatized narrator wanders European train stations — pinned at Antwerp, where the novel opens at the Centraal Station's owl-faced cafe; Sebald himself was a German émigré in Norfolk, England."
       },
@@ -742,10 +742,10 @@
       "year": 1979,
       "century": 20,
       "location": {
-        "name": "Various Fictional Settings",
+        "name": "Paris, France",
         "coordinates": [
-          45.4642,
-          9.19
+          48.8566,
+          2.3522
         ],
         "why_here": "Calvino wrote it during his 1967-1980 Paris years, when he absorbed the Oulipo experiments that produced this novel about reading novels — pinned at Paris, the city of its making."
       },
@@ -1142,10 +1142,10 @@
       "year": 1880,
       "century": 19,
       "location": {
-        "name": "Russia",
+        "name": "Staraya Russa, Russia",
         "coordinates": [
-          55.7558,
-          37.6173
+          57.9944,
+          31.3544
         ],
         "why_here": "Set in the fictional Russian town of Skotoprigonyevsk, modeled on Staraya Russa where Dostoevsky owned a summer house and wrote much of the novel."
       },
@@ -1478,10 +1478,10 @@
       "year": 1936,
       "century": 20,
       "location": {
-        "name": "Georgia, United States",
+        "name": "Clayton County, Georgia (near Atlanta)",
         "coordinates": [
-          32.1656,
-          -82.9001
+          33.5215,
+          -84.3538
         ],
         "why_here": "Set on a Georgia plantation outside Atlanta — Mitchell grew up in Atlanta on Confederate veterans' stories, and the novel's burning of the city draws on her grandparents' memories."
       },
@@ -1510,10 +1510,10 @@
       "year": 1924,
       "century": 20,
       "location": {
-        "name": "India",
+        "name": "Bankipore (Patna), Bihar, India",
         "coordinates": [
-          20.5937,
-          78.9629
+          25.5941,
+          85.1376
         ],
         "why_here": "Forster traveled to India twice, including time as secretary to the Maharajah of Dewas — the fictional Chandrapore draws on Bankipore in Bihar where he had stayed."
       },
@@ -1542,10 +1542,10 @@
       "year": 1759,
       "century": 18,
       "location": {
-        "name": "Europe and South America",
+        "name": "Geneva, Switzerland (Voltaire's Les Délices)",
         "coordinates": [
-          48.8566,
-          2.3522
+          46.2044,
+          6.1432
         ],
         "why_here": "Voltaire wrote it at his Geneva estate Les Délices after the 1755 Lisbon earthquake shattered his optimism; pinned at Geneva, where Candide's odyssey was composed before the hero's wanderings carry him across the world."
       },
@@ -1590,10 +1590,10 @@
       "year": 1719,
       "century": 18,
       "location": {
-        "name": "Tropical Island",
+        "name": "Caribbean island near the Orinoco delta",
         "coordinates": [
-          -20.0,
-          -70.0
+          10.7,
+          -61.5
         ],
         "why_here": "Pinned where Defoe set Crusoe's island — off the South American Caribbean coast near the Orinoco delta; the story was loosely inspired by the Scottish castaway Alexander Selkirk, marooned on a Pacific island off Chile."
       },
@@ -2214,10 +2214,10 @@
       "year": 2001,
       "century": 21,
       "location": {
-        "name": "Midwest, New York, New York City, Pennsylvania, United States",
+        "name": "St. Louis, Missouri (St. Jude in the novel)",
         "coordinates": [
-          40.0,
-          -89.0
+          38.5926,
+          -90.3573
         ],
         "why_here": "Set across the Midwestern fictional city of St. Jude (a thinly disguised St. Louis where Franzen grew up) and New York/Philadelphia — the Lambert family scattered across Bush-era America."
       },
@@ -2246,10 +2246,10 @@
       "year": 1937,
       "century": 20,
       "location": {
-        "name": "California, Salinas Valley, United States",
+        "name": "Salinas Valley (near Soledad), California",
         "coordinates": [
-          36.7783,
-          -119.4179
+          36.4247,
+          -121.3263
         ],
         "why_here": "Set on a California ranch in the Salinas Valley — Steinbeck himself had worked as a migrant laborer in the region and the novel's drifting bindlestiffs come from men he had known."
       },
@@ -2358,10 +2358,10 @@
       "year": 1925,
       "century": 20,
       "location": {
-        "name": "New York, United States",
+        "name": "Big Moose Lake, Adirondacks, New York",
         "coordinates": [
-          40.7128,
-          -74.006
+          43.8199,
+          -74.865
         ],
         "why_here": "Based on a real 1906 Adirondacks murder — Dreiser pinned Clyde Griffiths's class climb and crime in upstate New York, the region whose newspapers had carried the case."
       },
@@ -2518,10 +2518,10 @@
       "year": 1930,
       "century": 20,
       "location": {
-        "name": "Chicago, New York, United States",
+        "name": "New York, United States",
         "coordinates": [
-          41.8781,
-          -87.6298
+          40.7128,
+          -74.006
         ],
         "why_here": "The trilogy spans America from coast to coast in the early 20th century — Dos Passos wrote across continents and chose New York as the symbolic anchor of the new American century."
       },
@@ -2566,10 +2566,10 @@
       "year": 1946,
       "century": 20,
       "location": {
-        "name": "Louisiana, Southern US, United States",
+        "name": "Baton Rouge, Louisiana",
         "coordinates": [
-          31.2448,
-          -92.145
+          30.4515,
+          -91.1871
         ],
         "why_here": "Set in a fictional Southern state — Willie Stark is modeled on Louisiana governor Huey Long; Warren had taught at LSU and watched Long's rise and assassination firsthand."
       },
@@ -2662,10 +2662,10 @@
       "year": 1999,
       "century": 20,
       "location": {
-        "name": "Africa, Eastern Cape, South Africa",
+        "name": "Eastern Cape, South Africa",
         "coordinates": [
-          -30.5595,
-          22.9375
+          -33.3106,
+          26.5256
         ],
         "why_here": "Set on a remote Eastern Cape smallholding after a post-apartheid Cape Town academic's career collapses — Coetzee, who later left for Australia, anatomized the new South Africa's land question through the rural farm."
       },
@@ -2710,10 +2710,10 @@
       "year": 1952,
       "century": 20,
       "location": {
-        "name": "California, Massachusetts, Salinas, San Francisco, United States",
+        "name": "Salinas Valley, California",
         "coordinates": [
-          36.7783,
-          -119.4179
+          36.6777,
+          -121.6555
         ],
         "why_here": "Steinbeck sets the multi-generational saga in his own Salinas Valley, the California land he called \"east of Eden.\""
       },
@@ -2966,10 +2966,10 @@
       "year": 1873,
       "century": 19,
       "location": {
-        "name": "France",
+        "name": "Roche, Ardennes, France",
         "coordinates": [
-          48.8566,
-          2.3522
+          49.704,
+          4.51
         ],
         "why_here": "Rimbaud wrote it at his mother's farm at Roche in the Ardennes after his violent rupture with Verlaine in Brussels; pinned in France, where he then abandoned poetry forever at 20."
       },
@@ -3094,10 +3094,10 @@
       "year": 1945,
       "century": 20,
       "location": {
-        "name": "Brundisium, Italy, Rome",
+        "name": "Brundisium (Brindisi), Italy",
         "coordinates": [
-          41.9028,
-          12.4964
+          40.6327,
+          17.9418
         ],
         "why_here": "Broch reconstructs Virgil's last hours arriving at Brundisium (Brindisi), the southern Italian port where the poet died in 19 BCE — pinned at the harbor of his real death scene."
       },
@@ -3110,10 +3110,10 @@
       "year": 1937,
       "century": 20,
       "location": {
-        "name": "Africa, Kenya, Southern Africa, Sub-Saharan Africa",
+        "name": "Ngong Hills (outside Nairobi), Kenya",
         "coordinates": [
-          -0.0236,
-          37.9062
+          -1.3441,
+          36.6856
         ],
         "why_here": "Karen Blixen ran a coffee plantation in the Ngong Hills outside Nairobi from 1914 to 1931 — the memoir was her elegy for the African farm she had to give up when the coffee failed."
       },
@@ -3462,10 +3462,10 @@
       "year": 1932,
       "century": 20,
       "location": {
-        "name": "Austria, Austria-Hungary, Europe, Hungary",
+        "name": "Vienna, Austria",
         "coordinates": [
-          47.5162,
-          14.5501
+          48.2082,
+          16.3738
         ],
         "why_here": "Roth chronicled three generations of an Austro-Hungarian military family — pinned at Vienna, the imperial capital whose decline he himself lived through and mourned from Parisian exile."
       },
@@ -4024,8 +4024,8 @@
       "location": {
         "name": "Auschwitz, Poland",
         "coordinates": [
-          51.9194,
-          19.1451
+          50.0347,
+          19.1783
         ],
         "why_here": "Frankl was a Vienna psychiatrist deported to Auschwitz, then Türkheim — pinned at Auschwitz, the concentration camp where he developed logotherapy as a means of surviving meaninglessness."
       },
@@ -4086,10 +4086,10 @@
       "year": 1948,
       "century": 20,
       "location": {
-        "name": "Africa, Johannesburg, KwaZulu-Natal, South Africa, Southern Africa",
+        "name": "Ixopo, KwaZulu-Natal, South Africa",
         "coordinates": [
-          -30.5595,
-          22.9375
+          -30.1554,
+          30.0573
         ],
         "why_here": "The novel opens in Ixopo, the rural Zulu village in KwaZulu-Natal where Reverend Kumalo lives, before moving to the Johannesburg slums — Paton was principal of a reformatory near Johannesburg and wrote it on travels abroad."
       },
@@ -4230,10 +4230,10 @@
       "year": 1901,
       "century": 20,
       "location": {
-        "name": "Himalayas, India, Lahore",
+        "name": "Lahore, British India (now Pakistan)",
         "coordinates": [
-          20.5937,
-          78.9629
+          31.5204,
+          74.3587
         ],
         "why_here": "Kim wanders the Grand Trunk Road from Lahore into the Himalayas — Kipling drew on his Lahore newspapering years for India's intersection of empires and sects."
       },
@@ -4259,13 +4259,13 @@
     {
       "title": "Meditations",
       "author": "Marcus Aurelius",
-      "year": 161,
+      "year": 175,
       "century": 2,
       "location": {
-        "name": "Italy, Rome",
+        "name": "Sirmium, Danube frontier (modern Serbia)",
         "coordinates": [
-          41.9028,
-          12.4964
+          44.97,
+          19.61
         ],
         "why_here": "Marcus wrote these private reflections during the Marcomannic Wars in the 170s while based at Sirmium on the Danube frontier — not in Rome."
       },
@@ -4294,10 +4294,10 @@
       "year": 1962,
       "century": 20,
       "location": {
-        "name": "United States",
+        "name": "Berkeley, California (UC Berkeley)",
         "coordinates": [
-          41.8781,
-          -87.6298
+          37.8715,
+          -122.273
         ],
         "why_here": "Kuhn wrote it as a physicist-turned-historian-of-science at UC Berkeley in the early 1960s — pinned at the Berkeley campus where SSR was published in 1962 before he later moved to Princeton; the book reshaped how science understands its own revolutions."
       },
@@ -4422,10 +4422,10 @@
       "year": 1997,
       "century": 20,
       "location": {
-        "name": "India, Kerala, United States",
+        "name": "Aymanam, Kerala, India",
         "coordinates": [
-          20.5937,
-          78.9629
+          9.6308,
+          76.5483
         ],
         "why_here": "Set in Ayemenem in Kerala on the Meenachal River — Roy grew up nearby in Aymanam, the Christian Syrian backwater village whose pickle factory and red bananas saturate the novel."
       },
@@ -4641,22 +4641,6 @@
       "historical_context": "Published in 1913, The Lost Estate (Le Grand Meaulnes) is Henri Alain-Fournier's sole novel before his death in WWI, a haunting tale of lost innocence and impossible love that captured France's pre-war nostalgia."
     },
     {
-      "title": "If on a Winter's Night a Traveller",
-      "author": "Italo Calvino",
-      "year": 1979,
-      "century": 20,
-      "location": {
-        "name": "Various Settings (metafictional)",
-        "coordinates": [
-          45.4642,
-          9.19
-        ],
-        "why_here": "Calvino wrote it during his 1967-1980 Paris years, when he absorbed the Oulipo experiments that produced this novel about reading novels."
-      },
-      "summary": "Reader 'you' pursues interrupted novels and fellow reader Ludmilla through metafictional maze of beginnings.",
-      "historical_context": "1979 postmodern game with reader, ten first chapters exploring nature of reading."
-    },
-    {
       "title": "The Mill on the Floss",
       "author": "George Eliot",
       "year": 1860,
@@ -4694,10 +4678,10 @@
       "year": 1951,
       "century": 20,
       "location": {
-        "name": "Europe, Russia, United States",
+        "name": "St. Petersburg, Russia (pre-Revolutionary)",
         "coordinates": [
-          55.7558,
-          37.6173
+          59.9311,
+          30.3609
         ],
         "why_here": "Nabokov reconstructed his pre-Revolutionary St. Petersburg childhood from American exile at Cornell — the lost Russia is the memoir's first homeland; he never returned."
       },
@@ -4966,10 +4950,10 @@
       "year": 1934,
       "century": 20,
       "location": {
-        "name": "California, United States",
+        "name": "Glendale, California",
         "coordinates": [
-          36.7783,
-          -119.4179
+          34.1425,
+          -118.2551
         ],
         "why_here": "Set at a roadside diner in 1930s California — Cain pinned his lean noir of murder and lust at the Glendale-area highway where he had imagined the story driving past similar joints."
       },
@@ -4982,10 +4966,10 @@
       "year": 1968,
       "century": 20,
       "location": {
-        "name": "California, San Francisco, United States",
+        "name": "San Francisco, California",
         "coordinates": [
-          36.7783,
-          -119.4179
+          37.7749,
+          -122.4194
         ],
         "why_here": "Wolfe shadowed Ken Kesey's Merry Pranksters across San Francisco and Haight-Ashbury — the epicenter of the 1960s counterculture this book documents."
       },
@@ -5030,10 +5014,10 @@
       "year": 2004,
       "century": 21,
       "location": {
-        "name": "Multiple Settings (global)",
+        "name": "Chatham Islands, New Zealand (Adam Ewing's frame)",
         "coordinates": [
-          51.5074,
-          -0.1278
+          -43.9523,
+          -176.5612
         ],
         "why_here": "Mitchell's six nested stories range from the South Pacific in 1849 to post-apocalyptic Hawaii — pinned at the Chatham Islands, where the Adam Ewing frame opens and closes; Mitchell himself lives in Ireland."
       },
@@ -5222,10 +5206,10 @@
       "year": 1937,
       "century": 20,
       "location": {
-        "name": "Poland",
+        "name": "Warsaw, Poland",
         "coordinates": [
-          51.9194,
-          19.1451
+          52.2297,
+          21.0122
         ],
         "why_here": "Set in interwar Warsaw — Gombrowicz wrote it in Polish from cafés and Warsaw boarding houses, satirizing the cultural pretensions of the Polish middle class he came from."
       },
@@ -5430,10 +5414,10 @@
       "year": 1907,
       "century": 20,
       "location": {
-        "name": "Boston, Europe, United States, Washington D.C.",
+        "name": "Washington, D.C.",
         "coordinates": [
-          42.3601,
-          -71.0589
+          38.9072,
+          -77.0369
         ],
         "why_here": "Adams structured his memoir around Washington, D.C., where his grandfather and great-grandfather had been presidents — pinned at the political capital he simultaneously inhabited and felt alienated from."
       },
@@ -5478,10 +5462,10 @@
       "year": 1822,
       "century": 19,
       "location": {
-        "name": "Europe, France, Italy, Paris, Venice",
+        "name": "Venice, Italy",
         "coordinates": [
-          48.8566,
-          2.3522
+          45.4408,
+          12.3155
         ],
         "why_here": "Casanova wrote his memoirs as a librarian in Bohemia, recounting a lifetime ranging across Europe — pinned at Venice, the city of his birth and most famous escape."
       },
@@ -5606,10 +5590,10 @@
       "year": 1978,
       "century": 20,
       "location": {
-        "name": "English Coast",
+        "name": "Dorset coast, England",
         "coordinates": [
-          51.12,
-          1.31
+          50.714,
+          -2.761
         ],
         "why_here": "Set on the bleak English seacoast where a retired theater director moves to write his memoirs — Murdoch drew on the Dorset coast near her own Oxfordshire and London homes for the wild shoreline."
       },
@@ -5622,10 +5606,10 @@
       "year": 1953,
       "century": 20,
       "location": {
-        "name": "Austria, United Kingdom",
+        "name": "Cambridge, England (Trinity College)",
         "coordinates": [
-          47.5162,
-          14.5501
+          52.2053,
+          0.1218
         ],
         "why_here": "Wittgenstein wrote much of it in his hut at Rosroe on the Galway coast and his rooms at Trinity College, Cambridge — pinned at Cambridge, where the lectures behind the book unfolded."
       },
@@ -5926,10 +5910,10 @@
       "year": 1988,
       "century": 20,
       "location": {
-        "name": "Egypt, Spain",
+        "name": "Pyramids of Giza, Egypt",
         "coordinates": [
-          26.0975,
-          30.0444
+          29.9792,
+          31.1342
         ],
         "why_here": "The Andalusian shepherd Santiago travels from Spain across North Africa to the Egyptian pyramids — pinned at the pyramids, the dream-treasure that turns out to be back where he started; Coelho wrote in Rio."
       },
@@ -5974,10 +5958,10 @@
       "year": 1989,
       "century": 20,
       "location": {
-        "name": "California, China, San Francisco, United States",
+        "name": "San Francisco (Chinatown), California",
         "coordinates": [
-          36.7783,
-          -119.4179
+          37.7749,
+          -122.4194
         ],
         "why_here": "The four mothers and four daughters meet in San Francisco's Chinatown, where Tan grew up and set the novel."
       },
@@ -5990,10 +5974,10 @@
       "year": 1963,
       "century": 20,
       "location": {
-        "name": "American Suburbs",
+        "name": "Grand View-on-Hudson, Rockland County, New York",
         "coordinates": [
-          40.758,
-          -73.9855
+          41.079,
+          -73.9007
         ],
         "why_here": "Friedan wrote it from her home in Grand View-on-Hudson, Rockland County, New York — based on a survey of her 1942 Smith College classmates trapped in suburban housewifery, launching second-wave feminism."
       },
@@ -6022,10 +6006,10 @@
       "year": 1966,
       "century": 20,
       "location": {
-        "name": "California, United States",
+        "name": "Los Angeles basin, California (Manhattan Beach area)",
         "coordinates": [
-          37.7749,
-          -122.4194
+          33.8847,
+          -118.4109
         ],
         "why_here": "Set in 1960s California — Pynchon had lived in Berkeley and Manhattan Beach; the fictional San Narciso suburb is a composite of LA-area company towns."
       },
@@ -6070,10 +6054,10 @@
       "year": 100,
       "century": 1,
       "location": {
-        "name": "Greece, Italy, Roman, Rome",
+        "name": "Chaeronea, Greece",
         "coordinates": [
-          39.0742,
-          21.8243
+          38.492,
+          22.844
         ],
         "why_here": "Plutarch wrote in his Greek hometown of Chaeronea, drawing parallels between Greek and Roman lives for an empire that ruled both worlds."
       },
@@ -6102,10 +6086,10 @@
       "year": 1970,
       "century": 20,
       "location": {
-        "name": "California, Hollywood, Los Angeles, United States",
+        "name": "Los Angeles (Hollywood), California",
         "coordinates": [
-          36.7783,
-          -119.4179
+          34.0522,
+          -118.2437
         ],
         "why_here": "Didion's Hollywood novel — pinned in Los Angeles, the soulless industry town that hollows out its protagonist."
       },
@@ -6278,10 +6262,10 @@
       "year": 1970,
       "century": 20,
       "location": {
-        "name": "Lorain, Ohio, United States",
+        "name": "Lorain, Ohio",
         "coordinates": [
-          40.4173,
-          -82.9071
+          41.4528,
+          -82.1824
         ],
         "why_here": "Set in Lorain, Ohio in the early 1940s — Morrison grew up there in the same working-class Black community whose internalized racism she anatomized in the novel."
       },
@@ -6294,10 +6278,10 @@
       "year": 1881,
       "century": 19,
       "location": {
-        "name": "France",
+        "name": "Croisset (near Rouen), Normandy, France",
         "coordinates": [
-          48.8566,
-          2.3522
+          49.4431,
+          1.0993
         ],
         "why_here": "The two retired clerks buy a country house in rural Normandy to pursue their hopeless self-education projects — Flaubert was writing in his own Croisset, near where they settle."
       },
@@ -6406,10 +6390,10 @@
       "year": 1921,
       "century": 20,
       "location": {
-        "name": "Austria, United Kingdom, World",
+        "name": "Vienna, Austria",
         "coordinates": [
-          47.5162,
-          14.5501
+          48.2082,
+          16.3738
         ],
         "why_here": "Wittgenstein wrote it in trenches on the Eastern Front during WWI — pinned at Vienna, his Austrian home, where the philosophical world that produced him circled."
       },
@@ -6918,10 +6902,10 @@
       "year": 1926,
       "century": 20,
       "location": {
-        "name": "Poland, Soviet Union, Ukraine",
+        "name": "Galicia (Lviv area), Polish-Soviet front",
         "coordinates": [
-          51.9194,
-          19.1451
+          49.8397,
+          24.0297
         ],
         "why_here": "Babel served as a war correspondent with Budyonny's Red Cavalry during the 1920 Polish-Soviet war — the Cossack atrocities and Jewish shtetls he saw on the Galician-Ukrainian front are the stories' raw material."
       },
@@ -7030,10 +7014,10 @@
       "year": 1987,
       "century": 20,
       "location": {
-        "name": "Cuba, France, Italy, Spain, United States",
+        "name": "Havana, Cuba (Finca Vigía)",
         "coordinates": [
-          21.5218,
-          -77.7812
+          23.1136,
+          -82.3666
         ],
         "why_here": "Hemingway's stories range from Michigan woods to Spanish bullrings to East African veld — pinned at Havana, where he lived at Finca Vigía for the most productive twenty years of his life."
       },
@@ -7382,10 +7366,10 @@
       "year": 2012,
       "century": 21,
       "location": {
-        "name": "Missouri, USA",
+        "name": "Cape Girardeau, Missouri (North Carthage in the novel)",
         "coordinates": [
-          38.5767,
-          -92.1735
+          37.3059,
+          -89.5181
         ],
         "why_here": "Set in the fictional North Carthage, Missouri — Flynn grew up in Kansas City and used a similar Mississippi-River small town with its boarded-up mall as the perfect stage for Amy's vanishing."
       },
@@ -7622,10 +7606,10 @@
       "year": 1962,
       "century": 20,
       "location": {
-        "name": "New Wye (Fictional), USA",
+        "name": "Wellesley, Massachusetts (New Wye in the novel)",
         "coordinates": [
-          40.0,
-          -80.0
+          42.2965,
+          -71.2926
         ],
         "why_here": "Set at the fictional Wordsmith College in New Wye, a New England university town — Nabokov drew on his Wellesley and Cornell teaching years to invent the academic backdrop of his mock-poem-and-commentary."
       },
@@ -7654,10 +7638,10 @@
       "year": 1962,
       "century": 20,
       "location": {
-        "name": "United States",
+        "name": "Silver Spring, Maryland",
         "coordinates": [
-          42.3546,
-          -71.0535
+          38.9924,
+          -77.0827
         ],
         "why_here": "Carson wrote it from her home in Silver Spring, Maryland, while dying of cancer — the book that launched modern environmentalism by documenting DDT's effects on American wildlife."
       },
@@ -7718,10 +7702,10 @@
       "year": 1926,
       "century": 20,
       "location": {
-        "name": "Unnamed Village, Europe",
+        "name": "Špindlerův Mlýn, Czech mountains (Kafka's writing place)",
         "coordinates": [
-          50.0755,
-          14.4378
+          50.726,
+          15.609
         ],
         "why_here": "Set in an unnamed Central European village dominated by an inaccessible castle — Kafka wrote it during a tubercular stay at Spindelmühle in the Czech mountains, never finishing."
       },
