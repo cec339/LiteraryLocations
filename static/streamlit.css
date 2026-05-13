@@ -1,10 +1,50 @@
-/* Hide ALL Streamlit chrome */
-header[data-testid="stHeader"],
+/* Hide Streamlit chrome while keeping the sidebar opener mounted. */
 .stDeployButton,
+[data-testid="stAppDeployButton"],
 #MainMenu,
-footer,
-.stApp > header {
+footer {
     display: none !important;
+}
+
+header[data-testid="stHeader"],
+.stApp > header {
+    display: block !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    overflow: visible !important;
+    background: transparent !important;
+    pointer-events: none !important;
+    z-index: 10002 !important;
+}
+
+header[data-testid="stHeader"] [data-testid="stToolbar"] {
+    display: flex !important;
+    position: fixed !important;
+    top: 8px !important;
+    left: 8px !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    overflow: visible !important;
+    background: transparent !important;
+    pointer-events: none !important;
+    z-index: 10003 !important;
+}
+
+header[data-testid="stHeader"] [data-testid="stToolbar"] > div {
+    display: flex !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    overflow: visible !important;
+    pointer-events: none !important;
 }
 
 /* Reset ALL Streamlit containers */
@@ -31,8 +71,18 @@ section[data-testid="stSidebar"] {
 
 button[data-testid="stSidebarCollapsedControl"],
 button[data-testid="stExpandSidebarButton"] {
+    display: flex !important;
     position: fixed !important;
-    z-index: 10001 !important;
+    top: 8px !important;
+    left: 8px !important;
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    min-height: 36px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    pointer-events: auto !important;
+    z-index: 10004 !important;
 }
 
 /* Make iframe fill entire viewport */

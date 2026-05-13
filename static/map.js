@@ -220,6 +220,7 @@ function navigateToCentury(c) {
     updateTimelineSelection(c);
     try {
         var url = new URL(window.parent.location.href);
+        if (parseInt(url.searchParams.get('century'), 10) === c) return;
         url.searchParams.set('century', c);
         window.parent.history.pushState({ century: c }, '', url.toString());
     } catch(e) {}
