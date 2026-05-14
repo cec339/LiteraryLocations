@@ -1590,10 +1590,10 @@
       "year": 1719,
       "century": 18,
       "location": {
-        "name": "Caribbean island near the Orinoco delta",
+        "name": "Atlantic near the Orinoco delta",
         "coordinates": [
-          10.7,
-          -61.5
+          9.5,
+          -60.5
         ],
         "why_here": "Pinned where Defoe set Crusoe's island — off the South American Caribbean coast near the Orinoco delta; the story was loosely inspired by the Scottish castaway Alexander Selkirk, marooned on a Pacific island off Chile."
       },
@@ -2918,10 +2918,10 @@
       "year": 1623,
       "century": 17,
       "location": {
-        "name": "Mediterranean Island (near Naples)",
+        "name": "Tyrrhenian Sea (between Naples and Tunis)",
         "coordinates": [
-          40.64,
-          14.6
+          38.83,
+          12.23
         ],
         "why_here": "Set on an unnamed Mediterranean island between Naples and Tunis — pinned in those waters; Shakespeare drew on contemporary reports of the 1609 Bermuda shipwreck."
       },
