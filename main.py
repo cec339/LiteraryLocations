@@ -88,7 +88,7 @@ def _render_map(base_map_html, books_json, is_search_mode, century_data, selecte
         <div id="splash" class="splash">
             <div class="splash-content">
                 <div class="splash-title">4,000 Years of Great Books</div>
-                <div class="splash-subtitle">Explore the world's greatest works on the map</div>
+                <div class="splash-subtitle">Tap any red pin to explore a book</div>
                 <div class="splash-hint">Tap anywhere to begin</div>
             </div>
         </div>

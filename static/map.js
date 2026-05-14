@@ -1,6 +1,6 @@
-// Immediately hide splash if already shown this session
+// Immediately hide splash if it has ever been shown for this user
 try {
-    if (window.parent.sessionStorage.getItem('litloc_splash_shown')) {
+    if (window.parent.localStorage.getItem('litloc_splash_shown')) {
         document.getElementById('splash').style.display = 'none';
     }
 } catch(e) {}
@@ -55,7 +55,18 @@ var _clusterGroup = null;
 var _isFirstLoad = true;
 
 function toggleLegend() {
-    document.getElementById('legend').classList.toggle('show');
+    var legend = document.getElementById('legend');
+    var wasShown = legend.classList.contains('show');
+    legend.classList.toggle('show');
+    // If we're opening it and a coach tour is active, dismiss the tour so
+    // the legend isn't sitting on top of Next/Skip with no way out. Only
+    // mark the tour completed if the user was already on the legend step
+    // (i.e. they're doing what the tour invited); otherwise let it re-show.
+    if (!wasShown && typeof CoachTour !== 'undefined' && CoachTour.dismiss) {
+        var atLegendStep = CoachTour.currentStepTarget &&
+                           CoachTour.currentStepTarget() === '#legend-btn';
+        CoachTour.dismiss(atLegendStep);
+    }
 }
 
 function formatCentury(c) {
@@ -143,6 +154,30 @@ function createPopupHtml(book) {
     return html;
 }
 
+// Pad auto-pan so popups don't end up under the fixed overlays. Returned
+// fresh each call so resize/orientation changes get the new viewport class.
+function getPopupAutoPanPadding() {
+    var _mob = window.innerWidth < 768;
+    return {
+        topLeft: _mob ? L.point(10, 60) : L.point(60, 50),
+        bottomRight: _mob ? L.point(10, 180) : L.point(60, 60)
+    };
+}
+
+// Apply the current viewport's padding to every existing marker popup so a
+// resize across the mobile/desktop breakpoint doesn't leave stale values.
+function refreshPopupAutoPanPadding() {
+    if (!_clusterGroup) return;
+    var pad = getPopupAutoPanPadding();
+    _clusterGroup.eachLayer(function(layer) {
+        var popup = layer.getPopup && layer.getPopup();
+        if (popup) {
+            popup.options.autoPanPaddingTopLeft = pad.topLeft;
+            popup.options.autoPanPaddingBottomRight = pad.bottomRight;
+        }
+    });
+}
+
 function showCentury(century) {
     var map = getLeafletMap();
     if (!map) return;
@@ -160,10 +195,16 @@ function showCentury(century) {
     });
 
     var books = IS_SEARCH_MODE ? ALL_BOOKS : ALL_BOOKS.filter(function(b) { return b.century === century; });
+    var pad = getPopupAutoPanPadding();
+    var popupOpts = {
+        maxWidth: 320,
+        autoPanPaddingTopLeft: pad.topLeft,
+        autoPanPaddingBottomRight: pad.bottomRight
+    };
     for (var i = 0; i < books.length; i++) {
         var b = books[i];
         var marker = L.marker([b.lat, b.lng], { icon: getMarkerIcon() });
-        marker.bindPopup(createPopupHtml(b), { maxWidth: 320 });
+        marker.bindPopup(createPopupHtml(b), popupOpts);
         _clusterGroup.addLayer(marker);
     }
 
@@ -371,7 +412,7 @@ window.addEventListener('resize', function() {
     }, 200);
 });
 
-// Coach Tour (once per session via parent sessionStorage)
+// Coach Tour (once per user via parent localStorage)
 var CoachTour = (function() {
     var steps = [];
     var currentStep = 0;
@@ -387,12 +428,6 @@ var CoachTour = (function() {
     function buildSteps() {
         steps = [
             {
-                target: null,
-                title: 'Tap a pin to explore a book',
-                text: 'Each dot is a great work. Tap to see details.',
-                position: 'below'
-            },
-            {
                 target: '#timeline',
                 title: 'Travel through 4,000 years',
                 text: 'Jump between centuries using the timeline.',
@@ -403,8 +438,8 @@ var CoachTour = (function() {
         if (!_isMobile()) {
             steps.push({
                 target: '#legend-btn',
-                title: 'What do the colors mean?',
-                text: 'Tap info to see the legend.',
+                title: 'About the locations',
+                text: "Tap the 'i' button anytime for the legend.",
                 position: 'above-left'
             });
         }
@@ -427,24 +462,21 @@ var CoachTour = (function() {
         var step = steps[idx];
 
         // Determine cutout rect
-        var rect;
+        var rect = null;
         if (step.target) {
             var el = document.querySelector(step.target);
-            if (el) {
-                rect = el.getBoundingClientRect();
-                // Add padding around target
-                var pad = 8;
-                rect = {
-                    left: rect.left - pad,
-                    top: rect.top - pad,
-                    right: rect.right + pad,
-                    bottom: rect.bottom + pad,
-                    width: rect.width + pad * 2,
-                    height: rect.height + pad * 2
-                };
-            } else {
-                rect = _centerRect();
-            }
+            if (el) rect = el.getBoundingClientRect();
+        }
+        if (rect) {
+            var pad = 8;
+            rect = {
+                left: rect.left - pad,
+                top: rect.top - pad,
+                right: rect.right + pad,
+                bottom: rect.bottom + pad,
+                width: rect.width + pad * 2,
+                height: rect.height + pad * 2
+            };
         } else {
             rect = _centerRect();
         }
@@ -527,17 +559,26 @@ var CoachTour = (function() {
             tooltipEl.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - tw - 8)) + 'px';
             tooltipEl.style.top = (rect.bottom + gap) + 'px';
         } else if (pos === 'above') {
+            var th = tooltipEl.offsetHeight;
             tooltipEl.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - tw - 8)) + 'px';
-            tooltipEl.style.top = Math.max(8, rect.top - gap - 150) + 'px';
+            tooltipEl.style.top = Math.max(8, rect.top - gap - th) + 'px';
         } else if (pos === 'above-left') {
+            var th = tooltipEl.offsetHeight;
             tooltipEl.style.left = Math.max(8, rect.right - tw) + 'px';
-            tooltipEl.style.top = Math.max(8, rect.top - gap - 150) + 'px';
+            tooltipEl.style.top = Math.max(8, rect.top - gap - th) + 'px';
             // Adjust arrow to right side
             var arrow = tooltipEl.querySelector('.coach-arrow');
             if (arrow) { arrow.style.left = 'auto'; arrow.style.right = '24px'; }
         } else if (pos === 'right') {
             tooltipEl.style.left = (rect.right + gap) + 'px';
-            tooltipEl.style.top = rect.top + 'px';
+            // If the spotlight covers the full-height timeline column, anchor
+            // the tooltip to the first pill so the arrow lines up with it
+            // (the timeline container starts at y=0 but the first pill is
+            // pushed below the Streamlit sidebar button).
+            var firstPill = document.querySelector('#timeline-track .tl-pill');
+            var arrowOffset = 8; // arrow sits 16px from tooltip top, half-height 6
+            var topY = firstPill ? firstPill.getBoundingClientRect().top - arrowOffset : rect.top;
+            tooltipEl.style.top = topY + 'px';
         }
     }
 
@@ -554,22 +595,40 @@ var CoachTour = (function() {
         }
     }
 
-    function dismiss() {
+    // dismiss(markSeen=true) tears down the tour. Pass markSeen=false for
+    // interruptions where the user hasn't actually completed/skipped (e.g.
+    // legend opened mid-step) — the tour will then re-show on the next visit.
+    function dismiss(markSeen) {
+        if (markSeen === undefined) markSeen = true;
+        if (!spotlightEl && !tooltipEl) return;
         clearTimeout(autoDismissTimer);
-        spotlightEl.classList.remove('visible');
-        spotlightEl.classList.add('fade-out');
-        tooltipEl.classList.remove('visible');
-        tooltipEl.classList.add('fade-out');
+        if (spotlightEl) {
+            spotlightEl.classList.remove('visible');
+            spotlightEl.classList.add('fade-out');
+        }
+        if (tooltipEl) {
+            tooltipEl.classList.remove('visible');
+            tooltipEl.classList.add('fade-out');
+        }
         setTimeout(function() {
-            if (spotlightEl.parentNode) spotlightEl.parentNode.removeChild(spotlightEl);
-            if (tooltipEl.parentNode) tooltipEl.parentNode.removeChild(tooltipEl);
+            if (spotlightEl && spotlightEl.parentNode) spotlightEl.parentNode.removeChild(spotlightEl);
+            if (tooltipEl && tooltipEl.parentNode) tooltipEl.parentNode.removeChild(tooltipEl);
+            spotlightEl = null;
+            tooltipEl = null;
         }, 500);
-        try {
-            window.parent.sessionStorage.setItem('litloc_tour_shown', '1');
-        } catch(e) {}
+        if (markSeen) {
+            try {
+                window.parent.localStorage.setItem('litloc_tour_shown', '1');
+            } catch(e) {}
+        }
         window.removeEventListener('resize', _onResize);
         var _map = getLeafletMap();
         if (_map) _map.invalidateSize();
+    }
+
+    function currentStepTarget() {
+        var s = steps[currentStep];
+        return s ? s.target : null;
     }
 
     function _onResize() {
@@ -583,7 +642,7 @@ var CoachTour = (function() {
 
     function start() {
         try {
-            if (window.parent.sessionStorage.getItem('litloc_tour_shown')) return;
+            if (window.parent.localStorage.getItem('litloc_tour_shown')) return;
         } catch(e) {}
         buildSteps();
         createElements();
@@ -591,7 +650,7 @@ var CoachTour = (function() {
         window.addEventListener('resize', _onResize);
     }
 
-    return { start: start };
+    return { start: start, dismiss: dismiss, currentStepTarget: currentStepTarget };
 })();
 
 // Wait for Leaflet map to be ready, then init markers
@@ -625,6 +684,7 @@ var CoachTour = (function() {
             forceMapSize();
             window.addEventListener('resize', function() {
                 forceMapSize();
+                refreshPopupAutoPanPadding();
             });
             showCentury(SELECTED_CENTURY);
             // Second pass: after the browser has laid out the iframe fully,
@@ -653,7 +713,7 @@ var CoachTour = (function() {
 // Splash overlay — already visible from HTML if not previously shown
 function showSplashThenTour() {
     var splash = document.getElementById('splash');
-    // If splash is hidden (already shown this session), go straight to tour
+    // If splash is hidden (already shown for this user), go straight to tour
     if (!splash || splash.style.display === 'none') {
         CoachTour.start();
         return;
@@ -675,6 +735,6 @@ function showSplashThenTour() {
     splash.addEventListener('click', dismissSplash);
     autoTimer = setTimeout(dismissSplash, 8000);
     try {
-        window.parent.sessionStorage.setItem('litloc_splash_shown', '1');
+        window.parent.localStorage.setItem('litloc_splash_shown', '1');
     } catch(e) {}
 }
